@@ -82,7 +82,7 @@
     ],
     "priority": "P1",
     "release": "R1",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -161,7 +161,7 @@
     ],
     "priority": "P2",
     "release": "R1",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -416,7 +416,7 @@
     ],
     "priority": "P1",
     "release": "R1",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -637,7 +637,7 @@
     ],
     "priority": "P1",
     "release": "R1",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -724,7 +724,7 @@
     ],
     "priority": "P1",
     "release": "R1",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -809,7 +809,7 @@
     ],
     "priority": "P1",
     "release": "R1",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -895,7 +895,7 @@
     ],
     "priority": "P1",
     "release": "R1",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -940,7 +940,7 @@
     ],
     "priority": "P1",
     "release": "R1",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -979,7 +979,7 @@
     ],
     "priority": "P1",
     "release": "R1",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -1685,7 +1685,7 @@
     ],
     "priority": "P1",
     "release": "R1",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -1958,7 +1958,7 @@
     ],
     "priority": "P1",
     "release": "R1",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -2309,7 +2309,7 @@
     ],
     "priority": "P1",
     "release": "R1",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -2357,7 +2357,7 @@
     ],
     "priority": "P1",
     "release": "R1",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {

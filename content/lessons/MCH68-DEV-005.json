@@ -1,0 +1,225 @@
+{
+  "id": "MCH68-DEV-005",
+  "version": "0.1.0",
+  "title": "พ่อแม่ส่งเสริมพัฒนาการลูก: กอด คุย เล่านิทาน เล่นด้วยกัน",
+  "summary": "สิ่งที่พ่อแม่และคนในครอบครัวทำได้ในชีวิตประจำวัน เพื่อส่งเสริมพัฒนาการลูกตามที่สมุดแนะนำ",
+  "sectionId": "dev",
+  "stages": ["newborn", "child"],
+  "audience": ["mother", "family"],
+  "minutes": 5,
+  "objectives": [
+    "ผู้เรียนบอกได้ว่าสมองของเด็กจะเพิ่มจำนวนเซลล์และเติบโตมากที่สุดใน 5 ขวบปีแรกของชีวิต",
+    "ผู้เรียนบอกได้ว่าพ่อแม่ผู้ดูแลมีบทบาทสำคัญในการฝึกกระตุ้นพัฒนาการของเด็ก เพราะมีเวลาอยู่กับเด็กมากที่สุด",
+    "ผู้เรียนบอกกิจกรรมส่งเสริมพัฒนาการตามสมุดได้: โอบกอด พูดคุย เล่านิทาน เล่นกับลูก และร่วมรับประทานอาหารพร้อมกับเด็ก",
+    "ผู้เรียนอธิบายได้ว่าการลงโทษด้วยการตีหยุดได้แค่ชั่วคราว แต่มีข้อเสียในระยะยาวมากกว่า"
+  ],
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [33, 34, 58, 59, 63, 67],
+    "printedPages": ["31", "32", "56", "57", "61"],
+    "note": "ข้อความแนะนำข้างหน้า PDF p33, p34, p59, p63 ข้อความในภาพ 'เล่นกับลูก' (p58, p59) ปกคู่มือ DSPM (p63) และข้อ 14 ในหน้าสรุปท้ายเล่ม (PDF p67 ไม่มีเลขหน้าพิมพ์)"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "Source map (all checked on the page images): brain growth in the first 5 years = p34 margin tip; parents' key role = p63 margin tip; 'โอบกอด พูดคุย เล่านิทาน ติดตามพัฒนาการ (คู่มือ DSPM)' = p67 item 14; 'เล่นกับลูก' = picture bubbles on p58 and p59; family meals = p59 margin tip; hitting = p33 margin tip; DSPM users ('ใช้สำหรับ พ่อแม่ ผู้ปกครอง เจ้าหน้าที่ ครู และผู้ดูแลเด็ก ในการส่งเสริมพัฒนาการเด็ก') = DSPM cover on p63.",
+      "The handbook only LISTS hug / talk / read stories / play / eat together; it gives no how-to detail or examples. No activity examples were added. Child-development nurse may want age-appropriate examples (would be a PMH addition).",
+      "Editorial framing: 'เป็นสิ่งที่ทำได้ในชีวิตประจำวัน' (step 1) and 'นำสมุดไปให้เจ้าหน้าที่ดูด้วยกันเมื่อพาลูกไปตรวจ และถามได้ถ้าสงสัยเรื่องพัฒนาการของลูก' (step 2, takeaway 4) are not printed.",
+      "Note for reviewer: the brief said 'DSPM is used with staff', but the handbook frames DSPM as a parent tool too (p60 tip 'เครื่องมือประเมินพัฒนาการ DSPM จัดทำเพื่อให้พ่อแม่ผู้ดูแลประเมินพัฒนาการของเด็กอย่างต่อเนื่อง'; p63 cover lists parents first). The lesson quotes the p63 user list and adds 'with staff' as an editorial pointer — confirm the intended message.",
+      "Milestone checklists (p60–p63) and the DAIM risk-group rule (p63) are deliberately not taught here; they belong to DEV-002/003/004.",
+      "PMH CLARIFICATION (from curriculum): positive-parenting detail lives behind the p33 QR 'การเลี้ยงดูลูกเชิงบวก'. The lesson only says the QR is in the book (printed p31) and also mentions the p63 QR 'รู้ใจวัยจิ๋ว' (printed p61). Neither is linked; QR targets not verified.",
+      "PMH CLARIFICATION (from curriculum): the no-hitting message is culturally sensitive — PMH to approve tone. The lesson repeats the p33 tip word for word; quiz q3 scenario (child breaks something, family member thinks of hitting) is written for this lesson.",
+      "Not included: sleep hours (p58/p59 bubbles) and iron syrup (growth/nutrition lessons); the p34 '9 ย่างเพื่อสร้างลูก' / หมอพร้อม Line OA service (PMH to decide whether to point to it).",
+      "Sort step: card texts are short forms of the printed activities; 'ตีลูกเมื่อทำผิด' is placed in the bucket worded from the p33 tip.",
+      "Family note is editorial (siblings and any caregiver can do the same activities)."
+    ]
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "First draft from official handbook PDF p33, p34, p58, p59, p63, p67 (2nd printing, April 2569)."
+    }
+  ],
+  "steps": [
+    {
+      "type": "text",
+      "heading": "5 ขวบปีแรก สมองเติบโตมากที่สุด",
+      "paragraphs": [
+        "สมองของเด็กจะเพิ่มจำนวนเซลล์และเติบโตมากที่สุดใน 5 ขวบปีแรกของชีวิต",
+        "พ่อแม่ผู้ดูแลมีบทบาทสำคัญในการฝึกกระตุ้นพัฒนาการของเด็ก เพราะมีเวลาอยู่กับเด็กมากที่สุด",
+        "สิ่งที่สมุดแนะนำเป็นสิ่งที่ทำได้ในชีวิตประจำวัน คือ โอบกอด พูดคุย เล่านิทาน เล่นกับลูก และพ่อแม่และคนในครอบครัว ควรร่วมรับประทานอาหารพร้อมกับเด็ก"
+      ]
+    },
+    {
+      "type": "text",
+      "heading": "ติดตามพัฒนาการ และเรื่องการตี",
+      "paragraphs": [
+        "สมุดหน้า 58–61 มีแบบเฝ้าระวังพัฒนาการจากคู่มือเฝ้าระวังและส่งเสริมพัฒนาการเด็กปฐมวัย (DSPM) คู่มือนี้ใช้สำหรับพ่อแม่ ผู้ปกครอง เจ้าหน้าที่ ครู และผู้ดูแลเด็ก ในการส่งเสริมพัฒนาการเด็ก นำสมุดไปให้เจ้าหน้าที่ดูด้วยกันเมื่อพาลูกไปตรวจ และถามได้ถ้าสงสัยเรื่องพัฒนาการของลูก",
+        "ลงโทษด้วยการตี หยุดได้แค่ชั่วคราว แต่มีข้อเสียในระยะยาวมากกว่า",
+        "ในสมุดหน้า 31 มี QR code เรื่อง 'การเลี้ยงดูลูกเชิงบวก' และหน้า 61 มี QR code 'รู้ใจวัยจิ๋ว' ที่อธิบายเนื้อหาการส่งเสริมพัฒนาการตามช่วงวัย"
+      ]
+    },
+    {
+      "type": "sort",
+      "heading": "สมุดว่าอย่างไร",
+      "intro": "แตะการ์ด แล้วแตะกลุ่มที่ตรงกับสมุด",
+      "buckets": [
+        { "id": "do", "label": "สมุดแนะนำให้ทำ" },
+        { "id": "harm", "label": "หยุดได้แค่ชั่วคราว แต่มีข้อเสียระยะยาวมากกว่า" }
+      ],
+      "items": [
+        { "id": "c1", "text": "โอบกอดลูก", "bucketId": "do" },
+        { "id": "c2", "text": "พูดคุยกับลูก", "bucketId": "do" },
+        { "id": "c3", "text": "เล่านิทานให้ลูกฟัง", "bucketId": "do" },
+        { "id": "c4", "text": "เล่นกับลูก", "bucketId": "do" },
+        { "id": "c5", "text": "กินข้าวพร้อมกันทั้งครอบครัว", "bucketId": "do" },
+        { "id": "c6", "text": "ตีลูกเมื่อทำผิด", "bucketId": "harm" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "heading": "ทบทวนความเข้าใจ",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "prompt": "สมองของเด็กเพิ่มจำนวนเซลล์และเติบโตมากที่สุดในช่วงใด",
+          "options": [
+            {
+              "id": "a",
+              "text": "5 ขวบปีแรกของชีวิต",
+              "feedback": "ถูกต้อง สมองเติบโตมากที่สุดใน 5 ขวบปีแรก"
+            },
+            {
+              "id": "b",
+              "text": "ช่วงเข้าโรงเรียนประถม",
+              "feedback": "ยังไม่ใช่ สมุดบอกว่าเป็นช่วง 5 ขวบปีแรกของชีวิต"
+            },
+            {
+              "id": "c",
+              "text": "ช่วงวัยรุ่น",
+              "feedback": "ยังไม่ใช่ สมุดบอกว่าเป็นช่วง 5 ขวบปีแรกของชีวิต"
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "สมองของเด็กจะเพิ่มจำนวนเซลล์และเติบโตมากที่สุดใน 5 ขวบปีแรกของชีวิต",
+          "source": { "pdfPages": [34], "printedPages": ["32"] }
+        },
+        {
+          "id": "q2",
+          "kind": "truefalse",
+          "prompt": "การส่งเสริมพัฒนาการเด็ก เป็นหน้าที่ของเจ้าหน้าที่หรือครูเท่านั้น",
+          "options": [
+            {
+              "id": "a",
+              "text": "จริง",
+              "feedback": "ยังไม่ถูก พ่อแม่ผู้ดูแลมีบทบาทสำคัญ เพราะมีเวลาอยู่กับเด็กมากที่สุด"
+            },
+            {
+              "id": "b",
+              "text": "ไม่จริง",
+              "feedback": "ถูกต้อง พ่อแม่ผู้ดูแลมีบทบาทสำคัญในการฝึกกระตุ้นพัฒนาการของเด็ก"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "พ่อแม่ผู้ดูแลมีบทบาทสำคัญในการฝึกกระตุ้นพัฒนาการของเด็ก เพราะมีเวลาอยู่กับเด็กมากที่สุด และคู่มือ DSPM ใช้สำหรับพ่อแม่ ผู้ปกครอง เจ้าหน้าที่ ครู และผู้ดูแลเด็ก",
+          "source": { "pdfPages": [63], "printedPages": ["61"] }
+        },
+        {
+          "id": "q3",
+          "kind": "scenario",
+          "scenario": "ลูกวัย 3 ขวบเล่นแล้วทำแก้วในบ้านแตก คนในบ้านคิดจะตีเพื่อให้ลูกหยุดทำอีก",
+          "prompt": "ตามสมุด ข้อใดถูกต้อง",
+          "options": [
+            {
+              "id": "a",
+              "text": "ตีแล้ว ลูกจะไม่ทำอีกตลอดไป",
+              "feedback": "สมุดบอกว่าการตีหยุดได้แค่ชั่วคราว"
+            },
+            {
+              "id": "b",
+              "text": "การตีไม่มีผลอะไรกับลูก",
+              "feedback": "สมุดบอกว่าการตีมีข้อเสียในระยะยาวมากกว่า"
+            },
+            {
+              "id": "c",
+              "text": "การตีหยุดได้แค่ชั่วคราว แต่มีข้อเสียในระยะยาวมากกว่า",
+              "feedback": "ถูกต้อง ดูแนวทางการเลี้ยงดูลูกเชิงบวกได้จาก QR code ในสมุดหน้า 31"
+            }
+          ],
+          "correctOptionId": "c",
+          "explanation": "สมุดบอกว่า ลงโทษด้วยการตี หยุดได้แค่ชั่วคราว แต่มีข้อเสียในระยะยาวมากกว่า",
+          "source": { "pdfPages": [33], "printedPages": ["31"] }
+        },
+        {
+          "id": "q4",
+          "kind": "mcq",
+          "prompt": "ข้อใดเป็นสิ่งที่สมุดแนะนำ เพื่อส่งเสริมพัฒนาการลูก",
+          "options": [
+            {
+              "id": "a",
+              "text": "รอให้ลูกเข้าโรงเรียนก่อน แล้วค่อยเริ่ม",
+              "feedback": "ไม่ต้องรอ สมองเติบโตมากที่สุดใน 5 ขวบปีแรก"
+            },
+            {
+              "id": "b",
+              "text": "โอบกอด พูดคุย เล่านิทาน และเล่นกับลูก",
+              "feedback": "ถูกต้อง ทั้งหมดนี้เป็นสิ่งที่สมุดแนะนำ"
+            },
+            {
+              "id": "c",
+              "text": "ให้ลูกกินข้าวคนเดียว ผู้ใหญ่กินทีหลัง",
+              "feedback": "สมุดแนะนำว่า พ่อแม่และคนในครอบครัว ควรร่วมรับประทานอาหารพร้อมกับเด็ก"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "สมุดแนะนำให้โอบกอด พูดคุย เล่านิทาน ติดตามพัฒนาการ เล่นกับลูก และให้พ่อแม่และคนในครอบครัวร่วมรับประทานอาหารพร้อมกับเด็ก",
+          "source": { "pdfPages": [58, 59, 67], "printedPages": ["56", "57"] }
+        },
+        {
+          "id": "q5",
+          "kind": "mcq",
+          "prompt": "คู่มือ DSPM ที่อยู่ในสมุด ใช้สำหรับใคร",
+          "options": [
+            {
+              "id": "a",
+              "text": "เฉพาะแพทย์",
+              "feedback": "ไม่ใช่เฉพาะแพทย์ คู่มือนี้ใช้ได้หลายคน รวมทั้งพ่อแม่"
+            },
+            {
+              "id": "b",
+              "text": "เฉพาะครูที่โรงเรียน",
+              "feedback": "ไม่ใช่เฉพาะครู คู่มือนี้ใช้ได้หลายคน รวมทั้งพ่อแม่"
+            },
+            {
+              "id": "c",
+              "text": "พ่อแม่ ผู้ปกครอง เจ้าหน้าที่ ครู และผู้ดูแลเด็ก",
+              "feedback": "ถูกต้อง ทุกคนที่ดูแลเด็กใช้คู่มือนี้ส่งเสริมพัฒนาการได้"
+            }
+          ],
+          "correctOptionId": "c",
+          "explanation": "ปกคู่มือ DSPM ในสมุดเขียนว่า ใช้สำหรับ พ่อแม่ ผู้ปกครอง เจ้าหน้าที่ ครู และผู้ดูแลเด็ก ในการส่งเสริมพัฒนาการเด็ก",
+          "source": { "pdfPages": [63], "printedPages": ["61"] }
+        }
+      ]
+    },
+    {
+      "type": "takeaways",
+      "heading": "สรุปสิ่งสำคัญ",
+      "items": [
+        "สมองของเด็กเติบโตมากที่สุดใน 5 ขวบปีแรก",
+        "พ่อแม่ผู้ดูแลมีบทบาทสำคัญ เพราะมีเวลาอยู่กับลูกมากที่สุด",
+        "โอบกอด พูดคุย เล่านิทาน เล่นกับลูก และกินข้าวพร้อมกันในครอบครัว",
+        "ติดตามพัฒนาการด้วยคู่มือ DSPM ในสมุด และถามเจ้าหน้าที่ได้เมื่อสงสัย",
+        "การตีหยุดได้แค่ชั่วคราว แต่มีข้อเสียในระยะยาวมากกว่า"
+      ],
+      "familyNote": "ปู่ย่าตายาย พี่ ๆ หรือใครก็ตามที่อยู่กับลูก ช่วยส่งเสริมพัฒนาการได้เหมือนกัน ทั้งอุ้มกอด ชวนคุย เล่านิทาน เล่นด้วยกัน และนั่งกินข้าวพร้อมกัน"
+    }
+  ]
+}

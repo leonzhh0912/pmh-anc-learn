@@ -51,6 +51,12 @@ Read this first at the start of every working session. Add a dated entry at the 
   on how the app treats them. Current plan: awareness lessons only, never the items or scoring.
 - The handbook gives no safe-sleep position guidance and no crisis phone line; PMH must decide local additions.
 - p22 (ธงโภชนาการ คืออะไร): the definition says nutrition helps 'ป้องกันโรคติดต่อเรื้อรัง' (chronic *communicable* disease), probably a misprint for 'โรคไม่ติดต่อเรื้อรัง'. Omitted from lesson K-001 until a nutritionist confirms.
+- p56 (first foods): the table shows three foods on days 1–2, while คำแนะนำ 1 on the same page says one food at a time, 2–3 days apart. Both shown as printed in GROW-005.
+- p66 (toothpaste): "เท่าเมล็ดข้าวโพด" is printed for both the under-3 and 3–<6 groups. Dentist to confirm the amount for under-3s.
+- p27 (exercise): minutes have no "per session/per day"; week 12 falls between trimester 1 (<12) and 2 (13–26).
+- p28 (milk storage): "ละลายในช่องธรรมดา" is undefined; the ice-box row gives "15" °C with no "ไม่เกิน".
+- p14 says "ครบ 5 หมู่" while p22 says "6 กลุ่ม". p28 misspells "ผูกพันธ์" (app writes ผูกพัน).
+- p4 (Parenting School): a stray overlaid text layer labels Volumes 2–3 as "13-17 สัปดาห์", conflicting with the table's 13–27.
 - QR codes in the handbook have not been decoded or checked yet.
 
 ## Open decisions
@@ -111,3 +117,26 @@ Read this first at the start of every working session. Add a dated entry at the 
 
 ### Waiting on the user / PMH
 - Provider choice for voice samples, and accounts/keys plus approval of any charge.
+
+## Session 3 — 2026-11-09
+
+### Done and verified
+- **All 15 first-release (R1) lessons drafted**, each ending with an end-of-lesson quiz (4–5 questions:
+  multiple choice, true/false and at least one everyday scenario; feedback on every option) followed by a
+  summary and a family note. New: OVR-002, INFO-002, REC-002, ASSESS-003, K-002, K-004, K-006, K-007, K-008,
+  CH-006, GROW-005, DEV-005, DENT-001. All DRAFT, no videos yet.
+- Every lesson lists what was added beyond the handbook in `editorial.reviewNotes` for reviewers.
+- Spot-checked against page images: p23 trimester-1 flag (all 12 values), p27 exercise minutes, p28 milk-storage
+  table (all 7 rows), p56 first-foods table (cell spans included). All matched.
+- The build now **requires** every lesson to end with a quiz of ≥3 questions (only a summary may follow).
+- New Playwright walk-through test covers every lesson automatically (each step, every interactive, every
+  quiz answer, no sideways scrolling at 360 px, no console errors). 44/44 tests pass.
+- Fixed: timeline items with the same number in different stages opened/closed together. Sorting activity
+  wording made generic, boxes laid out in two columns and scrolled into view on phones.
+- Home screen suggests the next unfinished lesson in handbook order.
+- PMH staff confirmed the ElevenLabs narration of V-OVR-001 sounds correct (reviewer name still to record).
+
+### Next
+- Clinical review of the 15 R1 lessons (reviewers per CONTENT_REVIEW.md); answer the HANDBOOK ISSUE notes.
+- Videos for R1 lessons (ElevenLabs, ≈1,400 characters each).
+- R2 lessons (high-risk: danger signs, first aid, vaccines) need PMH's local emergency contacts first.

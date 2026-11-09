@@ -1,0 +1,318 @@
+{
+  "id": "MCH68-INFO-002",
+  "version": "0.1.0",
+  "title": "โรงเรียนพ่อแม่ 7 ครั้ง",
+  "summary": "กิจกรรมโรงเรียนพ่อแม่ 7 ครั้ง จัดที่ไหน ช่วงไหน ตั้งแต่ตั้งครรภ์จนลูกอายุ 18 เดือน และได้อะไรเมื่อเข้าร่วมครบ",
+  "sectionId": "info",
+  "stages": [
+    "pregnancy",
+    "postpartum",
+    "newborn",
+    "child"
+  ],
+  "audience": [
+    "mother",
+    "family"
+  ],
+  "minutes": 5,
+  "objectives": [
+    "ผู้เรียนบอกช่วงเวลาเข้าร่วมกิจกรรมโรงเรียนพ่อแม่ทั้ง 7 ครั้งได้ (คลินิกฝากครรภ์ 3 ครั้ง หลังคลอด 1 ครั้ง คลินิกเด็กสุขภาพดี 3 ครั้ง)",
+    "ผู้เรียนบอกได้ว่าเมื่อเข้าร่วมกิจกรรมครบ 7 ครั้ง จะได้รับใบประกาศนียบัตร",
+    "ผู้เรียนบอกได้ว่าหากมีข้อสงสัยในการดูแลตนเองขณะตั้งครรภ์หรือการดูแลลูก ไม่ควรใช้วิธีลองถูกลองผิดด้วยตนเอง แต่ควรปรึกษาแพทย์หรือบุคลากรทางสาธารณสุข"
+  ],
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      4
+    ],
+    "printedPages": [
+      "2"
+    ],
+    "note": "หน้า 'โรงเรียนพ่อแม่ : Parenting School' หมวดข้อมูลแม่และเด็ก ตารางบันทึกการเข้าร่วมกิจกรรม 7 ครั้ง และข้อความแนะนำที่ขอบหน้า"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "Places and gestational/child-age windows for all 7 sessions, the first-session checklist, the certificate e-mail line, the certificate after 7 sessions and the margin tip are from PDF p4 (printed 2), checked on the page image. Ranges are copied as printed (\"1-12\", \"13-27\", \"28 สัปดาห์ขึ้นไป\").",
+      "The page title 'โรงเรียนพ่อแม่ : Parenting School' is drawn over the logo and comes from the PDF text layer; it reads as the intended title.",
+      "HANDBOOK ISSUE (PDF artefact, visible on the page image): stray overlay text 'Volume 1 … Volume 9 … Summary' prints across the table. It labels Volume 2 and Volume 3 both as 'อายุครรภ์ 13-17 สัปดาห์', which conflicts with the table (13-27). The lesson ignores the overlay and uses the table. Ask กรมอนามัย whether the printed copy shows this text.",
+      "Cross-reference: gestational windows differ between pages — p4 parenting school: 1-12 / 13-27 / 28+ weeks; p23–25 nutrition flags: <12 / 13 - 27 / 28-40; p27 exercise: <12 / 13-26 / 27-40. This lesson only uses the p4 wording.",
+      "'Staff write the date and sign for each session' is read from the table columns (วันที่ร่วมกิจกรรม / ลงชื่อเจ้าหน้าที่); the handbook does not say it in a sentence.",
+      "'Bring the handbook' in the takeaways comes from PDF p2 (bring it every time you receive care), not from p4.",
+      "PMH CLARIFICATION (from plan): PMH schedule, room and booking method for each session, and whether PMH runs SMART HYBRID (online) sessions. The lesson names the logo but does not say sessions can be online.",
+      "PMH CLARIFICATION (from plan): who issues the certificate and how the e-mail field is used. The lesson only says there is a line for an e-mail to receive the certificate.",
+      "PMH CLARIFICATION (from plan): the 9-volume คู่มือโรงเรียนพ่อแม่ and its QR code are not mentioned until the link and permission are confirmed (cover age ranges are tiny print).",
+      "PMH CLARIFICATION (from plan): the lesson does not claim that app lessons count toward parenting-school sessions.",
+      "Text step 'มีข้อสงสัย ปรึกษาได้', paragraph 2 ('the parenting-school day is a good time to ask') is framing written for this app, not handbook text.",
+      "Quiz q4 (mother at 20 weeks) and q5 (advice from a neighbour about the baby) are situations written for this lesson. They only repeat the p4 table and margin tip.",
+      "Family note is framing written for this app. Whether family members or other carers may attend sessions is not stated in the handbook, so the note tells them to ask staff. PMH to confirm."
+    ]
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "First draft from official handbook PDF p4 (2nd printing, April 2569)."
+    }
+  ],
+  "steps": [
+    {
+      "type": "text",
+      "heading": "โรงเรียนพ่อแม่ในสมุดหน้า 2",
+      "paragraphs": [
+        "สมุดหน้า 2 เป็นหน้าบันทึกการเข้าร่วมกิจกรรมโรงเรียนพ่อแม่ (Parenting School) กิจกรรมมีทั้งหมด 7 ครั้ง เริ่มที่คลินิกฝากครรภ์ ต่อด้วยหลังคลอด แล้วไปที่คลินิกเด็กสุขภาพดี",
+        "ในตารางมีช่องสถานที่ ช่วงอายุครรภ์หรืออายุเด็ก วันที่ร่วมกิจกรรม และช่องลงชื่อเจ้าหน้าที่ ทุกครั้งที่เข้าร่วม เจ้าหน้าที่จะลงวันที่และลงชื่อไว้",
+        "เมื่อเข้าร่วมครั้งแรก เจ้าหน้าที่จะแนะนำขั้นตอนกิจกรรมและการใช้คู่มือโรงเรียนพ่อแม่ และแจ้งวัตถุประสงค์ของแบบทบทวนความรู้หลังเข้าร่วมกิจกรรม",
+        "เมื่อเข้าร่วมกิจกรรมครบ 7 ครั้ง จะได้รับใบประกาศนียบัตร ในหน้านี้มีช่องเขียนอีเมลสำหรับรับใบประกาศนียบัตรด้วย"
+      ]
+    },
+    {
+      "type": "timeline",
+      "heading": "7 ครั้ง ตั้งแต่ตั้งครรภ์ถึงลูกอายุ 18 เดือน",
+      "intro": "เลือกสถานที่ แล้วแตะแต่ละครั้ง เพื่อดูว่าตรงกับช่วงอายุครรภ์หรืออายุลูกเท่าไร",
+      "stages": [
+        {
+          "id": "anc",
+          "label": "คลินิกฝากครรภ์ (ANC Clinic)",
+          "items": [
+            {
+              "n": 1,
+              "title": "ครั้งที่ 1: อายุครรภ์ 1-12 สัปดาห์",
+              "detail": "ที่คลินิกฝากครรภ์ ครั้งแรกนี้เจ้าหน้าที่จะแนะนำขั้นตอนกิจกรรมและการใช้คู่มือโรงเรียนพ่อแม่"
+            },
+            {
+              "n": 2,
+              "title": "ครั้งที่ 2: อายุครรภ์ 13-27 สัปดาห์",
+              "detail": "ที่คลินิกฝากครรภ์"
+            },
+            {
+              "n": 3,
+              "title": "ครั้งที่ 3: อายุครรภ์ 28 สัปดาห์ขึ้นไป",
+              "detail": "ที่คลินิกฝากครรภ์"
+            }
+          ]
+        },
+        {
+          "id": "pp",
+          "label": "หลังคลอด (PP ward)",
+          "items": [
+            {
+              "n": 4,
+              "title": "ครั้งที่ 4: ทารกแรกเกิด",
+              "detail": "ช่วงหลังคลอด (PP ward)"
+            }
+          ]
+        },
+        {
+          "id": "wcc",
+          "label": "คลินิกเด็กสุขภาพดี (Well Child Clinic)",
+          "items": [
+            {
+              "n": 5,
+              "title": "ครั้งที่ 5: เด็กอายุ 4 เดือน",
+              "detail": "ที่คลินิกเด็กสุขภาพดี"
+            },
+            {
+              "n": 6,
+              "title": "ครั้งที่ 6: เด็กอายุ 9 เดือน",
+              "detail": "ที่คลินิกเด็กสุขภาพดี"
+            },
+            {
+              "n": 7,
+              "title": "ครั้งที่ 7: เด็กอายุ 18 เดือน",
+              "detail": "ที่คลินิกเด็กสุขภาพดี เมื่อเข้าร่วมครบ 7 ครั้ง จะได้รับใบประกาศนียบัตร"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "heading": "มีข้อสงสัย ปรึกษาได้",
+      "paragraphs": [
+        "หากมีข้อสงสัยในการดูแลตนเองขณะตั้งครรภ์หรือการดูแลลูก ไม่ควรใช้วิธีลองถูกลองผิดด้วยตนเอง ควรปรึกษาแพทย์หรือบุคลากรทางสาธารณสุข",
+        "วันที่ไปร่วมกิจกรรมโรงเรียนพ่อแม่ เป็นโอกาสดีที่จะถามเรื่องที่สงสัย"
+      ]
+    },
+    {
+      "type": "quiz",
+      "heading": "ทบทวนความเข้าใจ",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "prompt": "กิจกรรมโรงเรียนพ่อแม่ในสมุดมีทั้งหมดกี่ครั้ง",
+          "options": [
+            {
+              "id": "a",
+              "text": "3 ครั้ง",
+              "feedback": "ยังไม่ครบ 3 ครั้งคือเฉพาะที่คลินิกฝากครรภ์ ยังมีหลังคลอดและคลินิกเด็กสุขภาพดีด้วย"
+            },
+            {
+              "id": "b",
+              "text": "5 ครั้ง",
+              "feedback": "ยังไม่ครบ ลองนับใหม่: คลินิกฝากครรภ์ 3 ครั้ง หลังคลอด 1 ครั้ง คลินิกเด็กสุขภาพดี 3 ครั้ง"
+            },
+            {
+              "id": "c",
+              "text": "7 ครั้ง",
+              "feedback": "ถูกต้อง คลินิกฝากครรภ์ 3 ครั้ง หลังคลอด 1 ครั้ง และคลินิกเด็กสุขภาพดี 3 ครั้ง"
+            }
+          ],
+          "correctOptionId": "c",
+          "explanation": "ตารางในสมุดหน้า 2 มี 7 ครั้ง: คลินิกฝากครรภ์ 3 ครั้ง หลังคลอด (PP ward) 1 ครั้ง และคลินิกเด็กสุขภาพดี 3 ครั้ง",
+          "source": {
+            "pdfPages": [
+              4
+            ],
+            "printedPages": [
+              "2"
+            ]
+          }
+        },
+        {
+          "id": "q2",
+          "kind": "mcq",
+          "prompt": "ครั้งที่ 4 ซึ่งเป็นช่วงทารกแรกเกิด จัดที่ไหน",
+          "options": [
+            {
+              "id": "a",
+              "text": "คลินิกฝากครรภ์ (ANC Clinic)",
+              "feedback": "ยังไม่ใช่ คลินิกฝากครรภ์คือครั้งที่ 1–3 ระหว่างตั้งครรภ์"
+            },
+            {
+              "id": "b",
+              "text": "หลังคลอด (PP ward)",
+              "feedback": "ถูกต้อง ครั้งที่ 4 อยู่ช่วงหลังคลอด ช่วงทารกแรกเกิด"
+            },
+            {
+              "id": "c",
+              "text": "คลินิกเด็กสุขภาพดี (Well Child Clinic)",
+              "feedback": "ยังไม่ใช่ คลินิกเด็กสุขภาพดีคือครั้งที่ 5–7 เมื่อลูกอายุ 4, 9 และ 18 เดือน"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "ครั้งที่ 4 จัดช่วงหลังคลอด (PP ward) ช่วงทารกแรกเกิด",
+          "source": {
+            "pdfPages": [
+              4
+            ],
+            "printedPages": [
+              "2"
+            ]
+          }
+        },
+        {
+          "id": "q3",
+          "kind": "truefalse",
+          "prompt": "จริงหรือไม่: เมื่อเข้าร่วมกิจกรรมโรงเรียนพ่อแม่ครบ 7 ครั้ง จะได้รับใบประกาศนียบัตร",
+          "options": [
+            {
+              "id": "a",
+              "text": "จริง",
+              "feedback": "ถูกต้อง สมุดหน้า 2 มีช่องบันทึกการรับใบประกาศนียบัตรเมื่อเข้าร่วมครบ 7 ครั้ง"
+            },
+            {
+              "id": "b",
+              "text": "ไม่จริง",
+              "feedback": "ยังไม่ใช่ สมุดระบุว่าได้รับใบประกาศนียบัตรเมื่อเข้าร่วมกิจกรรมครบ 7 ครั้ง"
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "ท้ายตารางในสมุดหน้า 2 มีช่อง 'รับใบประกาศนียบัตรผ่านการเข้าร่วมกิจกรรมโรงเรียนพ่อแม่ครบ 7 ครั้ง' ให้เจ้าหน้าที่ลงชื่อและวันที่",
+          "source": {
+            "pdfPages": [
+              4
+            ],
+            "printedPages": [
+              "2"
+            ]
+          }
+        },
+        {
+          "id": "q4",
+          "kind": "scenario",
+          "scenario": "คุณแม่อายุครรภ์ 20 สัปดาห์ มาฝากครรภ์ตามนัด และอยากรู้ว่าตอนนี้ตรงกับกิจกรรมโรงเรียนพ่อแม่ครั้งไหน",
+          "prompt": "ช่วงนี้ตรงกับครั้งที่เท่าไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "ครั้งที่ 1",
+              "feedback": "ยังไม่ใช่ ครั้งที่ 1 คืออายุครรภ์ 1-12 สัปดาห์"
+            },
+            {
+              "id": "b",
+              "text": "ครั้งที่ 2",
+              "feedback": "ถูกต้อง อายุครรภ์ 20 สัปดาห์อยู่ในช่วง 13-27 สัปดาห์ คือครั้งที่ 2"
+            },
+            {
+              "id": "c",
+              "text": "ครั้งที่ 3",
+              "feedback": "ยังไม่ใช่ ครั้งที่ 3 คืออายุครรภ์ 28 สัปดาห์ขึ้นไป"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "ที่คลินิกฝากครรภ์: ครั้งที่ 1 อายุครรภ์ 1-12 สัปดาห์ ครั้งที่ 2 อายุครรภ์ 13-27 สัปดาห์ ครั้งที่ 3 อายุครรภ์ 28 สัปดาห์ขึ้นไป",
+          "source": {
+            "pdfPages": [
+              4
+            ],
+            "printedPages": [
+              "2"
+            ]
+          }
+        },
+        {
+          "id": "q5",
+          "kind": "scenario",
+          "scenario": "ลูกอายุ 2 เดือน ร้องกวนตอนกลางคืน เพื่อนบ้านแนะนำวิธีต่าง ๆ มาหลายแบบ คุณแม่ไม่แน่ใจว่าจะทำอย่างไรดี",
+          "prompt": "ตามคำแนะนำในสมุด ควรทำอย่างไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "ลองทุกวิธีที่เพื่อนบ้านบอก จนกว่าจะได้ผล",
+              "feedback": "สมุดแนะนำว่าไม่ควรใช้วิธีลองถูกลองผิดด้วยตนเอง"
+            },
+            {
+              "id": "b",
+              "text": "รอให้ถึงกิจกรรมโรงเรียนพ่อแม่ครั้งหน้าเท่านั้น จึงค่อยถาม",
+              "feedback": "ไม่จำเป็นต้องรอ ปรึกษาแพทย์หรือบุคลากรทางสาธารณสุขได้เมื่อมีข้อสงสัย"
+            },
+            {
+              "id": "c",
+              "text": "ปรึกษาแพทย์หรือบุคลากรทางสาธารณสุข",
+              "feedback": "ใช่ เมื่อมีข้อสงสัยในการดูแลลูก ควรปรึกษาแพทย์หรือบุคลากรทางสาธารณสุข"
+            }
+          ],
+          "correctOptionId": "c",
+          "explanation": "ข้อความในสมุดหน้า 2: หากมีข้อสงสัยในการดูแลตนเองขณะตั้งครรภ์หรือการดูแลลูก ไม่ควรใช้วิธีลองถูกลองผิดด้วยตนเอง ควรปรึกษาแพทย์หรือบุคลากรทางสาธารณสุข",
+          "source": {
+            "pdfPages": [
+              4
+            ],
+            "printedPages": [
+              "2"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "takeaways",
+      "heading": "สรุปสิ่งสำคัญ",
+      "items": [
+        "โรงเรียนพ่อแม่มี 7 ครั้ง: คลินิกฝากครรภ์ 3 ครั้ง หลังคลอด 1 ครั้ง คลินิกเด็กสุขภาพดี 3 ครั้ง",
+        "ช่วงเวลา: อายุครรภ์ 1-12, 13-27 และ 28 สัปดาห์ขึ้นไป ทารกแรกเกิด และลูกอายุ 4, 9, 18 เดือน",
+        "พกสมุดไปด้วย เจ้าหน้าที่จะลงวันที่และลงชื่อในสมุดหน้า 2 ทุกครั้ง",
+        "เข้าร่วมครบ 7 ครั้ง ได้รับใบประกาศนียบัตร",
+        "มีข้อสงสัย ไม่ลองถูกลองผิดเอง ปรึกษาแพทย์หรือบุคลากรทางสาธารณสุข"
+      ],
+      "familyNote": "คนในครอบครัวหรือคนที่ช่วยดูแล ช่วยจำช่วงเวลาทั้ง 7 ครั้ง และเตือนให้หยิบสมุดไปด้วย ถ้าอยากไปร่วมกิจกรรมด้วยกัน สอบถามเจ้าหน้าที่ได้"
+    }
+  ]
+}

@@ -39,10 +39,10 @@ test("complete lesson: timeline, sorting, quiz with retry, progress saved", asyn
 
   // 4 sorting: a wrong placement is refused, then place every card correctly
   await page.getByRole("button", { name: "ฝากครรภ์ก่อน 12 สัปดาห์", exact: true }).click();
-  await page.getByRole("button", { name: "วางในช่วง หลังคลอดและการดูแลลูก" }).click();
+  await page.getByRole("button", { name: "วางในช่อง หลังคลอดและการดูแลลูก" }).click();
   await expect(page.locator(".sort__message")).toContainText("ยังไม่ใช่");
   // the card stays selected after a wrong try: just tap another stage
-  await page.getByRole("button", { name: "วางในช่วง ระหว่างตั้งครรภ์" }).click();
+  await page.getByRole("button", { name: "วางในช่อง ระหว่างตั้งครรภ์" }).click();
   await expect(page.locator(".sort__message")).toContainText("ถูกต้อง");
   const placements: [string, string][] = [
     ["วิตามินเสริมเหล็ก/โฟลิก อย่างน้อย 3 เดือน", "ก่อนและเริ่มตั้งครรภ์"],
@@ -53,7 +53,7 @@ test("complete lesson: timeline, sorting, quiz with retry, progress saved", asyn
   ];
   for (const [card, bucket] of placements) {
     await page.locator(".sort__cards").getByRole("button", { name: card, exact: true }).click();
-    await page.getByRole("button", { name: `วางในช่วง ${bucket}` }).click();
+    await page.getByRole("button", { name: `วางในช่อง ${bucket}` }).click();
   }
   await expect(page.locator(".sort__message")).toHaveText("ครบทุกข้อแล้ว เก่งมาก");
   await next(page);
@@ -89,7 +89,7 @@ test("complete lesson: timeline, sorting, quiz with retry, progress saved", asyn
   // progress survives a reload and shows on home
   await page.goto("/");
   await page.reload();
-  await expect(page.locator(".home__progress")).toContainText("เรียนจบแล้ว 1 จาก 2");
+  await expect(page.locator(".home__progress")).toContainText(/เรียนจบแล้ว 1 จาก \d+/);
 });
 
 test("text size control scales the type and is remembered", async ({ page }) => {

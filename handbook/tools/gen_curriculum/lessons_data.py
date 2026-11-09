@@ -69,7 +69,7 @@ add(lessonId="MCH68-OVR-002", sectionId="overview",
         "Who families should ask ('เจ้าหน้าที่สาธารณสุขใกล้บ้าน'): PMH to supply clinic / รพ.สต. contact information",
         "Page thumbnails of the handbook need กรมอนามัย permission",
     ],
-    priority="P1", release="R1")
+    priority="P1", release="R1", status="DRAFT")
 
 # ---------------------------------------------------------------- info
 add(lessonId="MCH68-INFO-001", sectionId="info",
@@ -117,7 +117,7 @@ add(lessonId="MCH68-INFO-002", sectionId="info",
         "QR to the 9-volume คู่มือโรงเรียนพ่อแม่: confirm link and permission (cover age ranges are tiny print; the hidden text layer mislabels Volumes 2-3)",
         "Whether app lessons can complement or count toward parenting-school sessions (PMH decision)",
     ],
-    priority="P2", release="R1")
+    priority="P2", release="R1", status="DRAFT")
 
 add(lessonId="MCH68-INFO-003", sectionId="info",
     titleTh="ทำไมต้องเล่าประวัติสุขภาพและการตั้งครรภ์ที่ผ่านมาให้ครบ",
@@ -272,7 +272,7 @@ add(lessonId="MCH68-REC-002", sectionId="record",
         "How to book the PMH dental check for pregnant women (the record has 2 visits)",
         "Baking-soda rinse: dentist to decide whether a ratio is needed (not printed)",
     ],
-    priority="P1", release="R1")
+    priority="P1", release="R1", status="DRAFT")
 
 add(lessonId="MCH68-REC-003", sectionId="record",
     titleTh="การนับลูกดิ้น",
@@ -403,7 +403,7 @@ add(lessonId="MCH68-ASSESS-003", sectionId="assess",
     pmhClarificationNeeded=[
         "PMH smoking-cessation and alcohol-counselling service contacts (not in the handbook)",
     ],
-    priority="P1", release="R1")
+    priority="P1", release="R1", status="DRAFT")
 
 # ---------------------------------------------------------------- knowledge
 add(lessonId="MCH68-K-001", sectionId="knowledge",
@@ -453,7 +453,7 @@ add(lessonId="MCH68-K-002", sectionId="knowledge",
         "Portion-size example photos sit behind QR codes — permission, or PMH-made photos",
         "Mothers with chronic disease or GDM need individual advice (p22 footer) — PMH nutrition-clinic referral route",
     ],
-    priority="P1", release="R1")
+    priority="P1", release="R1", status="DRAFT")
 
 add(lessonId="MCH68-K-003", sectionId="knowledge",
     titleTh="ยาเม็ดเสริมธาตุเหล็ก ไอโอดีน และโฟลิก ทุกวัน",
@@ -499,7 +499,7 @@ add(lessonId="MCH68-K-004", sectionId="knowledge",
     pmhClarificationNeeded=[
         "Local fermented foods (e.g. ปลาร้า) as examples of 'อาหารหมักดอง' would be a PMH addition — nutritionist to decide",
     ],
-    priority="P1", release="R1")
+    priority="P1", release="R1", status="DRAFT")
 
 add(lessonId="MCH68-K-005", sectionId="knowledge",
     titleTh="อาการผิดปกติที่แม่ท้องต้องมาโรงพยาบาลทันที",
@@ -553,7 +553,7 @@ add(lessonId="MCH68-K-006", sectionId="knowledge",
         "'150 นาที/สัปดาห์' is printed without 'อย่างน้อย' in this printing",
         "QR video 'กิจกรรมทางกายสำหรับหญิงตั้งครรภ์และหลังคลอด': link and permission; pelvic-floor technique is not described in the handbook",
     ],
-    priority="P1", release="R1")
+    priority="P1", release="R1", status="DRAFT")
 
 add(lessonId="MCH68-K-007", sectionId="knowledge",
     titleTh="เลี้ยงลูกด้วยนมแม่: ทำไมสำคัญ และ 3 ดูด",
@@ -577,7 +577,7 @@ add(lessonId="MCH68-K-007", sectionId="knowledge",
         "PMH breastfeeding-support contact",
         "UNICEF comparison graphic needs permission or a recreation",
     ],
-    priority="P1", release="R1")
+    priority="P1", release="R1", status="DRAFT")
 
 add(lessonId="MCH68-K-008", sectionId="knowledge",
     titleTh="การเก็บและละลายน้ำนมแม่",
@@ -599,7 +599,7 @@ add(lessonId="MCH68-K-008", sectionId="knowledge",
     pmhClarificationNeeded=[
         "Expressing technique and container advice are not in the handbook — PMH to decide",
     ],
-    priority="P1", release="R1")
+    priority="P1", release="R1", status="DRAFT")
 
 add(lessonId="MCH68-K-009", sectionId="knowledge",
     titleTh="ฝึกลูกเข้านอน: ชั่วโมงนอนตามวัย",
@@ -986,7 +986,7 @@ add(lessonId="MCH68-CH-006", sectionId="childhealth",
         "Antipyretic dose is not printed — refer to doctor / pharmacist",
         "How PMH follows up missed appointments",
     ],
-    priority="P1", release="R1")
+    priority="P1", release="R1", status="DRAFT")
 
 add(lessonId="MCH68-CH-007", sectionId="childhealth",
     titleTh="ตรวจสุขภาพเด็กปฐมวัยตามนัด: แต่ละช่วงอายุตรวจอะไร",
@@ -1126,7 +1126,7 @@ add(lessonId="MCH68-GROW-005", sectionId="growth",
         "QR 'ดูตัวอย่างอาหารทารกเพิ่มเติม' target not verified",
         "Local porridge recipes would be PMH additions",
     ],
-    priority="P1", release="R1")
+    priority="P1", release="R1", status="DRAFT")
 
 add(lessonId="MCH68-GROW-006", sectionId="growth",
     titleTh="อาหารตามวัย 7-11 เดือน",
@@ -1301,7 +1301,7 @@ add(lessonId="MCH68-DEV-005", sectionId="dev",
         "Positive-parenting detail lives behind the p33 QR 'การเลี้ยงดูลูกเชิงบวก' — link only, with permission",
         "No-hitting message is culturally sensitive — PMH to approve tone",
     ],
-    priority="P1", release="R1")
+    priority="P1", release="R1", status="DRAFT")
 
 # ---------------------------------------------------------------- dental
 add(lessonId="MCH68-DENT-001", sectionId="dental",
@@ -1326,7 +1326,7 @@ add(lessonId="MCH68-DENT-001", sectionId="dental",
         "How to book the PMH dental clinic before age 1 (and the 6-month postpartum mother-and-baby oral check)",
         "Brushing technique beyond the printed 'ถูไปมาสั้น ๆ ในแนวขวาง' needs dental approval",
     ],
-    priority="P1", release="R1")
+    priority="P1", release="R1", status="DRAFT")
 
 add(lessonId="MCH68-DENT-002", sectionId="dental",
     titleTh="ยาสีฟันฟลูออไรด์: ปริมาณที่เหมาะกับวัย",

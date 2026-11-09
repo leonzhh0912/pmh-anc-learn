@@ -1,0 +1,291 @@
+{
+  "id": "MCH68-K-008",
+  "version": "0.1.0",
+  "title": "การเก็บและละลายน้ำนมแม่",
+  "summary": "น้ำนมแม่เก็บได้นานเท่าไรในแต่ละที่ และวิธีละลายนมแช่แข็งตามที่สมุดแนะนำ",
+  "sectionId": "knowledge",
+  "stages": ["postpartum", "newborn"],
+  "audience": ["mother", "family"],
+  "minutes": 6,
+  "objectives": [
+    "ผู้เรียนบอกระยะเวลาเก็บน้ำนมแม่ตามสถานที่เก็บและอุณหภูมิ ตามตารางในสมุดได้",
+    "ผู้เรียนบอกวิธีละลายนมแช่แข็งได้ถูกต้อง: นำมาละลายในช่องธรรมดาล่วงหน้า 12 ชั่วโมง และละลายแล้วไม่กลับไปแช่ซ้ำ",
+    "ผู้เรียนบอกได้ว่าไม่ควรอุ่นนมในไมโครเวฟหรือน้ำร้อนจัด เพราะเสียคุณค่าสารอาหาร"
+  ],
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [28],
+    "printedPages": ["26"],
+    "note": "ส่วน 'การเก็บน้ำนมแม่' ครึ่งล่างของหน้าการเลี้ยงลูกด้วยนมแม่: ตาราง 7 แถว (สถานที่เก็บ / อุณหภูมิ (°C) / ระยะเวลาเก็บ) และข้อแนะนำการละลาย 3 ข้อ"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Every temperature and storage time (7-row table) and the 3 thawing rules are from PDF p28 (printed 26), checked on a 200-dpi crop of the official page image: room >25 °C 1 ชั่วโมง; room 16-25 °C 4 ชั่วโมง; กระติกน้ำแข็ง 15 °C 24 ชั่วโมง; ตู้เย็นช่องปกติ 2-8 °C 96 ชั่วโมง (4 วัน); ช่องแช่แข็ง ตู้เย็นประตูเดียว ไม่คงที่ 14 วัน; ช่องแช่แข็ง ตู้เย็น 2 ประตู น้อยกว่า -4 °C 3 เดือน; ตู้แช่แข็ง น้อยกว่า -19 °C 6 เดือน.",
+      "HANDBOOK ISSUE: the thawing line says 'ละลายในช่องธรรมดา' without defining it. It probably means the fridge's normal compartment (the table says 'แช่ตู้เย็นช่องปกติ'), but a reader could take it as room temperature. Quoted as printed; reviewer to decide whether to clarify.",
+      "HANDBOOK ISSUE: the 'ใส่กระติกน้ำแข็ง' row gives a single value '15' °C, with no 'ไม่เกิน' or 'น้อยกว่า'. Quoted as printed.",
+      "The handbook does not say how long thawed milk keeps, how to warm milk safely, or what to do with milk left over after a feed. The lesson adds nothing on these. Quiz q1's explanation says the handbook does not cover how long thawed milk keeps and points to staff.",
+      "°C is written after each value. The handbook prints the unit only in the column header 'อุณหภูมิ (°C)'.",
+      "Timeline grouping (นอกตู้เย็น / ตู้เย็น / ตู้แช่แข็ง) is editorial; rows and numbers are unchanged. Durations are hidden behind a tap so the timeline works as a self-check.",
+      "The sort uses 6 of the 7 table rows (the step type allows at most 6 buckets). The missing row (ตู้แช่แข็ง น้อยกว่า -19 °C → 6 เดือน) is taught in text step 1, the timeline and quiz q3's option feedback.",
+      "App framing: text step 1's prompt to check whether the home fridge is single- or two-door, and text step 2's 'ask staff' pointer.",
+      "Quiz q1 scenario (milk thawed yesterday, not used) follows the curriculum idea. Wrong options (e.g. 'ละลายก่อนให้ลูกกิน 10 นาที', 'แช่ในน้ำร้อนจัด') are written for this lesson.",
+      "Family note is app framing that repeats the printed thawing rules. Needs approval.",
+      "PMH clarification (from curriculum): expressing technique and container advice are not in the handbook. Nothing added; PMH to decide.",
+      "Lactation nurse + nutritionist to verify every temperature and time (curriculum review requirement)."
+    ]
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "First draft from official handbook PDF p28 (2nd printing, April 2569); storage table and thawing rules."
+    }
+  ],
+  "steps": [
+    {
+      "type": "text",
+      "heading": "เก็บน้ำนมแม่ไว้ให้ลูก",
+      "paragraphs": [
+        "สมุดสีชมพูหน้า 26 มีตารางบอกว่า น้ำนมแม่เก็บไว้ได้นานเท่าไร ขึ้นกับสถานที่เก็บและอุณหภูมิ",
+        "ระยะเวลาต่างกันมาก เช่น วางไว้ในห้องที่อุณหภูมิมากกว่า 25 °C เก็บได้ 1 ชั่วโมง แต่ในตู้แช่แข็งที่อุณหภูมิน้อยกว่า -19 °C เก็บได้ 6 เดือน",
+        "ช่องแช่แข็งของตู้เย็นประตูเดียว กับช่องแช่แข็งของตู้เย็น 2 ประตู เก็บได้ไม่เท่ากัน ดูให้ดีว่าที่บ้านใช้ตู้เย็นแบบไหน"
+      ]
+    },
+    {
+      "type": "text",
+      "heading": "การละลายนมแช่แข็ง",
+      "paragraphs": [
+        "นมช่องแช่แข็ง นำมาละลายในช่องธรรมดาล่วงหน้า 12 ชั่วโมง",
+        "ละลายนมแล้ว ไม่กลับไปแช่ซ้ำ",
+        "ไม่อุ่นนมในไมโครเวฟหรือน้ำร้อนจัด เพราะเสียคุณค่าสารอาหาร",
+        "สมุดไม่ได้บอกวิธีบีบหรือปั๊มน้ำนม และภาชนะที่ใช้เก็บ ถ้าต้องการคำแนะนำ ถามเจ้าหน้าที่ได้"
+      ]
+    },
+    {
+      "type": "timeline",
+      "heading": "ตารางการเก็บน้ำนมแม่",
+      "intro": "เลือกที่เก็บ แล้วแตะแต่ละแถวเพื่อดูระยะเวลาเก็บ ตัวเลขทั้งหมดมาจากตารางในสมุดหน้า 26",
+      "stages": [
+        {
+          "id": "room",
+          "label": "นอกตู้เย็น",
+          "items": [
+            {
+              "n": 1,
+              "title": "วางไว้ในห้อง อุณหภูมิมากกว่า 25 °C",
+              "detail": "ระยะเวลาเก็บ: 1 ชั่วโมง"
+            },
+            {
+              "n": 2,
+              "title": "วางไว้ในห้อง อุณหภูมิ 16-25 °C",
+              "detail": "ระยะเวลาเก็บ: 4 ชั่วโมง"
+            },
+            {
+              "n": 3,
+              "title": "ใส่กระติกน้ำแข็ง อุณหภูมิ 15 °C",
+              "detail": "ระยะเวลาเก็บ: 24 ชั่วโมง"
+            }
+          ]
+        },
+        {
+          "id": "fridge",
+          "label": "ตู้เย็น",
+          "items": [
+            {
+              "n": 4,
+              "title": "แช่ตู้เย็นช่องปกติ อุณหภูมิ 2-8 °C",
+              "detail": "ระยะเวลาเก็บ: 96 ชั่วโมง (4 วัน)"
+            },
+            {
+              "n": 5,
+              "title": "ช่องแช่แข็ง ตู้เย็นประตูเดียว อุณหภูมิไม่คงที่",
+              "detail": "ระยะเวลาเก็บ: 14 วัน"
+            },
+            {
+              "n": 6,
+              "title": "ช่องแช่แข็ง ตู้เย็น 2 ประตู อุณหภูมิน้อยกว่า -4 °C",
+              "detail": "ระยะเวลาเก็บ: 3 เดือน"
+            }
+          ]
+        },
+        {
+          "id": "freezer",
+          "label": "ตู้แช่แข็ง",
+          "items": [
+            {
+              "n": 7,
+              "title": "ตู้แช่แข็ง อุณหภูมิน้อยกว่า -19 °C",
+              "detail": "ระยะเวลาเก็บ: 6 เดือน"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "heading": "เก็บที่ไหน ได้นานเท่าไร",
+      "intro": "แตะที่เก็บหนึ่งใบ แล้วแตะระยะเวลาเก็บที่ตรงกับตารางในสมุด",
+      "buckets": [
+        { "id": "h1", "label": "1 ชั่วโมง" },
+        { "id": "h4", "label": "4 ชั่วโมง" },
+        { "id": "h24", "label": "24 ชั่วโมง" },
+        { "id": "h96", "label": "96 ชั่วโมง (4 วัน)" },
+        { "id": "d14", "label": "14 วัน" },
+        { "id": "m3", "label": "3 เดือน" }
+      ],
+      "items": [
+        { "id": "s1", "text": "แช่ตู้เย็นช่องปกติ 2-8 °C", "bucketId": "h96" },
+        { "id": "s2", "text": "วางไว้ในห้อง มากกว่า 25 °C", "bucketId": "h1" },
+        { "id": "s3", "text": "ช่องแช่แข็ง ตู้เย็น 2 ประตู", "bucketId": "m3" },
+        { "id": "s4", "text": "ใส่กระติกน้ำแข็ง 15 °C", "bucketId": "h24" },
+        { "id": "s5", "text": "ช่องแช่แข็ง ตู้เย็นประตูเดียว", "bucketId": "d14" },
+        { "id": "s6", "text": "วางไว้ในห้อง 16-25 °C", "bucketId": "h4" }
+      ]
+    },
+    {
+      "type": "quiz",
+      "heading": "ทบทวนความเข้าใจ",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "scenario",
+          "scenario": "เมื่อวานคุณแม่นำนมจากช่องแช่แข็งออกมาละลายไว้ 1 ถุง แต่ยังไม่ได้ใช้",
+          "prompt": "ตามสมุด ข้อใดถูกต้อง",
+          "options": [
+            {
+              "id": "a",
+              "text": "นำกลับไปแช่ช่องแช่แข็งอีกครั้ง",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า ละลายนมแล้ว ไม่กลับไปแช่ซ้ำ"
+            },
+            {
+              "id": "b",
+              "text": "ไม่นำนมที่ละลายแล้วกลับไปแช่ซ้ำ",
+              "feedback": "ใช่ ละลายนมแล้ว ไม่กลับไปแช่ซ้ำ"
+            },
+            {
+              "id": "c",
+              "text": "อุ่นในไมโครเวฟให้ร้อน แล้วเก็บต่อ",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า ไม่อุ่นนมในไมโครเวฟหรือน้ำร้อนจัด และละลายแล้วไม่กลับไปแช่ซ้ำ"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "สมุดหน้า 26: ละลายนมแล้ว ไม่กลับไปแช่ซ้ำ สมุดไม่ได้บอกว่านมที่ละลายแล้วเก็บต่อได้นานเท่าไร ถ้าไม่แน่ใจ ถามเจ้าหน้าที่",
+          "source": { "pdfPages": [28], "printedPages": ["26"] }
+        },
+        {
+          "id": "q2",
+          "kind": "mcq",
+          "prompt": "น้ำนมแม่ที่แช่ตู้เย็นช่องปกติ (2-8 °C) เก็บได้นานเท่าไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "1 ชั่วโมง",
+              "feedback": "ยังไม่ใช่ 1 ชั่วโมง คือวางไว้ในห้องที่อุณหภูมิมากกว่า 25 °C"
+            },
+            {
+              "id": "b",
+              "text": "6 เดือน",
+              "feedback": "ยังไม่ใช่ 6 เดือน คือตู้แช่แข็งที่อุณหภูมิน้อยกว่า -19 °C"
+            },
+            {
+              "id": "c",
+              "text": "96 ชั่วโมง (4 วัน)",
+              "feedback": "ถูกต้อง ตู้เย็นช่องปกติ 2-8 °C เก็บได้ 96 ชั่วโมง (4 วัน)"
+            }
+          ],
+          "correctOptionId": "c",
+          "explanation": "ตารางในสมุด: แช่ตู้เย็นช่องปกติ อุณหภูมิ 2-8 °C ระยะเวลาเก็บ 96 ชั่วโมง (4 วัน)",
+          "source": { "pdfPages": [28], "printedPages": ["26"] }
+        },
+        {
+          "id": "q3",
+          "kind": "mcq",
+          "prompt": "ช่องแช่แข็งของตู้เย็นประตูเดียว เก็บน้ำนมแม่ได้นานเท่าไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "14 วัน",
+              "feedback": "ถูกต้อง ช่องแช่แข็งตู้เย็นประตูเดียว อุณหภูมิไม่คงที่ เก็บได้ 14 วัน"
+            },
+            {
+              "id": "b",
+              "text": "3 เดือน",
+              "feedback": "ยังไม่ใช่ 3 เดือน คือช่องแช่แข็งของตู้เย็น 2 ประตู"
+            },
+            {
+              "id": "c",
+              "text": "6 เดือน",
+              "feedback": "ยังไม่ใช่ 6 เดือน คือตู้แช่แข็งที่อุณหภูมิน้อยกว่า -19 °C"
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "ตารางในสมุด: ช่องแช่แข็ง ตู้เย็นประตูเดียว อุณหภูมิไม่คงที่ 14 วัน / ช่องแช่แข็ง ตู้เย็น 2 ประตู น้อยกว่า -4 °C 3 เดือน / ตู้แช่แข็ง น้อยกว่า -19 °C 6 เดือน",
+          "source": { "pdfPages": [28], "printedPages": ["26"] }
+        },
+        {
+          "id": "q4",
+          "kind": "truefalse",
+          "prompt": "อุ่นนมแม่ในไมโครเวฟได้ เพราะเร็วและสะดวก จริงหรือไม่",
+          "options": [
+            {
+              "id": "t",
+              "text": "จริง",
+              "feedback": "ไม่ใช่ สมุดเขียนว่า ไม่อุ่นนมในไมโครเวฟหรือน้ำร้อนจัด เพราะเสียคุณค่าสารอาหาร"
+            },
+            {
+              "id": "f",
+              "text": "ไม่จริง",
+              "feedback": "ถูกต้อง ไม่อุ่นนมในไมโครเวฟหรือน้ำร้อนจัด เพราะเสียคุณค่าสารอาหาร"
+            }
+          ],
+          "correctOptionId": "f",
+          "explanation": "สมุดหน้า 26: ไม่อุ่นนมในไมโครเวฟหรือน้ำร้อนจัด (เสียคุณค่าสารอาหาร)",
+          "source": { "pdfPages": [28], "printedPages": ["26"] }
+        },
+        {
+          "id": "q5",
+          "kind": "mcq",
+          "prompt": "ควรนำนมจากช่องแช่แข็งมาละลายอย่างไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "แช่ในน้ำร้อนจัด",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า ไม่อุ่นนมในน้ำร้อนจัด เพราะเสียคุณค่าสารอาหาร"
+            },
+            {
+              "id": "b",
+              "text": "นำมาละลายในช่องธรรมดาล่วงหน้า 12 ชั่วโมง",
+              "feedback": "ถูกต้อง นมช่องแช่แข็ง นำมาละลายในช่องธรรมดาล่วงหน้า 12 ชั่วโมง"
+            },
+            {
+              "id": "c",
+              "text": "นำออกมาละลายก่อนให้ลูกกิน 10 นาที",
+              "feedback": "ยังไม่ใช่ สมุดแนะนำให้ละลายในช่องธรรมดาล่วงหน้า 12 ชั่วโมง"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "สมุดหน้า 26: นมช่องแช่แข็ง นำมาละลายในช่องธรรมดาล่วงหน้า 12 ชั่วโมง",
+          "source": { "pdfPages": [28], "printedPages": ["26"] }
+        }
+      ]
+    },
+    {
+      "type": "takeaways",
+      "heading": "สรุปสิ่งสำคัญ",
+      "items": [
+        "ระยะเวลาเก็บน้ำนมแม่ขึ้นกับที่เก็บและอุณหภูมิ ดูตารางในสมุดหน้า 26",
+        "วางไว้ในห้อง: มากกว่า 25 °C เก็บได้ 1 ชั่วโมง / 16-25 °C เก็บได้ 4 ชั่วโมง",
+        "ตู้เย็นช่องปกติ 2-8 °C: 96 ชั่วโมง (4 วัน) / ช่องแช่แข็งตู้เย็นประตูเดียว: 14 วัน / ช่องแช่แข็งตู้เย็น 2 ประตู: 3 เดือน",
+        "นมช่องแช่แข็ง นำมาละลายในช่องธรรมดาล่วงหน้า 12 ชั่วโมง ละลายแล้วไม่กลับไปแช่ซ้ำ",
+        "ไม่อุ่นนมในไมโครเวฟหรือน้ำร้อนจัด"
+      ],
+      "familyNote": "คนในครอบครัวหรือคนที่ดูแลลูกตอนคุณแม่ไม่อยู่ ควรรู้วิธีเก็บและละลายนมด้วย เช่น นำนมจากช่องแช่แข็งมาละลายในช่องธรรมดาล่วงหน้า 12 ชั่วโมง ไม่อุ่นในไมโครเวฟหรือน้ำร้อนจัด และไม่นำนมที่ละลายแล้วกลับไปแช่ซ้ำ"
+    }
+  ]
+}

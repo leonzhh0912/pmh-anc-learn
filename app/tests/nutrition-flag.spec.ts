@@ -23,7 +23,7 @@ test("K-001 nutrition flag: tiers reveal groups, sorting and quiz complete", asy
   ];
   for (const [card, bucket] of placements) {
     await page.locator(".sort__cards").getByRole("button", { name: card, exact: true }).click();
-    await page.getByRole("button", { name: `วางในช่วง ${bucket}`, exact: true }).click();
+    await page.getByRole("button", { name: `วางในช่อง ${bucket}`, exact: true }).click();
   }
   await expect(page.locator(".sort__message")).toHaveText("ครบทุกข้อแล้ว เก่งมาก");
   await page.getByRole("button", { name: "ต่อไป" }).click();
