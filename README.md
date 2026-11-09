@@ -29,7 +29,7 @@ An earlier 1st-printing file (July 2568) circulates and differs on many pages. D
 ## Quick start (any Mac or Linux machine with Node.js ≥ 22)
 
 ```bash
-git clone <repo-url> pmh-anc-learn && cd pmh-anc-learn
+git clone https://github.com/leonzhh0912/pmh-anc-learn.git && cd pmh-anc-learn
 cd app && npm ci && npm run dev        # http://localhost:5173 (also on your LAN for phone testing)
 ```
 
@@ -56,6 +56,9 @@ cd app && npx playwright install chromium && npm run test:e2e
 - [docs/PROGRESS.md](docs/PROGRESS.md) — session log and next-step checklist
 
 ## Ownership
+
+Repository: https://github.com/leonzhh0912/pmh-anc-learn (private; currently on the developer's
+personal account, to be shared with or transferred to PMH, see docs/PROGRESS.md).
 
 Built for Phimai Hospital. The project must stay operable by authorised PMH staff without depending on any
 one person's computer or AI account. Licensing items still open are listed in

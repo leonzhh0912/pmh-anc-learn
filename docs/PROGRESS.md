@@ -36,7 +36,7 @@ Read this first at the start of every working session. Add a dated entry at the 
 - No PMH staff have seen it yet. **Next on-site task: demo and collect feedback.**
 - Narration pronunciation not checked by a Thai speaker. Draft voice only.
 - Not tested on a real low-end Android phone or on iOS Safari (only Playwright emulation).
-- No GitHub remote yet (waiting for an ownership decision). Git is local only.
+- Pushed to the private GitHub repo `leonzhh0912/pmh-anc-learn` (branch `main`). No PMH collaborator added yet.
 - The "Smart ANC" PMH presentation mentioned in the brief was not provided; the PMH proposal context is not yet captured.
 
 ## Handbook issues for PMH clinical reviewers (found during extraction)
@@ -56,7 +56,7 @@ Read this first at the start of every working session. Add a dated entry at the 
 
 | # | Decision | Owner | Notes |
 |---|---|---|---|
-| 1 | GitHub repository owner: developer's personal account vs a PMH organisation | developer + PMH | Recommended: a PMH-owned GitHub organisation, with the developer as admin and at least one PMH staff admin, so PMH keeps access after handover |
+| 1 | ~~GitHub repository owner~~ **Decided 2026-11-09:** private repo on the developer's personal account, https://github.com/leonzhh0912/pmh-anc-learn | developer | To keep PMH independent: add at least one PMH staff member as a collaborator, and before handover either transfer the repo to a PMH organisation (GitHub keeps redirects) or give PMH a full clone |
 | 2 | **Remotion licence** | PMH | Remotion is free only for individuals, non-profits and companies of ≤3 people. Government/public-sector bodies do **not** qualify without Remotion's written permission. If PMH owns and runs the video code, a Company License is needed ("Creators" ≈ US$25 per seat per month at time of checking; the v5 terms say they take effect with Remotion 5.0). Options: buy a seat, ask Remotion for written permission, or keep rendering with the developer as an independent creator delivering MP4s (check the terms first). Prototyping counts as evaluation. |
 | 3 | Permission from กรมอนามัย to adapt handbook content | PMH | Back cover: "สงวนลิขสิทธิ์โดยกรมอนามัย ห้ามคัดลอก ดัดแปลง พิมพ์ซ้ำ… เพื่อการค้าโดยเด็ดขาด". Non-commercial hospital education appears compatible, but a written OK is recommended before publishing, especially if any handbook illustration is reused (currently none). |
 | 4 | Production narration voice | PMH | macOS "Kanya" is draft-only: Apple's licence limits system voices to personal, non-commercial use. Options: (a) record PMH staff voices — free, most trusted, pipeline already supports it; (b) a paid cloud Thai TTS (Google Cloud or Azure, priced per character, roughly a few US$ per 100 lessons; get a current quote and approval before use). |
@@ -72,7 +72,8 @@ Read this first at the start of every working session. Add a dated entry at the 
 - [ ] Identify medical and Thai-language reviewers. Review `MCH68-OVR-001` and `V-OVR-001` with them
 - [ ] Ask for PMH-specific local info: where to go for danger signs, phone numbers, ANC schedule, Parenting School times
 - [ ] Get the Smart ANC presentation and record what it requires
-- [ ] Create the GitHub repo once ownership is agreed; push; add a PMH admin
+- [x] Create private GitHub repo and push (leonzhh0912/pmh-anc-learn)
+- [ ] Add a PMH staff collaborator; agree how and when the repo is transferred to PMH
 
 **Remote (Phase 2), in release order — see CURRICULUM.md**
 - [ ] R1 lessons (P1), each: lesson JSON → video script → narrate → render → review pack

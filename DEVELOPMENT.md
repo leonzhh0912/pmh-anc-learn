@@ -56,6 +56,17 @@ Remotion Studio for previewing and editing: `npm run dev` (port 3000).
 To add a new scene type, add it to `video/src/lesson/types.ts` and `LessonVideo.tsx`. Icons are original
 SVGs in `Icon.tsx`. Register each new video in `video/src/lesson/registry.ts`.
 
+## Git workflow
+
+- `main` is always deployable: validation and tests pass.
+- Work on short-lived branches: `lesson/<ID>` for content, `feat/<topic>` for app or video features,
+  `fix/<topic>` for fixes. Open a pull request into `main`, even when working alone, so changes and
+  reviewer approvals have a visible record.
+- Before pushing: `cd app && npm run validate:content && npm run test:e2e`.
+- Commit messages say what changed and, for approvals, who approved (see CONTENT_REVIEW.md).
+- Releases are tags on `main` (`v0.1.0`, …), see DEPLOYMENT.md.
+- Never commit secrets, patient data, or the handbook PDF (`.gitignore` covers these).
+
 ## Setting up a new computer
 
 1. Install Node.js 22 or 24 LTS, Git and ffmpeg (`brew install node git ffmpeg`).
