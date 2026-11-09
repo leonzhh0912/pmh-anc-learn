@@ -1,0 +1,55 @@
+#!/usr/bin/env node
+/**
+ * Step 3 of the video pipeline: hand a rendered video to the web app.
+ *
+ *   node scripts/publish.mjs V-OVR-001
+ *
+ * Copies out/<id>.mp4, the Thai WebVTT and a poster frame to
+ * app/public/media/, and writes content/videos/<id>.json with the measured
+ * duration and the editorial status copied from the script.
+ * "Publish" here means "make available to the app build" — not "approved".
+ */
+import { execFileSync } from "node:child_process";
+import { copyFileSync, mkdirSync, readFileSync, writeFileSync, existsSync } from "node:fs";
+import { dirname, join, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const here = dirname(fileURLToPath(import.meta.url));
+const videoRoot = resolve(here, "..");
+const repoRoot = resolve(videoRoot, "..");
+const id = process.argv[2];
+if (!id) throw new Error("usage: node scripts/publish.mjs <id>");
+
+const script = JSON.parse(readFileSync(join(repoRoot, "content/video-scripts", `${id}.json`), "utf8"));
+const timing = JSON.parse(readFileSync(join(videoRoot, "src/generated", `${id}.timing.json`), "utf8"));
+const mp4 = join(videoRoot, "out", `${id}.mp4`);
+const vtt = join(videoRoot, "out", `${id}.th.vtt`);
+if (!existsSync(mp4)) throw new Error(`render first: ${mp4} not found`);
+
+const mediaDir = join(repoRoot, "app/public/media");
+mkdirSync(mediaDir, { recursive: true });
+copyFileSync(mp4, join(mediaDir, `${id}.mp4`));
+copyFileSync(vtt, join(mediaDir, `${id}.th.vtt`));
+
+// poster: a frame from the title scene, after its entrance animation
+const posterAt = Math.min(12, timing.durationInFrames / timing.fps / 2);
+execFileSync("ffmpeg", ["-v", "error", "-y", "-ss", String(posterAt), "-i", mp4, "-frames:v", "1", "-q:v", "4", join(mediaDir, `${id}.jpg`)]);
+
+const durationSec = Number(
+  execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", mp4]).toString().trim(),
+);
+
+const meta = {
+  id,
+  lessonId: script.lessonId,
+  title: script.title,
+  mp4: `media/${id}.mp4`,
+  captionsVtt: `media/${id}.th.vtt`,
+  poster: `media/${id}.jpg`,
+  durationSec: Math.round(durationSec * 10) / 10,
+  narration: timing.narration === "mixed" ? "draft-tts" : timing.narration,
+  editorial: script.editorial,
+};
+mkdirSync(join(repoRoot, "content/videos"), { recursive: true });
+writeFileSync(join(repoRoot, "content/videos", `${id}.json`), JSON.stringify(meta, null, 2) + "\n");
+console.log(`published ${id} (${meta.durationSec}s) -> app/public/media, content/videos/${id}.json`);

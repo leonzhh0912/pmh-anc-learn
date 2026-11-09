@@ -1,0 +1,212 @@
+{
+  "id": "V-OVR-001",
+  "version": "0.2.0",
+  "fps": 30,
+  "durationInFrames": 4829,
+  "narration": "draft-tts",
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 566,
+      "segments": [
+        {
+          "file": "audio/V-OVR-001/intro-1-327d4c08c5.wav",
+          "from": 18,
+          "durationInFrames": 261,
+          "caption": "สมุดบันทึกสุขภาพแม่และเด็ก สรุปสิ่งที่คุณแม่ทำได้ เพื่อให้ลูกมีสุขภาพดีไว้ 15 ข้อ",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-OVR-001/intro-2-fb88c368dc.wav",
+          "from": 293,
+          "durationInFrames": 246,
+          "caption": "แบ่งเป็น 3 ช่วง คือ ก่อนและเริ่มตั้งครรภ์ ระหว่างตั้งครรภ์ และหลังคลอดกับการดูแลลูก",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 566,
+      "durationInFrames": 1000,
+      "segments": [
+        {
+          "file": "audio/V-OVR-001/stage1-1-6a882a2f02.wav",
+          "from": 18,
+          "durationInFrames": 100,
+          "caption": "ช่วงที่ 1 ก่อนและเริ่มตั้งครรภ์",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-OVR-001/stage1-2-1e18a614e2.wav",
+          "from": 132,
+          "durationInFrames": 245,
+          "caption": "ข้อ 1 รับประทานวิตามินเสริม ธาตุเหล็กและโฟลิก อย่างน้อย 3 เดือนก่อนตั้งครรภ์",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-OVR-001/stage1-3-ae8d4d8186.wav",
+          "from": 391,
+          "durationInFrames": 169,
+          "caption": "ข้อ 2 เว้นช่วงการมีบุตรแต่ละคน ให้ห่างกันอย่างน้อย 2 ปี",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-OVR-001/stage1-4-ace53811f0.wav",
+          "from": 574,
+          "durationInFrames": 227,
+          "caption": "ข้อ 3 ตั้งครรภ์ในช่วงอายุ 20 ถึง 34 ปี และควบคุมน้ำหนักตัวให้เหมาะสม",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-OVR-001/stage1-5-a5dbb54022.wav",
+          "from": 815,
+          "durationInFrames": 158,
+          "caption": "ข้อ 4 บันทึกข้อมูลร่วมกับเจ้าหน้าที่ เพื่อดูแลต่อเนื่อง",
+          "reveal": 4
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1566,
+      "durationInFrames": 1177,
+      "segments": [
+        {
+          "file": "audio/V-OVR-001/stage2-1-3485d91389.wav",
+          "from": 18,
+          "durationInFrames": 83,
+          "caption": "ช่วงที่ 2 ระหว่างตั้งครรภ์",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-OVR-001/stage2-2-bc84c5b561.wav",
+          "from": 115,
+          "durationInFrames": 239,
+          "caption": "ข้อ 5 ฝากครรภ์ทันที ก่อนอายุครรภ์ 12 สัปดาห์ พร้อมสามี และมาตามนัดทุกครั้ง",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-OVR-001/stage2-3-c4dda4761f.wav",
+          "from": 368,
+          "durationInFrames": 211,
+          "caption": "ข้อ 6 กินอาหารเหมาะสม น้ำหนักลูกแรกเกิด 2,500 ถึง 4,000 กรัม",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-OVR-001/stage2-4-b12bcbc2c3.wav",
+          "from": 593,
+          "durationInFrames": 185,
+          "caption": "ข้อ 7 ผ่อนคลาย ควบคุมอารมณ์ และปรึกษาหากมีปัญหา",
+          "reveal": 7
+        },
+        {
+          "file": "audio/V-OVR-001/stage2-5-4c2835b2ad.wav",
+          "from": 792,
+          "durationInFrames": 166,
+          "caption": "ข้อ 8 วางแผนคลอด ไม่ร้องขอผ่าตัดโดยไม่มีข้อบ่งชี้",
+          "reveal": 8
+        },
+        {
+          "file": "audio/V-OVR-001/stage2-6-af376cb0b2.wav",
+          "from": 972,
+          "durationInFrames": 178,
+          "caption": "ข้อ 9 ปฏิบัติตามคำแนะนำในสมุดบันทึกสุขภาพแม่และเด็ก",
+          "reveal": 9
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 2743,
+      "durationInFrames": 1444,
+      "segments": [
+        {
+          "file": "audio/V-OVR-001/stage3-1-d90a5b1fc7.wav",
+          "from": 18,
+          "durationInFrames": 114,
+          "caption": "ช่วงที่ 3 หลังคลอดและการดูแลลูก",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-OVR-001/stage3-2-e1b4259e50.wav",
+          "from": 146,
+          "durationInFrames": 222,
+          "caption": "ข้อ 10 นมแม่อย่างเดียว 6 เดือน ไม่ต้องให้น้ำ และให้ต่อเนื่องคู่กับอาหารตามวัย",
+          "reveal": 10
+        },
+        {
+          "file": "audio/V-OVR-001/stage3-3-b26bdeea86.wav",
+          "from": 382,
+          "durationInFrames": 149,
+          "caption": "ข้อ 11 เริ่มอาหารตามวัย เมื่อลูกอายุครบ 6 เดือน",
+          "reveal": 11
+        },
+        {
+          "file": "audio/V-OVR-001/stage3-4-6c135c43e7.wav",
+          "from": 545,
+          "durationInFrames": 150,
+          "caption": "ข้อ 12 รับวัคซีนครบตามเกณฑ์ ทั้งแม่และเด็ก",
+          "reveal": 12
+        },
+        {
+          "file": "audio/V-OVR-001/stage3-5-49de39041d.wav",
+          "from": 709,
+          "durationInFrames": 168,
+          "caption": "ข้อ 13 แปรงฟันด้วยยาสีฟันฟลูออไรด์ ตั้งแต่ฟันซี่แรก",
+          "reveal": 13
+        },
+        {
+          "file": "audio/V-OVR-001/stage3-6-82e678a466.wav",
+          "from": 891,
+          "durationInFrames": 282,
+          "caption": "ข้อ 14 โอบกอด พูดคุย เล่านิทาน ติดตามพัฒนาการ ตามคู่มือ DSPM",
+          "reveal": 14
+        },
+        {
+          "file": "audio/V-OVR-001/stage3-7-30b7959c45.wav",
+          "from": 1187,
+          "durationInFrames": 230,
+          "caption": "ข้อ 15 หากมีข้อสงสัย ปรึกษาแพทย์หรือบุคลากร ไม่ควรลองผิดลองถูก",
+          "reveal": 15
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 4187,
+      "durationInFrames": 642,
+      "segments": [
+        {
+          "file": "audio/V-OVR-001/summary-1-ed36f87c76.wav",
+          "from": 18,
+          "durationInFrames": 49,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-OVR-001/summary-2-567ee0b30a.wav",
+          "from": 81,
+          "durationInFrames": 133,
+          "caption": "ฝากครรภ์ทันที ก่อน 12 สัปดาห์ และมาตามนัด",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-OVR-001/summary-3-de2aeabc08.wav",
+          "from": 228,
+          "durationInFrames": 172,
+          "caption": "นมแม่อย่างเดียว 6 เดือน แล้วเริ่มอาหารตามวัยเมื่อลูกครบ 6 เดือน",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-OVR-001/summary-4-bf0208d79b.wav",
+          "from": 414,
+          "durationInFrames": 201,
+          "caption": "และหากมีข้อสงสัย ปรึกษาแพทย์หรือบุคลากร ไม่ควรลองผิดลองถูก",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

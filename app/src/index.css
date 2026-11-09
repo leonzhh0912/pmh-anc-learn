@@ -1,0 +1,114 @@
+@import "@fontsource/sarabun/thai-400.css";
+@import "@fontsource/sarabun/thai-600.css";
+@import "@fontsource/sarabun/thai-700.css";
+@import "@fontsource/sarabun/latin-400.css";
+@import "@fontsource/sarabun/latin-600.css";
+@import "@fontsource/sarabun/latin-700.css";
+
+/*
+ * Tokens. The palette is taken from the paper handbook: its pink cover,
+ * magenta title, and the nine coloured side tabs that families use to find
+ * sections. Ink is a deep plum rather than black, softer on pink paper.
+ */
+:root {
+  --paper: #fff7f9;
+  --paper-raised: #ffffff;
+  --ink: #34182b;
+  --ink-soft: #6a5262;
+  --line: #ecd3dd;
+  --magenta: #b0175a; /* 6.4:1 on white */
+  --magenta-deep: #8c1047;
+  --magenta-wash: #fde4ee;
+  --correct: #17694f;
+  --correct-wash: #ddf3ea;
+  --gentle: #8a4b00;
+  --gentle-wash: #fff0d6;
+  --draft: #7a4d00;
+  --draft-wash: #fff3cc;
+  --focus: #1b5fd6;
+
+  /* handbook side-tab colours */
+  --tab-info: #f6b8ac;
+  --tab-anc: #f8cfdc;
+  --tab-record: #fdd5bd;
+  --tab-assess: #fbf0c4;
+  --tab-knowledge: #cfeadb;
+  --tab-childhealth: #d9e8c8;
+  --tab-growth: #bfe3ef;
+  --tab-dev: #a9bfe3;
+  --tab-dental: #d8c7e6;
+
+  --scale: 1;
+  --fs-body: calc(19px * var(--scale));
+  --fs-small: calc(16px * var(--scale));
+  --fs-h3: calc(22px * var(--scale));
+  --fs-h2: calc(27px * var(--scale));
+  --fs-h1: calc(34px * var(--scale));
+  --lh: 1.7;
+  --gutter: 16px;
+  --radius-sm: 10px;
+  --radius-lg: 20px;
+  --tap: 52px;
+
+  color-scheme: light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Sarabun", "Noto Sans Thai", "Leelawadee UI", "Thonburi", sans-serif;
+  font-size: var(--fs-body);
+  line-height: var(--lh);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.35;
+  margin: 0 0 0.4em;
+  font-weight: 700;
+  text-wrap: balance;
+}
+h1 { font-size: var(--fs-h1); }
+h2 { font-size: var(--fs-h2); }
+h3 { font-size: var(--fs-h3); }
+
+p { margin: 0 0 0.9em; max-width: 34em; }
+
+a { color: var(--magenta); }
+
+button { font: inherit; color: inherit; }
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  overflow: hidden; clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

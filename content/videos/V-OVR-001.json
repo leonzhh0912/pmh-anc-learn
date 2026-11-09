@@ -1,0 +1,23 @@
+{
+  "id": "V-OVR-001",
+  "lessonId": "MCH68-OVR-001",
+  "title": "15 ข้อ เพื่อแม่ลูกสุขภาพดี",
+  "mp4": "media/V-OVR-001.mp4",
+  "captionsVtt": "media/V-OVR-001.th.vtt",
+  "poster": "media/V-OVR-001.jpg",
+  "durationSec": 161,
+  "narration": "draft-tts",
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "Narration is macOS 'Kanya' synthetic voice: draft only, Apple licence limits system voices to personal non-commercial use. Replace with recorded or approved TTS before publication.",
+      "Thai-speaking reviewer must check pronunciation, especially 'DSPM', numbers and medical terms.",
+      "Item 5 follows the handbook ('พร้อมสามี'). PMH to decide whether to add inclusive wording for people attending without a partner.",
+      "v0.2.0: narration re-aligned to 2nd-printing p67 wording (v0.1.0 had borrowed fuller phrasing from the 1st printing)."
+    ]
+  }
+}

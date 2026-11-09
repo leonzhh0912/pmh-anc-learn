@@ -1,0 +1,19 @@
+{
+  "title": "สมุดบันทึกสุขภาพแม่และเด็ก ฉบับปรับปรุงใหม่ พ.ศ. 2568",
+  "titleEn": "Maternal and Child Health Handbook, Revised 2025 Edition",
+  "edition": "MCH-2568",
+  "printing": "พิมพ์ครั้งที่ 2 : เมษายน 2569 จำนวน 480,000 เล่ม (back cover, PDF p68)",
+  "publisher": "กรมอนามัย กระทรวงสาธารณสุข",
+  "url": "https://multimedia.anamai.moph.go.th/ebooks/maternal-and-child-health-handbook-2568/",
+  "pdfUrl": "https://multimedia.anamai.moph.go.th/oawoocha/2025/07/Maternal-and-Child-Health-Handbook-2568.pdf",
+  "pdfRetrieved": "2026-11-09",
+  "pdfLastModifiedHeader": "Tue, 16 Jun 2026 04:23:06 GMT",
+  "pdfSha256": "174f424c57c150434da234f87003a28dae0fe25463523ffecf4a8ba983d9e0c5",
+  "pages": 68,
+  "pageNumbering": "Printed page = PDF page - 2 for PDF p3-p66. PDF p1-2 (covers) and p67-68 have no printed number.",
+  "copyrightNotice": "แจกฟรี ห้ามจำหน่าย. สงวนลิขสิทธิ์โดยกรมอนามัย ห้ามคัดลอก ดัดแปลง พิมพ์ซ้ำทั้งหมดหรือส่วนหนึ่งส่วนใดเพื่อการค้าโดยเด็ดขาด (PDF p68)",
+  "supersedes": {
+    "note": "An earlier file (1st printing, July 2568, PDF created 2025-06-23, sha256 5f5cc4f7...ab957) differs on many pages. Do not use it as a source.",
+    "sha256": "5f5cc4f7b131aa6ed4b321574f960ba7ef1b937eade057077acfb967276ab957"
+  }
+}

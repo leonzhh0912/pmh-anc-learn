@@ -1,0 +1,28 @@
+# dependencies and builds
+node_modules/
+dist/
+app/playwright-report/
+app/test-results/
+app/dev-dist/
+
+# OS / editor
+.DS_Store
+*.swp
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# secrets — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# handbook PDFs: public but large; URL + sha256 are in content/handbook-source.json
+handbook/source/*.pdf
+
+# never commit patient data, exports, or hospital-internal files
+private/
+*.xlsx
+*.csv
