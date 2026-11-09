@@ -1,0 +1,220 @@
+{
+  "id": "V-K-014",
+  "lessonId": "MCH68-K-014",
+  "version": "0.1.0",
+  "title": "ปลอดภัยบนท้องถนน: ที่นั่งนิรภัย รถจักรยานยนต์ และไม่ทิ้งเด็กในรถ",
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      31
+    ],
+    "printedPages": [
+      "29"
+    ],
+    "note": "Narration derived from lesson MCH68-K-014 v0.1.0"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-K-014 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of ที่นั่งนิรภัย, รถจักรยานยนต์, ผู้ขับขี่, ตามลำพัง, 'อันดับต้น ๆ' (ไม้ยมก), 'สองถึงหกปี'.",
+      "'สอนบีบแตร' and the lesson's explanation of it (teach the child to press the horn if stuck in the car) are NOT used — the explanation is an editorial reading of the illustration, still to be confirmed. PMH to decide whether to add 'สอนบีบแตร' once the reading is confirmed.",
+      "HANDBOOK ISSUE used because central: 'เด็กอายุ 2-6 ปี ไม่แนะนำให้โดยสารหลังผู้ขับขี่ตามลำพัง' is quoted as printed; 'ตามลำพัง' is not defined and the video does not explain it. Item 4 screen text says 'นั่ง...ลำพัง' for 'ให้โดยสาร...ตามลำพัง' to fit; narration is the printed wording.",
+      "HANDBOOK ISSUE: car-seat ages are 'น้อยกว่า 2 ปี' / 'มากกว่า 2 ปี' (exact age 2 not covered). The video narrates only the printed under-2 rule; the forward-facing 'มากกว่า 2 ปี' diagram description (editorial) is not used.",
+      "Item 5 ('ถ้าที่บ้านใช้รถจักรยานยนต์เป็นหลัก ปรึกษาเจ้าหน้าที่ได้') is the lesson's app framing (text step 3), linked to the PMH clarification on rural motorcycle use. The 'ห้าม' rule is not softened. PMH to approve.",
+      "Not added: helmets, rear-seat/airbag rationale (1st printing only), reasons for 'ตรวจรอบรถ', car-seat loan scheme."
+    ]
+  },
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3",
+    "stability": 0.5,
+    "style": 0,
+    "speed": 0.95,
+    "seed": 1234
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "kind": "title",
+      "heading": "ปลอดภัยบนท้องถนน",
+      "subheading": "จากสมุดบันทึกสุขภาพแม่และเด็ก ฉบับปรับปรุงใหม่ พ.ศ. 2568",
+      "chips": [
+        "ที่นั่งนิรภัย",
+        "รถจักรยานยนต์",
+        "ห้ามทิ้งเด็กในรถ"
+      ],
+      "segments": [
+        {
+          "speak": "สมุดสีชมพูหน้ายี่สิบเก้า เขียนไว้ว่า อุบัติเหตุ เป็นสาเหตุการเสียชีวิตอันดับต้น ๆ ของเด็ก",
+          "caption": "สมุดสีชมพูหน้า 29 เขียนไว้ว่า อุบัติเหตุ เป็นสาเหตุการเสียชีวิตอันดับต้น ๆ ของเด็ก"
+        },
+        {
+          "speak": "การป้องกันการบาดเจ็บทางจราจร มีสามเรื่อง ที่นั่งนิรภัย รถจักรยานยนต์ และห้ามทิ้งเด็กในรถ",
+          "caption": "การป้องกันการบาดเจ็บทางจราจร มี 3 เรื่อง ที่นั่งนิรภัย รถจักรยานยนต์ และห้ามทิ้งเด็กในรถ"
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "kind": "stage",
+      "stage": 1,
+      "label": "นั่งรถยนต์",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 1,
+          "icon": "shield",
+          "text": "ใช้ที่นั่งนิรภัยทุกครั้ง"
+        },
+        {
+          "n": 2,
+          "icon": "baby",
+          "text": "น้อยกว่า 2 ปี: หันหน้าเข้าหาเบาะ"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่หนึ่ง เมื่อนั่งรถยนต์",
+          "caption": "ตอนที่ 1 เมื่อนั่งรถยนต์"
+        },
+        {
+          "reveal": 1,
+          "speak": "ใช้ที่นั่งนิรภัยทุกครั้ง",
+          "caption": "ใช้ที่นั่งนิรภัยทุกครั้ง"
+        },
+        {
+          "reveal": 2,
+          "speak": "เด็กอายุน้อยกว่าสองปี ให้หันหน้าเข้าหาเบาะ",
+          "caption": "เด็กอายุน้อยกว่า 2 ปี ให้หันหน้าเข้าหาเบาะ"
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "kind": "stage",
+      "stage": 2,
+      "label": "รถจักรยานยนต์",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 3,
+          "icon": "motorcycle",
+          "text": "น้อยกว่า 2 ปี: ห้ามโดยสาร"
+        },
+        {
+          "n": 4,
+          "icon": "motorcycle",
+          "text": "2-6 ปี: ไม่แนะนำนั่งหลังผู้ขับขี่ลำพัง"
+        },
+        {
+          "n": 5,
+          "icon": "chat",
+          "text": "ใช้จักรยานยนต์เป็นหลัก ปรึกษาเจ้าหน้าที่"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สอง รถจักรยานยนต์",
+          "caption": "ตอนที่ 2 รถจักรยานยนต์"
+        },
+        {
+          "reveal": 3,
+          "speak": "เด็กอายุน้อยกว่าสองปี ห้ามโดยสารรถจักรยานยนต์",
+          "caption": "เด็กอายุน้อยกว่า 2 ปี ห้ามโดยสารรถจักรยานยนต์"
+        },
+        {
+          "reveal": 4,
+          "speak": "เด็กอายุสองถึงหกปี ไม่แนะนำให้โดยสารหลังผู้ขับขี่ตามลำพัง",
+          "caption": "เด็กอายุ 2-6 ปี ไม่แนะนำให้โดยสารหลังผู้ขับขี่ตามลำพัง"
+        },
+        {
+          "reveal": 5,
+          "speak": "ถ้าที่บ้านใช้รถจักรยานยนต์เป็นหลัก ปรึกษาเจ้าหน้าที่ได้",
+          "caption": "ถ้าที่บ้านใช้รถจักรยานยนต์เป็นหลัก ปรึกษาเจ้าหน้าที่ได้"
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "kind": "stage",
+      "stage": 3,
+      "label": "จอดรถและก่อนขับ",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 6,
+          "icon": "shield",
+          "text": "ห้ามทิ้งเด็กในรถ"
+        },
+        {
+          "n": 7,
+          "icon": "car",
+          "text": "ตรวจรอบรถก่อนขับรถทุกครั้ง"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สาม เมื่อจอดรถ และก่อนขับรถ",
+          "caption": "ตอนที่ 3 เมื่อจอดรถ และก่อนขับรถ"
+        },
+        {
+          "reveal": 6,
+          "speak": "ห้ามทิ้งเด็กในรถ",
+          "caption": "ห้ามทิ้งเด็กในรถ"
+        },
+        {
+          "reveal": 7,
+          "speak": "และตรวจรอบรถก่อนขับรถทุกครั้ง",
+          "caption": "และตรวจรอบรถก่อนขับรถทุกครั้ง"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "kind": "summary",
+      "heading": "จำไว้ 4 เรื่อง",
+      "points": [
+        "ใช้ที่นั่งนิรภัยทุกครั้ง",
+        "น้อยกว่า 2 ปี ห้ามโดยสารจักรยานยนต์",
+        "ห้ามทิ้งเด็กในรถ",
+        "ตรวจรอบรถก่อนขับรถทุกครั้ง"
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "สรุปเรื่องสำคัญ",
+          "caption": "สรุปเรื่องสำคัญ"
+        },
+        {
+          "reveal": 1,
+          "speak": "ใช้ที่นั่งนิรภัยทุกครั้ง เด็กอายุน้อยกว่าสองปี หันหน้าเข้าหาเบาะ",
+          "caption": "ใช้ที่นั่งนิรภัยทุกครั้ง เด็กอายุน้อยกว่า 2 ปี หันหน้าเข้าหาเบาะ"
+        },
+        {
+          "reveal": 2,
+          "speak": "เด็กอายุน้อยกว่าสองปี ห้ามโดยสารรถจักรยานยนต์",
+          "caption": "เด็กอายุน้อยกว่า 2 ปี ห้ามโดยสารรถจักรยานยนต์"
+        },
+        {
+          "reveal": 3,
+          "speak": "ห้ามทิ้งเด็กในรถ",
+          "caption": "ห้ามทิ้งเด็กในรถ"
+        },
+        {
+          "reveal": 4,
+          "speak": "และตรวจรอบรถก่อนขับรถทุกครั้ง",
+          "caption": "และตรวจรอบรถก่อนขับรถทุกครั้ง"
+        }
+      ]
+    }
+  ]
+}

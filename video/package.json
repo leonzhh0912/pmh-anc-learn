@@ -37,7 +37,9 @@
     "publish-to-app": "node scripts/publish.mjs",
     "video": "sh -c 'node --env-file-if-exists=.env.local scripts/narrate.mjs $0 && npm run render $0 && node scripts/publish.mjs $0'",
     "smoke": "remotion render SmokeTest out/smoke-test.mp4",
-    "voice-samples": "node --env-file-if-exists=.env.local scripts/voice-samples.mjs"
+    "voice-samples": "node --env-file-if-exists=.env.local scripts/voice-samples.mjs",
+    "batch": "node scripts/batch.mjs",
+    "check-scripts": "node scripts/check-script.mjs"
   },
   "allowScripts": {
     "esbuild": false

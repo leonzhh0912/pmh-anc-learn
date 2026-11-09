@@ -1,0 +1,196 @@
+{
+  "id": "V-REC-001",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 3702,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 326,
+      "segments": [
+        {
+          "file": "audio/V-REC-001/intro-1-5e21fef0e7.wav",
+          "from": 18,
+          "durationInFrames": 190,
+          "caption": "ทุกครั้งที่มาฝากครรภ์ตามนัด เจ้าหน้าที่จะบันทึกผลตรวจไว้ในสมุด หน้า 8 ถึงหน้า 11",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-REC-001/intro-2-74ea12d1aa.wav",
+          "from": 222,
+          "durationInFrames": 77,
+          "caption": "มาดูว่าแต่ละหน้า มีช่องอะไรบ้าง",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 326,
+      "durationInFrames": 1005,
+      "segments": [
+        {
+          "file": "audio/V-REC-001/stage1-1-ef1d834305.wav",
+          "from": 18,
+          "durationInFrames": 156,
+          "caption": "ตอนที่ 1 ตารางบันทึกการตรวจครรภ์ ในหน้า 8 และหน้า 10",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-REC-001/stage1-2-7a85c6c706.wav",
+          "from": 188,
+          "durationInFrames": 204,
+          "caption": "ทุกครั้งที่มาตามนัด เจ้าหน้าที่จะเขียนผลไว้ 1 แถว เริ่มจากวันที่ตรวจ และน้ำหนัก",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-REC-001/stage1-3-2cad0b369e.wav",
+          "from": 406,
+          "durationInFrames": 111,
+          "caption": "ต่อด้วยผลตรวจปัสสาวะ และความดันโลหิต",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-REC-001/stage1-4-4b4a9b130e.wav",
+          "from": 531,
+          "durationInFrames": 134,
+          "caption": "ขนาดของมดลูก (ซม.) และท่าเด็ก หรือส่วนนำ",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-REC-001/stage1-5-a31b4e8c66.wav",
+          "from": 679,
+          "durationInFrames": 83,
+          "caption": "แล้วก็เสียงหัวใจเด็ก และเด็กดิ้น",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-REC-001/stage1-6-aa0460f1c2.wav",
+          "from": 776,
+          "durationInFrames": 202,
+          "caption": "ตารางต่อในหน้า 9 และ 11 มีช่องอายุครรภ์ การจัดการ และวันนัดครั้งถัดไป",
+          "reveal": 5
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1331,
+      "durationInFrames": 827,
+      "segments": [
+        {
+          "file": "audio/V-REC-001/stage2-1-fb951f3b4e.wav",
+          "from": 18,
+          "durationInFrames": 138,
+          "caption": "ตอนที่ 2 วันกำหนดคลอด และอัลตราซาวนด์ ในหน้า 9",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-REC-001/stage2-2-b8ddf78f86.wav",
+          "from": 170,
+          "durationInFrames": 184,
+          "caption": "เจ้าหน้าที่จะบันทึกวันกำหนดคลอด ว่ากำหนดจากประจำเดือนครั้งสุดท้าย หรือจากอัลตราซาวนด์",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-REC-001/stage2-3-8f4cfb8ca1.wav",
+          "from": 368,
+          "durationInFrames": 197,
+          "caption": "อัลตราซาวนด์ใช้ประเมินความผิดปกติของทารกในเบื้องต้นได้ แต่บางอย่างต้องประเมินหลังทารกเกิด",
+          "reveal": 7
+        },
+        {
+          "file": "audio/V-REC-001/stage2-4-7568682089.wav",
+          "from": 579,
+          "durationInFrames": 221,
+          "caption": "เมื่อใกล้ถึงกำหนดคลอด ควรหลีกเลี่ยงการเดินทางไกล เช่น เครื่องบิน หากจำเป็นควรปรึกษาแพทย์",
+          "reveal": 8
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 2158,
+      "durationInFrames": 916,
+      "segments": [
+        {
+          "file": "audio/V-REC-001/stage3-1-5403f8a2f9.wav",
+          "from": 18,
+          "durationInFrames": 84,
+          "caption": "ตอนที่ 3 การตรวจเฉพาะเรื่อง",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-REC-001/stage3-2-0d6f9b5b5d.wav",
+          "from": 116,
+          "durationInFrames": 160,
+          "caption": "หน้า 8 มีกล่องตรวจร่างกาย เรื่องหัวใจ ปอด และไทรอยด์",
+          "reveal": 9
+        },
+        {
+          "file": "audio/V-REC-001/stage3-3-19156f6739.wav",
+          "from": 290,
+          "durationInFrames": 199,
+          "caption": "และกล่องการคัดกรองเบาหวาน สมุดแนะนำตรวจที่อายุครรภ์ 24-28 สัปดาห์",
+          "reveal": 10
+        },
+        {
+          "file": "audio/V-REC-001/stage3-4-8024aa2c5a.wav",
+          "from": 503,
+          "durationInFrames": 168,
+          "caption": "หน้า 10 มีกล่องการตรวจหัวนม เป็นการเตรียมความพร้อมสำหรับการให้นมแม่",
+          "reveal": 11
+        },
+        {
+          "file": "audio/V-REC-001/stage3-5-dcd700eb57.wav",
+          "from": 685,
+          "durationInFrames": 204,
+          "caption": "หน้า 11 มีช่องความผิดปกติหรือความเสี่ยงที่พบระหว่างฝากครรภ์ และช่องหมายเหตุ",
+          "reveal": 12
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 3074,
+      "durationInFrames": 628,
+      "segments": [
+        {
+          "file": "audio/V-REC-001/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 48,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-REC-001/summary-2-94dc09f017.wav",
+          "from": 80,
+          "durationInFrames": 185,
+          "caption": "การมาฝากครรภ์สม่ำเสมอ จะช่วยให้พบความเสี่ยงและให้การรักษาอย่างทันท่วงที",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-REC-001/summary-3-2aa123829d.wav",
+          "from": 279,
+          "durationInFrames": 119,
+          "caption": "ดูวันนัดครั้งถัดไปในสมุด และนำสมุดมาด้วยทุกครั้ง",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-REC-001/summary-4-9c58b7adca.wav",
+          "from": 412,
+          "durationInFrames": 189,
+          "caption": "ความหมายของผลแต่ละช่อง เจ้าหน้าที่จะอธิบายให้ฟัง สงสัยตรงไหน ถามได้",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

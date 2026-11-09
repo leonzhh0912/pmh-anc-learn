@@ -1,0 +1,189 @@
+{
+  "id": "V-DENT-003",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 3936,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 433,
+      "segments": [
+        {
+          "file": "audio/V-DENT-003/intro-1-439646d741.wav",
+          "from": 18,
+          "durationInFrames": 146,
+          "caption": "เมื่อพาลูกไปตรวจฟัน ทำไมทันตบุคลากรถามเรื่องนมและขนม",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-DENT-003/intro-2-ec5e78a232.wav",
+          "from": 178,
+          "durationInFrames": 228,
+          "caption": "สมุดหน้า 62 คือหน้าการประเมินความเสี่ยงต่อสุขภาพช่องปาก มีช่องอายุ 6 เดือนถึง 6 ปี",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 433,
+      "durationInFrames": 567,
+      "segments": [
+        {
+          "file": "audio/V-DENT-003/stage1-1-66affda869.wav",
+          "from": 18,
+          "durationInFrames": 89,
+          "caption": "ตอนที่ 1 หน้านี้คืออะไร",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-DENT-003/stage1-2-273bb81931.wav",
+          "from": 121,
+          "durationInFrames": 182,
+          "caption": "หน้านี้ทันตบุคลากรใช้ประเมินและบันทึก ไม่ใช่แบบให้ครอบครัวให้คะแนนเอง",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-DENT-003/stage1-3-e8e624b095.wav",
+          "from": 317,
+          "durationInFrames": 223,
+          "caption": "หลายข้อเป็นเรื่องการกินนม ขนม และเครื่องดื่มที่มีน้ำตาล ทันตบุคลากรจึงถามเรื่องเหล่านี้",
+          "reveal": 2
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1000,
+      "durationInFrames": 1022,
+      "segments": [
+        {
+          "file": "audio/V-DENT-003/stage2-1-16edbaf504.wav",
+          "from": 18,
+          "durationInFrames": 214,
+          "caption": "ตอนที่ 2 สมุดระบุพฤติกรรมเสี่ยงเรื่องการกินไว้ 5 ข้อ เป็นเรื่องที่ครอบครัวช่วยปรับได้",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-DENT-003/stage2-2-c84a358f23.wav",
+          "from": 246,
+          "durationInFrames": 43,
+          "caption": "ดื่มนมรสหวาน",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-DENT-003/stage2-3-8877119ef7.wav",
+          "from": 303,
+          "durationInFrames": 240,
+          "caption": "ดื่มนมมื้อดึก ถ้ามีคำถามเรื่องการให้นมลูกตอนกลางคืน ถามทันตบุคลากรหรือเจ้าหน้าที่",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-DENT-003/stage2-4-75020623c6.wav",
+          "from": 557,
+          "durationInFrames": 74,
+          "caption": "ดูดนมขวด/หลับคาขวด",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-DENT-003/stage2-5-8d8a5360d5.wav",
+          "from": 645,
+          "durationInFrames": 134,
+          "caption": "ดูดนมรสหวาน/เครื่องดื่มที่มีน้ำตาล จากขวดนม",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-DENT-003/stage2-6-b517527fbb.wav",
+          "from": 793,
+          "durationInFrames": 202,
+          "caption": "รับประทานอาหารว่าง/ขนม/เครื่องดื่มที่มีน้ำตาล ระหว่างมื้อหลัก มากกว่า 2 ครั้งต่อวัน",
+          "reveal": 7
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 2022,
+      "durationInFrames": 1196,
+      "segments": [
+        {
+          "file": "audio/V-DENT-003/stage3-1-a9418ae0e8.wav",
+          "from": 18,
+          "durationInFrames": 103,
+          "caption": "ตอนที่ 3 ทันตบุคลากรช่วยอะไร",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-DENT-003/stage3-2-6abec16b06.wav",
+          "from": 135,
+          "durationInFrames": 288,
+          "caption": "บางข้อ ทันตบุคลากรตรวจดูในปากของลูกเอง เช่น คราบจุลินทรีย์ หรือขี้ฟัน และฟันผุเป็นรู",
+          "reveal": 8
+        },
+        {
+          "file": "audio/V-DENT-003/stage3-3-96db9f8524.wav",
+          "from": 437,
+          "durationInFrames": 209,
+          "caption": "เมื่อประเมินแล้วพบความเสี่ยง ทันตบุคลากรจะแนะนำให้ปรับพฤติกรรมเสี่ยง และสอนแปรงฟัน",
+          "reveal": 9
+        },
+        {
+          "file": "audio/V-DENT-003/stage3-4-d56c0c9598.wav",
+          "from": 660,
+          "durationInFrames": 257,
+          "caption": "ใช้ยาสีฟันและแปรงสีฟันได้ตั้งแต่ฟันซี่แรกของลูก ยาสีฟันที่ลูกควรใช้ ถามทันตบุคลากรได้",
+          "reveal": 10
+        },
+        {
+          "file": "audio/V-DENT-003/stage3-5-a442b78c75.wav",
+          "from": 931,
+          "durationInFrames": 238,
+          "caption": "ผลการประเมินและสิ่งที่ต้องทำต่อ ทันตบุคลากรจะอธิบายให้ นำสมุดไปด้วยทุกครั้ง",
+          "reveal": 11
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 3218,
+      "durationInFrames": 718,
+      "segments": [
+        {
+          "file": "audio/V-DENT-003/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 48,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-DENT-003/summary-2-9fa8c132b7.wav",
+          "from": 80,
+          "durationInFrames": 209,
+          "caption": "สมุดหน้า 62 เป็นหน้าที่ทันตบุคลากรใช้ประเมินความเสี่ยงต่อสุขภาพช่องปากของลูก",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-DENT-003/summary-3-8905d66bf0.wav",
+          "from": 303,
+          "durationInFrames": 206,
+          "caption": "พฤติกรรมเสี่ยงฟันผุเรื่องนม ขนม และเครื่องดื่มที่มีน้ำตาล ครอบครัวช่วยปรับได้",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-DENT-003/summary-4-a55353b7a3.wav",
+          "from": 523,
+          "durationInFrames": 168,
+          "caption": "มีคำถามเรื่องนม ขนม หรือยาสีฟัน ถามทันตบุคลากรได้",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

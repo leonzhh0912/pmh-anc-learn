@@ -1,0 +1,262 @@
+{
+  "id": "V-CH-007",
+  "lessonId": "MCH68-CH-007",
+  "version": "0.1.0",
+  "title": "ตรวจสุขภาพเด็กปฐมวัยตามนัด: แต่ละช่วงอายุตรวจอะไร",
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      42,
+      43
+    ],
+    "printedPages": [
+      "40",
+      "41"
+    ],
+    "note": "Narration derived from lesson MCH68-CH-007 v0.1.0"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-CH-007 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'สมุดหน้าสี่สิบและสี่สิบเอ็ด', 'สิบสี่แถวอายุ', 'บันทึกการตรวจสุขภาพเด็กปฐมวัย', 'คัดกรองออทิสติก', 'ความเข้มข้นเลือด' and 'เจริญอาหาร'.",
+      "HANDBOOK ISSUE (lesson): the visit schedule exists only as grey cell shading. The video names the table columns only and never says which check happens at which age; for timing it says only that staff will tell you what is checked each visit (item 10, summary 3) and to bring the book (item 11, summary 4). The grey-cell explanation and the per-age timeline from the lesson are deliberately left out. PMH to confirm before any schedule wording is used.",
+      "HANDBOOK ISSUE (lesson): unexplained white cells in the autism column and the oral-health / iron / counselling columns without checkboxes. Not mentioned; item 7 and item 8 only name the column headers.",
+      "Summary point 2 is the p42 tip word for word, ending 'ควรได้รับการคัดกรองภาวะซีดตามกำหนด'; 'ตามกำหนด' is the handbook wording and gives no ages. Item 8 includes the first half of the p43 iron-syrup tip (drops 'ในเด็ก' and 'เป็นโอกาสในการฝึกกินอาหารตามวัย' for caption length); no iron dose or age range is given (see MCH68-GROW-008).",
+      "Lesson note: 'staff will tell you what is checked / explain the results' and 'bring the book every time' are editorial framing (same as MCH68-REC-001), not printed on p42–43.",
+      "Abbreviation 'Hct' appears only in the on-screen item text, not in speech or captions.",
+      "Not used in the video: the 14 age rows read one by one, the parent-assessed options (ปกติ / สงสัยล่าช้า), the sort step and the family note."
+    ]
+  },
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3",
+    "stability": 0.5,
+    "style": 0,
+    "speed": 0.95,
+    "seed": 1234
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "kind": "title",
+      "heading": "ตรวจสุขภาพเด็กตามนัด",
+      "subheading": "จากสมุดบันทึกสุขภาพแม่และเด็ก ฉบับปรับปรุงใหม่ พ.ศ. 2568",
+      "chips": [
+        "หน้า 40–41",
+        "แรกเกิด – 6 ปี"
+      ],
+      "segments": [
+        {
+          "speak": "สมุดหน้าสี่สิบ และหน้าสี่สิบเอ็ด เป็นตารางเดียวกัน ชื่อ บันทึกการตรวจสุขภาพเด็กปฐมวัย",
+          "caption": "สมุดหน้า 40 และหน้า 41 เป็นตารางเดียวกัน ชื่อ บันทึกการตรวจสุขภาพเด็กปฐมวัย"
+        },
+        {
+          "speak": "ตารางมีสิบสี่แถวอายุ ตั้งแต่แรกเกิดถึงหกปี",
+          "caption": "ตารางมี 14 แถวอายุ ตั้งแต่แรกเกิดถึง 6 ปี"
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "kind": "stage",
+      "stage": 1,
+      "label": "หน้า 40",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 1,
+          "icon": "scale",
+          "text": "น้ำหนัก ความยาว/ส่วนสูง รอบศีรษะ"
+        },
+        {
+          "n": 2,
+          "icon": "check",
+          "text": "เติบโตสมส่วน และตรวจร่างกาย"
+        },
+        {
+          "n": 3,
+          "icon": "blood",
+          "text": "ความเข้มข้นเลือด (Hct)"
+        },
+        {
+          "n": 4,
+          "icon": "smile",
+          "text": "ตรวจระดับสายตา"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่หนึ่ง ช่องในหน้าสี่สิบ",
+          "caption": "ตอนที่ 1 ช่องในหน้า 40"
+        },
+        {
+          "reveal": 1,
+          "speak": "ข้อหนึ่ง น้ำหนัก ความยาวหรือส่วนสูง และรอบศีรษะ",
+          "caption": "ข้อ 1 น้ำหนัก ความยาวหรือส่วนสูง และรอบศีรษะ"
+        },
+        {
+          "reveal": 2,
+          "speak": "ข้อสอง เติบโตสมส่วน และตรวจร่างกาย",
+          "caption": "ข้อ 2 เติบโตสมส่วน และตรวจร่างกาย"
+        },
+        {
+          "reveal": 3,
+          "speak": "ข้อสาม ความเข้มข้นเลือด",
+          "caption": "ข้อ 3 ความเข้มข้นเลือด"
+        },
+        {
+          "reveal": 4,
+          "speak": "ข้อสี่ ตรวจระดับสายตา",
+          "caption": "ข้อ 4 ตรวจระดับสายตา"
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "kind": "stage",
+      "stage": 2,
+      "label": "หน้า 41",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 5,
+          "icon": "ear",
+          "text": "ตรวจการได้ยิน"
+        },
+        {
+          "n": 6,
+          "icon": "play",
+          "text": "พัฒนาการ: ผู้ปกครอง / เจ้าหน้าที่ประเมิน"
+        },
+        {
+          "n": 7,
+          "icon": "tooth",
+          "text": "คัดกรองออทิสติก และสุขภาพช่องปาก"
+        },
+        {
+          "n": 8,
+          "icon": "vitamin",
+          "text": "วิตามินเสริมธาตุเหล็ก"
+        },
+        {
+          "n": 9,
+          "icon": "chat",
+          "text": "ให้คำปรึกษาแนะนำสุขภาพ"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สอง ช่องในหน้าสี่สิบเอ็ด",
+          "caption": "ตอนที่ 2 ช่องในหน้า 41"
+        },
+        {
+          "reveal": 5,
+          "speak": "ข้อห้า ตรวจการได้ยิน",
+          "caption": "ข้อ 5 ตรวจการได้ยิน"
+        },
+        {
+          "reveal": 6,
+          "speak": "ข้อหก เฝ้าระวังพัฒนาการ ที่ผู้ปกครองประเมิน และคัดกรองพัฒนาการ ที่เจ้าหน้าที่ประเมิน",
+          "caption": "ข้อ 6 เฝ้าระวังพัฒนาการ ที่ผู้ปกครองประเมิน และคัดกรองพัฒนาการ ที่เจ้าหน้าที่ประเมิน"
+        },
+        {
+          "reveal": 7,
+          "speak": "ข้อเจ็ด คัดกรองออทิสติก และการตรวจสุขภาพช่องปาก",
+          "caption": "ข้อ 7 คัดกรองออทิสติก และการตรวจสุขภาพช่องปาก"
+        },
+        {
+          "reveal": 8,
+          "speak": "ข้อแปด วิตามินเสริมธาตุเหล็ก ขอบหน้าเขียนว่า ยาน้ำเสริมธาตุเหล็ก ช่วยทำให้เด็กเจริญอาหาร",
+          "caption": "ข้อ 8 วิตามินเสริมธาตุเหล็ก ขอบหน้าเขียนว่า ยาน้ำเสริมธาตุเหล็ก ช่วยทำให้เด็กเจริญอาหาร"
+        },
+        {
+          "reveal": 9,
+          "speak": "ข้อเก้า ให้คำปรึกษาแนะนำสุขภาพ",
+          "caption": "ข้อ 9 ให้คำปรึกษาแนะนำสุขภาพ"
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "kind": "stage",
+      "stage": 3,
+      "label": "ทุกครั้งที่มาตรวจ",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 10,
+          "icon": "ask",
+          "text": "ครั้งนี้ตรวจอะไร เจ้าหน้าที่จะบอก"
+        },
+        {
+          "n": 11,
+          "icon": "handbook",
+          "text": "นำสมุดมาด้วยทุกครั้ง"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สาม ทุกครั้งที่พาลูกมาตรวจ",
+          "caption": "ตอนที่ 3 ทุกครั้งที่พาลูกมาตรวจ"
+        },
+        {
+          "reveal": 10,
+          "speak": "ข้อสิบ ครั้งนี้ลูกจะได้ตรวจอะไร เจ้าหน้าที่จะบอก และผลแต่ละช่อง เจ้าหน้าที่จะอธิบาย",
+          "caption": "ข้อ 10 ครั้งนี้ลูกจะได้ตรวจอะไร เจ้าหน้าที่จะบอก และผลแต่ละช่อง เจ้าหน้าที่จะอธิบาย"
+        },
+        {
+          "reveal": 11,
+          "speak": "ข้อสิบเอ็ด นำสมุดมาด้วยทุกครั้ง ที่พาลูกมาตรวจ",
+          "caption": "ข้อ 11 นำสมุดมาด้วยทุกครั้ง ที่พาลูกมาตรวจ"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "kind": "summary",
+      "heading": "จำไว้ 4 เรื่อง",
+      "points": [
+        "ตาราง 14 แถวอายุ แรกเกิดถึง 6 ปี",
+        "ภาวะซีด ควรคัดกรองตามกำหนด",
+        "ครั้งนี้ตรวจอะไร เจ้าหน้าที่จะบอก",
+        "นำสมุดมาด้วยทุกครั้ง"
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "สรุปเรื่องสำคัญ",
+          "caption": "สรุปเรื่องสำคัญ"
+        },
+        {
+          "reveal": 1,
+          "speak": "สมุดหน้าสี่สิบถึงสี่สิบเอ็ด มีตารางตรวจสุขภาพเด็กปฐมวัย ตั้งแต่แรกเกิดถึงหกปี",
+          "caption": "สมุดหน้า 40–41 มีตารางตรวจสุขภาพเด็กปฐมวัย ตั้งแต่แรกเกิดถึง 6 ปี"
+        },
+        {
+          "reveal": 2,
+          "speak": "ภาวะซีดจากการขาดธาตุเหล็ก ส่งผลต่อสติปัญญาของเด็ก ควรได้รับการคัดกรองภาวะซีดตามกำหนด",
+          "caption": "ภาวะซีดจากการขาดธาตุเหล็ก ส่งผลต่อสติปัญญาของเด็ก ควรได้รับการคัดกรองภาวะซีดตามกำหนด"
+        },
+        {
+          "reveal": 3,
+          "speak": "แต่ละครั้งตรวจอะไร เจ้าหน้าที่จะบอก",
+          "caption": "แต่ละครั้งตรวจอะไร เจ้าหน้าที่จะบอก"
+        },
+        {
+          "reveal": 4,
+          "speak": "และนำสมุดมาด้วย ทุกครั้งที่พาลูกมาตรวจ",
+          "caption": "และนำสมุดมาด้วย ทุกครั้งที่พาลูกมาตรวจ"
+        }
+      ]
+    }
+  ]
+}

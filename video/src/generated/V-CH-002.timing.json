@@ -1,0 +1,196 @@
+{
+  "id": "V-CH-002",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 3866,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 422,
+      "segments": [
+        {
+          "file": "audio/V-CH-002/intro-1-24c78951fb.wav",
+          "from": 18,
+          "durationInFrames": 238,
+          "caption": "สมุดหน้า 34 ชื่อ บันทึกทารกแรกเกิด เป็นหน้าที่เจ้าหน้าที่เขียนให้ ช่วงที่ลูกเพิ่งเกิด",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-CH-002/intro-2-77e9cdd759.wav",
+          "from": 270,
+          "durationInFrames": 125,
+          "caption": "หน้านี้มีข้อมูลตอนเกิด และการคัดกรองสุขภาพ 5 เรื่อง",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 422,
+      "durationInFrames": 1057,
+      "segments": [
+        {
+          "file": "audio/V-CH-002/stage1-1-041e6fca56.wav",
+          "from": 18,
+          "durationInFrames": 118,
+          "caption": "ตอนที่ 1 ข้อมูลตอนเกิด ที่ส่วนบนของหน้า",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-002/stage1-2-b1a4515631.wav",
+          "from": 150,
+          "durationInFrames": 120,
+          "caption": "ข้อ 1 วันเดือนปีเกิด เวลาเกิด และเพศ",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-CH-002/stage1-3-ab7cba3eba.wav",
+          "from": 284,
+          "durationInFrames": 166,
+          "caption": "ข้อ 2 APGAR Score ที่นาทีที่ 1 นาทีที่ 5 และนาทีที่ 10",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-CH-002/stage1-4-7138315da2.wav",
+          "from": 464,
+          "durationInFrames": 216,
+          "caption": "ข้อ 3 ขนาดร่างกายทารกแรกเกิด คือ น้ำหนัก ความยาว และรอบศีรษะ",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-CH-002/stage1-5-d24b81bf95.wav",
+          "from": 694,
+          "durationInFrames": 137,
+          "caption": "ข้อ 4 วิตามินเค ว่าฉีด หรือไม่ฉีด พร้อมระบุเหตุผล",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-CH-002/stage1-6-c04dde8f3c.wav",
+          "from": 845,
+          "durationInFrames": 185,
+          "caption": "ข้อ 5 วันที่จำหน่าย คือวันที่ออกจากโรงพยาบาล และน้ำหนักวันที่จำหน่าย",
+          "reveal": 5
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1479,
+      "durationInFrames": 986,
+      "segments": [
+        {
+          "file": "audio/V-CH-002/stage2-1-4fa412fb67.wav",
+          "from": 18,
+          "durationInFrames": 149,
+          "caption": "ตอนที่ 2 ใต้หัวข้อ 'การคัดกรองสุขภาพ' มี 5 เรื่อง",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-002/stage2-2-2e9a8e87b4.wav",
+          "from": 181,
+          "durationInFrames": 67,
+          "caption": "ข้อ 6 คัดกรองไทรอยด์",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-CH-002/stage2-3-3111e332ef.wav",
+          "from": 262,
+          "durationInFrames": 108,
+          "caption": "ข้อ 7 ตรวจ IEM 40 โรค",
+          "reveal": 7
+        },
+        {
+          "file": "audio/V-CH-002/stage2-4-be54aebb8c.wav",
+          "from": 384,
+          "durationInFrames": 187,
+          "caption": "ข้อ 8 คัดกรองการได้ยิน บันทึกผลหูขวา และหูซ้าย แยกกัน",
+          "reveal": 8
+        },
+        {
+          "file": "audio/V-CH-002/stage2-5-1009e4b181.wav",
+          "from": 585,
+          "durationInFrames": 118,
+          "caption": "ข้อ 9 คัดกรองโรคหัวใจพิการชนิดเขียวรุนแรง",
+          "reveal": 9
+        },
+        {
+          "file": "audio/V-CH-002/stage2-6-2d69477f9d.wav",
+          "from": 717,
+          "durationInFrames": 242,
+          "caption": "ข้อ 10 คัดกรองภาวะเหลือง ผลและตัวเลขในหน้านี้ เจ้าหน้าที่จะอธิบาย สงสัยตรงไหน ถามได้",
+          "reveal": 10
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 2465,
+      "durationInFrames": 674,
+      "segments": [
+        {
+          "file": "audio/V-CH-002/stage3-1-62fb7c65ab.wav",
+          "from": 18,
+          "durationInFrames": 112,
+          "caption": "ตอนที่ 3 สองเรื่องที่ควรถามเจ้าหน้าที่",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-002/stage3-2-14a9db03d2.wav",
+          "from": 144,
+          "durationInFrames": 259,
+          "caption": "ข้อ 11 ถ้าเห็นคำว่า 'เรียกติดตาม' พร้อมวันที่ ถามว่าต้องพาลูกมาเมื่อไร และพาลูกมาตามนัด",
+          "reveal": 11
+        },
+        {
+          "file": "audio/V-CH-002/stage3-3-c609fb083a.wav",
+          "from": 417,
+          "durationInFrames": 230,
+          "caption": "ข้อ 12 แม่ติดเชื้อไวรัสตับอักเสบบี ลูกต้องได้วัคซีนป้องกันเพิ่ม นอกจากวัคซีนเด็กปกติ",
+          "reveal": 12
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 3139,
+      "durationInFrames": 727,
+      "segments": [
+        {
+          "file": "audio/V-CH-002/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-002/summary-2-b34be91ec3.wav",
+          "from": 78,
+          "durationInFrames": 168,
+          "caption": "ลูกแรกเกิดมีการคัดกรองสุขภาพ 5 เรื่อง บันทึกไว้ในสมุดหน้า 34",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-CH-002/summary-3-8b6f343405.wav",
+          "from": 260,
+          "durationInFrames": 240,
+          "caption": "ผลและตัวเลขในหน้านี้ เจ้าหน้าที่จะอธิบาย วัคซีนที่ลูกต้องได้และวันนัด ถามเจ้าหน้าที่ได้",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-CH-002/summary-4-b383f58335.wav",
+          "from": 514,
+          "durationInFrames": 186,
+          "caption": "และถ้าเห็นคำว่า 'เรียกติดตาม' พร้อมวันที่ ถามเจ้าหน้าที่ และพาลูกมาตามนัด",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

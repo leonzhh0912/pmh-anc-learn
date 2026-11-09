@@ -10,7 +10,8 @@
     "preview": "vite preview --host",
     "validate:content": "tsx scripts/validate-content.ts",
     "lint": "oxlint",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "review-pack": "tsx scripts/review-pack.ts"
   },
   "dependencies": {
     "react": "^19.3.1",

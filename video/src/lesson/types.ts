@@ -2,8 +2,27 @@ export type ScriptSegment = { speak: string; caption: string; reveal?: number };
 export type ScriptItem = { n: number; icon: string; text: string };
 
 export type ScriptScene =
-  | { id: string; kind: "title"; heading: string; subheading: string; segments: ScriptSegment[] }
-  | { id: string; kind: "stage"; stage: number; label: string; items: ScriptItem[]; segments: ScriptSegment[] }
+  | {
+      id: string;
+      kind: "title";
+      heading: string;
+      subheading: string;
+      /** optional topic chips shown under the title, revealed with the 2nd segment */
+      chips?: string[];
+      segments: ScriptSegment[];
+    }
+  | {
+      id: string;
+      kind: "stage";
+      stage: number;
+      label: string;
+      /** word before the part number: "ตอนที่" (default) or e.g. "ช่วงที่" for time periods */
+      prefix?: string;
+      /** hide the "ข้อ N" badges when item texts carry their own numbering */
+      hideNumbers?: boolean;
+      items: ScriptItem[];
+      segments: ScriptSegment[];
+    }
   | { id: string; kind: "summary"; heading: string; points: string[]; segments: ScriptSegment[] };
 
 export type VideoScript = {
@@ -42,4 +61,13 @@ export function activeReveal(scene: TimingScene, f: number): number {
 /** Frame (scene-relative) when a given reveal value starts. */
 export function revealFrame(scene: TimingScene, reveal: number): number {
   return scene.segments.find((s) => s.reveal === reveal)?.from ?? Infinity;
+}
+
+/** Page label as families see it in the paper book (printed = PDF − 2 for PDF p3–p66). */
+export function printedLabel(pdfPage: number): string {
+  if (pdfPage === 1) return "ปกหน้า";
+  if (pdfPage === 2) return "ด้านในปกหน้า";
+  if (pdfPage === 67) return "หน้าสรุปท้ายเล่ม";
+  if (pdfPage === 68) return "ปกหลัง";
+  return `หน้า ${pdfPage - 2}`;
 }

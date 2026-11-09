@@ -1,0 +1,386 @@
+{
+  "id": "MCH68-GROW-001",
+  "version": "0.1.1",
+  "title": "การใช้กราฟการเจริญเติบโตของลูก",
+  "summary": "กราฟการเจริญเติบโตใช้ทำอะไร เลือกกราฟอย่างไร และจุดข้อมูลลงกราฟอย่างไร จากตัวอย่างเด็กหญิงสดใสในสมุดสีชมพูหน้า 42",
+  "sectionId": "growth",
+  "stages": [
+    "newborn",
+    "child"
+  ],
+  "audience": [
+    "mother",
+    "family"
+  ],
+  "minutes": 6,
+  "objectives": [
+    "ผู้เรียนอธิบายได้ว่าการประเมินการเจริญเติบโตต้องดูแนวโน้มการเปลี่ยนแปลงตามระยะเวลา ไม่ใช้การวัด ณ จุดใดจุดหนึ่ง",
+    "ผู้เรียนเลือกกราฟให้ถูกเพศของเด็ก และบอกได้ว่าเส้นแนวนอนแทนช่วงอายุ เส้นแนวตั้งแทนเส้นรอบศีรษะ น้ำหนัก หรือความยาว/ส่วนสูง",
+    "ผู้เรียนจุดข้อมูลตัวอย่างในสมุด (เด็กหญิงสดใส อายุ 3 ปี 6 เดือน = 42 เดือน น้ำหนัก 16 กิโลกรัม สูง 100 เซนติเมตร) ลงกราฟได้ถูกตำแหน่ง"
+  ],
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      44
+    ],
+    "printedPages": [
+      "42"
+    ],
+    "note": "หน้า 'การใช้กราฟแสดงการเจริญเติบโต' และ 'คำแนะนำการลงข้อมูลในกราฟ' พร้อมตัวอย่างเด็กหญิงสดใส 3 กราฟ บทเรียนนี้สอนวิธีใช้และจุดกราฟเท่านั้น ไม่สอนการแปลผล (การแปลผลอยู่ในสมุดหน้า 43 และบทเรียน GROW-002)"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Purpose paragraph, the 3 plotting instructions (choose the chart for the child's sex; horizontal line = age; vertical line = head circumference, weight or length/height), the example (เด็กหญิงสดใส อายุ 3 ปี 6 เดือน (เท่ากับ 42 เดือน) น้ำหนัก 16 กิโลกรัม สูง 100 เซนติเมตร) and the margin tip are from PDF p44 (printed 42), checked on a zoomed crop of the official page image.",
+      "Plotting positions come from the three example charts on p44: weight-for-age — age 42 (months, x-axis) and 16 (kg, y-axis); height-for-age — 42 and 100 cm; weight-for-height — x-axis 'ส่วนสูง (เซนติเมตร)' 100, y-axis 'น้ำหนัก (กิโลกรัม)' 16. Dotted arrows meet at a red dot in each chart. 'Draw a line up from the age and across from the measurement and mark where they meet' is a plain description of these drawings, not printed text.",
+      "HANDBOOK ISSUE: the instructions say 'เส้นแนวนอน - แทนช่วงอายุของเด็ก', but the third example chart on the same page (weight-for-height) has height (ส่วนสูง (เซนติเมตร)) on the horizontal axis and no age. The lesson states the printed rule for the age-based charts and describes the weight-for-height chart as drawn; reviewer to decide whether to clarify.",
+      "Interpretation deliberately NOT taught (high-risk lesson GROW-002): colour-band names, SD lines and the p44 'สรุป' for สดใส (น้ำหนักตามเกณฑ์ / ส่วนสูงตามเกณฑ์ / เติบโตสมส่วน) are omitted. Text step 3 ('จุดแล้ว อ่านผลอย่างไร'), quiz q2/q4 feedback and the takeaways say staff explain the result and point to printed page 43.",
+      "Age-to-months conversion: the handbook only gives '3 ปี 6 เดือน (เท่ากับ 42 เดือน)'. The general method 'ปี × 12 + เดือน' and the practice item '1 ปี 3 เดือน = 15 เดือน' (timeline item 2) are editorial arithmetic. The x-axis of the p44 weight-for-age example is in months (42, 48, 54 … 72).",
+      "Sort step ('เส้นแนวนอน' vs 'เส้นแนวตั้ง') applies to the age-based charts only; the intro says so because of the HANDBOOK ISSUE above.",
+      "'ทุกครั้งที่ไปรับบริการ ชั่ง วัด แล้วลงกราฟ' in text step 3 and the family note are app framing of the margin tip 'พ่อแม่ผู้ดูแลเด็ก ควรร่วมกับเจ้าหน้าที่สาธารณสุขในการบันทึกการเจริญเติบโตของเด็กอย่างต่อเนื่อง'. The handbook does not give a measuring schedule on this page; none is added.",
+      "Quiz q1 scenario-style statement (weighing once), q4 scenario (plotting สดใส's point) and all wrong options are written for this lesson.",
+      "Family note is app framing. Needs approval.",
+      "PMH clarification (from curriculum): whether the app should ever plot a real child's data (needs chart-data permission and PMH clinical governance). This lesson plots only the printed example; it collects no data.",
+      "Nutritionist + well-child nurse to review (curriculum review requirement)."
+    ]
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "First draft from official handbook PDF p44 (2nd printing, April 2569); how to use and plot the growth charts, no interpretation."
+    },
+    {
+      "version": "0.1.1",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "Added video step V-GROW-001 (narration derived from this lesson; no text changes)."
+    }
+  ],
+  "steps": [
+    {
+      "type": "text",
+      "heading": "กราฟการเจริญเติบโตใช้ทำอะไร",
+      "paragraphs": [
+        "กราฟการเจริญเติบโตของเด็ก ใช้ติดตามการเปลี่ยนแปลงขนาดของร่างกายอย่างต่อเนื่อง เพื่อดูแนวโน้มการเจริญเติบโตของเด็กว่าเป็นไปตามเกณฑ์มาตรฐานหรือไม่",
+        "การประเมินการเจริญเติบโต ไม่สามารถใช้การวัด ณ จุดใดจุดหนึ่งได้ ต้องดูแนวโน้มการเปลี่ยนแปลงตามระยะเวลา",
+        "การบันทึกข้อมูลอย่างต่อเนื่อง ช่วยในการติดตาม และใช้อ้างอิงในการรักษาได้"
+      ]
+    },
+    {
+      "type": "video",
+      "heading": "ดูวิดีโอสรุป",
+      "videoId": "V-GROW-001"
+    },
+    {
+      "type": "text",
+      "heading": "คำแนะนำการลงข้อมูลในกราฟ",
+      "paragraphs": [
+        "เริ่มจาก เลือกใช้กราฟให้ถูกเพศกับเด็ก เพราะเด็กชายและเด็กหญิงมีค่าการเจริญเติบโตที่แตกต่างกัน",
+        "เส้นแนวนอน แทนช่วงอายุของเด็ก ในกราฟตัวอย่างนับอายุเป็นเดือน",
+        "เส้นแนวตั้ง แทนเส้นรอบศีรษะ หรือน้ำหนัก หรือความยาว/ส่วนสูงของเด็ก",
+        "ตัวอย่างในสมุด: เด็กหญิงสดใส อายุ 3 ปี 6 เดือน (เท่ากับ 42 เดือน) น้ำหนัก 16 กิโลกรัม สูง 100 เซนติเมตร"
+      ]
+    },
+    {
+      "type": "text",
+      "heading": "จุดแล้ว อ่านผลอย่างไร",
+      "paragraphs": [
+        "สีและเส้นในกราฟแต่ละช่วงมีความหมาย ความหมายอยู่ในสมุดหน้า 43 และเจ้าหน้าที่จะเป็นผู้อธิบายผลให้",
+        "สมุดแนะนำว่า พ่อแม่ผู้ดูแลเด็ก ควรร่วมกับเจ้าหน้าที่สาธารณสุขในการบันทึกการเจริญเติบโตของเด็กอย่างต่อเนื่อง ทุกครั้งที่ไปรับบริการ ชั่ง วัด แล้วลงกราฟด้วยกัน"
+      ]
+    },
+    {
+      "type": "timeline",
+      "heading": "ลองจุดกราฟของสดใส",
+      "intro": "แตะทีละขั้น ทำตามตัวอย่างในสมุดหน้า 42",
+      "stages": [
+        {
+          "id": "prep",
+          "label": "เตรียม",
+          "items": [
+            {
+              "n": 1,
+              "title": "เลือกกราฟให้ถูกเพศ",
+              "detail": "สดใสเป็นเด็กหญิง จึงใช้กราฟของเด็กหญิง"
+            },
+            {
+              "n": 2,
+              "title": "เปลี่ยนอายุเป็นเดือน",
+              "detail": "3 ปี 6 เดือน เท่ากับ 42 เดือน (3 ปี × 12 = 36 เดือน บวกอีก 6 เดือน) ลองอีกตัวอย่าง: 1 ปี 3 เดือน เท่ากับ 15 เดือน"
+            }
+          ]
+        },
+        {
+          "id": "wfa",
+          "label": "กราฟน้ำหนักตามอายุ",
+          "items": [
+            {
+              "n": 3,
+              "title": "หาอายุบนเส้นแนวนอน",
+              "detail": "หา 42 เดือน แล้วลากเส้นขึ้นไปตรง ๆ"
+            },
+            {
+              "n": 4,
+              "title": "หาน้ำหนักบนเส้นแนวตั้ง",
+              "detail": "หา 16 กิโลกรัม แล้วลากเส้นมาตามแนวนอน"
+            },
+            {
+              "n": 5,
+              "title": "จุดตรงที่เส้นพบกัน",
+              "detail": "ทำจุดตรงที่ 2 เส้นมาพบกัน เหมือนจุดสีแดงในตัวอย่าง"
+            }
+          ]
+        },
+        {
+          "id": "hfa",
+          "label": "กราฟส่วนสูงตามอายุ",
+          "items": [
+            {
+              "n": 6,
+              "title": "อายุ 42 เดือน กับส่วนสูง 100 เซนติเมตร",
+              "detail": "หา 42 เดือนบนเส้นแนวนอน หา 100 เซนติเมตรบนเส้นแนวตั้ง แล้วจุดตรงที่เส้นพบกัน"
+            }
+          ]
+        },
+        {
+          "id": "wfh",
+          "label": "กราฟน้ำหนักตามส่วนสูง",
+          "items": [
+            {
+              "n": 7,
+              "title": "กราฟนี้ไม่ใช้อายุ",
+              "detail": "ในตัวอย่าง เส้นแนวนอนเป็นส่วนสูง (เซนติเมตร) เส้นแนวตั้งเป็นน้ำหนัก (กิโลกรัม) หา 100 เซนติเมตร กับ 16 กิโลกรัม แล้วจุดตรงที่เส้นพบกัน"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "heading": "อยู่บนเส้นไหน",
+      "intro": "ในกราฟที่ใช้อายุ เช่น กราฟน้ำหนักตามอายุ กราฟส่วนสูงตามอายุ แตะการ์ดหนึ่งใบ แล้วแตะเส้นที่ถูกต้อง",
+      "buckets": [
+        {
+          "id": "h",
+          "label": "เส้นแนวนอน"
+        },
+        {
+          "id": "v",
+          "label": "เส้นแนวตั้ง"
+        }
+      ],
+      "items": [
+        {
+          "id": "s1",
+          "text": "ช่วงอายุของเด็ก",
+          "bucketId": "h"
+        },
+        {
+          "id": "s2",
+          "text": "น้ำหนัก 16 กิโลกรัม ของสดใส",
+          "bucketId": "v"
+        },
+        {
+          "id": "s3",
+          "text": "เส้นรอบศีรษะ",
+          "bucketId": "v"
+        },
+        {
+          "id": "s4",
+          "text": "อายุ 42 เดือน ของสดใส",
+          "bucketId": "h"
+        },
+        {
+          "id": "s5",
+          "text": "ความยาว/ส่วนสูง",
+          "bucketId": "v"
+        },
+        {
+          "id": "s6",
+          "text": "ส่วนสูง 100 เซนติเมตร ของสดใส",
+          "bucketId": "v"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "heading": "ทบทวนความเข้าใจ",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "prompt": "ชั่งน้ำหนักลูกครั้งเดียว ก็บอกได้แล้วว่าลูกเติบโตดีหรือไม่ จริงหรือไม่",
+          "options": [
+            {
+              "id": "t",
+              "text": "จริง",
+              "feedback": "ไม่ใช่ สมุดเขียนว่า การประเมินการเจริญเติบโตไม่สามารถใช้การวัด ณ จุดใดจุดหนึ่งได้"
+            },
+            {
+              "id": "f",
+              "text": "ไม่จริง",
+              "feedback": "ถูกต้อง ต้องดูแนวโน้มการเปลี่ยนแปลงตามระยะเวลา"
+            }
+          ],
+          "correctOptionId": "f",
+          "explanation": "สมุดหน้า 42: การประเมินการเจริญเติบโตไม่สามารถใช้การวัด ณ จุดใดจุดหนึ่งได้ จะต้องอาศัยแนวโน้มในการเปลี่ยนแปลงตามระยะเวลา",
+          "source": {
+            "pdfPages": [
+              44
+            ],
+            "printedPages": [
+              "42"
+            ]
+          }
+        },
+        {
+          "id": "q2",
+          "kind": "mcq",
+          "prompt": "ก่อนลงข้อมูลในกราฟ สมุดให้เริ่มจากอะไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "ดูว่าจุดอยู่ในสีอะไร",
+              "feedback": "ยังไม่ใช่ สมุดให้เริ่มจาก เลือกใช้กราฟให้ถูกเพศกับเด็ก ส่วนความหมายของผล เจ้าหน้าที่จะอธิบายให้"
+            },
+            {
+              "id": "b",
+              "text": "เลือกใช้กราฟให้ถูกเพศกับเด็ก",
+              "feedback": "ถูกต้อง เด็กชายและเด็กหญิงมีค่าการเจริญเติบโตที่แตกต่างกัน"
+            },
+            {
+              "id": "c",
+              "text": "ใช้กราฟไหนก็ได้ เด็กชายและเด็กหญิงเหมือนกัน",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า เด็กชายและเด็กหญิงจะมีค่าการเจริญเติบโตที่แตกต่างกัน"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "สมุดหน้า 42: เริ่มจาก เลือกใช้กราฟให้ถูกเพศกับเด็ก เด็กชายและเด็กหญิงจะมีค่าการเจริญเติบโตที่แตกต่างกัน",
+          "source": {
+            "pdfPages": [
+              44
+            ],
+            "printedPages": [
+              "42"
+            ]
+          }
+        },
+        {
+          "id": "q3",
+          "kind": "mcq",
+          "prompt": "อายุ 3 ปี 6 เดือน เท่ากับกี่เดือน",
+          "options": [
+            {
+              "id": "a",
+              "text": "36 เดือน",
+              "feedback": "ยังไม่ใช่ 36 เดือน คือ 3 ปีพอดี ต้องบวกอีก 6 เดือน"
+            },
+            {
+              "id": "b",
+              "text": "39 เดือน",
+              "feedback": "ยังไม่ใช่ 3 ปี เท่ากับ 36 เดือน บวก 6 เดือน เป็น 42 เดือน"
+            },
+            {
+              "id": "c",
+              "text": "42 เดือน",
+              "feedback": "ถูกต้อง 3 ปี 6 เดือน เท่ากับ 42 เดือน"
+            }
+          ],
+          "correctOptionId": "c",
+          "explanation": "ตัวอย่างในสมุดหน้า 42: เด็กหญิงสดใส อายุ 3 ปี 6 เดือน (เท่ากับ 42 เดือน)",
+          "source": {
+            "pdfPages": [
+              44
+            ],
+            "printedPages": [
+              "42"
+            ]
+          }
+        },
+        {
+          "id": "q4",
+          "kind": "scenario",
+          "scenario": "คุณแม่กำลังจุดกราฟน้ำหนักตามอายุของสดใส อายุ 42 เดือน น้ำหนัก 16 กิโลกรัม",
+          "prompt": "ควรจุดตรงไหน",
+          "options": [
+            {
+              "id": "a",
+              "text": "ตรงที่อายุ 42 เดือน (เส้นแนวนอน) พบกับน้ำหนัก 16 กิโลกรัม (เส้นแนวตั้ง)",
+              "feedback": "ถูกต้อง ลากจากอายุบนเส้นแนวนอน และน้ำหนักบนเส้นแนวตั้ง แล้วจุดตรงที่เส้นพบกัน"
+            },
+            {
+              "id": "b",
+              "text": "ตรงที่น้ำหนัก 42 กิโลกรัม พบกับอายุ 16 เดือน",
+              "feedback": "ยังไม่ใช่ สลับกันอยู่ เส้นแนวนอนแทนอายุ (42 เดือน) เส้นแนวตั้งแทนน้ำหนัก (16 กิโลกรัม)"
+            },
+            {
+              "id": "c",
+              "text": "ตรงอายุ 42 เดือน บนเส้นแนวนอนอย่างเดียว",
+              "feedback": "ยังไม่ใช่ ต้องใช้ทั้งอายุและน้ำหนัก แล้วจุดตรงที่ 2 เส้นมาพบกัน"
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "สมุดหน้า 42: เส้นแนวนอนแทนช่วงอายุของเด็ก เส้นแนวตั้งแทนน้ำหนัก ในตัวอย่างลากเส้นจาก 42 เดือน และ 16 กิโลกรัม มาพบกันที่จุดสีแดง ความหมายของตำแหน่งจุด เจ้าหน้าที่จะอธิบายให้",
+          "source": {
+            "pdfPages": [
+              44
+            ],
+            "printedPages": [
+              "42"
+            ]
+          }
+        },
+        {
+          "id": "q5",
+          "kind": "mcq",
+          "prompt": "ในกราฟตามอายุ เส้นแนวตั้งแทนอะไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "อายุของเด็ก",
+              "feedback": "ยังไม่ใช่ อายุอยู่บนเส้นแนวนอน"
+            },
+            {
+              "id": "b",
+              "text": "เส้นรอบศีรษะ หรือน้ำหนัก หรือความยาว/ส่วนสูงของเด็ก",
+              "feedback": "ถูกต้อง เส้นแนวตั้งแทนเส้นรอบศีรษะ หรือน้ำหนัก หรือความยาว/ส่วนสูงของเด็ก"
+            },
+            {
+              "id": "c",
+              "text": "วันที่ไปรับบริการ",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า เส้นแนวตั้งแทนเส้นรอบศีรษะ หรือน้ำหนัก หรือความยาว/ส่วนสูงของเด็ก"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "สมุดหน้า 42: เส้นแนวนอน แทนช่วงอายุของเด็ก เส้นแนวตั้ง แทนเส้นรอบศีรษะ หรือน้ำหนัก หรือความยาว/ส่วนสูงของเด็ก",
+          "source": {
+            "pdfPages": [
+              44
+            ],
+            "printedPages": [
+              "42"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "takeaways",
+      "heading": "สรุปสิ่งสำคัญ",
+      "items": [
+        "ดูการเจริญเติบโตจากแนวโน้มตามระยะเวลา ไม่ใช่จากการวัดครั้งเดียว",
+        "เลือกใช้กราฟให้ถูกเพศกับเด็ก",
+        "เส้นแนวนอนแทนช่วงอายุ เส้นแนวตั้งแทนเส้นรอบศีรษะ น้ำหนัก หรือความยาว/ส่วนสูง",
+        "จุดตรงที่เส้นของอายุและเส้นของค่าที่วัดมาพบกัน เช่น สดใส 42 เดือน น้ำหนัก 16 กิโลกรัม",
+        "ความหมายของผล เจ้าหน้าที่จะอธิบายให้"
+      ],
+      "familyNote": "ใครก็ตามที่พาลูกไปรับบริการ เช่น คนในครอบครัว ปู่ย่าตายาย หรือคนที่ดูแล นำสมุดสีชมพูไปด้วย และร่วมกับเจ้าหน้าที่บันทึกการเจริญเติบโตของเด็กอย่างต่อเนื่อง"
+    }
+  ]
+}

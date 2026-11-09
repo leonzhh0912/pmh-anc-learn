@@ -1,0 +1,175 @@
+{
+  "id": "V-GROW-001",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 3550,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 323,
+      "segments": [
+        {
+          "file": "audio/V-GROW-001/intro-1-69f2a086ea.wav",
+          "from": 18,
+          "durationInFrames": 156,
+          "caption": "กราฟการเจริญเติบโต ใช้ติดตามการเปลี่ยนแปลงขนาดของร่างกายอย่างต่อเนื่อง",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-GROW-001/intro-2-8f1b559cbc.wav",
+          "from": 188,
+          "durationInFrames": 108,
+          "caption": "มาฝึกจุดกราฟ ตามตัวอย่างในสมุดหน้า 42",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 323,
+      "durationInFrames": 789,
+      "segments": [
+        {
+          "file": "audio/V-GROW-001/stage1-1-9cf20bf012.wav",
+          "from": 18,
+          "durationInFrames": 71,
+          "caption": "ตอนที่ 1 อ่านกราฟก่อนจุด",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-001/stage1-2-8315c1f31c.wav",
+          "from": 103,
+          "durationInFrames": 211,
+          "caption": "ข้อ 1 เลือกกราฟให้ถูกเพศ เพราะเด็กชายและเด็กหญิง มีค่าการเจริญเติบโตที่แตกต่างกัน",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-GROW-001/stage1-3-b2203e4c54.wav",
+          "from": 328,
+          "durationInFrames": 218,
+          "caption": "ข้อ 2 ในกราฟที่ใช้อายุ เส้นแนวนอนแทนช่วงอายุของเด็ก กราฟตัวอย่างนับอายุเป็นเดือน",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-GROW-001/stage1-4-efffbf5613.wav",
+          "from": 560,
+          "durationInFrames": 202,
+          "caption": "ข้อ 3 เส้นแนวตั้ง แทนเส้นรอบศีรษะ หรือน้ำหนัก หรือความยาว/ส่วนสูงของเด็ก",
+          "reveal": 3
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1112,
+      "durationInFrames": 1078,
+      "segments": [
+        {
+          "file": "audio/V-GROW-001/stage2-1-d51dea70a1.wav",
+          "from": 18,
+          "durationInFrames": 120,
+          "caption": "ตอนที่ 2 ตัวอย่างในสมุด กราฟน้ำหนักตามอายุ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-001/stage2-2-c97be5f89a.wav",
+          "from": 152,
+          "durationInFrames": 274,
+          "caption": "ข้อ 4 สดใส อายุ 3 ปี 6 เดือน เท่ากับ 42 เดือน น้ำหนัก 16 กิโลกรัม สูง 100 เซนติเมตร",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-GROW-001/stage2-3-d81437c803.wav",
+          "from": 440,
+          "durationInFrames": 259,
+          "caption": "ข้อ 5 สดใสเป็นเด็กหญิง ใช้กราฟเด็กหญิง หา 42 เดือนบนเส้นแนวนอน แล้วลากเส้นขึ้นไปตรง ๆ",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-GROW-001/stage2-4-d30b6caed8.wav",
+          "from": 713,
+          "durationInFrames": 175,
+          "caption": "ข้อ 6 หา 16 กิโลกรัมบนเส้นแนวตั้ง แล้วลากเส้นมาตามแนวนอน",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-GROW-001/stage2-5-a875e5f6bf.wav",
+          "from": 902,
+          "durationInFrames": 149,
+          "caption": "ข้อ 7 ทำจุดตรงที่ 2 เส้นมาพบกัน เหมือนจุดสีแดงในตัวอย่าง",
+          "reveal": 7
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 2190,
+      "durationInFrames": 634,
+      "segments": [
+        {
+          "file": "audio/V-GROW-001/stage3-1-6cd4514439.wav",
+          "from": 18,
+          "durationInFrames": 93,
+          "caption": "ตอนที่ 3 อีก 2 กราฟในตัวอย่าง",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-001/stage3-2-aa5b91f9e7.wav",
+          "from": 125,
+          "durationInFrames": 240,
+          "caption": "ข้อ 8 กราฟส่วนสูงตามอายุ หา 42 เดือน กับ 100 เซนติเมตร แล้วจุดตรงที่เส้นพบกัน",
+          "reveal": 8
+        },
+        {
+          "file": "audio/V-GROW-001/stage3-3-49256538e6.wav",
+          "from": 379,
+          "durationInFrames": 228,
+          "caption": "ข้อ 9 กราฟน้ำหนักตามส่วนสูง ไม่ใช้อายุ เส้นแนวนอนเป็นส่วนสูง เส้นแนวตั้งเป็นน้ำหนัก",
+          "reveal": 9
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 2824,
+      "durationInFrames": 726,
+      "segments": [
+        {
+          "file": "audio/V-GROW-001/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 43,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-001/summary-2-5ed9151094.wav",
+          "from": 75,
+          "durationInFrames": 156,
+          "caption": "ดูการเจริญเติบโตจากแนวโน้มตามระยะเวลา ไม่ใช่จากการวัดครั้งเดียว",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-GROW-001/summary-3-4b863e86d7.wav",
+          "from": 245,
+          "durationInFrames": 214,
+          "caption": "เลือกกราฟให้ถูกเพศ แล้วจุดตรงที่เส้นของอายุ กับเส้นของค่าที่วัด มาพบกัน",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-GROW-001/summary-4-c915c19065.wav",
+          "from": 473,
+          "durationInFrames": 226,
+          "caption": "สีและเส้นในกราฟมีความหมาย อยู่ในสมุดหน้า 43 และเจ้าหน้าที่จะเป็นผู้อธิบายผลให้",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

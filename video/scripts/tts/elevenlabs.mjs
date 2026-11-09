@@ -38,6 +38,7 @@ export async function elevenlabs(voice, text) {
       method: "POST",
       headers: { "xi-api-key": process.env.ELEVENLABS_API_KEY, "Content-Type": "application/json" },
       body: JSON.stringify(body),
+      signal: AbortSignal.timeout(90_000), // fail fast on a dead connection; the batch retries
     },
   );
   if (!res.ok) throw await httpError(res, "ElevenLabs");

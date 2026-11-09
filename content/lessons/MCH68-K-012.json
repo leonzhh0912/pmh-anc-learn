@@ -1,0 +1,313 @@
+{
+  "id": "MCH68-K-012",
+  "version": "0.1.1",
+  "title": "สื่อหน้าจอกับพัฒนาการเด็ก",
+  "summary": "เด็กแต่ละวัยใช้สื่อหน้าจอได้แค่ไหน ช่วงไหนควรหลีกเลี่ยง และผู้ปกครองเป็นแบบอย่างได้อย่างไร ตามสมุดหน้า 28",
+  "sectionId": "knowledge",
+  "stages": [
+    "newborn",
+    "child"
+  ],
+  "audience": [
+    "mother",
+    "family"
+  ],
+  "minutes": 5,
+  "objectives": [
+    "ผู้เรียนบอกได้ว่าเด็กอายุน้อยกว่า 2 ปี ห้ามใช้สื่อหน้าจอ (ยกเว้นวิดีโอคอล)",
+    "ผู้เรียนบอกข้อจำกัดสำหรับเด็กอายุ 2 ปีขึ้นไปได้: จำกัด 1 ชม./ครั้ง และไม่เกิน 2 ครั้ง/วัน (มีผู้ดูแล)",
+    "ผู้เรียนบอกช่วงที่ควรหลีกเลี่ยงหน้าจอ (ระหว่างมื้ออาหาร และช่วงก่อนนอน 1 ชั่วโมง) และบอกได้ว่าไม่ควรให้เด็กใช้สื่อหน้าจอตามลำพัง รวมถึงการเปิดจอทิ้งไว้"
+  ],
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      30
+    ],
+    "printedPages": [
+      "28"
+    ],
+    "note": "ส่วน 'สื่อหน้าจอกับพัฒนาการเด็ก' ครึ่งบนของหน้า 28: การ์ดภาพ 3 ใบ (อายุน้อยกว่า 2 ปี / อายุ 2 ปีขึ้นไป / หลีกเลี่ยง) การ์ด 'ผู้ปกครองควรเป็นแบบอย่างที่ดี' และข้อความแนะนำที่ขอบซ้าย"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "All rules are from PDF p30 (printed 28), checked on the official page image, a zoomed crop of the cards and a rotated crop of the margin strip: 'อายุน้อยกว่า 2 ปี : ห้ามใช้สื่อหน้าจอ (ยกเว้นวิดีโอคอล)'; 'อายุ 2 ปีขึ้นไป : จำกัด 1 ชม./ครั้ง และไม่เกิน 2 ครั้ง/วัน (มีผู้ดูแล)'; 'หลีกเลี่ยง : ดูจอระหว่างมื้ออาหาร/และช่วงก่อนนอน 1 ชั่วโมง'; 'ผู้ปกครองควรเป็นแบบอย่างที่ดี'; margin tip 'ไม่ควรให้เด็กใช้สื่อหน้าจอตามลำพัง รวมถึงการเปิดจอทิ้งไว้'.",
+      "2nd-printing wording: 'และไม่เกิน 2 ครั้ง/วัน' is new in this printing (the 1st printing, which must not be used, had only the 1-hour limit and '(หรือนานกว่า)' wording). The lesson uses the 2nd-printing text only.",
+      "On the zoomed card crop '(มีผู้ดูแล)' renders slightly broken; at normal size and in the extraction it reads 'มีผู้ดูแล'. Reviewer to confirm against a paper copy.",
+      "The handbook does not define 'สื่อหน้าจอ' or 'มีผู้ดูแล'. Examples 'โทรศัพท์ แท็บเล็ต ทีวี' are taken from the page illustrations (phone, tablet) and the margin tip ('เปิดจอทิ้งไว้'); TV is an editorial example. 'มีผู้ดูแล' is shown as 'มีผู้ใหญ่ดูแลอยู่ด้วย' in sort cards (editorial gloss).",
+      "The handbook gives no reason or evidence for the limits; the lesson adds none (the 1st printing's brain-development paragraph was removed in this printing).",
+      "App-is-a-screen framing (curriculum PMH clarification): text step 1 says this lesson is for adults and should not be shown to children under 2. Editorial; PMH to approve.",
+      "Sort cards and quiz scenarios (video call with grandma, cartoon at dinner, tablet until bedtime, TV left on while the child plays alone, 3 times a day) are everyday situations written for this lesson. Each card maps to one printed rule; ages avoid the 2-year boundary.",
+      "Quiz wrong options written for this lesson: q1 'ได้วันละ 1 ชั่วโมง', 'ดูได้ ถ้าเป็นรายการสำหรับเด็ก'; q2 'ไม่จำกัด ถ้ามีผู้ใหญ่อยู่ด้วย', 'ครั้งละ 2 ชั่วโมง วันละ 1 ครั้ง'; q5 'ให้ดูได้ ถ้าช่วยให้ลูกกินข้าวได้มากขึ้น', 'ให้ดูได้ ถ้าเปิดเสียงเบา'. Feedback only repeats the printed rules.",
+      "Family note (everyone who looks after the child uses the same rules; adults put their own phones down) is app framing built on 'ผู้ปกครองควรเป็นแบบอย่างที่ดี'. Needs approval.",
+      "Not included: 'การป้องกันการบาดเจ็บในเด็ก' (lower half of p30; separate topic). Audience 'caregiver' from the curriculum is mapped to 'family' (schema enum).",
+      "Paediatrician / child-development nurse review (curriculum requirement)."
+    ]
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "First draft from official handbook PDF p30 (2nd printing, April 2569); screen-time rules by age, times to avoid, role-model card and margin tip."
+    },
+    {
+      "version": "0.1.1",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "Added video step V-K-012 (narration derived from this lesson; no text changes)."
+    }
+  ],
+  "steps": [
+    {
+      "type": "text",
+      "heading": "กติกาหน้าจอตามวัย",
+      "paragraphs": [
+        "สมุดหน้า 28 มีการ์ด 'สื่อหน้าจอกับพัฒนาการเด็ก' บอกว่าเด็กแต่ละวัยใช้สื่อหน้าจอได้แค่ไหน",
+        "อายุน้อยกว่า 2 ปี: ห้ามใช้สื่อหน้าจอ ยกเว้นวิดีโอคอล",
+        "อายุ 2 ปีขึ้นไป: จำกัด 1 ชม./ครั้ง และไม่เกิน 2 ครั้ง/วัน โดยมีผู้ดูแล",
+        "บทเรียนนี้ทำไว้สำหรับผู้ใหญ่ ไม่ควรเปิดให้เด็กอายุน้อยกว่า 2 ปีดู"
+      ]
+    },
+    {
+      "type": "video",
+      "heading": "ดูวิดีโอสรุป",
+      "videoId": "V-K-012"
+    },
+    {
+      "type": "text",
+      "heading": "ช่วงที่ควรหลีกเลี่ยง และบทบาทของผู้ใหญ่",
+      "paragraphs": [
+        "หลีกเลี่ยงการดูจอระหว่างมื้ออาหาร และช่วงก่อนนอน 1 ชั่วโมง",
+        "ขอบหน้า 28 เขียนว่า ไม่ควรให้เด็กใช้สื่อหน้าจอตามลำพัง รวมถึงการเปิดจอทิ้งไว้",
+        "ผู้ปกครองควรเป็นแบบอย่างที่ดี"
+      ]
+    },
+    {
+      "type": "sort",
+      "heading": "ทำได้ หรือควรหลีกเลี่ยง",
+      "intro": "แตะสถานการณ์หนึ่งใบ แล้วแตะว่าตามสมุดหน้า 28 ทำได้ หรือควรหลีกเลี่ยง",
+      "buckets": [
+        {
+          "id": "ok",
+          "label": "ทำได้ตามสมุด"
+        },
+        {
+          "id": "avoid",
+          "label": "สมุดแนะนำให้หลีกเลี่ยง"
+        }
+      ],
+      "items": [
+        {
+          "id": "s1",
+          "text": "ลูกอายุ 1 ปี วิดีโอคอลคุยกับยาย",
+          "bucketId": "ok"
+        },
+        {
+          "id": "s2",
+          "text": "ลูกอายุ 1 ปี ดูการ์ตูนในโทรศัพท์",
+          "bucketId": "avoid"
+        },
+        {
+          "id": "s3",
+          "text": "ลูกอายุ 3 ปี ดูการ์ตูน 1 ชั่วโมง มีผู้ใหญ่ดูแลอยู่ด้วย",
+          "bucketId": "ok"
+        },
+        {
+          "id": "s4",
+          "text": "ลูกอายุ 4 ปี ดูจอระหว่างกินข้าวเย็น",
+          "bucketId": "avoid"
+        },
+        {
+          "id": "s5",
+          "text": "ลูกอายุ 3 ปี ดูแท็บเล็ตจนถึงเวลาเข้านอน",
+          "bucketId": "avoid"
+        },
+        {
+          "id": "s6",
+          "text": "เปิดทีวีทิ้งไว้ ขณะลูกเล่นอยู่คนเดียว",
+          "bucketId": "avoid"
+        },
+        {
+          "id": "s7",
+          "text": "ลูกอายุ 5 ปี ดูจอวันละ 3 ครั้ง ครั้งละ 1 ชั่วโมง",
+          "bucketId": "avoid"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "heading": "ทบทวนความเข้าใจ",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "prompt": "เด็กอายุน้อยกว่า 2 ปี ใช้สื่อหน้าจอได้แค่ไหน ตามสมุด",
+          "options": [
+            {
+              "id": "a",
+              "text": "ได้วันละ 1 ชั่วโมง",
+              "feedback": "ยังไม่ใช่ 1 ชม./ครั้ง เป็นกติกาของเด็กอายุ 2 ปีขึ้นไป"
+            },
+            {
+              "id": "b",
+              "text": "ห้ามใช้ ยกเว้นวิดีโอคอล",
+              "feedback": "ถูกต้อง อายุน้อยกว่า 2 ปี ห้ามใช้สื่อหน้าจอ (ยกเว้นวิดีโอคอล)"
+            },
+            {
+              "id": "c",
+              "text": "ดูได้ ถ้าเป็นรายการสำหรับเด็ก",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า อายุน้อยกว่า 2 ปี ห้ามใช้สื่อหน้าจอ ยกเว้นวิดีโอคอลเท่านั้น"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "สมุดหน้า 28: อายุน้อยกว่า 2 ปี ห้ามใช้สื่อหน้าจอ (ยกเว้นวิดีโอคอล)",
+          "source": {
+            "pdfPages": [
+              30
+            ],
+            "printedPages": [
+              "28"
+            ]
+          }
+        },
+        {
+          "id": "q2",
+          "kind": "mcq",
+          "prompt": "เด็กอายุ 2 ปีขึ้นไป สมุดจำกัดการใช้สื่อหน้าจออย่างไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "ไม่จำกัด ถ้ามีผู้ใหญ่อยู่ด้วย",
+              "feedback": "ยังไม่ใช่ สมุดจำกัด 1 ชม./ครั้ง และไม่เกิน 2 ครั้ง/วัน"
+            },
+            {
+              "id": "b",
+              "text": "ครั้งละ 2 ชั่วโมง วันละ 1 ครั้ง",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า จำกัด 1 ชม./ครั้ง และไม่เกิน 2 ครั้ง/วัน"
+            },
+            {
+              "id": "c",
+              "text": "จำกัด 1 ชม./ครั้ง และไม่เกิน 2 ครั้ง/วัน โดยมีผู้ดูแล",
+              "feedback": "ถูกต้อง อายุ 2 ปีขึ้นไป จำกัด 1 ชม./ครั้ง และไม่เกิน 2 ครั้ง/วัน (มีผู้ดูแล)"
+            }
+          ],
+          "correctOptionId": "c",
+          "explanation": "สมุดหน้า 28: อายุ 2 ปีขึ้นไป จำกัด 1 ชม./ครั้ง และไม่เกิน 2 ครั้ง/วัน (มีผู้ดูแล)",
+          "source": {
+            "pdfPages": [
+              30
+            ],
+            "printedPages": [
+              "28"
+            ]
+          }
+        },
+        {
+          "id": "q3",
+          "kind": "scenario",
+          "scenario": "ยายอยู่ต่างจังหวัด อยากวิดีโอคอลคุยกับหลานวัย 10 เดือน",
+          "prompt": "ตามสมุด ทำได้หรือไม่",
+          "options": [
+            {
+              "id": "a",
+              "text": "ทำได้ เพราะวิดีโอคอลเป็นข้อยกเว้น",
+              "feedback": "ใช่ อายุน้อยกว่า 2 ปี ห้ามใช้สื่อหน้าจอ ยกเว้นวิดีโอคอล"
+            },
+            {
+              "id": "b",
+              "text": "ทำไม่ได้เลย เพราะหลานยังไม่ถึง 2 ปี",
+              "feedback": "ยังไม่ใช่ สมุดยกเว้นวิดีโอคอลไว้ สำหรับเด็กอายุน้อยกว่า 2 ปี"
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "สมุดหน้า 28: อายุน้อยกว่า 2 ปี ห้ามใช้สื่อหน้าจอ (ยกเว้นวิดีโอคอล)",
+          "source": {
+            "pdfPages": [
+              30
+            ],
+            "printedPages": [
+              "28"
+            ]
+          }
+        },
+        {
+          "id": "q4",
+          "kind": "truefalse",
+          "prompt": "เปิดทีวีทิ้งไว้ให้เด็กดูคนเดียวได้ ถ้าเป็นรายการเด็ก จริงหรือไม่",
+          "options": [
+            {
+              "id": "t",
+              "text": "จริง",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า ไม่ควรให้เด็กใช้สื่อหน้าจอตามลำพัง รวมถึงการเปิดจอทิ้งไว้"
+            },
+            {
+              "id": "f",
+              "text": "ไม่จริง",
+              "feedback": "ถูกต้อง ไม่ควรให้เด็กใช้สื่อหน้าจอตามลำพัง รวมถึงการเปิดจอทิ้งไว้"
+            }
+          ],
+          "correctOptionId": "f",
+          "explanation": "ข้อความที่ขอบสมุดหน้า 28: ไม่ควรให้เด็กใช้สื่อหน้าจอตามลำพัง รวมถึงการเปิดจอทิ้งไว้",
+          "source": {
+            "pdfPages": [
+              30
+            ],
+            "printedPages": [
+              "28"
+            ]
+          }
+        },
+        {
+          "id": "q5",
+          "kind": "scenario",
+          "scenario": "ลูกอายุ 3 ปี ขอดูการ์ตูนในโทรศัพท์ระหว่างกินข้าวเย็น",
+          "prompt": "ตามสมุด ข้อใดเหมาะที่สุด",
+          "options": [
+            {
+              "id": "a",
+              "text": "ให้ดูได้ ถ้าช่วยให้ลูกกินข้าวได้มากขึ้น",
+              "feedback": "สมุดแนะนำให้หลีกเลี่ยงการดูจอระหว่างมื้ออาหาร"
+            },
+            {
+              "id": "b",
+              "text": "ให้ดูได้ ถ้าเปิดเสียงเบา",
+              "feedback": "สมุดแนะนำให้หลีกเลี่ยงการดูจอระหว่างมื้ออาหาร ไม่ว่าเปิดเสียงแบบไหน"
+            },
+            {
+              "id": "c",
+              "text": "ไม่ดูจอระหว่างมื้ออาหาร",
+              "feedback": "ใช่ สมุดแนะนำให้หลีกเลี่ยงการดูจอระหว่างมื้ออาหาร และช่วงก่อนนอน 1 ชั่วโมง"
+            }
+          ],
+          "correctOptionId": "c",
+          "explanation": "สมุดหน้า 28: หลีกเลี่ยงการดูจอระหว่างมื้ออาหาร และช่วงก่อนนอน 1 ชั่วโมง และผู้ปกครองควรเป็นแบบอย่างที่ดี",
+          "source": {
+            "pdfPages": [
+              30
+            ],
+            "printedPages": [
+              "28"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "takeaways",
+      "heading": "สรุปสิ่งสำคัญ",
+      "items": [
+        "อายุน้อยกว่า 2 ปี: ห้ามใช้สื่อหน้าจอ ยกเว้นวิดีโอคอล",
+        "อายุ 2 ปีขึ้นไป: จำกัด 1 ชม./ครั้ง และไม่เกิน 2 ครั้ง/วัน โดยมีผู้ดูแล",
+        "หลีกเลี่ยงการดูจอระหว่างมื้ออาหาร และช่วงก่อนนอน 1 ชั่วโมง",
+        "ไม่ให้เด็กใช้สื่อหน้าจอตามลำพัง และไม่เปิดจอทิ้งไว้",
+        "ผู้ปกครองควรเป็นแบบอย่างที่ดี"
+      ],
+      "familyNote": "ทุกคนที่ดูแลเด็ก เช่น พ่อแม่ ปู่ย่าตายาย หรือพี่เลี้ยง ใช้กติกาเดียวกัน และเป็นแบบอย่างที่ดี เช่น วางโทรศัพท์ตอนกินข้าวด้วยกัน วิดีโอคอลกับหลานที่อายุน้อยกว่า 2 ปีทำได้"
+    }
+  ]
+}

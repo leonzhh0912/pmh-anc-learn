@@ -57,6 +57,11 @@ Read this first at the start of every working session. Add a dated entry at the 
 - p28 (milk storage): "ละลายในช่องธรรมดา" is undefined; the ice-box row gives "15" °C with no "ไม่เกิน".
 - p14 says "ครบ 5 หมู่" while p22 says "6 กลุ่ม". p28 misspells "ผูกพันธ์" (app writes ผูกพัน).
 - p4 (Parenting School): a stray overlaid text layer labels Volumes 2–3 as "13-17 สัปดาห์", conflicting with the table's 13–27.
+- p56–57 (7–11 months): the 10–11-month cell says "ไข่ทั้งฟอง สลับกับ ตับ" while note 6 says whole egg at least half a day.
+- p58: the 12–23-month flag shows milk 2 glasses, but the bubble says plain milk 2 glasses only if growth is below standard.
+- p29 vs p59: 1–2 years = 11–14 h (p29) but 2–5 years = 10–13 h (p59), so a 2-year-old fits both; p29 has no 2–3-year row.
+- p31: a child of exactly 2 is covered by neither car-seat label (<2 / >2); "ตามลำพัง" (motorcycle, 2–6 years) undefined.
+- p44: instructions say the horizontal axis is age, but the weight-for-height example uses height.
 - QR codes in the handbook have not been decoded or checked yet.
 
 ## Open decisions
@@ -140,3 +145,34 @@ Read this first at the start of every working session. Add a dated entry at the 
 - Clinical review of the 15 R1 lessons (reviewers per CONTENT_REVIEW.md); answer the HANDBOOK ISSUE notes.
 - Videos for R1 lessons (ElevenLabs, ≈1,400 characters each).
 - R2 lessons (high-risk: danger signs, first aid, vaccines) need PMH's local emergency contacts first.
+
+## Session 4 — 2026-11-09 (videos, second and third release)
+
+### Done and verified
+- **39 lesson videos, one for every drafted lesson** (15 R1 + 13 R2 + 11 R3), narrated with the chosen
+  ElevenLabs voice: 74.3 minutes in total. Every MP4 checked: decodes end to end, video length equals the narration/caption timing (±0.15 s),
+  attached to its lesson as step 2, narration = ElevenLabs. Plain and captions-burned-in versions rendered.
+- **13 R2 lessons drafted** (low/medium risk, no emergency contacts needed): INFO-001, ANC-001, REC-001, K-009,
+  K-012, K-013, K-014, K-015, GROW-001, GROW-006, GROW-007, DEV-001, DEV-002.
+- **11 R3 lessons drafted** (record explainers, development 13–78 months): INFO-003, ANC-003, CH-002, CH-003,
+  CH-007, K-011, DEV-003, DEV-004, DENT-003, DENT-004, GROW-004. **39 of 58 lessons drafted; the other 19 are
+  all high-risk and wait for PMH input** (docs/PMH-INPUT-NEEDED.md).
+  Spot-checked against page images: p29 sleep table, p31 road/water safety, p58 child flag. All matched.
+- Video template generalised (title chips, family-facing page labels, part prefix, hideNumbers), 44 original
+  icons (reference: `npx remotion still IconSheet`), automatic video registration, script checker, batch runner
+  with retries and per-request timeouts (survived a network outage mid-run without paying twice).
+- Generated **docs/REVIEW-PACK.md** (per-lesson reviewer checklist and sign-off table) and
+  **docs/PMH-INPUT-NEEDED.md** (49 questions blocking the 19 high-risk lessons).
+- Authoring guides for future lessons and videos: docs/LESSON-AUTHORING-GUIDE.md, docs/VIDEO-SCRIPT-GUIDE.md.
+- GitHub Actions CI added (validation, type-checks, video-script check, full Playwright suite on every PR).
+- ElevenLabs usage so far ≈ 44,000 characters (all 39 video scripts = 42,830 characters, plus tests;
+  ≈ US$3.48 of plan allowance).
+- Fixed: two same-type steps in a row (e.g. two nutrition flags) shared component state and crashed; each step
+  now gets its own state. Icons remapped where a stand-in icon could mislead (10 new icons: warning, motorcycle…).
+- Render reliability: retries, 90 s TTS timeout, 50 % render concurrency and 120 s frame timeout (renders had
+  timed out while the Mac was busy). Tests: 92/92 passing (39 lesson walk-throughs on phone and desktop).
+
+### Next
+- PMH: answer docs/PMH-INPUT-NEEDED.md, then the 19 high-risk lessons can be written.
+- PMH reviewers: work through docs/REVIEW-PACK.md (39 lessons, 39 videos).
+- Media is 244 MB in Git; move MP4s to Git LFS or a CDN before the library grows further.

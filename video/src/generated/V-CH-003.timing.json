@@ -1,0 +1,168 @@
+{
+  "id": "V-CH-003",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 3232,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 498,
+      "segments": [
+        {
+          "file": "audio/V-CH-003/intro-1-18e54b8845.wav",
+          "from": 18,
+          "durationInFrames": 226,
+          "caption": "สมุดหน้า 35 ชื่อ บันทึกสุขภาพเด็ก อยู่ในหมวดประวัติสุขภาพเด็กและบันทึกวัคซีน",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-CH-003/intro-2-16ca417ade.wav",
+          "from": 258,
+          "durationInFrames": 213,
+          "caption": "หน้านี้มีช่องแพ้ยา แพ้อาหาร การเจ็บป่วยที่สำคัญ และโรคทางพันธุกรรมในครอบครัว",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 498,
+      "durationInFrames": 802,
+      "segments": [
+        {
+          "file": "audio/V-CH-003/stage1-1-da932849d1.wav",
+          "from": 18,
+          "durationInFrames": 134,
+          "caption": "ตอนที่ 1 แพ้ยา แพ้อาหาร และโรคประจำตัว",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-003/stage1-2-095a5f34d8.wav",
+          "from": 166,
+          "durationInFrames": 216,
+          "caption": "ข้อ 1 ประวัติการแพ้ยา มีช่องชื่อยา อาการ และลงชื่อผู้ประเมินพร้อมวันที่",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-CH-003/stage1-3-fa0cb36f48.wav",
+          "from": 396,
+          "durationInFrames": 223,
+          "caption": "ข้อ 2 ประวัติแพ้อาหาร มีช่องชนิดอาหาร อาการ และลงชื่อผู้ประเมินพร้อมวันที่",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-CH-003/stage1-4-96e98d6a86.wav",
+          "from": 633,
+          "durationInFrames": 142,
+          "caption": "ข้อ 3 ประวัติโรคประจำตัว ยาที่ใช้ประจำ และหมู่เลือด",
+          "reveal": 3
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1300,
+      "durationInFrames": 651,
+      "segments": [
+        {
+          "file": "audio/V-CH-003/stage2-1-da1ffd01ea.wav",
+          "from": 18,
+          "durationInFrames": 97,
+          "caption": "ตอนที่ 2 ประวัติการเจ็บป่วยที่สำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-003/stage2-2-756098f942.wav",
+          "from": 129,
+          "durationInFrames": 82,
+          "caption": "ข้อ 4 ไข้สูงแล้วชัก",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-CH-003/stage2-3-a60d7c94f8.wav",
+          "from": 225,
+          "durationInFrames": 131,
+          "caption": "ข้อ 5 หลอดลมตีบ ที่ตอบสนองยาพ่นขยายหลอดลม",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-CH-003/stage2-4-833e5d2641.wav",
+          "from": 370,
+          "durationInFrames": 254,
+          "caption": "ข้อ 6 สองเรื่องนี้มีช่องบันทึก 3 ครั้ง แต่ละครั้งมีวันที่ ลงชื่อแพทย์ และโรงพยาบาล",
+          "reveal": 6
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 1951,
+      "durationInFrames": 646,
+      "segments": [
+        {
+          "file": "audio/V-CH-003/stage3-1-4fe25ef514.wav",
+          "from": 18,
+          "durationInFrames": 103,
+          "caption": "ตอนที่ 3 โรคทางพันธุกรรมในครอบครัว",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-003/stage3-2-e551cdca8d.wav",
+          "from": 135,
+          "durationInFrames": 242,
+          "caption": "ข้อ 7 มีช่องเขียนชื่อโรคหรือภาวะ และความเกี่ยวข้อง ว่าเป็นบิดา มารดา หรืออื่น ๆ",
+          "reveal": 7
+        },
+        {
+          "file": "audio/V-CH-003/stage3-3-cb7be02fdb.wav",
+          "from": 391,
+          "durationInFrames": 228,
+          "caption": "ข้อ 8 ลูกเคยแพ้ยา แพ้อาหาร หรือในครอบครัวมีโรคทางพันธุกรรม บอกเจ้าหน้าที่เพื่อบันทึก",
+          "reveal": 8
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 2597,
+      "durationInFrames": 635,
+      "segments": [
+        {
+          "file": "audio/V-CH-003/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 48,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-003/summary-2-744b802f3c.wav",
+          "from": 80,
+          "durationInFrames": 168,
+          "caption": "การจดบันทึกประวัติการเจ็บป่วยของเด็ก เป็นประโยชน์ต่อการวินิจฉัยโรคของแพทย์ในอนาคต",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-CH-003/summary-3-42d75a0c1f.wav",
+          "from": 262,
+          "durationInFrames": 199,
+          "caption": "ลูกแพ้ยา แพ้อาหาร หรือในครอบครัวมีโรคทางพันธุกรรม บอกเจ้าหน้าที่เพื่อบันทึก",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-CH-003/summary-4-9a8cbb6a9b.wav",
+          "from": 475,
+          "durationInFrames": 133,
+          "caption": "และนำสมุดไปด้วย ทุกครั้งที่ไปพบบุคลากรทางสาธารณสุข",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

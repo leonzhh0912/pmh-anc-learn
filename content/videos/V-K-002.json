@@ -1,0 +1,32 @@
+{
+  "id": "V-K-002",
+  "lessonId": "MCH68-K-002",
+  "title": "กินอย่างไรในแต่ละไตรมาส และช่วงให้นมลูก",
+  "mp4": "media/V-K-002.mp4",
+  "captionsVtt": "media/V-K-002.th.vtt",
+  "poster": "media/V-K-002.jpg",
+  "durationSec": 132.4,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-K-002 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of ไตรมาส, ทัพพี, ช้อนกินข้าว, ไอโอดีน, โฟลิก, แคลเซียม and the week/amount numbers (สิบสาม ถึงยี่สิบเจ็ด, ยี่สิบแปด ถึงสี่สิบ, แปด ถึงสิบแก้ว).",
+      "Only a few amounts are used (no-milk column): ข้าว-แป้ง 8 / 9 / 10 ทัพพี and เนื้อสัตว์ 10 / 12 / 15 ช้อนกินข้าว for trimesters 1 / 2 / 3, plus น้ำ 8-10 แก้ว. Copied from the lesson's flag steps (p23–25); nutritionist + ANC nurse to recheck against the page images (lesson note).",
+      "HANDBOOK ISSUE used because it is central (choosing the right flag): trimester weeks are quoted exactly as on p23–25 ('น้อยกว่า 12' / '13 - 27' / '28-40'). Week 12 is not covered and p27/p4 use other boundaries. PMH to choose one consistent wording; update narration if it changes.",
+      "HANDBOOK ISSUE used because it is central: '6 เดือนแรก' = ไตรมาส 3 and '6 เดือนขึ้นไป' = ไตรมาส 2 (a baby of exactly 6 months fits both). Quoted as printed.",
+      "Lesson note applies: calcium supplement and the iron/iodine/folic acid tablet line are repeated without a dose; PMH to confirm how women receive them.",
+      "Milk-symbol colour names (เขียว / ฟ้า / ชมพู) are not used in the video (they are not printed words).",
+      "Lesson note applies: mothers with chronic disease need individual advice; PMH nutrition-clinic referral route still to be added."
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "V-GROW-006",
+  "lessonId": "MCH68-GROW-006",
+  "title": "อาหารตามวัย 7-11 เดือน",
+  "mp4": "media/V-GROW-006.mp4",
+  "captionsVtt": "media/V-GROW-006.th.vtt",
+  "poster": "media/V-GROW-006.jpg",
+  "durationSec": 116.4,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-GROW-006 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'ช้อนกินข้าว', 'บดหยาบ', 'สับละเอียด', 'หั่นชิ้นเล็ก', 'ห้าสิบห้า' and the rice amounts ('สี่เป็นห้า', 'หกเป็นแปด', 'เก้าเป็นสิบสอง', 'สิบห้าเป็นสิบแปด').",
+      "Scope: the video narrates only meals per day, texture and the rice row of the p55 table (amounts and spans exactly as in the lesson timeline). Meat / egg / liver, vegetable and fruit amounts are left to the printed table (summary 4: 'ดูได้จากตารางในสมุดหน้า 55', lesson takeaway 5).",
+      "Lesson note: table spans were read from the cell borders on the p57 image; nutritionist + paediatrician to verify every amount and span.",
+      "Lesson note: rice cells on p57 print only numbers; the unit 'ช้อนกินข้าว' comes from the p56 row label (same as GROW-005). Reviewer to confirm the unit still applies at 7–11 months — the unit is narrated in items 4, 7 and 10.",
+      "HANDBOOK ISSUE (from lesson) NOT used: note 6 (whole egg 'อย่างน้อยวันละครึ่งฟอง' at 10–11 months) vs the table cell 'ไข่ทั้งฟอง สลับกับ ตับ'. Neither egg statement is narrated, and the 'สลับกับ' cells are not narrated.",
+      "Not used in the video: note 5 / iron syrup and the lesson's editorial iron-syrup sentence (high-risk lesson GROW-008), growth monitoring every 3 months, and the family note.",
+      "Lesson editorial framing used: 'ถ้าไม่แน่ใจ ถามเจ้าหน้าที่' (summary 4, from the timeline intro)."
+    ]
+  }
+}

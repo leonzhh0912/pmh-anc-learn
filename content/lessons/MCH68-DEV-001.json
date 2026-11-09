@@ -1,0 +1,401 @@
+{
+  "id": "MCH68-DEV-001",
+  "version": "0.1.1",
+  "title": "เฝ้าระวังพัฒนาการลูกด้วยคู่มือ DSPM",
+  "summary": "DSPM คืออะไร พ่อแม่ผู้ดูแลและเจ้าหน้าที่ใช้อย่างไร อายุที่เจ้าหน้าที่ช่วยคัดกรองพัฒนาการ และเมื่อไรใช้คู่มือ DAIM แทน",
+  "sectionId": "dev",
+  "stages": [
+    "newborn",
+    "child"
+  ],
+  "audience": [
+    "mother",
+    "family"
+  ],
+  "minutes": 6,
+  "objectives": [
+    "ผู้เรียนอธิบายได้ว่าเครื่องมือประเมินพัฒนาการ DSPM จัดทำเพื่อให้พ่อแม่ผู้ดูแลประเมินพัฒนาการของเด็กอย่างต่อเนื่อง ใน 5 ด้าน (GM FM RL EL PS)",
+    "ผู้เรียนบอกช่วงอายุที่เจ้าหน้าที่สาธารณสุขช่วยคัดกรองพัฒนาการได้ (9, 18, 30, 42 และ 60 เดือน)",
+    "ผู้เรียนบอกได้ว่าเมื่อประเมินแล้วพบว่าสงสัยล่าช้า จำเป็นต้องเข้ารับการฝึกกระตุ้นตามนัด",
+    "ผู้เรียนบอกได้ว่าเด็กกลุ่มเสี่ยง (น้ำหนักแรกเกิดน้อยกว่า 2,500 กรัม หรือมีภาวะขาดออกซิเจนขณะคลอด) ใช้คู่มือ DAIM ในการประเมินแทน"
+  ],
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      60,
+      61,
+      62,
+      63
+    ],
+    "printedPages": [
+      "58",
+      "59",
+      "60",
+      "61"
+    ],
+    "note": "หมวดพัฒนาการเด็ก: ข้อความแนะนำข้างหน้า PDF p60–p63 ชื่อ 5 ด้านที่หัวแถวตาราง ช่วงอายุและช่องอายุที่มีสีแดงในตาราง ปกคู่มือ DSPM และ DAIM ข้อความ QR และข้อความ 'หากเป็นกลุ่มเสี่ยง' (p63) ไม่สอนรายการพัฒนาการแต่ละข้อ"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Source map (all checked on the page images; p61 and p63 tips also in the PDF text layer): DSPM purpose = p60 margin tip; 5 domain names = p60 row headers; screening ages 9, 18, 30, 42, 60 = p61 margin tip, and those columns are red on p60–p62; 'เมื่อประเมินแล้วพบว่าสงสัยล่าช้า จำเป็นต้องเข้ารับการฝึกกระตุ้นตามนัด' = p62 margin tip; parents' key role = p63 margin tip; DSPM/DAIM manual titles, user line 'ใช้สำหรับ พ่อแม่ ผู้ปกครอง เจ้าหน้าที่ ครู และผู้ดูแลเด็ก ในการส่งเสริมพัฒนาการเด็ก', 'แจกฟรี ห้ามจำหน่าย', the three QR captions and the risk-group line = p63.",
+      "The DAIM / risk-group line is copied exactly as printed on p63 ('หากเป็นกลุ่มเสี่ยง น้ำหนักแรกเกิดน้อยกว่า 2,500 กรัม หรือมีภาวะขาดออกซิเจนขณะคลอด ใช้ DAIM ในการประเมินแทน'). Nothing added about who decides a child is in the risk group — PMH to add its local DAIM follow-up (curriculum clarification).",
+      "No milestone items are taught (they belong to DEV-002/003/004). The timeline lists only the age columns per page and the red screening columns.",
+      "Editorial (not printed): 'บทเรียนนี้ช่วยให้รู้จักสมุด ไม่ใช่การประเมินพัฒนาการของลูก' and 'ถ้าสงสัยหรือกังวลเรื่องพัฒนาการของลูก บอกเจ้าหน้าที่' (text step 2, takeaway 5) — reflects the curriculum policy that any DSPM content in the app is surveillance only, never a diagnosis. The lesson never says a child is or is not delayed; 'สงสัยล่าช้า' appears only inside the printed p62 tip and the q3 scenario where staff have already assessed.",
+      "Editorial: 'ทุกข้อมีช่องสี่เหลี่ยม (☐)' describes the printed checklist; the handbook gives no instruction on how to tick or test items. The lesson points to the p63 QR 'คลิปวิดีโอแสดงวิธีการประเมิน' instead of explaining (curriculum clarification: how to test each item is in the DSPM manual).",
+      "PMH CLARIFICATION (from curriculum): how to test each item is in the DSPM manual / video QR — QR targets not verified, not linked; the lesson only says they are in the book (printed p61).",
+      "PMH CLARIFICATION (from curriculum): PMH stimulation (ฝึกกระตุ้น) clinic and appointment process, and DAIM follow-up at PMH, are not in the handbook — not included.",
+      "PMH CLARIFICATION (from curriculum): policy — any in-app DSPM checklist is surveillance only, never a diagnosis. This lesson has no in-app checklist.",
+      "Sort step pairs the printed English labels with the printed Thai domain names (p60 row headers); no example items (curriculum suggested one example per domain — left to DEV-002/003/004).",
+      "Quiz q3 (staff said 'suspected delay' and gave an appointment) and q5 (aunt who looks after the child daily) are scenarios written for this lesson; q4 distractors ('อายุมากกว่า 5 ปี', 'ลูกคนแรก') are written for the quiz.",
+      "Family note is editorial (anyone who is with the child daily can look at printed p58–61; bring the book to staff visits)."
+    ]
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "First draft from official handbook PDF p60–p63 (2nd printing, April 2569)."
+    },
+    {
+      "version": "0.1.1",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "Added video step V-DEV-001 (narration derived from this lesson; no text changes)."
+    }
+  ],
+  "steps": [
+    {
+      "type": "text",
+      "heading": "DSPM คืออะไร",
+      "paragraphs": [
+        "เครื่องมือประเมินพัฒนาการ DSPM จัดทำเพื่อให้พ่อแม่ผู้ดูแลประเมินพัฒนาการของเด็กอย่างต่อเนื่อง",
+        "DSPM ย่อมาจาก Developmental Surveillance and Promotion Manual หรือ คู่มือเฝ้าระวังและส่งเสริมพัฒนาการเด็กปฐมวัย ใช้สำหรับ พ่อแม่ ผู้ปกครอง เจ้าหน้าที่ ครู และผู้ดูแลเด็ก ในการส่งเสริมพัฒนาการเด็ก (แจกฟรี ห้ามจำหน่าย)",
+        "ในสมุดหน้า 58–61 มีรายการพัฒนาการตามอายุ ตั้งแต่แรกเกิดถึง 78 เดือน แต่ละช่วงอายุแบ่งเป็น 5 ด้าน: ด้านการเคลื่อนไหว (GM) ด้านการใช้กล้ามเนื้อมัดเล็กและสติปัญญา (FM) ด้านการเข้าใจภาษา (RL) ด้านการใช้ภาษา (EL) และด้านการช่วยเหลือตัวเองและสังคม (PS) ทุกข้อมีช่องสี่เหลี่ยม (☐)",
+        "สมุดหน้า 61 มี QR 'คู่มือ DSPM', 'คลิปวิดีโอแสดงวิธีการประเมิน' และ 'รู้ใจวัยจิ๋ว อธิบายเนื้อหาการส่งเสริมพัฒนาการตามช่วงวัย'"
+      ]
+    },
+    {
+      "type": "video",
+      "heading": "ดูวิดีโอสรุป",
+      "videoId": "V-DEV-001"
+    },
+    {
+      "type": "text",
+      "heading": "พ่อแม่ผู้ดูแลและเจ้าหน้าที่ ทำอะไรบ้าง",
+      "paragraphs": [
+        "พ่อแม่ผู้ดูแลมีบทบาทสำคัญในการฝึกกระตุ้นพัฒนาการของเด็ก เพราะมีเวลาอยู่กับเด็กมากที่สุด",
+        "สำหรับเจ้าหน้าที่สาธารณสุขจะช่วยคัดกรองพัฒนาการเด็กที่อายุ 9, 18, 30, 42 และ 60 เดือน เมื่อประเมินแล้วพบว่าสงสัยล่าช้า จำเป็นต้องเข้ารับการฝึกกระตุ้นตามนัด",
+        "หากเป็นกลุ่มเสี่ยง น้ำหนักแรกเกิดน้อยกว่า 2,500 กรัม หรือมีภาวะขาดออกซิเจนขณะคลอด ใช้ DAIM ในการประเมินแทน (คู่มือประเมินและส่งเสริมพัฒนาการเด็กกลุ่มเสี่ยง Developmental Assessment For Intervention Manual)",
+        "บทเรียนนี้ช่วยให้รู้จักสมุด ไม่ใช่การประเมินพัฒนาการของลูก ถ้าสงสัยหรือกังวลเรื่องพัฒนาการของลูก บอกเจ้าหน้าที่"
+      ]
+    },
+    {
+      "type": "timeline",
+      "heading": "รายการพัฒนาการอยู่หน้าไหน และอายุที่เจ้าหน้าที่ช่วยคัดกรอง",
+      "intro": "เลือกหน้าของสมุด แล้วแตะเพื่อดูช่วงอายุในหน้านั้น ช่องอายุที่มีสีแดงในสมุด คืออายุที่เจ้าหน้าที่สาธารณสุขช่วยคัดกรองพัฒนาการ",
+      "stages": [
+        {
+          "id": "p58",
+          "label": "หน้า 58: แรกเกิด - 12 เดือน",
+          "items": [
+            {
+              "n": 1,
+              "title": "ช่วงอายุในหน้านี้",
+              "detail": "แรกเกิดถึง 1 เดือน, 1–2, 3–4, 5–6, 7–8, 9 และ 10–12 เดือน"
+            },
+            {
+              "n": 2,
+              "title": "อายุที่เจ้าหน้าที่ช่วยคัดกรอง",
+              "detail": "9 เดือน (ช่องสีแดง)"
+            }
+          ]
+        },
+        {
+          "id": "p59",
+          "label": "หน้า 59: 13 - 41 เดือน",
+          "items": [
+            {
+              "n": 1,
+              "title": "ช่วงอายุในหน้านี้",
+              "detail": "13–15, 16–17, 18, 19–24, 25–29, 30, 31–36 และ 37–41 เดือน"
+            },
+            {
+              "n": 2,
+              "title": "อายุที่เจ้าหน้าที่ช่วยคัดกรอง",
+              "detail": "18 เดือน และ 30 เดือน (ช่องสีแดง)"
+            }
+          ]
+        },
+        {
+          "id": "p60",
+          "label": "หน้า 60: 42 - 72 เดือน",
+          "items": [
+            {
+              "n": 1,
+              "title": "ช่วงอายุในหน้านี้",
+              "detail": "42, 43–48, 49–54, 55–59, 60, 61–66 และ 67–72 เดือน"
+            },
+            {
+              "n": 2,
+              "title": "อายุที่เจ้าหน้าที่ช่วยคัดกรอง",
+              "detail": "42 เดือน และ 60 เดือน (ช่องสีแดง)"
+            }
+          ]
+        },
+        {
+          "id": "p61",
+          "label": "หน้า 61: 73 - 78 เดือน",
+          "items": [
+            {
+              "n": 1,
+              "title": "ช่วงอายุในหน้านี้",
+              "detail": "73–78 เดือน"
+            },
+            {
+              "n": 2,
+              "title": "ในหน้านี้ยังมี",
+              "detail": "ปกคู่มือ DSPM และ DAIM, QR ข้อมูลเพิ่มเติม และข้อความเรื่องเด็กกลุ่มเสี่ยงที่ใช้ DAIM ในการประเมินแทน"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "heading": "อักษรย่อในสมุด คือด้านไหน",
+      "intro": "แตะการ์ดอักษรย่อ แล้วแตะชื่อด้านที่ตรงกัน",
+      "buckets": [
+        {
+          "id": "gm",
+          "label": "ด้านการเคลื่อนไหว"
+        },
+        {
+          "id": "fm",
+          "label": "ด้านการใช้กล้ามเนื้อมัดเล็กและสติปัญญา"
+        },
+        {
+          "id": "rl",
+          "label": "ด้านการเข้าใจภาษา"
+        },
+        {
+          "id": "el",
+          "label": "ด้านการใช้ภาษา"
+        },
+        {
+          "id": "ps",
+          "label": "ด้านการช่วยเหลือตัวเองและสังคม"
+        }
+      ],
+      "items": [
+        {
+          "id": "c1",
+          "text": "Gross Motor (GM)",
+          "bucketId": "gm"
+        },
+        {
+          "id": "c2",
+          "text": "Fine Motor (FM)",
+          "bucketId": "fm"
+        },
+        {
+          "id": "c3",
+          "text": "Receptive Language (RL)",
+          "bucketId": "rl"
+        },
+        {
+          "id": "c4",
+          "text": "Expressive Language (EL)",
+          "bucketId": "el"
+        },
+        {
+          "id": "c5",
+          "text": "Personal and Social (PS)",
+          "bucketId": "ps"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "heading": "ทบทวนความเข้าใจ",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "prompt": "เจ้าหน้าที่สาธารณสุขช่วยคัดกรองพัฒนาการเด็กที่อายุเท่าไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "ทุกเดือนตั้งแต่แรกเกิด",
+              "feedback": "ยังไม่ใช่ สมุดระบุอายุที่เจ้าหน้าที่ช่วยคัดกรองไว้ 5 ช่วง"
+            },
+            {
+              "id": "b",
+              "text": "9, 18, 30, 42 และ 60 เดือน",
+              "feedback": "ถูกต้อง ช่องอายุเหล่านี้มีสีแดงในสมุด"
+            },
+            {
+              "id": "c",
+              "text": "เฉพาะตอนอายุ 5 ปี",
+              "feedback": "ยังไม่ใช่ เจ้าหน้าที่ช่วยคัดกรองที่อายุ 9, 18, 30, 42 และ 60 เดือน"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "สำหรับเจ้าหน้าที่สาธารณสุขจะช่วยคัดกรองพัฒนาการเด็กที่อายุ 9, 18, 30, 42 และ 60 เดือน",
+          "source": {
+            "pdfPages": [
+              61
+            ],
+            "printedPages": [
+              "59"
+            ]
+          }
+        },
+        {
+          "id": "q2",
+          "kind": "truefalse",
+          "prompt": "เครื่องมือประเมินพัฒนาการ DSPM จัดทำเพื่อให้พ่อแม่ผู้ดูแลประเมินพัฒนาการของเด็กอย่างต่อเนื่อง",
+          "options": [
+            {
+              "id": "a",
+              "text": "จริง",
+              "feedback": "ถูกต้อง พ่อแม่ผู้ดูแลใช้ DSPM ติดตามพัฒนาการของลูกได้อย่างต่อเนื่อง"
+            },
+            {
+              "id": "b",
+              "text": "ไม่จริง",
+              "feedback": "ข้อนี้จริง DSPM จัดทำเพื่อให้พ่อแม่ผู้ดูแลประเมินพัฒนาการของเด็กอย่างต่อเนื่อง"
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "เครื่องมือประเมินพัฒนาการ DSPM จัดทำเพื่อให้พ่อแม่ผู้ดูแลประเมินพัฒนาการของเด็กอย่างต่อเนื่อง และคู่มือ DSPM ใช้สำหรับ พ่อแม่ ผู้ปกครอง เจ้าหน้าที่ ครู และผู้ดูแลเด็ก",
+          "source": {
+            "pdfPages": [
+              60,
+              63
+            ],
+            "printedPages": [
+              "58",
+              "61"
+            ]
+          }
+        },
+        {
+          "id": "q3",
+          "kind": "scenario",
+          "scenario": "เจ้าหน้าที่ประเมินพัฒนาการของลูกแล้ว บอกว่าสงสัยล่าช้า และนัดให้มาฝึกกระตุ้น",
+          "prompt": "ตามสมุด ควรทำอย่างไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "พาลูกเข้ารับการฝึกกระตุ้นตามนัด",
+              "feedback": "ถูกต้อง สมุดบอกว่าจำเป็นต้องเข้ารับการฝึกกระตุ้นตามนัด"
+            },
+            {
+              "id": "b",
+              "text": "รอให้ลูกโตขึ้นก่อน ยังไม่ต้องไปตามนัด",
+              "feedback": "ยังไม่ใช่ สมุดบอกว่าจำเป็นต้องเข้ารับการฝึกกระตุ้นตามนัด"
+            },
+            {
+              "id": "c",
+              "text": "เลิกดูรายการพัฒนาการในสมุด",
+              "feedback": "ยังไม่ใช่ พ่อแม่ผู้ดูแลยังมีบทบาทสำคัญ และควรไปฝึกกระตุ้นตามนัด"
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "เมื่อประเมินแล้วพบว่าสงสัยล่าช้า จำเป็นต้องเข้ารับการฝึกกระตุ้นตามนัด",
+          "source": {
+            "pdfPages": [
+              62
+            ],
+            "printedPages": [
+              "60"
+            ]
+          }
+        },
+        {
+          "id": "q4",
+          "kind": "mcq",
+          "prompt": "สมุดบอกว่าเด็กกลุ่มเสี่ยงแบบไหน ใช้ DAIM ในการประเมินแทน",
+          "options": [
+            {
+              "id": "a",
+              "text": "เด็กที่อายุมากกว่า 5 ปี",
+              "feedback": "ยังไม่ใช่ สมุดระบุกลุ่มเสี่ยงจากน้ำหนักแรกเกิดและภาวะขาดออกซิเจนขณะคลอด"
+            },
+            {
+              "id": "b",
+              "text": "เด็กที่เป็นลูกคนแรก",
+              "feedback": "ยังไม่ใช่ สมุดระบุกลุ่มเสี่ยงจากน้ำหนักแรกเกิดและภาวะขาดออกซิเจนขณะคลอด"
+            },
+            {
+              "id": "c",
+              "text": "น้ำหนักแรกเกิดน้อยกว่า 2,500 กรัม หรือมีภาวะขาดออกซิเจนขณะคลอด",
+              "feedback": "ถูกต้อง กลุ่มเสี่ยงนี้ใช้ DAIM ในการประเมินแทน"
+            }
+          ],
+          "correctOptionId": "c",
+          "explanation": "หากเป็นกลุ่มเสี่ยง น้ำหนักแรกเกิดน้อยกว่า 2,500 กรัม หรือมีภาวะขาดออกซิเจนขณะคลอด ใช้ DAIM ในการประเมินแทน",
+          "source": {
+            "pdfPages": [
+              63
+            ],
+            "printedPages": [
+              "61"
+            ]
+          }
+        },
+        {
+          "id": "q5",
+          "kind": "scenario",
+          "scenario": "ป้าช่วยเลี้ยงหลานทุกวัน ป้าคิดว่าเรื่องพัฒนาการของเด็กเป็นหน้าที่ของเจ้าหน้าที่อย่างเดียว",
+          "prompt": "สมุดว่าอย่างไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "เป็นหน้าที่ของเจ้าหน้าที่อย่างเดียว",
+              "feedback": "ยังไม่ใช่ สมุดบอกว่าพ่อแม่ผู้ดูแลมีบทบาทสำคัญ"
+            },
+            {
+              "id": "b",
+              "text": "พ่อแม่ผู้ดูแลมีบทบาทสำคัญในการฝึกกระตุ้นพัฒนาการ เพราะมีเวลาอยู่กับเด็กมากที่สุด",
+              "feedback": "ถูกต้อง คนที่อยู่กับเด็กทุกวันมีบทบาทสำคัญ"
+            },
+            {
+              "id": "c",
+              "text": "รอให้เด็กเข้าโรงเรียนก่อน ครูจะดูแลเรื่องนี้",
+              "feedback": "ยังไม่ใช่ สมุดบอกว่าพ่อแม่ผู้ดูแลมีบทบาทสำคัญ เพราะมีเวลาอยู่กับเด็กมากที่สุด"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "พ่อแม่ผู้ดูแลมีบทบาทสำคัญในการฝึกกระตุ้นพัฒนาการของเด็ก เพราะมีเวลาอยู่กับเด็กมากที่สุด",
+          "source": {
+            "pdfPages": [
+              63
+            ],
+            "printedPages": [
+              "61"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "takeaways",
+      "heading": "สรุปสิ่งสำคัญ",
+      "items": [
+        "DSPM จัดทำเพื่อให้พ่อแม่ผู้ดูแลประเมินพัฒนาการของเด็กอย่างต่อเนื่อง ใน 5 ด้าน",
+        "เจ้าหน้าที่สาธารณสุขช่วยคัดกรองพัฒนาการที่อายุ 9, 18, 30, 42 และ 60 เดือน",
+        "เมื่อประเมินแล้วพบว่าสงสัยล่าช้า จำเป็นต้องเข้ารับการฝึกกระตุ้นตามนัด",
+        "กลุ่มเสี่ยง (น้ำหนักแรกเกิดน้อยกว่า 2,500 กรัม หรือมีภาวะขาดออกซิเจนขณะคลอด) ใช้ DAIM ในการประเมินแทน",
+        "ถ้าสงสัยหรือกังวลเรื่องพัฒนาการของลูก บอกเจ้าหน้าที่"
+      ],
+      "familyNote": "ทุกคนที่อยู่กับเด็กเป็นประจำ เช่น ปู่ย่าตายาย หรือคนที่ช่วยเลี้ยง มีบทบาทสำคัญเหมือนกัน เปิดสมุดหน้า 58–61 ดูด้วยกัน และนำสมุดไปด้วยทุกครั้งที่พาเด็กไปพบเจ้าหน้าที่"
+    }
+  ]
+}

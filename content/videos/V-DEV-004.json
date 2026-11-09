@@ -1,0 +1,32 @@
+{
+  "id": "V-DEV-004",
+  "lessonId": "MCH68-DEV-004",
+  "title": "พัฒนาการตามวัย 42 - 78 เดือน",
+  "mp4": "media/V-DEV-004.mp4",
+  "captionsVtt": "media/V-DEV-004.th.vtt",
+  "poster": "media/V-DEV-004.jpg",
+  "durationSec": 138,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-DEV-004 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'หกสิบเอ็ด', 'เจ็ดสิบสามถึงเจ็ดสิบแปดเดือน', 'หกสิบเจ็ดถึงเจ็ดสิบสองเดือน', 'ห้าสิบห้าถึงห้าสิบเก้าเดือน' and 'ฝึกกระตุ้นพัฒนาการ'.",
+      "FRAMING (please review carefully, as in the lesson and V-DEV-002): the video never says a child is or may be delayed and never says a child 'should' do an item by an age. Items are presented only as 'what the handbook lists in each age column' ('ในช่อง … สมุดมีรายการ …'). The only action is the lesson's editorial 'รายการในสมุดใช้ติดตามพัฒนาการของลูก ไม่ต้องตัดสินเอง ถ้าสงสัยหรือกังวล บอกเจ้าหน้าที่' (item 3) and 'ถ้าสงสัยหรือกังวลเรื่องพัฒนาการของลูก บอกเจ้าหน้าที่ และนำสมุดไปด้วย' (summary 3); the phrase 'ไม่ใช่การตัดสินว่าลูกปกติหรือไม่' is left out to fit the caption limit. Child-development nurse + PMH to approve.",
+      "As in the lesson, the p62 margin tip 'เมื่อประเมินแล้วพบว่าสงสัยล่าช้า จำเป็นต้องเข้ารับการฝึกกระตุ้นตามนัด' is NOT used (no delay language); reviewer to confirm this omission.",
+      "Seven representative items out of 40 (items 4–10), verbatim from the lesson timeline/sort cards (p62–p63 / printed 60–61). The 43–48 and 49–54-month bands are not shown because their item texts are too long for the screen. 'ยืนขาเดียวนาน 5 วินาที', 'บอกเพศของตนเองได้' and 'วาดรูปคนได้ 6 ส่วน' are single items taken from multi-item cells (as in the lesson's sort cards). Child-development nurse to confirm the item text is verbatim.",
+      "All stages use hideNumbers: item texts carry age numbers (and '60–61', '5', '6'), so badges are hidden and narration does not use 'ข้อ' numbers.",
+      "Intro segment 1 quotes the p63 (printed 61) margin tip word for word. The 42- and 60-month screening sentences come from the p61 margin tip (printed 59); that these columns are red on p62 is described from the image (lesson note).",
+      "Not used in the video: the names of the 5 domains, the remaining checklist items, the DSPM/DAIM manual covers and QR codes, and the family note."
+    ]
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "id": "V-DEV-005",
+  "lessonId": "MCH68-DEV-005",
+  "version": "0.1.0",
+  "title": "พ่อแม่ส่งเสริมพัฒนาการลูก: กอด คุย เล่านิทาน เล่นด้วยกัน",
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      33,
+      34,
+      58,
+      59,
+      63,
+      67
+    ],
+    "printedPages": [
+      "31",
+      "32",
+      "56",
+      "57",
+      "61"
+    ],
+    "note": "Narration derived from lesson MCH68-DEV-005 v0.1.0"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-DEV-005 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'ดี เอส พี เอ็ม' (DSPM), 'ห้าสิบแปดถึงหกสิบเอ็ด' and 'ขวบปี'.",
+      "Lesson note: the handbook only LISTS hug / talk / read stories / play / eat together; no activity examples were added to the video.",
+      "Lesson editorial framing used: 'ทำได้ในชีวิตประจำวัน' (stage 1 intro) and 'นำสมุดไปให้เจ้าหน้าที่ดูด้วยกันเมื่อพาลูกไปตรวจ และถามได้ถ้าสงสัย' (item 8, summary 3) are not printed in the handbook.",
+      "Lesson note for reviewer: the handbook frames DSPM as a parent tool too (p63 cover lists parents first); the 'ask staff' pointer is editorial — confirm the intended message.",
+      "PMH CLARIFICATION (from lesson): the no-hitting message (item 9) is culturally sensitive — PMH to approve tone. Wording follows the p33 tip.",
+      "Not used in the video: the QR codes on printed p31 ('การเลี้ยงดูลูกเชิงบวก') and p61 ('รู้ใจวัยจิ๋ว'), milestone checklists, sleep hours and iron syrup."
+    ]
+  },
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3",
+    "stability": 0.5,
+    "style": 0,
+    "speed": 0.95,
+    "seed": 1234
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "kind": "title",
+      "heading": "กอด คุย เล่านิทาน เล่น",
+      "subheading": "จากสมุดบันทึกสุขภาพแม่และเด็ก ฉบับปรับปรุงใหม่ พ.ศ. 2568",
+      "chips": [
+        "โอบกอด",
+        "เล่านิทาน",
+        "เล่นด้วยกัน"
+      ],
+      "segments": [
+        {
+          "speak": "สมองของเด็ก จะเพิ่มจำนวนเซลล์และเติบโตมากที่สุด ในห้าขวบปีแรกของชีวิต",
+          "caption": "สมองของเด็กจะเพิ่มจำนวนเซลล์และเติบโตมากที่สุด ใน 5 ขวบปีแรกของชีวิต"
+        },
+        {
+          "speak": "พ่อแม่ผู้ดูแล มีบทบาทสำคัญในการฝึกกระตุ้นพัฒนาการของเด็ก เพราะมีเวลาอยู่กับเด็กมากที่สุด",
+          "caption": "พ่อแม่ผู้ดูแลมีบทบาทสำคัญในการฝึกกระตุ้นพัฒนาการของเด็ก เพราะมีเวลาอยู่กับเด็กมากที่สุด"
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "kind": "stage",
+      "stage": 1,
+      "label": "สิ่งที่ทำได้ทุกวัน",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 1,
+          "icon": "heart",
+          "text": "โอบกอดลูก"
+        },
+        {
+          "n": 2,
+          "icon": "chat",
+          "text": "พูดคุยกับลูก"
+        },
+        {
+          "n": 3,
+          "icon": "story",
+          "text": "เล่านิทานให้ลูกฟัง"
+        },
+        {
+          "n": 4,
+          "icon": "play",
+          "text": "เล่นกับลูก"
+        },
+        {
+          "n": 5,
+          "icon": "group",
+          "text": "กินข้าวพร้อมกันทั้งครอบครัว"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่หนึ่ง สิ่งที่สมุดแนะนำ ทำได้ในชีวิตประจำวัน",
+          "caption": "ตอนที่ 1 สิ่งที่สมุดแนะนำ ทำได้ในชีวิตประจำวัน"
+        },
+        {
+          "reveal": 1,
+          "speak": "ข้อหนึ่ง โอบกอดลูก",
+          "caption": "ข้อ 1 โอบกอดลูก"
+        },
+        {
+          "reveal": 2,
+          "speak": "ข้อสอง พูดคุยกับลูก",
+          "caption": "ข้อ 2 พูดคุยกับลูก"
+        },
+        {
+          "reveal": 3,
+          "speak": "ข้อสาม เล่านิทานให้ลูกฟัง",
+          "caption": "ข้อ 3 เล่านิทานให้ลูกฟัง"
+        },
+        {
+          "reveal": 4,
+          "speak": "ข้อสี่ เล่นกับลูก",
+          "caption": "ข้อ 4 เล่นกับลูก"
+        },
+        {
+          "reveal": 5,
+          "speak": "ข้อห้า พ่อแม่และคนในครอบครัว ควรร่วมรับประทานอาหารพร้อมกับเด็ก",
+          "caption": "ข้อ 5 พ่อแม่และคนในครอบครัว ควรร่วมรับประทานอาหารพร้อมกับเด็ก"
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "kind": "stage",
+      "stage": 2,
+      "label": "พัฒนาการ และการตี",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 6,
+          "icon": "check",
+          "text": "ติดตามพัฒนาการด้วยคู่มือ DSPM"
+        },
+        {
+          "n": 7,
+          "icon": "group",
+          "text": "ใช้ได้ทั้งพ่อแม่ ครู และเจ้าหน้าที่"
+        },
+        {
+          "n": 8,
+          "icon": "ask",
+          "text": "สงสัยเรื่องพัฒนาการ ถามเจ้าหน้าที่ได้"
+        },
+        {
+          "n": 9,
+          "icon": "shield",
+          "text": "การตี หยุดได้แค่ชั่วคราว"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สอง ติดตามพัฒนาการ และเรื่องการตี",
+          "caption": "ตอนที่ 2 ติดตามพัฒนาการ และเรื่องการตี"
+        },
+        {
+          "reveal": 6,
+          "speak": "ข้อหก สมุดหน้าห้าสิบแปดถึงหกสิบเอ็ด มีแบบเฝ้าระวังพัฒนาการ จากคู่มือ ดี เอส พี เอ็ม",
+          "caption": "ข้อ 6 สมุดหน้า 58–61 มีแบบเฝ้าระวังพัฒนาการ จากคู่มือ DSPM"
+        },
+        {
+          "reveal": 7,
+          "speak": "ข้อเจ็ด คู่มือนี้ใช้สำหรับพ่อแม่ ผู้ปกครอง เจ้าหน้าที่ ครู และผู้ดูแลเด็ก",
+          "caption": "ข้อ 7 คู่มือนี้ใช้สำหรับพ่อแม่ ผู้ปกครอง เจ้าหน้าที่ ครู และผู้ดูแลเด็ก"
+        },
+        {
+          "reveal": 8,
+          "speak": "ข้อแปด พาลูกไปตรวจ นำสมุดให้เจ้าหน้าที่ดูด้วยกัน และถามได้ ถ้าสงสัยเรื่องพัฒนาการ",
+          "caption": "ข้อ 8 พาลูกไปตรวจ นำสมุดให้เจ้าหน้าที่ดูด้วยกัน และถามได้ถ้าสงสัยเรื่องพัฒนาการ"
+        },
+        {
+          "reveal": 9,
+          "speak": "ข้อเก้า การลงโทษด้วยการตี หยุดได้แค่ชั่วคราว แต่มีข้อเสียในระยะยาวมากกว่า",
+          "caption": "ข้อ 9 การลงโทษด้วยการตี หยุดได้แค่ชั่วคราว แต่มีข้อเสียในระยะยาวมากกว่า"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "kind": "summary",
+      "heading": "จำไว้ 3 เรื่อง",
+      "points": [
+        "สมองโตมากที่สุดใน 5 ขวบปีแรก",
+        "กอด คุย เล่านิทาน เล่นด้วยกัน",
+        "ติดตามพัฒนาการ ถามเจ้าหน้าที่ได้"
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "สรุปเรื่องสำคัญ",
+          "caption": "สรุปเรื่องสำคัญ"
+        },
+        {
+          "reveal": 1,
+          "speak": "สมองของเด็กเติบโตมากที่สุด ในห้าขวบปีแรก",
+          "caption": "สมองของเด็กเติบโตมากที่สุดใน 5 ขวบปีแรก"
+        },
+        {
+          "reveal": 2,
+          "speak": "โอบกอด พูดคุย เล่านิทาน เล่นกับลูก และกินข้าวพร้อมกันในครอบครัว",
+          "caption": "โอบกอด พูดคุย เล่านิทาน เล่นกับลูก และกินข้าวพร้อมกันในครอบครัว"
+        },
+        {
+          "reveal": 3,
+          "speak": "ติดตามพัฒนาการด้วยคู่มือ ดี เอส พี เอ็ม ในสมุด และถามเจ้าหน้าที่ได้เมื่อสงสัย",
+          "caption": "ติดตามพัฒนาการด้วยคู่มือ DSPM ในสมุด และถามเจ้าหน้าที่ได้เมื่อสงสัย"
+        }
+      ]
+    }
+  ]
+}

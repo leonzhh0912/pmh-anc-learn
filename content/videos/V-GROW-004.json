@@ -1,0 +1,33 @@
+{
+  "id": "V-GROW-004",
+  "lessonId": "MCH68-GROW-004",
+  "title": "บันทึกกราฟการเจริญเติบโตของลูกในสมุด (ชาย/หญิง)",
+  "mp4": "media/V-GROW-004.mp4",
+  "captionsVtt": "media/V-GROW-004.th.vtt",
+  "poster": "media/V-GROW-004.jpg",
+  "durationSec": 134.8,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-GROW-004 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'เส้นรอบวงศีรษะ', 'ศูนย์ถึงยี่สิบสี่เดือน', 'ยี่สิบสี่ถึงเจ็ดสิบสองเดือน', 'สี่สิบหกถึงสี่สิบเก้า', 'ห้าสิบถึงห้าสิบสาม' and 'ความยาวหรือส่วนสูง'.",
+      "Scope: where the charts are and what they measure only. No interpretation: colour bands, SD / percentile lines, MEDIAN and referral rules are not narrated; item 11 only says 'สีและเส้นในกราฟมีความหมาย เจ้าหน้าที่จะอธิบายผลให้' (lesson timeline).",
+      "Lesson editorial (not printed), reviewer to confirm the division of roles: 'เจ้าหน้าที่จะชั่ง วัด จุดกราฟ และอธิบายผลให้', 'ถามได้ทุกครั้ง', 'นำสมุดไปด้วย' (stage 3, summary 3). The p42 tip that parents record together with staff is not narrated, to keep the video short.",
+      "HANDBOOK ISSUE (from lesson): the '2 ปีขึ้นไป' chart (PDF p51/p55) is titled 'น้ำหนักตามเกณฑ์ความยาว' but its axis is height; item 8 follows the lesson ('ดูน้ำหนักเทียบกับส่วนสูง').",
+      "HANDBOOK ISSUE (from lesson): the weight- and length/height-for-age charts are titled 'แรกเกิด - 5 ปี' but the age axis runs to 72 months. The video does not say the printed title; item 7 states only the printed axis ranges (0–24 / 24–72 เดือน).",
+      "Lesson editorial descriptions used: blue / pink page backgrounds, 'ต้องหมุนสมุดเพื่ออ่าน', 'กราฟนี้ไม่ใช้อายุ'.",
+      "All stages use hideNumbers: item texts carry page numbers and month ranges.",
+      "Not used in the video: the 'ทุก 3 เดือน' sentence from PDF p57 (lesson flags it as coming from the infant-food page), the length/height-chart subtitle issue, per-chart page numbers, the head-circumference charts having no 'ผลการวัด' table, and the family note."
+    ]
+  }
+}

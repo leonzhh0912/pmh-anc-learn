@@ -1,0 +1,257 @@
+{
+  "id": "V-DENT-004",
+  "lessonId": "MCH68-DENT-004",
+  "version": "0.1.0",
+  "title": "บันทึกการขึ้นและหลุดของฟันลูก และการตรวจฟันโดยทันตบุคลากร",
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      65,
+      66
+    ],
+    "printedPages": [
+      "63",
+      "64"
+    ],
+    "note": "Narration derived from lesson MCH68-DENT-004 v0.1.0"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-DENT-004 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'ทันตบุคลากร', 'ดัชนีคราบจุลินทรีย์', the tooth letters spoken as 'เอ ถึง อี', and the page numbers 'หกสิบสาม' / 'หกสิบสี่'.",
+      "Curriculum videoTreatment for this lesson is 'none – interactive only'; this script was written on request. PMH to decide whether the video is produced.",
+      "Lesson note: the Plaque Index scoring (Mombelli 0-3), the p65 charting box and number grid are not explained; item 2 only says dental staff examine and record it and parents do not score it themselves (derived from the p65 title 'โดยทันตบุคลากร').",
+      "Lesson note: the reason for bringing the book (item 4: so dental staff can record the check on page 63) is derived from the p65 title and p2; the handbook does not say it in a sentence.",
+      "Lesson note: reading the tooth map (item 6) is derived from the p66 diagram. The handbook does not say whether ขวา/ซ้าย is the child's right/left; the video tells families to follow the words in the picture and does not explain orientation. Dentist to confirm.",
+      "Lesson note: 'จดเมื่อเห็นฟันซี่นั้นขึ้น / หลุด' (item 8) is how the p66 columns are read; no eruption or loss ages are given (PMH CLARIFICATION: typical eruption ages are not in the handbook).",
+      "Not used in the video: toothpaste amounts and fluoride strengths (FOR DENTIST REVIEW in DENT-001), the 'เฝ้าดูฟัน 6 ขวบปีแรก' age-by-age care (covered by V-DENT-001), the plastic-straw plaque check, the app privacy line, and the family note."
+    ]
+  },
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3",
+    "stability": 0.5,
+    "style": 0,
+    "speed": 0.95,
+    "seed": 1234
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "kind": "title",
+      "heading": "บันทึกฟันลูกในสมุด",
+      "subheading": "จากสมุดบันทึกสุขภาพแม่และเด็ก ฉบับปรับปรุงใหม่ พ.ศ. 2568",
+      "chips": [
+        "หน้า 63",
+        "หน้า 64",
+        "ฟันขึ้น ฟันหลุด"
+      ],
+      "segments": [
+        {
+          "speak": "สมุดมีหน้าบันทึกเรื่องฟันลูกสองหน้า คือหน้าหกสิบสาม และหน้าหกสิบสี่",
+          "caption": "สมุดมีหน้าบันทึกเรื่องฟันลูก 2 หน้า คือหน้า 63 และหน้า 64"
+        },
+        {
+          "speak": "หน้าหนึ่งทันตบุคลากรเป็นผู้บันทึก อีกหน้าหนึ่งผู้ปกครองจดเอง",
+          "caption": "หน้าหนึ่งทันตบุคลากรเป็นผู้บันทึก อีกหน้าหนึ่งผู้ปกครองจดเอง"
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "kind": "stage",
+      "stage": 1,
+      "label": "หน้า 63 ทันตบุคลากร",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 1,
+          "icon": "clinic",
+          "text": "บันทึกการตรวจฟันเด็ก โดยทันตบุคลากร"
+        },
+        {
+          "n": 2,
+          "icon": "check",
+          "text": "ดัชนีคราบจุลินทรีย์ ทันตบุคลากรบันทึก"
+        },
+        {
+          "n": 3,
+          "icon": "tooth",
+          "text": "ฟันผุนำไปสู่โรคทางกายร้ายแรงได้หลายโรค"
+        },
+        {
+          "n": 4,
+          "icon": "handbook",
+          "text": "นำสมุดไปด้วยทุกครั้ง"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่หนึ่ง สมุดหน้าหกสิบสาม",
+          "caption": "ตอนที่ 1 สมุดหน้า 63"
+        },
+        {
+          "reveal": 1,
+          "speak": "ข้อหนึ่ง หน้านี้ชื่อ บันทึกการตรวจฟันเด็ก โดยทันตบุคลากร มีกรอบรูปฟันบนและฟันล่าง",
+          "caption": "ข้อ 1 หน้านี้ชื่อ 'บันทึกการตรวจฟันเด็ก โดยทันตบุคลากร' มีกรอบรูปฟันบนและฟันล่าง"
+        },
+        {
+          "reveal": 2,
+          "speak": "ข้อสอง ดัชนีคราบจุลินทรีย์ ทันตบุคลากรเป็นผู้ตรวจและบันทึก ผู้ปกครองไม่ต้องให้คะแนนเอง",
+          "caption": "ข้อ 2 ดัชนีคราบจุลินทรีย์ ทันตบุคลากรเป็นผู้ตรวจและบันทึก ผู้ปกครองไม่ต้องให้คะแนนเอง"
+        },
+        {
+          "reveal": 3,
+          "speak": "ข้อสาม ข้อความที่ขอบหน้าบอกว่า ฟันผุนำไปสู่โรคทางกายร้ายแรงอื่น ๆ ได้หลายโรค",
+          "caption": "ข้อ 3 ข้อความที่ขอบหน้าบอกว่า ฟันผุนำไปสู่โรคทางกายร้ายแรงอื่น ๆ ได้หลายโรค"
+        },
+        {
+          "reveal": 4,
+          "speak": "ข้อสี่ นำสมุดไปด้วยทุกครั้ง เพื่อให้ทันตบุคลากรบันทึกผลการตรวจในหน้านี้ได้",
+          "caption": "ข้อ 4 นำสมุดไปด้วยทุกครั้ง เพื่อให้ทันตบุคลากรบันทึกผลการตรวจในหน้านี้ได้"
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "kind": "stage",
+      "stage": 2,
+      "label": "หน้า 64 ผู้ปกครองจด",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 5,
+          "icon": "heart",
+          "text": "หน้ามีหัวใจ ผู้ปกครองบันทึกเองได้"
+        },
+        {
+          "n": 6,
+          "icon": "tooth",
+          "text": "ดูรูป: บน ล่าง ขวา ซ้าย ซี่ A ถึง E"
+        },
+        {
+          "n": 7,
+          "icon": "form",
+          "text": "ตาราง 4 ส่วน แต่ละตารางมีแถว A ถึง E"
+        },
+        {
+          "n": 8,
+          "icon": "calendar",
+          "text": "จดอายุหรือวันที่ ช่อง 'ขึ้น' และ 'หลุด'"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สอง สมุดหน้าหกสิบสี่ บันทึกการขึ้นและหลุดของฟันเด็ก โดยผู้ปกครอง",
+          "caption": "ตอนที่ 2 สมุดหน้า 64 บันทึกการขึ้นและหลุดของฟันเด็ก โดยผู้ปกครอง"
+        },
+        {
+          "reveal": 5,
+          "speak": "ข้อห้า หน้านี้มีเครื่องหมายหัวใจ เป็นหน้าที่ผู้ปกครองศึกษาและบันทึกข้อมูลได้ด้วยตนเอง",
+          "caption": "ข้อ 5 หน้านี้มีเครื่องหมายหัวใจ เป็นหน้าที่ผู้ปกครองศึกษาและบันทึกข้อมูลได้ด้วยตนเอง"
+        },
+        {
+          "reveal": 6,
+          "speak": "ข้อหก รูปฟันกลางหน้า แต่ละส่วนมีห้าซี่ เขียนกำกับ เอ ถึง อี ดูคำ ขวา ซ้าย ในรูปเป็นหลัก",
+          "caption": "ข้อ 6 รูปฟันกลางหน้า แต่ละส่วนมี 5 ซี่ เขียนกำกับ A ถึง E ดูคำ 'ขวา' 'ซ้าย' ในรูปเป็นหลัก"
+        },
+        {
+          "reveal": 7,
+          "speak": "ข้อเจ็ด มีตารางสี่ตาราง บนขวา บนซ้าย ล่างขวา ล่างซ้าย แต่ละตารางมีแถว เอ ถึง อี ตรงกับฟันในรูป",
+          "caption": "ข้อ 7 มีตาราง 4 ตาราง บนขวา บนซ้าย ล่างขวา ล่างซ้าย แต่ละตารางมีแถว A ถึง E ตรงกับฟันในรูป"
+        },
+        {
+          "reveal": 8,
+          "speak": "ข้อแปด เห็นฟันซี่นั้นขึ้น จดอายุหรือวันที่ในช่อง ขึ้น ฟันซี่นั้นหลุด จดในช่อง หลุด",
+          "caption": "ข้อ 8 เห็นฟันซี่นั้นขึ้น จดอายุหรือวันที่ในช่อง 'ขึ้น' ฟันซี่นั้นหลุด จดในช่อง 'หลุด'"
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "kind": "stage",
+      "stage": 3,
+      "label": "ฟันขึ้นเร็วช้าต่างกัน",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 9,
+          "icon": "baby",
+          "text": "เด็กแต่ละคนฟันขึ้นเร็วช้าต่างกัน"
+        },
+        {
+          "n": 10,
+          "icon": "ask",
+          "text": "อายุ 1 ปี ยังไม่มีฟัน ปรึกษาทันตแพทย์"
+        },
+        {
+          "n": 11,
+          "icon": "clinic",
+          "text": "พบทันตแพทย์ก่อนอายุ 1 ปี และทุก 6 เดือน"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สาม ฟันขึ้นเร็วช้าต่างกัน",
+          "caption": "ตอนที่ 3 ฟันขึ้นเร็วช้าต่างกัน"
+        },
+        {
+          "reveal": 9,
+          "speak": "ข้อเก้า เด็กแต่ละคนอาจมีฟันขึ้นได้เร็วช้าต่างกัน",
+          "caption": "ข้อ 9 เด็กแต่ละคนอาจมีฟันขึ้นได้เร็วช้าต่างกัน"
+        },
+        {
+          "reveal": 10,
+          "speak": "ข้อสิบ หากเด็กอายุหนึ่งปีแล้ว ยังไม่มีฟันซี่แรกขึ้น ควรปรึกษาทันตแพทย์หรือทันตบุคลากร",
+          "caption": "ข้อ 10 หากเด็กอายุ 1 ปีแล้ว ยังไม่มีฟันซี่แรกขึ้น ควรปรึกษาทันตแพทย์หรือทันตบุคลากร"
+        },
+        {
+          "reveal": 11,
+          "speak": "ข้อสิบเอ็ด พบทันตแพทย์ครั้งแรกก่อนอายุหนึ่งปี และพบต่อเนื่องทุกหกเดือน",
+          "caption": "ข้อ 11 พบทันตแพทย์ครั้งแรกก่อนอายุ 1 ปี และพบต่อเนื่องทุก 6 เดือน"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "kind": "summary",
+      "heading": "จำไว้ 3 เรื่อง",
+      "points": [
+        "หน้า 64 จดวันที่ฟันลูกขึ้นและหลุด",
+        "1 ปี ยังไม่มีฟัน ปรึกษาทันตแพทย์",
+        "หน้า 63 ทันตบุคลากรบันทึก"
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "สรุปเรื่องสำคัญ",
+          "caption": "สรุปเรื่องสำคัญ"
+        },
+        {
+          "reveal": 1,
+          "speak": "สมุดหน้าหกสิบสี่ ผู้ปกครองจดอายุหรือวันที่ ที่ฟันลูกแต่ละซี่ขึ้นและหลุด",
+          "caption": "สมุดหน้า 64 ผู้ปกครองจดอายุหรือวันที่ ที่ฟันลูกแต่ละซี่ขึ้นและหลุด"
+        },
+        {
+          "reveal": 2,
+          "speak": "อายุหนึ่งปีแล้ว ยังไม่มีฟันซี่แรกขึ้น ควรปรึกษาทันตแพทย์หรือทันตบุคลากร",
+          "caption": "อายุ 1 ปีแล้ว ยังไม่มีฟันซี่แรกขึ้น ควรปรึกษาทันตแพทย์หรือทันตบุคลากร"
+        },
+        {
+          "reveal": 3,
+          "speak": "สมุดหน้าหกสิบสาม ทันตบุคลากรเป็นผู้บันทึกการตรวจฟัน นำสมุดไปด้วยทุกครั้ง",
+          "caption": "สมุดหน้า 63 ทันตบุคลากรเป็นผู้บันทึกการตรวจฟัน นำสมุดไปด้วยทุกครั้ง"
+        }
+      ]
+    }
+  ]
+}

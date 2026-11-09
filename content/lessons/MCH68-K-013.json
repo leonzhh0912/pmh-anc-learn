@@ -1,0 +1,366 @@
+{
+  "id": "MCH68-K-013",
+  "version": "0.1.1",
+  "title": "ป้องกันการบาดเจ็บในบ้าน",
+  "summary": "6 ข้อจากสมุดสีชมพูเพื่อป้องกันเด็กบาดเจ็บในบ้าน: ที่สูง ราวบันได หน้าต่าง เฟอร์นิเจอร์ รถหัดเดิน และบันไดเลื่อน/ลิฟต์",
+  "sectionId": "knowledge",
+  "stages": [
+    "newborn",
+    "child"
+  ],
+  "audience": [
+    "mother",
+    "family"
+  ],
+  "minutes": 5,
+  "objectives": [
+    "ผู้เรียนบอกวิธีป้องกันการบาดเจ็บในเด็ก 6 ข้อตามสมุดได้",
+    "ผู้เรียนตรวจบ้านตามเกณฑ์ในสมุดได้: ช่องห่างราวบันไดน้อยกว่า 9 เซนติเมตร หน้าต่างสูงจากพื้นมากกว่า 1 เมตร และยึดเฟอร์นิเจอร์ให้มั่นคง",
+    "ผู้เรียนบอกได้ว่าไม่ปล่อยเด็กบนที่สูงลำพัง ไม่ใช้รถหัดเดิน และดูแลใกล้ชิดเมื่อใช้บันไดเลื่อน/ลิฟต์"
+  ],
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      30
+    ],
+    "printedPages": [
+      "28"
+    ],
+    "note": "ส่วน 'การป้องกันการบาดเจ็บในเด็ก' ครึ่งล่างของหน้า (บัตรภาพ 6 ใบ) ส่วน 'สื่อหน้าจอกับพัฒนาการเด็ก' ครึ่งบนของหน้าเดียวกันไม่อยู่ในบทเรียนนี้"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "All 6 rules are from PDF p30 (printed 28), checked on the official page image: ไม่ปล่อยเด็กบนที่สูงลำพัง; ช่องห่างราวบันไดน้อยกว่า 9 เซนติเมตร (diagram label '< 9 ซม.'); หน้าต่างสูงจากพื้นมากกว่า 1 เมตร (diagram label '> 1 ม.'); ยึดเฟอร์นิเจอร์ให้มั่นคง; ไม่ใช้รถหัดเดิน; ดูแลใกล้ชิดเมื่อใช้บันไดเลื่อน/ลิฟต์.",
+      "The handbook gives no reasons for any rule (e.g. why baby walkers are not used, why the gap must be under 9 cm). The lesson adds no reasons.",
+      "Examples taken from the p30 illustrations, not the printed text: an armchair/sofa as a 'high place' (baby alone on an armchair), a wardrobe fixed to the wall (furniture card), holding the child's hand on an escalator. Reviewer to confirm these examples are acceptable.",
+      "Timeline 'ตรวจบ้าน' details (e.g. 'ลองวัดช่องห่างระหว่างซี่ราวบันได', 'ตู้ ชั้นวางของ') are app framing for a home checklist; the rules and numbers are unchanged.",
+      "Sort bucket 'ไม่ตรงกับสมุด' cards are the opposite of the printed rules (e.g. 'ให้ลูกนั่งรถหัดเดิน', 'ปล่อยลูกนั่งบนโซฟาคนเดียว'). Card 'ปล่อยลูกขึ้นลิฟต์คนเดียว' is the reverse of 'ดูแลใกล้ชิดเมื่อใช้บันไดเลื่อน/ลิฟต์'. Check wording.",
+      "Quiz q3 scenario (grandmother cooking, baby on the sofa) and q5 scenario (shopping-centre escalator) are written for this lesson; wrong options are written for this lesson. The handbook does not say what to do instead of leaving the child; the lesson does not add alternatives.",
+      "Quiz q3 option b feedback calls a table 'ที่สูง' — editorial example; the handbook does not list which places count as high.",
+      "Text step 2's last paragraph ('สมุดไม่ได้อธิบายเหตุผล … ถามเจ้าหน้าที่') is app framing.",
+      "Family note is app framing that repeats the printed rules. Needs approval.",
+      "PMH clarification (from curriculum): local housing context (e.g. raised wooden houses) for illustrations only — no new rules added; PMH to decide whether to show such homes in the video/illustrations.",
+      "Paediatrician / injury-prevention nurse to review (curriculum review requirement)."
+    ]
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "First draft from official handbook PDF p30 (2nd printing, April 2569); injury-prevention cards only."
+    },
+    {
+      "version": "0.1.1",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "Added video step V-K-013 (narration derived from this lesson; no text changes)."
+    }
+  ],
+  "steps": [
+    {
+      "type": "text",
+      "heading": "บ้านที่ปลอดภัยสำหรับลูก",
+      "paragraphs": [
+        "สมุดสีชมพูหน้า 28 มีเรื่อง 'การป้องกันการบาดเจ็บในเด็ก' เป็นภาพ 6 ภาพ",
+        "3 ข้อเป็นเรื่องของตัวบ้าน: ช่องห่างราวบันไดน้อยกว่า 9 เซนติเมตร หน้าต่างสูงจากพื้นมากกว่า 1 เมตร และยึดเฟอร์นิเจอร์ให้มั่นคง",
+        "อีก 3 ข้อเป็นเรื่องการดูแลเด็ก: ไม่ปล่อยเด็กบนที่สูงลำพัง ไม่ใช้รถหัดเดิน และดูแลใกล้ชิดเมื่อใช้บันไดเลื่อน/ลิฟต์"
+      ]
+    },
+    {
+      "type": "video",
+      "heading": "ดูวิดีโอสรุป",
+      "videoId": "V-K-013"
+    },
+    {
+      "type": "text",
+      "heading": "ตัวเลข 2 ตัวที่ควรจำ",
+      "paragraphs": [
+        "ราวบันได: ช่องห่างน้อยกว่า 9 เซนติเมตร",
+        "หน้าต่าง: สูงจากพื้นมากกว่า 1 เมตร",
+        "สมุดไม่ได้อธิบายเหตุผลของแต่ละข้อ ถ้าสงสัยหรือไม่แน่ใจว่าบ้านของตัวเองเป็นอย่างไร ถามเจ้าหน้าที่ได้"
+      ]
+    },
+    {
+      "type": "timeline",
+      "heading": "เดินตรวจบ้านไปด้วยกัน",
+      "intro": "แตะแต่ละข้อเพื่อดูว่าสมุดหน้า 28 บอกไว้อย่างไร ลองเดินดูบ้านของตัวเองไปพร้อมกัน",
+      "stages": [
+        {
+          "id": "house",
+          "label": "ตรวจตัวบ้าน",
+          "items": [
+            {
+              "n": 1,
+              "title": "ราวบันได",
+              "detail": "ช่องห่างราวบันไดน้อยกว่า 9 เซนติเมตร ลองวัดช่องห่างระหว่างซี่ราวบันไดที่บ้าน"
+            },
+            {
+              "n": 2,
+              "title": "หน้าต่าง",
+              "detail": "หน้าต่างสูงจากพื้นมากกว่า 1 เมตร"
+            },
+            {
+              "n": 3,
+              "title": "เฟอร์นิเจอร์",
+              "detail": "ยึดเฟอร์นิเจอร์ให้มั่นคง เช่น ตู้ ชั้นวางของ (ภาพในสมุดเป็นการยึดตู้เสื้อผ้าติดผนัง)"
+            }
+          ]
+        },
+        {
+          "id": "care",
+          "label": "ดูแลลูก",
+          "items": [
+            {
+              "n": 4,
+              "title": "ที่สูง",
+              "detail": "ไม่ปล่อยเด็กบนที่สูงลำพัง (ภาพในสมุดเป็นเด็กนั่งบนเก้าอี้โซฟาคนเดียว)"
+            },
+            {
+              "n": 5,
+              "title": "รถหัดเดิน",
+              "detail": "ไม่ใช้รถหัดเดิน"
+            },
+            {
+              "n": 6,
+              "title": "บันไดเลื่อนและลิฟต์",
+              "detail": "ดูแลใกล้ชิดเมื่อใช้บันไดเลื่อน/ลิฟต์ (ภาพในสมุดเป็นผู้ใหญ่จูงมือเด็กบนบันไดเลื่อน)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "heading": "ตรงกับสมุดหรือไม่",
+      "intro": "แตะการ์ดหนึ่งใบ แล้วแตะกล่องที่ถูกต้องตามสมุดหน้า 28",
+      "buckets": [
+        {
+          "id": "ok",
+          "label": "ตรงกับสมุด"
+        },
+        {
+          "id": "no",
+          "label": "ไม่ตรงกับสมุด"
+        }
+      ],
+      "items": [
+        {
+          "id": "s1",
+          "text": "ช่องห่างราวบันไดน้อยกว่า 9 เซนติเมตร",
+          "bucketId": "ok"
+        },
+        {
+          "id": "s2",
+          "text": "ให้ลูกนั่งรถหัดเดิน",
+          "bucketId": "no"
+        },
+        {
+          "id": "s3",
+          "text": "ยึดตู้เสื้อผ้าให้มั่นคง",
+          "bucketId": "ok"
+        },
+        {
+          "id": "s4",
+          "text": "ปล่อยลูกนั่งบนโซฟาคนเดียว",
+          "bucketId": "no"
+        },
+        {
+          "id": "s5",
+          "text": "หน้าต่างสูงจากพื้นมากกว่า 1 เมตร",
+          "bucketId": "ok"
+        },
+        {
+          "id": "s6",
+          "text": "ปล่อยลูกขึ้นลิฟต์คนเดียว",
+          "bucketId": "no"
+        },
+        {
+          "id": "s7",
+          "text": "จูงมือและดูแลลูกใกล้ชิดบนบันไดเลื่อน",
+          "bucketId": "ok"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "heading": "ทบทวนความเข้าใจ",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "prompt": "ตามสมุด ช่องห่างราวบันไดควรเป็นอย่างไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "กว้างกว่า 9 เซนติเมตร",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า ช่องห่างราวบันไดน้อยกว่า 9 เซนติเมตร"
+            },
+            {
+              "id": "b",
+              "text": "น้อยกว่า 9 เซนติเมตร",
+              "feedback": "ถูกต้อง ช่องห่างราวบันไดน้อยกว่า 9 เซนติเมตร"
+            },
+            {
+              "id": "c",
+              "text": "สมุดไม่ได้กำหนดไว้",
+              "feedback": "ยังไม่ใช่ สมุดหน้า 28 กำหนดไว้ว่า น้อยกว่า 9 เซนติเมตร"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "สมุดหน้า 28: ช่องห่างราวบันไดน้อยกว่า 9 เซนติเมตร",
+          "source": {
+            "pdfPages": [
+              30
+            ],
+            "printedPages": [
+              "28"
+            ]
+          }
+        },
+        {
+          "id": "q2",
+          "kind": "mcq",
+          "prompt": "ตามสมุด หน้าต่างควรสูงจากพื้นเท่าไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "มากกว่า 1 เมตร",
+              "feedback": "ถูกต้อง หน้าต่างสูงจากพื้นมากกว่า 1 เมตร"
+            },
+            {
+              "id": "b",
+              "text": "50 เซนติเมตร",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า หน้าต่างสูงจากพื้นมากกว่า 1 เมตร"
+            },
+            {
+              "id": "c",
+              "text": "ไม่เกิน 9 เซนติเมตร",
+              "feedback": "ยังไม่ใช่ ตัวเลข 9 เซนติเมตร เป็นเรื่องช่องห่างราวบันได ส่วนหน้าต่างให้สูงจากพื้นมากกว่า 1 เมตร"
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "สมุดหน้า 28: หน้าต่างสูงจากพื้นมากกว่า 1 เมตร",
+          "source": {
+            "pdfPages": [
+              30
+            ],
+            "printedPages": [
+              "28"
+            ]
+          }
+        },
+        {
+          "id": "q3",
+          "kind": "scenario",
+          "scenario": "ยายดูแลหลานวัย 8 เดือน และต้องลุกไปทำกับข้าวในครัว",
+          "prompt": "ตามสมุด ข้อใดถูกต้อง",
+          "options": [
+            {
+              "id": "a",
+              "text": "วางหลานไว้บนโซฟาคนเดียวสักครู่",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า ไม่ปล่อยเด็กบนที่สูงลำพัง"
+            },
+            {
+              "id": "b",
+              "text": "วางหลานไว้บนโต๊ะ แล้วเอาหมอนกั้นไว้",
+              "feedback": "ยังไม่ใช่ โต๊ะก็เป็นที่สูง สมุดเขียนว่า ไม่ปล่อยเด็กบนที่สูงลำพัง"
+            },
+            {
+              "id": "c",
+              "text": "ไม่ปล่อยหลานไว้บนที่สูงตามลำพัง",
+              "feedback": "ถูกต้อง สมุดเขียนว่า ไม่ปล่อยเด็กบนที่สูงลำพัง"
+            }
+          ],
+          "correctOptionId": "c",
+          "explanation": "สมุดหน้า 28: ไม่ปล่อยเด็กบนที่สูงลำพัง ภาพในสมุดเป็นเด็กนั่งบนเก้าอี้โซฟาคนเดียว",
+          "source": {
+            "pdfPages": [
+              30
+            ],
+            "printedPages": [
+              "28"
+            ]
+          }
+        },
+        {
+          "id": "q4",
+          "kind": "truefalse",
+          "prompt": "สมุดแนะนำให้ใช้รถหัดเดินเมื่อลูกเริ่มหัดเดิน จริงหรือไม่",
+          "options": [
+            {
+              "id": "t",
+              "text": "จริง",
+              "feedback": "ไม่ใช่ สมุดเขียนว่า ไม่ใช้รถหัดเดิน"
+            },
+            {
+              "id": "f",
+              "text": "ไม่จริง",
+              "feedback": "ถูกต้อง สมุดเขียนว่า ไม่ใช้รถหัดเดิน"
+            }
+          ],
+          "correctOptionId": "f",
+          "explanation": "สมุดหน้า 28 มีภาพเด็กในรถหัดเดินพร้อมเครื่องหมายห้าม และเขียนว่า ไม่ใช้รถหัดเดิน",
+          "source": {
+            "pdfPages": [
+              30
+            ],
+            "printedPages": [
+              "28"
+            ]
+          }
+        },
+        {
+          "id": "q5",
+          "kind": "scenario",
+          "scenario": "ครอบครัวพาลูกวัย 3 ขวบไปห้างสรรพสินค้า ต้องขึ้นบันไดเลื่อน",
+          "prompt": "ตามสมุด ควรทำอย่างไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "ให้ลูกขึ้นไปก่อน แล้วผู้ใหญ่ตามไป",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า ดูแลใกล้ชิดเมื่อใช้บันไดเลื่อน/ลิฟต์"
+            },
+            {
+              "id": "b",
+              "text": "ดูแลลูกใกล้ชิดตลอดเวลาที่อยู่บนบันไดเลื่อน",
+              "feedback": "ถูกต้อง ดูแลใกล้ชิดเมื่อใช้บันไดเลื่อน/ลิฟต์ ภาพในสมุดเป็นผู้ใหญ่จูงมือเด็ก"
+            },
+            {
+              "id": "c",
+              "text": "ลูก 3 ขวบแล้ว ขึ้นเองได้",
+              "feedback": "ยังไม่ใช่ สมุดไม่ได้บอกอายุที่ขึ้นเองได้ เขียนเพียงว่า ดูแลใกล้ชิดเมื่อใช้บันไดเลื่อน/ลิฟต์"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "สมุดหน้า 28: ดูแลใกล้ชิดเมื่อใช้บันไดเลื่อน/ลิฟต์",
+          "source": {
+            "pdfPages": [
+              30
+            ],
+            "printedPages": [
+              "28"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "takeaways",
+      "heading": "สรุปสิ่งสำคัญ",
+      "items": [
+        "ไม่ปล่อยเด็กบนที่สูงลำพัง",
+        "ช่องห่างราวบันไดน้อยกว่า 9 เซนติเมตร และหน้าต่างสูงจากพื้นมากกว่า 1 เมตร",
+        "ยึดเฟอร์นิเจอร์ให้มั่นคง",
+        "ไม่ใช้รถหัดเดิน",
+        "ดูแลใกล้ชิดเมื่อใช้บันไดเลื่อน/ลิฟต์"
+      ],
+      "familyNote": "ทุกคนในบ้านช่วยกันได้ คนในครอบครัวหรือคนที่ดูแลเด็ก เช่น ปู่ย่าตายาย ลองเดินตรวจบ้านด้วยกันตาม 6 ข้อในสมุดหน้า 28 และตกลงกันว่าจะไม่ปล่อยเด็กไว้บนที่สูงลำพัง"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "id": "V-GROW-004",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 4045,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 352,
+      "segments": [
+        {
+          "file": "audio/V-GROW-004/intro-1-495d9ca52c.wav",
+          "from": 18,
+          "durationInFrames": 192,
+          "caption": "สมุดหน้า 44–53 เป็นกราฟการเจริญเติบโตของลูก แยกเด็กชายและเด็กหญิง",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-GROW-004/intro-2-29c09d4e6c.wav",
+          "from": 224,
+          "durationInFrames": 101,
+          "caption": "มาดูว่ากราฟอยู่หน้าไหน และแต่ละกราฟดูอะไร",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 352,
+      "durationInFrames": 974,
+      "segments": [
+        {
+          "file": "audio/V-GROW-004/stage1-1-d310f17b06.wav",
+          "from": 18,
+          "durationInFrames": 161,
+          "caption": "ตอนที่ 1 เลือกกราฟให้ถูกเพศ ตามที่สมุดหน้า 42 แนะนำ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-004/stage1-2-3f3b43634c.wav",
+          "from": 193,
+          "durationInFrames": 194,
+          "caption": "เลือกใช้กราฟให้ถูกเพศกับเด็ก เพราะเด็กชายและเด็กหญิง มีค่าการเจริญเติบโตที่แตกต่างกัน",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-GROW-004/stage1-3-dcce352911.wav",
+          "from": 401,
+          "durationInFrames": 182,
+          "caption": "หน้ากราฟเด็กชายพื้นสีฟ้า อยู่หน้า 44 และหน้า 46–49",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-GROW-004/stage1-4-8650e3f203.wav",
+          "from": 597,
+          "durationInFrames": 206,
+          "caption": "หน้ากราฟเด็กหญิงพื้นสีชมพู อยู่หน้า 45 และหน้า 50–53",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-GROW-004/stage1-5-57508e7e40.wav",
+          "from": 817,
+          "durationInFrames": 130,
+          "caption": "กราฟส่วนใหญ่พิมพ์ตามแนวนอนของหน้า ต้องหมุนสมุดเพื่ออ่าน",
+          "reveal": 4
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1326,
+      "durationInFrames": 1165,
+      "segments": [
+        {
+          "file": "audio/V-GROW-004/stage2-1-07c31a7f90.wav",
+          "from": 18,
+          "durationInFrames": 91,
+          "caption": "ตอนที่ 2 แต่ละกราฟดูอะไร",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-004/stage2-2-b169732588.wav",
+          "from": 123,
+          "durationInFrames": 230,
+          "caption": "กราฟเส้นรอบวงศีรษะ ดูเส้นรอบวงศีรษะ (เซนติเมตร) ตามอายุ ตั้งแต่แรกเกิดถึง 5 ปี",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-GROW-004/stage2-3-1831fe4b1c.wav",
+          "from": 367,
+          "durationInFrames": 158,
+          "caption": "กราฟน้ำหนักตามเกณฑ์อายุ ดูน้ำหนัก (กิโลกรัม) ตามอายุ (เดือน)",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-GROW-004/stage2-4-68556142b8.wav",
+          "from": 539,
+          "durationInFrames": 326,
+          "caption": "กราฟความยาว/ส่วนสูงตามเกณฑ์อายุ ช่องซ้าย ความยาว 0–24 เดือน ช่องขวา ส่วนสูง 24–72 เดือน",
+          "reveal": 7
+        },
+        {
+          "file": "audio/V-GROW-004/stage2-5-13534c69bd.wav",
+          "from": 879,
+          "durationInFrames": 259,
+          "caption": "กราฟน้ำหนักตามเกณฑ์ความยาว ไม่ใช้อายุ แรกเกิด–2 ปี เทียบความยาว 2 ปีขึ้นไป เทียบส่วนสูง",
+          "reveal": 8
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 2491,
+      "durationInFrames": 763,
+      "segments": [
+        {
+          "file": "audio/V-GROW-004/stage3-1-5794717010.wav",
+          "from": 18,
+          "durationInFrames": 100,
+          "caption": "ตอนที่ 3 เมื่อพาลูกไปรับบริการ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-004/stage3-2-49480a2163.wav",
+          "from": 132,
+          "durationInFrames": 182,
+          "caption": "นำสมุดไปด้วย เจ้าหน้าที่ใช้กราฟในสมุด บันทึกการเจริญเติบโตของลูก",
+          "reveal": 9
+        },
+        {
+          "file": "audio/V-GROW-004/stage3-3-abbde2f10e.wav",
+          "from": 328,
+          "durationInFrames": 226,
+          "caption": "เจ้าหน้าที่จะชั่ง วัด จุดกราฟ และเขียนวัน เดือน ปี อายุ และค่าที่วัด ในตาราง 'ผลการวัด'",
+          "reveal": 10
+        },
+        {
+          "file": "audio/V-GROW-004/stage3-4-1e85818851.wav",
+          "from": 568,
+          "durationInFrames": 168,
+          "caption": "สีและเส้นในกราฟมีความหมาย เจ้าหน้าที่จะอธิบายผลให้ ถามได้ทุกครั้ง",
+          "reveal": 11
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 3254,
+      "durationInFrames": 791,
+      "segments": [
+        {
+          "file": "audio/V-GROW-004/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-004/summary-2-6cea5b6346.wav",
+          "from": 78,
+          "durationInFrames": 214,
+          "caption": "เลือกกราฟให้ถูกเพศ หน้ากราฟเด็กชายพื้นสีฟ้า เด็กหญิงพื้นสีชมพู",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-GROW-004/summary-3-cb5edd0866.wav",
+          "from": 306,
+          "durationInFrames": 259,
+          "caption": "กราฟดูเส้นรอบวงศีรษะ น้ำหนักตามอายุ ความยาว/ส่วนสูงตามอายุ และน้ำหนักตามความยาว/ส่วนสูง",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-GROW-004/summary-4-db9d87a238.wav",
+          "from": 579,
+          "durationInFrames": 185,
+          "caption": "เจ้าหน้าที่ชั่ง วัด จุดกราฟ และอธิบายผล ถามได้ทุกครั้ง",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

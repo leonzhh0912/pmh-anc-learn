@@ -1,0 +1,196 @@
+{
+  "id": "V-REC-002",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 3809,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 451,
+      "segments": [
+        {
+          "file": "audio/V-REC-002/intro-1-a826c28e70.wav",
+          "from": 18,
+          "durationInFrames": 190,
+          "caption": "ขณะตั้งครรภ์ คุณแม่ควรดูแลฟันและเหงือก ตามคำแนะนำในสมุดบันทึกสุขภาพแม่และเด็ก",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-REC-002/intro-2-dec5fa7b37.wav",
+          "from": 222,
+          "durationInFrames": 202,
+          "caption": "มาดูกันว่าทำไมต้องดูแลฟัน ทำอะไรได้ในแต่ละวัน และเรื่องการตรวจฟัน",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 451,
+      "durationInFrames": 1134,
+      "segments": [
+        {
+          "file": "audio/V-REC-002/stage1-1-cb598eeb25.wav",
+          "from": 18,
+          "durationInFrames": 113,
+          "caption": "ตอนที่ 1 ทำไมต้องดูแลฟันขณะตั้งครรภ์",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-REC-002/stage1-2-eae5e654f8.wav",
+          "from": 145,
+          "durationInFrames": 194,
+          "caption": "ข้อ 1 โรคเหงือกอักเสบพบได้บ่อยในหญิงตั้งครรภ์ เกิดจากการเปลี่ยนแปลงของฮอร์โมน",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-REC-002/stage1-3-19be280a33.wav",
+          "from": 353,
+          "durationInFrames": 226,
+          "caption": "ข้อ 2 ถ้าเป็นมากจนเป็นโรคปริทันต์ อาจเสี่ยงคลอดก่อนกำหนด และลูกมีน้ำหนักแรกเกิดน้อยได้",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-REC-002/stage1-4-35a331f729.wav",
+          "from": 593,
+          "durationInFrames": 226,
+          "caption": "ข้อ 3 อาการแพ้ท้อง อาเจียนบ่อย ร่วมกับการดูแลความสะอาดช่องปากไม่ดี ทำให้ฟันผุได้ง่าย",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-REC-002/stage1-5-295a6cc13a.wav",
+          "from": 833,
+          "durationInFrames": 274,
+          "caption": "ข้อ 4 แม่หลังคลอดที่มีฟันผุ ส่งเชื้อฟันผุให้ลูกได้ ผ่านการเป่าอาหาร จูบ และใช้ภาชนะร่วมกัน",
+          "reveal": 4
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1585,
+      "durationInFrames": 952,
+      "segments": [
+        {
+          "file": "audio/V-REC-002/stage2-1-c87c6ef956.wav",
+          "from": 18,
+          "durationInFrames": 91,
+          "caption": "ตอนที่ 2 ดูแลฟันในแต่ละวัน",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-REC-002/stage2-2-f2f85d57f7.wav",
+          "from": 123,
+          "durationInFrames": 204,
+          "caption": "ข้อ 5 แปรงฟันวันละ 2 ครั้ง ตอนเช้าและก่อนนอน ด้วยยาสีฟันผสมฟลูออไรด์",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-REC-002/stage2-3-7ec81da994.wav",
+          "from": 341,
+          "durationInFrames": 91,
+          "caption": "ข้อ 6 บ้วนปากทุกครั้งหลังกินอาหาร",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-REC-002/stage2-4-42b043ad45.wav",
+          "from": 446,
+          "durationInFrames": 79,
+          "caption": "ข้อ 7 ใช้ไหมขัดฟันทุกวัน",
+          "reveal": 7
+        },
+        {
+          "file": "audio/V-REC-002/stage2-5-d8ef1b0185.wav",
+          "from": 539,
+          "durationInFrames": 118,
+          "caption": "ข้อ 8 หลีกเลี่ยงการกินอาหารที่มีน้ำตาลบ่อย ๆ",
+          "reveal": 8
+        },
+        {
+          "file": "audio/V-REC-002/stage2-6-550d01656e.wav",
+          "from": 671,
+          "durationInFrames": 254,
+          "caption": "ข้อ 9 คลื่นไส้ อาเจียน บ้วนปากด้วยน้ำมาก ๆ หรือน้ำผสมเบกกิ้งโซดา เพื่อลดความเป็นกรดในปาก",
+          "reveal": 9
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 2537,
+      "durationInFrames": 741,
+      "segments": [
+        {
+          "file": "audio/V-REC-002/stage3-1-5c994d96ee.wav",
+          "from": 18,
+          "durationInFrames": 98,
+          "caption": "ตอนที่ 3 การตรวจฟันและทำฟัน",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-REC-002/stage3-2-f90f89a2df.wav",
+          "from": 130,
+          "durationInFrames": 149,
+          "caption": "ข้อ 10 หญิงตั้งครรภ์สามารถทำฟันได้ทุกช่วงของการตั้งครรภ์",
+          "reveal": 10
+        },
+        {
+          "file": "audio/V-REC-002/stage3-3-36d0b34e64.wav",
+          "from": 293,
+          "durationInFrames": 254,
+          "caption": "ข้อ 11 หญิงตั้งครรภ์ทุกคนควรได้รับการตรวจฟัน ขัดทำความสะอาดฟัน และฝึกแปรงฟันที่ถูกต้อง",
+          "reveal": 11
+        },
+        {
+          "file": "audio/V-REC-002/stage3-4-05aab028a7.wav",
+          "from": 561,
+          "durationInFrames": 153,
+          "caption": "ข้อ 12 ผลการตรวจฟันและเหงือก บันทึกไว้ในสมุดหน้า 12",
+          "reveal": 12
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 3278,
+      "durationInFrames": 531,
+      "segments": [
+        {
+          "file": "audio/V-REC-002/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-REC-002/summary-2-2a7df3bb6c.wav",
+          "from": 78,
+          "durationInFrames": 192,
+          "caption": "แปรงฟันตอนเช้าและก่อนนอน ด้วยยาสีฟันผสมฟลูออไรด์ และใช้ไหมขัดฟันทุกวัน",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-REC-002/summary-3-ea7b79ca4b.wav",
+          "from": 284,
+          "durationInFrames": 108,
+          "caption": "เมื่อคลื่นไส้ อาเจียน บ้วนปากด้วยน้ำมาก ๆ",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-REC-002/summary-4-23c557363a.wav",
+          "from": 406,
+          "durationInFrames": 98,
+          "caption": "และหญิงตั้งครรภ์ทำฟันได้ทุกช่วงของการตั้งครรภ์",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

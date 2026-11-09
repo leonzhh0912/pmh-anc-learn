@@ -1,0 +1,229 @@
+{
+  "id": "V-ASSESS-003",
+  "lessonId": "MCH68-ASSESS-003",
+  "version": "0.1.0",
+  "title": "งดสุราและบุหรี่ ระหว่างตั้งครรภ์และให้นมลูก",
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      8,
+      19,
+      20,
+      26
+    ],
+    "printedPages": [
+      "6",
+      "17",
+      "18",
+      "24"
+    ],
+    "note": "Narration derived from lesson MCH68-ASSESS-003 v0.1.0"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-ASSESS-003 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of แอลกอฮอล์, สาโท, กะแช่, วิสกี้, สปาย, บุหรี่ไฟฟ้า.",
+      "AWARENESS-ONLY CHECK used because it is central to this assessment lesson: the video says staff assess drinking, smoking or e-cigarettes and close contacts who smoke at the first ANC visit (p8, staff-only checklist). No item numbers, colour codes or risk levels; 'ใช้สารเสพติด' left out. Reviewer to confirm, or remove stage 3 item 6.",
+      "AWARENESS-ONLY CHECK: the p19 alcohol question is described only in general terms ('ถ้าเคยดื่ม ควรได้รับการประเมินและการดูแลเพิ่มเติม'). No screening items or scores. Reviewer to confirm.",
+      "'ตอบตามจริง' is app framing from the lesson (not printed in the handbook).",
+      "SCOPE NOTE (lesson): the handbook says nothing about smoking while breastfeeding or second-hand-smoke harms; the video applies the breastfeeding rule to alcohol only and the smoking harm to pregnancy only.",
+      "Lesson note applies: PMH smoking-cessation and alcohol-counselling contacts should be shown with this lesson (not in the narration)."
+    ]
+  },
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3",
+    "stability": 0.5,
+    "style": 0,
+    "speed": 0.95,
+    "seed": 1234
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "kind": "title",
+      "heading": "งดสุราและบุหรี่",
+      "subheading": "จากสมุดบันทึกสุขภาพแม่และเด็ก ฉบับปรับปรุงใหม่ พ.ศ. 2568",
+      "chips": [
+        "ตั้งครรภ์",
+        "ให้นมลูก"
+      ],
+      "segments": [
+        {
+          "speak": "งดเครื่องดื่มที่มีแอลกอฮอล์ ระหว่างตั้งครรภ์และให้นมลูก และเรื่องบุหรี่ระหว่างตั้งครรภ์",
+          "caption": "งดเครื่องดื่มที่มีแอลกอฮอล์ ระหว่างตั้งครรภ์และให้นมลูก และเรื่องบุหรี่ระหว่างตั้งครรภ์"
+        },
+        {
+          "speak": "พร้อมเหตุผลที่เจ้าหน้าที่ถามเรื่องเหล่านี้",
+          "caption": "พร้อมเหตุผลที่เจ้าหน้าที่ถามเรื่องเหล่านี้"
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "kind": "stage",
+      "stage": 1,
+      "label": "งดเครื่องดื่มแอลกอฮอล์",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 1,
+          "icon": "noalcohol",
+          "text": "ตั้งครรภ์และให้นม: งดแอลกอฮอล์"
+        },
+        {
+          "n": 2,
+          "icon": "bottle",
+          "text": "เบียร์ เหล้า สาโท กะแช่ วิสกี้ สปาย ไวน์"
+        },
+        {
+          "n": 3,
+          "icon": "heart",
+          "text": "มีผลต่อสุขภาพแม่และการเลี้ยงลูก"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่หนึ่ง งดเครื่องดื่มที่มีแอลกอฮอล์",
+          "caption": "ตอนที่ 1 งดเครื่องดื่มที่มีแอลกอฮอล์"
+        },
+        {
+          "reveal": 1,
+          "speak": "ข้อปฏิบัติการกินสำหรับหญิงตั้งครรภ์และหญิงให้นมบุตร ข้อเก้า คือ งดเครื่องดื่มที่มีแอลกอฮอล์",
+          "caption": "ข้อปฏิบัติการกินสำหรับหญิงตั้งครรภ์และหญิงให้นมบุตร ข้อ 9 คือ งดเครื่องดื่มที่มีแอลกอฮอล์"
+        },
+        {
+          "reveal": 2,
+          "speak": "สุรา หมายถึงเครื่องดื่มที่มีแอลกอฮอล์ทุกชนิด เช่น เบียร์ เหล้า สาโท กะแช่ วิสกี้ สปาย ไวน์",
+          "caption": "สุรา หมายถึงเครื่องดื่มที่มีแอลกอฮอล์ทุกชนิด เช่น เบียร์ เหล้า สาโท กะแช่ วิสกี้ สปาย ไวน์"
+        },
+        {
+          "reveal": 3,
+          "speak": "การดื่มสุรา มีผลต่อสุขภาพของแม่และการเลี้ยงลูก",
+          "caption": "การดื่มสุรา มีผลต่อสุขภาพของแม่และการเลี้ยงลูก"
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "kind": "stage",
+      "stage": 2,
+      "label": "บุหรี่ระหว่างตั้งครรภ์",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 4,
+          "icon": "nosmoking",
+          "text": "สูบบุหรี่ ลูกในครรภ์ตัวเล็กผิดปกติ"
+        },
+        {
+          "n": 5,
+          "icon": "shield",
+          "text": "เสี่ยงโรคปอด ปัญหาทางเดินหายใจ"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สอง บุหรี่ระหว่างตั้งครรภ์",
+          "caption": "ตอนที่ 2 บุหรี่ระหว่างตั้งครรภ์"
+        },
+        {
+          "reveal": 4,
+          "speak": "หากสูบบุหรี่ระหว่างตั้งครรภ์ ลูกในครรภ์จะตัวเล็กผิดปกติ",
+          "caption": "หากสูบบุหรี่ระหว่างตั้งครรภ์ ลูกในครรภ์จะตัวเล็กผิดปกติ"
+        },
+        {
+          "reveal": 5,
+          "speak": "และเสี่ยงต่อโรคปอด และปัญหาทางเดินหายใจ",
+          "caption": "และเสี่ยงต่อโรคปอด และปัญหาทางเดินหายใจ"
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "kind": "stage",
+      "stage": 3,
+      "label": "ทำไมเจ้าหน้าที่ถาม",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 6,
+          "icon": "clinic",
+          "text": "ฝากครรภ์ครั้งแรก ประเมินสุราและบุหรี่"
+        },
+        {
+          "n": 7,
+          "icon": "ask",
+          "text": "ถามเพื่อดูแลแม่และลูก"
+        },
+        {
+          "n": 8,
+          "icon": "check",
+          "text": "ตอบตามจริง"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สาม ทำไมเจ้าหน้าที่ถามเรื่องนี้",
+          "caption": "ตอนที่ 3 ทำไมเจ้าหน้าที่ถามเรื่องนี้"
+        },
+        {
+          "reveal": 6,
+          "speak": "ฝากครรภ์ครั้งแรก เจ้าหน้าที่ประเมินการดื่มสุรา สูบบุหรี่หรือบุหรี่ไฟฟ้า ของแม่และคนใกล้ชิด",
+          "caption": "ฝากครรภ์ครั้งแรก เจ้าหน้าที่ประเมินการดื่มสุรา สูบบุหรี่หรือบุหรี่ไฟฟ้า ของแม่และคนใกล้ชิด"
+        },
+        {
+          "reveal": 7,
+          "speak": "คำถามนี้มีไว้เพื่อดูแลแม่และลูก ถ้าเคยดื่ม ควรได้รับการประเมินและการดูแลเพิ่มเติม",
+          "caption": "คำถามนี้มีไว้เพื่อดูแลแม่และลูก ถ้าเคยดื่ม ควรได้รับการประเมินและการดูแลเพิ่มเติม"
+        },
+        {
+          "reveal": 8,
+          "speak": "ตอบตามจริง เพื่อให้ได้รับการดูแลที่เหมาะสม",
+          "caption": "ตอบตามจริง เพื่อให้ได้รับการดูแลที่เหมาะสม"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "kind": "summary",
+      "heading": "จำไว้ 3 เรื่อง",
+      "points": [
+        "ตั้งครรภ์และให้นม งดแอลกอฮอล์",
+        "สูบบุหรี่ ลูกในครรภ์ตัวเล็กผิดปกติ",
+        "ตอบเจ้าหน้าที่ตามจริง"
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "สรุปเรื่องสำคัญ",
+          "caption": "สรุปเรื่องสำคัญ"
+        },
+        {
+          "reveal": 1,
+          "speak": "ตั้งครรภ์และให้นมลูก งดเครื่องดื่มที่มีแอลกอฮอล์ทุกชนิด",
+          "caption": "ตั้งครรภ์และให้นมลูก งดเครื่องดื่มที่มีแอลกอฮอล์ทุกชนิด"
+        },
+        {
+          "reveal": 2,
+          "speak": "สูบบุหรี่ระหว่างตั้งครรภ์ ลูกในครรภ์จะตัวเล็กผิดปกติ",
+          "caption": "สูบบุหรี่ระหว่างตั้งครรภ์ ลูกในครรภ์จะตัวเล็กผิดปกติ"
+        },
+        {
+          "reveal": 3,
+          "speak": "และตอบเจ้าหน้าที่ตามจริง เพื่อให้ได้รับการดูแลที่เหมาะสม",
+          "caption": "และตอบเจ้าหน้าที่ตามจริง เพื่อให้ได้รับการดูแลที่เหมาะสม"
+        }
+      ]
+    }
+  ]
+}

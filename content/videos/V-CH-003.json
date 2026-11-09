@@ -1,0 +1,32 @@
+{
+  "id": "V-CH-003",
+  "lessonId": "MCH68-CH-003",
+  "title": "บันทึกสุขภาพเด็ก: แพ้ยา แพ้อาหาร และการเจ็บป่วยสำคัญ",
+  "mp4": "media/V-CH-003.mp4",
+  "captionsVtt": "media/V-CH-003.th.vtt",
+  "poster": "media/V-CH-003.jpg",
+  "durationSec": 107.7,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-CH-003 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'สมุดหน้าสามสิบห้า', 'หมู่เลือด', 'โรคทางพันธุกรรม', 'หลอดลมตีบ', 'ยาพ่นขยายหลอดลม' and 'การวินิจฉัยโรค'.",
+      "The printed English terms 'Febrile convulsion' and 'Wheezing' are not spoken or shown; only the Thai labels are used.",
+      "Lesson note: who signs (items 1, 2, 6) is read from the printed columns ('ลงชื่อผู้ประเมิน/วันที่', 'ลงชื่อแพทย์ ... โรงพยาบาล'); the handbook does not say it in a sentence.",
+      "Lesson note: 'tell staff so they can record it' (item 8, summary 2) is derived from the printed fields; the handbook does not tell parents to report these.",
+      "Lesson note: 'bring the book every time' (summary 3) comes from PDF p2, not p37.",
+      "Not taught (as in the lesson): what febrile convulsion or wheezing is, what to do, which drugs to avoid, or what a blood group means. The 'ภาวะอื่นๆ' space is not narrated.",
+      "Not used in the video: the app-privacy line, the sort step and the family note."
+    ]
+  }
+}

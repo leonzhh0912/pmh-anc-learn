@@ -1,0 +1,31 @@
+{
+  "id": "V-DEV-003",
+  "lessonId": "MCH68-DEV-003",
+  "title": "พัฒนาการตามวัย 13 - 41 เดือน",
+  "mp4": "media/V-DEV-003.mp4",
+  "captionsVtt": "media/V-DEV-003.th.vtt",
+  "poster": "media/V-DEV-003.jpg",
+  "durationSec": 132,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-DEV-003 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'ดี เอส พี เอ็ม' (DSPM), 'ห้าสิบเก้า', 'สี่สิบเอ็ดเดือน', 'สามสิบเอ็ดถึงสามสิบหกเดือน', 'สามสิบเจ็ดถึงสี่สิบเอ็ดเดือน' and 'เลียนแบบท่าทางการทำงานบ้าน'.",
+      "FRAMING (please review carefully, as in the lesson and V-DEV-002): the video never says a child is or may be delayed and never says a child 'should' do an item by an age. Items are presented only as 'what the handbook lists in each age column' ('ในช่อง … สมุดมีรายการ …'). The only action is the lesson's editorial 'รายการในสมุดใช้ติดตามพัฒนาการของลูก ไม่ต้องตัดสินเอง ถ้าสงสัยหรือกังวล บอกเจ้าหน้าที่' (item 3) and 'ถ้าสงสัยหรือกังวลเรื่องพัฒนาการของลูก บอกเจ้าหน้าที่ และนำสมุดไปด้วย' (summary 3); the phrase 'ไม่ใช่การตัดสินว่าลูกปกติหรือไม่' is left out to fit the caption limit. Child-development nurse + PMH to approve.",
+      "Eight representative items out of 40 (items 4–11), verbatim from the lesson timeline/sort cards (p61 / printed 59), one or two per age band; the 16–17-month band is not shown. 'วิ่งได้', 'ดื่มน้ำจากแก้วโดยไม่หก' and 'สนใจฟังนิทานได้นาน 5 นาที' are single items taken from two-item cells (as in the lesson's sort cards). Child-development nurse to confirm the item text is verbatim.",
+      "All stages use hideNumbers: item texts carry age numbers (and '59', '5'), so badges are hidden and narration does not use 'ข้อ' numbers.",
+      "Lesson note: the 18- and 30-month screening sentences (stage 2 / 3 intros, summary 2) come from the p61 margin tip; that these columns are red is described from the image.",
+      "Not used in the video: the names of the 5 domains and their abbreviations, the remaining checklist items, the 9/42/60-month screening ages, pictures / speech-bubble props, and the family note."
+    ]
+  }
+}

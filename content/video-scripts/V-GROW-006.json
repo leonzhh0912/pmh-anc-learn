@@ -1,0 +1,253 @@
+{
+  "id": "V-GROW-006",
+  "lessonId": "MCH68-GROW-006",
+  "version": "0.1.0",
+  "title": "อาหารตามวัย 7-11 เดือน",
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      56,
+      57
+    ],
+    "printedPages": [
+      "54",
+      "55"
+    ],
+    "note": "Narration derived from lesson MCH68-GROW-006 v0.1.0"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-GROW-006 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'ช้อนกินข้าว', 'บดหยาบ', 'สับละเอียด', 'หั่นชิ้นเล็ก', 'ห้าสิบห้า' and the rice amounts ('สี่เป็นห้า', 'หกเป็นแปด', 'เก้าเป็นสิบสอง', 'สิบห้าเป็นสิบแปด').",
+      "Scope: the video narrates only meals per day, texture and the rice row of the p55 table (amounts and spans exactly as in the lesson timeline). Meat / egg / liver, vegetable and fruit amounts are left to the printed table (summary 4: 'ดูได้จากตารางในสมุดหน้า 55', lesson takeaway 5).",
+      "Lesson note: table spans were read from the cell borders on the p57 image; nutritionist + paediatrician to verify every amount and span.",
+      "Lesson note: rice cells on p57 print only numbers; the unit 'ช้อนกินข้าว' comes from the p56 row label (same as GROW-005). Reviewer to confirm the unit still applies at 7–11 months — the unit is narrated in items 4, 7 and 10.",
+      "HANDBOOK ISSUE (from lesson) NOT used: note 6 (whole egg 'อย่างน้อยวันละครึ่งฟอง' at 10–11 months) vs the table cell 'ไข่ทั้งฟอง สลับกับ ตับ'. Neither egg statement is narrated, and the 'สลับกับ' cells are not narrated.",
+      "Not used in the video: note 5 / iron syrup and the lesson's editorial iron-syrup sentence (high-risk lesson GROW-008), growth monitoring every 3 months, and the family note.",
+      "Lesson editorial framing used: 'ถ้าไม่แน่ใจ ถามเจ้าหน้าที่' (summary 4, from the timeline intro)."
+    ]
+  },
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3",
+    "stability": 0.5,
+    "style": 0,
+    "speed": 0.95,
+    "seed": 1234
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "kind": "title",
+      "heading": "อาหารตามวัย 7–11 เดือน",
+      "subheading": "จากสมุดบันทึกสุขภาพแม่และเด็ก ฉบับปรับปรุงใหม่ พ.ศ. 2568",
+      "chips": [
+        "จำนวนมื้อ",
+        "ลักษณะอาหาร",
+        "สมุดหน้า 55"
+      ],
+      "segments": [
+        {
+          "speak": "กินนมแม่ควบคู่กับอาหารทารกตามวัย จนเด็กอายุสองปี หรือนานกว่านั้น",
+          "caption": "กินนมแม่ควบคู่กับอาหารทารกตามวัย จนเด็กอายุ 2 ปี หรือนานกว่านั้น"
+        },
+        {
+          "speak": "ตารางในสมุดหน้าห้าสิบห้า บอกจำนวนมื้อ ลักษณะอาหาร และปริมาณอาหาร ตั้งแต่อายุเจ็ดถึงสิบเอ็ดเดือน",
+          "caption": "ตารางในสมุดหน้า 55 บอกจำนวนมื้อ ลักษณะอาหาร และปริมาณอาหาร ตั้งแต่อายุ 7 ถึง 11 เดือน"
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "kind": "stage",
+      "stage": 1,
+      "label": "7 เดือน",
+      "prefix": "ช่วงที่",
+      "items": [
+        {
+          "n": 1,
+          "icon": "bowl",
+          "text": "สัปดาห์ที่ 1–2: กินอาหาร 1 มื้อ"
+        },
+        {
+          "n": 2,
+          "icon": "bowl",
+          "text": "สัปดาห์ที่ 3–4: กินอาหาร 2 มื้อ"
+        },
+        {
+          "n": 3,
+          "icon": "food",
+          "text": "ลักษณะอาหาร: บดหยาบ"
+        },
+        {
+          "n": 4,
+          "icon": "bowl",
+          "text": "ข้าว: 4 → 5 แล้ว 6 → 8 ช้อนกินข้าว"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ช่วงที่หนึ่ง อายุเจ็ดเดือน",
+          "caption": "ช่วงที่ 1 อายุ 7 เดือน"
+        },
+        {
+          "reveal": 1,
+          "speak": "ข้อหนึ่ง สัปดาห์ที่หนึ่งถึงสอง กินอาหารหนึ่งมื้อ",
+          "caption": "ข้อ 1 สัปดาห์ที่ 1–2 กินอาหาร 1 มื้อ"
+        },
+        {
+          "reveal": 2,
+          "speak": "ข้อสอง สัปดาห์ที่สามถึงสี่ กินอาหารสองมื้อ",
+          "caption": "ข้อ 2 สัปดาห์ที่ 3–4 กินอาหาร 2 มื้อ"
+        },
+        {
+          "reveal": 3,
+          "speak": "ข้อสาม ลักษณะอาหาร บดหยาบ ทั้งเดือนที่เจ็ด",
+          "caption": "ข้อ 3 ลักษณะอาหาร บดหยาบ ทั้งเดือนที่ 7"
+        },
+        {
+          "reveal": 4,
+          "speak": "ข้อสี่ ข้าว สัปดาห์ที่หนึ่งถึงสอง ค่อย ๆ เพิ่มจากสี่เป็นห้า สัปดาห์ที่สามถึงสี่ จากหกเป็นแปดช้อนกินข้าว",
+          "caption": "ข้อ 4 ข้าว สัปดาห์ที่ 1–2 ค่อย ๆ เพิ่มจาก 4 เป็น 5 สัปดาห์ที่ 3–4 จาก 6 เป็น 8 ช้อนกินข้าว"
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "kind": "stage",
+      "stage": 2,
+      "label": "8–9 เดือน",
+      "prefix": "ช่วงที่",
+      "items": [
+        {
+          "n": 5,
+          "icon": "bowl",
+          "text": "กินอาหาร 2 มื้อ"
+        },
+        {
+          "n": 6,
+          "icon": "food",
+          "text": "ลักษณะอาหาร: สับละเอียด"
+        },
+        {
+          "n": 7,
+          "icon": "bowl",
+          "text": "ข้าว: 9 → 12 ช้อนกินข้าว"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ช่วงที่สอง อายุแปดถึงเก้าเดือน",
+          "caption": "ช่วงที่ 2 อายุ 8–9 เดือน"
+        },
+        {
+          "reveal": 5,
+          "speak": "ข้อห้า กินอาหารสองมื้อ",
+          "caption": "ข้อ 5 กินอาหาร 2 มื้อ"
+        },
+        {
+          "reveal": 6,
+          "speak": "ข้อหก ลักษณะอาหาร สับละเอียด",
+          "caption": "ข้อ 6 ลักษณะอาหาร สับละเอียด"
+        },
+        {
+          "reveal": 7,
+          "speak": "ข้อเจ็ด ข้าว ค่อย ๆ เพิ่มปริมาณ จากเก้าเป็นสิบสองช้อนกินข้าว",
+          "caption": "ข้อ 7 ข้าว ค่อย ๆ เพิ่มปริมาณ จาก 9 เป็น 12 ช้อนกินข้าว"
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "kind": "stage",
+      "stage": 3,
+      "label": "10–11 เดือน",
+      "prefix": "ช่วงที่",
+      "items": [
+        {
+          "n": 8,
+          "icon": "bowl",
+          "text": "กินอาหาร 3 มื้อ"
+        },
+        {
+          "n": 9,
+          "icon": "food",
+          "text": "ลักษณะอาหาร: หั่นชิ้นเล็ก"
+        },
+        {
+          "n": 10,
+          "icon": "bowl",
+          "text": "ข้าว: 15 → 18 ช้อนกินข้าว"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ช่วงที่สาม อายุสิบถึงสิบเอ็ดเดือน",
+          "caption": "ช่วงที่ 3 อายุ 10–11 เดือน"
+        },
+        {
+          "reveal": 8,
+          "speak": "ข้อแปด กินอาหารสามมื้อ",
+          "caption": "ข้อ 8 กินอาหาร 3 มื้อ"
+        },
+        {
+          "reveal": 9,
+          "speak": "ข้อเก้า ลักษณะอาหาร หั่นชิ้นเล็ก เพื่อฝึกการเคี้ยวและกลืนอาหาร",
+          "caption": "ข้อ 9 ลักษณะอาหาร หั่นชิ้นเล็ก เพื่อฝึกการเคี้ยวและกลืนอาหาร"
+        },
+        {
+          "reveal": 10,
+          "speak": "ข้อสิบ ข้าว ค่อย ๆ เพิ่มปริมาณ จากสิบห้าเป็นสิบแปดช้อนกินข้าว",
+          "caption": "ข้อ 10 ข้าว ค่อย ๆ เพิ่มปริมาณ จาก 15 เป็น 18 ช้อนกินข้าว"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "kind": "summary",
+      "heading": "จำไว้ 4 เรื่อง",
+      "points": [
+        "นมแม่ควบคู่ จนอายุ 2 ปีหรือนานกว่า",
+        "บดหยาบ → สับละเอียด → หั่นชิ้นเล็ก",
+        "ไม่ปรุงแต่งรส รักษาความสะอาด",
+        "ปริมาณอื่น ดูตารางสมุดหน้า 55"
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "สรุปเรื่องสำคัญ",
+          "caption": "สรุปเรื่องสำคัญ"
+        },
+        {
+          "reveal": 1,
+          "speak": "กินนมแม่ควบคู่กับอาหารตามวัย จนอายุสองปี หรือนานกว่านั้น",
+          "caption": "กินนมแม่ควบคู่กับอาหารตามวัย จนอายุ 2 ปี หรือนานกว่านั้น"
+        },
+        {
+          "reveal": 2,
+          "speak": "ค่อย ๆ เพิ่มความหยาบของอาหารตามอายุ จากบดหยาบ เป็นสับละเอียด แล้วเป็นหั่นชิ้นเล็ก",
+          "caption": "ค่อย ๆ เพิ่มความหยาบของอาหารตามอายุ จากบดหยาบ เป็นสับละเอียด แล้วเป็นหั่นชิ้นเล็ก"
+        },
+        {
+          "reveal": 3,
+          "speak": "ไม่ปรุงแต่งรสอาหาร และรักษาความสะอาดของวัตถุดิบ ภาชนะ และมือของคนปรุงและคนป้อน",
+          "caption": "ไม่ปรุงแต่งรสอาหาร และรักษาความสะอาดของวัตถุดิบ ภาชนะ และมือของคนปรุงและคนป้อน"
+        },
+        {
+          "reveal": 4,
+          "speak": "ปริมาณเนื้อสัตว์ ไข่ ตับ ผัก ผลไม้ ดูตารางในสมุดหน้าห้าสิบห้า ถ้าไม่แน่ใจ ถามเจ้าหน้าที่",
+          "caption": "ปริมาณเนื้อสัตว์ ไข่ ตับ ผัก ผลไม้ ดูตารางในสมุดหน้า 55 ถ้าไม่แน่ใจ ถามเจ้าหน้าที่"
+        }
+      ]
+    }
+  ]
+}

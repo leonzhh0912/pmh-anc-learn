@@ -1,6 +1,6 @@
 {
   "id": "MCH68-REC-002",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "title": "การดูแลฟันแม่ขณะตั้งครรภ์",
   "summary": "ทำไมเหงือกอักเสบและฟันผุพบบ่อยขณะตั้งครรภ์ วิธีดูแลฟันในแต่ละวัน และเชื้อฟันผุส่งจากแม่ถึงลูกได้อย่างไร",
   "sectionId": "record",
@@ -53,6 +53,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "First draft from official handbook PDF p14 (2nd printing, April 2569)."
+    },
+    {
+      "version": "0.1.1",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "Added video step V-REC-002 (narration derived from this lesson; no text changes)."
     }
   ],
   "steps": [
@@ -64,6 +70,11 @@
         "ถ้าเป็นมากจนเป็นโรคปริทันต์ อาจเสี่ยงคลอดก่อนกำหนด และลูกมีน้ำหนักแรกเกิดน้อยได้",
         "อาการแพ้ท้อง อาเจียนบ่อยช่วงตั้งครรภ์ ร่วมกับการดูแลความสะอาดช่องปากไม่ดี ทำให้เกิดฟันผุได้ง่าย"
       ]
+    },
+    {
+      "type": "video",
+      "heading": "ดูวิดีโอสรุป",
+      "videoId": "V-REC-002"
     },
     {
       "type": "text",

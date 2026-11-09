@@ -1,0 +1,219 @@
+{
+  "id": "V-K-015",
+  "lessonId": "MCH68-K-015",
+  "version": "0.1.0",
+  "title": "ป้องกันการจมน้ำและการอุดกั้นทางเดินหายใจ",
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      31
+    ],
+    "printedPages": [
+      "29"
+    ],
+    "note": "Narration derived from lesson MCH68-K-015 v0.1.0"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-K-015 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'ชูชีพ', 'กะละมัง', 'หนึ่งถึงสองนิ้ว', 'ยี่สิบเก้า' and 'การอุดกั้นทางเดินหายใจ'.",
+      "Scope: PREVENTION only. The lesson's one-line pointer to printed page 30 (what to do if something is stuck in the airway) is deliberately left out of the video so no first-aid topic is raised; first aid belongs to K-016/K-017.",
+      "Lesson note: examples of 'แหล่งน้ำ' (บ่อ สระ, item 3) and 'ภาชนะ' (ถังน้ำ กะละมัง โอ่ง, item 4) are added for local relevance; the handbook only says 'แหล่งน้ำ' and 'ภาชนะ'. Reviewer to confirm.",
+      "Lesson note: 'น้ำตื้นแค่ก้นถัง ก็อันตรายได้' (item 5) restates '1-2 นิ้ว' with a local example — app framing.",
+      "Lesson note: the bead tray (item 7) and the pull-along toy telephone (item 8) are described from the p31 illustrations, not the printed text.",
+      "Item 2 uses the lesson's sort-card wording 'ผู้ปกครองดูแลใกล้ชิดเมื่ออยู่ในน้ำ'; the printed line is 'ผู้ปกครองดูแลใกล้ชิด'.",
+      "Not used in the video: the family note (app framing, needs approval)."
+    ]
+  },
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3",
+    "stability": 0.5,
+    "style": 0,
+    "speed": 0.95,
+    "seed": 1234
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "kind": "title",
+      "heading": "ป้องกันจมน้ำ ป้องกันอุดกั้น",
+      "subheading": "จากสมุดบันทึกสุขภาพแม่และเด็ก ฉบับปรับปรุงใหม่ พ.ศ. 2568",
+      "chips": [
+        "การจมน้ำ",
+        "ทางเดินหายใจ",
+        "สมุดหน้า 29"
+      ],
+      "segments": [
+        {
+          "speak": "สมุดสีชมพูหน้ายี่สิบเก้า เขียนไว้ว่า อุบัติเหตุ เป็นสาเหตุการเสียชีวิตอันดับต้น ๆ ของเด็ก",
+          "caption": "สมุดสีชมพูหน้า 29 เขียนไว้ว่า อุบัติเหตุ เป็นสาเหตุการเสียชีวิตอันดับต้น ๆ ของเด็ก"
+        },
+        {
+          "speak": "มาดูวิธีป้องกันสองเรื่อง คือ การจมน้ำ และการอุดกั้นทางเดินหายใจ",
+          "caption": "มาดูวิธีป้องกัน 2 เรื่อง คือ การจมน้ำ และการอุดกั้นทางเดินหายใจ"
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "kind": "stage",
+      "stage": 1,
+      "label": "ป้องกันการจมน้ำ",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 1,
+          "icon": "shield",
+          "text": "สวมชูชีพ"
+        },
+        {
+          "n": 2,
+          "icon": "group",
+          "text": "ผู้ปกครองดูแลใกล้ชิด"
+        },
+        {
+          "n": 3,
+          "icon": "fence",
+          "text": "กั้นรั้วรอบแหล่งน้ำ เช่น บ่อ สระ"
+        },
+        {
+          "n": 4,
+          "icon": "water",
+          "text": "ระวังน้ำในภาชนะ ถังน้ำ กะละมัง โอ่ง"
+        },
+        {
+          "n": 5,
+          "icon": "water",
+          "text": "น้ำเพียง 1-2 นิ้ว ทำให้เด็กจมน้ำได้"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่หนึ่ง ป้องกันการจมน้ำ",
+          "caption": "ตอนที่ 1 ป้องกันการจมน้ำ"
+        },
+        {
+          "reveal": 1,
+          "speak": "ข้อหนึ่ง สวมชูชีพ",
+          "caption": "ข้อ 1 สวมชูชีพ"
+        },
+        {
+          "reveal": 2,
+          "speak": "ข้อสอง ผู้ปกครองดูแลใกล้ชิด เมื่ออยู่ในน้ำ",
+          "caption": "ข้อ 2 ผู้ปกครองดูแลใกล้ชิด เมื่ออยู่ในน้ำ"
+        },
+        {
+          "reveal": 3,
+          "speak": "ข้อสาม กั้นรั้วรอบแหล่งน้ำ เช่น บ่อ สระ",
+          "caption": "ข้อ 3 กั้นรั้วรอบแหล่งน้ำ เช่น บ่อ สระ"
+        },
+        {
+          "reveal": 4,
+          "speak": "ข้อสี่ ระวังน้ำในภาชนะ เช่น ถังน้ำ กะละมัง โอ่ง",
+          "caption": "ข้อ 4 ระวังน้ำในภาชนะ เช่น ถังน้ำ กะละมัง โอ่ง"
+        },
+        {
+          "reveal": 5,
+          "speak": "ข้อห้า น้ำเพียงหนึ่งถึงสองนิ้ว สามารถทำให้เด็กจมน้ำได้ น้ำตื้นแค่ก้นถัง ก็อันตรายได้",
+          "caption": "ข้อ 5 น้ำเพียง 1-2 นิ้ว สามารถทำให้เด็กจมน้ำได้ น้ำตื้นแค่ก้นถัง ก็อันตรายได้"
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "kind": "stage",
+      "stage": 2,
+      "label": "การอุดกั้นทางเดินหายใจ",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 6,
+          "icon": "baby",
+          "text": "ที่นอนไม่นิ่มจนยุบ"
+        },
+        {
+          "n": 7,
+          "icon": "play",
+          "text": "ไม่ปล่อยให้เล่นของเล่นชิ้นเล็ก"
+        },
+        {
+          "n": 8,
+          "icon": "play",
+          "text": "เลี่ยงของเล่นสายยาว"
+        },
+        {
+          "n": 9,
+          "icon": "shield",
+          "text": "เลี่ยงถุงพลาสติก"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สอง ป้องกันการอุดกั้นทางเดินหายใจ",
+          "caption": "ตอนที่ 2 ป้องกันการอุดกั้นทางเดินหายใจ"
+        },
+        {
+          "reveal": 6,
+          "speak": "ข้อหก ที่นอนไม่นิ่มจนยุบ",
+          "caption": "ข้อ 6 ที่นอนไม่นิ่มจนยุบ"
+        },
+        {
+          "reveal": 7,
+          "speak": "ข้อเจ็ด ไม่ปล่อยให้เล่นของเล่นชิ้นเล็ก ภาพในสมุดเป็นเด็กกับถาดลูกปัดเม็ดเล็ก ๆ",
+          "caption": "ข้อ 7 ไม่ปล่อยให้เล่นของเล่นชิ้นเล็ก ภาพในสมุดเป็นเด็กกับถาดลูกปัดเม็ดเล็ก ๆ"
+        },
+        {
+          "reveal": 8,
+          "speak": "ข้อแปด เลี่ยงของเล่นสายยาว ภาพในสมุดเป็นโทรศัพท์ของเล่นที่มีสายลาก",
+          "caption": "ข้อ 8 เลี่ยงของเล่นสายยาว ภาพในสมุดเป็นโทรศัพท์ของเล่นที่มีสายลาก"
+        },
+        {
+          "reveal": 9,
+          "speak": "ข้อเก้า เลี่ยงถุงพลาสติก",
+          "caption": "ข้อ 9 เลี่ยงถุงพลาสติก"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "kind": "summary",
+      "heading": "จำไว้ 3 เรื่อง",
+      "points": [
+        "สวมชูชีพ ผู้ปกครองดูแลใกล้ชิด",
+        "น้ำเพียง 1-2 นิ้ว ก็จมน้ำได้",
+        "ที่นอน ของเล่น ถุงพลาสติก"
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "สรุปเรื่องสำคัญ",
+          "caption": "สรุปเรื่องสำคัญ"
+        },
+        {
+          "reveal": 1,
+          "speak": "สวมชูชีพ และผู้ปกครองดูแลใกล้ชิด",
+          "caption": "สวมชูชีพ และผู้ปกครองดูแลใกล้ชิด"
+        },
+        {
+          "reveal": 2,
+          "speak": "กั้นรั้วรอบแหล่งน้ำ ระวังน้ำในภาชนะ น้ำเพียงหนึ่งถึงสองนิ้ว สามารถทำให้เด็กจมน้ำได้",
+          "caption": "กั้นรั้วรอบแหล่งน้ำ ระวังน้ำในภาชนะ น้ำเพียง 1-2 นิ้ว สามารถทำให้เด็กจมน้ำได้"
+        },
+        {
+          "reveal": 3,
+          "speak": "ที่นอนไม่นิ่มจนยุบ ไม่ปล่อยให้เล่นของเล่นชิ้นเล็ก เลี่ยงของเล่นสายยาว และถุงพลาสติก",
+          "caption": "ที่นอนไม่นิ่มจนยุบ ไม่ปล่อยให้เล่นของเล่นชิ้นเล็ก เลี่ยงของเล่นสายยาว และถุงพลาสติก"
+        }
+      ]
+    }
+  ]
+}

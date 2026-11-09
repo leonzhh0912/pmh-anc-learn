@@ -1,0 +1,389 @@
+{
+  "id": "MCH68-K-014",
+  "version": "0.1.1",
+  "title": "ปลอดภัยบนท้องถนน: ที่นั่งนิรภัย รถจักรยานยนต์ และไม่ทิ้งเด็กในรถ",
+  "summary": "ใช้ที่นั่งนิรภัยทุกครั้ง อายุที่ห้ามและไม่แนะนำให้โดยสารรถจักรยานยนต์ และการป้องกันเด็กติดในรถ ตามสมุดสีชมพูหน้า 29",
+  "sectionId": "knowledge",
+  "stages": [
+    "newborn",
+    "child"
+  ],
+  "audience": [
+    "mother",
+    "family"
+  ],
+  "minutes": 6,
+  "objectives": [
+    "ผู้เรียนบอกได้ว่าต้องใช้ที่นั่งนิรภัยทุกครั้ง และเด็กอายุน้อยกว่า 2 ปีให้หันหน้าเข้าหาเบาะ",
+    "ผู้เรียนบอกได้ว่าเด็กอายุน้อยกว่า 2 ปีห้ามโดยสารรถจักรยานยนต์ และเด็กอายุ 2-6 ปีไม่แนะนำให้โดยสารหลังผู้ขับขี่ตามลำพัง",
+    "ผู้เรียนบอกวิธีป้องกันเด็กติดในรถได้: ห้ามทิ้งเด็กในรถ สอนบีบแตร และตรวจรอบรถก่อนขับรถทุกครั้ง"
+  ],
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      31
+    ],
+    "printedPages": [
+      "29"
+    ],
+    "note": "ส่วน 'การป้องกันการบาดเจ็บทางจราจร' ด้านบนของหน้า (บัตรภาพ 3 ใบ) และข้อความข้างหน้า 'อุบัติเหตุ เป็นสาเหตุการเสียชีวิตอันดับต้น ๆ ของเด็ก'"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "All rules and ages are from PDF p31 (printed 29), verified on a zoomed crop of the official 2nd-printing page image: 'ใช้ที่นั่งนิรภัยทุกครั้ง (เด็กอายุน้อยกว่า 2 ปี หันหน้าเข้าหาเบาะ)'; car-seat diagram labels 'น้อยกว่า 2 ปี' (rear-facing) / 'มากกว่า 2 ปี' (forward-facing); 'เด็กอายุน้อยกว่า 2 ปี ห้ามโดยสารรถจักรยานยนต์ เด็กอายุ 2-6 ปี ไม่แนะนำให้โดยสารหลังผู้ขับขี่ตามลำพัง' ('ห้าม' and 'ไม่แนะนำ' printed in red); 'ห้ามทิ้งเด็กในรถ สอนบีบแตร ตรวจรอบรถก่อนขับรถทุกครั้ง'; margin tip 'อุบัติเหตุ เป็นสาเหตุการเสียชีวิตอันดับต้น ๆ ของเด็ก'.",
+      "HANDBOOK ISSUE: 'เด็กอายุ 2-6 ปี ไม่แนะนำให้โดยสารหลังผู้ขับขี่ตามลำพัง' does not define 'ตามลำพัง' (e.g. without another adult on the bike holding the child?). The lesson quotes the line as printed and does not explain it; reviewer to decide whether to clarify.",
+      "HANDBOOK ISSUE: the car-seat text and diagram use 'น้อยกว่า 2 ปี' and 'มากกว่า 2 ปี'; a child of exactly 2 years is not covered. The motorcycle line uses 'น้อยกว่า 2 ปี' and '2-6 ปี', so the age-2 boundary is consistent there. Quoted as printed; no exact-2 example used anywhere in the lesson.",
+      "The handbook does not describe the forward-facing seat in words; text step 2 and the timeline describe the 'มากกว่า 2 ปี' diagram as 'ที่นั่งนิรภัยที่หันหน้าไปทางด้านหน้ารถ'. Reviewer to confirm.",
+      "'สอนบีบแตร' is printed without explanation. The lesson explains it as teaching the child to press the horn to call for help if stuck in the car, based on the illustration (child inside a car, horn icon, adult outside). Reviewer to confirm this reading.",
+      "'ตรวจรอบรถก่อนขับรถทุกครั้ง' is printed without a reason; the lesson gives none.",
+      "Not in the 2nd printing and NOT added: helmet rule, rear-seat/airbag rationale (both were in the 1st printing and are removed). The motorcycle illustration shows helmets but the text says nothing about them; the lesson does not mention helmets. No rule is given for children over 6 on motorcycles.",
+      "Sort (motorcycle by age) uses example ages written for this lesson (6 เดือน, 1 ปี, 1 ปี 6 เดือน, 2 ปี 6 เดือน, 4 ปี, 5 ปี); exact boundary ages (2 ปี, 6 ปี) are deliberately avoided.",
+      "Quiz scenarios q2 (1-year-old, trip to the market by motorcycle), q3 (4-year-old riding behind the driver) and q4 (child asleep in a parked car) and all wrong options are written for this lesson.",
+      "Quiz q2 explanation and text step 3 add: the handbook gives no alternative; if the family travels mainly by motorcycle, talk to staff. App framing — see PMH clarification below.",
+      "Family note is app framing that repeats the printed rules. Needs approval.",
+      "PMH clarification (from curriculum): motorcycles are the main family transport in rural Phimai — PMH to decide supportive wording (the handbook rule 'ห้าม' under 2 years stands and is not softened here).",
+      "PMH clarification (from curriculum): any PMH car-seat loan scheme (none mentioned in the handbook) — nothing added.",
+      "Paediatrician / injury-prevention nurse to review (curriculum review requirement)."
+    ]
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "First draft from official handbook PDF p31 (2nd printing, April 2569); road-traffic cards and margin tip."
+    },
+    {
+      "version": "0.1.1",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "Added video step V-K-014 (narration derived from this lesson; no text changes)."
+    }
+  ],
+  "steps": [
+    {
+      "type": "text",
+      "heading": "ทำไมต้องรู้เรื่องนี้",
+      "paragraphs": [
+        "สมุดสีชมพูหน้า 29 เขียนไว้ว่า อุบัติเหตุ เป็นสาเหตุการเสียชีวิตอันดับต้น ๆ ของเด็ก",
+        "หน้านี้มีเรื่อง 'การป้องกันการบาดเจ็บทางจราจร' 3 เรื่อง: ที่นั่งนิรภัย รถจักรยานยนต์ และห้ามทิ้งเด็กในรถ"
+      ]
+    },
+    {
+      "type": "video",
+      "heading": "ดูวิดีโอสรุป",
+      "videoId": "V-K-014"
+    },
+    {
+      "type": "text",
+      "heading": "ที่นั่งนิรภัย และรถจักรยานยนต์",
+      "paragraphs": [
+        "ใช้ที่นั่งนิรภัยทุกครั้ง เด็กอายุน้อยกว่า 2 ปี ให้หันหน้าเข้าหาเบาะ",
+        "ภาพในสมุดแสดงว่า เด็กอายุมากกว่า 2 ปี ใช้ที่นั่งนิรภัยที่หันหน้าไปทางด้านหน้ารถ",
+        "เด็กอายุน้อยกว่า 2 ปี ห้ามโดยสารรถจักรยานยนต์",
+        "เด็กอายุ 2-6 ปี ไม่แนะนำให้โดยสารหลังผู้ขับขี่ตามลำพัง"
+      ]
+    },
+    {
+      "type": "text",
+      "heading": "ห้ามทิ้งเด็กในรถ",
+      "paragraphs": [
+        "ห้ามทิ้งเด็กในรถ",
+        "สอนบีบแตร: ภาพในสมุดเป็นเด็กอยู่ในรถกับรูปแตร หมายถึงสอนเด็กให้บีบแตรเรียกคน ถ้าติดอยู่ในรถ",
+        "ตรวจรอบรถก่อนขับรถทุกครั้ง",
+        "สมุดไม่ได้บอกทางเลือกอื่นสำหรับการเดินทาง ถ้าที่บ้านใช้รถจักรยานยนต์เป็นหลัก ปรึกษาเจ้าหน้าที่ได้"
+      ]
+    },
+    {
+      "type": "timeline",
+      "heading": "เช็กก่อนออกเดินทาง",
+      "intro": "แตะแต่ละข้อเพื่อดูว่าสมุดหน้า 29 บอกไว้อย่างไร",
+      "stages": [
+        {
+          "id": "car",
+          "label": "นั่งรถยนต์",
+          "items": [
+            {
+              "n": 1,
+              "title": "ที่นั่งนิรภัย",
+              "detail": "ใช้ที่นั่งนิรภัยทุกครั้ง"
+            },
+            {
+              "n": 2,
+              "title": "อายุน้อยกว่า 2 ปี",
+              "detail": "หันหน้าเข้าหาเบาะ"
+            },
+            {
+              "n": 3,
+              "title": "อายุมากกว่า 2 ปี",
+              "detail": "ภาพในสมุดเป็นที่นั่งนิรภัยที่หันหน้าไปทางด้านหน้ารถ"
+            }
+          ]
+        },
+        {
+          "id": "moto",
+          "label": "รถจักรยานยนต์",
+          "items": [
+            {
+              "n": 4,
+              "title": "อายุน้อยกว่า 2 ปี",
+              "detail": "ห้ามโดยสารรถจักรยานยนต์"
+            },
+            {
+              "n": 5,
+              "title": "อายุ 2-6 ปี",
+              "detail": "ไม่แนะนำให้โดยสารหลังผู้ขับขี่ตามลำพัง"
+            }
+          ]
+        },
+        {
+          "id": "park",
+          "label": "จอดรถและก่อนขับ",
+          "items": [
+            {
+              "n": 6,
+              "title": "ห้ามทิ้งเด็กในรถ",
+              "detail": "ห้ามทิ้งเด็กไว้ในรถ"
+            },
+            {
+              "n": 7,
+              "title": "สอนบีบแตร",
+              "detail": "สอนเด็กให้บีบแตรเรียกคน ถ้าติดอยู่ในรถ"
+            },
+            {
+              "n": 8,
+              "title": "ตรวจรอบรถ",
+              "detail": "ตรวจรอบรถก่อนขับรถทุกครั้ง"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "heading": "รถจักรยานยนต์: อายุเท่านี้ สมุดว่าอย่างไร",
+      "intro": "แตะอายุของเด็กหนึ่งใบ แล้วแตะกล่องที่ตรงกับสมุดหน้า 29",
+      "buckets": [
+        {
+          "id": "ban",
+          "label": "ห้ามโดยสารรถจักรยานยนต์ (น้อยกว่า 2 ปี)"
+        },
+        {
+          "id": "notrec",
+          "label": "ไม่แนะนำให้โดยสารหลังผู้ขับขี่ตามลำพัง (2-6 ปี)"
+        }
+      ],
+      "items": [
+        {
+          "id": "s1",
+          "text": "ลูกอายุ 6 เดือน",
+          "bucketId": "ban"
+        },
+        {
+          "id": "s2",
+          "text": "ลูกอายุ 4 ปี",
+          "bucketId": "notrec"
+        },
+        {
+          "id": "s3",
+          "text": "ลูกอายุ 1 ปี",
+          "bucketId": "ban"
+        },
+        {
+          "id": "s4",
+          "text": "ลูกอายุ 2 ปี 6 เดือน",
+          "bucketId": "notrec"
+        },
+        {
+          "id": "s5",
+          "text": "ลูกอายุ 1 ปี 6 เดือน",
+          "bucketId": "ban"
+        },
+        {
+          "id": "s6",
+          "text": "ลูกอายุ 5 ปี",
+          "bucketId": "notrec"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "heading": "ทบทวนความเข้าใจ",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "prompt": "เด็กอายุน้อยกว่า 2 ปี นั่งที่นั่งนิรภัยอย่างไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "หันหน้าไปทางด้านหน้ารถ",
+              "feedback": "ยังไม่ใช่ ในภาพของสมุด แบบนี้คือเด็กอายุมากกว่า 2 ปี เด็กอายุน้อยกว่า 2 ปี ให้หันหน้าเข้าหาเบาะ"
+            },
+            {
+              "id": "b",
+              "text": "ไม่ต้องใช้ที่นั่งนิรภัย ให้ผู้ใหญ่อุ้มแทน",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า ใช้ที่นั่งนิรภัยทุกครั้ง"
+            },
+            {
+              "id": "c",
+              "text": "หันหน้าเข้าหาเบาะ",
+              "feedback": "ถูกต้อง ใช้ที่นั่งนิรภัยทุกครั้ง เด็กอายุน้อยกว่า 2 ปี หันหน้าเข้าหาเบาะ"
+            }
+          ],
+          "correctOptionId": "c",
+          "explanation": "สมุดหน้า 29: ใช้ที่นั่งนิรภัยทุกครั้ง (เด็กอายุน้อยกว่า 2 ปี หันหน้าเข้าหาเบาะ)",
+          "source": {
+            "pdfPages": [
+              31
+            ],
+            "printedPages": [
+              "29"
+            ]
+          }
+        },
+        {
+          "id": "q2",
+          "kind": "scenario",
+          "scenario": "ลูกอายุ 1 ปี ครอบครัวจะไปตลาดด้วยรถจักรยานยนต์",
+          "prompt": "ตามสมุด ข้อใดถูกต้อง",
+          "options": [
+            {
+              "id": "a",
+              "text": "เด็กอายุน้อยกว่า 2 ปี ห้ามโดยสารรถจักรยานยนต์",
+              "feedback": "ถูกต้อง สมุดเขียนว่า เด็กอายุน้อยกว่า 2 ปี ห้ามโดยสารรถจักรยานยนต์"
+            },
+            {
+              "id": "b",
+              "text": "ไปได้ ถ้าให้ผู้ใหญ่อีกคนอุ้มลูกนั่งซ้อนท้าย",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า เด็กอายุน้อยกว่า 2 ปี ห้ามโดยสารรถจักรยานยนต์"
+            },
+            {
+              "id": "c",
+              "text": "ไปได้ ถ้าขับช้า ๆ และไปใกล้ ๆ",
+              "feedback": "ยังไม่ใช่ สมุดไม่ได้มีข้อยกเว้น เด็กอายุน้อยกว่า 2 ปี ห้ามโดยสารรถจักรยานยนต์"
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "สมุดหน้า 29: เด็กอายุน้อยกว่า 2 ปี ห้ามโดยสารรถจักรยานยนต์ สมุดไม่ได้บอกทางเลือกอื่น ถ้าที่บ้านใช้รถจักรยานยนต์เป็นหลัก ปรึกษาเจ้าหน้าที่",
+          "source": {
+            "pdfPages": [
+              31
+            ],
+            "printedPages": [
+              "29"
+            ]
+          }
+        },
+        {
+          "id": "q3",
+          "kind": "scenario",
+          "scenario": "ลูกอายุ 4 ปี อยากนั่งซ้อนท้ายรถจักรยานยนต์ข้างหลังผู้ขับขี่ตามลำพัง",
+          "prompt": "สมุดว่าอย่างไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "ห้ามเฉพาะเด็กอายุน้อยกว่า 2 ปี อายุ 4 ปีนั่งได้ตามสบาย",
+              "feedback": "ยังไม่ใช่ สมุดเขียนต่อว่า เด็กอายุ 2-6 ปี ไม่แนะนำให้โดยสารหลังผู้ขับขี่ตามลำพัง"
+            },
+            {
+              "id": "b",
+              "text": "เด็กอายุ 2-6 ปี ไม่แนะนำให้โดยสารหลังผู้ขับขี่ตามลำพัง",
+              "feedback": "ถูกต้อง เด็กอายุ 2-6 ปี ไม่แนะนำให้โดยสารหลังผู้ขับขี่ตามลำพัง"
+            },
+            {
+              "id": "c",
+              "text": "สมุดไม่ได้พูดถึงเด็กอายุเกิน 2 ปี",
+              "feedback": "ยังไม่ใช่ สมุดพูดถึงเด็กอายุ 2-6 ปีด้วย: ไม่แนะนำให้โดยสารหลังผู้ขับขี่ตามลำพัง"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "สมุดหน้า 29: เด็กอายุน้อยกว่า 2 ปี ห้ามโดยสารรถจักรยานยนต์ เด็กอายุ 2-6 ปี ไม่แนะนำให้โดยสารหลังผู้ขับขี่ตามลำพัง",
+          "source": {
+            "pdfPages": [
+              31
+            ],
+            "printedPages": [
+              "29"
+            ]
+          }
+        },
+        {
+          "id": "q4",
+          "kind": "truefalse",
+          "prompt": "ลูกหลับอยู่ในรถ ถ้าจอดแวะซื้อของใกล้ ๆ ทิ้งลูกไว้ในรถสักครู่ได้ จริงหรือไม่",
+          "options": [
+            {
+              "id": "t",
+              "text": "จริง",
+              "feedback": "ไม่ใช่ สมุดเขียนว่า ห้ามทิ้งเด็กในรถ"
+            },
+            {
+              "id": "f",
+              "text": "ไม่จริง",
+              "feedback": "ถูกต้อง สมุดเขียนว่า ห้ามทิ้งเด็กในรถ"
+            }
+          ],
+          "correctOptionId": "f",
+          "explanation": "สมุดหน้า 29: ห้ามทิ้งเด็กในรถ สอนบีบแตร ตรวจรอบรถก่อนขับรถทุกครั้ง",
+          "source": {
+            "pdfPages": [
+              31
+            ],
+            "printedPages": [
+              "29"
+            ]
+          }
+        },
+        {
+          "id": "q5",
+          "kind": "mcq",
+          "prompt": "สมุดบอกให้ทำอะไรก่อนขับรถทุกครั้ง",
+          "options": [
+            {
+              "id": "a",
+              "text": "บีบแตร 3 ครั้ง",
+              "feedback": "ยังไม่ใช่ สมุดบอกให้สอนเด็กบีบแตร ส่วนก่อนขับรถทุกครั้ง ให้ตรวจรอบรถ"
+            },
+            {
+              "id": "b",
+              "text": "เปิดกระจกรถไว้",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า ตรวจรอบรถก่อนขับรถทุกครั้ง"
+            },
+            {
+              "id": "c",
+              "text": "ตรวจรอบรถ",
+              "feedback": "ถูกต้อง ตรวจรอบรถก่อนขับรถทุกครั้ง"
+            }
+          ],
+          "correctOptionId": "c",
+          "explanation": "สมุดหน้า 29: ห้ามทิ้งเด็กในรถ สอนบีบแตร ตรวจรอบรถก่อนขับรถทุกครั้ง",
+          "source": {
+            "pdfPages": [
+              31
+            ],
+            "printedPages": [
+              "29"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "takeaways",
+      "heading": "สรุปสิ่งสำคัญ",
+      "items": [
+        "ใช้ที่นั่งนิรภัยทุกครั้ง เด็กอายุน้อยกว่า 2 ปี หันหน้าเข้าหาเบาะ",
+        "เด็กอายุน้อยกว่า 2 ปี ห้ามโดยสารรถจักรยานยนต์",
+        "เด็กอายุ 2-6 ปี ไม่แนะนำให้โดยสารหลังผู้ขับขี่ตามลำพัง",
+        "ห้ามทิ้งเด็กในรถ สอนบีบแตร ตรวจรอบรถก่อนขับรถทุกครั้ง"
+      ],
+      "familyNote": "ทุกคนที่ขับรถหรือพาเด็กเดินทาง เช่น คนในครอบครัว ปู่ย่าตายาย หรือคนที่ช่วยรับส่ง ควรรู้ข้อเหล่านี้ด้วย โดยเฉพาะ ห้ามทิ้งเด็กในรถ และตรวจรอบรถก่อนขับรถทุกครั้ง"
+    }
+  ]
+}

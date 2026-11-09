@@ -1,0 +1,147 @@
+{
+  "id": "V-K-013",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 2140,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 369,
+      "segments": [
+        {
+          "file": "audio/V-K-013/intro-1-076da88ebb.wav",
+          "from": 18,
+          "durationInFrames": 180,
+          "caption": "สมุดสีชมพูหน้า 28 มีเรื่อง 'การป้องกันการบาดเจ็บในเด็ก' เป็นภาพ 6 ภาพ",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-K-013/intro-2-de4dd7c65a.wav",
+          "from": 212,
+          "durationInFrames": 130,
+          "caption": "3 ข้อเป็นเรื่องของตัวบ้าน และอีก 3 ข้อเป็นเรื่องการดูแลเด็ก",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 369,
+      "durationInFrames": 493,
+      "segments": [
+        {
+          "file": "audio/V-K-013/stage1-1-d700a02650.wav",
+          "from": 18,
+          "durationInFrames": 146,
+          "caption": "ตอนที่ 1 ตรวจตัวบ้าน ลองเดินดูบ้านของตัวเองไปพร้อมกัน",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-013/stage1-2-8ca6ff08e6.wav",
+          "from": 178,
+          "durationInFrames": 106,
+          "caption": "ราวบันได ช่องห่างน้อยกว่า 9 เซนติเมตร",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-013/stage1-3-ab6a7e0515.wav",
+          "from": 298,
+          "durationInFrames": 96,
+          "caption": "หน้าต่าง สูงจากพื้นมากกว่า 1 เมตร",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-K-013/stage1-4-26b1ecf7bb.wav",
+          "from": 408,
+          "durationInFrames": 58,
+          "caption": "และยึดเฟอร์นิเจอร์ให้มั่นคง",
+          "reveal": 3
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 862,
+      "durationInFrames": 467,
+      "segments": [
+        {
+          "file": "audio/V-K-013/stage2-1-853589225e.wav",
+          "from": 18,
+          "durationInFrames": 154,
+          "caption": "ตอนที่ 2 การดูแลลูก อีก 3 ข้อจากสมุดหน้า 28",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-013/stage2-2-c9159f90b0.wav",
+          "from": 186,
+          "durationInFrames": 65,
+          "caption": "ไม่ปล่อยเด็กบนที่สูงลำพัง",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-K-013/stage2-3-2d9d479715.wav",
+          "from": 265,
+          "durationInFrames": 56,
+          "caption": "ไม่ใช้รถหัดเดิน",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-K-013/stage2-4-d911493270.wav",
+          "from": 335,
+          "durationInFrames": 105,
+          "caption": "และดูแลใกล้ชิด เมื่อใช้บันไดเลื่อน/ลิฟต์",
+          "reveal": 6
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 1329,
+      "durationInFrames": 811,
+      "segments": [
+        {
+          "file": "audio/V-K-013/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 43,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-013/summary-2-ecae6b2106.wav",
+          "from": 75,
+          "durationInFrames": 166,
+          "caption": "ตัวเลข 2 ตัวที่ควรจำ คือ ช่องห่างราวบันไดน้อยกว่า 9 เซนติเมตร",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-013/summary-3-963a5f8a86.wav",
+          "from": 255,
+          "durationInFrames": 74,
+          "caption": "และหน้าต่างสูงจากพื้นมากกว่า 1 เมตร",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-K-013/summary-4-9bc655555f.wav",
+          "from": 343,
+          "durationInFrames": 221,
+          "caption": "ไม่ปล่อยเด็กบนที่สูงลำพัง ไม่ใช้รถหัดเดิน และดูแลใกล้ชิดเมื่อใช้บันไดเลื่อน/ลิฟต์",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-K-013/summary-5-35aa221999.wav",
+          "from": 578,
+          "durationInFrames": 206,
+          "caption": "สมุดไม่ได้อธิบายเหตุผลของแต่ละข้อ ถ้าสงสัยหรือไม่แน่ใจว่าบ้านเป็นอย่างไร ถามเจ้าหน้าที่ได้",
+          "reveal": 4
+        }
+      ]
+    }
+  ]
+}

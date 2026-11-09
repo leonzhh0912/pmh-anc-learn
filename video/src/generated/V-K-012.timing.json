@@ -1,0 +1,182 @@
+{
+  "id": "V-K-012",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 2537,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 450,
+      "segments": [
+        {
+          "file": "audio/V-K-012/intro-1-ad835ffc87.wav",
+          "from": 18,
+          "durationInFrames": 240,
+          "caption": "สมุดหน้า 28 มีการ์ด 'สื่อหน้าจอกับพัฒนาการเด็ก' บอกว่าเด็กแต่ละวัยใช้สื่อหน้าจอได้แค่ไหน",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-K-012/intro-2-11eb3d34bb.wav",
+          "from": 272,
+          "durationInFrames": 151,
+          "caption": "วิดีโอนี้ทำไว้สำหรับผู้ใหญ่ ไม่ควรเปิดให้เด็กอายุน้อยกว่า 2 ปีดู",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 450,
+      "durationInFrames": 540,
+      "segments": [
+        {
+          "file": "audio/V-K-012/stage1-1-722fd6196f.wav",
+          "from": 18,
+          "durationInFrames": 89,
+          "caption": "ตอนที่ 1 กติกาหน้าจอตามวัย",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-012/stage1-2-3b628bc58a.wav",
+          "from": 121,
+          "durationInFrames": 98,
+          "caption": "เด็กอายุน้อยกว่า 2 ปี ห้ามใช้สื่อหน้าจอ",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-012/stage1-3-092535fb1a.wav",
+          "from": 233,
+          "durationInFrames": 43,
+          "caption": "ยกเว้นวิดีโอคอล",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-K-012/stage1-4-106be449dd.wav",
+          "from": 290,
+          "durationInFrames": 168,
+          "caption": "เด็กอายุ 2 ปีขึ้นไป จำกัดครั้งละ 1 ชั่วโมง และไม่เกินวันละ 2 ครั้ง",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-K-012/stage1-5-158742c6c7.wav",
+          "from": 472,
+          "durationInFrames": 41,
+          "caption": "โดยมีผู้ดูแล",
+          "reveal": 4
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 990,
+      "durationInFrames": 313,
+      "segments": [
+        {
+          "file": "audio/V-K-012/stage2-1-d6b610128d.wav",
+          "from": 18,
+          "durationInFrames": 101,
+          "caption": "ตอนที่ 2 ช่วงที่ควรหลีกเลี่ยงการดูจอ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-012/stage2-2-59657d5df3.wav",
+          "from": 133,
+          "durationInFrames": 79,
+          "caption": "หลีกเลี่ยงการดูจอระหว่างมื้ออาหาร",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-K-012/stage2-3-723a84f0b7.wav",
+          "from": 226,
+          "durationInFrames": 60,
+          "caption": "และช่วงก่อนนอน 1 ชั่วโมง",
+          "reveal": 6
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 1303,
+      "durationInFrames": 440,
+      "segments": [
+        {
+          "file": "audio/V-K-012/stage3-1-490cff3e66.wav",
+          "from": 18,
+          "durationInFrames": 72,
+          "caption": "ตอนที่ 3 บทบาทของผู้ใหญ่",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-012/stage3-2-aa803c6fd5.wav",
+          "from": 104,
+          "durationInFrames": 144,
+          "caption": "ขอบหน้า 28 เขียนว่า ไม่ควรให้เด็กใช้สื่อหน้าจอตามลำพัง",
+          "reveal": 7
+        },
+        {
+          "file": "audio/V-K-012/stage3-3-b4376ffb98.wav",
+          "from": 262,
+          "durationInFrames": 60,
+          "caption": "รวมถึงการเปิดจอทิ้งไว้",
+          "reveal": 8
+        },
+        {
+          "file": "audio/V-K-012/stage3-4-b9703c0556.wav",
+          "from": 336,
+          "durationInFrames": 77,
+          "caption": "และผู้ปกครองควรเป็นแบบอย่างที่ดี",
+          "reveal": 9
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 1743,
+      "durationInFrames": 794,
+      "segments": [
+        {
+          "file": "audio/V-K-012/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-012/summary-2-93966016a6.wav",
+          "from": 78,
+          "durationInFrames": 148,
+          "caption": "อายุน้อยกว่า 2 ปี ห้ามใช้สื่อหน้าจอ ยกเว้นวิดีโอคอล",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-012/summary-3-3af140acda.wav",
+          "from": 240,
+          "durationInFrames": 202,
+          "caption": "อายุ 2 ปีขึ้นไป จำกัดครั้งละ 1 ชั่วโมง ไม่เกินวันละ 2 ครั้ง โดยมีผู้ดูแล",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-K-012/summary-4-ff9723fc16.wav",
+          "from": 456,
+          "durationInFrames": 134,
+          "caption": "หลีกเลี่ยงการดูจอระหว่างมื้ออาหาร และช่วงก่อนนอน 1 ชั่วโมง",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-K-012/summary-5-da1b87986e.wav",
+          "from": 604,
+          "durationInFrames": 163,
+          "caption": "ไม่ให้เด็กใช้สื่อหน้าจอตามลำพัง และผู้ปกครองควรเป็นแบบอย่างที่ดี",
+          "reveal": 4
+        }
+      ]
+    }
+  ]
+}

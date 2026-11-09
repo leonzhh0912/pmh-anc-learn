@@ -1,0 +1,32 @@
+{
+  "id": "V-GROW-005",
+  "lessonId": "MCH68-GROW-005",
+  "title": "นมแม่อย่างเดียว 6 เดือน และอาหารมื้อแรกของลูก",
+  "mp4": "media/V-GROW-005.mp4",
+  "captionsVtt": "media/V-GROW-005.th.vtt",
+  "poster": "media/V-GROW-005.jpg",
+  "durationSec": 138.5,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-GROW-005 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'กล้วยครูด', 'ช้อนกินข้าว', the fractions ('ครึ่งฟอง', 'หนึ่งในสี่ลูก', 'ครึ่งลูก'), 'ห้าสิบสี่' and 'สิบเอ็ด' / 'สิบสอง'.",
+      "First-foods table presented exactly as printed in the lesson timeline (amounts and day spans unchanged). Lesson note: column spans were read from the cell borders on the image; nutritionist + paediatrician to verify amounts and spans.",
+      "HANDBOOK ISSUE (from lesson, central to this video): the table puts rice + egg yolk + banana all in days 1–2, while คำแนะนำ 1 says start one food at a time, 1 - 2 ช้อนชา each, 2 - 3 days before a new food. The video does NOT reconcile them. It shows the table and keeps the lesson's editorial 'ถ้าไม่แน่ใจว่าจะเริ่มอย่างไร ถามเจ้าหน้าที่' (summary 3). คำแนะนำ 1 ('เริ่มทีละอย่าง') is left out of the video so the two conflicting instructions are not narrated side by side — nutritionist/paediatrician to decide whether the video should also state note 1 before publication.",
+      "Lesson note: vegetable cell for days 1–7 is described literally (item 6: 'ช่องนี้ในตารางเป็นขีด (−)'), not as 'do not give vegetables'.",
+      "Lesson note: 'กล้วยครูด' kept as printed; fruit piece size (item 12) is only shown in handbook photos, not in words.",
+      "Item 4 on-screen text ('ข้าวต้ม: 1 → 2 → 3 ช้อนกินข้าว') and item 5 text ('ไข่แดง ½ ฟอง แล้วเพิ่มเนื้อสัตว์ 1 ช้อนชา') compress two day-spans into one line; the narration and caption give both spans in full. Check on-screen text is not misleading.",
+      "Not used in the video: breastfeeding benefits list, principles 2–4 (texture, gradual increase, variety) beyond 'บดละเอียด', and the allergy-observation line (PMH CLARIFICATION: allergy signs are not in the handbook)."
+    ]
+  }
+}

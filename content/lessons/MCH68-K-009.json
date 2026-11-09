@@ -1,0 +1,398 @@
+{
+  "id": "MCH68-K-009",
+  "version": "0.1.1",
+  "title": "ฝึกลูกเข้านอน: ชั่วโมงนอนตามวัย",
+  "summary": "ลูกแต่ละวัยควรนอนวันละกี่ชั่วโมง ทำไมการนอนสำคัญ และการจัดบรรยากาศการนอนตามที่สมุดแนะนำ",
+  "sectionId": "knowledge",
+  "stages": [
+    "newborn",
+    "child"
+  ],
+  "audience": [
+    "mother",
+    "family"
+  ],
+  "minutes": 6,
+  "objectives": [
+    "ผู้เรียนบอกระยะเวลาการนอนตามช่วงวัยในตารางของสมุดได้ (แรกเกิด - 3 เดือน 14 - 17 ชั่วโมง; 4 เดือน - 1 ปี 12 - 16 ชั่วโมง; 1 - 2 ปี 11 - 14 ชั่วโมง; 3 - 5 ปี 10 - 13 ชั่วโมง)",
+    "ผู้เรียนบอกได้ว่าการนอนที่ดีส่งผลต่อการหลั่งโกรทฮอร์โมน ความจำ และสมาธิในการเรียนรู้",
+    "ผู้เรียนบอกบรรยากาศการนอนที่เหมาะสม (มืด เงียบ อากาศถ่ายเท) และสิ่งที่สมุดแนะนำเมื่อลูกหลังอายุ 6 เดือนสะลึมสะลือกลางดึก"
+  ],
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      29,
+      58,
+      59
+    ],
+    "printedPages": [
+      "27",
+      "56",
+      "57"
+    ],
+    "note": "ส่วน 'ฝึกลูกเข้านอน' ครึ่งบนของหน้า 27: ย่อหน้าการนอน ตารางช่วงอายุ/ระยะเวลาการนอน 4 แถว ย่อหน้าทารกหลังอายุ 6 เดือน และกราฟวงจรการนอนหลับ (45-50 นาที) รวมกับข้อความ 'นอนวันละ 11-14 ชั่วโมง' ในหน้าธงโภชนาการเด็ก 12 - 23 เดือน (หน้า 56) และ 'นอนวันละ 10-13 ชั่วโมง' ในหน้าธงโภชนาการเด็ก 2 - 5 ปี (หน้า 57)"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "Sleep table checked on a zoomed crop of the official page image, PDF p29 (printed 27): แรกเกิด - 3 เดือน 14 - 17 ชั่วโมง; 4 เดือน - 1 ปี 12 - 16 ชั่วโมง; 1 - 2 ปี (วัยเตาะแตะ) 11 - 14 ชั่วโมง; 3 - 5 ปี (ก่อนเข้าเรียน) 10 - 13 ชั่วโมง. Bubbles checked on page images: PDF p58 (printed 56, ธงโภชนาการ 12 - 23 เดือน) 'นอนวันละ 11-14 ชั่วโมง'; PDF p59 (printed 57, ธงโภชนาการ 2 - 5 ปี) 'นอนวันละ 10-13 ชั่วโมง'.",
+      "HANDBOOK ISSUE (night feeding): p29 prints 'ทารกหลังอายุ 6 เดือน ฝึกนอนยาวได้ด้วยตนเอง คือ ไม่จำเป็นต้องกินนมในตอนกลางคืนแล้ว'. This sits awkwardly with p28 (printed 26) 'ควรให้ลูกดูดนมแม่ได้บ่อยเท่าที่ต้องการ' and 'นมแม่ ควบคู่กับอาหารตามวัย 2 ปี หรือนานกว่า' (breastfeeding on demand), while p64 (printed 62, staff oral-health form) counts 'ดื่มนมมื้อดึก' as a caries risk. The lesson quotes the p29 sentence once, as printed, in text step 2, followed by an editorial pointer ('ถ้าให้นมแม่อยู่และมีคำถามเรื่องการให้นมตอนกลางคืน ปรึกษาเจ้าหน้าที่'). It is NOT used in the timeline, sort, quiz or takeaways. Paediatric and lactation teams to align the message (also a curriculum PMH clarification); consider removing the quote until then.",
+      "HANDBOOK ISSUE (age bands): p29's table puts age 2 in '1 - 2 ปี' (11 - 14 ชั่วโมง) and has no row for 2 to 3 years, while p59's 2 - 5 ปี page says 'นอนวันละ 10-13 ชั่วโมง'. A 2-year-old could be given either range. Bands also meet at 1 ปี ('4 เดือน - 1 ปี' and '1 - 2 ปี'). The lesson shows each range with its printed age label and the quiz/sort avoid boundary ages (uses 2 months, 8 months, 18 months, 4 years). Paediatrician to decide.",
+      "Extraction discrepancy: handbook/extraction/pages-25-46.md (p29) reads 'เด็กจะสามารถกล่อมตัวเอง'; the official page image prints 'เด็กจะสามารถร้องกล่อมตัวเอง'. The lesson uses the printed wording. The extraction file was not changed (outside this task).",
+      "Sleep-cycle chart: the chart has no sentence. The lesson describes it from its labels only (ระดับความรู้ตัว axis; หลับตื้น → หลับลึก → ตื่น / กลับมาหลับต่อ; span label '45-50 นาที'). 'One round in the chart is labelled 45-50 นาที' is a reading of the chart; paediatrician to confirm.",
+      "Curriculum scenario used as quiz q2 (8-month-old stirs at night). Answers quote p29 (watch to make sure the child is safe, without touching; the child can settle and go back to sleep within 30 minutes). Wrong options ('อุ้มขึ้นมาทันทีทุกครั้ง', 'เปิดไฟและเปิดทีวี') are written for this lesson. The explanation's line 'ถ้าลูกดูไม่สบาย หรือไม่แน่ใจ ปรึกษาเจ้าหน้าที่' is editorial, not handbook text.",
+      "Quiz wrong options written for this lesson: q3 'สว่าง มีเสียงเพลง ปิดหน้าต่างให้สนิท' and 'เปิดทีวีไว้ให้หลับง่าย'; q5 '6 - 8 ชั่วโมง' (not a value in the handbook).",
+      "Sort cards '8 เดือน', '18 เดือน', '4 ปี', '2 เดือน' are example ages placed into the printed bands (editorial).",
+      "Family note is app framing (everyone who puts the child to bed uses the same routine). Needs approval.",
+      "PMH CLARIFICATION (from curriculum): the handbook gives no safe-sleep position guidance (only 'ที่นอนไม่นิ่มจนยุบ' on p31). Nothing added; PMH to decide whether a paediatrician-approved addition is needed.",
+      "Not included: the 'การขับถ่าย' section and stool-colour card on the lower half of p29 (separate topic). Audience 'caregiver' from the curriculum is mapped to 'family' (schema enum).",
+      "Paediatrician review (curriculum requirement)."
+    ]
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "First draft from official handbook PDF p29, p58, p59 (2nd printing, April 2569); sleep table, bedtime atmosphere, sleep-cycle chart; night-feeding line quoted and flagged."
+    },
+    {
+      "version": "0.1.1",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "Added video step V-K-009 (narration derived from this lesson; no text changes)."
+    }
+  ],
+  "steps": [
+    {
+      "type": "text",
+      "heading": "ทำไมการนอนสำคัญ",
+      "paragraphs": [
+        "สมุดหน้า 27 เขียนว่า การนอนเป็นสิ่งสำคัญและจำเป็นสำหรับเด็ก ควรนอนหลับให้เพียงพอและเหมาะสมตามช่วงวัย",
+        "การนอนที่ดีส่งผลต่อการหลั่งโกรทฮอร์โมน (Growth hormone) ช่วยให้ร่างกายเจริญเติบโต เพิ่มส่วนสูง ซ่อมแซมส่วนที่สึกหรอ",
+        "การนอนที่ดียังมีผลต่อความจำ และสมาธิในการเรียนรู้ ส่งผลต่อพัฒนาการที่ดีของเด็กด้วย"
+      ]
+    },
+    {
+      "type": "video",
+      "heading": "ดูวิดีโอสรุป",
+      "videoId": "V-K-009"
+    },
+    {
+      "type": "text",
+      "heading": "ทารกหลังอายุ 6 เดือน",
+      "paragraphs": [
+        "สมุดเขียนว่า ทารกหลังอายุ 6 เดือน ฝึกนอนยาวได้ด้วยตนเอง คือ ไม่จำเป็นต้องกินนมในตอนกลางคืนแล้ว ถ้าให้นมแม่อยู่และมีคำถามเรื่องการให้นมตอนกลางคืน ปรึกษาเจ้าหน้าที่",
+        "ผู้ปกครองควรสร้างบรรยากาศในการนอนที่เหมาะสม มืด เงียบ อากาศถ่ายเท",
+        "ในช่วงแรกเด็กอาจสะลึมสะลือกลางดึกบ้าง ผู้ปกครองเฝ้ามองเพื่อให้แน่ใจว่าเด็กไม่มีอันตราย โดยไม่ต้องเข้าไปสัมผัส เด็กจะสามารถร้องกล่อมตัวเอง และกลับไปหลับได้เองในเวลาไม่เกิน 30 นาที ตามวงจรการนอนปกติของเด็ก",
+        "กราฟวงจรการนอนหลับในสมุด แสดงว่าเด็กหลับตื้น แล้วหลับลึก แล้วกลับขึ้นมาใกล้ตื่น จากนั้นอาจตื่น หรือกลับมาหลับต่อ หนึ่งรอบในกราฟระบุว่า 45-50 นาที"
+      ]
+    },
+    {
+      "type": "timeline",
+      "heading": "ชั่วโมงนอนตามวัย",
+      "intro": "เลือกช่วงอายุ แล้วแตะเพื่อดูระยะเวลาการนอนที่สมุดแนะนำ",
+      "stages": [
+        {
+          "id": "a0",
+          "label": "แรกเกิด - 3 เดือน",
+          "items": [
+            {
+              "n": 1,
+              "title": "ตารางหน้า 27",
+              "detail": "ระยะเวลาการนอน 14 - 17 ชั่วโมง"
+            }
+          ]
+        },
+        {
+          "id": "a1",
+          "label": "4 เดือน - 1 ปี",
+          "items": [
+            {
+              "n": 2,
+              "title": "ตารางหน้า 27",
+              "detail": "ระยะเวลาการนอน 12 - 16 ชั่วโมง"
+            },
+            {
+              "n": 3,
+              "title": "หลังอายุ 6 เดือน",
+              "detail": "ฝึกนอนยาวได้ด้วยตนเอง จัดที่นอนให้มืด เงียบ อากาศถ่ายเท"
+            }
+          ]
+        },
+        {
+          "id": "a2",
+          "label": "1 - 2 ปี (วัยเตาะแตะ)",
+          "items": [
+            {
+              "n": 4,
+              "title": "ตารางหน้า 27",
+              "detail": "ระยะเวลาการนอน 11 - 14 ชั่วโมง"
+            },
+            {
+              "n": 5,
+              "title": "หน้า 56 ธงโภชนาการเด็ก 12 - 23 เดือน",
+              "detail": "นอนวันละ 11-14 ชั่วโมง"
+            }
+          ]
+        },
+        {
+          "id": "a3",
+          "label": "3 - 5 ปี (ก่อนเข้าเรียน)",
+          "items": [
+            {
+              "n": 6,
+              "title": "ตารางหน้า 27",
+              "detail": "ระยะเวลาการนอน 10 - 13 ชั่วโมง"
+            },
+            {
+              "n": 7,
+              "title": "หน้า 57 ธงโภชนาการเด็ก 2 - 5 ปี",
+              "detail": "นอนวันละ 10-13 ชั่วโมง"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "heading": "ลูกวัยนี้ ควรนอนวันละกี่ชั่วโมง",
+      "intro": "แตะอายุหนึ่งใบ แล้วแตะระยะเวลาการนอนที่ตรงกับตารางในสมุดหน้า 27",
+      "buckets": [
+        {
+          "id": "h1417",
+          "label": "14 - 17 ชั่วโมง"
+        },
+        {
+          "id": "h1216",
+          "label": "12 - 16 ชั่วโมง"
+        },
+        {
+          "id": "h1114",
+          "label": "11 - 14 ชั่วโมง"
+        },
+        {
+          "id": "h1013",
+          "label": "10 - 13 ชั่วโมง"
+        }
+      ],
+      "items": [
+        {
+          "id": "s1",
+          "text": "ลูกอายุ 8 เดือน",
+          "bucketId": "h1216"
+        },
+        {
+          "id": "s2",
+          "text": "3 - 5 ปี (ก่อนเข้าเรียน)",
+          "bucketId": "h1013"
+        },
+        {
+          "id": "s3",
+          "text": "ลูกอายุ 2 เดือน",
+          "bucketId": "h1417"
+        },
+        {
+          "id": "s4",
+          "text": "1 - 2 ปี (วัยเตาะแตะ)",
+          "bucketId": "h1114"
+        },
+        {
+          "id": "s5",
+          "text": "แรกเกิด - 3 เดือน",
+          "bucketId": "h1417"
+        },
+        {
+          "id": "s6",
+          "text": "ลูกอายุ 18 เดือน",
+          "bucketId": "h1114"
+        },
+        {
+          "id": "s7",
+          "text": "ลูกอายุ 4 ปี",
+          "bucketId": "h1013"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "heading": "ทบทวนความเข้าใจ",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "prompt": "ทารกแรกเกิด - 3 เดือน ควรนอนวันละกี่ชั่วโมง ตามตารางในสมุด",
+          "options": [
+            {
+              "id": "a",
+              "text": "10 - 13 ชั่วโมง",
+              "feedback": "ยังไม่ใช่ 10 - 13 ชั่วโมง คือเด็ก 3 - 5 ปี"
+            },
+            {
+              "id": "b",
+              "text": "12 - 16 ชั่วโมง",
+              "feedback": "ยังไม่ใช่ 12 - 16 ชั่วโมง คือ 4 เดือน - 1 ปี"
+            },
+            {
+              "id": "c",
+              "text": "14 - 17 ชั่วโมง",
+              "feedback": "ถูกต้อง แรกเกิด - 3 เดือน นอน 14 - 17 ชั่วโมง"
+            }
+          ],
+          "correctOptionId": "c",
+          "explanation": "ตารางในสมุดหน้า 27: แรกเกิด - 3 เดือน 14 - 17 ชั่วโมง / 4 เดือน - 1 ปี 12 - 16 ชั่วโมง / 1 - 2 ปี 11 - 14 ชั่วโมง / 3 - 5 ปี 10 - 13 ชั่วโมง",
+          "source": {
+            "pdfPages": [
+              29
+            ],
+            "printedPages": [
+              "27"
+            ]
+          }
+        },
+        {
+          "id": "q2",
+          "kind": "scenario",
+          "scenario": "ลูกอายุ 8 เดือน กลางดึกขยับตัว สะลึมสะลือ แต่ยังไม่ตื่นเต็มที่",
+          "prompt": "ตามสมุด ผู้ปกครองทำอย่างไรได้",
+          "options": [
+            {
+              "id": "a",
+              "text": "เฝ้ามองให้แน่ใจว่าลูกไม่มีอันตราย โดยยังไม่ต้องเข้าไปสัมผัส",
+              "feedback": "ใช่ สมุดเขียนว่า เฝ้ามองเพื่อให้แน่ใจว่าเด็กไม่มีอันตราย โดยไม่ต้องเข้าไปสัมผัส เด็กจะกลับไปหลับได้เองในเวลาไม่เกิน 30 นาที"
+            },
+            {
+              "id": "b",
+              "text": "อุ้มขึ้นมาทันทีทุกครั้ง",
+              "feedback": "สมุดแนะนำว่า ในช่วงแรกเด็กอาจสะลึมสะลือกลางดึกบ้าง ผู้ปกครองเฝ้ามองได้โดยไม่ต้องเข้าไปสัมผัส"
+            },
+            {
+              "id": "c",
+              "text": "เปิดไฟและเปิดทีวีให้ลูกดู",
+              "feedback": "สมุดแนะนำให้จัดบรรยากาศการนอนที่ มืด เงียบ อากาศถ่ายเท"
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "สมุดหน้า 27: ผู้ปกครองเฝ้ามองเพื่อให้แน่ใจว่าเด็กไม่มีอันตราย โดยไม่ต้องเข้าไปสัมผัส เด็กจะสามารถร้องกล่อมตัวเอง และกลับไปหลับได้เองในเวลาไม่เกิน 30 นาที ถ้าลูกดูไม่สบาย หรือไม่แน่ใจ ปรึกษาเจ้าหน้าที่",
+          "source": {
+            "pdfPages": [
+              29
+            ],
+            "printedPages": [
+              "27"
+            ]
+          }
+        },
+        {
+          "id": "q3",
+          "kind": "mcq",
+          "prompt": "บรรยากาศการนอนที่สมุดแนะนำคือข้อใด",
+          "options": [
+            {
+              "id": "a",
+              "text": "สว่าง มีเสียงเพลง ปิดหน้าต่างให้สนิท",
+              "feedback": "ยังไม่ใช่ สมุดแนะนำ มืด เงียบ อากาศถ่ายเท"
+            },
+            {
+              "id": "b",
+              "text": "มืด เงียบ อากาศถ่ายเท",
+              "feedback": "ถูกต้อง ผู้ปกครองควรสร้างบรรยากาศการนอนที่ มืด เงียบ อากาศถ่ายเท"
+            },
+            {
+              "id": "c",
+              "text": "เปิดทีวีไว้ให้หลับง่าย",
+              "feedback": "ยังไม่ใช่ สมุดแนะนำ มืด เงียบ อากาศถ่ายเท"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "สมุดหน้า 27: ผู้ปกครองควรสร้างบรรยากาศในการนอนที่เหมาะสม มืด เงียบ อากาศถ่ายเท",
+          "source": {
+            "pdfPages": [
+              29
+            ],
+            "printedPages": [
+              "27"
+            ]
+          }
+        },
+        {
+          "id": "q4",
+          "kind": "truefalse",
+          "prompt": "การนอนที่ดีส่งผลต่อการหลั่งโกรทฮอร์โมน ช่วยให้ร่างกายเจริญเติบโต และยังมีผลต่อความจำและสมาธิในการเรียนรู้ จริงหรือไม่",
+          "options": [
+            {
+              "id": "t",
+              "text": "จริง",
+              "feedback": "ถูกต้อง สมุดเขียนไว้ทั้งเรื่องโกรทฮอร์โมน ความจำ และสมาธิในการเรียนรู้"
+            },
+            {
+              "id": "f",
+              "text": "ไม่จริง",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า การนอนที่ดีส่งผลต่อการหลั่งโกรทฮอร์โมน ความจำ และสมาธิในการเรียนรู้"
+            }
+          ],
+          "correctOptionId": "t",
+          "explanation": "สมุดหน้า 27: การนอนที่ดีส่งผลต่อการหลั่งโกรทฮอร์โมน ช่วยให้ร่างกายเจริญเติบโต เพิ่มส่วนสูง ซ่อมแซมส่วนที่สึกหรอ และมีผลต่อความจำ และสมาธิในการเรียนรู้",
+          "source": {
+            "pdfPages": [
+              29
+            ],
+            "printedPages": [
+              "27"
+            ]
+          }
+        },
+        {
+          "id": "q5",
+          "kind": "mcq",
+          "prompt": "ลูกอายุ 4 ปี ควรนอนวันละกี่ชั่วโมง",
+          "options": [
+            {
+              "id": "a",
+              "text": "10 - 13 ชั่วโมง",
+              "feedback": "ถูกต้อง เด็ก 3 - 5 ปี นอน 10 - 13 ชั่วโมง"
+            },
+            {
+              "id": "b",
+              "text": "14 - 17 ชั่วโมง",
+              "feedback": "ยังไม่ใช่ 14 - 17 ชั่วโมง คือแรกเกิด - 3 เดือน"
+            },
+            {
+              "id": "c",
+              "text": "6 - 8 ชั่วโมง",
+              "feedback": "ยังไม่ใช่ ตารางในสมุดให้เด็ก 3 - 5 ปี นอน 10 - 13 ชั่วโมง"
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "ตารางในสมุดหน้า 27: 3 - 5 ปี (ก่อนเข้าเรียน) 10 - 13 ชั่วโมง และหน้า 57 (ธงโภชนาการเด็ก 2 - 5 ปี): นอนวันละ 10-13 ชั่วโมง",
+          "source": {
+            "pdfPages": [
+              29,
+              59
+            ],
+            "printedPages": [
+              "27",
+              "57"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "takeaways",
+      "heading": "สรุปสิ่งสำคัญ",
+      "items": [
+        "การนอนที่ดีช่วยการเจริญเติบโต ความจำ และสมาธิในการเรียนรู้",
+        "แรกเกิด - 3 เดือน 14 - 17 ชั่วโมง / 4 เดือน - 1 ปี 12 - 16 ชั่วโมง",
+        "1 - 2 ปี 11 - 14 ชั่วโมง / 3 - 5 ปี 10 - 13 ชั่วโมง",
+        "จัดที่นอนให้มืด เงียบ อากาศถ่ายเท",
+        "ลูกหลังอายุ 6 เดือนสะลึมสะลือกลางดึก เฝ้ามองให้แน่ใจว่าไม่มีอันตราย ลูกจะกลับไปหลับได้เองในเวลาไม่เกิน 30 นาที"
+      ],
+      "familyNote": "ทุกคนที่ช่วยพาลูกเข้านอน เช่น ปู่ย่าตายาย หรือคนที่ดูแลลูก ช่วยกันจัดห้องนอนให้มืด เงียบ อากาศถ่ายเท และใช้วิธีเดียวกัน ถ้ามีคำถามเรื่องการนอนหรือการให้นมตอนกลางคืน ปรึกษาเจ้าหน้าที่"
+    }
+  ]
+}

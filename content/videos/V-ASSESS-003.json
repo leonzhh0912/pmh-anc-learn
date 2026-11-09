@@ -1,0 +1,31 @@
+{
+  "id": "V-ASSESS-003",
+  "lessonId": "MCH68-ASSESS-003",
+  "title": "งดสุราและบุหรี่ ระหว่างตั้งครรภ์และให้นมลูก",
+  "mp4": "media/V-ASSESS-003.mp4",
+  "captionsVtt": "media/V-ASSESS-003.th.vtt",
+  "poster": "media/V-ASSESS-003.jpg",
+  "durationSec": 92,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-ASSESS-003 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of แอลกอฮอล์, สาโท, กะแช่, วิสกี้, สปาย, บุหรี่ไฟฟ้า.",
+      "AWARENESS-ONLY CHECK used because it is central to this assessment lesson: the video says staff assess drinking, smoking or e-cigarettes and close contacts who smoke at the first ANC visit (p8, staff-only checklist). No item numbers, colour codes or risk levels; 'ใช้สารเสพติด' left out. Reviewer to confirm, or remove stage 3 item 6.",
+      "AWARENESS-ONLY CHECK: the p19 alcohol question is described only in general terms ('ถ้าเคยดื่ม ควรได้รับการประเมินและการดูแลเพิ่มเติม'). No screening items or scores. Reviewer to confirm.",
+      "'ตอบตามจริง' is app framing from the lesson (not printed in the handbook).",
+      "SCOPE NOTE (lesson): the handbook says nothing about smoking while breastfeeding or second-hand-smoke harms; the video applies the breastfeeding rule to alcohol only and the smoking harm to pregnancy only.",
+      "Lesson note applies: PMH smoking-cessation and alcohol-counselling contacts should be shown with this lesson (not in the narration)."
+    ]
+  }
+}

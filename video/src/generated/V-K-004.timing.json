@@ -1,0 +1,161 @@
+{
+  "id": "V-K-004",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 3167,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 470,
+      "segments": [
+        {
+          "file": "audio/V-K-004/intro-1-0bbeea20f8.wav",
+          "from": 18,
+          "durationInFrames": 238,
+          "caption": "สมุดสีชมพูหน้า 24 มีข้อปฏิบัติการกิน 9 ข้อ ใช้ได้ทั้งหญิงตั้งครรภ์ และหญิงให้นมบุตร",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-K-004/intro-2-ec19d0297f.wav",
+          "from": 270,
+          "durationInFrames": 173,
+          "caption": "แบ่งเป็น 2 ตอน คือ กินให้ครบ หลากหลาย และ สะอาด และหลีกเลี่ยง",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 470,
+      "durationInFrames": 1414,
+      "segments": [
+        {
+          "file": "audio/V-K-004/stage1-1-6041ccf81e.wav",
+          "from": 18,
+          "durationInFrames": 94,
+          "caption": "ตอนที่ 1 กินให้ครบ หลากหลาย",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-004/stage1-2-06cee2858b.wav",
+          "from": 126,
+          "durationInFrames": 276,
+          "caption": "ข้อ 1 กินให้ครบทุกกลุ่ม แต่ละกลุ่มให้หลากหลาย ในปริมาณตามธงโภชนาการ และหมั่นดูแลน้ำหนักตัว",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-004/stage1-3-92f5f5a0bf.wav",
+          "from": 416,
+          "durationInFrames": 199,
+          "caption": "ข้อ 2 กินข้าวเป็นหลัก เน้นข้าวกล้อง ข้าวซ้อมมือ สลับกับอาหารประเภทแป้งเป็นบางมื้อ",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-K-004/stage1-4-350196f223.wav",
+          "from": 629,
+          "durationInFrames": 223,
+          "caption": "ข้อ 3 กินปลา ไข่ เนื้อสัตว์ไม่ติดมัน ถั่วเมล็ดแห้ง และผลิตภัณฑ์จากถั่วเป็นประจำ",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-K-004/stage1-5-ea8fbdc84b.wav",
+          "from": 866,
+          "durationInFrames": 245,
+          "caption": "ข้อ 4 กินพืชผักและผลไม้หลากหลายสีเป็นประจำ หลีกเลี่ยงผลไม้รสหวานจัด เช่น ลำไย ทุเรียน",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-K-004/stage1-6-ec42cf7666.wav",
+          "from": 1125,
+          "durationInFrames": 262,
+          "caption": "ข้อ 5 ดื่มนมรสจืด และกินอาหารอื่นที่มีแคลเซียมสูง เช่น ปลาเล็กปลาน้อย เต้าหู้ขาวแข็ง",
+          "reveal": 5
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1884,
+      "durationInFrames": 744,
+      "segments": [
+        {
+          "file": "audio/V-K-004/stage2-1-f26068861b.wav",
+          "from": 18,
+          "durationInFrames": 97,
+          "caption": "ตอนที่ 2 สะอาด และหลีกเลี่ยง",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-004/stage2-2-affc5442c9.wav",
+          "from": 129,
+          "durationInFrames": 127,
+          "caption": "ข้อ 6 หลีกเลี่ยงอาหารไขมันสูง หวานจัด เค็มจัด",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-K-004/stage2-3-409f934a84.wav",
+          "from": 270,
+          "durationInFrames": 124,
+          "caption": "ข้อ 7 กินอาหารที่สะอาด ปลอดภัย และปรุงสุกใหม่",
+          "reveal": 7
+        },
+        {
+          "file": "audio/V-K-004/stage2-4-39428b51a5.wav",
+          "from": 408,
+          "durationInFrames": 142,
+          "caption": "ข้อ 8 ดื่มน้ำสะอาดให้เพียงพอ หลีกเลี่ยงเครื่องดื่มรสหวาน",
+          "reveal": 8
+        },
+        {
+          "file": "audio/V-K-004/stage2-5-2df7ca9b48.wav",
+          "from": 564,
+          "durationInFrames": 153,
+          "caption": "ข้อ 9 งดเครื่องดื่มที่มีแอลกอฮอล์ และหลีกเลี่ยงอาหารหมักดอง",
+          "reveal": 9
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 2628,
+      "durationInFrames": 539,
+      "segments": [
+        {
+          "file": "audio/V-K-004/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-004/summary-2-d5a39261a2.wav",
+          "from": 78,
+          "durationInFrames": 149,
+          "caption": "กินให้ครบทุกกลุ่ม หลากหลาย ตามปริมาณในธงโภชนาการ",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-004/summary-3-1713c2a4e7.wav",
+          "from": 241,
+          "durationInFrames": 137,
+          "caption": "กินอาหารที่สะอาด ปรุงสุกใหม่ และดื่มน้ำสะอาดให้เพียงพอ",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-K-004/summary-4-629312c26e.wav",
+          "from": 392,
+          "durationInFrames": 120,
+          "caption": "และงดเครื่องดื่มที่มีแอลกอฮอล์ หลีกเลี่ยงอาหารหมักดอง",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

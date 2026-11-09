@@ -1,0 +1,182 @@
+{
+  "id": "V-K-009",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 3115,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 323,
+      "segments": [
+        {
+          "file": "audio/V-K-009/intro-1-c05f3befc6.wav",
+          "from": 18,
+          "durationInFrames": 161,
+          "caption": "สมุดหน้า 27 เขียนว่า การนอนเป็นสิ่งสำคัญและจำเป็นสำหรับเด็ก",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-K-009/intro-2-0a4ee75848.wav",
+          "from": 193,
+          "durationInFrames": 103,
+          "caption": "ควรนอนหลับให้เพียงพอ และเหมาะสมตามช่วงวัย",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 323,
+      "durationInFrames": 654,
+      "segments": [
+        {
+          "file": "audio/V-K-009/stage1-1-da61f821ca.wav",
+          "from": 18,
+          "durationInFrames": 85,
+          "caption": "ตอนที่ 1 การนอนที่ดีช่วยอะไร",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-009/stage1-2-9bd9da41a8.wav",
+          "from": 117,
+          "durationInFrames": 170,
+          "caption": "การนอนที่ดี ส่งผลต่อการหลั่งโกรทฮอร์โมน ช่วยให้ร่างกายเจริญเติบโต",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-009/stage1-3-eecb47924e.wav",
+          "from": 301,
+          "durationInFrames": 98,
+          "caption": "เพิ่มส่วนสูง และซ่อมแซมส่วนที่สึกหรอ",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-K-009/stage1-4-98a45d213e.wav",
+          "from": 413,
+          "durationInFrames": 214,
+          "caption": "การนอนที่ดียังมีผลต่อความจำ และสมาธิในการเรียนรู้ ส่งผลต่อพัฒนาการที่ดีของเด็กด้วย",
+          "reveal": 3
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 977,
+      "durationInFrames": 739,
+      "segments": [
+        {
+          "file": "audio/V-K-009/stage2-1-1aa5428d6e.wav",
+          "from": 18,
+          "durationInFrames": 154,
+          "caption": "ตอนที่ 2 ตารางในหน้า 27 บอกระยะเวลาการนอนตามช่วงอายุ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-009/stage2-2-691220552b.wav",
+          "from": 186,
+          "durationInFrames": 103,
+          "caption": "แรกเกิด - 3 เดือน นอน 14 - 17 ชั่วโมง",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-K-009/stage2-3-983a2105ba.wav",
+          "from": 303,
+          "durationInFrames": 115,
+          "caption": "4 เดือน - 1 ปี นอน 12 - 16 ชั่วโมง",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-K-009/stage2-4-31176b1624.wav",
+          "from": 432,
+          "durationInFrames": 132,
+          "caption": "1 - 2 ปี (วัยเตาะแตะ) นอน 11 - 14 ชั่วโมง",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-K-009/stage2-5-087cb454dd.wav",
+          "from": 578,
+          "durationInFrames": 134,
+          "caption": "3 - 5 ปี (ก่อนเข้าเรียน) นอน 10 - 13 ชั่วโมง",
+          "reveal": 7
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 1716,
+      "durationInFrames": 850,
+      "segments": [
+        {
+          "file": "audio/V-K-009/stage3-1-4d84ff8907.wav",
+          "from": 18,
+          "durationInFrames": 132,
+          "caption": "ตอนที่ 3 บรรยากาศการนอน และเมื่อลูกสะลึมสะลือกลางดึก",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-009/stage3-2-09853fb674.wav",
+          "from": 164,
+          "durationInFrames": 194,
+          "caption": "ผู้ปกครองควรสร้างบรรยากาศในการนอนที่เหมาะสม มืด เงียบ อากาศถ่ายเท",
+          "reveal": 8
+        },
+        {
+          "file": "audio/V-K-009/stage3-3-e267b52aff.wav",
+          "from": 372,
+          "durationInFrames": 235,
+          "caption": "ลูกหลังอายุ 6 เดือน ช่วงแรกอาจสะลึมสะลือกลางดึก ผู้ปกครองเฝ้ามองให้แน่ใจว่าไม่มีอันตราย",
+          "reveal": 9
+        },
+        {
+          "file": "audio/V-K-009/stage3-4-a27c5e4ed2.wav",
+          "from": 621,
+          "durationInFrames": 202,
+          "caption": "โดยไม่ต้องเข้าไปสัมผัส เด็กจะร้องกล่อมตัวเอง และกลับไปหลับได้เองในเวลาไม่เกิน 30 นาที",
+          "reveal": 10
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 2566,
+      "durationInFrames": 549,
+      "segments": [
+        {
+          "file": "audio/V-K-009/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-009/summary-2-2840c03a39.wav",
+          "from": 78,
+          "durationInFrames": 178,
+          "caption": "การนอนที่ดี ช่วยการเจริญเติบโต ความจำ และสมาธิในการเรียนรู้",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-009/summary-3-dcf3b58b0c.wav",
+          "from": 270,
+          "durationInFrames": 130,
+          "caption": "ชั่วโมงนอนของลูกแต่ละวัย ดูตารางในสมุดหน้า 27",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-K-009/summary-4-aa2a7df137.wav",
+          "from": 414,
+          "durationInFrames": 108,
+          "caption": "และจัดที่นอนให้มืด เงียบ อากาศถ่ายเท",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

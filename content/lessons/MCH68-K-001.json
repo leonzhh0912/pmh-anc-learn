@@ -1,6 +1,6 @@
 {
   "id": "MCH68-K-001",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "title": "ธงโภชนาการ คืออะไร? อาหาร 6 กลุ่ม",
   "summary": "อ่านธงโภชนาการให้เป็น รู้จักอาหาร 6 กลุ่ม และทำไมการกินที่ถูกต้องสำคัญต่อแม่และลูก",
   "sectionId": "knowledge",
@@ -50,6 +50,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "First draft from official handbook PDF p22 (2nd printing, April 2569)."
+    },
+    {
+      "version": "0.1.1",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "Added video step V-K-001 (narration derived from this lesson; no text changes)."
     }
   ],
   "steps": [
@@ -61,6 +67,11 @@
         "ธงมีรูปเป็นสามเหลี่ยมหัวกลับ ส่วนที่กว้างอยู่ด้านบน หมายถึงให้กินปริมาณมาก ยิ่งลงไปทางปลายธงยิ่งให้กินน้อยลง",
         "อาหารแบ่งเป็น 6 กลุ่ม คือ ข้าว-แป้ง ผัก ผลไม้ นม ไขมัน น้ำตาล เกลือ และเนื้อสัตว์"
       ]
+    },
+    {
+      "type": "video",
+      "heading": "ดูวิดีโอสรุป",
+      "videoId": "V-K-001"
     },
     {
       "type": "flag",

@@ -1,0 +1,168 @@
+{
+  "id": "V-K-006",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 3004,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 484,
+      "segments": [
+        {
+          "file": "audio/V-K-006/intro-1-1e13f9616f.wav",
+          "from": 18,
+          "durationInFrames": 233,
+          "caption": "สมุดสีชมพูเขียนไว้ว่า ตั้งครรภ์ไม่ได้เป็นข้อห้ามในการออกกำลังกาย แถมยังเป็นสิ่งจำเป็น",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-K-006/intro-2-66bf9b20a5.wav",
+          "from": 265,
+          "durationInFrames": 192,
+          "caption": "ภาพในสมุดหน้า 25 เขียนว่า 150 นาที/สัปดาห์ ระดับปานกลาง",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 484,
+      "durationInFrames": 1316,
+      "segments": [
+        {
+          "file": "audio/V-K-006/stage1-1-dffcc85528.wav",
+          "from": 18,
+          "durationInFrames": 127,
+          "caption": "ตอนที่ 1 กิจกรรมที่แนะนำ ต่างกันไปในแต่ละช่วง",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-006/stage1-2-c25100429f.wav",
+          "from": 159,
+          "durationInFrames": 262,
+          "caption": "ไตรมาสที่ 1 เตรียมความพร้อม ประเมินกิจกรรมทางกาย กำหนดเป้าหมาย เดินหรือย่ำเท้าอยู่กับที่",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-006/stage1-3-ee77b504e4.wav",
+          "from": 435,
+          "durationInFrames": 235,
+          "caption": "ไตรมาสที่ 2 ป้องกันเบาหวาน คุมความดัน มีแอโรบิค ออกกำลังกายแบบใช้แรงต้าน และยืดเหยียด",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-K-006/stage1-4-b0ee7cd619.wav",
+          "from": 684,
+          "durationInFrames": 214,
+          "caption": "ไตรมาสที่ 3 เตรียมคลอด มีการออกกำลังกายแบบผ่อนคลาย และบริหารกล้ามเนื้ออุ้งเชิงกราน",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-K-006/stage1-5-c3f9866743.wav",
+          "from": 912,
+          "durationInFrames": 217,
+          "caption": "ระยะหลังคลอด ปรับสมดุลร่างกาย บริหารกล้ามเนื้ออุ้งเชิงกราน และเดินหรือย่ำเท้าอยู่กับที่",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-K-006/stage1-6-d40c77625d.wav",
+          "from": 1143,
+          "durationInFrames": 146,
+          "caption": "แต่ละช่วงมีกิจกรรมและเวลาต่างกัน ดูได้ในสมุดหน้า 25",
+          "reveal": 5
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1800,
+      "durationInFrames": 634,
+      "segments": [
+        {
+          "file": "audio/V-K-006/stage2-1-3a873e730f.wav",
+          "from": 18,
+          "durationInFrames": 77,
+          "caption": "ตอนที่ 2 ข้อควรระวัง",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-006/stage2-2-b7fca2edc7.wav",
+          "from": 109,
+          "durationInFrames": 63,
+          "caption": "หลีกเลี่ยงนอนหงายเป็นเวลานาน",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-K-006/stage2-3-3b962e0aea.wav",
+          "from": 186,
+          "durationInFrames": 106,
+          "caption": "ไม่หักโหม และลดแรงกระแทก/เสียดสี",
+          "reveal": 7
+        },
+        {
+          "file": "audio/V-K-006/stage2-4-9d21bc7bd8.wav",
+          "from": 306,
+          "durationInFrames": 40,
+          "caption": "ดื่มน้ำเพียงพอ",
+          "reveal": 8
+        },
+        {
+          "file": "audio/V-K-006/stage2-5-c4b0140756.wav",
+          "from": 360,
+          "durationInFrames": 46,
+          "caption": "และเลี่ยงอากาศร้อน",
+          "reveal": 9
+        },
+        {
+          "file": "audio/V-K-006/stage2-6-1237034837.wav",
+          "from": 420,
+          "durationInFrames": 187,
+          "caption": "หยุดทันทีหากมีอาการผิดปกติ ถ้าไม่แน่ใจ ถามเจ้าหน้าที่ที่ดูแลการฝากครรภ์",
+          "reveal": 10
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 2434,
+      "durationInFrames": 570,
+      "segments": [
+        {
+          "file": "audio/V-K-006/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-006/summary-2-15f9d7b479.wav",
+          "from": 78,
+          "durationInFrames": 226,
+          "caption": "ตั้งครรภ์ออกกำลังกายได้ สมุดเขียนไว้ว่า 150 นาที/สัปดาห์ ระดับปานกลาง",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-006/summary-3-c385a5e6d0.wav",
+          "from": 318,
+          "durationInFrames": 132,
+          "caption": "ไม่หักโหม ดื่มน้ำเพียงพอ และเลี่ยงอากาศร้อน",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-K-006/summary-4-5ee7cf780f.wav",
+          "from": 464,
+          "durationInFrames": 79,
+          "caption": "และหยุดทันทีหากมีอาการผิดปกติ",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

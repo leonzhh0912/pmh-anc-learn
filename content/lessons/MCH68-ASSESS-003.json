@@ -1,6 +1,6 @@
 {
   "id": "MCH68-ASSESS-003",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "title": "งดสุราและบุหรี่ ระหว่างตั้งครรภ์และให้นมลูก",
   "summary": "สมุดพูดถึงเครื่องดื่มที่มีแอลกอฮอล์และบุหรี่อย่างไร และทำไมเจ้าหน้าที่จึงถามเรื่องนี้เมื่อฝากครรภ์",
   "sectionId": "assess",
@@ -62,6 +62,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "First draft from official handbook PDF p8, p19, p20, p26 (2nd printing, April 2569)."
+    },
+    {
+      "version": "0.1.1",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "Added video step V-ASSESS-003 (narration derived from this lesson; no text changes)."
     }
   ],
   "steps": [
@@ -73,6 +79,11 @@
         "สุรา หมายถึงเครื่องดื่มที่มีแอลกอฮอล์ทุกชนิด ได้แก่ เบียร์ เหล้า สาโท กะแช่ วิสกี้ สปาย ไวน์ เป็นต้น",
         "สมุดบอกว่า การดื่มสุรามีผลต่อสุขภาพของแม่และการเลี้ยงลูก"
       ]
+    },
+    {
+      "type": "video",
+      "heading": "ดูวิดีโอสรุป",
+      "videoId": "V-ASSESS-003"
     },
     {
       "type": "text",

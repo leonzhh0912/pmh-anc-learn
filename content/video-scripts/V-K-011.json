@@ -1,0 +1,245 @@
+{
+  "id": "V-K-011",
+  "lessonId": "MCH68-K-011",
+  "version": "0.1.0",
+  "title": "ฝึกขับถ่าย และการขับถ่ายรดที่นอน",
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      29
+    ],
+    "printedPages": [
+      "27"
+    ],
+    "note": "Narration derived from lesson MCH68-K-011 v0.1.0"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-K-011 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'กระโถน', 'กุมารแพทย์', 'แรงเสริมทางบวก', 'เบ่งถ่าย', 'ปัสสาวะ' / 'อุจจาระ' and 'วินิจฉัย'.",
+      "Scope: toileting readiness, how to start, and bedwetting only. The 'ช่วงทารก' bullet, the stool-colour photo card and the lesson's pointer sentence to it are NOT used (high-risk topic, lesson MCH68-K-010).",
+      "Wording (from lesson): the handbook says 'ซึ่งทารกมีพัฒนาการที่พร้อม' for ages 2 and over; the video says 'ลูก' as the lesson does. The training method is for stool ('ฝึกขับถ่ายอุจจาระ') and is not extended to urine training.",
+      "The handbook gives no definition or examples of 'แรงเสริมทางบวก' or 'วิธีที่รุนแรง'; the video uses both phrases as printed and adds no examples. 'สมุดเน้นข้อนี้ด้วยตัวอักษรสีแดง' (item 8) is the lesson's description of the red print.",
+      "Paediatrician: verify referral ages (curriculum requirement). Items 9–10 say 'พาไปพบกุมารแพทย์' as printed; no PMH referral route is added (PMH CLARIFICATION pending).",
+      "Stage 3 uses hideNumbers because item texts carry ages (4 ปี, 5 ปี); narration does not use 'ข้อ' numbers. Item 5 caption/speech drops 'เพื่อให้' before 'เท้าไม่ลอย' to fit the 90-character caption limit (meaning unchanged; reviewer to confirm).",
+      "Not used in the video: the family note."
+    ]
+  },
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3",
+    "stability": 0.5,
+    "style": 0,
+    "speed": 0.95,
+    "seed": 1234
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "kind": "title",
+      "heading": "ฝึกขับถ่าย และรดที่นอน",
+      "subheading": "จากสมุดบันทึกสุขภาพแม่และเด็ก ฉบับปรับปรุงใหม่ พ.ศ. 2568",
+      "chips": [
+        "อายุ 2 ปีขึ้นไป",
+        "สมุดหน้า 27"
+      ],
+      "segments": [
+        {
+          "speak": "สมุดหน้ายี่สิบเจ็ด เขียนเรื่องการฝึกขับถ่ายของลูก และการขับถ่ายรดที่นอน",
+          "caption": "สมุดหน้า 27 เขียนเรื่องการฝึกขับถ่ายของลูก และการขับถ่ายรดที่นอน"
+        },
+        {
+          "speak": "มาดูสัญญาณความพร้อม วิธีเริ่มฝึก และการรับมือเมื่อลูกรดที่นอน",
+          "caption": "มาดูสัญญาณความพร้อม วิธีเริ่มฝึก และการรับมือเมื่อลูกรดที่นอน"
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "kind": "stage",
+      "stage": 1,
+      "label": "สัญญาณว่าพร้อมฝึก",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 1,
+          "icon": "baby",
+          "text": "นั่งทรงตัวได้มั่นคง"
+        },
+        {
+          "n": 2,
+          "icon": "check",
+          "text": "ดึงกางเกงลงเองได้"
+        },
+        {
+          "n": 3,
+          "icon": "chat",
+          "text": "บอกความต้องการพื้นฐานได้"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่หนึ่ง สัญญาณว่าพร้อมฝึก อายุสองปีขึ้นไป ลูกมีพัฒนาการที่พร้อมในการฝึกขับถ่ายด้วยตัวเอง",
+          "caption": "ตอนที่ 1 สัญญาณว่าพร้อมฝึก อายุ 2 ปีขึ้นไป ลูกมีพัฒนาการที่พร้อมในการฝึกขับถ่ายด้วยตัวเอง"
+        },
+        {
+          "reveal": 1,
+          "speak": "นั่งทรงตัวได้มั่นคง",
+          "caption": "นั่งทรงตัวได้มั่นคง"
+        },
+        {
+          "reveal": 2,
+          "speak": "ดึงกางเกงลงเองได้",
+          "caption": "ดึงกางเกงลงเองได้"
+        },
+        {
+          "reveal": 3,
+          "speak": "และบอกความต้องการพื้นฐานได้ เป็นช่วงเวลาที่ดีในการฝึกขับถ่ายอุจจาระ",
+          "caption": "และบอกความต้องการพื้นฐานได้ เป็นช่วงเวลาที่ดีในการฝึกขับถ่ายอุจจาระ"
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "kind": "stage",
+      "stage": 2,
+      "label": "วิธีเริ่มฝึก",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 4,
+          "icon": "clock",
+          "text": "ฝึกนั่งกระโถนหลังมื้อเช้า"
+        },
+        {
+          "n": 5,
+          "icon": "check",
+          "text": "ฝารองนั่งสำหรับเด็กที่มีบันได"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สอง วิธีเริ่มฝึก",
+          "caption": "ตอนที่ 2 วิธีเริ่มฝึก"
+        },
+        {
+          "reveal": 4,
+          "speak": "เริ่มจากฝึกนั่งกระโถนหลังมื้อเช้า",
+          "caption": "เริ่มจากฝึกนั่งกระโถนหลังมื้อเช้า"
+        },
+        {
+          "reveal": 5,
+          "speak": "ถ้าฝึกในห้องน้ำ ควรใช้ฝารองนั่งสำหรับเด็กที่มีบันได เท้าไม่ลอย ช่วยให้เบ่งถ่ายได้ง่ายขึ้น",
+          "caption": "ถ้าฝึกในห้องน้ำ ควรใช้ฝารองนั่งสำหรับเด็กที่มีบันได เท้าไม่ลอย ช่วยให้เบ่งถ่ายได้ง่ายขึ้น"
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "kind": "stage",
+      "stage": 3,
+      "label": "เมื่อขับถ่ายรดที่นอน",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 6,
+          "icon": "smile",
+          "text": "ในวัยเด็กสามารถพบได้"
+        },
+        {
+          "n": 7,
+          "icon": "heart",
+          "text": "ใช้แรงเสริมทางบวก"
+        },
+        {
+          "n": 8,
+          "icon": "shield",
+          "text": "ไม่ควรใช้วิธีที่รุนแรง"
+        },
+        {
+          "n": 9,
+          "icon": "warning",
+          "text": "อุจจาระรดหลัง 4 ปี: พบกุมารแพทย์"
+        },
+        {
+          "n": 10,
+          "icon": "warning",
+          "text": "ปัสสาวะรดหลัง 5 ปี: พบกุมารแพทย์"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สาม เมื่อลูกขับถ่ายรดที่นอน",
+          "caption": "ตอนที่ 3 เมื่อลูกขับถ่ายรดที่นอน"
+        },
+        {
+          "reveal": 6,
+          "speak": "การขับถ่ายรดที่นอน ในวัยเด็กสามารถพบได้",
+          "caption": "การขับถ่ายรดที่นอน ในวัยเด็กสามารถพบได้"
+        },
+        {
+          "reveal": 7,
+          "speak": "สมุดแนะนำให้ใช้แรงเสริมทางบวก",
+          "caption": "สมุดแนะนำให้ใช้แรงเสริมทางบวก"
+        },
+        {
+          "reveal": 8,
+          "speak": "และไม่ควรใช้วิธีที่รุนแรง สมุดเน้นข้อนี้ด้วยตัวอักษรสีแดง",
+          "caption": "และไม่ควรใช้วิธีที่รุนแรง สมุดเน้นข้อนี้ด้วยตัวอักษรสีแดง"
+        },
+        {
+          "reveal": 9,
+          "speak": "ถ้ายังอุจจาระรดหลังอายุสี่ปี ควรพาไปพบกุมารแพทย์ เพื่อวินิจฉัยและรักษาเพิ่มเติม",
+          "caption": "ถ้ายังอุจจาระรดหลังอายุ 4 ปี ควรพาไปพบกุมารแพทย์ เพื่อวินิจฉัยและรักษาเพิ่มเติม"
+        },
+        {
+          "reveal": 10,
+          "speak": "หรือถ้ายังปัสสาวะรดหลังอายุห้าปี ก็ควรพาไปพบกุมารแพทย์เช่นกัน",
+          "caption": "หรือถ้ายังปัสสาวะรดหลังอายุ 5 ปี ก็ควรพาไปพบกุมารแพทย์เช่นกัน"
+        }
+      ],
+      "hideNumbers": true
+    },
+    {
+      "id": "summary",
+      "kind": "summary",
+      "heading": "จำไว้ 3 เรื่อง",
+      "points": [
+        "2 ปีขึ้นไป: ดูสัญญาณพร้อม 3 ข้อ",
+        "แรงเสริมทางบวก ไม่ใช้วิธีรุนแรง",
+        "รดหลัง 4 ปี / 5 ปี พบกุมารแพทย์"
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "สรุปเรื่องสำคัญ",
+          "caption": "สรุปเรื่องสำคัญ"
+        },
+        {
+          "reveal": 1,
+          "speak": "สัญญาณพร้อมฝึก นั่งทรงตัวได้มั่นคง ดึงกางเกงลงเองได้ และบอกความต้องการพื้นฐานได้",
+          "caption": "สัญญาณพร้อมฝึก นั่งทรงตัวได้มั่นคง ดึงกางเกงลงเองได้ และบอกความต้องการพื้นฐานได้"
+        },
+        {
+          "reveal": 2,
+          "speak": "ขับถ่ายรดที่นอนในวัยเด็กพบได้ ใช้แรงเสริมทางบวก ไม่ควรใช้วิธีที่รุนแรง",
+          "caption": "ขับถ่ายรดที่นอนในวัยเด็กพบได้ ใช้แรงเสริมทางบวก ไม่ควรใช้วิธีที่รุนแรง"
+        },
+        {
+          "reveal": 3,
+          "speak": "อุจจาระรดหลังสี่ปี หรือปัสสาวะรดหลังห้าปี ควรพาไปพบกุมารแพทย์",
+          "caption": "อุจจาระรดหลัง 4 ปี หรือปัสสาวะรดหลัง 5 ปี ควรพาไปพบกุมารแพทย์"
+        }
+      ]
+    }
+  ]
+}

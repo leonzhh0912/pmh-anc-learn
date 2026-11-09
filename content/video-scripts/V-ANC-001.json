@@ -1,0 +1,257 @@
+{
+  "id": "V-ANC-001",
+  "lessonId": "MCH68-ANC-001",
+  "version": "0.1.0",
+  "title": "ผลตรวจเลือดตอนฝากครรภ์ของแม่และสามี",
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      6
+    ],
+    "printedPages": [
+      "4"
+    ],
+    "note": "Narration derived from lesson MCH68-ANC-001 v0.1.0"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-ANC-001 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of บลัดกรุ๊ป, เอช ซี ที / เอช บี, เอ็ม ซี วี / โอ เอฟ, ดี ซี ไอ พี, เอช บี ไทปิ้ง, เฮปาไทติส บี, ซิฟิลิส, แอนติ เอช ไอ วี, ควอดรูเพิล เทสต์, เอ็น ไอ พี ที, แอมนิโอเซนทีซิส, ดาวน์ซินโดรม, ทันท่วงที.",
+      "By design (lesson): no test meanings, normal ranges, cut-offs, abnormal-result meanings or next steps; abbreviations are not expanded. The video says staff explain results.",
+      "Test names are shown on screen as printed (Blood group, Hct/Hb, MCV/OF, DCIP, Hb Typing, Hepatitis B, Syphilis, Anti-HIV); '(ABO, Rh)' after Blood group is left off the screen and narration for length. Speech uses Thai-letter spellings — medical technologist to confirm how staff say them aloud.",
+      "Stage 1 uses hideNumbers because item texts contain 'ครั้งที่ 1 และ 2' and '2 ฝั่ง'.",
+      "Lesson note: the handbook does not say when ครั้งที่ 1 / 2 are done or whether every couple is tested twice; the video says only that there is room for 2 results ('มีช่อง...2 ครั้ง').",
+      "Lesson note: the margin tip (stage 2, summary 2) is quoted as printed; the video does not say which rows are sexually transmitted infections.",
+      "Partner wording: 'สามี' is the printed table heading. The lesson's editorial line about a partner coming to be tested is not used. PMH to approve.",
+      "Down syndrome box: only the printed options and method names; no eligibility, timing, risk or cost.",
+      "Not used: the 'ประวัติการตั้งครรภ์ปัจจุบัน' block, the family note (privacy of results)."
+    ]
+  },
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3",
+    "stability": 0.5,
+    "style": 0,
+    "speed": 0.95,
+    "seed": 1234
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "kind": "title",
+      "heading": "ผลตรวจเลือดตอนฝากครรภ์",
+      "subheading": "จากสมุดบันทึกสุขภาพแม่และเด็ก ฉบับปรับปรุงใหม่ พ.ศ. 2568",
+      "chips": [
+        "รายงานการตรวจเลือด",
+        "ดาวน์ซินโดรม"
+      ],
+      "segments": [
+        {
+          "speak": "สมุดสีชมพูหน้าสี่ อยู่ในหมวดข้อมูลฝากครรภ์ เจ้าหน้าที่เป็นผู้บันทึกผลตรวจในหน้านี้",
+          "caption": "สมุดสีชมพูหน้า 4 อยู่ในหมวดข้อมูลฝากครรภ์ เจ้าหน้าที่เป็นผู้บันทึกผลตรวจในหน้านี้"
+        },
+        {
+          "speak": "วิดีโอนี้บอกเพียงว่าสมุดบันทึกอะไรไว้ ส่วนความหมายของผลตรวจ เจ้าหน้าที่จะอธิบายให้ฟัง",
+          "caption": "วิดีโอนี้บอกเพียงว่าสมุดบันทึกอะไรไว้ ส่วนความหมายของผลตรวจ เจ้าหน้าที่จะอธิบายให้ฟัง"
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "kind": "stage",
+      "stage": 1,
+      "label": "รายงานการตรวจเลือด",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 1,
+          "icon": "group",
+          "text": "2 ฝั่ง: หญิงตั้งครรภ์ และสามี"
+        },
+        {
+          "n": 2,
+          "icon": "calendar",
+          "text": "ผลครั้งที่ 1 และ 2 พร้อมวันที่"
+        },
+        {
+          "n": 3,
+          "icon": "blood",
+          "text": "Blood group, Hct/Hb, MCV/OF, DCIP"
+        },
+        {
+          "n": 4,
+          "icon": "blood",
+          "text": "Hb Typing, Hepatitis B"
+        },
+        {
+          "n": 5,
+          "icon": "blood",
+          "text": "Syphilis, Anti-HIV, ผลตรวจอื่น ๆ"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่หนึ่ง ตารางรายงานการตรวจเลือด อยู่ตรงกลางหน้า",
+          "caption": "ตอนที่ 1 ตาราง 'รายงานการตรวจเลือด' อยู่ตรงกลางหน้า"
+        },
+        {
+          "reveal": 1,
+          "speak": "ตารางแบ่งเป็นสองฝั่ง คือ หญิงตั้งครรภ์ และสามี",
+          "caption": "ตารางแบ่งเป็น 2 ฝั่ง คือ หญิงตั้งครรภ์ และสามี"
+        },
+        {
+          "reveal": 2,
+          "speak": "แต่ละฝั่ง มีช่องผลครั้งที่หนึ่ง และครั้งที่สอง พร้อมช่องวันที่",
+          "caption": "แต่ละฝั่ง มีช่องผลครั้งที่ 1 และครั้งที่ 2 พร้อมช่องวันที่"
+        },
+        {
+          "reveal": 3,
+          "speak": "รายการตรวจที่พิมพ์ไว้ ได้แก่ บลัดกรุ๊ป, เอช ซี ที เอช บี, เอ็ม ซี วี โอ เอฟ และ ดี ซี ไอ พี",
+          "caption": "รายการตรวจที่พิมพ์ไว้ ได้แก่ Blood group, Hct/Hb, MCV/OF และ DCIP"
+        },
+        {
+          "reveal": 4,
+          "speak": "ต่อด้วย เอช บี ไทปิ้ง และ เฮปาไทติส บี",
+          "caption": "ต่อด้วย Hb Typing และ Hepatitis B"
+        },
+        {
+          "reveal": 5,
+          "speak": "แล้วก็ ซิฟิลิส, แอนติ เอช ไอ วี และมีช่องผลตรวจอื่น ๆ ให้เจ้าหน้าที่ระบุ",
+          "caption": "แล้วก็ Syphilis, Anti-HIV และมีช่องผลตรวจอื่น ๆ ให้เจ้าหน้าที่ระบุ"
+        }
+      ],
+      "hideNumbers": true
+    },
+    {
+      "id": "stage2",
+      "kind": "stage",
+      "stage": 2,
+      "label": "ข้อความข้างตาราง",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 6,
+          "icon": "shield",
+          "text": "ป้องกันไม่ให้ติดต่อไปสู่ทารกได้"
+        },
+        {
+          "n": 7,
+          "icon": "vitamin",
+          "text": "ให้ยาป้องกันที่ถูกต้องและทันท่วงที"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สอง ข้อความข้างตาราง เรื่องโรคติดต่อทางเพศสัมพันธ์",
+          "caption": "ตอนที่ 2 ข้อความข้างตาราง เรื่องโรคติดต่อทางเพศสัมพันธ์"
+        },
+        {
+          "reveal": 6,
+          "speak": "โรคติดต่อทางเพศสัมพันธ์ สามารถป้องกันไม่ให้ติดต่อไปสู่ทารกได้",
+          "caption": "โรคติดต่อทางเพศสัมพันธ์ สามารถป้องกันไม่ให้ติดต่อไปสู่ทารกได้"
+        },
+        {
+          "reveal": 7,
+          "speak": "หากให้ยาป้องกันที่ถูกต้องและทันท่วงที",
+          "caption": "หากให้ยาป้องกันที่ถูกต้องและทันท่วงที"
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "kind": "stage",
+      "stage": 3,
+      "label": "ตรวจภาวะดาวน์ซินโดรม",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 8,
+          "icon": "form",
+          "text": "ไม่ได้ตรวจ หรือ ตรวจด้วยวิธีใด"
+        },
+        {
+          "n": 9,
+          "icon": "form",
+          "text": "Quadruple test"
+        },
+        {
+          "n": 10,
+          "icon": "form",
+          "text": "NIPT"
+        },
+        {
+          "n": 11,
+          "icon": "form",
+          "text": "Amniocentesis"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สาม ด้านล่างของหน้า เป็นกล่องการตรวจภาวะดาวน์ซินโดรม",
+          "caption": "ตอนที่ 3 ด้านล่างของหน้า เป็นกล่อง 'การตรวจภาวะดาวน์ซินโดรม'"
+        },
+        {
+          "reveal": 8,
+          "speak": "กล่องนี้มีช่องให้เลือกว่า ไม่ได้ตรวจ หรือตรวจด้วยวิธีใด พร้อมช่องวันที่ตรวจและผล",
+          "caption": "กล่องนี้มีช่องให้เลือกว่า ไม่ได้ตรวจ หรือตรวจด้วยวิธีใด พร้อมช่องวันที่ตรวจและผล"
+        },
+        {
+          "reveal": 9,
+          "speak": "วิธีที่พิมพ์ไว้ในสมุด ได้แก่ ควอดรูเพิล เทสต์",
+          "caption": "วิธีที่พิมพ์ไว้ในสมุด ได้แก่ Quadruple test"
+        },
+        {
+          "reveal": 10,
+          "speak": "เอ็น ไอ พี ที",
+          "caption": "NIPT"
+        },
+        {
+          "reveal": 11,
+          "speak": "และ แอมนิโอเซนทีซิส",
+          "caption": "และ Amniocentesis"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "kind": "summary",
+      "heading": "จำไว้ 3 เรื่อง",
+      "points": [
+        "ผลตรวจเลือด แม่และสามี",
+        "ป้องกันการติดต่อสู่ทารกได้",
+        "สงสัยผลตรวจ ถามเจ้าหน้าที่ได้"
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "สรุปเรื่องสำคัญ",
+          "caption": "สรุปเรื่องสำคัญ"
+        },
+        {
+          "reveal": 1,
+          "speak": "สมุดหน้าสี่ มีตารางรายงานการตรวจเลือด ของหญิงตั้งครรภ์และสามี มีช่องบันทึกผลได้สองครั้ง",
+          "caption": "สมุดหน้า 4 มีตารางรายงานการตรวจเลือด ของหญิงตั้งครรภ์และสามี มีช่องบันทึกผลได้ 2 ครั้ง"
+        },
+        {
+          "reveal": 2,
+          "speak": "ป้องกันไม่ให้ติดต่อไปสู่ทารกได้ หากให้ยาป้องกันที่ถูกต้องและทันท่วงที",
+          "caption": "ป้องกันไม่ให้ติดต่อไปสู่ทารกได้ หากให้ยาป้องกันที่ถูกต้องและทันท่วงที"
+        },
+        {
+          "reveal": 3,
+          "speak": "ความหมายของผลตรวจ เจ้าหน้าที่จะอธิบาย สงสัยตรงไหน ถามได้",
+          "caption": "ความหมายของผลตรวจ เจ้าหน้าที่จะอธิบาย สงสัยตรงไหน ถามได้"
+        }
+      ]
+    }
+  ]
+}

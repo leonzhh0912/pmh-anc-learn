@@ -1,0 +1,265 @@
+{
+  "id": "V-CH-002",
+  "lessonId": "MCH68-CH-002",
+  "version": "0.1.0",
+  "title": "ลูกแรกเกิดได้รับการตรวจคัดกรองอะไรบ้าง",
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      36
+    ],
+    "printedPages": [
+      "34"
+    ],
+    "note": "Narration derived from lesson MCH68-CH-002 v0.1.0"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-CH-002 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'แอพการ์ สกอร์' (APGAR Score), 'ไอ อี เอ็ม สี่สิบโรค' (IEM 40 โรค), 'สมุดหน้าสามสิบสี่', 'คัดกรองโรคหัวใจพิการชนิดเขียวรุนแรง', 'วันที่จำหน่าย' and 'ไวรัสตับอักเสบบี'.",
+      "No screening thresholds, values, normal ranges or treatment options are narrated or shown (jaundice Hct/MB and threshold boxes, SatO2, phototherapy/exchange transfusion all left out), as in the lesson. The purpose of each screening is not explained (PMH CLARIFICATION: not in the handbook). OAE / ABR are not spoken.",
+      "Lesson note: 'staff fill in this page' (title segment 1) and 'staff explain the results' (item 10, summary 2) are read from the form layout, not from a sentence in the handbook.",
+      "Lesson note: the gloss 'วันที่จำหน่าย คือวันที่ออกจากโรงพยาบาล' (item 5) is not printed. Check wording.",
+      "Lesson note: 'ask staff when to bring the baby and come as booked' after 'เรียกติดตาม' (item 11, summary 3) is editorial, from the curriculum objective; the handbook does not say what a call-back means.",
+      "Item 12 shortens the p36 margin tip for caption length ('แม่ติดเชื้อ... ลูกต้องได้วัคซีนป้องกันเพิ่ม'); check wording. The extra vaccine is not named (not printed on this page); summary 2 adds the lesson's 'ask staff about vaccines and dates' line.",
+      "Not used in the video: the congenital abnormality / newborn health status checkboxes, the sort step and the family note."
+    ]
+  },
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3",
+    "stability": 0.5,
+    "style": 0,
+    "speed": 0.95,
+    "seed": 1234
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "kind": "title",
+      "heading": "ตรวจคัดกรองลูกแรกเกิด",
+      "subheading": "จากสมุดบันทึกสุขภาพแม่และเด็ก ฉบับปรับปรุงใหม่ พ.ศ. 2568",
+      "chips": [
+        "บันทึกทารกแรกเกิด",
+        "คัดกรอง 5 เรื่อง",
+        "วัคซีนตับอักเสบบี"
+      ],
+      "segments": [
+        {
+          "speak": "สมุดหน้าสามสิบสี่ ชื่อ บันทึกทารกแรกเกิด เป็นหน้าที่เจ้าหน้าที่เขียนให้ ช่วงที่ลูกเพิ่งเกิด",
+          "caption": "สมุดหน้า 34 ชื่อ บันทึกทารกแรกเกิด เป็นหน้าที่เจ้าหน้าที่เขียนให้ ช่วงที่ลูกเพิ่งเกิด"
+        },
+        {
+          "speak": "หน้านี้มีข้อมูลตอนเกิด และการคัดกรองสุขภาพห้าเรื่อง",
+          "caption": "หน้านี้มีข้อมูลตอนเกิด และการคัดกรองสุขภาพ 5 เรื่อง"
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "kind": "stage",
+      "stage": 1,
+      "label": "ข้อมูลตอนเกิด",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 1,
+          "icon": "calendar",
+          "text": "วันเดือนปีเกิด เวลาเกิด เพศ"
+        },
+        {
+          "n": 2,
+          "icon": "check",
+          "text": "APGAR Score นาทีที่ 1, 5 และ 10"
+        },
+        {
+          "n": 3,
+          "icon": "scale",
+          "text": "น้ำหนัก ความยาว รอบศีรษะ"
+        },
+        {
+          "n": 4,
+          "icon": "vaccine",
+          "text": "วิตามินเค: ฉีด หรือ ไม่ฉีด"
+        },
+        {
+          "n": 5,
+          "icon": "clinic",
+          "text": "วันที่จำหน่าย และน้ำหนักวันที่จำหน่าย"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่หนึ่ง ข้อมูลตอนเกิด ที่ส่วนบนของหน้า",
+          "caption": "ตอนที่ 1 ข้อมูลตอนเกิด ที่ส่วนบนของหน้า"
+        },
+        {
+          "reveal": 1,
+          "speak": "ข้อหนึ่ง วันเดือนปีเกิด เวลาเกิด และเพศ",
+          "caption": "ข้อ 1 วันเดือนปีเกิด เวลาเกิด และเพศ"
+        },
+        {
+          "reveal": 2,
+          "speak": "ข้อสอง แอพการ์ สกอร์ ที่นาทีที่หนึ่ง นาทีที่ห้า และนาทีที่สิบ",
+          "caption": "ข้อ 2 APGAR Score ที่นาทีที่ 1 นาทีที่ 5 และนาทีที่ 10"
+        },
+        {
+          "reveal": 3,
+          "speak": "ข้อสาม ขนาดร่างกายทารกแรกเกิด คือ น้ำหนัก ความยาว และรอบศีรษะ",
+          "caption": "ข้อ 3 ขนาดร่างกายทารกแรกเกิด คือ น้ำหนัก ความยาว และรอบศีรษะ"
+        },
+        {
+          "reveal": 4,
+          "speak": "ข้อสี่ วิตามินเค ว่าฉีด หรือไม่ฉีด พร้อมระบุเหตุผล",
+          "caption": "ข้อ 4 วิตามินเค ว่าฉีด หรือไม่ฉีด พร้อมระบุเหตุผล"
+        },
+        {
+          "reveal": 5,
+          "speak": "ข้อห้า วันที่จำหน่าย คือวันที่ออกจากโรงพยาบาล และน้ำหนักวันที่จำหน่าย",
+          "caption": "ข้อ 5 วันที่จำหน่าย คือวันที่ออกจากโรงพยาบาล และน้ำหนักวันที่จำหน่าย"
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "kind": "stage",
+      "stage": 2,
+      "label": "การคัดกรองสุขภาพ",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 6,
+          "icon": "check",
+          "text": "คัดกรองไทรอยด์"
+        },
+        {
+          "n": 7,
+          "icon": "blood",
+          "text": "ตรวจ IEM 40 โรค"
+        },
+        {
+          "n": 8,
+          "icon": "ear",
+          "text": "คัดกรองการได้ยิน หูขวา หูซ้าย"
+        },
+        {
+          "n": 9,
+          "icon": "heart",
+          "text": "คัดกรองโรคหัวใจพิการชนิดเขียวรุนแรง"
+        },
+        {
+          "n": 10,
+          "icon": "baby",
+          "text": "คัดกรองภาวะเหลือง"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สอง ใต้หัวข้อ การคัดกรองสุขภาพ มีห้าเรื่อง",
+          "caption": "ตอนที่ 2 ใต้หัวข้อ 'การคัดกรองสุขภาพ' มี 5 เรื่อง"
+        },
+        {
+          "reveal": 6,
+          "speak": "ข้อหก คัดกรองไทรอยด์",
+          "caption": "ข้อ 6 คัดกรองไทรอยด์"
+        },
+        {
+          "reveal": 7,
+          "speak": "ข้อเจ็ด ตรวจ ไอ อี เอ็ม สี่สิบโรค",
+          "caption": "ข้อ 7 ตรวจ IEM 40 โรค"
+        },
+        {
+          "reveal": 8,
+          "speak": "ข้อแปด คัดกรองการได้ยิน บันทึกผลหูขวา และหูซ้าย แยกกัน",
+          "caption": "ข้อ 8 คัดกรองการได้ยิน บันทึกผลหูขวา และหูซ้าย แยกกัน"
+        },
+        {
+          "reveal": 9,
+          "speak": "ข้อเก้า คัดกรองโรคหัวใจพิการชนิดเขียวรุนแรง",
+          "caption": "ข้อ 9 คัดกรองโรคหัวใจพิการชนิดเขียวรุนแรง"
+        },
+        {
+          "reveal": 10,
+          "speak": "ข้อสิบ คัดกรองภาวะเหลือง ผลและตัวเลขในหน้านี้ เจ้าหน้าที่จะอธิบาย สงสัยตรงไหน ถามได้",
+          "caption": "ข้อ 10 คัดกรองภาวะเหลือง ผลและตัวเลขในหน้านี้ เจ้าหน้าที่จะอธิบาย สงสัยตรงไหน ถามได้"
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "kind": "stage",
+      "stage": 3,
+      "label": "ถามเจ้าหน้าที่",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 11,
+          "icon": "calendar",
+          "text": "เห็นคำว่า 'เรียกติดตาม' พาลูกมาตามนัด"
+        },
+        {
+          "n": 12,
+          "icon": "vaccine",
+          "text": "แม่ติดเชื้อตับอักเสบบี ลูกได้วัคซีนเพิ่ม"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สาม สองเรื่องที่ควรถามเจ้าหน้าที่",
+          "caption": "ตอนที่ 3 สองเรื่องที่ควรถามเจ้าหน้าที่"
+        },
+        {
+          "reveal": 11,
+          "speak": "ข้อสิบเอ็ด ถ้าเห็นคำว่า เรียกติดตาม พร้อมวันที่ ถามว่าต้องพาลูกมาเมื่อไร และพาลูกมาตามนัด",
+          "caption": "ข้อ 11 ถ้าเห็นคำว่า 'เรียกติดตาม' พร้อมวันที่ ถามว่าต้องพาลูกมาเมื่อไร และพาลูกมาตามนัด"
+        },
+        {
+          "reveal": 12,
+          "speak": "ข้อสิบสอง แม่ติดเชื้อไวรัสตับอักเสบบี ลูกต้องได้วัคซีนป้องกันเพิ่ม นอกจากวัคซีนเด็กปกติ",
+          "caption": "ข้อ 12 แม่ติดเชื้อไวรัสตับอักเสบบี ลูกต้องได้วัคซีนป้องกันเพิ่ม นอกจากวัคซีนเด็กปกติ"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "kind": "summary",
+      "heading": "จำไว้ 3 เรื่อง",
+      "points": [
+        "คัดกรองสุขภาพ 5 เรื่อง ในหน้า 34",
+        "ผลและตัวเลข เจ้าหน้าที่จะอธิบาย",
+        "เห็น 'เรียกติดตาม' พาลูกมาตามนัด"
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "สรุปเรื่องสำคัญ",
+          "caption": "สรุปเรื่องสำคัญ"
+        },
+        {
+          "reveal": 1,
+          "speak": "ลูกแรกเกิดมีการคัดกรองสุขภาพห้าเรื่อง บันทึกไว้ในสมุดหน้าสามสิบสี่",
+          "caption": "ลูกแรกเกิดมีการคัดกรองสุขภาพ 5 เรื่อง บันทึกไว้ในสมุดหน้า 34"
+        },
+        {
+          "reveal": 2,
+          "speak": "ผลและตัวเลขในหน้านี้ เจ้าหน้าที่จะอธิบาย วัคซีนที่ลูกต้องได้และวันนัด ถามเจ้าหน้าที่ได้",
+          "caption": "ผลและตัวเลขในหน้านี้ เจ้าหน้าที่จะอธิบาย วัคซีนที่ลูกต้องได้และวันนัด ถามเจ้าหน้าที่ได้"
+        },
+        {
+          "reveal": 3,
+          "speak": "และถ้าเห็นคำว่า เรียกติดตาม พร้อมวันที่ ถามเจ้าหน้าที่ และพาลูกมาตามนัด",
+          "caption": "และถ้าเห็นคำว่า 'เรียกติดตาม' พร้อมวันที่ ถามเจ้าหน้าที่ และพาลูกมาตามนัด"
+        }
+      ]
+    }
+  ]
+}

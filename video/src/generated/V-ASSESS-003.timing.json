@@ -1,0 +1,168 @@
+{
+  "id": "V-ASSESS-003",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 2759,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 335,
+      "segments": [
+        {
+          "file": "audio/V-ASSESS-003/intro-1-ea5a40ac7f.wav",
+          "from": 18,
+          "durationInFrames": 199,
+          "caption": "งดเครื่องดื่มที่มีแอลกอฮอล์ ระหว่างตั้งครรภ์และให้นมลูก และเรื่องบุหรี่ระหว่างตั้งครรภ์",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-ASSESS-003/intro-2-d1ba854aa7.wav",
+          "from": 231,
+          "durationInFrames": 77,
+          "caption": "พร้อมเหตุผลที่เจ้าหน้าที่ถามเรื่องเหล่านี้",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 335,
+      "durationInFrames": 816,
+      "segments": [
+        {
+          "file": "audio/V-ASSESS-003/stage1-1-c204f49d93.wav",
+          "from": 18,
+          "durationInFrames": 100,
+          "caption": "ตอนที่ 1 งดเครื่องดื่มที่มีแอลกอฮอล์",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-ASSESS-003/stage1-2-ba35246139.wav",
+          "from": 132,
+          "durationInFrames": 211,
+          "caption": "ข้อปฏิบัติการกินสำหรับหญิงตั้งครรภ์และหญิงให้นมบุตร ข้อ 9 คือ งดเครื่องดื่มที่มีแอลกอฮอล์",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-ASSESS-003/stage1-3-eb94e00719.wav",
+          "from": 357,
+          "durationInFrames": 300,
+          "caption": "สุรา หมายถึงเครื่องดื่มที่มีแอลกอฮอล์ทุกชนิด เช่น เบียร์ เหล้า สาโท กะแช่ วิสกี้ สปาย ไวน์",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-ASSESS-003/stage1-4-ccf09d017b.wav",
+          "from": 671,
+          "durationInFrames": 118,
+          "caption": "การดื่มสุรา มีผลต่อสุขภาพของแม่และการเลี้ยงลูก",
+          "reveal": 3
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1151,
+      "durationInFrames": 380,
+      "segments": [
+        {
+          "file": "audio/V-ASSESS-003/stage2-1-afdde162c3.wav",
+          "from": 18,
+          "durationInFrames": 84,
+          "caption": "ตอนที่ 2 บุหรี่ระหว่างตั้งครรภ์",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-ASSESS-003/stage2-2-9601f90962.wav",
+          "from": 116,
+          "durationInFrames": 127,
+          "caption": "หากสูบบุหรี่ระหว่างตั้งครรภ์ ลูกในครรภ์จะตัวเล็กผิดปกติ",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-ASSESS-003/stage2-3-22d1b23b2e.wav",
+          "from": 257,
+          "durationInFrames": 96,
+          "caption": "และเสี่ยงต่อโรคปอด และปัญหาทางเดินหายใจ",
+          "reveal": 5
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 1531,
+      "durationInFrames": 718,
+      "segments": [
+        {
+          "file": "audio/V-ASSESS-003/stage3-1-afe218a8df.wav",
+          "from": 18,
+          "durationInFrames": 93,
+          "caption": "ตอนที่ 3 ทำไมเจ้าหน้าที่ถามเรื่องนี้",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-ASSESS-003/stage3-2-03a49be9aa.wav",
+          "from": 125,
+          "durationInFrames": 221,
+          "caption": "ฝากครรภ์ครั้งแรก เจ้าหน้าที่ประเมินการดื่มสุรา สูบบุหรี่หรือบุหรี่ไฟฟ้า ของแม่และคนใกล้ชิด",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-ASSESS-003/stage3-3-2cc869bc1f.wav",
+          "from": 360,
+          "durationInFrames": 214,
+          "caption": "คำถามนี้มีไว้เพื่อดูแลแม่และลูก ถ้าเคยดื่ม ควรได้รับการประเมินและการดูแลเพิ่มเติม",
+          "reveal": 7
+        },
+        {
+          "file": "audio/V-ASSESS-003/stage3-4-857d37b160.wav",
+          "from": 588,
+          "durationInFrames": 103,
+          "caption": "ตอบตามจริง เพื่อให้ได้รับการดูแลที่เหมาะสม",
+          "reveal": 8
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 2249,
+      "durationInFrames": 510,
+      "segments": [
+        {
+          "file": "audio/V-ASSESS-003/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-ASSESS-003/summary-2-418ac20eb7.wav",
+          "from": 78,
+          "durationInFrames": 134,
+          "caption": "ตั้งครรภ์และให้นมลูก งดเครื่องดื่มที่มีแอลกอฮอล์ทุกชนิด",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-ASSESS-003/summary-3-4a81d5b4e5.wav",
+          "from": 226,
+          "durationInFrames": 118,
+          "caption": "สูบบุหรี่ระหว่างตั้งครรภ์ ลูกในครรภ์จะตัวเล็กผิดปกติ",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-ASSESS-003/summary-4-4057843925.wav",
+          "from": 358,
+          "durationInFrames": 125,
+          "caption": "และตอบเจ้าหน้าที่ตามจริง เพื่อให้ได้รับการดูแลที่เหมาะสม",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

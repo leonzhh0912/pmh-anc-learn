@@ -1,0 +1,182 @@
+{
+  "id": "V-CH-006",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 3642,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 395,
+      "segments": [
+        {
+          "file": "audio/V-CH-006/intro-1-9b52ecb89f.wav",
+          "from": 18,
+          "durationInFrames": 154,
+          "caption": "ควรพาลูกไปรับวัคซีนตามกำหนดนัด เพื่อสร้างภูมิคุ้มกันโรคที่เหมาะสม",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-CH-006/intro-2-f7a9a77aad.wav",
+          "from": 186,
+          "durationInFrames": 182,
+          "caption": "บทนี้รวมคำแนะนำในสมุด ว่าควรทำอย่างไร ก่อนและหลังพาลูกไปรับวัคซีน",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 395,
+      "durationInFrames": 796,
+      "segments": [
+        {
+          "file": "audio/V-CH-006/stage1-1-861900602c.wav",
+          "from": 18,
+          "durationInFrames": 82,
+          "caption": "ช่วงที่ 1 ก่อนไปรับวัคซีน",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-006/stage1-2-b3f6253be7.wav",
+          "from": 114,
+          "durationInFrames": 240,
+          "caption": "ข้อ 1 เด็กที่เจ็บป่วยเล็กน้อย เช่น หวัด ไอ หรือไข้ต่ำ ๆ สามารถรับวัคซีนได้",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-CH-006/stage1-3-f8bef32724.wav",
+          "from": 368,
+          "durationInFrames": 245,
+          "caption": "ข้อ 2 ถ้าเด็กเคยแพ้ยา หรือเคยมีอาการรุนแรงจากวัคซีน ให้แจ้งแพทย์หรือบุคลากรก่อนรับวัคซีน",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-CH-006/stage1-4-822bbf686b.wav",
+          "from": 627,
+          "durationInFrames": 142,
+          "caption": "ข้อ 3 ไม่ควรกินยาลดไข้ดักไว้ก่อนการไปฉีดวัคซีน",
+          "reveal": 3
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1191,
+      "durationInFrames": 884,
+      "segments": [
+        {
+          "file": "audio/V-CH-006/stage2-1-73b46d4a30.wav",
+          "from": 18,
+          "durationInFrames": 82,
+          "caption": "ช่วงที่ 2 หลังรับวัคซีน",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-006/stage2-2-8147c48017.wav",
+          "from": 114,
+          "durationInFrames": 276,
+          "caption": "ข้อ 4 วัคซีนบางชนิดอาจทำให้เด็กเป็นไข้ เช็ดตัวลดไข้ และกินยาลดไข้ได้ตามคำแนะนำของแพทย์",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-CH-006/stage2-3-9151a283cc.wav",
+          "from": 404,
+          "durationInFrames": 209,
+          "caption": "ข้อ 5 แผลจากวัคซีนวัณโรคตอนแรกเกิด อาจเป็นฝีขนาดเล็ก นาน 3-4 สัปดาห์",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-CH-006/stage2-4-6f1c38694a.wav",
+          "from": 627,
+          "durationInFrames": 230,
+          "caption": "ข้อ 6 ไม่จำเป็นต้องใส่ยาหรือปิดแผล ใช้สำลีสะอาดชุบน้ำต้มสุกที่เย็นแล้วเช็ดรอบ ๆ แผล",
+          "reveal": 6
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 2075,
+      "durationInFrames": 998,
+      "segments": [
+        {
+          "file": "audio/V-CH-006/stage3-1-7e816dca66.wav",
+          "from": 18,
+          "durationInFrames": 74,
+          "caption": "ช่วงที่ 3 นัดครั้งต่อไป",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-006/stage3-2-ddf6efd96d.wav",
+          "from": 106,
+          "durationInFrames": 209,
+          "caption": "ข้อ 7 สมุดหน้า 39 มีช่องจดวันนัด เวลา สถานที่ และรายการนัด",
+          "reveal": 7
+        },
+        {
+          "file": "audio/V-CH-006/stage3-3-74713e8920.wav",
+          "from": 329,
+          "durationInFrames": 211,
+          "caption": "ข้อ 8 ควรมารับวัคซีนตามนัด หากขาดนัด ควรรีบมาติดตาม เพื่อรับวัคซีนต่อเนื่อง",
+          "reveal": 8
+        },
+        {
+          "file": "audio/V-CH-006/stage3-4-6ca8ae3c0c.wav",
+          "from": 554,
+          "durationInFrames": 185,
+          "caption": "ข้อ 9 วัคซีนส่วนใหญ่ หากเลยกำหนด สามารถฉีดต่อได้โดยไม่ต้องเริ่มใหม่",
+          "reveal": 9
+        },
+        {
+          "file": "audio/V-CH-006/stage3-5-cc88549756.wav",
+          "from": 753,
+          "durationInFrames": 218,
+          "caption": "ข้อ 10 เก็บสมุดเล่มนี้ไว้ให้ดี เพื่อติดตามประวัติการได้รับวัคซีน และเป็นหลักฐานสำคัญ",
+          "reveal": 10
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 3073,
+      "durationInFrames": 569,
+      "segments": [
+        {
+          "file": "audio/V-CH-006/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-006/summary-2-e2ca3a3e0f.wav",
+          "from": 78,
+          "durationInFrames": 163,
+          "caption": "เจ็บป่วยเล็กน้อย ลูกยังรับวัคซีนได้ ถ้าเคยแพ้ยา ให้แจ้งก่อน",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-CH-006/summary-3-03498d91d8.wav",
+          "from": 255,
+          "durationInFrames": 146,
+          "caption": "ไม่กินยาลดไข้ดักไว้ก่อน ถ้ามีไข้หลังฉีด ให้เช็ดตัวลดไข้",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-CH-006/summary-4-5a45550465.wav",
+          "from": 415,
+          "durationInFrames": 127,
+          "caption": "และหากขาดนัด รีบมาติดตาม เพื่อรับวัคซีนต่อเนื่อง",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

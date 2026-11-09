@@ -1,0 +1,32 @@
+{
+  "id": "V-GROW-001",
+  "lessonId": "MCH68-GROW-001",
+  "title": "การใช้กราฟการเจริญเติบโตของลูก",
+  "mp4": "media/V-GROW-001.mp4",
+  "captionsVtt": "media/V-GROW-001.th.vtt",
+  "poster": "media/V-GROW-001.jpg",
+  "durationSec": 118.3,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-GROW-001 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'สี่สิบสองเดือน', 'สิบหกกิโลกรัม', 'หนึ่งร้อยเซนติเมตร', 'สามปีหกเดือน', 'สี่สิบสอง' / 'สี่สิบสาม' (page numbers) and 'ความยาวหรือส่วนสูง'.",
+      "Scope: plotting only. No interpretation: colour bands, SD lines and the p44 'สรุป' for สดใส are not narrated; summary 3 says the meaning is on printed page 43 and staff explain it (lesson text step 3 / takeaway 5).",
+      "HANDBOOK ISSUE (from lesson, central to this video): the printed rule 'เส้นแนวนอน แทนช่วงอายุของเด็ก' does not fit the third example chart (weight-for-height has height on the horizontal axis). As in the lesson's sort intro, item 2 says 'ในกราฟที่ใช้อายุ', and item 9 describes the weight-for-height chart as drawn ('กราฟนี้ไม่ใช้อายุ'). Reviewer to decide whether to clarify further.",
+      "Lesson note: 'draw a line up from the age and across from the measurement and mark where they meet' (items 5–9) is a plain description of the p44 example drawings, not printed text.",
+      "Lesson note: the age-to-months working ('3 ปี × 12 + 6') is editorial arithmetic and is NOT narrated; the video only says '3 ปี 6 เดือน เท่ากับ 42 เดือน' as printed.",
+      "Lesson note: 'ร่วมกับเจ้าหน้าที่ ... ชั่ง วัด แล้วลงกราฟด้วยกัน' framing is not used; summary 3 keeps only the printed-page pointer and 'เจ้าหน้าที่จะเป็นผู้อธิบายผลให้'.",
+      "Not used in the video: the '1 ปี 3 เดือน = 15 เดือน' practice item and the family note (app framing, needs approval)."
+    ]
+  }
+}

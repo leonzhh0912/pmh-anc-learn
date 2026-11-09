@@ -1,0 +1,32 @@
+{
+  "id": "V-REC-001",
+  "lessonId": "MCH68-REC-001",
+  "title": "มาฝากครรภ์ตามนัด: แต่ละครั้งเจ้าหน้าที่ตรวจอะไรบ้าง",
+  "mp4": "media/V-REC-001.mp4",
+  "captionsVtt": "media/V-REC-001.th.vtt",
+  "poster": "media/V-REC-001.jpg",
+  "durationSec": 123.4,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-REC-001 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of อัลตราซาวนด์, ไทรอยด์, ส่วนนำ, เซนติเมตร, 'ยี่สิบสี่ถึงยี่สิบแปดสัปดาห์', ทันท่วงที, หน้าสิบเอ็ด.",
+      "By design (lesson + developer instruction): no normal values or cut-offs for any check, and NO diabetes-screening values (75 g / 50 g / 100 g tables are not mentioned). The only diabetes content is the box title and the printed 'แนะนำตรวจที่ GA 24-28 Weeks' (item 10). ANC nurse + obstetrician to verify the 24-28 week window; drop item 10's timing if PMH prefers.",
+      "Lesson note: glosses not printed on these pages — 'GA' said as 'อายุครรภ์' (item 5), 'LMP' as 'ประจำเดือนครั้งสุดท้าย' (item 6). FHR, Presentation, EFW and the ultrasound table columns are not narrated.",
+      "Lesson note: 'staff write one row each visit' is read from the table layout; the handbook does not give the number or timing of ANC visits and the video adds none.",
+      "Lesson note: summary 2 ('ดูวันนัด...นำสมุดมาด้วยทุกครั้ง') draws on p67 item 5 and PDF p2, not p10–13.",
+      "Nipple check (item 11): the two printed checkbox options and what happens if the nipple is retracted are not narrated; mothers are not told to check themselves.",
+      "Not used: fetal-movement counting, family note."
+    ]
+  }
+}

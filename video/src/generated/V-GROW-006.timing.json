@@ -1,0 +1,189 @@
+{
+  "id": "V-GROW-006",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 3490,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 515,
+      "segments": [
+        {
+          "file": "audio/V-GROW-006/intro-1-8887ec03ca.wav",
+          "from": 18,
+          "durationInFrames": 175,
+          "caption": "กินนมแม่ควบคู่กับอาหารทารกตามวัย จนเด็กอายุ 2 ปี หรือนานกว่านั้น",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-GROW-006/intro-2-64f5ae370d.wav",
+          "from": 207,
+          "durationInFrames": 281,
+          "caption": "ตารางในสมุดหน้า 55 บอกจำนวนมื้อ ลักษณะอาหาร และปริมาณอาหาร ตั้งแต่อายุ 7 ถึง 11 เดือน",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 515,
+      "durationInFrames": 840,
+      "segments": [
+        {
+          "file": "audio/V-GROW-006/stage1-1-351b1abafe.wav",
+          "from": 18,
+          "durationInFrames": 74,
+          "caption": "ช่วงที่ 1 อายุ 7 เดือน",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-006/stage1-2-adda969c8a.wav",
+          "from": 106,
+          "durationInFrames": 113,
+          "caption": "ข้อ 1 สัปดาห์ที่ 1–2 กินอาหาร 1 มื้อ",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-GROW-006/stage1-3-2117c6a041.wav",
+          "from": 233,
+          "durationInFrames": 132,
+          "caption": "ข้อ 2 สัปดาห์ที่ 3–4 กินอาหาร 2 มื้อ",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-GROW-006/stage1-4-112d085070.wav",
+          "from": 379,
+          "durationInFrames": 115,
+          "caption": "ข้อ 3 ลักษณะอาหาร บดหยาบ ทั้งเดือนที่ 7",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-GROW-006/stage1-5-07b79df057.wav",
+          "from": 508,
+          "durationInFrames": 305,
+          "caption": "ข้อ 4 ข้าว สัปดาห์ที่ 1–2 ค่อย ๆ เพิ่มจาก 4 เป็น 5 สัปดาห์ที่ 3–4 จาก 6 เป็น 8 ช้อนกินข้าว",
+          "reveal": 4
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1355,
+      "durationInFrames": 519,
+      "segments": [
+        {
+          "file": "audio/V-GROW-006/stage2-1-3616063711.wav",
+          "from": 18,
+          "durationInFrames": 84,
+          "caption": "ช่วงที่ 2 อายุ 8–9 เดือน",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-006/stage2-2-a0b47192f2.wav",
+          "from": 116,
+          "durationInFrames": 72,
+          "caption": "ข้อ 5 กินอาหาร 2 มื้อ",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-GROW-006/stage2-3-b217457f3e.wav",
+          "from": 202,
+          "durationInFrames": 96,
+          "caption": "ข้อ 6 ลักษณะอาหาร สับละเอียด",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-GROW-006/stage2-4-0af83f49da.wav",
+          "from": 312,
+          "durationInFrames": 180,
+          "caption": "ข้อ 7 ข้าว ค่อย ๆ เพิ่มปริมาณ จาก 9 เป็น 12 ช้อนกินข้าว",
+          "reveal": 7
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 1874,
+      "durationInFrames": 612,
+      "segments": [
+        {
+          "file": "audio/V-GROW-006/stage3-1-e716f7c363.wav",
+          "from": 18,
+          "durationInFrames": 91,
+          "caption": "ช่วงที่ 3 อายุ 10–11 เดือน",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-006/stage3-2-5796738969.wav",
+          "from": 123,
+          "durationInFrames": 70,
+          "caption": "ข้อ 8 กินอาหาร 3 มื้อ",
+          "reveal": 8
+        },
+        {
+          "file": "audio/V-GROW-006/stage3-3-7235be7263.wav",
+          "from": 207,
+          "durationInFrames": 182,
+          "caption": "ข้อ 9 ลักษณะอาหาร หั่นชิ้นเล็ก เพื่อฝึกการเคี้ยวและกลืนอาหาร",
+          "reveal": 9
+        },
+        {
+          "file": "audio/V-GROW-006/stage3-4-4cdf1e5d27.wav",
+          "from": 403,
+          "durationInFrames": 182,
+          "caption": "ข้อ 10 ข้าว ค่อย ๆ เพิ่มปริมาณ จาก 15 เป็น 18 ช้อนกินข้าว",
+          "reveal": 10
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 2486,
+      "durationInFrames": 1004,
+      "segments": [
+        {
+          "file": "audio/V-GROW-006/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-006/summary-2-8ceb575aef.wav",
+          "from": 78,
+          "durationInFrames": 156,
+          "caption": "กินนมแม่ควบคู่กับอาหารตามวัย จนอายุ 2 ปี หรือนานกว่านั้น",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-GROW-006/summary-3-9da61cd14b.wav",
+          "from": 248,
+          "durationInFrames": 209,
+          "caption": "ค่อย ๆ เพิ่มความหยาบของอาหารตามอายุ จากบดหยาบ เป็นสับละเอียด แล้วเป็นหั่นชิ้นเล็ก",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-GROW-006/summary-4-089966575c.wav",
+          "from": 471,
+          "durationInFrames": 221,
+          "caption": "ไม่ปรุงแต่งรสอาหาร และรักษาความสะอาดของวัตถุดิบ ภาชนะ และมือของคนปรุงและคนป้อน",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-GROW-006/summary-5-ace4fc2a81.wav",
+          "from": 706,
+          "durationInFrames": 271,
+          "caption": "ปริมาณเนื้อสัตว์ ไข่ ตับ ผัก ผลไม้ ดูตารางในสมุดหน้า 55 ถ้าไม่แน่ใจ ถามเจ้าหน้าที่",
+          "reveal": 4
+        }
+      ]
+    }
+  ]
+}

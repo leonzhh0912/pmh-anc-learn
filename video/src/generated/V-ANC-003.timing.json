@@ -1,0 +1,147 @@
+{
+  "id": "V-ANC-003",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 2974,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 376,
+      "segments": [
+        {
+          "file": "audio/V-ANC-003/intro-1-605c16ebe8.wav",
+          "from": 18,
+          "durationInFrames": 180,
+          "caption": "เมื่อมาฝากครรภ์ เจ้าหน้าที่จะประเมินความเสี่ยง และบันทึกไว้ในสมุดหน้า 6 และหน้า 7",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-ANC-003/intro-2-d6b4398b55.wav",
+          "from": 212,
+          "durationInFrames": 137,
+          "caption": "สองหน้านี้เป็นแบบประเมินที่เจ้าหน้าที่ใช้ ไม่ใช่แบบประเมินตัวเอง",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 376,
+      "durationInFrames": 1029,
+      "segments": [
+        {
+          "file": "audio/V-ANC-003/stage1-1-18ebb271d0.wav",
+          "from": 18,
+          "durationInFrames": 106,
+          "caption": "ตอนที่ 1 ฝากครรภ์ครั้งที่ 1 ในสมุดหน้า 6",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-ANC-003/stage1-2-dbe9944d10.wav",
+          "from": 138,
+          "durationInFrames": 204,
+          "caption": "ข้อ 1 เจ้าหน้าที่ถามประวัติอดีต ประวัติปัจจุบัน และประวัติโรคทางอายุรกรรม",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-ANC-003/stage1-3-3c395cf9bd.wav",
+          "from": 356,
+          "durationInFrames": 206,
+          "caption": "ข้อ 2 บางคำถามอาจเป็นเรื่องส่วนตัว ตอบตามจริง ถ้ากังวลเรื่องใด บอกเจ้าหน้าที่ได้",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-ANC-003/stage1-4-99b20fe43c.wav",
+          "from": 576,
+          "durationInFrames": 254,
+          "caption": "ข้อ 3 มีโรคประจำตัวบางโรค เมื่อตั้งครรภ์ อาการอาจเพิ่มมากขึ้น ควรปรึกษาแพทย์หรือบุคลากร",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-ANC-003/stage1-5-bf9b91c826.wav",
+          "from": 844,
+          "durationInFrames": 158,
+          "caption": "ข้อ 4 ท้ายตาราง เจ้าหน้าที่ลงชื่อในช่องผู้ประเมิน และวันที่",
+          "reveal": 4
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1405,
+      "durationInFrames": 904,
+      "segments": [
+        {
+          "file": "audio/V-ANC-003/stage2-1-0e30ee17a9.wav",
+          "from": 18,
+          "durationInFrames": 141,
+          "caption": "ตอนที่ 2 เมื่อมาฝากครรภ์ครั้งต่อ ๆ ไป ในสมุดหน้า 7",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-ANC-003/stage2-2-ab6ee4d078.wav",
+          "from": 173,
+          "durationInFrames": 211,
+          "caption": "ข้อ 5 หน้า 7 มีตารางให้เจ้าหน้าที่ติดตามความเสี่ยง ในช่องครั้งที่ 2 ถึงครั้งที่ 8",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-ANC-003/stage2-3-568bb536de.wav",
+          "from": 398,
+          "durationInFrames": 230,
+          "caption": "ข้อ 6 ภาวะแทรกซ้อนอาจพบได้ตลอดการตั้งครรภ์ มาฝากครรภ์สม่ำเสมอ ช่วยลดความเสี่ยงได้",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-ANC-003/stage2-4-47eb57045d.wav",
+          "from": 642,
+          "durationInFrames": 235,
+          "caption": "ข้อ 7 ผลการประเมิน ใช้พิจารณาสถานที่ฝากครรภ์และผู้ดูแล เจ้าหน้าที่จะอธิบายผลให้ฟัง",
+          "reveal": 7
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 2309,
+      "durationInFrames": 665,
+      "segments": [
+        {
+          "file": "audio/V-ANC-003/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-ANC-003/summary-2-bfc9d077b8.wav",
+          "from": 78,
+          "durationInFrames": 142,
+          "caption": "แบบประเมินในหน้า 6 และหน้า 7 เจ้าหน้าที่เป็นผู้ประเมินและลงชื่อ",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-ANC-003/summary-3-5ba32b1157.wav",
+          "from": 234,
+          "durationInFrames": 190,
+          "caption": "ตอบตามจริง ให้ข้อมูลครบถ้วนถูกต้อง ช่วยป้องกันความเสี่ยงต่อภาวะแทรกซ้อน",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-ANC-003/summary-4-e48ccfb9d7.wav",
+          "from": 438,
+          "durationInFrames": 200,
+          "caption": "และประเมินครั้งแรกแล้ว ครั้งต่อไปก็ยังมาตามนัด เพราะเจ้าหน้าที่ติดตามความเสี่ยงต่อเนื่อง",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

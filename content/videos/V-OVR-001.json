@@ -19,6 +19,7 @@
     "reviewDate": null,
     "clinicalRisk": "low",
     "reviewNotes": [
+      "2026-11-09: PMH staff listened and confirmed the ElevenLabs narration sounds correct (reported by the developer; reviewer name to be recorded for formal APPROVED status).",
       "v0.3.0: narration voice is ElevenLabs eleven_v3, voice MYZYcGOqrkYQcwDunXl7 (paid plan, commercial licence). Narration TEXT unchanged from v0.2.0.",
       "Thai-speaking reviewer must listen to the whole video and check pronunciation, especially numbers, 'ดี เอส พี เอ็ม' (DSPM), ฟลูออไรด์, โฟลิก, and tone of delivery.",
       "Item 5 follows the handbook ('พร้อมสามี'). PMH to decide whether to add inclusive wording for people attending without a partner.",
