@@ -5,12 +5,12 @@
   "mp4": "media/V-OVR-001.mp4",
   "captionsVtt": "media/V-OVR-001.th.vtt",
   "poster": "media/V-OVR-001.jpg",
-  "durationSec": 158.2,
-  "narration": "draft-tts",
+  "durationSec": 143.5,
+  "narration": "cloud-tts",
   "voice": {
-    "engine": "macos-say",
-    "voice": "Kanya",
-    "model": null
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
   },
   "editorial": {
     "status": "DRAFT",
@@ -19,8 +19,8 @@
     "reviewDate": null,
     "clinicalRisk": "low",
     "reviewNotes": [
-      "Narration is macOS 'Kanya' synthetic voice: draft only, Apple licence limits system voices to personal non-commercial use. Replace with recorded or approved TTS before publication.",
-      "Thai-speaking reviewer must check pronunciation, especially 'DSPM', numbers and medical terms.",
+      "v0.3.0: narration voice is ElevenLabs eleven_v3, voice MYZYcGOqrkYQcwDunXl7 (paid plan, commercial licence). Narration TEXT unchanged from v0.2.0.",
+      "Thai-speaking reviewer must listen to the whole video and check pronunciation, especially numbers, 'ดี เอส พี เอ็ม' (DSPM), ฟลูออไรด์, โฟลิก, and tone of delivery.",
       "Item 5 follows the handbook ('พร้อมสามี'). PMH to decide whether to add inclusive wording for people attending without a partner.",
       "v0.2.0: narration re-aligned to 2nd-printing p67 wording (v0.1.0 had borrowed fuller phrasing from the 1st printing)."
     ]

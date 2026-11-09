@@ -4,10 +4,11 @@
  *   await synthesize(voiceConfig, text, outWav)
  *
  * voiceConfig comes from a video script's "voice" block, e.g.
- *   { "engine": "elevenlabs", "voice": "<voice_id>", "model": "eleven_multilingual_v2", ... }
- *   { "engine": "google", "voice": "th-TH-Chirp3-HD-Achernar", "speakingRate": 0.95 }
- *   { "engine": "botnoi", "voice": "<speaker id>", "speed": 1 }
- *   { "engine": "macos-say", "voice": "Kanya", "rate": 185 }      (draft only)
+ *   { "engine": "elevenlabs", "voice": "MYZYcGOqrkYQcwDunXl7", "model": "eleven_v3", ... }  (production)
+ *   { "engine": "macos-say", "voice": "Kanya", "rate": 185 }                             (offline draft only)
+ *
+ * The project uses ElevenLabs only (decision 2026-11-09, docs/VOICE.md). Another
+ * provider can be added later as one more adapter file with the same signature.
  *
  * API keys are read ONLY from environment variables (video/.env.local, which
  * is git-ignored; see video/.env.example). Nothing secret is written to disk
@@ -21,23 +22,16 @@ import { execFileSync } from "node:child_process";
 import { rmSync, writeFileSync } from "node:fs";
 
 import { elevenlabs } from "./elevenlabs.mjs";
-import { google, googleAuthAvailable } from "./google.mjs";
-import { botnoi } from "./botnoi.mjs";
 import { macosSay } from "./macos-say.mjs";
 
-const engines = { elevenlabs, google, botnoi, "macos-say": macosSay };
+const engines = { elevenlabs, "macos-say": macosSay };
 
 export const ENV_VARS = {
   elevenlabs: "ELEVENLABS_API_KEY",
-  google: "GOOGLE_TTS_API_KEY",
-  botnoi: "BOTNOI_TOKEN",
   "macos-say": null,
 };
 
 export function missingKey(engine) {
-  if (engine === "google") {
-    return googleAuthAvailable() ? null : "GOOGLE_CLOUD_PROJECT + gcloud ADC login (or GOOGLE_TTS_API_KEY)";
-  }
   const v = ENV_VARS[engine];
   return v && !process.env[v] ? v : null;
 }
