@@ -480,3 +480,31 @@
   .lesson__card { padding: 28px 32px 24px; }
   .sort__buckets { grid-template-columns: repeat(3, 1fr); }
 }
+
+/* nutrition flag */
+.flag__layout { display: grid; gap: 16px; }
+.flag__triangle { display: grid; justify-items: center; gap: 4px; position: relative; padding: 4px 0; }
+.flag__tier {
+  min-height: 58px;
+  border: 0;
+  border-radius: 6px;
+  padding: 6px 10px;
+  cursor: pointer;
+  color: var(--ink);
+  font-weight: 700;
+  font-size: var(--fs-small);
+  line-height: 1.3;
+  box-shadow: inset 0 -3px 0 rgb(52 24 43 / 0.12);
+}
+.flag__tier.is-open { outline: 3px solid var(--magenta); outline-offset: 2px; }
+.flag__pole { width: 6px; height: 34px; background: var(--ink-soft); border-radius: 3px; }
+.flag__panel { background: var(--paper); border-radius: var(--radius-sm); padding: 14px 16px; }
+.flag__amount { font-weight: 700; color: var(--magenta-deep); margin-bottom: 6px; }
+.flag__panel ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.flag__panel li { display: grid; }
+.flag__panel li span { color: var(--ink-soft); }
+.flag__seen { font-size: var(--fs-small); color: var(--ink-soft); margin: 10px 0 0; }
+.flag__note { margin-top: 14px; font-size: var(--fs-small); color: var(--ink-soft); }
+@media (min-width: 640px) {
+  .flag__layout { grid-template-columns: 1.1fr 1fr; align-items: start; }
+}

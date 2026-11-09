@@ -42,7 +42,8 @@ without a database. See "Staff content editing" below.
    `reveal` = which item appears).
 2. **Narrate**: `npm run narrate <id>` creates one WAV per segment, measures it, and writes
    `src/generated/<id>.timing.json` and `out/<id>.th.vtt`. Scenes are sized to the audio.
-   - Draft voice: macOS `say -v Kanya`. Draft only (see licensing in docs/PROGRESS.md).
+   - Engine is chosen by the script's `voice` block: `google` (Chirp 3 HD), `elevenlabs`, `botnoi`, or
+     `macos-say` (draft only). See docs/VOICE.md. Keys live only in git-ignored `video/.env.local`.
    - **Recorded narration**: drop `public/audio/<id>/recorded/<sceneId>-<n>.wav` files, re-run narrate.
      No code changes needed.
 3. **Render**: `npm run render <id>` gives `out/<id>.mp4` (captions as a separate track) and

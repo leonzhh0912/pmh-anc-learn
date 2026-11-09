@@ -7,3 +7,5 @@ out/
 # Recorded human narration IS tracked (public/audio/<id>/recorded/).
 public/audio/*/*.wav
 public/audio/*/*.aiff
+.env.*
+!.env.example

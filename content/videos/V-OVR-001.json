@@ -5,8 +5,13 @@
   "mp4": "media/V-OVR-001.mp4",
   "captionsVtt": "media/V-OVR-001.th.vtt",
   "poster": "media/V-OVR-001.jpg",
-  "durationSec": 161,
+  "durationSec": 158.2,
   "narration": "draft-tts",
+  "voice": {
+    "engine": "macos-say",
+    "voice": "Kanya",
+    "model": null
+  },
   "editorial": {
     "status": "DRAFT",
     "author": "Claude Code (AI draft) for PMH developer",

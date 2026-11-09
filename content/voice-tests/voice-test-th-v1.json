@@ -1,0 +1,20 @@
+{
+  "id": "voice-test-th-v1",
+  "purpose": "Voice comparison only, NOT for publication. Wording reuses the existing DRAFT lesson MCH68-OVR-001 (handbook PDF p67) so no new medical content is introduced. Numbers are left as digits on purpose, to test how each voice reads numbers, ranges and units.",
+  "listenFor": [
+    "Thai tones and vowel length (e.g. ครรภ์, สัปดาห์, ข้อบ่งชี้)",
+    "Numbers and ranges: 12 สัปดาห์, 2,500–4,000 กรัม, 20–34 ปี, 3 เดือน, 6 เดือน",
+    "Loanwords and acronyms: โฟลิก, ฟลูออไรด์, วัคซีน, DSPM",
+    "Warmth without drama; natural pauses between sentences; even pace",
+    "Does a question sound like a gentle question, not a sales pitch?"
+  ],
+  "segments": [
+    { "id": "s1", "text": "สวัสดีค่ะ คุณแม่และครอบครัวทุกคน วันนี้เราจะมาทบทวนสิ่งสำคัญจากสมุดบันทึกสุขภาพแม่และเด็กกันค่ะ" },
+    { "id": "s2", "text": "เมื่อทราบว่าตั้งครรภ์ ให้ไปฝากครรภ์ทันที ก่อนอายุครรภ์ 12 สัปดาห์ และมาตามนัดทุกครั้ง" },
+    { "id": "s3", "text": "ก่อนตั้งครรภ์ ควรรับประทานวิตามินเสริมธาตุเหล็กและโฟลิก อย่างน้อย 3 เดือน" },
+    { "id": "s4", "text": "ระหว่างตั้งครรภ์ กินอาหารให้เหมาะสม น้ำหนักลูกแรกเกิดควรอยู่ที่ 2,500 ถึง 4,000 กรัม" },
+    { "id": "s5", "text": "ช่วงอายุที่เหมาะกับการตั้งครรภ์ คือ 20–34 ปี และวางแผนคลอดโดยไม่ร้องขอผ่าตัดหากไม่มีข้อบ่งชี้" },
+    { "id": "s6", "text": "หลังคลอด ให้ลูกกินนมแม่อย่างเดียว 6 เดือน ไม่ต้องให้น้ำ แปรงฟันด้วยยาสีฟันฟลูออไรด์ตั้งแต่ฟันซี่แรก และติดตามพัฒนาการตามคู่มือ DSPM" },
+    { "id": "s7", "text": "มีข้อสงสัยตรงไหนไหมคะ ถ้ามี ปรึกษาแพทย์หรือเจ้าหน้าที่ได้เสมอนะคะ ไม่ควรลองผิดลองถูก" }
+  ]
+}

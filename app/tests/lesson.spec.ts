@@ -89,7 +89,7 @@ test("complete lesson: timeline, sorting, quiz with retry, progress saved", asyn
   // progress survives a reload and shows on home
   await page.goto("/");
   await page.reload();
-  await expect(page.locator(".home__progress")).toContainText("เรียนจบแล้ว 1 จาก 1");
+  await expect(page.locator(".home__progress")).toContainText("เรียนจบแล้ว 1 จาก 2");
 });
 
 test("text size control scales the type and is remembered", async ({ page }) => {
@@ -115,7 +115,7 @@ test("video and captions are served", async ({ page, request }) => {
 
 test("no horizontal scrolling at 360px", async ({ page }) => {
   await page.setViewportSize({ width: 360, height: 740 });
-  for (const path of ["/", "/section/overview", LESSON, `${LESSON}?step=2`, `${LESSON}?step=3`, `${LESSON}?step=4`]) {
+  for (const path of ["/", "/section/overview", "/section/knowledge", "/curriculum", "/lesson/MCH68-K-001?step=1", "/lesson/MCH68-K-001?step=2", LESSON, `${LESSON}?step=2`, `${LESSON}?step=3`, `${LESSON}?step=4`]) {
     await page.goto(path);
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
     expect(overflow, path).toBeLessThanOrEqual(0);
