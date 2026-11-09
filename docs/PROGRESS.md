@@ -59,7 +59,7 @@ Read this first at the start of every working session. Add a dated entry at the 
 |---|---|---|---|
 | 1 | ~~GitHub repository owner~~ **Decided 2026-11-09:** private repo on the developer's personal account, https://github.com/leonzhh0912/pmh-anc-learn | developer | To keep PMH independent: add at least one PMH staff member as a collaborator, and before handover either transfer the repo to a PMH organisation (GitHub keeps redirects) or give PMH a full clone |
 | 2 | **Remotion licence** | PMH | Remotion is free only for individuals, non-profits and companies of ≤3 people. Government/public-sector bodies do **not** qualify without Remotion's written permission. If PMH owns and runs the video code, a Company License is needed ("Creators" ≈ US$25 per seat per month at time of checking; the v5 terms say they take effect with Remotion 5.0). Options: buy a seat, ask Remotion for written permission, or keep rendering with the developer as an independent creator delivering MP4s (check the terms first). Prototyping counts as evaluation. |
-| 3 | Permission from กรมอนามัย to adapt handbook content | PMH | Back cover: "สงวนลิขสิทธิ์โดยกรมอนามัย ห้ามคัดลอก ดัดแปลง พิมพ์ซ้ำ… เพื่อการค้าโดยเด็ดขาด". Non-commercial hospital education appears compatible, but a written OK is recommended before publishing, especially if any handbook illustration is reused (currently none). |
+| 3 | ~~Permission from กรมอนามัย to adapt handbook content~~ **Approved** (reported by the developer, 2026-11-09): MOPH approved the adaptation and requested the project; the PMH hospital director approved the project | developer | File a copy of the written approval or letter (number and date) with PMH records, and note the reference here. Third-party artwork co-branded on some pages (UNICEF, สสส., WHO-based charts) is still recreated, not copied; see CURRICULUM.md §7 |
 | 4 | Production narration voice | developer + PMH | Comparison done (docs/VOICE.md). Recommended audition: Google Chirp 3 HD Sulafat, BOTNOI Kru D Dee (ID 50), one ElevenLabs v3 Voice Library voice. Waiting for: provider account/keys and approval of any charge, then listening test with a Thai-speaking reviewer. Recorded staff narration remains a free option. |
 | 5 | Staging hosting and access control | PMH IT | See DEPLOYMENT.md |
 | 6 | Medical reviewers and their capacity per month | PMH | Sets the real pace of Phase 2 |
@@ -104,6 +104,10 @@ Read this first at the start of every working session. Add a dated entry at the 
 - Dev server now watches `content/` (new lesson files appear without restarting).
 - Tests: validate:content 0 errors; Playwright 14/14.
 
+### Approvals recorded
+- PMH hospital director approved the project; MOPH (กรมอนามัย) approved adapting the handbook and requested
+  the project (reported by the developer, 2026-11-09). Written reference to be added.
+- Still per item: clinical sign-off of each lesson/video (reviewer name + date) before it is marked APPROVED.
+
 ### Waiting on the user / PMH
-- Which approvals the message "all approved by PMH and MOPH" covers (see below), with names and dates.
 - Provider choice for voice samples, and accounts/keys plus approval of any charge.

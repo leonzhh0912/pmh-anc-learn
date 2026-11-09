@@ -61,5 +61,6 @@ Repository: https://github.com/leonzhh0912/pmh-anc-learn (private; currently on 
 personal account, to be shared with or transferred to PMH, see docs/PROGRESS.md).
 
 Built for Phimai Hospital. The project must stay operable by authorised PMH staff without depending on any
-one person's computer or AI account. Licensing items still open are listed in
-[docs/PROGRESS.md](docs/PROGRESS.md#open-decisions): Remotion licence, handbook reuse permission, narration voice.
+one person's computer or AI account. The PMH hospital director approved the project, and
+MOPH (กรมอนามัย) approved adapting the handbook. Items still open are listed in
+[docs/PROGRESS.md](docs/PROGRESS.md#open-decisions): Remotion licence, narration voice, per-lesson clinical review.

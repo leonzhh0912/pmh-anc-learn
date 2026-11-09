@@ -441,7 +441,9 @@ No changes were flagged for p47–p65 apart from those listed. The extraction fo
 
 ## 7. Content needing permission before reuse
 
-The copyright notice forbids copying, adapting or reprinting any part "เพื่อการค้า" (for commercial purposes). PMH Smart ANC Learn is non-commercial, but it adapts and redistributes content. **Written permission from กรมอนามัย should be obtained before public release**, and the items below need specific clearance. Until then, lessons should paraphrase briefly, cite the printed page, and recreate visuals rather than copy them.
+The copyright notice forbids copying, adapting or reprinting any part "เพื่อการค้า" (for commercial purposes). PMH Smart ANC Learn is non-commercial.
+
+**Status (2026-11-09): MOPH (กรมอนามัย) has approved adapting the handbook for this project and requested it; the PMH hospital director has approved the project** (reported by the developer; file the written reference in docs/PROGRESS.md). Some artwork in the handbook is co-branded with or sourced from third parties (UNICEF, สสส., WHO-based charts, partner institutions), so the project keeps recreating visuals rather than copying them, and the items below should be checked with MOPH if any original artwork is to be reused.
 
 **Illustrations and graphics**
 - Cartoon family and character artwork used throughout (cover p1, section mascots, pregnant-woman figures, p67 infographic figures).
