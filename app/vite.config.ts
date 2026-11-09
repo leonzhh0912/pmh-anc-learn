@@ -1,3 +1,4 @@
+import { fileURLToPath } from "node:url";
 import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
@@ -10,6 +11,20 @@ export default defineConfig({
   base,
   plugins: [
     react(),
+    {
+      // content/ lives outside app/, so Vite does not watch it by default.
+      // Watch it and reload when lesson files are added, changed or removed.
+      name: "watch-content",
+      configureServer(server) {
+        const dir = fileURLToPath(new URL("../content", import.meta.url));
+        server.watcher.add(dir);
+        const reload = (file: string) => {
+          if (file.startsWith(dir)) server.ws.send({ type: "full-reload" });
+        };
+        server.watcher.on("add", reload);
+        server.watcher.on("unlink", reload);
+      },
+    },
     VitePWA({
       registerType: "autoUpdate",
       includeAssets: ["favicon.svg", "icons/*.png"],

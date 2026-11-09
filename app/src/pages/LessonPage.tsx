@@ -4,6 +4,7 @@ import { lessonById, sections } from "../content/load";
 import type { Step } from "../content/schema";
 import { completeLesson, reachStep, useProgress } from "../lib/progress";
 import { DraftBanner } from "../components/DraftBanner";
+import { FoodFlag } from "../components/FoodFlag";
 import { PageChip } from "../components/PageChip";
 import { Quiz } from "../components/Quiz";
 import { SortGame } from "../components/SortGame";
@@ -14,6 +15,7 @@ const stepKind: Record<Step["type"], string> = {
   text: "อ่าน",
   timeline: "สำรวจ",
   sort: "ลองจัด",
+  flag: "สำรวจ",
   video: "ดูวิดีโอ",
   quiz: "ทบทวน",
   takeaways: "สรุป",
@@ -160,6 +162,8 @@ function StepBody({
       return <Timeline step={step} />;
     case "sort":
       return <SortGame step={step} />;
+    case "flag":
+      return <FoodFlag step={step} />;
     case "video":
       return <VideoPlayer videoId={step.videoId} />;
     case "quiz":

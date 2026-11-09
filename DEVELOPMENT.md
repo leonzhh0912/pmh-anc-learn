@@ -42,7 +42,8 @@ without a database. See "Staff content editing" below.
    `reveal` = which item appears).
 2. **Narrate**: `npm run narrate <id>` creates one WAV per segment, measures it, and writes
    `src/generated/<id>.timing.json` and `out/<id>.th.vtt`. Scenes are sized to the audio.
-   - Draft voice: macOS `say -v Kanya`. Draft only (see licensing in docs/PROGRESS.md).
+   - Voice: ElevenLabs `eleven_v3` (production) or `macos-say` (offline draft), set in the script's `voice`
+     block. See docs/VOICE.md. The API key lives only in git-ignored `video/.env.local`.
    - **Recorded narration**: drop `public/audio/<id>/recorded/<sceneId>-<n>.wav` files, re-run narrate.
      No code changes needed.
 3. **Render**: `npm run render <id>` gives `out/<id>.mp4` (captions as a separate track) and
@@ -111,7 +112,9 @@ No database or server needed. Keep `npm run validate:content` as the gate.
 |---|---|
 | Playwright "Executable doesn't exist" | `npx playwright install chromium` |
 | Thai text renders in a fallback font in video | check `video/public/fonts/` exists; `fonts.ts` loads Sarabun |
-| `narrate` fails: `say` not found | draft TTS needs macOS; on other systems supply recorded WAVs |
+| `narrate` fails: `say` not found | the macOS draft voice needs macOS; use the ElevenLabs voice or recorded WAVs |
+| `narrate` fails: `ELEVENLABS_API_KEY is not set` | create `video/.env.local` from `video/.env.example` |
+| ElevenLabs HTTP 401 `missing_permissions` | the key must allow Text to Speech; read endpoints are intentionally blocked |
 | Video scene timing looks wrong after editing a script | re-run `npm run narrate <id>` before rendering |
 | Content change not visible | `validate:content` errors stop the build; check the console in dev |
 | Old version after deploy on a phone | the service worker auto-updates on next load; reload once |

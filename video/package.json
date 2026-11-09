@@ -32,11 +32,12 @@
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc --resolveJsonModule",
-    "narrate": "node scripts/narrate.mjs",
+    "narrate": "node --env-file-if-exists=.env.local scripts/narrate.mjs",
     "render": "sh -c 'remotion render $0 out/$0.mp4 --crf=26 && remotion render $0-captioned out/$0-captioned.mp4 --crf=26'",
     "publish-to-app": "node scripts/publish.mjs",
-    "video": "sh -c 'node scripts/narrate.mjs $0 && npm run render $0 && node scripts/publish.mjs $0'",
-    "smoke": "remotion render SmokeTest out/smoke-test.mp4"
+    "video": "sh -c 'node --env-file-if-exists=.env.local scripts/narrate.mjs $0 && npm run render $0 && node scripts/publish.mjs $0'",
+    "smoke": "remotion render SmokeTest out/smoke-test.mp4",
+    "voice-samples": "node --env-file-if-exists=.env.local scripts/voice-samples.mjs"
   },
   "allowScripts": {
     "esbuild": false

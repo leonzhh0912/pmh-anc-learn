@@ -427,7 +427,7 @@ add(lessonId="MCH68-K-001", sectionId="knowledge",
         "Local (Isan) food examples would be a PMH addition requiring nutritionist sign-off",
         "Low or no milk intake → calcium supplement: no dose or source printed; PMH to state how women get it",
     ],
-    priority="P1", release="R1")
+    priority="P1", release="R1", status="DRAFT")
 
 add(lessonId="MCH68-K-002", sectionId="knowledge",
     titleTh="กินอย่างไรในแต่ละไตรมาส และช่วงให้นมลูก",

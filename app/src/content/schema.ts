@@ -103,6 +103,22 @@ export const Step = z.discriminatedUnion("type", [
     ),
   }),
   z.object({
+    /** Inverted-triangle nutrition flag (ธงโภชนาการ); tiers top (eat most) to tip (eat least) */
+    type: z.literal("flag"),
+    heading: z.string(),
+    intro: z.string(),
+    tiers: z
+      .array(
+        z.object({
+          id: z.string(),
+          amount: z.string(),
+          groups: z.array(z.object({ name: z.string(), examples: z.string() })).min(1),
+        }),
+      )
+      .min(2),
+    note: z.string().optional(),
+  }),
+  z.object({
     type: z.literal("video"),
     heading: z.string(),
     videoId: z.string(),
@@ -156,7 +172,9 @@ export const Video = z.object({
   captionsVtt: z.string(),
   poster: z.string().optional(),
   durationSec: z.number(),
-  narration: z.enum(["draft-tts", "recorded", "approved-tts", "none"]),
+  /** draft-tts = local macOS voice (never in production); cloud-tts = licensed provider voice */
+  narration: z.enum(["draft-tts", "cloud-tts", "recorded", "mixed", "none"]),
+  voice: z.object({ engine: z.string(), voice: z.string(), model: z.string().nullable() }).optional(),
   editorial: Editorial,
 });
 export type Video = z.infer<typeof Video>;

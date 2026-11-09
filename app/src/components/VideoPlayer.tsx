@@ -44,6 +44,7 @@ export function VideoPlayer({ videoId }: { videoId: string }) {
             เสียงบรรยายเป็นเสียงสังเคราะห์ฉบับร่าง ยังไม่ผ่านการตรวจการออกเสียง
           </span>
         )}
+        {(v.narration === "cloud-tts" || v.narration === "mixed") && <span>เสียงบรรยายสังเคราะห์ด้วย AI</span>}
         {!isApproved(v.editorial.status) && (
           <span className="video__draft">วิดีโอฉบับร่าง ยังไม่ผ่านการตรวจทานทางการแพทย์</span>
         )}

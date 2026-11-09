@@ -39,7 +39,8 @@ for (const v of videos) {
   }
   if (production && v.editorial.status !== "APPROVED" && v.editorial.status !== "PUBLISHED")
     errors.push(`video ${v.id}: status ${v.editorial.status} is not allowed in production`);
-  if (production && v.narration === "draft-tts") errors.push(`video ${v.id}: draft TTS narration not allowed in production`);
+  if (production && (v.narration === "draft-tts" || v.narration === "mixed"))
+    errors.push(`video ${v.id}: draft (macOS) TTS narration not allowed in production`);
 }
 
 const seen = new Set<string>();

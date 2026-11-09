@@ -1,0 +1,21 @@
+{
+  "note": "Voices for `cd video && npm run voice-samples`. Decision 2026-11-09: ElevenLabs only, voice MYZYcGOqrkYQcwDunXl7 chosen by the developer. Add more ElevenLabs entries here to audition alternatives.",
+  "pricing": {
+    "elevenlabs": { "perCharUsd": 0.00008, "note": "eleven_v3 ~US$0.08 per 1K chars on API plans (checked 2026-11-09); counted against the monthly plan allowance" },
+    "macos-say": { "perCharUsd": 0, "note": "local, draft only" }
+  },
+  "candidates": [
+    {
+      "id": "el-chosen",
+      "label": "ElevenLabs v3 — chosen production voice (MYZYcGOqrkYQcwDunXl7)",
+      "engine": "elevenlabs",
+      "voice": { "engine": "elevenlabs", "voice": "MYZYcGOqrkYQcwDunXl7", "model": "eleven_v3", "stability": 0.5, "style": 0, "speed": 0.95, "seed": 1234 }
+    },
+    {
+      "id": "mac-kanya",
+      "label": "Previous draft voice — macOS Kanya (baseline for comparison)",
+      "engine": "macos-say",
+      "voice": { "engine": "macos-say", "voice": "Kanya", "rate": 185 }
+    }
+  ]
+}

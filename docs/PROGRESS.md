@@ -50,6 +50,7 @@ Read this first at the start of every working session. Add a dated entry at the 
 - p18–19 mental-health screens carry the ♡ (parent may fill in) icon but are clinical tools. PMH needs a policy
   on how the app treats them. Current plan: awareness lessons only, never the items or scoring.
 - The handbook gives no safe-sleep position guidance and no crisis phone line; PMH must decide local additions.
+- p22 (ธงโภชนาการ คืออะไร): the definition says nutrition helps 'ป้องกันโรคติดต่อเรื้อรัง' (chronic *communicable* disease), probably a misprint for 'โรคไม่ติดต่อเรื้อรัง'. Omitted from lesson K-001 until a nutritionist confirms.
 - QR codes in the handbook have not been decoded or checked yet.
 
 ## Open decisions
@@ -58,8 +59,8 @@ Read this first at the start of every working session. Add a dated entry at the 
 |---|---|---|---|
 | 1 | ~~GitHub repository owner~~ **Decided 2026-11-09:** private repo on the developer's personal account, https://github.com/leonzhh0912/pmh-anc-learn | developer | To keep PMH independent: add at least one PMH staff member as a collaborator, and before handover either transfer the repo to a PMH organisation (GitHub keeps redirects) or give PMH a full clone |
 | 2 | **Remotion licence** | PMH | Remotion is free only for individuals, non-profits and companies of ≤3 people. Government/public-sector bodies do **not** qualify without Remotion's written permission. If PMH owns and runs the video code, a Company License is needed ("Creators" ≈ US$25 per seat per month at time of checking; the v5 terms say they take effect with Remotion 5.0). Options: buy a seat, ask Remotion for written permission, or keep rendering with the developer as an independent creator delivering MP4s (check the terms first). Prototyping counts as evaluation. |
-| 3 | Permission from กรมอนามัย to adapt handbook content | PMH | Back cover: "สงวนลิขสิทธิ์โดยกรมอนามัย ห้ามคัดลอก ดัดแปลง พิมพ์ซ้ำ… เพื่อการค้าโดยเด็ดขาด". Non-commercial hospital education appears compatible, but a written OK is recommended before publishing, especially if any handbook illustration is reused (currently none). |
-| 4 | Production narration voice | PMH | macOS "Kanya" is draft-only: Apple's licence limits system voices to personal, non-commercial use. Options: (a) record PMH staff voices — free, most trusted, pipeline already supports it; (b) a paid cloud Thai TTS (Google Cloud or Azure, priced per character, roughly a few US$ per 100 lessons; get a current quote and approval before use). |
+| 3 | ~~Permission from กรมอนามัย to adapt handbook content~~ **Approved** (reported by the developer, 2026-11-09): MOPH approved the adaptation and requested the project; the PMH hospital director approved the project | developer | File a copy of the written approval or letter (number and date) with PMH records, and note the reference here. Third-party artwork co-branded on some pages (UNICEF, สสส., WHO-based charts) is still recreated, not copied; see CURRICULUM.md §7 |
+| 4 | ~~Production narration voice~~ **Decided 2026-11-09:** ElevenLabs only, `eleven_v3`, voice `MYZYcGOqrkYQcwDunXl7` | developer | Still needed per video: Thai-speaking PMH reviewer approves pronunciation. For handover, PMH needs its own ElevenLabs subscription with the same voice (docs/VOICE.md) |
 | 5 | Staging hosting and access control | PMH IT | See DEPLOYMENT.md |
 | 6 | Medical reviewers and their capacity per month | PMH | Sets the real pace of Phase 2 |
 
@@ -83,3 +84,30 @@ Read this first at the start of every working session. Add a dated entry at the 
 - [ ] Printable one-page summary per lesson (optional download)
 - [ ] Staging environment for reviewers
 - [ ] Git-based CMS for staff edits once the content shape stabilises
+
+## Session 2 — 2026-11-09 (remote/continuing)
+
+### Done and verified
+- **Voice research** for Google Chirp 3 HD, ElevenLabs and BOTNOI: docs/VOICE.md (prices, licensing,
+  data handling, API limits, recommended voices).
+- **Provider-neutral TTS** in the video pipeline (`video/scripts/tts/`): Google, ElevenLabs, BOTNOI and
+  the macOS draft voice behind one interface. Keys only from git-ignored `video/.env.local`.
+  Every clip is trimmed and loudness-normalised (verified −15.7 LUFS on the draft voice).
+- **Voice test script** (`content/voice-tests/voice-test-th-v1.json`, 645 chars) and
+  `npm run voice-samples` (dry-run cost estimate, side-by-side listening page). Baseline sample
+  generated with the draft voice. Cloud samples not generated yet (no keys, no spend approved).
+- **Safety guard:** `publish-to-app` refuses an MP4 whose length doesn't match the current narration timing,
+  which would otherwise desync captions. V-OVR-001 was re-rendered (158.2 s) after silence trimming; MP4 and
+  timing agree within 0.02 s.
+- **Lesson K-001** "ธงโภชนาการ คืออะไร? อาหาร 6 กลุ่ม" (PDF p22) drafted with a new tappable nutrition-flag
+  interaction and a 6-group sorting activity. A likely misprint on p22 is flagged (see Handbook issues).
+- Dev server now watches `content/` (new lesson files appear without restarting).
+- Tests: validate:content 0 errors; Playwright 14/14.
+
+### Approvals recorded
+- PMH hospital director approved the project; MOPH (กรมอนามัย) approved adapting the handbook and requested
+  the project (reported by the developer, 2026-11-09). Written reference to be added.
+- Still per item: clinical sign-off of each lesson/video (reviewer name + date) before it is marked APPROVED.
+
+### Waiting on the user / PMH
+- Provider choice for voice samples, and accounts/keys plus approval of any charge.

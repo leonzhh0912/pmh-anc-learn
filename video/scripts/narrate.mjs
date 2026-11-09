@@ -5,8 +5,8 @@
  *   node scripts/narrate.mjs V-OVR-001
  *
  * Reads content/video-scripts/<id>.json and, for every segment:
- *  - produces a WAV in public/audio/<id>/ (draft TTS via macOS `say`, or a
- *    recorded file if one is supplied, see below),
+ *  - produces a WAV in public/audio/<id>/ using the TTS engine named in the
+ *    script's "voice" block (scripts/tts/), or a recorded file if supplied,
  *  - measures its duration with ffprobe,
  * then writes src/generated/<id>.timing.json, which the Remotion composition
  * uses to size every scene to its narration, and a Thai WebVTT caption file.
@@ -17,7 +17,8 @@
  */
 import { execFileSync } from "node:child_process";
 import { createHash } from "node:crypto";
-import { existsSync, mkdirSync, readFileSync, writeFileSync, rmSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { synthesize } from "./tts/index.mjs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -50,15 +51,6 @@ function duration(file) {
   return Number(out.trim());
 }
 
-function synth(text, outWav) {
-  const { engine, voice, rate } = script.voice;
-  if (engine !== "macos-say") throw new Error(`unsupported TTS engine ${engine}`);
-  const aiff = outWav.replace(/\.wav$/, ".aiff");
-  execFileSync("say", ["-v", voice, "-r", String(rate), "-o", aiff, text]);
-  execFileSync("ffmpeg", ["-v", "error", "-y", "-i", aiff, "-ar", "48000", "-ac", "1", outWav]);
-  rmSync(aiff);
-}
-
 const toFrames = (s) => Math.round(s * FPS);
 let cursor = 0; // frames, absolute
 const scenes = [];
@@ -69,7 +61,7 @@ for (const scene of script.scenes) {
   const sceneStart = cursor;
   let t = toFrames(SCENE_LEAD_IN);
   const segments = [];
-  scene.segments.forEach((seg, i) => {
+  for (const [i, seg] of scene.segments.entries()) {
     const recorded = join(recordedDir, `${scene.id}-${i + 1}.wav`);
     let file;
     if (existsSync(recorded)) {
@@ -82,14 +74,14 @@ for (const scene of script.scenes) {
         .slice(0, 10);
       const name = `${scene.id}-${i + 1}-${hash}.wav`;
       const abs = join(audioDir, name);
-      if (!existsSync(abs)) synth(seg.speak, abs);
+      if (!existsSync(abs)) await synthesize(script.voice, seg.speak, abs);
       file = `audio/${id}/${name}`;
     }
     const dur = toFrames(duration(join(videoRoot, "public", file)));
     segments.push({ file, from: t, durationInFrames: dur, caption: seg.caption, reveal: seg.reveal ?? null });
     cues.push({ start: sceneStart + t, end: sceneStart + t + dur, text: seg.caption });
     t += dur + toFrames(SEGMENT_GAP);
-  });
+  }
   const durationInFrames = t - toFrames(SEGMENT_GAP) + toFrames(SCENE_TAIL);
   scenes.push({ id: scene.id, from: sceneStart, durationInFrames, segments });
   cursor += durationInFrames;
@@ -100,7 +92,15 @@ const timing = {
   version: script.version,
   fps: FPS,
   durationInFrames: cursor,
-  narration: usedRecorded === 0 ? "draft-tts" : usedRecorded === cues.length ? "recorded" : "mixed",
+  narration:
+    usedRecorded === cues.length
+      ? "recorded"
+      : usedRecorded > 0
+        ? "mixed"
+        : script.voice.engine === "macos-say"
+          ? "draft-tts"
+          : "cloud-tts",
+  voice: { engine: script.voice.engine, voice: script.voice.voice, model: script.voice.model ?? null },
   scenes,
 };
 
