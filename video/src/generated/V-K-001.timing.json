@@ -1,0 +1,182 @@
+{
+  "id": "V-K-001",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 3803,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 488,
+      "segments": [
+        {
+          "file": "audio/V-K-001/intro-1-5c58e29d27.wav",
+          "from": 18,
+          "durationInFrames": 259,
+          "caption": "ธงโภชนาการ คือแบบแผนปริมาณการกินอาหารแต่ละกลุ่ม ให้ได้คุณค่าอาหารครบถ้วน และสุขภาพแข็งแรง",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-K-001/intro-2-888e6199b4.wav",
+          "from": 291,
+          "durationInFrames": 170,
+          "caption": "มาดูวิธีอ่านธง อาหาร 6 กลุ่ม และทำไมการกินที่ถูกต้องจึงสำคัญ",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 488,
+      "durationInFrames": 466,
+      "segments": [
+        {
+          "file": "audio/V-K-001/stage1-1-8e6c1f76e6.wav",
+          "from": 18,
+          "durationInFrames": 98,
+          "caption": "ตอนที่ 1 อ่านธงโภชนาการ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-001/stage1-2-371720d0ff.wav",
+          "from": 130,
+          "durationInFrames": 199,
+          "caption": "ธงมีรูปเป็นสามเหลี่ยมหัวกลับ ส่วนที่กว้างอยู่ด้านบน หมายถึงให้กินปริมาณมาก",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-001/stage1-3-945c185e0b.wav",
+          "from": 343,
+          "durationInFrames": 96,
+          "caption": "ยิ่งลงไปทางปลายธง ยิ่งให้กินน้อยลง",
+          "reveal": 2
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 954,
+      "durationInFrames": 1033,
+      "segments": [
+        {
+          "file": "audio/V-K-001/stage2-1-35c7a0e946.wav",
+          "from": 18,
+          "durationInFrames": 144,
+          "caption": "ตอนที่ 2 อาหาร 6 กลุ่ม เรียงจากบนสุดลงไปปลายธง",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-001/stage2-2-4a89f6f613.wav",
+          "from": 176,
+          "durationInFrames": 206,
+          "caption": "บนสุด คือกลุ่มข้าว-แป้ง เช่น ข้าว ขนมปัง เส้นก๋วยเตี๋ยว กินปริมาณมาก",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-K-001/stage2-3-1490a14d6e.wav",
+          "from": 396,
+          "durationInFrames": 122,
+          "caption": "ชั้นที่ 2 คือกลุ่มผัก และกลุ่มผลไม้ กินรองลงมา",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-K-001/stage2-4-21227bc7ab.wav",
+          "from": 532,
+          "durationInFrames": 242,
+          "caption": "ชั้นที่ 3 คือกลุ่มนม และกลุ่มเนื้อสัตว์ เช่น ปลา ไข่ เนื้อสัตว์ กินน้อยลงอีก",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-K-001/stage2-5-822c485ecb.wav",
+          "from": 788,
+          "durationInFrames": 218,
+          "caption": "ปลายธง คือกลุ่มไขมัน น้ำตาล เกลือ เช่น น้ำมัน น้ำตาล เกลือ กินปริมาณน้อย",
+          "reveal": 6
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 1987,
+      "durationInFrames": 1204,
+      "segments": [
+        {
+          "file": "audio/V-K-001/stage3-1-9bdd62b430.wav",
+          "from": 18,
+          "durationInFrames": 120,
+          "caption": "ตอนที่ 3 ทำไมการกินที่ถูกต้องจึงสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-001/stage3-2-976476ef69.wav",
+          "from": 152,
+          "durationInFrames": 218,
+          "caption": "คุณแม่ตั้งครรภ์ที่กินถูกต้อง น้ำหนักตัวจะเหมาะสม ไม่เสี่ยงภาวะแทรกซ้อน ลูกในท้องแข็งแรง",
+          "reveal": 7
+        },
+        {
+          "file": "audio/V-K-001/stage3-3-e18c040292.wav",
+          "from": 384,
+          "durationInFrames": 216,
+          "caption": "สำหรับคุณแม่ที่ให้นมลูก การกินอาหารอย่างถูกต้อง จะช่วยสร้างน้ำนมที่มีคุณภาพสำหรับลูก",
+          "reveal": 8
+        },
+        {
+          "file": "audio/V-K-001/stage3-4-51e3b06709.wav",
+          "from": 614,
+          "durationInFrames": 321,
+          "caption": "จำง่าย ๆ ให้นมลูก 6 เดือนแรก กินตามธงไตรมาส 3 ให้นมลูก 6 เดือนขึ้นไป กินตามธงไตรมาส 2",
+          "reveal": 9
+        },
+        {
+          "file": "audio/V-K-001/stage3-5-c32c6fa573.wav",
+          "from": 949,
+          "durationInFrames": 228,
+          "caption": "ธงนี้เหมาะกับคนที่ไม่มีโรคประจำตัว ถ้ามีโรคประจำตัว ควรรับคำแนะนำการกินจากแพทย์ที่ดูแล",
+          "reveal": 10
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 3191,
+      "durationInFrames": 612,
+      "segments": [
+        {
+          "file": "audio/V-K-001/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-001/summary-2-d0eb11f7a7.wav",
+          "from": 78,
+          "durationInFrames": 134,
+          "caption": "ธงโภชนาการ บนสุดกินมาก ปลายธงกินน้อย",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-001/summary-3-9e481c7441.wav",
+          "from": 226,
+          "durationInFrames": 211,
+          "caption": "ให้นมลูก 6 เดือนแรก กินตามธงไตรมาส 3 หลัง 6 เดือน กินตามธงไตรมาส 2",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-K-001/summary-4-13638f6995.wav",
+          "from": 451,
+          "durationInFrames": 134,
+          "caption": "และถ้ามีโรคประจำตัว ขอคำแนะนำการกินจากแพทย์ที่ดูแล",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,487 @@
+{
+  "id": "MCH68-GROW-006",
+  "version": "0.1.1",
+  "title": "อาหารตามวัย 7-11 เดือน",
+  "summary": "อ่านตารางอาหารในสมุดสำหรับลูกอายุ 7–11 เดือน: จำนวนมื้อ ลักษณะอาหาร และปริมาณข้าว เนื้อสัตว์ ไข่ ตับ ผัก ผลไม้ พร้อมข้อแนะนำท้ายตาราง",
+  "sectionId": "growth",
+  "stages": [
+    "postpartum",
+    "child"
+  ],
+  "audience": [
+    "mother",
+    "family"
+  ],
+  "minutes": 7,
+  "objectives": [
+    "ผู้เรียนบอกจำนวนมื้ออาหารตามวัยได้ (7 เดือน สัปดาห์ที่ 1–2 กิน 1 มื้อ, 7 เดือน สัปดาห์ที่ 3 ถึง 9 เดือน กิน 2 มื้อ, 10–11 เดือน กิน 3 มื้อ) และลักษณะอาหาร (บดหยาบ สับละเอียด หั่นชิ้นเล็ก)",
+    "ผู้เรียนอ่านปริมาณข้าว เนื้อสัตว์ ไข่ ตับ ผัก และผลไม้ ตามช่วงอายุในตารางของสมุดได้",
+    "ผู้เรียนบอกได้ว่าไม่ควรปรุงแต่งรสอาหาร และต้องรักษาความสะอาดของวัตถุดิบ ภาชนะ และมือของผู้ปรุงและป้อนอาหาร",
+    "ผู้เรียนบอกได้ว่าควรกินนมแม่ควบคู่กับอาหารทารกตามวัย จนเด็กอายุ 2 ปี หรือนานกว่านั้น"
+  ],
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      56,
+      57
+    ],
+    "printedPages": [
+      "54",
+      "55"
+    ],
+    "note": "ตาราง 'อาหารที่แนะนำใน 1 วัน' ส่วน 7–11 เดือน (PDF p57) ข้อความแถบบน ข้อความแนะนำข้างหน้า และคำแนะนำข้อ 6–9; จาก PDF p56 ใช้เฉพาะชื่อแถวของตาราง (หน่วย 'ช้อนกินข้าว' ของข้าว) ชื่อหัวข้อ และคำแนะนำข้อ 2 (ค่อย ๆ เพิ่มความหยาบ)"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Source: table, banner 'กินนมแม่ควบคู่กับอาหารทารกตามวัย จนเด็กอายุ 2 ปี หรือนานกว่านั้น', margin tip (age 6 months is the right time to start) and notes 6–9 are from PDF p57 (printed 55), all checked on the page image (and the p57 text layer for the tip and note 6). PDF p56 (printed 54) is cited only for the spread title 'อาหารที่แนะนำใน 1 วัน', the row labels and note 2 (coarser texture with age, to practise chewing and swallowing).",
+      "Table spans as read from the cell borders on the p57 image: 'กินอาหาร 1 มื้อ' = 7 months weeks 1–2; 'กินอาหาร 2 มื้อ' = 7 months week 3 to 9 months; 'กินอาหาร 3 มื้อ' = 10–11 months; 'บดหยาบ' = all of month 7; 'สับละเอียด' = 8–9; 'หั่นชิ้นเล็ก' = 10–11; vegetable '1 ช้อนกินข้าว' and fruit '3 ชิ้น' = 7 months week 3 to 9 months. Nutritionist + paediatrician to verify every amount and span (curriculum review requirement).",
+      "Rice cells on p57 print only numbers ('ค่อย ๆ เพิ่มปริมาณจาก 4 เป็น 5' etc.). The unit 'ช้อนกินข้าว' is taken from the p56 row label 'ข้าวต้ม (ช้อนกินข้าว)' (same as GROW-005). Reviewer to confirm the unit still applies at 7–11 months.",
+      "The p56 vegetable row label says 'ผักกลิ่นไม่แรง มื้อละ ½ ช้อนกินข้าว', while the p57 cells print ½, 1 and 1 ½ ช้อนกินข้าว without 'มื้อละ'. This fits if the p57 amounts are per day (spread title 'อาหารที่แนะนำใน 1 วัน'), but the lesson does NOT state per-meal or per-day amounts; it shows the cells as printed. Reviewer to decide whether to say so.",
+      "HANDBOOK ISSUE (ambiguity): the 10–11-month table cell says 'ไข่ทั้งฟอง สลับกับ ตับ 1 ช้อนกินข้าว' (egg alternating with liver), while note 6 says whole egg 'อย่างน้อยวันละครึ่งฟอง' at 10–11 months. Both are shown as printed and not reconciled. Nutritionist to say how families should read them together.",
+      "'สลับกับ' (alternate with) is kept verbatim in every meat cell; the lesson does not explain which item alternates with which (on the image the pink 'สลับกับ' arrow sits between the egg spoon and the liver spoon). Reviewer may want a plain explanation for families. The curriculum's egg/liver alternation calendar is not built.",
+      "Note 5 (weekly iron syrup for 6 months – 5 years, with egg daily or egg alternating with liver, vitamin A and folate) is deliberately NOT taught here (high-risk lesson MCH68-GROW-008). The lesson has one editorial sentence: 'เรื่องยาน้ำเสริมธาตุเหล็กสำหรับลูก เจ้าหน้าที่จะเป็นผู้แนะนำ' — PMH to confirm wording.",
+      "Fruit amounts are 'ชิ้น'; piece size is shown only in photos, not in words. Not explained.",
+      "Editorial framing (not printed): text step 1 'ตารางในสมุดหน้า 55 ต่อจากหน้า 54…' and the timeline intro 'ถ้าไม่แน่ใจ ถามเจ้าหน้าที่'.",
+      "Sort step uses short card texts copied from single table cells; cells that span several age columns (2 มื้อ, ผัก 1 ช้อนกินข้าว, ผลไม้ 3 ชิ้น) were left out so every card has one correct bucket.",
+      "Quiz q3 (grandmother feeding an 8-month-old) and q5 (family member preparing food) are scenarios written for this lesson. q2 statement 'เพื่อให้ลูกกินได้มากขึ้น' and the distractors 'เติมน้ำปลานิดหน่อย' / 'ล้างเฉพาะชามของลูก' are written as counter-examples of notes 7–8.",
+      "PMH CLARIFICATION (from curriculum): local recipe examples would be PMH additions — none added.",
+      "Interactivity: the curriculum's age selector is built as a `timeline` (4 age stages × 6 food rows). The texture slider is not built (no step type; handbook photos must not be copied).",
+      "Family note is editorial (caregivers reading the p55 table together and washing hands/utensils, from note 8)."
+    ]
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "First draft from official handbook PDF p57 (with row labels and note 2 from p56) (2nd printing, April 2569)."
+    },
+    {
+      "version": "0.1.1",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "Added video step V-GROW-006 (narration derived from this lesson; no text changes)."
+    }
+  ],
+  "steps": [
+    {
+      "type": "text",
+      "heading": "7–11 เดือน: นมแม่ควบคู่กับอาหารตามวัย",
+      "paragraphs": [
+        "กินนมแม่ควบคู่กับอาหารทารกตามวัย จนเด็กอายุ 2 ปี หรือนานกว่านั้น",
+        "อายุ 6 เดือนเป็นช่วงที่เหมาะสมสำหรับเริ่มอาหารตามวัย เนื่องจากพัฒนาการทางร่างกายพร้อมรับกับอาหารอื่นนอกจากนม",
+        "ตารางในสมุดหน้า 55 ต่อจากหน้า 54 (หัวข้อ 'อาหารที่แนะนำใน 1 วัน') บอกจำนวนมื้อ ลักษณะอาหาร และปริมาณข้าว เนื้อสัตว์ ผัก และผลไม้ ตามอายุของลูก ตั้งแต่ 7 เดือนถึง 11 เดือน",
+        "ลักษณะอาหารเปลี่ยนไปตามอายุ: 7 เดือน บดหยาบ, 8–9 เดือน สับละเอียด, 10–11 เดือน หั่นชิ้นเล็ก เพื่อฝึกการเคี้ยวและกลืนอาหาร ค่อย ๆ เพิ่มความหยาบของอาหารมากขึ้นตามช่วงอายุที่เพิ่มขึ้น"
+      ]
+    },
+    {
+      "type": "video",
+      "heading": "ดูวิดีโอสรุป",
+      "videoId": "V-GROW-006"
+    },
+    {
+      "type": "text",
+      "heading": "ข้อแนะนำท้ายตาราง",
+      "paragraphs": [
+        "เมื่อเด็กอายุ 10 - 11 เดือน กินอาหารวันละ 3 มื้อ ควรให้กินไข่ทั้งฟอง (ไข่ขาวและไข่แดง) อย่างน้อยวันละครึ่งฟอง ร่วมกับเนื้อสัตว์ชนิดอื่น ๆ",
+        "ควรให้เด็กเรียนรู้รสอาหารตามธรรมชาติ ไม่ควรปรุงแต่งรสอาหาร",
+        "ควรเน้นรักษาความสะอาดและความปลอดภัยของวัตถุดิบ ภาชนะที่ใช้ปรุงและใส่อาหาร ตลอดจนมือของผู้ปรุงและป้อนอาหาร",
+        "ควรติดตามการเจริญเติบโต โดยการชั่งน้ำหนักและวัดความยาวเทียบกับมาตรฐานการเจริญเติบโตตามช่วงอายุทุก 3 เดือน เรื่องยาน้ำเสริมธาตุเหล็กสำหรับลูก เจ้าหน้าที่จะเป็นผู้แนะนำ"
+      ]
+    },
+    {
+      "type": "timeline",
+      "heading": "อาหารแต่ละช่วงอายุ ตามตารางในสมุด",
+      "intro": "เลือกช่วงอายุของลูก แล้วแตะแต่ละแถวเพื่อดูสิ่งที่พิมพ์ไว้ในตารางสมุดหน้า 55 ทุกช่วงให้ควบคู่กับนมแม่ ถ้าไม่แน่ใจ ถามเจ้าหน้าที่",
+      "stages": [
+        {
+          "id": "m7w1-2",
+          "label": "7 เดือน สัปดาห์ที่ 1–2",
+          "items": [
+            {
+              "n": 1,
+              "title": "มื้ออาหาร",
+              "detail": "กินอาหาร 1 มื้อ"
+            },
+            {
+              "n": 2,
+              "title": "ลักษณะอาหาร",
+              "detail": "บดหยาบ (ทั้งเดือนที่ 7)"
+            },
+            {
+              "n": 3,
+              "title": "ข้าว",
+              "detail": "ค่อย ๆ เพิ่มปริมาณจาก 4 เป็น 5 ช้อนกินข้าว"
+            },
+            {
+              "n": 4,
+              "title": "เนื้อสัตว์ ไข่ ตับ",
+              "detail": "เนื้อสัตว์ 1 ช้อนกินข้าว และไข่แดง ½ ฟอง สลับกับ ตับ ½ ช้อนกินข้าว"
+            },
+            {
+              "n": 5,
+              "title": "ผัก",
+              "detail": "½ ช้อนกินข้าว"
+            },
+            {
+              "n": 6,
+              "title": "ผลไม้",
+              "detail": "ค่อย ๆ เพิ่มปริมาณจาก 2 เป็น 3 ชิ้น"
+            }
+          ]
+        },
+        {
+          "id": "m7w3-4",
+          "label": "7 เดือน สัปดาห์ที่ 3–4",
+          "items": [
+            {
+              "n": 1,
+              "title": "มื้ออาหาร",
+              "detail": "กินอาหาร 2 มื้อ (ช่องเดียวกันตั้งแต่ 7 เดือน สัปดาห์ที่ 3 ถึง 9 เดือน)"
+            },
+            {
+              "n": 2,
+              "title": "ลักษณะอาหาร",
+              "detail": "บดหยาบ (ทั้งเดือนที่ 7)"
+            },
+            {
+              "n": 3,
+              "title": "ข้าว",
+              "detail": "ค่อย ๆ เพิ่มปริมาณจาก 6 เป็น 8 ช้อนกินข้าว"
+            },
+            {
+              "n": 4,
+              "title": "เนื้อสัตว์ ไข่ ตับ",
+              "detail": "เนื้อสัตว์ 1 ½ ช้อนกินข้าว และไข่แดง ½ ฟอง สลับกับ ตับ ½ ช้อนกินข้าว"
+            },
+            {
+              "n": 5,
+              "title": "ผัก",
+              "detail": "1 ช้อนกินข้าว (ช่องเดียวกันตั้งแต่ 7 เดือน สัปดาห์ที่ 3 ถึง 9 เดือน)"
+            },
+            {
+              "n": 6,
+              "title": "ผลไม้",
+              "detail": "3 ชิ้น (ช่องเดียวกันตั้งแต่ 7 เดือน สัปดาห์ที่ 3 ถึง 9 เดือน)"
+            }
+          ]
+        },
+        {
+          "id": "m8-9",
+          "label": "8–9 เดือน",
+          "items": [
+            {
+              "n": 1,
+              "title": "มื้ออาหาร",
+              "detail": "กินอาหาร 2 มื้อ"
+            },
+            {
+              "n": 2,
+              "title": "ลักษณะอาหาร",
+              "detail": "สับละเอียด"
+            },
+            {
+              "n": 3,
+              "title": "ข้าว",
+              "detail": "ค่อย ๆ เพิ่มปริมาณจาก 9 เป็น 12 ช้อนกินข้าว"
+            },
+            {
+              "n": 4,
+              "title": "เนื้อสัตว์ ไข่ ตับ",
+              "detail": "เนื้อสัตว์ 1 ½ ช้อนกินข้าว และไข่แดงหรือไข่ทั้งฟอง สลับกับ ตับ 1 ช้อนกินข้าว"
+            },
+            {
+              "n": 5,
+              "title": "ผัก",
+              "detail": "1 ช้อนกินข้าว"
+            },
+            {
+              "n": 6,
+              "title": "ผลไม้",
+              "detail": "3 ชิ้น"
+            }
+          ]
+        },
+        {
+          "id": "m10-11",
+          "label": "10–11 เดือน",
+          "items": [
+            {
+              "n": 1,
+              "title": "มื้ออาหาร",
+              "detail": "กินอาหาร 3 มื้อ"
+            },
+            {
+              "n": 2,
+              "title": "ลักษณะอาหาร",
+              "detail": "หั่นชิ้นเล็ก"
+            },
+            {
+              "n": 3,
+              "title": "ข้าว",
+              "detail": "ค่อย ๆ เพิ่มปริมาณจาก 15 เป็น 18 ช้อนกินข้าว"
+            },
+            {
+              "n": 4,
+              "title": "เนื้อสัตว์ ไข่ ตับ",
+              "detail": "เนื้อสัตว์ 2 ช้อนกินข้าว และไข่ทั้งฟอง สลับกับ ตับ 1 ช้อนกินข้าว"
+            },
+            {
+              "n": 5,
+              "title": "ผัก",
+              "detail": "1 ½ ช้อนกินข้าว"
+            },
+            {
+              "n": 6,
+              "title": "ผลไม้",
+              "detail": "4 ชิ้น"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "heading": "ช่องนี้อยู่ในช่วงอายุไหนของตาราง",
+      "intro": "แตะการ์ด แล้วแตะช่วงอายุที่ตรงกับตารางในสมุดหน้า 55",
+      "buckets": [
+        {
+          "id": "m7",
+          "label": "7 เดือน"
+        },
+        {
+          "id": "m8-9",
+          "label": "8–9 เดือน"
+        },
+        {
+          "id": "m10-11",
+          "label": "10–11 เดือน"
+        }
+      ],
+      "items": [
+        {
+          "id": "c1",
+          "text": "บดหยาบ",
+          "bucketId": "m7"
+        },
+        {
+          "id": "c2",
+          "text": "กินอาหาร 1 มื้อ",
+          "bucketId": "m7"
+        },
+        {
+          "id": "c3",
+          "text": "ตับ ½ ช้อนกินข้าว",
+          "bucketId": "m7"
+        },
+        {
+          "id": "c4",
+          "text": "สับละเอียด",
+          "bucketId": "m8-9"
+        },
+        {
+          "id": "c5",
+          "text": "ข้าว ค่อย ๆ เพิ่มจาก 9 เป็น 12 ช้อนกินข้าว",
+          "bucketId": "m8-9"
+        },
+        {
+          "id": "c6",
+          "text": "หั่นชิ้นเล็ก",
+          "bucketId": "m10-11"
+        },
+        {
+          "id": "c7",
+          "text": "กินอาหาร 3 มื้อ",
+          "bucketId": "m10-11"
+        },
+        {
+          "id": "c8",
+          "text": "ผลไม้ 4 ชิ้น",
+          "bucketId": "m10-11"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "heading": "ทบทวนความเข้าใจ",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "prompt": "ตามตารางในสมุด ลูกอายุ 10–11 เดือน กินอาหารวันละกี่มื้อ",
+          "options": [
+            {
+              "id": "a",
+              "text": "1 มื้อ",
+              "feedback": "ยังไม่ใช่ 1 มื้อ คือช่วง 7 เดือน สัปดาห์ที่ 1–2"
+            },
+            {
+              "id": "b",
+              "text": "3 มื้อ",
+              "feedback": "ถูกต้อง อายุ 10–11 เดือน กินอาหาร 3 มื้อ"
+            },
+            {
+              "id": "c",
+              "text": "2 มื้อ",
+              "feedback": "ยังไม่ใช่ 2 มื้อ คือช่วง 7 เดือน สัปดาห์ที่ 3 ถึง 9 เดือน"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "ในตาราง 7 เดือน สัปดาห์ที่ 1–2 กินอาหาร 1 มื้อ ตั้งแต่ 7 เดือน สัปดาห์ที่ 3 ถึง 9 เดือน กินอาหาร 2 มื้อ และ 10–11 เดือน กินอาหาร 3 มื้อ",
+          "source": {
+            "pdfPages": [
+              57
+            ],
+            "printedPages": [
+              "55"
+            ]
+          }
+        },
+        {
+          "id": "q2",
+          "kind": "truefalse",
+          "prompt": "ลูกอายุ 7–11 เดือน ควรปรุงแต่งรสอาหาร เพื่อให้ลูกกินได้มากขึ้น",
+          "options": [
+            {
+              "id": "a",
+              "text": "จริง",
+              "feedback": "ข้อนี้ไม่จริง สมุดแนะนำว่าไม่ควรปรุงแต่งรสอาหาร"
+            },
+            {
+              "id": "b",
+              "text": "ไม่จริง",
+              "feedback": "ถูกต้อง ควรให้เด็กเรียนรู้รสอาหารตามธรรมชาติ"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "ควรให้เด็กเรียนรู้รสอาหารตามธรรมชาติ ไม่ควรปรุงแต่งรสอาหาร",
+          "source": {
+            "pdfPages": [
+              57
+            ],
+            "printedPages": [
+              "55"
+            ]
+          }
+        },
+        {
+          "id": "q3",
+          "kind": "scenario",
+          "scenario": "ยายช่วยทำอาหารให้หลานอายุ 8 เดือน และอยากรู้ว่าควรทำอาหารลักษณะไหน",
+          "prompt": "ตามตารางในสมุด อาหารของเด็กอายุ 8–9 เดือน มีลักษณะอย่างไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "หั่นชิ้นเล็ก",
+              "feedback": "ยังไม่ใช่ หั่นชิ้นเล็ก คือช่วง 10–11 เดือน"
+            },
+            {
+              "id": "b",
+              "text": "บดละเอียดแบบเดือนที่ 6",
+              "feedback": "ยังไม่ใช่ สมุดแนะนำให้ค่อย ๆ เพิ่มความหยาบของอาหารตามอายุ"
+            },
+            {
+              "id": "c",
+              "text": "สับละเอียด",
+              "feedback": "ถูกต้อง อายุ 8–9 เดือน อาหารสับละเอียด"
+            }
+          ],
+          "correctOptionId": "c",
+          "explanation": "ในตาราง 7 เดือน บดหยาบ 8–9 เดือน สับละเอียด 10–11 เดือน หั่นชิ้นเล็ก ค่อย ๆ เพิ่มความหยาบตามอายุ เพื่อฝึกการเคี้ยวและกลืนอาหาร",
+          "source": {
+            "pdfPages": [
+              56,
+              57
+            ],
+            "printedPages": [
+              "54",
+              "55"
+            ]
+          }
+        },
+        {
+          "id": "q4",
+          "kind": "mcq",
+          "prompt": "เมื่อเด็กอายุ 10 - 11 เดือน กินอาหารวันละ 3 มื้อ สมุดแนะนำเรื่องไข่ว่าอย่างไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "ให้กินไข่ทั้งฟอง (ไข่ขาวและไข่แดง) อย่างน้อยวันละครึ่งฟอง ร่วมกับเนื้อสัตว์ชนิดอื่น ๆ",
+              "feedback": "ถูกต้อง นี่คือคำแนะนำข้อ 6 ในสมุด"
+            },
+            {
+              "id": "b",
+              "text": "ให้กินเฉพาะไข่แดง ไม่ให้ไข่ขาว",
+              "feedback": "ยังไม่ใช่ ที่อายุ 10 - 11 เดือน สมุดแนะนำไข่ทั้งฟอง (ไข่ขาวและไข่แดง)"
+            },
+            {
+              "id": "c",
+              "text": "ไม่ให้ไข่ ให้กินเนื้อสัตว์อย่างเดียว",
+              "feedback": "ยังไม่ใช่ สมุดแนะนำไข่ทั้งฟอง ร่วมกับเนื้อสัตว์ชนิดอื่น ๆ"
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "เมื่อเด็กอายุ 10 - 11 เดือน กินอาหารวันละ 3 มื้อ ควรให้กินไข่ทั้งฟอง (ไข่ขาวและไข่แดง) อย่างน้อยวันละครึ่งฟอง ร่วมกับเนื้อสัตว์ชนิดอื่น ๆ",
+          "source": {
+            "pdfPages": [
+              57
+            ],
+            "printedPages": [
+              "55"
+            ]
+          }
+        },
+        {
+          "id": "q5",
+          "kind": "scenario",
+          "scenario": "คนในบ้านกำลังเตรียมอาหารให้ลูกอายุ 9 เดือน",
+          "prompt": "ตามสมุด ควรเน้นเรื่องใด",
+          "options": [
+            {
+              "id": "a",
+              "text": "รักษาความสะอาดและความปลอดภัยของวัตถุดิบ ภาชนะ และมือของผู้ปรุงและป้อนอาหาร",
+              "feedback": "ถูกต้อง นี่คือคำแนะนำข้อ 8 ในสมุด"
+            },
+            {
+              "id": "b",
+              "text": "เติมน้ำปลานิดหน่อยให้อาหารมีรส",
+              "feedback": "ยังไม่ใช่ สมุดแนะนำว่าไม่ควรปรุงแต่งรสอาหาร"
+            },
+            {
+              "id": "c",
+              "text": "ล้างเฉพาะชามของลูก ส่วนมือไม่ต้องล้าง",
+              "feedback": "ยังไม่ครบ สมุดให้รักษาความสะอาดทั้งวัตถุดิบ ภาชนะ และมือของผู้ปรุงและป้อนอาหาร"
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "ควรเน้นรักษาความสะอาดและความปลอดภัยของวัตถุดิบ ภาชนะที่ใช้ปรุงและใส่อาหาร ตลอดจนมือของผู้ปรุงและป้อนอาหาร",
+          "source": {
+            "pdfPages": [
+              57
+            ],
+            "printedPages": [
+              "55"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "takeaways",
+      "heading": "สรุปสิ่งสำคัญ",
+      "items": [
+        "กินนมแม่ควบคู่กับอาหารทารกตามวัย จนเด็กอายุ 2 ปี หรือนานกว่านั้น",
+        "จำนวนมื้อ: 7 เดือน สัปดาห์ที่ 1–2 กิน 1 มื้อ, 7 เดือน สัปดาห์ที่ 3 ถึง 9 เดือน กิน 2 มื้อ, 10–11 เดือน กิน 3 มื้อ",
+        "ลักษณะอาหาร: 7 เดือน บดหยาบ, 8–9 เดือน สับละเอียด, 10–11 เดือน หั่นชิ้นเล็ก",
+        "ไม่ปรุงแต่งรสอาหาร และรักษาความสะอาดของวัตถุดิบ ภาชนะ และมือของคนปรุงและคนป้อน",
+        "ปริมาณข้าว เนื้อสัตว์ ไข่ ตับ ผัก และผลไม้ ดูได้จากตารางในสมุดหน้า 55"
+      ],
+      "familyNote": "คนที่ช่วยทำอาหารหรือป้อนอาหารลูก เช่น ปู่ย่าตายาย หรือคนที่ช่วยเลี้ยง เปิดตารางในสมุดหน้า 55 ดูด้วยกันได้ จะได้ให้อาหารตามวัยแบบเดียวกัน และทุกคนช่วยกันล้างมือและภาชนะให้สะอาดก่อนปรุงและป้อนอาหาร"
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "id": "MCH68-K-015",
+  "version": "0.1.1",
+  "title": "ป้องกันการจมน้ำและการอุดกั้นทางเดินหายใจ",
+  "summary": "น้ำเพียง 1-2 นิ้ว ก็ทำให้เด็กจมน้ำได้ และวิธีป้องกันการอุดกั้นทางเดินหายใจจากที่นอน ของเล่นชิ้นเล็ก ของเล่นสายยาว และถุงพลาสติก ตามสมุดสีชมพูหน้า 29",
+  "sectionId": "knowledge",
+  "stages": [
+    "newborn",
+    "child"
+  ],
+  "audience": [
+    "mother",
+    "family"
+  ],
+  "minutes": 5,
+  "objectives": [
+    "ผู้เรียนบอกวิธีป้องกันการจมน้ำได้: สวมชูชีพ ผู้ปกครองดูแลใกล้ชิด กั้นรั้วรอบแหล่งน้ำ และระวังน้ำในภาชนะ",
+    "ผู้เรียนบอกได้ว่าน้ำเพียง 1-2 นิ้ว สามารถทำให้เด็กจมน้ำได้",
+    "ผู้เรียนบอกวิธีป้องกันการอุดกั้นทางเดินหายใจได้: ที่นอนไม่นิ่มจนยุบ ไม่ปล่อยให้เล่นของเล่นชิ้นเล็ก เลี่ยงของเล่นสายยาวและถุงพลาสติก"
+  ],
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      31
+    ],
+    "printedPages": [
+      "29"
+    ],
+    "note": "ส่วน 'การป้องกันการจมน้ำ' และ 'การป้องกันการอุดกั้นทางเดินหายใจ' ครึ่งล่างของหน้า และข้อความข้างหน้า 'อุบัติเหตุ เป็นสาเหตุการเสียชีวิตอันดับต้น ๆ ของเด็ก' บทเรียนนี้สอนเฉพาะการป้องกัน ไม่สอนการปฐมพยาบาล (หน้า 30 ของสมุด อยู่ในบทเรียนอื่น)"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "All prevention lines are from PDF p31 (printed 29), checked on the official page image: drowning — 'สวมชูชีพ ผู้ปกครองดูแลใกล้ชิด'; 'กั้นรั้วรอบแหล่งน้ำ ระวังน้ำในภาชนะ น้ำเพียง 1-2 นิ้ว สามารถทำให้เด็กจมน้ำได้'; airway — 'ที่นอนไม่นิ่มจนยุบ'; 'ไม่ปล่อยให้เล่นของเล่นชิ้นเล็ก'; 'เลี่ยงของเล่นสายยาว/ถุงพลาสติก'; margin tip 'อุบัติเหตุ เป็นสาเหตุการเสียชีวิตอันดับต้น ๆ ของเด็ก'.",
+      "Scope: PREVENTION only. No first aid is taught (no back blows, chest/abdominal thrusts, CPR, 1669 steps). Text step 3 has one sentence pointing to printed page 30 (PDF p32) for what to do if something is stuck in the airway; that content belongs to high-risk lessons K-016/K-017.",
+      "Examples of 'ภาชนะ' (ถังน้ำ กะละมัง โอ่ง) and of 'แหล่งน้ำ' (บ่อ สระ) are added for local relevance; the handbook only says 'ภาชนะ' and 'แหล่งน้ำ' (illustrations: a pool, a fenced pond). Reviewer to confirm.",
+      "Examples of 'ของเล่นชิ้นเล็ก' (ลูกปัด) and 'ของเล่นสายยาว' (โทรศัพท์ของเล่นแบบมีสายลาก) come from the p31 illustrations, not the printed text.",
+      "The handbook gives no reasons (e.g. why soft mattresses or long cords are risky); the lesson adds none and does not define 'ชิ้นเล็ก' or 'สายยาว' by size/length.",
+      "Text step 1 sentence 'น้ำตื้นแค่ก้นถัง ก็อันตรายได้' restates '1-2 นิ้ว' with a local example — app framing.",
+      "Quiz scenarios q2 (bucket in the bathroom, crawling child) and q5 (family at a pond/pool with life jackets) and all wrong options are written for this lesson.",
+      "Family note is app framing that repeats the printed rules. Needs approval.",
+      "PMH clarification (from curriculum): local water hazards (water jars, ponds, river) for illustrations only — used as examples in text; no new rules.",
+      "Paediatrician / injury-prevention nurse to review (curriculum review requirement)."
+    ]
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "First draft from official handbook PDF p31 (2nd printing, April 2569); drowning and airway-obstruction prevention only."
+    },
+    {
+      "version": "0.1.1",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "Added video step V-K-015 (narration derived from this lesson; no text changes)."
+    }
+  ],
+  "steps": [
+    {
+      "type": "text",
+      "heading": "ป้องกันการจมน้ำ",
+      "paragraphs": [
+        "สมุดสีชมพูหน้า 29 เขียนไว้ว่า อุบัติเหตุ เป็นสาเหตุการเสียชีวิตอันดับต้น ๆ ของเด็ก",
+        "สวมชูชีพ และผู้ปกครองดูแลใกล้ชิด",
+        "กั้นรั้วรอบแหล่งน้ำ เช่น บ่อ สระ และระวังน้ำในภาชนะ เช่น ถังน้ำ กะละมัง โอ่ง",
+        "น้ำเพียง 1-2 นิ้ว สามารถทำให้เด็กจมน้ำได้ น้ำตื้นแค่ก้นถัง ก็อันตรายได้"
+      ]
+    },
+    {
+      "type": "video",
+      "heading": "ดูวิดีโอสรุป",
+      "videoId": "V-K-015"
+    },
+    {
+      "type": "text",
+      "heading": "ป้องกันการอุดกั้นทางเดินหายใจ",
+      "paragraphs": [
+        "ที่นอนไม่นิ่มจนยุบ",
+        "ไม่ปล่อยให้เล่นของเล่นชิ้นเล็ก ภาพในสมุดเป็นเด็กกับถาดลูกปัดเม็ดเล็ก ๆ",
+        "เลี่ยงของเล่นสายยาว และถุงพลาสติก ภาพในสมุดเป็นโทรศัพท์ของเล่นที่มีสายลาก ตุ๊กตา และถุงพลาสติก"
+      ]
+    },
+    {
+      "type": "text",
+      "heading": "ถ้ามีอะไรติดคอ",
+      "paragraphs": [
+        "บทเรียนนี้เป็นเรื่องการป้องกัน ถ้ามีสิ่งแปลกปลอมติดคอเด็ก วิธีช่วยเหลืออยู่ในสมุดหน้า 30"
+      ]
+    },
+    {
+      "type": "sort",
+      "heading": "ข้อนี้ป้องกันอะไร",
+      "intro": "แตะการ์ดหนึ่งใบ แล้วแตะกล่องที่ตรงกับสมุดหน้า 29",
+      "buckets": [
+        {
+          "id": "water",
+          "label": "ป้องกันการจมน้ำ"
+        },
+        {
+          "id": "airway",
+          "label": "ป้องกันการอุดกั้นทางเดินหายใจ"
+        }
+      ],
+      "items": [
+        {
+          "id": "s1",
+          "text": "สวมชูชีพ",
+          "bucketId": "water"
+        },
+        {
+          "id": "s2",
+          "text": "ที่นอนไม่นิ่มจนยุบ",
+          "bucketId": "airway"
+        },
+        {
+          "id": "s3",
+          "text": "กั้นรั้วรอบแหล่งน้ำ",
+          "bucketId": "water"
+        },
+        {
+          "id": "s4",
+          "text": "ไม่ปล่อยให้เล่นของเล่นชิ้นเล็ก",
+          "bucketId": "airway"
+        },
+        {
+          "id": "s5",
+          "text": "ระวังน้ำในภาชนะ",
+          "bucketId": "water"
+        },
+        {
+          "id": "s6",
+          "text": "เลี่ยงของเล่นสายยาว",
+          "bucketId": "airway"
+        },
+        {
+          "id": "s7",
+          "text": "ผู้ปกครองดูแลใกล้ชิดเมื่ออยู่ในน้ำ",
+          "bucketId": "water"
+        },
+        {
+          "id": "s8",
+          "text": "เลี่ยงถุงพลาสติก",
+          "bucketId": "airway"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "heading": "ทบทวนความเข้าใจ",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "prompt": "ตามสมุด น้ำลึกเท่าไร ก็สามารถทำให้เด็กจมน้ำได้",
+          "options": [
+            {
+              "id": "a",
+              "text": "ต้องลึกถึงเอวเด็ก",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า น้ำเพียง 1-2 นิ้ว สามารถทำให้เด็กจมน้ำได้"
+            },
+            {
+              "id": "b",
+              "text": "เพียง 1-2 นิ้ว",
+              "feedback": "ถูกต้อง น้ำเพียง 1-2 นิ้ว สามารถทำให้เด็กจมน้ำได้"
+            },
+            {
+              "id": "c",
+              "text": "ต้องลึกอย่างน้อย 1 เมตร",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า น้ำเพียง 1-2 นิ้ว ก็ทำให้เด็กจมน้ำได้"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "สมุดหน้า 29: กั้นรั้วรอบแหล่งน้ำ ระวังน้ำในภาชนะ น้ำเพียง 1-2 นิ้ว สามารถทำให้เด็กจมน้ำได้",
+          "source": {
+            "pdfPages": [
+              31
+            ],
+            "printedPages": [
+              "29"
+            ]
+          }
+        },
+        {
+          "id": "q2",
+          "kind": "scenario",
+          "scenario": "ในห้องน้ำมีถังน้ำที่เหลือน้ำอยู่ก้นถังนิดเดียว ลูกวัย 10 เดือนกำลังคลานไปมาในบ้าน",
+          "prompt": "ข้อใดตรงกับสมุด",
+          "options": [
+            {
+              "id": "a",
+              "text": "น้ำนิดเดียว ไม่อันตราย",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า น้ำเพียง 1-2 นิ้ว สามารถทำให้เด็กจมน้ำได้"
+            },
+            {
+              "id": "b",
+              "text": "อันตรายเฉพาะบ่อหรือสระ ไม่ใช่ถังน้ำ",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า ระวังน้ำในภาชนะด้วย"
+            },
+            {
+              "id": "c",
+              "text": "ต้องระวัง เพราะน้ำเพียง 1-2 นิ้ว ก็ทำให้เด็กจมน้ำได้",
+              "feedback": "ถูกต้อง ระวังน้ำในภาชนะ น้ำเพียง 1-2 นิ้ว สามารถทำให้เด็กจมน้ำได้"
+            }
+          ],
+          "correctOptionId": "c",
+          "explanation": "สมุดหน้า 29: ระวังน้ำในภาชนะ น้ำเพียง 1-2 นิ้ว สามารถทำให้เด็กจมน้ำได้",
+          "source": {
+            "pdfPages": [
+              31
+            ],
+            "printedPages": [
+              "29"
+            ]
+          }
+        },
+        {
+          "id": "q3",
+          "kind": "truefalse",
+          "prompt": "สมุดแนะนำว่า ไม่ปล่อยให้เด็กเล่นของเล่นชิ้นเล็ก จริงหรือไม่",
+          "options": [
+            {
+              "id": "t",
+              "text": "จริง",
+              "feedback": "ถูกต้อง สมุดเขียนว่า ไม่ปล่อยให้เล่นของเล่นชิ้นเล็ก"
+            },
+            {
+              "id": "f",
+              "text": "ไม่จริง",
+              "feedback": "ไม่ใช่ สมุดหน้า 29 เขียนว่า ไม่ปล่อยให้เล่นของเล่นชิ้นเล็ก"
+            }
+          ],
+          "correctOptionId": "t",
+          "explanation": "สมุดหน้า 29 หัวข้อการป้องกันการอุดกั้นทางเดินหายใจ: ไม่ปล่อยให้เล่นของเล่นชิ้นเล็ก",
+          "source": {
+            "pdfPages": [
+              31
+            ],
+            "printedPages": [
+              "29"
+            ]
+          }
+        },
+        {
+          "id": "q4",
+          "kind": "mcq",
+          "prompt": "ที่นอนของลูกควรเป็นอย่างไร ตามสมุด",
+          "options": [
+            {
+              "id": "a",
+              "text": "ไม่นิ่มจนยุบ",
+              "feedback": "ถูกต้อง สมุดเขียนว่า ที่นอนไม่นิ่มจนยุบ"
+            },
+            {
+              "id": "b",
+              "text": "ยิ่งนิ่มยิ่งดี",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า ที่นอนไม่นิ่มจนยุบ"
+            },
+            {
+              "id": "c",
+              "text": "มีถุงพลาสติกรองกันเปื้อน",
+              "feedback": "ยังไม่ใช่ สมุดบอกให้เลี่ยงถุงพลาสติก และที่นอนไม่นิ่มจนยุบ"
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "สมุดหน้า 29 หัวข้อการป้องกันการอุดกั้นทางเดินหายใจ: ที่นอนไม่นิ่มจนยุบ",
+          "source": {
+            "pdfPages": [
+              31
+            ],
+            "printedPages": [
+              "29"
+            ]
+          }
+        },
+        {
+          "id": "q5",
+          "kind": "scenario",
+          "scenario": "ครอบครัวพาลูกไปเล่นน้ำ ลูกสวมชูชีพเรียบร้อยแล้ว",
+          "prompt": "ตามสมุด ผู้ใหญ่ควรทำอย่างไรต่อ",
+          "options": [
+            {
+              "id": "a",
+              "text": "ใส่ชูชีพแล้ว ปล่อยให้เล่นเองได้",
+              "feedback": "ยังไม่ใช่ สมุดเขียนคู่กันว่า สวมชูชีพ ผู้ปกครองดูแลใกล้ชิด"
+            },
+            {
+              "id": "b",
+              "text": "นั่งพักบนฝั่ง แล้วมองดูเป็นระยะ",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า ผู้ปกครองดูแลใกล้ชิด"
+            },
+            {
+              "id": "c",
+              "text": "ผู้ปกครองดูแลใกล้ชิด",
+              "feedback": "ถูกต้อง สวมชูชีพ และผู้ปกครองดูแลใกล้ชิด"
+            }
+          ],
+          "correctOptionId": "c",
+          "explanation": "สมุดหน้า 29: สวมชูชีพ ผู้ปกครองดูแลใกล้ชิด ภาพในสมุดเป็นผู้ใหญ่และเด็กสวมชูชีพอยู่ในน้ำด้วยกัน",
+          "source": {
+            "pdfPages": [
+              31
+            ],
+            "printedPages": [
+              "29"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "takeaways",
+      "heading": "สรุปสิ่งสำคัญ",
+      "items": [
+        "สวมชูชีพ และผู้ปกครองดูแลใกล้ชิด",
+        "กั้นรั้วรอบแหล่งน้ำ ระวังน้ำในภาชนะ",
+        "น้ำเพียง 1-2 นิ้ว สามารถทำให้เด็กจมน้ำได้",
+        "ที่นอนไม่นิ่มจนยุบ ไม่ปล่อยให้เล่นของเล่นชิ้นเล็ก",
+        "เลี่ยงของเล่นสายยาว และถุงพลาสติก"
+      ],
+      "familyNote": "คนในครอบครัวและคนที่ดูแลเด็กช่วยกันได้ เช่น ปู่ย่าตายาย ช่วยระวังน้ำในถัง กะละมัง หรือโอ่ง ไม่ปล่อยให้เด็กเล่นของเล่นชิ้นเล็ก และเลี่ยงของเล่นสายยาวกับถุงพลาสติก"
+    }
+  ]
+}

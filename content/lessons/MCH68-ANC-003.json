@@ -1,0 +1,419 @@
+{
+  "id": "MCH68-ANC-003",
+  "version": "0.1.1",
+  "title": "ทำไมเจ้าหน้าที่ประเมินความเสี่ยงการตั้งครรภ์เมื่อมาฝากครรภ์",
+  "summary": "สมุดหน้า 6-7 เป็นแบบประเมินความเสี่ยงที่เจ้าหน้าที่เป็นผู้ประเมิน ผลใช้พิจารณาสถานที่ฝากครรภ์และผู้ดูแล ตอบตามจริงและมาฝากครรภ์สม่ำเสมอ ช่วยลดความเสี่ยง",
+  "sectionId": "anc",
+  "stages": [
+    "pregnancy"
+  ],
+  "audience": [
+    "mother",
+    "family"
+  ],
+  "minutes": 5,
+  "objectives": [
+    "ผู้เรียนบอกได้ว่าเจ้าหน้าที่ประเมินความเสี่ยงจากประวัติอดีต ประวัติปัจจุบัน และประวัติโรคทางอายุรกรรม ในการฝากครรภ์ครั้งที่ 1 และติดตามบางข้อในการฝากครรภ์ครั้งต่อ ๆ ไป",
+    "ผู้เรียนอธิบายได้ว่าระดับความเสี่ยงใช้พิจารณาสถานที่ฝากครรภ์และผู้ดูแล (รพ.สต. รพช. รพท./รพศ.)",
+    "ผู้เรียนบอกได้ว่าหญิงที่มีโรคประจำตัวบางโรค เมื่อตั้งครรภ์อาการของโรคอาจเพิ่มมากขึ้น ควรปรึกษาแพทย์หรือบุคลากรทางสาธารณสุข",
+    "ผู้เรียนอธิบายได้ว่าภาวะแทรกซ้อนอาจพบได้ตลอดช่วงการตั้งครรภ์ และการมาฝากครรภ์ที่สม่ำเสมอช่วยลดความเสี่ยง"
+  ],
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      8,
+      9
+    ],
+    "printedPages": [
+      "6",
+      "7"
+    ],
+    "note": "หน้า 6-7 หมวดข้อมูลฝากครรภ์ (หน้าสำหรับเจ้าหน้าที่): 'ประเมินความเสี่ยงของหญิงตั้งครรภ์ ฝากครรภ์ ครั้งที่ 1' และ 'ติดตามความเสี่ยงของหญิงตั้งครรภ์เมื่อมาฝากครรภ์' ใช้เฉพาะชื่อหน้า ชื่อกลุ่มประวัติ ช่องผู้ประเมิน/วันที่ ตารางระดับความเสี่ยงกับสถานที่ฝากครรภ์ และข้อความแนะนำที่ขอบหน้า ไม่แสดงข้อคำถามในแบบประเมิน ข้อความเรื่องให้ข้อมูลครบถ้วนมาจาก PDF p5 (หน้า 3) และเรื่องมาตามนัดจาก PDF p67"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Page titles, the three group headings (ประวัติอดีต / ประวัติปัจจุบัน / ประวัติโรคทางอายุรกรรม), the ไม่มี | มี columns, ผู้ประเมิน / วันที่, the line '(ข้อ 1-16 ประเมินเฉพาะการฝากครรภ์ ครั้งที่ 1)', the visit columns ครั้งที่ 2 to ครั้งที่ 8, the 4-level placement legend and both margin tips are from PDF p8-9 (printed 6-7), checked on the page images and rotated crops of both margin strips. Tips quoted word for word: p8 'หญิงที่มีโรคประจำตัวบางโรค เมื่อมีการตั้งครรภ์อาจทำให้อาการของโรคเพิ่มมากขึ้น ควรปรึกษาแพทย์หรือบุคลากรทางสาธารณสุข'; p9 'ภาวะแทรกซ้อนอาจพบได้ตลอดช่วงการตั้งครรภ์ การมาฝากครรภ์ที่สม่ำเสมอจะช่วยลดความเสี่ยงในการเกิดภาวะแทรกซ้อนได้'.",
+      "NOT shown (by design, staff-only page): none of the 27 checklist items, no thresholds (age, BMI, BP, Hb/Hct, birth weight), no row colours, no colour of any level, and nothing that links a condition to a level. The app gives no self-assessment and never tells a user her level. ANC nurse + obstetrician to confirm.",
+      "Placement legend (Low Risk / High Risk 1 / High Risk 2 / High Risk 3 with facility and provider) is copied as printed, as plain labels without the printed colour bands. Abbreviations (รพ.สต., รพช., รพช.แม่ข่าย, รพท., รพศ.) are not expanded. Objective 2 keeps the curriculum's short list of facility types.",
+      "Title is the curriculum title ('ทุกครั้งที่มาฝากครรภ์'). The handbook's follow-up grid only has columns for visits 2-8, and items 1-16 are assessed only at visit 1. Lesson text says 'บางข้อ' and 'ครั้งที่ 2 ถึงครั้งที่ 8' as table columns; it does not say how many ANC visits a woman will have. Consider retitling to match p9 ('ติดตามความเสี่ยง...เมื่อมาฝากครรภ์').",
+      "Honest-answer framing is editorial: text step 2 paragraph 3 ('บางคำถามอาจเป็นเรื่องส่วนตัว ตอบตามจริง ถ้ากังวลเรื่องใด บอกเจ้าหน้าที่ได้'), quiz q2, the sort card 'ไม่อยากเล่า ตอบว่า ไม่มี ไปก่อนก็ได้' (ไม่จริง) and takeaway 3. The rationale quotes the p5 tip (printed 3), which is about past pregnancies; the lesson extends it to the whole risk interview. ANC nurse to approve.",
+      "'Keep coming to appointments after the first assessment' (text step 3 paragraph 3, quiz q3, sort card) rests on the p9 tip and p67 item 5 ('มาตามนัด'), not on a schedule; no visit timing is given.",
+      "Text step 1 paragraph 3 and the timeline intro ('this lesson does not let you assess yourself; staff explain the result') and the sort card 'ใช้แอปนี้ประเมินระดับความเสี่ยงของตัวเองได้' (ไม่จริง) are app framing, not handbook text.",
+      "Timeline item 11 ('ถ้าเจ้าหน้าที่แนะนำให้ไปฝากครรภ์ที่อื่น ถามเจ้าหน้าที่ได้ว่าต้องไปที่ไหน') is editorial; the handbook gives no referral process.",
+      "Quiz q2 (a question feels personal) and q3 (felt well after visit 1, thinks of skipping) are situations written for this lesson. q3 mentions being told she can continue ANC at รพ.สต.; it does not name a risk level. Feedback is worded not to blame.",
+      "Family note is app framing written for this lesson (help attend appointments, recall family illness history, help plan travel if staff advise another place). Needs approval.",
+      "Interactivity: curriculum 'diagram of 4 care levels' realised as the timeline stage 'ระดับความเสี่ยงและสถานที่ฝากครรภ์' (labels only, no colours, no criteria); 'myth/fact card' realised as a จริง / ไม่จริง sort.",
+      "HANDBOOK ISSUE: PDF p8 (printed 6) item 19 prints the anaemia threshold as 'Hb < 11 mg/dL'; the unit appears wrong for haemoglobin (likely g/dL). Staff-side page; not reproduced in the lesson. Report to กรมอนามัย.",
+      "PMH CLARIFICATION (from curriculum): PMH's own place in the referral tiers and where high-risk women are referred. Not added; PMH to supply before any local wording.",
+      "PMH CLARIFICATION (from curriculum): the p9 QR code ('สแกน QR Code เพื่อดูรายละเอียดของความเสี่ยงแต่ละกลุ่ม') target is not verified. Not mentioned in the lesson.",
+      "PMH CLARIFICATION (from curriculum): p8 anaemia threshold unit ('Hb < 11 mg/dL') — not reproduced (see HANDBOOK ISSUE).",
+      "Review requirement (from curriculum): ANC nurse + obstetrician to confirm that no checklist item or colour code is presented as a self-assessment.",
+      "Title changed from '…ทุกครั้งที่มาฝากครรภ์' to '…เมื่อมาฝากครรภ์': the p9 grid covers visits 2–8 and items 1–16 are assessed at visit 1 only."
+    ]
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "First draft from official handbook PDF p8-9 (2nd printing, April 2569); awareness only: who assesses, why, placement legend and margin tips. No checklist items, colours or levels as a self-check."
+    },
+    {
+      "version": "0.1.1",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "Added video step V-ANC-003 (narration derived from this lesson; no text changes)."
+    }
+  ],
+  "steps": [
+    {
+      "type": "text",
+      "heading": "สมุดหน้า 6-7: แบบประเมินที่เจ้าหน้าที่เป็นผู้ทำ",
+      "paragraphs": [
+        "สมุดหน้า 6 ชื่อ 'ประเมินความเสี่ยงของหญิงตั้งครรภ์ ฝากครรภ์ ครั้งที่ 1' และหน้า 7 ชื่อ 'ติดตามความเสี่ยงของหญิงตั้งครรภ์เมื่อมาฝากครรภ์'",
+        "สองหน้านี้เป็นแบบประเมินที่เจ้าหน้าที่ใช้ ท้ายตารางมีช่อง 'ผู้ประเมิน' และ 'วันที่' ให้เจ้าหน้าที่ลงชื่อ",
+        "บทเรียนนี้ไม่ได้ให้ประเมินตัวเอง และไม่บอกว่าข้อใดหมายถึงความเสี่ยงระดับใด ผลการประเมิน เจ้าหน้าที่จะอธิบายให้ฟัง"
+      ]
+    },
+    {
+      "type": "video",
+      "heading": "ดูวิดีโอสรุป",
+      "videoId": "V-ANC-003"
+    },
+    {
+      "type": "text",
+      "heading": "ทำไมต้องตอบตามจริง",
+      "paragraphs": [
+        "เจ้าหน้าที่ถามประวัติ 3 กลุ่ม คือ ประวัติอดีต ประวัติปัจจุบัน และประวัติโรคทางอายุรกรรม แล้วทำเครื่องหมายในช่อง 'ไม่มี' หรือ 'มี'",
+        "สมุดหน้า 3 เขียนว่า การให้ข้อมูลเกี่ยวกับการตั้งครรภ์ที่ผ่านมาอย่างครบถ้วนถูกต้อง ช่วยป้องกันความเสี่ยงต่อภาวะแทรกซ้อนในการตั้งครรภ์ปัจจุบัน",
+        "บางคำถามอาจเป็นเรื่องส่วนตัว ตอบตามจริง ถ้ากังวลเรื่องใด บอกเจ้าหน้าที่ได้",
+        "ข้อความที่ขอบหน้า 6: หญิงที่มีโรคประจำตัวบางโรค เมื่อมีการตั้งครรภ์อาจทำให้อาการของโรคเพิ่มมากขึ้น ควรปรึกษาแพทย์หรือบุคลากรทางสาธารณสุข"
+      ]
+    },
+    {
+      "type": "text",
+      "heading": "ทำไมติดตามซ้ำเมื่อมาฝากครรภ์",
+      "paragraphs": [
+        "หน้า 7 เขียนว่า (ข้อ 1-16 ประเมินเฉพาะการฝากครรภ์ ครั้งที่ 1) ข้ออื่นมีตารางให้เจ้าหน้าที่ติดตาม ในช่องครั้งที่ 2 ถึงครั้งที่ 8",
+        "ข้อความที่ขอบหน้า 7: ภาวะแทรกซ้อนอาจพบได้ตลอดช่วงการตั้งครรภ์ การมาฝากครรภ์ที่สม่ำเสมอจะช่วยลดความเสี่ยงในการเกิดภาวะแทรกซ้อนได้",
+        "ประเมินครั้งแรกแล้ว ครั้งต่อไปก็ยังมาตามนัด เพราะเจ้าหน้าที่ติดตามความเสี่ยงต่อเนื่อง"
+      ]
+    },
+    {
+      "type": "timeline",
+      "heading": "จากการประเมิน สู่สถานที่ฝากครรภ์",
+      "intro": "แตะแต่ละขั้น บทเรียนนี้ไม่แสดงข้อคำถามในแบบประเมิน และไม่ใช้ประเมินตัวเอง เจ้าหน้าที่เป็นผู้ประเมินและอธิบายผล",
+      "stages": [
+        {
+          "id": "first",
+          "label": "ฝากครรภ์ครั้งที่ 1",
+          "items": [
+            {
+              "n": 1,
+              "title": "ประวัติอดีต",
+              "detail": "กลุ่มแรกในหน้า 6 เจ้าหน้าที่ถาม แล้วทำเครื่องหมาย ไม่มี หรือ มี"
+            },
+            {
+              "n": 2,
+              "title": "ประวัติปัจจุบัน",
+              "detail": "กลุ่มที่สองในหน้า 6 เจ้าหน้าที่ถาม แล้วทำเครื่องหมาย ไม่มี หรือ มี"
+            },
+            {
+              "n": 3,
+              "title": "ประวัติโรคทางอายุรกรรม",
+              "detail": "กลุ่มที่สามในหน้า 6 เจ้าหน้าที่ถาม แล้วทำเครื่องหมาย ไม่มี หรือ มี"
+            },
+            {
+              "n": 4,
+              "title": "ผู้ประเมิน / วันที่",
+              "detail": "เจ้าหน้าที่ลงชื่อและวันที่ท้ายตาราง"
+            }
+          ]
+        },
+        {
+          "id": "follow",
+          "label": "ฝากครรภ์ครั้งต่อ ๆ ไป",
+          "items": [
+            {
+              "n": 5,
+              "title": "ตารางติดตามในหน้า 7",
+              "detail": "มีช่องครั้งที่ 2 ถึงครั้งที่ 8 แต่ละครั้งมีช่อง ไม่มี / มี และช่องผู้ประเมิน วันที่"
+            },
+            {
+              "n": 6,
+              "title": "บางข้อติดตามซ้ำ",
+              "detail": "หน้า 7 เขียนว่า ข้อ 1-16 ประเมินเฉพาะการฝากครรภ์ ครั้งที่ 1 ข้ออื่นเจ้าหน้าที่ติดตามเมื่อมาฝากครรภ์"
+            }
+          ]
+        },
+        {
+          "id": "place",
+          "label": "ระดับความเสี่ยงและสถานที่ฝากครรภ์",
+          "items": [
+            {
+              "n": 7,
+              "title": "Low Risk",
+              "detail": "ANC ที่ รพ.สต. โดยเจ้าหน้าที่พยาบาล"
+            },
+            {
+              "n": 8,
+              "title": "High Risk 1",
+              "detail": "ANC ที่ รพช. โดยแพทย์/พยาบาล"
+            },
+            {
+              "n": 9,
+              "title": "High Risk 2",
+              "detail": "ANC ที่ รพช.แม่ข่าย, รพท. โดยสูติแพทย์"
+            },
+            {
+              "n": 10,
+              "title": "High Risk 3",
+              "detail": "ANC ที่ รพท./รพศ. โดยสูติแพทย์, อนุสาขาเวชศาสตร์มารดาและทารกในครรภ์"
+            },
+            {
+              "n": 11,
+              "title": "ใครเป็นผู้พิจารณา",
+              "detail": "เจ้าหน้าที่เป็นผู้ประเมินและพิจารณาสถานที่ฝากครรภ์ ถ้าเจ้าหน้าที่แนะนำให้ไปฝากครรภ์ที่อื่น ถามเจ้าหน้าที่ได้ว่าต้องไปที่ไหน"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "heading": "จริงหรือไม่จริง",
+      "intro": "แตะข้อความหนึ่งใบ แล้วแตะ จริง หรือ ไม่จริง",
+      "buckets": [
+        {
+          "id": "true",
+          "label": "จริง"
+        },
+        {
+          "id": "false",
+          "label": "ไม่จริง"
+        }
+      ],
+      "items": [
+        {
+          "id": "s1",
+          "text": "เจ้าหน้าที่เป็นผู้ประเมินและลงชื่อในแบบประเมิน",
+          "bucketId": "true"
+        },
+        {
+          "id": "s2",
+          "text": "ประเมินครั้งแรกแล้ว ไม่ต้องมาตามนัดอีก",
+          "bucketId": "false"
+        },
+        {
+          "id": "s3",
+          "text": "ภาวะแทรกซ้อนอาจพบได้ตลอดช่วงการตั้งครรภ์",
+          "bucketId": "true"
+        },
+        {
+          "id": "s4",
+          "text": "ใช้แอปนี้ประเมินระดับความเสี่ยงของตัวเองได้",
+          "bucketId": "false"
+        },
+        {
+          "id": "s5",
+          "text": "ระดับความเสี่ยงใช้พิจารณาสถานที่ฝากครรภ์และผู้ดูแล",
+          "bucketId": "true"
+        },
+        {
+          "id": "s6",
+          "text": "เรื่องที่ไม่อยากเล่า ตอบว่า 'ไม่มี' ไปก่อนก็ได้",
+          "bucketId": "false"
+        },
+        {
+          "id": "s7",
+          "text": "มีโรคประจำตัว ควรปรึกษาแพทย์หรือบุคลากรทางสาธารณสุข",
+          "bucketId": "true"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "heading": "ทบทวนความเข้าใจ",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "prompt": "ใครเป็นผู้ประเมินความเสี่ยงในสมุดหน้า 6 และ 7",
+          "options": [
+            {
+              "id": "a",
+              "text": "คุณแม่ประเมินเองจากแอป",
+              "feedback": "ยังไม่ใช่ แบบประเมินนี้เจ้าหน้าที่เป็นผู้ทำ และลงชื่อในช่องผู้ประเมิน"
+            },
+            {
+              "id": "b",
+              "text": "เจ้าหน้าที่ ซึ่งลงชื่อในช่องผู้ประเมิน",
+              "feedback": "ถูกต้อง เจ้าหน้าที่ประเมิน ลงชื่อ และลงวันที่"
+            },
+            {
+              "id": "c",
+              "text": "คนในครอบครัวช่วยกันทำเครื่องหมาย",
+              "feedback": "ยังไม่ใช่ คนในครอบครัวช่วยนึกประวัติได้ แต่ผู้ประเมินคือเจ้าหน้าที่"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "ท้ายตารางในสมุดหน้า 6 และหน้า 7 มีช่อง 'ผู้ประเมิน' และ 'วันที่' เจ้าหน้าที่เป็นผู้ประเมินและอธิบายผล",
+          "source": {
+            "pdfPages": [
+              8,
+              9
+            ],
+            "printedPages": [
+              "6",
+              "7"
+            ]
+          }
+        },
+        {
+          "id": "q2",
+          "kind": "scenario",
+          "scenario": "ตอนฝากครรภ์ครั้งแรก เจ้าหน้าที่ถามประวัติบางเรื่องที่คุณแม่รู้สึกไม่อยากพูด",
+          "prompt": "ควรทำอย่างไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "ตอบตามจริง ถ้ากังวลเรื่องใด บอกเจ้าหน้าที่ได้",
+              "feedback": "ใช่ ข้อมูลที่ครบถ้วนถูกต้อง ช่วยป้องกันความเสี่ยงต่อภาวะแทรกซ้อนในครรภ์นี้"
+            },
+            {
+              "id": "b",
+              "text": "ตอบว่า 'ไม่มี' เพื่อให้จบเร็ว",
+              "feedback": "เข้าใจได้ว่าบางเรื่องพูดยาก แต่ถ้าข้อมูลไม่ตรง เจ้าหน้าที่อาจประเมินความเสี่ยงไม่ถูกต้อง"
+            },
+            {
+              "id": "c",
+              "text": "ไม่มาฝากครรภ์อีก",
+              "feedback": "การมาฝากครรภ์ที่สม่ำเสมอช่วยลดความเสี่ยงในการเกิดภาวะแทรกซ้อน ถ้ากังวล บอกเจ้าหน้าที่ได้"
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "สมุดหน้า 3: การให้ข้อมูลเกี่ยวกับการตั้งครรภ์ที่ผ่านมาอย่างครบถ้วนถูกต้อง ช่วยป้องกันความเสี่ยงต่อภาวะแทรกซ้อนในการตั้งครรภ์ปัจจุบัน และหน้า 7: ผลการประเมินใช้พิจารณาสถานที่ฝากครรภ์และผู้ดูแล",
+          "source": {
+            "pdfPages": [
+              5,
+              9
+            ],
+            "printedPages": [
+              "3",
+              "7"
+            ]
+          }
+        },
+        {
+          "id": "q3",
+          "kind": "scenario",
+          "scenario": "หลังฝากครรภ์ครั้งแรก เจ้าหน้าที่บอกว่าฝากครรภ์ที่ รพ.สต. ต่อได้ คุณแม่รู้สึกสบายดี จึงคิดว่าครั้งต่อไปไม่ต้องไปตามนัด",
+          "prompt": "ควรทำอย่างไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "ไม่ต้องไปอีก เพราะประเมินแล้ว",
+              "feedback": "ภาวะแทรกซ้อนอาจพบได้ตลอดช่วงการตั้งครรภ์ เจ้าหน้าที่จึงติดตามความเสี่ยงทุกครั้งที่มา"
+            },
+            {
+              "id": "b",
+              "text": "ไปฝากครรภ์ตามนัดต่อ",
+              "feedback": "ใช่ การมาฝากครรภ์ที่สม่ำเสมอจะช่วยลดความเสี่ยงในการเกิดภาวะแทรกซ้อนได้"
+            },
+            {
+              "id": "c",
+              "text": "ไปอีกครั้งเมื่อใกล้คลอด",
+              "feedback": "ภาวะแทรกซ้อนอาจพบได้ตลอดช่วงการตั้งครรภ์ มาฝากครรภ์ตามนัดสม่ำเสมอดีกว่า"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "ข้อความที่ขอบสมุดหน้า 7: ภาวะแทรกซ้อนอาจพบได้ตลอดช่วงการตั้งครรภ์ การมาฝากครรภ์ที่สม่ำเสมอจะช่วยลดความเสี่ยงในการเกิดภาวะแทรกซ้อนได้ หน้า 7 มีตารางติดตามความเสี่ยงในการฝากครรภ์ครั้งต่อ ๆ ไป",
+          "source": {
+            "pdfPages": [
+              9
+            ],
+            "printedPages": [
+              "7"
+            ]
+          }
+        },
+        {
+          "id": "q4",
+          "kind": "mcq",
+          "prompt": "สมุดหน้า 7 บอกว่า การประเมินความเสี่ยงของหญิงตั้งครรภ์ ใช้เพื่ออะไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "ใช้กำหนดวันคลอด",
+              "feedback": "ยังไม่ใช่ หน้า 7 เขียนว่า ประเมินความเสี่ยงเพื่อพิจารณาสถานที่ฝากครรภ์"
+            },
+            {
+              "id": "b",
+              "text": "ใช้ตัดสินว่าไม่ต้องมาฝากครรภ์อีก",
+              "feedback": "ยังไม่ใช่ เจ้าหน้าที่ยังติดตามความเสี่ยงเมื่อมาฝากครรภ์ครั้งต่อ ๆ ไป"
+            },
+            {
+              "id": "c",
+              "text": "ใช้พิจารณาสถานที่ฝากครรภ์และผู้ดูแล",
+              "feedback": "ถูกต้อง แต่ละระดับมีสถานที่ฝากครรภ์และผู้ดูแลต่างกัน เจ้าหน้าที่เป็นผู้พิจารณา"
+            }
+          ],
+          "correctOptionId": "c",
+          "explanation": "หัวข้อในสมุดหน้า 7: 'ประเมินความเสี่ยงของหญิงตั้งครรภ์เพื่อพิจารณาสถานที่ฝากครรภ์' เช่น Low Risk : ANC ที่ รพ.สต. โดยเจ้าหน้าที่พยาบาล ไปจนถึง High Risk 3 : ANC ที่ รพท./รพศ. โดยสูติแพทย์, อนุสาขาเวชศาสตร์มารดาและทารกในครรภ์",
+          "source": {
+            "pdfPages": [
+              9
+            ],
+            "printedPages": [
+              "7"
+            ]
+          }
+        },
+        {
+          "id": "q5",
+          "kind": "truefalse",
+          "prompt": "หญิงที่มีโรคประจำตัวบางโรค เมื่อตั้งครรภ์อาการของโรคอาจเพิ่มมากขึ้น จึงควรปรึกษาแพทย์หรือบุคลากรทางสาธารณสุข จริงหรือไม่",
+          "options": [
+            {
+              "id": "t",
+              "text": "จริง",
+              "feedback": "ถูกต้อง เป็นข้อความที่พิมพ์ไว้ที่ขอบสมุดหน้า 6"
+            },
+            {
+              "id": "f",
+              "text": "ไม่จริง",
+              "feedback": "ยังไม่ใช่ สมุดหน้า 6 เขียนว่า อาการของโรคอาจเพิ่มมากขึ้น ควรปรึกษาแพทย์หรือบุคลากรทางสาธารณสุข"
+            }
+          ],
+          "correctOptionId": "t",
+          "explanation": "ข้อความที่ขอบสมุดหน้า 6: หญิงที่มีโรคประจำตัวบางโรค เมื่อมีการตั้งครรภ์อาจทำให้อาการของโรคเพิ่มมากขึ้น ควรปรึกษาแพทย์หรือบุคลากรทางสาธารณสุข",
+          "source": {
+            "pdfPages": [
+              8
+            ],
+            "printedPages": [
+              "6"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "takeaways",
+      "heading": "สรุปสิ่งสำคัญ",
+      "items": [
+        "สมุดหน้า 6-7 เป็นแบบประเมินความเสี่ยงที่เจ้าหน้าที่เป็นผู้ประเมินและลงชื่อ ไม่ใช่แบบประเมินตัวเอง",
+        "ผลการประเมินใช้พิจารณาสถานที่ฝากครรภ์และผู้ดูแล",
+        "ให้ข้อมูลครบถ้วนถูกต้อง ช่วยป้องกันความเสี่ยงต่อภาวะแทรกซ้อนในการตั้งครรภ์ปัจจุบัน",
+        "ภาวะแทรกซ้อนอาจพบได้ตลอดช่วงการตั้งครรภ์ มาฝากครรภ์สม่ำเสมอช่วยลดความเสี่ยง",
+        "มีโรคประจำตัว ควรปรึกษาแพทย์หรือบุคลากรทางสาธารณสุข"
+      ],
+      "familyNote": "คนในครอบครัวหรือคนที่ดูแลคุณแม่ ช่วยได้โดยช่วยให้คุณแม่ไปฝากครรภ์ตามนัดทุกครั้ง ช่วยนึกประวัติการเจ็บป่วยในครอบครัวไว้บอกเจ้าหน้าที่ และถ้าเจ้าหน้าที่แนะนำให้ไปฝากครรภ์ที่อื่น ช่วยวางแผนการเดินทาง"
+    }
+  ]
+}

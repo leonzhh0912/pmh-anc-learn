@@ -1,0 +1,32 @@
+{
+  "id": "V-K-015",
+  "lessonId": "MCH68-K-015",
+  "title": "ป้องกันการจมน้ำและการอุดกั้นทางเดินหายใจ",
+  "mp4": "media/V-K-015.mp4",
+  "captionsVtt": "media/V-K-015.th.vtt",
+  "poster": "media/V-K-015.jpg",
+  "durationSec": 91.7,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-K-015 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'ชูชีพ', 'กะละมัง', 'หนึ่งถึงสองนิ้ว', 'ยี่สิบเก้า' and 'การอุดกั้นทางเดินหายใจ'.",
+      "Scope: PREVENTION only. The lesson's one-line pointer to printed page 30 (what to do if something is stuck in the airway) is deliberately left out of the video so no first-aid topic is raised; first aid belongs to K-016/K-017.",
+      "Lesson note: examples of 'แหล่งน้ำ' (บ่อ สระ, item 3) and 'ภาชนะ' (ถังน้ำ กะละมัง โอ่ง, item 4) are added for local relevance; the handbook only says 'แหล่งน้ำ' and 'ภาชนะ'. Reviewer to confirm.",
+      "Lesson note: 'น้ำตื้นแค่ก้นถัง ก็อันตรายได้' (item 5) restates '1-2 นิ้ว' with a local example — app framing.",
+      "Lesson note: the bead tray (item 7) and the pull-along toy telephone (item 8) are described from the p31 illustrations, not the printed text.",
+      "Item 2 uses the lesson's sort-card wording 'ผู้ปกครองดูแลใกล้ชิดเมื่ออยู่ในน้ำ'; the printed line is 'ผู้ปกครองดูแลใกล้ชิด'.",
+      "Not used in the video: the family note (app framing, needs approval)."
+    ]
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "id": "V-K-013",
+  "lessonId": "MCH68-K-013",
+  "version": "0.1.0",
+  "title": "ป้องกันการบาดเจ็บในบ้าน",
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      30
+    ],
+    "printedPages": [
+      "28"
+    ],
+    "note": "Narration derived from lesson MCH68-K-013 v0.1.0"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-K-013 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of เฟอร์นิเจอร์, บันไดเลื่อน, ลิฟต์, รถหัดเดิน, 'เก้าเซนติเมตร', 'มากกว่าหนึ่งเมตร'.",
+      "All 6 rules and both numbers are from p30 (printed 28) as printed. No reasons are given (none in the handbook).",
+      "Lesson app framing used: stage 1 intro 'ลองเดินดูบ้านของตัวเองไปพร้อมกัน' (timeline intro) and summary 4 'สมุดไม่ได้อธิบายเหตุผล... ถามเจ้าหน้าที่ได้' (text step 2). Not handbook text; PMH to approve.",
+      "Not used: examples taken from the illustrations (sofa/armchair as a high place, wardrobe fixed to the wall, holding hands on an escalator), sort/quiz scenarios, family note. Video illustrations: PMH to decide on local housing context (e.g. raised wooden houses) — no new rules added."
+    ]
+  },
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3",
+    "stability": 0.5,
+    "style": 0,
+    "speed": 0.95,
+    "seed": 1234
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "kind": "title",
+      "heading": "ป้องกันการบาดเจ็บในบ้าน",
+      "subheading": "จากสมุดบันทึกสุขภาพแม่และเด็ก ฉบับปรับปรุงใหม่ พ.ศ. 2568",
+      "chips": [
+        "ตัวบ้าน",
+        "การดูแลลูก"
+      ],
+      "segments": [
+        {
+          "speak": "สมุดสีชมพูหน้ายี่สิบแปด มีเรื่องการป้องกันการบาดเจ็บในเด็ก เป็นภาพหกภาพ",
+          "caption": "สมุดสีชมพูหน้า 28 มีเรื่อง 'การป้องกันการบาดเจ็บในเด็ก' เป็นภาพ 6 ภาพ"
+        },
+        {
+          "speak": "สามข้อเป็นเรื่องของตัวบ้าน และอีกสามข้อเป็นเรื่องการดูแลเด็ก",
+          "caption": "3 ข้อเป็นเรื่องของตัวบ้าน และอีก 3 ข้อเป็นเรื่องการดูแลเด็ก"
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "kind": "stage",
+      "stage": 1,
+      "label": "ตรวจตัวบ้าน",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 1,
+          "icon": "fence",
+          "text": "ช่องห่างราวบันได น้อยกว่า 9 ซม."
+        },
+        {
+          "n": 2,
+          "icon": "check",
+          "text": "หน้าต่างสูงจากพื้น มากกว่า 1 เมตร"
+        },
+        {
+          "n": 3,
+          "icon": "shield",
+          "text": "ยึดเฟอร์นิเจอร์ให้มั่นคง"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่หนึ่ง ตรวจตัวบ้าน ลองเดินดูบ้านของตัวเองไปพร้อมกัน",
+          "caption": "ตอนที่ 1 ตรวจตัวบ้าน ลองเดินดูบ้านของตัวเองไปพร้อมกัน"
+        },
+        {
+          "reveal": 1,
+          "speak": "ราวบันได ช่องห่างน้อยกว่าเก้าเซนติเมตร",
+          "caption": "ราวบันได ช่องห่างน้อยกว่า 9 เซนติเมตร"
+        },
+        {
+          "reveal": 2,
+          "speak": "หน้าต่าง สูงจากพื้นมากกว่าหนึ่งเมตร",
+          "caption": "หน้าต่าง สูงจากพื้นมากกว่า 1 เมตร"
+        },
+        {
+          "reveal": 3,
+          "speak": "และยึดเฟอร์นิเจอร์ให้มั่นคง",
+          "caption": "และยึดเฟอร์นิเจอร์ให้มั่นคง"
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "kind": "stage",
+      "stage": 2,
+      "label": "ดูแลลูก",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 4,
+          "icon": "baby",
+          "text": "ไม่ปล่อยเด็กบนที่สูงลำพัง"
+        },
+        {
+          "n": 5,
+          "icon": "walk",
+          "text": "ไม่ใช้รถหัดเดิน"
+        },
+        {
+          "n": 6,
+          "icon": "group",
+          "text": "ดูแลใกล้ชิด บันไดเลื่อน/ลิฟต์"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สอง การดูแลลูก อีกสามข้อจากสมุดหน้ายี่สิบแปด",
+          "caption": "ตอนที่ 2 การดูแลลูก อีก 3 ข้อจากสมุดหน้า 28"
+        },
+        {
+          "reveal": 4,
+          "speak": "ไม่ปล่อยเด็กบนที่สูงลำพัง",
+          "caption": "ไม่ปล่อยเด็กบนที่สูงลำพัง"
+        },
+        {
+          "reveal": 5,
+          "speak": "ไม่ใช้รถหัดเดิน",
+          "caption": "ไม่ใช้รถหัดเดิน"
+        },
+        {
+          "reveal": 6,
+          "speak": "และดูแลใกล้ชิด เมื่อใช้บันไดเลื่อนหรือลิฟต์",
+          "caption": "และดูแลใกล้ชิด เมื่อใช้บันไดเลื่อน/ลิฟต์"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "kind": "summary",
+      "heading": "จำไว้ 4 เรื่อง",
+      "points": [
+        "ราวบันไดห่างน้อยกว่า 9 ซม.",
+        "หน้าต่างสูงจากพื้นมากกว่า 1 เมตร",
+        "ไม่ปล่อยบนที่สูง ไม่ใช้รถหัดเดิน",
+        "สงสัย ถามเจ้าหน้าที่ได้"
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "สรุปเรื่องสำคัญ",
+          "caption": "สรุปเรื่องสำคัญ"
+        },
+        {
+          "reveal": 1,
+          "speak": "ตัวเลขสองตัวที่ควรจำ คือ ช่องห่างราวบันไดน้อยกว่าเก้าเซนติเมตร",
+          "caption": "ตัวเลข 2 ตัวที่ควรจำ คือ ช่องห่างราวบันไดน้อยกว่า 9 เซนติเมตร"
+        },
+        {
+          "reveal": 2,
+          "speak": "และหน้าต่างสูงจากพื้นมากกว่าหนึ่งเมตร",
+          "caption": "และหน้าต่างสูงจากพื้นมากกว่า 1 เมตร"
+        },
+        {
+          "reveal": 3,
+          "speak": "ไม่ปล่อยเด็กบนที่สูงลำพัง ไม่ใช้รถหัดเดิน และดูแลใกล้ชิดเมื่อใช้บันไดเลื่อนหรือลิฟต์",
+          "caption": "ไม่ปล่อยเด็กบนที่สูงลำพัง ไม่ใช้รถหัดเดิน และดูแลใกล้ชิดเมื่อใช้บันไดเลื่อน/ลิฟต์"
+        },
+        {
+          "reveal": 4,
+          "speak": "สมุดไม่ได้อธิบายเหตุผลของแต่ละข้อ ถ้าสงสัยหรือไม่แน่ใจว่าบ้านเป็นอย่างไร ถามเจ้าหน้าที่ได้",
+          "caption": "สมุดไม่ได้อธิบายเหตุผลของแต่ละข้อ ถ้าสงสัยหรือไม่แน่ใจว่าบ้านเป็นอย่างไร ถามเจ้าหน้าที่ได้"
+        }
+      ]
+    }
+  ]
+}

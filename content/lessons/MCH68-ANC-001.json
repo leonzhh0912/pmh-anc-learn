@@ -1,0 +1,407 @@
+{
+  "id": "MCH68-ANC-001",
+  "version": "0.1.1",
+  "title": "ผลตรวจเลือดตอนฝากครรภ์ของแม่และสามี",
+  "summary": "สมุดหน้า 4 บันทึกผลตรวจเลือดอะไรบ้าง ของใคร กี่ครั้ง และการตรวจภาวะดาวน์ซินโดรม เจ้าหน้าที่เป็นผู้อธิบายผล",
+  "sectionId": "anc",
+  "stages": [
+    "pregnancy"
+  ],
+  "audience": [
+    "mother",
+    "family"
+  ],
+  "minutes": 5,
+  "objectives": [
+    "ผู้เรียนบอกได้ว่าตาราง 'รายงานการตรวจเลือด' มีช่องบันทึกผลของหญิงตั้งครรภ์และสามี อย่างละ 2 ครั้ง",
+    "ผู้เรียนบอกชื่อรายการตรวจที่บันทึกในสมุดได้ (Blood group (ABO, Rh), Hct/Hb, MCV/OF, DCIP, Hb Typing, Hepatitis B, Syphilis, Anti-HIV)",
+    "ผู้เรียนบอกได้ว่าโรคติดต่อทางเพศสัมพันธ์สามารถป้องกันไม่ให้ติดต่อไปสู่ทารกได้ หากให้ยาป้องกันที่ถูกต้องและทันท่วงที",
+    "ผู้เรียนบอกวิธีตรวจภาวะดาวน์ซินโดรมที่ระบุในสมุดได้ (Quadruple test, NIPT, Amniocentesis) และรู้ว่าเจ้าหน้าที่เป็นผู้อธิบายผลตรวจ"
+  ],
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      6
+    ],
+    "printedPages": [
+      "4"
+    ],
+    "note": "หน้า 4 หมวดข้อมูลฝากครรภ์: ประวัติการตั้งครรภ์ปัจจุบัน ตาราง 'รายงานการตรวจเลือด' (หญิงตั้งครรภ์ / สามี ครั้งที่ 1-2) กล่อง 'การตรวจภาวะดาวน์ซินโดรม' และข้อความแนะนำที่ขอบซ้ายเรื่องโรคติดต่อทางเพศสัมพันธ์ คำแนะนำให้ถามเจ้าหน้าที่เมื่อสงสัยมาจาก PDF p2 และ p67"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Table rows, column headings (หญิงตั้งครรภ์ / สามี, ครั้งที่ 1 / ครั้งที่ 2 with date lines), the Down syndrome box and the margin tip are from PDF p6 (printed 4), checked on the page image and a rotated crop of the margin strip. Test names are copied as printed, including 'MCV/OF' and 'Hb Typing'. Margin tip quoted word for word: 'โรคติดต่อทางเพศสัมพันธ์ สามารถป้องกันไม่ให้ติดต่อไปสู่ทารกได้ หากให้ยาป้องกันที่ถูกต้องและทันท่วงที'.",
+      "NOT taught (by design): what each test detects, normal ranges, Hb/Hct cut-offs, what an abnormal result means, or what happens next. Abbreviations are not expanded. The lesson says 'เจ้าหน้าที่จะอธิบายผล' instead. Medical technologist / ANC nurse to confirm this is acceptable.",
+      "The margin tip is shown as printed, next to the table. The lesson does not say which rows are sexually transmitted infections; that link is not printed on the page.",
+      "The handbook does not say when ครั้งที่ 1 and ครั้งที่ 2 are done, or whether every couple is tested twice. The lesson only says the table has room for 2 rounds, each with a date.",
+      "Partner wording: the table heading is 'สามี' and is quoted as printed. Lesson framing avoids assuming a husband: text step 2 says 'ถ้ามีสามีหรือคู่ที่จะมาตรวจด้วย ถามเจ้าหน้าที่ว่ามาตรวจได้เมื่อไร' (editorial, not handbook text). PMH to approve.",
+      "Down syndrome box: only the three method names and the 'ไม่ได้ตรวจ / ตรวจด้วยวิธี' checkboxes with date and result lines are used. No eligibility, timing, risk or cost. 'ไม่ได้ตรวจ' is shown as a printed option; the lesson does not say who should be tested.",
+      "Quiz q5 (a friend says a number in the Hct/Hb row is low and suggests buying medicine) is a situation written for this lesson. The answer rests on PDF p2 (ask public-health staff when in doubt) and p67 item 15 (do not try things by trial and error), not on p6. It deliberately says nothing about what the number means.",
+      "Text step 1 mentions the 'ประวัติการตั้งครรภ์ปัจจุบัน' block at the top of p6 (contraception, cycle, LMP, pre-pregnancy weight/height/BMI, previous caesareans, live children) by name only.",
+      "Sort step (which box on page 4 holds each item) is editorial; items and boxes are as printed.",
+      "Family note is app framing written for this lesson (go to ANC together, write down questions, results are private and staff explain them). The privacy line is not handbook text. Needs approval, especially for HIV/syphilis results.",
+      "PMH CLARIFICATION (from curriculum): any plain-language explanation of what each test detects (e.g. thalassaemia screen) is not in the handbook and must be written and approved by PMH, or limited to the p33 QR resource. Nothing added.",
+      "PMH CLARIFICATION (from curriculum): which Down syndrome screening PMH offers, eligibility and cost. Not added.",
+      "PMH CLARIFICATION (from curriculum): how and when PMH tells couples about abnormal results, and privacy of HIV/syphilis results. Not added; the lesson only says staff explain the results.",
+      "Review requirements (from curriculum): ANC nurse + obstetrician to verify the test list and STI statement; medical technologist to check test names/abbreviations; genetic-counselling-trained staff to check the Down syndrome wording."
+    ]
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "First draft from official handbook PDF p6 (2nd printing, April 2569); blood-report table, Down syndrome box and STI margin tip."
+    },
+    {
+      "version": "0.1.1",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "Added video step V-ANC-001 (narration derived from this lesson; no text changes)."
+    }
+  ],
+  "steps": [
+    {
+      "type": "text",
+      "heading": "สมุดหน้า 4: ข้อมูลฝากครรภ์",
+      "paragraphs": [
+        "สมุดหน้า 4 อยู่ในหมวดข้อมูลฝากครรภ์ ด้านบนเป็นประวัติการตั้งครรภ์ปัจจุบัน เช่น ประจำเดือนครั้งสุดท้าย น้ำหนักและส่วนสูงก่อนตั้งครรภ์",
+        "ตรงกลางหน้าเป็นตาราง 'รายงานการตรวจเลือด' และด้านล่างเป็นกล่อง 'การตรวจภาวะดาวน์ซินโดรม'",
+        "เจ้าหน้าที่เป็นผู้บันทึกผลในหน้านี้ บทเรียนนี้บอกเพียงว่าสมุดบันทึกอะไรไว้ ความหมายของผลตรวจ เจ้าหน้าที่จะอธิบายให้ฟัง"
+      ]
+    },
+    {
+      "type": "video",
+      "heading": "ดูวิดีโอสรุป",
+      "videoId": "V-ANC-001"
+    },
+    {
+      "type": "text",
+      "heading": "ตารางรายงานการตรวจเลือด",
+      "paragraphs": [
+        "ตารางแบ่งเป็น 2 ฝั่ง คือ 'หญิงตั้งครรภ์' และ 'สามี' แต่ละฝั่งมีช่องผลครั้งที่ 1 และครั้งที่ 2 พร้อมช่องวันที่",
+        "รายการตรวจที่พิมพ์ในตาราง ได้แก่ Blood group (ABO, Rh), Hct/Hb, MCV/OF, DCIP, Hb Typing, Hepatitis B, Syphilis และ Anti-HIV และมีช่องผลตรวจอื่น ๆ (ระบุ)",
+        "ข้างตารางมีข้อความว่า โรคติดต่อทางเพศสัมพันธ์ สามารถป้องกันไม่ให้ติดต่อไปสู่ทารกได้ หากให้ยาป้องกันที่ถูกต้องและทันท่วงที",
+        "ถ้ามีสามีหรือคู่ที่จะมาตรวจด้วย ถามเจ้าหน้าที่ว่ามาตรวจได้เมื่อไร"
+      ]
+    },
+    {
+      "type": "timeline",
+      "heading": "ในหน้า 4 มีรายการอะไรบ้าง",
+      "intro": "เลือกกล่อง แล้วแตะแต่ละรายการ ชื่อการตรวจเขียนตามที่พิมพ์ในสมุด เจ้าหน้าที่เป็นผู้อธิบายผล",
+      "stages": [
+        {
+          "id": "blood",
+          "label": "รายงานการตรวจเลือด",
+          "items": [
+            {
+              "n": 1,
+              "title": "Blood group (ABO, Rh)",
+              "detail": "แถวแรกของตาราง มีช่องผลของหญิงตั้งครรภ์และสามี ครั้งที่ 1 และ 2"
+            },
+            {
+              "n": 2,
+              "title": "Hct/Hb",
+              "detail": "ชื่อตามที่พิมพ์ในสมุด เจ้าหน้าที่จะอธิบายว่าผลหมายถึงอะไร"
+            },
+            {
+              "n": 3,
+              "title": "MCV/OF",
+              "detail": "ชื่อตามที่พิมพ์ในสมุด เจ้าหน้าที่จะอธิบายว่าผลหมายถึงอะไร"
+            },
+            {
+              "n": 4,
+              "title": "DCIP",
+              "detail": "ชื่อตามที่พิมพ์ในสมุด เจ้าหน้าที่จะอธิบายว่าผลหมายถึงอะไร"
+            },
+            {
+              "n": 5,
+              "title": "Hb Typing",
+              "detail": "ชื่อตามที่พิมพ์ในสมุด เจ้าหน้าที่จะอธิบายว่าผลหมายถึงอะไร"
+            },
+            {
+              "n": 6,
+              "title": "Hepatitis B",
+              "detail": "ชื่อตามที่พิมพ์ในสมุด เจ้าหน้าที่จะอธิบายว่าผลหมายถึงอะไร"
+            },
+            {
+              "n": 7,
+              "title": "Syphilis",
+              "detail": "ชื่อตามที่พิมพ์ในสมุด เจ้าหน้าที่จะอธิบายว่าผลหมายถึงอะไร"
+            },
+            {
+              "n": 8,
+              "title": "Anti-HIV",
+              "detail": "ชื่อตามที่พิมพ์ในสมุด เจ้าหน้าที่จะอธิบายว่าผลหมายถึงอะไร"
+            },
+            {
+              "n": 9,
+              "title": "ผลตรวจอื่น ๆ (ระบุ)",
+              "detail": "ช่องสำหรับผลตรวจอื่นที่เจ้าหน้าที่เขียนเพิ่ม"
+            }
+          ]
+        },
+        {
+          "id": "down",
+          "label": "การตรวจภาวะดาวน์ซินโดรม",
+          "items": [
+            {
+              "n": 10,
+              "title": "ไม่ได้ตรวจ / ตรวจด้วยวิธี",
+              "detail": "กล่องนี้มีช่องให้เลือกว่า ไม่ได้ตรวจ หรือ ตรวจด้วยวิธีใด"
+            },
+            {
+              "n": 11,
+              "title": "Quadruple test",
+              "detail": "มีช่องวันที่ตรวจและผล"
+            },
+            {
+              "n": 12,
+              "title": "NIPT",
+              "detail": "มีช่องวันที่ตรวจและผล"
+            },
+            {
+              "n": 13,
+              "title": "Amniocentesis",
+              "detail": "มีช่องวันที่ตรวจและผล"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "heading": "อยู่ในกล่องไหนของหน้า 4",
+      "intro": "แตะรายการหนึ่งใบ แล้วแตะกล่องในสมุดหน้า 4 ที่มีรายการนี้",
+      "buckets": [
+        {
+          "id": "history",
+          "label": "ประวัติการตั้งครรภ์ปัจจุบัน"
+        },
+        {
+          "id": "blood",
+          "label": "รายงานการตรวจเลือด"
+        },
+        {
+          "id": "down",
+          "label": "การตรวจภาวะดาวน์ซินโดรม"
+        }
+      ],
+      "items": [
+        {
+          "id": "s1",
+          "text": "Hb Typing",
+          "bucketId": "blood"
+        },
+        {
+          "id": "s2",
+          "text": "NIPT",
+          "bucketId": "down"
+        },
+        {
+          "id": "s3",
+          "text": "ประจำเดือนครั้งสุดท้าย",
+          "bucketId": "history"
+        },
+        {
+          "id": "s4",
+          "text": "Anti-HIV",
+          "bucketId": "blood"
+        },
+        {
+          "id": "s5",
+          "text": "Quadruple test",
+          "bucketId": "down"
+        },
+        {
+          "id": "s6",
+          "text": "น้ำหนักและส่วนสูงก่อนตั้งครรภ์",
+          "bucketId": "history"
+        },
+        {
+          "id": "s7",
+          "text": "Blood group (ABO, Rh)",
+          "bucketId": "blood"
+        },
+        {
+          "id": "s8",
+          "text": "Amniocentesis",
+          "bucketId": "down"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "heading": "ทบทวนความเข้าใจ",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "prompt": "ตารางรายงานการตรวจเลือดในสมุดหน้า 4 มีช่องบันทึกผลของสามีด้วย จริงหรือไม่",
+          "options": [
+            {
+              "id": "t",
+              "text": "จริง",
+              "feedback": "ถูกต้อง ตารางมี 2 ฝั่ง คือ หญิงตั้งครรภ์ และสามี"
+            },
+            {
+              "id": "f",
+              "text": "ไม่จริง",
+              "feedback": "ยังไม่ใช่ ตารางมีช่องของหญิงตั้งครรภ์ และช่องของสามี"
+            }
+          ],
+          "correctOptionId": "t",
+          "explanation": "ตาราง 'รายงานการตรวจเลือด' ในสมุดหน้า 4 แบ่งเป็นฝั่งหญิงตั้งครรภ์ และฝั่งสามี แต่ละฝั่งมีผลครั้งที่ 1 และครั้งที่ 2",
+          "source": {
+            "pdfPages": [
+              6
+            ],
+            "printedPages": [
+              "4"
+            ]
+          }
+        },
+        {
+          "id": "q2",
+          "kind": "mcq",
+          "prompt": "ในตารางรายงานการตรวจเลือด แต่ละคนมีช่องบันทึกผลกี่ครั้ง",
+          "options": [
+            {
+              "id": "a",
+              "text": "1 ครั้ง",
+              "feedback": "ยังไม่ใช่ ตารางมีช่องครั้งที่ 1 และครั้งที่ 2"
+            },
+            {
+              "id": "b",
+              "text": "4 ครั้ง",
+              "feedback": "ยังไม่ใช่ 4 ช่องคือรวมทั้งสองคน แต่ละคนมี 2 ครั้ง"
+            },
+            {
+              "id": "c",
+              "text": "2 ครั้ง",
+              "feedback": "ถูกต้อง แต่ละคนมีช่องผลครั้งที่ 1 และครั้งที่ 2 พร้อมวันที่"
+            }
+          ],
+          "correctOptionId": "c",
+          "explanation": "สมุดหน้า 4: หญิงตั้งครรภ์ ครั้งที่ 1 และ 2 / สามี ครั้งที่ 1 และ 2 แต่ละครั้งมีช่องวันที่ สมุดไม่ได้บอกว่าตรวจเมื่อไร ถามเจ้าหน้าที่ได้",
+          "source": {
+            "pdfPages": [
+              6
+            ],
+            "printedPages": [
+              "4"
+            ]
+          }
+        },
+        {
+          "id": "q3",
+          "kind": "truefalse",
+          "prompt": "โรคติดต่อทางเพศสัมพันธ์ สามารถป้องกันไม่ให้ติดต่อไปสู่ทารกได้ หากให้ยาป้องกันที่ถูกต้องและทันท่วงที จริงหรือไม่",
+          "options": [
+            {
+              "id": "t",
+              "text": "จริง",
+              "feedback": "ถูกต้อง เป็นข้อความที่พิมพ์ไว้ข้างตารางในสมุดหน้า 4"
+            },
+            {
+              "id": "f",
+              "text": "ไม่จริง",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า ป้องกันไม่ให้ติดต่อไปสู่ทารกได้ หากให้ยาป้องกันที่ถูกต้องและทันท่วงที"
+            }
+          ],
+          "correctOptionId": "t",
+          "explanation": "ข้อความที่ขอบสมุดหน้า 4: โรคติดต่อทางเพศสัมพันธ์ สามารถป้องกันไม่ให้ติดต่อไปสู่ทารกได้ หากให้ยาป้องกันที่ถูกต้องและทันท่วงที",
+          "source": {
+            "pdfPages": [
+              6
+            ],
+            "printedPages": [
+              "4"
+            ]
+          }
+        },
+        {
+          "id": "q4",
+          "kind": "mcq",
+          "prompt": "วิธีตรวจภาวะดาวน์ซินโดรมที่พิมพ์ไว้ในสมุดหน้า 4 คือข้อใด",
+          "options": [
+            {
+              "id": "a",
+              "text": "Quadruple test, NIPT, Amniocentesis",
+              "feedback": "ถูกต้อง กล่องการตรวจภาวะดาวน์ซินโดรมมี 3 วิธีนี้ พร้อมช่องวันที่และผล"
+            },
+            {
+              "id": "b",
+              "text": "Hepatitis B, Syphilis, Anti-HIV",
+              "feedback": "ยังไม่ใช่ 3 รายการนี้อยู่ในตารางรายงานการตรวจเลือด"
+            },
+            {
+              "id": "c",
+              "text": "MCV/OF, DCIP, Hb Typing",
+              "feedback": "ยังไม่ใช่ 3 รายการนี้อยู่ในตารางรายงานการตรวจเลือด"
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "กล่อง 'การตรวจภาวะดาวน์ซินโดรม' ในสมุดหน้า 4 มีช่อง ไม่ได้ตรวจ หรือ ตรวจด้วยวิธี Quadruple test, NIPT, Amniocentesis เรื่องการตรวจนี้ ปรึกษาเจ้าหน้าที่",
+          "source": {
+            "pdfPages": [
+              6
+            ],
+            "printedPages": [
+              "4"
+            ]
+          }
+        },
+        {
+          "id": "q5",
+          "kind": "scenario",
+          "scenario": "คุณแม่เห็นตัวเลขในช่อง Hct/Hb ของตัวเอง แต่ไม่รู้ว่าหมายถึงอะไร เพื่อนบอกว่า 'ค่านี้ต่ำ ไปซื้อยามากินเองได้เลย'",
+          "prompt": "ควรทำอย่างไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "ซื้อยามากินเองตามที่เพื่อนบอก",
+              "feedback": "สมุดแนะนำว่าไม่ควรลองผิดลองถูกด้วยตนเอง ควรถามเจ้าหน้าที่ก่อน"
+            },
+            {
+              "id": "b",
+              "text": "ค้นในอินเทอร์เน็ต แล้วตัดสินใจเอง",
+              "feedback": "ผลตรวจควรให้เจ้าหน้าที่อธิบาย สมุดแนะนำให้สอบถามเจ้าหน้าที่สาธารณสุขเมื่อมีข้อสงสัย"
+            },
+            {
+              "id": "c",
+              "text": "ถามเจ้าหน้าที่ให้อธิบายผลตรวจ",
+              "feedback": "ใช่ เมื่อมีข้อสงสัย สอบถามเจ้าหน้าที่สาธารณสุขได้ เจ้าหน้าที่จะอธิบายผลให้ฟัง"
+            }
+          ],
+          "correctOptionId": "c",
+          "explanation": "หน้าคำแนะนำสมุด: กรณีมีข้อสงสัยเพิ่มเติม สอบถามได้จากเจ้าหน้าที่สาธารณสุขใกล้บ้าน และหน้าสรุปท้ายเล่ม: หากมีข้อสงสัย ปรึกษาแพทย์/บุคลากร ไม่ควรลองผิดลองถูก",
+          "source": {
+            "pdfPages": [
+              2,
+              67
+            ],
+            "printedPages": []
+          }
+        }
+      ]
+    },
+    {
+      "type": "takeaways",
+      "heading": "สรุปสิ่งสำคัญ",
+      "items": [
+        "สมุดหน้า 4 มีตาราง 'รายงานการตรวจเลือด' ของหญิงตั้งครรภ์และสามี อย่างละ 2 ครั้ง",
+        "รายการตรวจ: Blood group (ABO, Rh), Hct/Hb, MCV/OF, DCIP, Hb Typing, Hepatitis B, Syphilis, Anti-HIV",
+        "โรคติดต่อทางเพศสัมพันธ์ ป้องกันไม่ให้ติดต่อไปสู่ทารกได้ หากให้ยาป้องกันที่ถูกต้องและทันท่วงที",
+        "การตรวจภาวะดาวน์ซินโดรมในสมุด: Quadruple test, NIPT, Amniocentesis",
+        "ความหมายของผลตรวจ เจ้าหน้าที่จะอธิบาย สงสัยตรงไหน ถามได้"
+      ],
+      "familyNote": "คนในครอบครัวหรือคนที่ดูแลคุณแม่ ช่วยได้โดยไปฝากครรภ์ด้วยกัน และช่วยจดคำถามเรื่องผลตรวจไว้ถามเจ้าหน้าที่ ผลตรวจเป็นข้อมูลส่วนตัวของคุณแม่และคู่ ให้เจ้าหน้าที่เป็นผู้อธิบาย"
+    }
+  ]
+}

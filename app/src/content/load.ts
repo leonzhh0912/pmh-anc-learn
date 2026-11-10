@@ -18,7 +18,13 @@ const videoModules = import.meta.glob("../../../content/videos/*.json", {
 });
 
 export const sections = sectionsJson as Section[];
-export const lessons = Object.values(lessonModules) as Lesson[];
+const sectionOrder = new Map((sectionsJson as Section[]).map((s, i) => [s.id, i]));
+/** Lessons in handbook order: by section (as in sections.json), then by lesson id. */
+export const lessons = (Object.values(lessonModules) as Lesson[]).sort(
+  (a, b) =>
+    (sectionOrder.get(a.sectionId) ?? 99) - (sectionOrder.get(b.sectionId) ?? 99) ||
+    a.id.localeCompare(b.id, "en", { numeric: true }),
+);
 export const videos = Object.values(videoModules) as Video[];
 
 if (import.meta.env.DEV) {

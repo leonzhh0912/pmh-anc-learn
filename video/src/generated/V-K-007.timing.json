@@ -1,0 +1,182 @@
+{
+  "id": "V-K-007",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 3340,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 385,
+      "segments": [
+        {
+          "file": "audio/V-K-007/intro-1-3b7adf47a4.wav",
+          "from": 18,
+          "durationInFrames": 170,
+          "caption": "นมแม่ไม่เพียงให้สารอาหารที่เหมาะสม แต่ยังเปรียบเสมือนยาและวัคซีนป้องกันโรค",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-K-007/intro-2-6f4ec51efc.wav",
+          "from": 202,
+          "durationInFrames": 156,
+          "caption": "มาดูว่าทำไมนมแม่สำคัญ วิธี 3 ดูด และสูตร 1-6-2",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 385,
+      "durationInFrames": 891,
+      "segments": [
+        {
+          "file": "audio/V-K-007/stage1-1-4ba5a62aa8.wav",
+          "from": 18,
+          "durationInFrames": 91,
+          "caption": "ตอนที่ 1 ทำไมนมแม่สำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-007/stage1-2-9be88a0725.wav",
+          "from": 123,
+          "durationInFrames": 204,
+          "caption": "ผลต่อลูก นมแม่มีสารภูมิคุ้มกันโรคในน้ำนม ที่นมผงไม่สามารถให้ได้",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-007/stage1-3-b3109dd7db.wav",
+          "from": 341,
+          "durationInFrames": 281,
+          "caption": "ผลต่อแม่ เมื่อลูกดูดนม ร่างกายแม่หลั่งฮอร์โมนออกซิโทซิน ลดความเครียด แม่รู้สึกผ่อนคลาย",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-K-007/stage1-4-0f5e98d6f6.wav",
+          "from": 636,
+          "durationInFrames": 228,
+          "caption": "ยังช่วยลดโอกาสตกเลือดหลังคลอด ลดความเสี่ยงมะเร็งเต้านม มะเร็งรังไข่ และประหยัดค่าใช้จ่าย",
+          "reveal": 3
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1276,
+      "durationInFrames": 895,
+      "segments": [
+        {
+          "file": "audio/V-K-007/stage2-1-7c66764d05.wav",
+          "from": 18,
+          "durationInFrames": 101,
+          "caption": "ตอนที่ 2: 3 ดูด กระตุ้นนมแม่",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-007/stage2-2-7974e2f7ff.wav",
+          "from": 133,
+          "durationInFrames": 146,
+          "caption": "ดูดเร็ว เริ่มตั้งแต่อยู่ในห้องคลอด ภายใน 1 ชั่วโมงหลังคลอด",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-K-007/stage2-3-b4971456a1.wav",
+          "from": 293,
+          "durationInFrames": 184,
+          "caption": "ดูดบ่อย ให้ลูกดูดนมแม่ได้บ่อยเท่าที่ต้องการ เฉลี่ยวันละ 8 ครั้งขึ้นไป",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-K-007/stage2-4-c92bcd1784.wav",
+          "from": 491,
+          "durationInFrames": 233,
+          "caption": "ดูดถูกวิธี ช่วยให้ลูกดูดนมได้เต็มอิ่ม ควรดูดให้เกลี้ยงเต้า ได้นมครบทั้งส่วนหน้าและส่วนหลัง",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-K-007/stage2-5-051f166cf6.wav",
+          "from": 738,
+          "durationInFrames": 130,
+          "caption": "ถ้าอยากฝึกให้ลูกดูดถูกวิธี ขอให้เจ้าหน้าที่ช่วยดูได้",
+          "reveal": 7
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 2171,
+      "durationInFrames": 685,
+      "segments": [
+        {
+          "file": "audio/V-K-007/stage3-1-3338a911b8.wav",
+          "from": 18,
+          "durationInFrames": 126,
+          "caption": "ตอนที่ 3 สูตรนมแม่ต่อเนื่อง 1-6-2",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-007/stage3-2-db432d4167.wav",
+          "from": 158,
+          "durationInFrames": 98,
+          "caption": "1 ชั่วโมงแรก กระตุ้นการสร้างน้ำนมให้เร็ว",
+          "reveal": 8
+        },
+        {
+          "file": "audio/V-K-007/stage3-3-4b20e797d4.wav",
+          "from": 270,
+          "durationInFrames": 228,
+          "caption": "6 เดือนแรก นมแม่อย่างเดียว ไม่ต้องให้อาหารอื่น แม้แต่น้ำ เพราะนมแม่มีน้ำกว่า 70%",
+          "reveal": 9
+        },
+        {
+          "file": "audio/V-K-007/stage3-4-f0b40d0235.wav",
+          "from": 512,
+          "durationInFrames": 146,
+          "caption": "2 ปี หรือนานกว่า ให้นมแม่ ควบคู่กับอาหารตามวัย",
+          "reveal": 10
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 2856,
+      "durationInFrames": 484,
+      "segments": [
+        {
+          "file": "audio/V-K-007/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-007/summary-2-6e2a1d9de6.wav",
+          "from": 78,
+          "durationInFrames": 132,
+          "caption": "3 ดูด: ดูดเร็ว ดูดบ่อย ดูดถูกวิธี",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-007/summary-3-95b438bd23.wav",
+          "from": 224,
+          "durationInFrames": 106,
+          "caption": "6 เดือนแรก นมแม่อย่างเดียว ไม่ต้องให้น้ำ",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-K-007/summary-4-a4afc98a9b.wav",
+          "from": 344,
+          "durationInFrames": 113,
+          "caption": "และมีข้อสงสัยเรื่องการให้นม ถามเจ้าหน้าที่ได้",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

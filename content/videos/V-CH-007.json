@@ -1,0 +1,32 @@
+{
+  "id": "V-CH-007",
+  "lessonId": "MCH68-CH-007",
+  "title": "ตรวจสุขภาพเด็กปฐมวัยตามนัด: แต่ละช่วงอายุตรวจอะไร",
+  "mp4": "media/V-CH-007.mp4",
+  "captionsVtt": "media/V-CH-007.th.vtt",
+  "poster": "media/V-CH-007.jpg",
+  "durationSec": 106.6,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-CH-007 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'สมุดหน้าสี่สิบและสี่สิบเอ็ด', 'สิบสี่แถวอายุ', 'บันทึกการตรวจสุขภาพเด็กปฐมวัย', 'คัดกรองออทิสติก', 'ความเข้มข้นเลือด' and 'เจริญอาหาร'.",
+      "HANDBOOK ISSUE (lesson): the visit schedule exists only as grey cell shading. The video names the table columns only and never says which check happens at which age; for timing it says only that staff will tell you what is checked each visit (item 10, summary 3) and to bring the book (item 11, summary 4). The grey-cell explanation and the per-age timeline from the lesson are deliberately left out. PMH to confirm before any schedule wording is used.",
+      "HANDBOOK ISSUE (lesson): unexplained white cells in the autism column and the oral-health / iron / counselling columns without checkboxes. Not mentioned; item 7 and item 8 only name the column headers.",
+      "Summary point 2 is the p42 tip word for word, ending 'ควรได้รับการคัดกรองภาวะซีดตามกำหนด'; 'ตามกำหนด' is the handbook wording and gives no ages. Item 8 includes the first half of the p43 iron-syrup tip (drops 'ในเด็ก' and 'เป็นโอกาสในการฝึกกินอาหารตามวัย' for caption length); no iron dose or age range is given (see MCH68-GROW-008).",
+      "Lesson note: 'staff will tell you what is checked / explain the results' and 'bring the book every time' are editorial framing (same as MCH68-REC-001), not printed on p42–43.",
+      "Abbreviation 'Hct' appears only in the on-screen item text, not in speech or captions.",
+      "Not used in the video: the 14 age rows read one by one, the parent-assessed options (ปกติ / สงสัยล่าช้า), the sort step and the family note."
+    ]
+  }
+}

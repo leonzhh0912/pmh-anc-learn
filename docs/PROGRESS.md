@@ -51,6 +51,17 @@ Read this first at the start of every working session. Add a dated entry at the 
   on how the app treats them. Current plan: awareness lessons only, never the items or scoring.
 - The handbook gives no safe-sleep position guidance and no crisis phone line; PMH must decide local additions.
 - p22 (ธงโภชนาการ คืออะไร): the definition says nutrition helps 'ป้องกันโรคติดต่อเรื้อรัง' (chronic *communicable* disease), probably a misprint for 'โรคไม่ติดต่อเรื้อรัง'. Omitted from lesson K-001 until a nutritionist confirms.
+- p56 (first foods): the table shows three foods on days 1–2, while คำแนะนำ 1 on the same page says one food at a time, 2–3 days apart. Both shown as printed in GROW-005.
+- p66 (toothpaste): "เท่าเมล็ดข้าวโพด" is printed for both the under-3 and 3–<6 groups. Dentist to confirm the amount for under-3s.
+- p27 (exercise): minutes have no "per session/per day"; week 12 falls between trimester 1 (<12) and 2 (13–26).
+- p28 (milk storage): "ละลายในช่องธรรมดา" is undefined; the ice-box row gives "15" °C with no "ไม่เกิน".
+- p14 says "ครบ 5 หมู่" while p22 says "6 กลุ่ม". p28 misspells "ผูกพันธ์" (app writes ผูกพัน).
+- p4 (Parenting School): a stray overlaid text layer labels Volumes 2–3 as "13-17 สัปดาห์", conflicting with the table's 13–27.
+- p56–57 (7–11 months): the 10–11-month cell says "ไข่ทั้งฟอง สลับกับ ตับ" while note 6 says whole egg at least half a day.
+- p58: the 12–23-month flag shows milk 2 glasses, but the bubble says plain milk 2 glasses only if growth is below standard.
+- p29 vs p59: 1–2 years = 11–14 h (p29) but 2–5 years = 10–13 h (p59), so a 2-year-old fits both; p29 has no 2–3-year row.
+- p31: a child of exactly 2 is covered by neither car-seat label (<2 / >2); "ตามลำพัง" (motorcycle, 2–6 years) undefined.
+- p44: instructions say the horizontal axis is age, but the weight-for-height example uses height.
 - QR codes in the handbook have not been decoded or checked yet.
 
 ## Open decisions
@@ -111,3 +122,57 @@ Read this first at the start of every working session. Add a dated entry at the 
 
 ### Waiting on the user / PMH
 - Provider choice for voice samples, and accounts/keys plus approval of any charge.
+
+## Session 3 — 2026-11-09
+
+### Done and verified
+- **All 15 first-release (R1) lessons drafted**, each ending with an end-of-lesson quiz (4–5 questions:
+  multiple choice, true/false and at least one everyday scenario; feedback on every option) followed by a
+  summary and a family note. New: OVR-002, INFO-002, REC-002, ASSESS-003, K-002, K-004, K-006, K-007, K-008,
+  CH-006, GROW-005, DEV-005, DENT-001. All DRAFT, no videos yet.
+- Every lesson lists what was added beyond the handbook in `editorial.reviewNotes` for reviewers.
+- Spot-checked against page images: p23 trimester-1 flag (all 12 values), p27 exercise minutes, p28 milk-storage
+  table (all 7 rows), p56 first-foods table (cell spans included). All matched.
+- The build now **requires** every lesson to end with a quiz of ≥3 questions (only a summary may follow).
+- New Playwright walk-through test covers every lesson automatically (each step, every interactive, every
+  quiz answer, no sideways scrolling at 360 px, no console errors). 44/44 tests pass.
+- Fixed: timeline items with the same number in different stages opened/closed together. Sorting activity
+  wording made generic, boxes laid out in two columns and scrolled into view on phones.
+- Home screen suggests the next unfinished lesson in handbook order.
+- PMH staff confirmed the ElevenLabs narration of V-OVR-001 sounds correct (reviewer name still to record).
+
+### Next
+- Clinical review of the 15 R1 lessons (reviewers per CONTENT_REVIEW.md); answer the HANDBOOK ISSUE notes.
+- Videos for R1 lessons (ElevenLabs, ≈1,400 characters each).
+- R2 lessons (high-risk: danger signs, first aid, vaccines) need PMH's local emergency contacts first.
+
+## Session 4 — 2026-11-09 (videos, second and third release)
+
+### Done and verified
+- **39 lesson videos, one for every drafted lesson** (15 R1 + 13 R2 + 11 R3), narrated with the chosen
+  ElevenLabs voice: 74.3 minutes in total. Every MP4 checked: decodes end to end, video length equals the narration/caption timing (±0.15 s),
+  attached to its lesson as step 2, narration = ElevenLabs. Plain and captions-burned-in versions rendered.
+- **13 R2 lessons drafted** (low/medium risk, no emergency contacts needed): INFO-001, ANC-001, REC-001, K-009,
+  K-012, K-013, K-014, K-015, GROW-001, GROW-006, GROW-007, DEV-001, DEV-002.
+- **11 R3 lessons drafted** (record explainers, development 13–78 months): INFO-003, ANC-003, CH-002, CH-003,
+  CH-007, K-011, DEV-003, DEV-004, DENT-003, DENT-004, GROW-004. **39 of 58 lessons drafted; the other 19 are
+  all high-risk and wait for PMH input** (docs/PMH-INPUT-NEEDED.md).
+  Spot-checked against page images: p29 sleep table, p31 road/water safety, p58 child flag. All matched.
+- Video template generalised (title chips, family-facing page labels, part prefix, hideNumbers), 44 original
+  icons (reference: `npx remotion still IconSheet`), automatic video registration, script checker, batch runner
+  with retries and per-request timeouts (survived a network outage mid-run without paying twice).
+- Generated **docs/REVIEW-PACK.md** (per-lesson reviewer checklist and sign-off table) and
+  **docs/PMH-INPUT-NEEDED.md** (49 questions blocking the 19 high-risk lessons).
+- Authoring guides for future lessons and videos: docs/LESSON-AUTHORING-GUIDE.md, docs/VIDEO-SCRIPT-GUIDE.md.
+- GitHub Actions CI added (validation, type-checks, video-script check, full Playwright suite on every PR).
+- ElevenLabs usage so far ≈ 44,000 characters (all 39 video scripts = 42,830 characters, plus tests;
+  ≈ US$3.48 of plan allowance).
+- Fixed: two same-type steps in a row (e.g. two nutrition flags) shared component state and crashed; each step
+  now gets its own state. Icons remapped where a stand-in icon could mislead (10 new icons: warning, motorcycle…).
+- Render reliability: retries, 90 s TTS timeout, 50 % render concurrency and 120 s frame timeout (renders had
+  timed out while the Mac was busy). Tests: 92/92 passing (39 lesson walk-throughs on phone and desktop).
+
+### Next
+- PMH: answer docs/PMH-INPUT-NEEDED.md, then the 19 high-risk lessons can be written.
+- PMH reviewers: work through docs/REVIEW-PACK.md (39 lessons, 39 videos).
+- Media is 244 MB in Git; move MP4s to Git LFS or a CDN before the library grows further.

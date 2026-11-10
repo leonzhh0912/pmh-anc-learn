@@ -1,0 +1,286 @@
+{
+  "id": "V-GROW-007",
+  "lessonId": "MCH68-GROW-007",
+  "version": "0.1.0",
+  "title": "ธงโภชนาการสำหรับเด็ก 1-5 ปี",
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      58,
+      59
+    ],
+    "printedPages": [
+      "56",
+      "57"
+    ],
+    "note": "Narration derived from lesson MCH68-GROW-007 v0.1.0"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-GROW-007 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'ทัพพี', 'ช้อนกินข้าว', 'หนึ่งจุดห้าทัพพี', 'หนึ่งจุดห้าช้อนชา', 'สิบสองถึงยี่สิบสามเดือน', 'สิบเอ็ดถึงสิบสี่ชั่วโมง' and 'สิบถึงสิบสามชั่วโมง'.",
+      "Amounts narrated exactly as in the lesson flag steps (copied cell by cell from p58/p59); nutritionist + paediatrician to verify.",
+      "HANDBOOK ISSUE (from lesson) NOT used: the 12–23-month 'นม 2 แก้ว' cell vs the bubble 'หากภาวะการเจริญเติบโตไม่เป็นไปตามเกณฑ์ ให้เสริมนมจืดวันละ 2 แก้ว'. Neither milk amount is narrated for 12–23 months; only 'กินนมแม่ต่อเนื่องถึง 2 ปี' (item 5, lesson takeaway 4) is used. The 2–5-year 'นม 2 แก้ว' (item 9) has no conflicting text and is narrated.",
+      "Not used in the video: the iron-syrup bubbles and the lesson's editorial iron-syrup sentence (high-risk lesson GROW-008); 'ถั่วเมล็ดแห้งสุก 1 ช้อนกินข้าว สัปดาห์ละ 2 ครั้ง' (2–5 y, left out for on-screen length — the 2–5-year flag is therefore not narrated in full; check this is acceptable); the colourful-food tip; QR portion examples; the 'ถ้าไม่แน่ใจว่าลูกเติบโตตามเกณฑ์หรือไม่ ถามเจ้าหน้าที่' line (tied to the milk issue).",
+      "Lesson note: the video does not say how big a ทัพพี / ส่วน / แก้ว is (not printed on these pages). Lesson editorial framing used: 'ดูหน่วยให้ดี: ช้อนกินข้าว กับ ทัพพี ไม่เหมือนกัน' (stage 2 intro, summary 2).",
+      "Item 2 / item 7 group vegetables and fruit, item 3 / item 8 group meat and egg, following the flag tiers; tier names and 'eat more at the top' are not narrated (as in the lesson)."
+    ]
+  },
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3",
+    "stability": 0.5,
+    "style": 0,
+    "speed": 0.95,
+    "seed": 1234
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "kind": "title",
+      "heading": "ธงโภชนาการเด็ก 1–5 ปี",
+      "subheading": "จากสมุดบันทึกสุขภาพแม่และเด็ก ฉบับปรับปรุงใหม่ พ.ศ. 2568",
+      "chips": [
+        "12–23 เดือน",
+        "2–5 ปี",
+        "ดูหน่วยให้ดี"
+      ],
+      "segments": [
+        {
+          "speak": "สมุดมีธงโภชนาการสำหรับเด็กสองแบบ สำหรับเด็กอายุสิบสองถึงยี่สิบสามเดือน และสำหรับเด็กอายุสองถึงห้าปี",
+          "caption": "สมุดมีธงโภชนาการสำหรับเด็ก 2 แบบ สำหรับเด็กอายุ 12–23 เดือน และสำหรับเด็กอายุ 2–5 ปี"
+        },
+        {
+          "speak": "ทั้งสองธง บอกปริมาณอาหารที่แนะนำให้กินในหนึ่งวัน",
+          "caption": "ทั้งสองธง บอกปริมาณอาหารที่แนะนำให้กินใน 1 วัน"
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "kind": "stage",
+      "stage": 1,
+      "label": "ธงเด็ก 12–23 เดือน",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 1,
+          "icon": "bowl",
+          "text": "ข้าว - แป้ง 15 ช้อนกินข้าว"
+        },
+        {
+          "n": 2,
+          "icon": "leaf",
+          "text": "ผัก 5 ช้อนกินข้าว ผลไม้ 2 ส่วน"
+        },
+        {
+          "n": 3,
+          "icon": "fish",
+          "text": "เนื้อสัตว์ 3 ช้อนกินข้าว ไข่ 1 ฟอง"
+        },
+        {
+          "n": 4,
+          "icon": "food",
+          "text": "ไขมัน 2 ช้อนชา"
+        },
+        {
+          "n": 5,
+          "icon": "breastfeed",
+          "text": "กินนมแม่ต่อเนื่องถึง 2 ปี"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่หนึ่ง ธงเด็กอายุสิบสองถึงยี่สิบสามเดือน ในสมุดหน้าห้าสิบหก",
+          "caption": "ตอนที่ 1 ธงเด็กอายุ 12–23 เดือน ในสมุดหน้า 56"
+        },
+        {
+          "reveal": 1,
+          "speak": "ข้อหนึ่ง ข้าว แป้ง สิบห้าช้อนกินข้าว",
+          "caption": "ข้อ 1 ข้าว - แป้ง 15 ช้อนกินข้าว"
+        },
+        {
+          "reveal": 2,
+          "speak": "ข้อสอง ผักห้าช้อนกินข้าว ผลไม้สองส่วน",
+          "caption": "ข้อ 2 ผัก 5 ช้อนกินข้าว ผลไม้ 2 ส่วน"
+        },
+        {
+          "reveal": 3,
+          "speak": "ข้อสาม เนื้อสัตว์สามช้อนกินข้าว ไข่หนึ่งฟอง",
+          "caption": "ข้อ 3 เนื้อสัตว์ 3 ช้อนกินข้าว ไข่ 1 ฟอง"
+        },
+        {
+          "reveal": 4,
+          "speak": "ข้อสี่ ไขมันสองช้อนชา",
+          "caption": "ข้อ 4 ไขมัน 2 ช้อนชา"
+        },
+        {
+          "reveal": 5,
+          "speak": "ข้อห้า กินนมแม่ต่อเนื่องถึงสองปี",
+          "caption": "ข้อ 5 กินนมแม่ต่อเนื่องถึง 2 ปี"
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "kind": "stage",
+      "stage": 2,
+      "label": "ธงเด็ก 2–5 ปี",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 6,
+          "icon": "bowl",
+          "text": "ข้าว - แป้ง 4 ทัพพี"
+        },
+        {
+          "n": 7,
+          "icon": "leaf",
+          "text": "ผัก 1.5 ทัพพี ผลไม้ 2 ส่วน"
+        },
+        {
+          "n": 8,
+          "icon": "fish",
+          "text": "เนื้อสัตว์ 6 ช้อนกินข้าว ไข่ 1 ฟอง"
+        },
+        {
+          "n": 9,
+          "icon": "bottle",
+          "text": "นม 2 แก้ว"
+        },
+        {
+          "n": 10,
+          "icon": "food",
+          "text": "ไขมัน 1.5 ช้อนชา น้ำตาล 3 ช้อนชา"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สอง ธงเด็กอายุสองถึงห้าปี ในสมุดหน้าห้าสิบเจ็ด ดูหน่วยให้ดี ธงนี้วัดข้าว แป้ง และผัก เป็นทัพพี",
+          "caption": "ตอนที่ 2 ธงเด็กอายุ 2–5 ปี ในสมุดหน้า 57 ดูหน่วยให้ดี ธงนี้วัดข้าว - แป้ง และผัก เป็นทัพพี"
+        },
+        {
+          "reveal": 6,
+          "speak": "ข้อหก ข้าว แป้ง สี่ทัพพี",
+          "caption": "ข้อ 6 ข้าว - แป้ง 4 ทัพพี"
+        },
+        {
+          "reveal": 7,
+          "speak": "ข้อเจ็ด ผักหนึ่งจุดห้าทัพพี ผลไม้สองส่วน",
+          "caption": "ข้อ 7 ผัก 1.5 ทัพพี ผลไม้ 2 ส่วน"
+        },
+        {
+          "reveal": 8,
+          "speak": "ข้อแปด เนื้อสัตว์หกช้อนกินข้าว ไข่หนึ่งฟอง",
+          "caption": "ข้อ 8 เนื้อสัตว์ 6 ช้อนกินข้าว ไข่ 1 ฟอง"
+        },
+        {
+          "reveal": 9,
+          "speak": "ข้อเก้า นมสองแก้ว",
+          "caption": "ข้อ 9 นม 2 แก้ว"
+        },
+        {
+          "reveal": 10,
+          "speak": "ข้อสิบ ไขมันหนึ่งจุดห้าช้อนชา น้ำตาลสามช้อนชา ไขมัน น้ำตาล เกลือ ใช้แต่น้อยเท่าที่จำเป็น",
+          "caption": "ข้อ 10 ไขมัน 1.5 ช้อนชา น้ำตาล 3 ช้อนชา ไขมัน/น้ำตาล/เกลือ ใช้แต่น้อยเท่าที่จำเป็น"
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "kind": "stage",
+      "stage": 3,
+      "label": "สมุดแนะนำร่วมด้วย",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 11,
+          "icon": "leaf",
+          "text": "รสธรรมชาติ หรือปรุงแต่น้อย"
+        },
+        {
+          "n": 12,
+          "icon": "group",
+          "text": "ครอบครัวกินอาหารพร้อมกับเด็ก"
+        },
+        {
+          "n": 13,
+          "icon": "play",
+          "text": "เล่นกับลูก"
+        },
+        {
+          "n": 14,
+          "icon": "clock",
+          "text": "นอนวันละ 11-14 หรือ 10-13 ชั่วโมง"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สาม สิ่งที่สมุดแนะนำร่วมด้วย",
+          "caption": "ตอนที่ 3 สิ่งที่สมุดแนะนำร่วมด้วย"
+        },
+        {
+          "reveal": 11,
+          "speak": "ข้อสิบเอ็ด กินอาหารรสธรรมชาติ หรือปรุงแต่น้อยเท่าที่จำเป็น",
+          "caption": "ข้อ 11 กินอาหารรสธรรมชาติ หรือปรุงแต่น้อยเท่าที่จำเป็น"
+        },
+        {
+          "reveal": 12,
+          "speak": "ข้อสิบสอง พ่อแม่และคนในครอบครัว ควรร่วมรับประทานอาหารพร้อมกับเด็ก",
+          "caption": "ข้อ 12 พ่อแม่และคนในครอบครัว ควรร่วมรับประทานอาหารพร้อมกับเด็ก"
+        },
+        {
+          "reveal": 13,
+          "speak": "ข้อสิบสาม เล่นกับลูก",
+          "caption": "ข้อ 13 เล่นกับลูก"
+        },
+        {
+          "reveal": 14,
+          "speak": "ข้อสิบสี่ ให้ลูกนอนพอ เด็กสิบสองถึงยี่สิบสามเดือน วันละสิบเอ็ดถึงสิบสี่ชั่วโมง เด็กสองถึงห้าปี วันละสิบถึงสิบสามชั่วโมง",
+          "caption": "ข้อ 14 ให้ลูกนอนพอ เด็ก 12–23 เดือน วันละ 11-14 ชั่วโมง เด็ก 2–5 ปี วันละ 10-13 ชั่วโมง"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "kind": "summary",
+      "heading": "จำไว้ 3 เรื่อง",
+      "points": [
+        "ดูธงให้ตรงอายุ สมุดหน้า 56 หรือ 57",
+        "ช้อนกินข้าว กับ ทัพพี ไม่เหมือนกัน",
+        "เล่นกับลูก นอนพอ กินพร้อมกัน"
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "สรุปเรื่องสำคัญ",
+          "caption": "สรุปเรื่องสำคัญ"
+        },
+        {
+          "reveal": 1,
+          "speak": "ดูธงให้ตรงกับอายุเด็ก สมุดหน้าห้าสิบหก หรือห้าสิบเจ็ด",
+          "caption": "ดูธงให้ตรงกับอายุเด็ก สมุดหน้า 56 หรือ 57"
+        },
+        {
+          "reveal": 2,
+          "speak": "ดูหน่วยให้ดี ช้อนกินข้าว กับ ทัพพี ไม่เหมือนกัน",
+          "caption": "ดูหน่วยให้ดี ช้อนกินข้าว กับ ทัพพี ไม่เหมือนกัน"
+        },
+        {
+          "reveal": 3,
+          "speak": "เล่นกับลูก ให้ลูกนอนพอ และกินข้าวพร้อมกันทั้งครอบครัว",
+          "caption": "เล่นกับลูก ให้ลูกนอนพอ และกินข้าวพร้อมกันทั้งครอบครัว"
+        }
+      ]
+    }
+  ]
+}

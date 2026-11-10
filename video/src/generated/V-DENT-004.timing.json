@@ -1,0 +1,189 @@
+{
+  "id": "V-DENT-004",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 4381,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 440,
+      "segments": [
+        {
+          "file": "audio/V-DENT-004/intro-1-5932bc156b.wav",
+          "from": 18,
+          "durationInFrames": 199,
+          "caption": "สมุดมีหน้าบันทึกเรื่องฟันลูก 2 หน้า คือหน้า 63 และหน้า 64",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-DENT-004/intro-2-670a7e3367.wav",
+          "from": 231,
+          "durationInFrames": 182,
+          "caption": "หน้าหนึ่งทันตบุคลากรเป็นผู้บันทึก อีกหน้าหนึ่งผู้ปกครองจดเอง",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 440,
+      "durationInFrames": 1101,
+      "segments": [
+        {
+          "file": "audio/V-DENT-004/stage1-1-8af69fe032.wav",
+          "from": 18,
+          "durationInFrames": 85,
+          "caption": "ตอนที่ 1 สมุดหน้า 63",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-DENT-004/stage1-2-a29e746ff9.wav",
+          "from": 117,
+          "durationInFrames": 238,
+          "caption": "ข้อ 1 หน้านี้ชื่อ 'บันทึกการตรวจฟันเด็ก โดยทันตบุคลากร' มีกรอบรูปฟันบนและฟันล่าง",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-DENT-004/stage1-3-56a4a8e5fb.wav",
+          "from": 369,
+          "durationInFrames": 252,
+          "caption": "ข้อ 2 ดัชนีคราบจุลินทรีย์ ทันตบุคลากรเป็นผู้ตรวจและบันทึก ผู้ปกครองไม่ต้องให้คะแนนเอง",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-DENT-004/stage1-4-e844875025.wav",
+          "from": 635,
+          "durationInFrames": 226,
+          "caption": "ข้อ 3 ข้อความที่ขอบหน้าบอกว่า ฟันผุนำไปสู่โรคทางกายร้ายแรงอื่น ๆ ได้หลายโรค",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-DENT-004/stage1-5-e1ee602fca.wav",
+          "from": 875,
+          "durationInFrames": 199,
+          "caption": "ข้อ 4 นำสมุดไปด้วยทุกครั้ง เพื่อให้ทันตบุคลากรบันทึกผลการตรวจในหน้านี้ได้",
+          "reveal": 4
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1541,
+      "durationInFrames": 1358,
+      "segments": [
+        {
+          "file": "audio/V-DENT-004/stage2-1-e144cd5c80.wav",
+          "from": 18,
+          "durationInFrames": 197,
+          "caption": "ตอนที่ 2 สมุดหน้า 64 บันทึกการขึ้นและหลุดของฟันเด็ก โดยผู้ปกครอง",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-DENT-004/stage2-2-ecbfe0726d.wav",
+          "from": 229,
+          "durationInFrames": 211,
+          "caption": "ข้อ 5 หน้านี้มีเครื่องหมายหัวใจ เป็นหน้าที่ผู้ปกครองศึกษาและบันทึกข้อมูลได้ด้วยตนเอง",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-DENT-004/stage2-3-4b898ca554.wav",
+          "from": 454,
+          "durationInFrames": 264,
+          "caption": "ข้อ 6 รูปฟันกลางหน้า แต่ละส่วนมี 5 ซี่ เขียนกำกับ A ถึง E ดูคำ 'ขวา' 'ซ้าย' ในรูปเป็นหลัก",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-DENT-004/stage2-4-06ddf3c13a.wav",
+          "from": 732,
+          "durationInFrames": 326,
+          "caption": "ข้อ 7 มีตาราง 4 ตาราง บนขวา บนซ้าย ล่างขวา ล่างซ้าย แต่ละตารางมีแถว A ถึง E ตรงกับฟันในรูป",
+          "reveal": 7
+        },
+        {
+          "file": "audio/V-DENT-004/stage2-5-1f688ceba3.wav",
+          "from": 1072,
+          "durationInFrames": 259,
+          "caption": "ข้อ 8 เห็นฟันซี่นั้นขึ้น จดอายุหรือวันที่ในช่อง 'ขึ้น' ฟันซี่นั้นหลุด จดในช่อง 'หลุด'",
+          "reveal": 8
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 2899,
+      "durationInFrames": 731,
+      "segments": [
+        {
+          "file": "audio/V-DENT-004/stage3-1-d4811e2aa9.wav",
+          "from": 18,
+          "durationInFrames": 101,
+          "caption": "ตอนที่ 3 ฟันขึ้นเร็วช้าต่างกัน",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-DENT-004/stage3-2-3d6c58953d.wav",
+          "from": 133,
+          "durationInFrames": 127,
+          "caption": "ข้อ 9 เด็กแต่ละคนอาจมีฟันขึ้นได้เร็วช้าต่างกัน",
+          "reveal": 9
+        },
+        {
+          "file": "audio/V-DENT-004/stage3-3-207924a6fc.wav",
+          "from": 274,
+          "durationInFrames": 238,
+          "caption": "ข้อ 10 หากเด็กอายุ 1 ปีแล้ว ยังไม่มีฟันซี่แรกขึ้น ควรปรึกษาทันตแพทย์หรือทันตบุคลากร",
+          "reveal": 10
+        },
+        {
+          "file": "audio/V-DENT-004/stage3-4-362e2705bb.wav",
+          "from": 526,
+          "durationInFrames": 178,
+          "caption": "ข้อ 11 พบทันตแพทย์ครั้งแรกก่อนอายุ 1 ปี และพบต่อเนื่องทุก 6 เดือน",
+          "reveal": 11
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 3630,
+      "durationInFrames": 751,
+      "segments": [
+        {
+          "file": "audio/V-DENT-004/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-DENT-004/summary-2-9d5c4ddf72.wav",
+          "from": 78,
+          "durationInFrames": 197,
+          "caption": "สมุดหน้า 64 ผู้ปกครองจดอายุหรือวันที่ ที่ฟันลูกแต่ละซี่ขึ้นและหลุด",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-DENT-004/summary-3-f783ab2b6d.wav",
+          "from": 289,
+          "durationInFrames": 203,
+          "caption": "อายุ 1 ปีแล้ว ยังไม่มีฟันซี่แรกขึ้น ควรปรึกษาทันตแพทย์หรือทันตบุคลากร",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-DENT-004/summary-4-c4eff9d400.wav",
+          "from": 506,
+          "durationInFrames": 218,
+          "caption": "สมุดหน้า 63 ทันตบุคลากรเป็นผู้บันทึกการตรวจฟัน นำสมุดไปด้วยทุกครั้ง",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

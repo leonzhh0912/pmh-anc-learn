@@ -1,0 +1,32 @@
+{
+  "id": "V-K-006",
+  "lessonId": "MCH68-K-006",
+  "title": "ออกกำลังกายระหว่างตั้งครรภ์และหลังคลอด",
+  "mp4": "media/V-K-006.mp4",
+  "captionsVtt": "media/V-K-006.th.vtt",
+  "poster": "media/V-K-006.jpg",
+  "durationSec": 100.1,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-K-006 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of แอโรบิค, อุ้งเชิงกราน, ยืดเหยียด, ไตรมาส, หนึ่งร้อยห้าสิบนาทีต่อสัปดาห์.",
+      "HANDBOOK ISSUES avoided: per-activity minute figures (no per session / per day) and the p27 trimester week ranges are NOT narrated; the video says 'ดูได้ในสมุดหน้า 25' (lesson takeaway wording) and names trimesters without weeks.",
+      "'150 นาที/สัปดาห์ ระดับปานกลาง' is narrated as printed, without 'อย่างน้อย' (lesson note).",
+      "Lesson note applies: p27 lists no warning signs; the video quotes 'หยุดทันทีหากมีอาการผิดปกติ' and the lesson's 'ถ้าไม่แน่ใจ ถามเจ้าหน้าที่ที่ดูแลการฝากครรภ์' pointer. PMH to decide whether to add clinician-approved text.",
+      "Lesson note applies: the stage goals/benefits come from the printed stage headings; trimester-1 items are printed without saying who does them (the video names ประเมินกิจกรรมทางกาย and กำหนดเป้าหมาย only).",
+      "The sex-during-pregnancy line is not used in the video (kept in the lesson).",
+      "ANC nurse + physiotherapist / obstetrician to verify activities per stage (curriculum review requirement)."
+    ]
+  }
+}

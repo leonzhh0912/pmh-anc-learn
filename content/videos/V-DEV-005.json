@@ -1,0 +1,31 @@
+{
+  "id": "V-DEV-005",
+  "lessonId": "MCH68-DEV-005",
+  "title": "พ่อแม่ส่งเสริมพัฒนาการลูก: กอด คุย เล่านิทาน เล่นด้วยกัน",
+  "mp4": "media/V-DEV-005.mp4",
+  "captionsVtt": "media/V-DEV-005.th.vtt",
+  "poster": "media/V-DEV-005.jpg",
+  "durationSec": 95.9,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-DEV-005 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'ดี เอส พี เอ็ม' (DSPM), 'ห้าสิบแปดถึงหกสิบเอ็ด' and 'ขวบปี'.",
+      "Lesson note: the handbook only LISTS hug / talk / read stories / play / eat together; no activity examples were added to the video.",
+      "Lesson editorial framing used: 'ทำได้ในชีวิตประจำวัน' (stage 1 intro) and 'นำสมุดไปให้เจ้าหน้าที่ดูด้วยกันเมื่อพาลูกไปตรวจ และถามได้ถ้าสงสัย' (item 8, summary 3) are not printed in the handbook.",
+      "Lesson note for reviewer: the handbook frames DSPM as a parent tool too (p63 cover lists parents first); the 'ask staff' pointer is editorial — confirm the intended message.",
+      "PMH CLARIFICATION (from lesson): the no-hitting message (item 9) is culturally sensitive — PMH to approve tone. Wording follows the p33 tip.",
+      "Not used in the video: the QR codes on printed p31 ('การเลี้ยงดูลูกเชิงบวก') and p61 ('รู้ใจวัยจิ๋ว'), milestone checklists, sleep hours and iron syrup."
+    ]
+  }
+}

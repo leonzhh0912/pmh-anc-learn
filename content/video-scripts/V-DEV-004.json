@@ -1,0 +1,252 @@
+{
+  "id": "V-DEV-004",
+  "lessonId": "MCH68-DEV-004",
+  "version": "0.1.0",
+  "title": "พัฒนาการตามวัย 42 - 78 เดือน",
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      61,
+      62,
+      63
+    ],
+    "printedPages": [
+      "59",
+      "60",
+      "61"
+    ],
+    "note": "Narration derived from lesson MCH68-DEV-004 v0.1.0"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-DEV-004 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'หกสิบเอ็ด', 'เจ็ดสิบสามถึงเจ็ดสิบแปดเดือน', 'หกสิบเจ็ดถึงเจ็ดสิบสองเดือน', 'ห้าสิบห้าถึงห้าสิบเก้าเดือน' and 'ฝึกกระตุ้นพัฒนาการ'.",
+      "FRAMING (please review carefully, as in the lesson and V-DEV-002): the video never says a child is or may be delayed and never says a child 'should' do an item by an age. Items are presented only as 'what the handbook lists in each age column' ('ในช่อง … สมุดมีรายการ …'). The only action is the lesson's editorial 'รายการในสมุดใช้ติดตามพัฒนาการของลูก ไม่ต้องตัดสินเอง ถ้าสงสัยหรือกังวล บอกเจ้าหน้าที่' (item 3) and 'ถ้าสงสัยหรือกังวลเรื่องพัฒนาการของลูก บอกเจ้าหน้าที่ และนำสมุดไปด้วย' (summary 3); the phrase 'ไม่ใช่การตัดสินว่าลูกปกติหรือไม่' is left out to fit the caption limit. Child-development nurse + PMH to approve.",
+      "As in the lesson, the p62 margin tip 'เมื่อประเมินแล้วพบว่าสงสัยล่าช้า จำเป็นต้องเข้ารับการฝึกกระตุ้นตามนัด' is NOT used (no delay language); reviewer to confirm this omission.",
+      "Seven representative items out of 40 (items 4–10), verbatim from the lesson timeline/sort cards (p62–p63 / printed 60–61). The 43–48 and 49–54-month bands are not shown because their item texts are too long for the screen. 'ยืนขาเดียวนาน 5 วินาที', 'บอกเพศของตนเองได้' and 'วาดรูปคนได้ 6 ส่วน' are single items taken from multi-item cells (as in the lesson's sort cards). Child-development nurse to confirm the item text is verbatim.",
+      "All stages use hideNumbers: item texts carry age numbers (and '60–61', '5', '6'), so badges are hidden and narration does not use 'ข้อ' numbers.",
+      "Intro segment 1 quotes the p63 (printed 61) margin tip word for word. The 42- and 60-month screening sentences come from the p61 margin tip (printed 59); that these columns are red on p62 is described from the image (lesson note).",
+      "Not used in the video: the names of the 5 domains, the remaining checklist items, the DSPM/DAIM manual covers and QR codes, and the family note."
+    ]
+  },
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3",
+    "stability": 0.5,
+    "style": 0,
+    "speed": 0.95,
+    "seed": 1234
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "kind": "title",
+      "heading": "พัฒนาการ 42–78 เดือน",
+      "subheading": "จากสมุดบันทึกสุขภาพแม่และเด็ก ฉบับปรับปรุงใหม่ พ.ศ. 2568",
+      "chips": [
+        "8 ช่วงอายุ",
+        "5 ด้าน",
+        "สมุดหน้า 60–61"
+      ],
+      "segments": [
+        {
+          "speak": "พ่อแม่ผู้ดูแลมีบทบาทสำคัญในการฝึกกระตุ้นพัฒนาการของเด็ก เพราะมีเวลาอยู่กับเด็กมากที่สุด",
+          "caption": "พ่อแม่ผู้ดูแลมีบทบาทสำคัญในการฝึกกระตุ้นพัฒนาการของเด็ก เพราะมีเวลาอยู่กับเด็กมากที่สุด"
+        },
+        {
+          "speak": "สมุดหน้าหกสิบ และหน้าหกสิบเอ็ด มีรายการพัฒนาการสี่สิบสองถึงเจ็ดสิบแปดเดือน แบ่งเป็นแปดช่วงอายุ ช่วงละห้าด้าน",
+          "caption": "สมุดหน้า 60 และหน้า 61 มีรายการพัฒนาการ 42 ถึง 78 เดือน แบ่งเป็น 8 ช่วงอายุ ช่วงละ 5 ด้าน"
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "kind": "stage",
+      "stage": 1,
+      "label": "อ่านรายการอย่างไร",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 1,
+          "icon": "handbook",
+          "text": "หาช่องอายุของลูก ในสมุดหน้า 60–61"
+        },
+        {
+          "n": 2,
+          "icon": "check",
+          "text": "อ่านรายการทั้ง 5 ด้านในช่องนั้น"
+        },
+        {
+          "n": 3,
+          "icon": "ask",
+          "text": "สงสัยหรือกังวล บอกเจ้าหน้าที่"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่หนึ่ง อ่านรายการอย่างไร",
+          "caption": "ตอนที่ 1 อ่านรายการอย่างไร"
+        },
+        {
+          "reveal": 1,
+          "speak": "หาช่องอายุของลูก ในสมุดหน้าหกสิบ หรือหกสิบเอ็ด ช่วงเจ็ดสิบสามถึงเจ็ดสิบแปดเดือน อยู่แถบซ้ายของหน้าหกสิบเอ็ด",
+          "caption": "หาช่องอายุของลูก ในสมุดหน้า 60 หรือ 61 ช่วง 73–78 เดือน อยู่แถบซ้ายของหน้า 61"
+        },
+        {
+          "reveal": 2,
+          "speak": "แล้วอ่านรายการทั้งห้าด้านในช่องนั้น บางช่องมีมากกว่าหนึ่งรายการ เช่น ช่องสี่สิบสอง และหกสิบเดือน",
+          "caption": "แล้วอ่านรายการทั้ง 5 ด้านในช่องนั้น บางช่องมีมากกว่า 1 รายการ เช่น ช่อง 42 และ 60 เดือน"
+        },
+        {
+          "reveal": 3,
+          "speak": "รายการในสมุดใช้ติดตามพัฒนาการของลูก ไม่ต้องตัดสินเอง ถ้าสงสัยหรือกังวล บอกเจ้าหน้าที่",
+          "caption": "รายการในสมุดใช้ติดตามพัฒนาการของลูก ไม่ต้องตัดสินเอง ถ้าสงสัยหรือกังวล บอกเจ้าหน้าที่"
+        }
+      ],
+      "hideNumbers": true
+    },
+    {
+      "id": "stage2",
+      "kind": "stage",
+      "stage": 2,
+      "label": "42–59 เดือน",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 4,
+          "icon": "walk",
+          "text": "42 เดือน: ยืนขาเดียวนาน 5 วินาที"
+        },
+        {
+          "n": 5,
+          "icon": "chat",
+          "text": "42 เดือน: บอกเพศของตนเองได้"
+        },
+        {
+          "n": 6,
+          "icon": "book",
+          "text": "55–59 เดือน: จับดินสอได้ถูกต้อง"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สอง ช่องสี่สิบสองถึงห้าสิบเก้าเดือน ช่องสี่สิบสองเดือนมีสีแดง เป็นอายุที่เจ้าหน้าที่ช่วยคัดกรองพัฒนาการ",
+          "caption": "ตอนที่ 2 ช่อง 42–59 เดือน ช่อง 42 เดือนมีสีแดง เป็นอายุที่เจ้าหน้าที่ช่วยคัดกรองพัฒนาการ"
+        },
+        {
+          "reveal": 4,
+          "speak": "ในช่องสี่สิบสองเดือน สมุดมีรายการ ยืนขาเดียวนานห้าวินาที",
+          "caption": "ในช่อง 42 เดือน สมุดมีรายการ ยืนขาเดียวนาน 5 วินาที"
+        },
+        {
+          "reveal": 5,
+          "speak": "และในช่องเดียวกัน มีรายการ บอกเพศของตนเองได้",
+          "caption": "และในช่องเดียวกัน มีรายการ บอกเพศของตนเองได้"
+        },
+        {
+          "reveal": 6,
+          "speak": "ในช่องห้าสิบห้าถึงห้าสิบเก้าเดือน มีรายการ จับดินสอได้ถูกต้อง",
+          "caption": "ในช่อง 55–59 เดือน มีรายการ จับดินสอได้ถูกต้อง"
+        }
+      ],
+      "hideNumbers": true
+    },
+    {
+      "id": "stage3",
+      "kind": "stage",
+      "stage": 3,
+      "label": "60–78 เดือน",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 7,
+          "icon": "play",
+          "text": "60 เดือน: วาดรูปคนได้ 6 ส่วน"
+        },
+        {
+          "n": 8,
+          "icon": "heart",
+          "text": "61–66 เดือน: ช่วยงานบ้าน"
+        },
+        {
+          "n": 9,
+          "icon": "toothbrush",
+          "text": "67–72 เดือน: เด็กแปรงฟันได้ทั่วทั้งปาก"
+        },
+        {
+          "n": 10,
+          "icon": "form",
+          "text": "73–78 เดือน: เขียนชื่อตนเองได้ถูกต้อง"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สาม ช่องหกสิบถึงเจ็ดสิบแปดเดือน ช่องหกสิบเดือนมีสีแดง เป็นอายุที่เจ้าหน้าที่ช่วยคัดกรองพัฒนาการ",
+          "caption": "ตอนที่ 3 ช่อง 60–78 เดือน ช่อง 60 เดือนมีสีแดง เป็นอายุที่เจ้าหน้าที่ช่วยคัดกรองพัฒนาการ"
+        },
+        {
+          "reveal": 7,
+          "speak": "ในช่องหกสิบเดือน สมุดมีรายการ วาดรูปคนได้หกส่วน",
+          "caption": "ในช่อง 60 เดือน สมุดมีรายการ วาดรูปคนได้ 6 ส่วน"
+        },
+        {
+          "reveal": 8,
+          "speak": "ในช่องหกสิบเอ็ดถึงหกสิบหกเดือน มีรายการ ช่วยงานบ้าน",
+          "caption": "ในช่อง 61–66 เดือน มีรายการ ช่วยงานบ้าน"
+        },
+        {
+          "reveal": 9,
+          "speak": "ในช่องหกสิบเจ็ดถึงเจ็ดสิบสองเดือน มีรายการ เด็กแปรงฟันได้ทั่วทั้งปาก",
+          "caption": "ในช่อง 67–72 เดือน มีรายการ เด็กแปรงฟันได้ทั่วทั้งปาก"
+        },
+        {
+          "reveal": 10,
+          "speak": "และในช่องเจ็ดสิบสามถึงเจ็ดสิบแปดเดือน หน้าหกสิบเอ็ด มีรายการ เขียนชื่อตนเองได้ถูกต้อง",
+          "caption": "และในช่อง 73–78 เดือน หน้า 61 มีรายการ เขียนชื่อตนเองได้ถูกต้อง"
+        }
+      ],
+      "hideNumbers": true
+    },
+    {
+      "id": "summary",
+      "kind": "summary",
+      "heading": "จำไว้ 3 เรื่อง",
+      "points": [
+        "หน้า 60–61: 8 ช่วงอายุ 5 ด้าน",
+        "42 และ 60 เดือน เจ้าหน้าที่คัดกรอง",
+        "สงสัยหรือกังวล บอกเจ้าหน้าที่"
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "สรุปเรื่องสำคัญ",
+          "caption": "สรุปเรื่องสำคัญ"
+        },
+        {
+          "reveal": 1,
+          "speak": "สมุดหน้าหกสิบถึงหกสิบเอ็ด มีรายการพัฒนาการแปดช่วงอายุ ช่วงละห้าด้าน",
+          "caption": "สมุดหน้า 60–61 มีรายการพัฒนาการ 8 ช่วงอายุ ช่วงละ 5 ด้าน"
+        },
+        {
+          "reveal": 2,
+          "speak": "อายุสี่สิบสองเดือน และหกสิบเดือน เป็นช่วงที่เจ้าหน้าที่สาธารณสุขช่วยคัดกรองพัฒนาการ",
+          "caption": "อายุ 42 เดือน และ 60 เดือน เป็นช่วงที่เจ้าหน้าที่สาธารณสุขช่วยคัดกรองพัฒนาการ"
+        },
+        {
+          "reveal": 3,
+          "speak": "ถ้าสงสัยหรือกังวลเรื่องพัฒนาการของลูก บอกเจ้าหน้าที่ และนำสมุดไปด้วย",
+          "caption": "ถ้าสงสัยหรือกังวลเรื่องพัฒนาการของลูก บอกเจ้าหน้าที่ และนำสมุดไปด้วย"
+        }
+      ]
+    }
+  ]
+}

@@ -9,14 +9,16 @@ type TimelineStep = Extract<Step, { type: "timeline" }>;
  */
 export function Timeline({ step, onAllSeen }: { step: TimelineStep; onAllSeen?: () => void }) {
   const [stageId, setStageId] = useState(step.stages[0].id);
-  const [open, setOpen] = useState<Set<number>>(new Set());
+  // keyed by stage + number: content may restart numbering in each stage
+  const [open, setOpen] = useState<Set<string>>(new Set());
+  const key = (stageKey: string, n: number) => `${stageKey}:${n}`;
   const stage = step.stages.find((s) => s.id === stageId)!;
   const total = step.stages.reduce((n, s) => n + s.items.length, 0);
 
-  function toggle(n: number) {
+  function toggle(k: string) {
     const next = new Set(open);
-    if (next.has(n)) next.delete(n);
-    else next.add(n);
+    if (next.has(k)) next.delete(k);
+    else next.add(k);
     setOpen(next);
     if (next.size === total) onAllSeen?.();
   }
@@ -26,7 +28,7 @@ export function Timeline({ step, onAllSeen }: { step: TimelineStep; onAllSeen?: 
       <p>{step.intro}</p>
       <div className="timeline__stages" role="tablist" aria-label="ช่วงเวลา">
         {step.stages.map((s, i) => {
-          const seen = s.items.filter((it) => open.has(it.n)).length;
+          const seen = s.items.filter((it) => open.has(key(s.id, it.n))).length;
           return (
             <button
               key={s.id}
@@ -49,14 +51,14 @@ export function Timeline({ step, onAllSeen }: { step: TimelineStep; onAllSeen?: 
 
       <ol className="timeline__items" id={`stage-${stage.id}`} role="tabpanel">
         {stage.items.map((it) => {
-          const isOpen = open.has(it.n);
+          const isOpen = open.has(key(stage.id, it.n));
           return (
-            <li key={it.n} className={`timeline__item ${isOpen ? "is-open" : ""}`}>
+            <li key={key(stage.id, it.n)} className={`timeline__item ${isOpen ? "is-open" : ""}`}>
               <button
                 type="button"
                 className="timeline__toggle"
                 aria-expanded={isOpen}
-                onClick={() => toggle(it.n)}
+                onClick={() => toggle(key(stage.id, it.n))}
               >
                 <span className="timeline__n" aria-hidden="true">
                   {it.n}

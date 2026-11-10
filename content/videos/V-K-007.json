@@ -1,0 +1,31 @@
+{
+  "id": "V-K-007",
+  "lessonId": "MCH68-K-007",
+  "title": "เลี้ยงลูกด้วยนมแม่: ทำไมสำคัญ และ 3 ดูด",
+  "mp4": "media/V-K-007.mp4",
+  "captionsVtt": "media/V-K-007.th.vtt",
+  "poster": "media/V-K-007.jpg",
+  "durationSec": 111.3,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-K-007 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of ออกซิโทซิน, รังไข่, เกลี้ยงเต้า, เจ็ดสิบเปอร์เซ็นต์, and the 1-6-2 numbers read as 'หนึ่ง ชั่วโมงแรก / หก เดือนแรก / สอง ปี'.",
+      "Lesson note applies: benefits, 3 ดูด, 1-6-2 and the '70%' tip are from PDF p28; 'แม้แต่น้ำ' from p56. Lactation nurse + paediatrician to review.",
+      "The p28 'ความผูกพันธ์' sentence is not used (avoids the spelling question).",
+      "Lesson note applies: latch/positioning is not described in the handbook; the video repeats the lesson's 'ขอให้เจ้าหน้าที่ช่วยดูได้' pointer. PMH lactation-clinic contact still to be added.",
+      "Lesson note applies: linking '1 ชั่วโมงแรก' (1-6-2) with 'ดูดเร็ว' is an editorial link between two p28 items.",
+      "The nipple check (p12) is not covered in the video."
+    ]
+  }
+}

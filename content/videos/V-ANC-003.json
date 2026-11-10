@@ -1,0 +1,33 @@
+{
+  "id": "V-ANC-003",
+  "lessonId": "MCH68-ANC-003",
+  "title": "ทำไมเจ้าหน้าที่ประเมินความเสี่ยงการตั้งครรภ์เมื่อมาฝากครรภ์",
+  "mp4": "media/V-ANC-003.mp4",
+  "captionsVtt": "media/V-ANC-003.th.vtt",
+  "poster": "media/V-ANC-003.jpg",
+  "durationSec": 99.1,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-ANC-003 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'ประวัติโรคทางอายุรกรรม', 'ภาวะแทรกซ้อน', 'บุคลากรทางสาธารณสุข', 'สมุดหน้าหกและหน้าเจ็ด' and 'ครั้งที่สอง ถึงครั้งที่แปด'.",
+      "Awareness only, as in the lesson: no checklist item, threshold, colour or risk level is narrated or shown, nothing links a condition to a level, and there is no self-assessment. The 4-level placement legend (Low Risk / High Risk 1–3 and facilities) from the lesson timeline is deliberately left out of the video. ANC nurse + obstetrician to confirm.",
+      "The staff-side HANDBOOK ISSUE on the printed page 6 checklist (anaemia item) is not referred to in the video.",
+      "Lesson note: honest-answer framing (item 2, summary 2) is editorial; the rationale (summary 2) quotes the p5 tip, which is about past pregnancies, extended to the whole risk interview. ANC nurse to approve.",
+      "Lesson note: 'keep coming to appointments after the first assessment' (item 6, summary 3) rests on the p9 tip and p67 item 5, not on a schedule; no visit timing is given. Item 5 names 'ครั้งที่ 2 ถึงครั้งที่ 8' only as table columns.",
+      "'ไม่ใช่แบบประเมินตัวเอง' (title segment 2, summary 1) is app framing from the lesson text/takeaway 1, not handbook text.",
+      "Items 3 and 6 shorten the p8 and p9 margin tips for caption length (item 3 drops 'หญิงที่' and 'ของโรค', and says 'บุคลากร' for 'บุคลากรทางสาธารณสุข'). Check wording is acceptable.",
+      "Not used in the video: the timeline 'ask staff where to go if referred' line, the family note and the sort step."
+    ]
+  }
+}

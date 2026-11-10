@@ -30,7 +30,10 @@ This is real patient-education software for Phimai Hospital, Thailand. Accuracy 
 - Schema (single source for types and validation): `app/src/content/schema.ts`
 - Validation: `cd app && npm run validate:content` (must pass before any commit)
 - Video pipeline: `video/scripts/narrate.mjs` → `remotion render` → `video/scripts/publish.mjs`
-- Video scenes: `video/src/lesson/` (register new videos in `registry.ts`)
+- Video scenes: `video/src/lesson/` (new videos register automatically when narrated)
+- Many videos at once: `cd video && npm run batch -- V-K-001 …` (check → narrate → render → publish → attach)
+- Authoring guides: `docs/LESSON-AUTHORING-GUIDE.md`, `docs/VIDEO-SCRIPT-GUIDE.md`
+- Reviewer checklist: `cd app && npm run review-pack` → `docs/REVIEW-PACK.md`
 
 ## Working method
 

@@ -1,0 +1,31 @@
+{
+  "id": "V-DEV-002",
+  "lessonId": "MCH68-DEV-002",
+  "title": "พัฒนาการตามวัย แรกเกิด - 12 เดือน",
+  "mp4": "media/V-DEV-002.mp4",
+  "captionsVtt": "media/V-DEV-002.th.vtt",
+  "poster": "media/V-DEV-002.jpg",
+  "durationSec": 108.2,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-DEV-002 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'อ้อแอ้', 'จ๊ะเอ๋', 'ห้าสิบแปด', 'ดี เอส พี เอ็ม' (DSPM) and the age bands ('แรกเกิดถึงหนึ่งเดือน', 'สิบถึงสิบสองเดือน').",
+      "FRAMING (please review carefully, as in the lesson): the video never says a child is or may be delayed and never says a child 'should' do an item by an age. Items are presented only as 'what the handbook lists in each age column' ('ในช่อง … สมุดมีรายการ …'). The only action given is the lesson's editorial 'ถ้าสงสัยหรือกังวลเรื่องพัฒนาการของลูก บอกเจ้าหน้าที่ และนำสมุดไปด้วย / ไม่ต้องตัดสินเอง' (item 3, summary 3) and 'รายการในสมุดใช้ติดตามพัฒนาการ ไม่ใช่การตัดสินว่าลูกปกติหรือไม่' (item 3, summary 2). Child-development nurse + PMH to approve.",
+      "Six representative items out of 35 (items 4–9), all verbatim from the lesson's sort cards (p60 / printed 58), one per age band shown; not every band or domain is covered. Child-development nurse to confirm the item text is verbatim.",
+      "All stages use hideNumbers: item texts carry age numbers (and '58', '5'), so badges are hidden and narration does not use 'ข้อ' numbers.",
+      "Lesson note: the 9-month screening sentence (stage 3 intro) comes from the p61 tip; that the 9-month column is red on p60 is described from the image.",
+      "Not used in the video: the remaining checklist items, the domain abbreviations, pictures / speech-bubble props, and the family note."
+    ]
+  }
+}

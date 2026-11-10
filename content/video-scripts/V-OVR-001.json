@@ -18,6 +18,7 @@
     "reviewDate": null,
     "clinicalRisk": "low",
     "reviewNotes": [
+      "2026-11-09: PMH staff listened and confirmed the ElevenLabs narration sounds correct (reported by the developer; reviewer name to be recorded for formal APPROVED status).",
       "v0.3.0: narration voice is ElevenLabs eleven_v3, voice MYZYcGOqrkYQcwDunXl7 (paid plan, commercial licence). Narration TEXT unchanged from v0.2.0.",
       "Thai-speaking reviewer must listen to the whole video and check pronunciation, especially numbers, 'ดี เอส พี เอ็ม' (DSPM), ฟลูออไรด์, โฟลิก, and tone of delivery.",
       "Item 5 follows the handbook ('พร้อมสามี'). PMH to decide whether to add inclusive wording for people attending without a partner.",
@@ -48,6 +49,11 @@
           "speak": "แบ่งเป็นสามช่วง คือ ก่อนและเริ่มตั้งครรภ์ ระหว่างตั้งครรภ์ และหลังคลอดกับการดูแลลูก",
           "caption": "แบ่งเป็น 3 ช่วง คือ ก่อนและเริ่มตั้งครรภ์ ระหว่างตั้งครรภ์ และหลังคลอดกับการดูแลลูก"
         }
+      ],
+      "chips": [
+        "ก่อนและเริ่มตั้งครรภ์",
+        "ระหว่างตั้งครรภ์",
+        "หลังคลอดและการดูแลลูก"
       ]
     },
     {
@@ -103,7 +109,8 @@
           "speak": "ข้อสี่ บันทึกข้อมูลร่วมกับเจ้าหน้าที่ เพื่อดูแลต่อเนื่อง",
           "caption": "ข้อ 4 บันทึกข้อมูลร่วมกับเจ้าหน้าที่ เพื่อดูแลต่อเนื่อง"
         }
-      ]
+      ],
+      "prefix": "ช่วงที่"
     },
     {
       "id": "stage2",
@@ -168,7 +175,8 @@
           "speak": "ข้อเก้า ปฏิบัติตามคำแนะนำ ในสมุดบันทึกสุขภาพแม่และเด็ก",
           "caption": "ข้อ 9 ปฏิบัติตามคำแนะนำในสมุดบันทึกสุขภาพแม่และเด็ก"
         }
-      ]
+      ],
+      "prefix": "ช่วงที่"
     },
     {
       "id": "stage3",
@@ -243,7 +251,8 @@
           "speak": "ข้อสิบห้า หากมีข้อสงสัย ปรึกษาแพทย์หรือบุคลากร ไม่ควรลองผิดลองถูก",
           "caption": "ข้อ 15 หากมีข้อสงสัย ปรึกษาแพทย์หรือบุคลากร ไม่ควรลองผิดลองถูก"
         }
-      ]
+      ],
+      "prefix": "ช่วงที่"
     },
     {
       "id": "summary",

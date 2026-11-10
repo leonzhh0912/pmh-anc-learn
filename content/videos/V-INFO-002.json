@@ -1,0 +1,32 @@
+{
+  "id": "V-INFO-002",
+  "lessonId": "MCH68-INFO-002",
+  "title": "โรงเรียนพ่อแม่ 7 ครั้ง",
+  "mp4": "media/V-INFO-002.mp4",
+  "captionsVtt": "media/V-INFO-002.th.vtt",
+  "poster": "media/V-INFO-002.jpg",
+  "durationSec": 103.1,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-INFO-002 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of the gestational ranges ('หนึ่งถึงสิบสองสัปดาห์', 'สิบสามถึงยี่สิบเจ็ดสัปดาห์', 'ยี่สิบแปดสัปดาห์ขึ้นไป'), 'สิบแปดเดือน' and 'ใบประกาศนียบัตร'.",
+      "Stages use prefix 'ตอนที่' because the parts are places (คลินิกฝากครรภ์ / หลังคลอด + คลินิกเด็กสุขภาพดี / what to know each time), not time periods. Item numbers 1–7 match the session numbers; items 8–10 are narrated without 'ข้อ' numbers so they are not confused with sessions — check the on-screen badges 8–10 do not read as sessions 8–10.",
+      "Lesson has 4th session alone under หลังคลอด (PP ward); it is grouped with the Well Child Clinic sessions in stage 2 because a stage needs at least 2 items.",
+      "Lesson note: ranges are as printed on p4 ('1-12', '13-27', '28 สัปดาห์ขึ้นไป'); the stray 'Volume' overlay (HANDBOOK ISSUE) is ignored, as in the lesson.",
+      "Lesson note: 'staff write the date and sign for each session' (item 8, summary 2) is read from the table columns; the handbook does not say it in a sentence.",
+      "Lesson note: 'bring the handbook' (item 8, summary 2) comes from PDF p2, not p4.",
+      "Not used in the video: certificate e-mail line (PMH CLARIFICATION on how the e-mail field is used), SMART HYBRID / online sessions, the 9-volume คู่มือ and QR, and the editorial 'parenting-school day is a good time to ask'."
+    ]
+  }
+}

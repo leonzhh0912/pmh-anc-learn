@@ -1,0 +1,32 @@
+{
+  "id": "V-CH-006",
+  "lessonId": "MCH68-CH-006",
+  "title": "ก่อนและหลังพาลูกไปรับวัคซีน",
+  "mp4": "media/V-CH-006.mp4",
+  "captionsVtt": "media/V-CH-006.th.vtt",
+  "poster": "media/V-CH-006.jpg",
+  "durationSec": 121.4,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-CH-006 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'วัคซีนวัณโรค', 'สามสิบเก้า' and 'สามถึงสี่สัปดาห์'.",
+      "No vaccine schedule is narrated or shown (it belongs to high-risk lesson MCH68-CH-004). The lesson's pointer to the schedule on printed pages 36–38 is also left out.",
+      "Lesson note: the fuller p40 wording 'กินยาลดไข้ได้ตามคำแนะนำของแพทย์' is used (item 4), not the shorter p38 tip.",
+      "Not used in the video: the lesson's editorial lines 'สมุดไม่ได้ระบุชนิดหรือขนาดยาลดไข้ ถามแพทย์หรือเภสัชกรก่อนให้ยา' (PMH CLARIFICATION, EPI nurse to approve) and 'เจ้าหน้าที่จะแจ้งวันนัดให้ทราบ'. Reviewer to decide whether the antipyretic caution should be added to item 4.",
+      "Item 2 shortens 'ผลข้างเคียงของวัคซีน' to 'อาการรุนแรงจากวัคซีน', drops the examples 'ชักจากไข้สูง' and 'ผื่นแพ้รุนแรง', and says 'บุคลากร' for 'บุคลากรทางสาธารณสุข' (caption length). Item 10 drops the 'school / travel abroad' detail. Check wording is acceptable.",
+      "Summary point 2 narration says 'ถ้ามีไข้หลังฉีด ให้เช็ดตัวลดไข้' (from p40) without repeating the antipyretic line; check this is acceptable.",
+      "PMH CLARIFICATION (from lesson): how PMH follows up missed appointments — the video only repeats the p41 tip ('รีบมาติดตาม')."
+    ]
+  }
+}

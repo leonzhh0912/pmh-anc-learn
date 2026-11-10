@@ -508,3 +508,11 @@
 @media (min-width: 640px) {
   .flag__layout { grid-template-columns: 1.1fr 1fr; align-items: start; }
 }
+
+/* many destination boxes: two columns on phones so they fit on screen */
+.sort__buckets--many { grid-template-columns: 1fr 1fr; }
+.sort__buckets--many .sort__bucket { min-height: 56px; padding: 10px 12px; }
+@media (min-width: 720px) {
+  .sort__buckets--many { grid-template-columns: repeat(3, 1fr); }
+}
+.sort__buckets { scroll-margin-bottom: 96px; } /* stay clear of the sticky next button */

@@ -1,0 +1,29 @@
+{
+  "id": "V-K-004",
+  "lessonId": "MCH68-K-004",
+  "title": "ข้อปฏิบัติการกินเพื่อสุขภาพที่ดี 9 ข้อ สำหรับหญิงตั้งครรภ์และหญิงให้นมบุตร",
+  "mp4": "media/V-K-004.mp4",
+  "captionsVtt": "media/V-K-004.th.vtt",
+  "poster": "media/V-K-004.jpg",
+  "durationSec": 105.6,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-K-004 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of ข้าวซ้อมมือ, ถั่วเมล็ดแห้ง, ผลิตภัณฑ์, แคลเซียม, เต้าหู้ขาวแข็ง, แอลกอฮอล์, หมักดอง and the rule numbers.",
+      "Lesson note applies: the 9 rules are kept close to verbatim from PDF p26 (printed 24); nutritionist to verify. Rules 3–5 use only some of the printed food examples (introduced with 'เช่น').",
+      "Lesson note applies: grouping rules 1–5 'กินให้ครบ หลากหลาย' / 6–9 'สะอาด และหลีกเลี่ยง' and the short on-screen titles are editorial.",
+      "The danger-sign box on the same page is not covered (belongs to MCH68-K-005)."
+    ]
+  }
+}

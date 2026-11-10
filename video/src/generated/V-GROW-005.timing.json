@@ -1,0 +1,196 @@
+{
+  "id": "V-GROW-005",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 4155,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 438,
+      "segments": [
+        {
+          "file": "audio/V-GROW-005/intro-1-5ce716bb42.wav",
+          "from": 18,
+          "durationInFrames": 182,
+          "caption": "6 เดือนแรก ลูกกินนมแม่อย่างเดียว แล้วเมื่ออายุ 6 เดือน จึงเริ่มอาหารมื้อแรก",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-GROW-005/intro-2-e61b3d0481.wav",
+          "from": 214,
+          "durationInFrames": 197,
+          "caption": "มาดูตารางอาหารเดือนที่ 6 ในสมุดหน้า 54 ทุกช่วงให้ควบคู่กับนมแม่",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 438,
+      "durationInFrames": 572,
+      "segments": [
+        {
+          "file": "audio/V-GROW-005/stage1-1-2bf844ba36.wav",
+          "from": 18,
+          "durationInFrames": 84,
+          "caption": "ช่วงที่ 1 แรกเกิดถึง 6 เดือน",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-005/stage1-2-2fb625a4df.wav",
+          "from": 116,
+          "durationInFrames": 199,
+          "caption": "ข้อ 1 แรกเกิดถึง 6 เดือน กินนมแม่อย่างเดียว ไม่ต้องให้อาหารอื่น แม้แต่น้ำ",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-GROW-005/stage1-3-8ecf8580fe.wav",
+          "from": 329,
+          "durationInFrames": 216,
+          "caption": "ข้อ 2 เมื่อลูกอายุ 6 เดือน เริ่มอาหารมื้อแรกได้ โดยไม่ต้องรอให้ฟันขึ้นก่อน",
+          "reveal": 2
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1010,
+      "durationInFrames": 1512,
+      "segments": [
+        {
+          "file": "audio/V-GROW-005/stage2-1-7b88bfa029.wav",
+          "from": 18,
+          "durationInFrames": 134,
+          "caption": "ช่วงที่ 2 เดือนที่ 6 วันที่ 1–7 ตามตารางในสมุด",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-005/stage2-2-2a26f15843.wav",
+          "from": 166,
+          "durationInFrames": 190,
+          "caption": "ข้อ 3 ตารางเขียนว่า เริ่มให้อาหารมื้อแรก ลักษณะอาหารบดละเอียด",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-GROW-005/stage2-3-17a12d0b40.wav",
+          "from": 370,
+          "durationInFrames": 293,
+          "caption": "ข้อ 4 ข้าวต้ม วันที่ 1–2: 1 ช้อนกินข้าว วันที่ 3–7: ค่อย ๆ เพิ่มจาก 2 เป็น 3 ช้อนกินข้าว",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-GROW-005/stage2-4-30ac89ad7c.wav",
+          "from": 677,
+          "durationInFrames": 274,
+          "caption": "ข้อ 5 วันที่ 1–2: ไข่แดง ½ ฟอง วันที่ 3–7: เนื้อสัตว์ 1 ช้อนชา และไข่แดง ½ ฟอง",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-GROW-005/stage2-5-3bf10f96a6.wav",
+          "from": 965,
+          "durationInFrames": 223,
+          "caption": "ข้อ 6 ผัก ช่องนี้ในตารางเป็นขีด (−) ผักเริ่มมีในตารางตั้งแต่สัปดาห์ที่ 2",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-GROW-005/stage2-6-50216d9c30.wav",
+          "from": 1202,
+          "durationInFrames": 283,
+          "caption": "ข้อ 7 ผลไม้ วันที่ 1–2: กล้วยครูด ¼ ลูก วันที่ 3–7: กล้วยครูด ½ ลูก",
+          "reveal": 7
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 2522,
+      "durationInFrames": 1056,
+      "segments": [
+        {
+          "file": "audio/V-GROW-005/stage3-1-fc0449588b.wav",
+          "from": 18,
+          "durationInFrames": 115,
+          "caption": "ช่วงที่ 3 เดือนที่ 6 สัปดาห์ที่ 2–4",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-005/stage3-2-6a02ac1350.wav",
+          "from": 147,
+          "durationInFrames": 132,
+          "caption": "ข้อ 8 กินอาหาร 1 มื้อ ลักษณะอาหารบดละเอียด",
+          "reveal": 8
+        },
+        {
+          "file": "audio/V-GROW-005/stage3-3-acf5ff0442.wav",
+          "from": 293,
+          "durationInFrames": 166,
+          "caption": "ข้อ 9 ข้าวต้ม ค่อย ๆ เพิ่มปริมาณจาก 3 เป็น 4 ช้อนกินข้าว",
+          "reveal": 9
+        },
+        {
+          "file": "audio/V-GROW-005/stage3-4-26c57eab2c.wav",
+          "from": 473,
+          "durationInFrames": 118,
+          "caption": "ข้อ 10 เนื้อสัตว์ 2 ช้อนชา และไข่แดง ½ ฟอง",
+          "reveal": 10
+        },
+        {
+          "file": "audio/V-GROW-005/stage3-5-24a80f410d.wav",
+          "from": 605,
+          "durationInFrames": 132,
+          "caption": "ข้อ 11 ผักกลิ่นไม่แรง มื้อละ ½ ช้อนกินข้าว",
+          "reveal": 11
+        },
+        {
+          "file": "audio/V-GROW-005/stage3-6-861692e207.wav",
+          "from": 751,
+          "durationInFrames": 278,
+          "caption": "ข้อ 12 ผลไม้เป็นอาหารว่าง เช่น กล้วย มะละกอ ส้ม ค่อย ๆ เพิ่มจาก 1 เป็น 2 ชิ้น",
+          "reveal": 12
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 3578,
+      "durationInFrames": 577,
+      "segments": [
+        {
+          "file": "audio/V-GROW-005/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-005/summary-2-0adb0b9d14.wav",
+          "from": 78,
+          "durationInFrames": 137,
+          "caption": "แรกเกิดถึง 6 เดือน นมแม่อย่างเดียว ไม่ต้องให้แม้แต่น้ำ",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-GROW-005/summary-3-5a97edd5db.wav",
+          "from": 229,
+          "durationInFrames": 209,
+          "caption": "อายุ 6 เดือน เริ่มอาหารบดละเอียด ควบคู่กับนมแม่ ดูปริมาณจากตารางในสมุดหน้า 54",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-GROW-005/summary-4-92dd42109b.wav",
+          "from": 452,
+          "durationInFrames": 98,
+          "caption": "ถ้าไม่แน่ใจว่าจะเริ่มอย่างไร ถามเจ้าหน้าที่",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

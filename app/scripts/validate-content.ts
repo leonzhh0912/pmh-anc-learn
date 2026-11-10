@@ -66,6 +66,27 @@ for (const f of dir("lessons")) {
       for (const it of s.items)
         if (!s.buckets.some((b) => b.id === it.bucketId)) errors.push(`${l.id}/${it.id}: unknown bucket ${it.bucketId}`);
   }
+  // every lesson ends with a quiz (optionally followed by a takeaways summary)
+  const types = l.steps.map((s) => s.type);
+  const quizIdx = types.lastIndexOf("quiz");
+  const tail = types.slice(quizIdx + 1);
+  if (quizIdx < 0) errors.push(`${l.id}: missing end-of-lesson quiz`);
+  else if (tail.some((t) => t !== "takeaways")) errors.push(`${l.id}: quiz must be the last step (only a takeaways summary may follow)`);
+  else {
+    const qs = (l.steps[quizIdx] as Extract<(typeof l.steps)[number], { type: "quiz" }>).questions;
+    if (qs.length < 3) errors.push(`${l.id}: end-of-lesson quiz needs at least 3 questions (has ${qs.length})`);
+    const ids = new Set<string>();
+    for (const q of qs) {
+      if (ids.has(q.id)) errors.push(`${l.id}: duplicate question id ${q.id}`);
+      ids.add(q.id);
+      if (new Set(q.options.map((o) => o.text)).size !== q.options.length) errors.push(`${l.id}/${q.id}: duplicate option text`);
+    }
+  }
+  for (const s of l.steps) {
+    if (s.type === "sort" && new Set(s.items.map((i) => i.text)).size !== s.items.length)
+      errors.push(`${l.id}: sort card texts must be unique`);
+  }
+
   const approved = l.editorial.status === "APPROVED" || l.editorial.status === "PUBLISHED";
   if (approved && (!l.editorial.medicalReviewer || !l.editorial.reviewDate))
     errors.push(`${l.id}: ${l.editorial.status} requires medicalReviewer and reviewDate`);

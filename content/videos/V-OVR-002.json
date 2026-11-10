@@ -1,0 +1,31 @@
+{
+  "id": "V-OVR-002",
+  "lessonId": "MCH68-OVR-002",
+  "title": "รู้จักสมุดบันทึกสุขภาพแม่และเด็ก",
+  "mp4": "media/V-OVR-002.mp4",
+  "captionsVtt": "media/V-OVR-002.th.vtt",
+  "poster": "media/V-OVR-002.jpg",
+  "durationSec": 108.3,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-OVR-002 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'สมุดสีชมพู', 'บุคลากรทางสาธารณสุข', and the tab numbers ('แถบหนึ่งถึงสี่', 'แถบหกถึงเก้า').",
+      "Lesson note: 'สมุดสีชมพู' is an app nickname describing the pink cover (p1); the handbook does not use this term. Used in the intro segment.",
+      "Lesson note: the ♡ definition and 'bring it every time', 'ask local health staff' are from PDF p2. The lesson's 'เลขหน้าอยู่ในรูปหัวใจ' observation is NOT used in the video.",
+      "Lesson note: grouping the 9 tabs into แม่ (1–4) / ความรู้ (5) / ลูก (6–9) is app framing (items 7–9). Page ranges per tab are NOT narrated (they still need checking against the printed book).",
+      "PMH CLARIFICATION (from lesson): 'เจ้าหน้าที่สาธารณสุขใกล้บ้าน' (item 4) — PMH to supply clinic / รพ.สต. contact details.",
+      "Item 5 on-screen text says 'หน้ารูปหัวใจ' instead of the ♡ symbol, in case the video font lacks the glyph; the caption keeps ♡ — check it renders."
+    ]
+  }
+}

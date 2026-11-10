@@ -1,0 +1,31 @@
+{
+  "id": "V-K-012",
+  "lessonId": "MCH68-K-012",
+  "title": "สื่อหน้าจอกับพัฒนาการเด็ก",
+  "mp4": "media/V-K-012.mp4",
+  "captionsVtt": "media/V-K-012.th.vtt",
+  "poster": "media/V-K-012.jpg",
+  "durationSec": 84.6,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-K-012 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of วิดีโอคอล, 'สิบ' vs 'สอง' numbers ('ครั้งละหนึ่งชั่วโมง', 'วันละสองครั้ง'), ตามลำพัง, แบบอย่าง.",
+      "All rules are the 2nd-printing wording from p30 (printed 28): 'จำกัด 1 ชม./ครั้ง และไม่เกิน 2 ครั้ง/วัน (มีผู้ดูแล)'. Narration says it as 'จำกัดครั้งละหนึ่งชั่วโมง และไม่เกินวันละสองครั้ง'.",
+      "Intro line 'วิดีโอนี้ทำไว้สำหรับผู้ใหญ่ ไม่ควรเปิดให้เด็กอายุน้อยกว่าสองปีดู' adapts the lesson's editorial app framing (text step 1: 'บทเรียนนี้ทำไว้สำหรับผู้ใหญ่...'). Not handbook text; PMH to approve.",
+      "Lesson note: 'มีผู้ดูแล' renders slightly broken on the zoomed card crop; reviewer to confirm against a paper copy. The handbook does not define 'สื่อหน้าจอ' or 'มีผู้ดูแล'; the video adds no definition or examples (phone/tablet/TV not named).",
+      "No reasons or evidence for the limits are given (none in the handbook).",
+      "Not used: sort/quiz scenarios, family note."
+    ]
+  }
+}

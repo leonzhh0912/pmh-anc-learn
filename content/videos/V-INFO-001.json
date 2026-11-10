@@ -1,0 +1,32 @@
+{
+  "id": "V-INFO-001",
+  "lessonId": "MCH68-INFO-001",
+  "title": "ข้อมูลครอบครัว และการแจ้งเกิดภายใน 15 วัน",
+  "mp4": "media/V-INFO-001.mp4",
+  "captionsVtt": "media/V-INFO-001.th.vtt",
+  "poster": "media/V-INFO-001.jpg",
+  "durationSec": 127.8,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-INFO-001 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of เลขประจำตัวประชาชน, หมู่เลือด, รหัสไปรษณีย์, ทะเบียนบ้าน, 'ท้องที่ที่มีการเกิด', 'สิบห้าวัน', 'เขตต่าง ๆ' (ไม้ยมก).",
+      "Lesson note: 'เอกสารของครอบครัว', 'นำสมุดไปพบบุคลากรทางสาธารณสุขทุกครั้ง' and the meaning of the ♡ icon (intro: 'ผู้ปกครองบันทึกข้อมูลได้ด้วยตนเอง') come from PDF p2, not p3. The ♡ symbol itself is not named in the narration.",
+      "Lesson note: 'ถ้าไม่แน่ใจว่าต้องกรอกช่องไหน ถามเจ้าหน้าที่ได้' (item 4) is an editorial pointer, not handbook text.",
+      "Lesson note: 'ครอบครัวกรอก...ในสมุดเล่มจริง' (item 4, summary 1) is app framing from text step 1 / takeaway 1. The app-specific line 'แอปนี้ไม่ขอและไม่เก็บข้อมูลเหล่านี้' is NOT used in the video. PMH privacy officer to confirm.",
+      "Item 1/2 screen texts list only some fields to fit; the narration names the printed fields (incl. เลขประจำตัวประชาชน). The 13-box ID layout is not mentioned.",
+      "Lesson note: the handbook does not say how the 15 days are counted; the video says only 'ภายในสิบห้าวัน' as printed. Summary 3 says 'ในท้องที่ที่มีการเกิด' (spoken instead of 'ณ') — same place as printed.",
+      "Not used in the video: the family note (who may register the birth in the parents' place; relatives keep the book safe), blood group / ID timing."
+    ]
+  }
+}

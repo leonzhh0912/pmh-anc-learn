@@ -3,7 +3,10 @@ import { expect, test } from "@playwright/test";
 test("K-001 nutrition flag: tiers reveal groups, sorting and quiz complete", async ({ page }) => {
   await page.goto("/lesson/MCH68-K-001");
   await expect(page.locator(".draft-banner")).toContainText("ฉบับร่าง");
-  await page.getByRole("button", { name: "ต่อไป" }).click();
+  // advance past the intro (and the video step, if the lesson has one) to the flag
+  for (let i = 0; i < 3 && !(await page.locator(".flag__tier").count()); i++) {
+    await page.getByRole("button", { name: "ต่อไป" }).click();
+  }
 
   // flag: top tier open by default, tip tier says eat least
   await expect(page.locator(".flag__amount")).toHaveText("บนสุด: กินปริมาณมาก");
@@ -23,7 +26,7 @@ test("K-001 nutrition flag: tiers reveal groups, sorting and quiz complete", asy
   ];
   for (const [card, bucket] of placements) {
     await page.locator(".sort__cards").getByRole("button", { name: card, exact: true }).click();
-    await page.getByRole("button", { name: `วางในช่วง ${bucket}`, exact: true }).click();
+    await page.getByRole("button", { name: `วางในช่อง ${bucket}`, exact: true }).click();
   }
   await expect(page.locator(".sort__message")).toHaveText("ครบทุกข้อแล้ว เก่งมาก");
   await page.getByRole("button", { name: "ต่อไป" }).click();

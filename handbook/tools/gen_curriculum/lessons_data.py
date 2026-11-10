@@ -37,7 +37,7 @@ add(lessonId="MCH68-OVR-001", sectionId="overview",
         "Thai-language reviewer: pronunciation of numbers, 'DSPM' and medical terms in narration",
     ],
     pmhClarificationNeeded=[
-        "V-OVR-001 handbookRef says items 6 and 8 follow the fuller 1st-printing (July 2568, p4) text. The 1st printing must not be used: re-align to p67 of the 2nd printing ('6. กินอาหารเหมาะสม น้ำหนักลูกแรกเกิด 2,500-4,000 กรัม'; '8. วางแผนคลอด (ไม่ร้องขอผ่าตัดโดยไม่มีข้อบ่งชี้)')",
+        "RESOLVED 2026-11-09: V-OVR-001 v0.2.0 re-aligned to the 2nd-printing p67 wording (items 6 and 8).",
         "Item 5 'พร้อมสามี': PMH to decide inclusive wording for women attending without a partner",
         "Item 15 'ปรึกษาแพทย์/บุคลากร': PMH to add how to contact the PMH ANC / well-child clinics",
         "Item 1 pre-conception supplements: handbook gives no dose or source; PMH to say where women planning pregnancy can get iron/folic tablets",
@@ -69,7 +69,7 @@ add(lessonId="MCH68-OVR-002", sectionId="overview",
         "Who families should ask ('เจ้าหน้าที่สาธารณสุขใกล้บ้าน'): PMH to supply clinic / รพ.สต. contact information",
         "Page thumbnails of the handbook need กรมอนามัย permission",
     ],
-    priority="P1", release="R1")
+    priority="P1", release="R1", status="DRAFT")
 
 # ---------------------------------------------------------------- info
 add(lessonId="MCH68-INFO-001", sectionId="info",
@@ -93,7 +93,7 @@ add(lessonId="MCH68-INFO-001", sectionId="info",
     pmhClarificationNeeded=[
         "Where Phimai families register births (district office / municipality) and how PMH issues the birth notification document — not in the handbook",
     ],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 add(lessonId="MCH68-INFO-002", sectionId="info",
     titleTh="โรงเรียนพ่อแม่ 7 ครั้ง",
@@ -117,7 +117,7 @@ add(lessonId="MCH68-INFO-002", sectionId="info",
         "QR to the 9-volume คู่มือโรงเรียนพ่อแม่: confirm link and permission (cover age ranges are tiny print; the hidden text layer mislabels Volumes 2-3)",
         "Whether app lessons can complement or count toward parenting-school sessions (PMH decision)",
     ],
-    priority="P2", release="R1")
+    priority="P2", release="R1", status="DRAFT")
 
 add(lessonId="MCH68-INFO-003", sectionId="info",
     titleTh="ทำไมต้องเล่าประวัติสุขภาพและการตั้งครรภ์ที่ผ่านมาให้ครบ",
@@ -139,7 +139,7 @@ add(lessonId="MCH68-INFO-003", sectionId="info",
         "Whether PMH wants a printable 'prepare for your first ANC visit' list",
         "App must not store health history (privacy)",
     ],
-    priority="P3", release="R3")
+    priority="P3", release="R3", status="DRAFT")
 
 # ---------------------------------------------------------------- anc
 add(lessonId="MCH68-ANC-001", sectionId="anc",
@@ -168,7 +168,7 @@ add(lessonId="MCH68-ANC-001", sectionId="anc",
         "Which Down syndrome screening PMH offers, eligibility and cost",
         "How and when PMH tells couples about abnormal results; privacy of HIV/syphilis results",
     ],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 add(lessonId="MCH68-ANC-002", sectionId="anc",
     titleTh="วัคซีนสำหรับหญิงตั้งครรภ์",
@@ -197,7 +197,7 @@ add(lessonId="MCH68-ANC-002", sectionId="anc",
     priority="P2", release="R2")
 
 add(lessonId="MCH68-ANC-003", sectionId="anc",
-    titleTh="ทำไมเจ้าหน้าที่ประเมินความเสี่ยงการตั้งครรภ์ทุกครั้งที่มาฝากครรภ์",
+    titleTh="ทำไมเจ้าหน้าที่ประเมินความเสี่ยงการตั้งครรภ์เมื่อมาฝากครรภ์",
     titleEn="Why staff assess pregnancy risk at every visit",
     pdfPages=[8, 9], contentType="staff-only-awareness",
     objectivesTh=[
@@ -220,7 +220,7 @@ add(lessonId="MCH68-ANC-003", sectionId="anc",
         "QR 'สแกน QR Code เพื่อดูรายละเอียดของความเสี่ยงแต่ละกลุ่ม' target not verified",
         "p8 anaemia threshold printed as 'Hb < 11 mg/dL' (unit as printed) — staff-side issue; do not reproduce",
     ],
-    priority="P3", release="R3")
+    priority="P3", release="R3", status="DRAFT")
 
 # ---------------------------------------------------------------- record
 add(lessonId="MCH68-REC-001", sectionId="record",
@@ -248,7 +248,7 @@ add(lessonId="MCH68-REC-001", sectionId="record",
         "Plain-language purposes of each check are not in the handbook — PMH must approve wording",
         "Retracted nipple: where PMH refers mothers for breastfeeding preparation/support",
     ],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 add(lessonId="MCH68-REC-002", sectionId="record",
     titleTh="การดูแลฟันแม่ขณะตั้งครรภ์",
@@ -272,7 +272,7 @@ add(lessonId="MCH68-REC-002", sectionId="record",
         "How to book the PMH dental check for pregnant women (the record has 2 visits)",
         "Baking-soda rinse: dentist to decide whether a ratio is needed (not printed)",
     ],
-    priority="P1", release="R1")
+    priority="P1", release="R1", status="DRAFT")
 
 add(lessonId="MCH68-REC-003", sectionId="record",
     titleTh="การนับลูกดิ้น",
@@ -403,7 +403,7 @@ add(lessonId="MCH68-ASSESS-003", sectionId="assess",
     pmhClarificationNeeded=[
         "PMH smoking-cessation and alcohol-counselling service contacts (not in the handbook)",
     ],
-    priority="P1", release="R1")
+    priority="P1", release="R1", status="DRAFT")
 
 # ---------------------------------------------------------------- knowledge
 add(lessonId="MCH68-K-001", sectionId="knowledge",
@@ -453,7 +453,7 @@ add(lessonId="MCH68-K-002", sectionId="knowledge",
         "Portion-size example photos sit behind QR codes — permission, or PMH-made photos",
         "Mothers with chronic disease or GDM need individual advice (p22 footer) — PMH nutrition-clinic referral route",
     ],
-    priority="P1", release="R1")
+    priority="P1", release="R1", status="DRAFT")
 
 add(lessonId="MCH68-K-003", sectionId="knowledge",
     titleTh="ยาเม็ดเสริมธาตุเหล็ก ไอโอดีน และโฟลิก ทุกวัน",
@@ -499,7 +499,7 @@ add(lessonId="MCH68-K-004", sectionId="knowledge",
     pmhClarificationNeeded=[
         "Local fermented foods (e.g. ปลาร้า) as examples of 'อาหารหมักดอง' would be a PMH addition — nutritionist to decide",
     ],
-    priority="P1", release="R1")
+    priority="P1", release="R1", status="DRAFT")
 
 add(lessonId="MCH68-K-005", sectionId="knowledge",
     titleTh="อาการผิดปกติที่แม่ท้องต้องมาโรงพยาบาลทันที",
@@ -553,7 +553,7 @@ add(lessonId="MCH68-K-006", sectionId="knowledge",
         "'150 นาที/สัปดาห์' is printed without 'อย่างน้อย' in this printing",
         "QR video 'กิจกรรมทางกายสำหรับหญิงตั้งครรภ์และหลังคลอด': link and permission; pelvic-floor technique is not described in the handbook",
     ],
-    priority="P1", release="R1")
+    priority="P1", release="R1", status="DRAFT")
 
 add(lessonId="MCH68-K-007", sectionId="knowledge",
     titleTh="เลี้ยงลูกด้วยนมแม่: ทำไมสำคัญ และ 3 ดูด",
@@ -577,7 +577,7 @@ add(lessonId="MCH68-K-007", sectionId="knowledge",
         "PMH breastfeeding-support contact",
         "UNICEF comparison graphic needs permission or a recreation",
     ],
-    priority="P1", release="R1")
+    priority="P1", release="R1", status="DRAFT")
 
 add(lessonId="MCH68-K-008", sectionId="knowledge",
     titleTh="การเก็บและละลายน้ำนมแม่",
@@ -599,7 +599,7 @@ add(lessonId="MCH68-K-008", sectionId="knowledge",
     pmhClarificationNeeded=[
         "Expressing technique and container advice are not in the handbook — PMH to decide",
     ],
-    priority="P1", release="R1")
+    priority="P1", release="R1", status="DRAFT")
 
 add(lessonId="MCH68-K-009", sectionId="knowledge",
     titleTh="ฝึกลูกเข้านอน: ชั่วโมงนอนตามวัย",
@@ -622,7 +622,7 @@ add(lessonId="MCH68-K-009", sectionId="knowledge",
         "The handbook gives no safe-sleep position guidance (only 'ที่นอนไม่นิ่มจนยุบ' on p31) — PMH to decide whether this gap needs a paediatrician-approved addition",
         "'ไม่จำเป็นต้องกินนมในตอนกลางคืนแล้ว' after 6 months vs breastfeeding on demand — paediatric and lactation teams to align the message",
     ],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 add(lessonId="MCH68-K-010", sectionId="knowledge",
     titleTh="สีอุจจาระทารก: สีซีดต้องรีบพบกุมารแพทย์",
@@ -667,7 +667,7 @@ add(lessonId="MCH68-K-011", sectionId="knowledge",
     audience=CHILD, clinicalRisk="medium",
     reviewRequirements=["Paediatrician: verify referral ages"],
     pmhClarificationNeeded=["PMH paediatric clinic referral route"],
-    priority="P3", release="R3")
+    priority="P3", release="R3", status="DRAFT")
 
 add(lessonId="MCH68-K-012", sectionId="knowledge",
     titleTh="สื่อหน้าจอกับพัฒนาการเด็ก",
@@ -688,7 +688,7 @@ add(lessonId="MCH68-K-012", sectionId="knowledge",
     pmhClarificationNeeded=[
         "The app itself is a screen: copy should address parents and avoid suggesting the app be shown to children under 2",
     ],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 add(lessonId="MCH68-K-013", sectionId="knowledge",
     titleTh="ป้องกันการบาดเจ็บในบ้าน",
@@ -707,7 +707,7 @@ add(lessonId="MCH68-K-013", sectionId="knowledge",
     audience=CHILD, clinicalRisk="low",
     reviewRequirements=["Paediatrician / injury-prevention nurse"],
     pmhClarificationNeeded=["Local housing context (e.g. raised wooden houses) for illustrations only — no new rules"],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 add(lessonId="MCH68-K-014", sectionId="knowledge",
     titleTh="ปลอดภัยบนท้องถนน: ที่นั่งนิรภัย รถจักรยานยนต์ และไม่ทิ้งเด็กในรถ",
@@ -730,7 +730,7 @@ add(lessonId="MCH68-K-014", sectionId="knowledge",
         "Motorcycles are the main family transport in rural Phimai — PMH to decide supportive wording (the handbook rule 'ห้าม' under 2 years stands)",
         "Any PMH car-seat loan scheme (none mentioned in the handbook)",
     ],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 add(lessonId="MCH68-K-015", sectionId="knowledge",
     titleTh="ป้องกันการจมน้ำและการอุดกั้นทางเดินหายใจ",
@@ -749,7 +749,7 @@ add(lessonId="MCH68-K-015", sectionId="knowledge",
     audience=CHILD, clinicalRisk="low",
     reviewRequirements=["Paediatrician / injury-prevention nurse"],
     pmhClarificationNeeded=["Local water hazards (water jars, ponds, river) for illustrations only"],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 add(lessonId="MCH68-K-016", sectionId="knowledge",
     titleTh="สิ่งแปลกปลอมติดคอ: วิธีช่วยเหลือเด็ก",
@@ -893,7 +893,7 @@ add(lessonId="MCH68-CH-002", sectionId="childhealth",
         "Plain-language purposes of each screening are not in the handbook — PMH must write and approve them",
         "How PMH notifies parents of abnormal thyroid / IEM results and the hearing re-test pathway",
     ],
-    priority="P3", release="R3")
+    priority="P3", release="R3", status="DRAFT")
 
 add(lessonId="MCH68-CH-003", sectionId="childhealth",
     titleTh="บันทึกสุขภาพเด็ก: แพ้ยา แพ้อาหาร และการเจ็บป่วยสำคัญ",
@@ -912,7 +912,7 @@ add(lessonId="MCH68-CH-003", sectionId="childhealth",
     audience=CHILD, clinicalRisk="low",
     reviewRequirements=["Paediatric nurse"],
     pmhClarificationNeeded=["App must not store allergy data unless PMH approves"],
-    priority="P3", release="R3")
+    priority="P3", release="R3", status="DRAFT")
 
 add(lessonId="MCH68-CH-004", sectionId="childhealth",
     titleTh="วัคซีนพื้นฐานของลูก (EPI)",
@@ -986,7 +986,7 @@ add(lessonId="MCH68-CH-006", sectionId="childhealth",
         "Antipyretic dose is not printed — refer to doctor / pharmacist",
         "How PMH follows up missed appointments",
     ],
-    priority="P1", release="R1")
+    priority="P1", release="R1", status="DRAFT")
 
 add(lessonId="MCH68-CH-007", sectionId="childhealth",
     titleTh="ตรวจสุขภาพเด็กปฐมวัยตามนัด: แต่ละช่วงอายุตรวจอะไร",
@@ -1009,7 +1009,7 @@ add(lessonId="MCH68-CH-007", sectionId="childhealth",
         "The schedule comes from cell shading, not printed rules — PMH must confirm (Hct at 9 m and 4 y; vision from 9 m; hearing birth-6 m; staff developmental screening at 9 m, 1 y 6 m, 2 y 6 m, 3 y 6 m, 5 y; autism screening at 1 y 6 m, 2 y, 2 y 6 m; oral exam from 9 m; iron from 6 m)",
         "PMH well-child clinic days",
     ],
-    priority="P3", release="R3")
+    priority="P3", release="R3", status="DRAFT")
 
 # ---------------------------------------------------------------- growth
 add(lessonId="MCH68-GROW-001", sectionId="growth",
@@ -1031,7 +1031,7 @@ add(lessonId="MCH68-GROW-001", sectionId="growth",
     pmhClarificationNeeded=[
         "Whether the app should ever plot a real child's data (needs chart-data permission and PMH clinical governance)",
     ],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 add(lessonId="MCH68-GROW-002", sectionId="growth",
     titleTh="แปลผลกราฟน้ำหนัก ส่วนสูง และรูปร่างของลูก",
@@ -1101,7 +1101,7 @@ add(lessonId="MCH68-GROW-004", sectionId="growth",
         "p51, p54, p55 print no source footnote",
         "Any digital redraw of the WHO 2006 / สำนักโภชนาการ 2563-2564 charts needs permission and exact source data",
     ],
-    priority="P3", release="R3")
+    priority="P3", release="R3", status="DRAFT")
 
 add(lessonId="MCH68-GROW-005", sectionId="growth",
     titleTh="นมแม่อย่างเดียว 6 เดือน และอาหารมื้อแรกของลูก",
@@ -1126,7 +1126,7 @@ add(lessonId="MCH68-GROW-005", sectionId="growth",
         "QR 'ดูตัวอย่างอาหารทารกเพิ่มเติม' target not verified",
         "Local porridge recipes would be PMH additions",
     ],
-    priority="P1", release="R1")
+    priority="P1", release="R1", status="DRAFT")
 
 add(lessonId="MCH68-GROW-006", sectionId="growth",
     titleTh="อาหารตามวัย 7-11 เดือน",
@@ -1147,7 +1147,7 @@ add(lessonId="MCH68-GROW-006", sectionId="growth",
     audience=CHILD, clinicalRisk="medium",
     reviewRequirements=["Nutritionist + paediatrician"],
     pmhClarificationNeeded=["Local recipe examples would be PMH additions"],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 add(lessonId="MCH68-GROW-007", sectionId="growth",
     titleTh="ธงโภชนาการสำหรับเด็ก 1-5 ปี",
@@ -1170,7 +1170,7 @@ add(lessonId="MCH68-GROW-007", sectionId="growth",
         "Units change between flags (ช้อนกินข้าว vs ทัพพี) — design must not confuse",
         "QR exchange-list targets not verified",
     ],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 add(lessonId="MCH68-GROW-008", sectionId="growth",
     titleTh="ยาน้ำเสริมธาตุเหล็กสำหรับเด็ก 6 เดือน - 5 ปี",
@@ -1218,7 +1218,7 @@ add(lessonId="MCH68-DEV-001", sectionId="dev",
         "PMH stimulation (ฝึกกระตุ้น) clinic and appointment process; DAIM follow-up at PMH",
         "Policy: any in-app DSPM checklist is surveillance only, never a diagnosis",
     ],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 add(lessonId="MCH68-DEV-002", sectionId="dev",
     titleTh="พัฒนาการตามวัย แรกเกิด - 12 เดือน",
@@ -1240,7 +1240,7 @@ add(lessonId="MCH68-DEV-002", sectionId="dev",
         "Pictogram permission (กรมอนามัย / DSPM)",
         "Whether parents may tick items in the app (recommend: tick in the handbook only)",
     ],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 add(lessonId="MCH68-DEV-003", sectionId="dev",
     titleTh="พัฒนาการตามวัย 13 - 41 เดือน",
@@ -1259,7 +1259,7 @@ add(lessonId="MCH68-DEV-003", sectionId="dev",
     audience=CHILD, clinicalRisk="medium",
     reviewRequirements=["Child-development nurse: item text verbatim (some speech bubbles were unreadable in the extraction)"],
     pmhClarificationNeeded=["Pictogram permission (กรมอนามัย / DSPM)"],
-    priority="P3", release="R3")
+    priority="P3", release="R3", status="DRAFT")
 
 add(lessonId="MCH68-DEV-004", sectionId="dev",
     titleTh="พัฒนาการตามวัย 42 - 78 เดือน",
@@ -1278,7 +1278,7 @@ add(lessonId="MCH68-DEV-004", sectionId="dev",
     audience=CHILD, clinicalRisk="medium",
     reviewRequirements=["Child-development nurse: item text verbatim"],
     pmhClarificationNeeded=["Pictogram permission (กรมอนามัย / DSPM)"],
-    priority="P3", release="R3")
+    priority="P3", release="R3", status="DRAFT")
 
 add(lessonId="MCH68-DEV-005", sectionId="dev",
     titleTh="พ่อแม่ส่งเสริมพัฒนาการลูก: กอด คุย เล่านิทาน เล่นด้วยกัน",
@@ -1301,7 +1301,7 @@ add(lessonId="MCH68-DEV-005", sectionId="dev",
         "Positive-parenting detail lives behind the p33 QR 'การเลี้ยงดูลูกเชิงบวก' — link only, with permission",
         "No-hitting message is culturally sensitive — PMH to approve tone",
     ],
-    priority="P1", release="R1")
+    priority="P1", release="R1", status="DRAFT")
 
 # ---------------------------------------------------------------- dental
 add(lessonId="MCH68-DENT-001", sectionId="dental",
@@ -1326,7 +1326,7 @@ add(lessonId="MCH68-DENT-001", sectionId="dental",
         "How to book the PMH dental clinic before age 1 (and the 6-month postpartum mother-and-baby oral check)",
         "Brushing technique beyond the printed 'ถูไปมาสั้น ๆ ในแนวขวาง' needs dental approval",
     ],
-    priority="P1", release="R1")
+    priority="P1", release="R1", status="DRAFT")
 
 add(lessonId="MCH68-DENT-002", sectionId="dental",
     titleTh="ยาสีฟันฟลูออไรด์: ปริมาณที่เหมาะกับวัย",
@@ -1372,7 +1372,7 @@ add(lessonId="MCH68-DENT-003", sectionId="dental",
         "'ดื่มนมมื้อดึก' (night feeding) as a caries risk vs breastfeeding on demand — dental and lactation teams must align messaging",
         "Fluoride varnish (ทาฟลูออไรด์) availability at PMH",
     ],
-    priority="P3", release="R3")
+    priority="P3", release="R3", status="DRAFT")
 
 add(lessonId="MCH68-DENT-004", sectionId="dental",
     titleTh="บันทึกการขึ้นและหลุดของฟันลูก และการตรวจฟันโดยทันตบุคลากร",
@@ -1391,4 +1391,4 @@ add(lessonId="MCH68-DENT-004", sectionId="dental",
     audience=CHILD, clinicalRisk="low",
     reviewRequirements=["Dentist"],
     pmhClarificationNeeded=["Typical eruption ages are NOT printed in the handbook — do not add without dental sign-off"],
-    priority="P3", release="R3")
+    priority="P3", release="R3", status="DRAFT")

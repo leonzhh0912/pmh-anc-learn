@@ -31,7 +31,7 @@
       "Thai-language reviewer: pronunciation of numbers, 'DSPM' and medical terms in narration"
     ],
     "pmhClarificationNeeded": [
-      "V-OVR-001 handbookRef says items 6 and 8 follow the fuller 1st-printing (July 2568, p4) text. The 1st printing must not be used: re-align to p67 of the 2nd printing ('6. กินอาหารเหมาะสม น้ำหนักลูกแรกเกิด 2,500-4,000 กรัม'; '8. วางแผนคลอด (ไม่ร้องขอผ่าตัดโดยไม่มีข้อบ่งชี้)')",
+      "RESOLVED 2026-11-09: V-OVR-001 v0.2.0 re-aligned to the 2nd-printing p67 wording (items 6 and 8).",
       "Item 5 'พร้อมสามี': PMH to decide inclusive wording for women attending without a partner",
       "Item 15 'ปรึกษาแพทย์/บุคลากร': PMH to add how to contact the PMH ANC / well-child clinics",
       "Item 1 pre-conception supplements: handbook gives no dose or source; PMH to say where women planning pregnancy can get iron/folic tablets"
@@ -82,7 +82,7 @@
     ],
     "priority": "P1",
     "release": "R1",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -120,7 +120,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -161,7 +161,7 @@
     ],
     "priority": "P2",
     "release": "R1",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -200,7 +200,7 @@
     ],
     "priority": "P3",
     "release": "R3",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -243,7 +243,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -290,7 +290,7 @@
   {
     "lessonId": "MCH68-ANC-003",
     "sectionId": "anc",
-    "titleTh": "ทำไมเจ้าหน้าที่ประเมินความเสี่ยงการตั้งครรภ์ทุกครั้งที่มาฝากครรภ์",
+    "titleTh": "ทำไมเจ้าหน้าที่ประเมินความเสี่ยงการตั้งครรภ์เมื่อมาฝากครรภ์",
     "titleEn": "Why staff assess pregnancy risk at every visit",
     "pdfPages": [
       8,
@@ -327,7 +327,7 @@
     ],
     "priority": "P3",
     "release": "R3",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -375,7 +375,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -416,7 +416,7 @@
     ],
     "priority": "P1",
     "release": "R1",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -637,7 +637,7 @@
     ],
     "priority": "P1",
     "release": "R1",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -724,7 +724,7 @@
     ],
     "priority": "P1",
     "release": "R1",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -809,7 +809,7 @@
     ],
     "priority": "P1",
     "release": "R1",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -895,7 +895,7 @@
     ],
     "priority": "P1",
     "release": "R1",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -940,7 +940,7 @@
     ],
     "priority": "P1",
     "release": "R1",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -979,7 +979,7 @@
     ],
     "priority": "P1",
     "release": "R1",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -1024,7 +1024,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -1105,7 +1105,7 @@
     ],
     "priority": "P3",
     "release": "R3",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -1144,7 +1144,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -1183,7 +1183,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -1224,7 +1224,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -1263,7 +1263,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -1510,7 +1510,7 @@
     ],
     "priority": "P3",
     "release": "R3",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -1549,7 +1549,7 @@
     ],
     "priority": "P3",
     "release": "R3",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -1685,7 +1685,7 @@
     ],
     "priority": "P1",
     "release": "R1",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -1728,7 +1728,7 @@
     ],
     "priority": "P3",
     "release": "R3",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -1767,7 +1767,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -1915,7 +1915,7 @@
     ],
     "priority": "P3",
     "release": "R3",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -1958,7 +1958,7 @@
     ],
     "priority": "P1",
     "release": "R1",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -1999,7 +1999,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -2042,7 +2042,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -2139,7 +2139,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -2179,7 +2179,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -2218,7 +2218,7 @@
     ],
     "priority": "P3",
     "release": "R3",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -2259,7 +2259,7 @@
     ],
     "priority": "P3",
     "release": "R3",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -2309,7 +2309,7 @@
     ],
     "priority": "P1",
     "release": "R1",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -2357,7 +2357,7 @@
     ],
     "priority": "P1",
     "release": "R1",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -2439,7 +2439,7 @@
     ],
     "priority": "P3",
     "release": "R3",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -2480,7 +2480,7 @@
     ],
     "priority": "P3",
     "release": "R3",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   }
 ]

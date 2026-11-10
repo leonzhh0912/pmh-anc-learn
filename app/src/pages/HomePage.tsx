@@ -7,7 +7,8 @@ export function HomePage() {
   const started = lessons.filter((l) => progress.lessons[l.id]);
   const inProgress = started.find((l) => !progress.lessons[l.id]?.completedAt);
   const doneCount = lessons.filter((l) => progress.lessons[l.id]?.completedAt).length;
-  const firstLesson = lessons[0];
+  // suggest the next lesson not yet finished, in handbook order
+  const firstLesson = lessons.find((l) => !progress.lessons[l.id]?.completedAt) ?? lessons[0];
 
   return (
     <main className="page home">
@@ -31,7 +32,11 @@ export function HomePage() {
         ) : firstLesson ? (
           <Link className="continue" to={`/lesson/${firstLesson.id}`}>
             <span className="continue__label">
-              {doneCount > 0 ? "ทบทวนบทแรก" : "เริ่มบทเรียนแรก"}
+              {doneCount === 0
+                ? "เริ่มบทเรียนแรก"
+                : doneCount === lessons.length
+                  ? "เรียนครบแล้ว ทบทวนอีกครั้ง"
+                  : "บทเรียนถัดไป"}
             </span>
             <span className="continue__title">{firstLesson.title}</span>
           </Link>

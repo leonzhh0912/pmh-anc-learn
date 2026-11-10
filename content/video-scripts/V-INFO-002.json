@@ -1,0 +1,248 @@
+{
+  "id": "V-INFO-002",
+  "lessonId": "MCH68-INFO-002",
+  "version": "0.1.0",
+  "title": "โรงเรียนพ่อแม่ 7 ครั้ง",
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      4
+    ],
+    "printedPages": [
+      "2"
+    ],
+    "note": "Narration derived from lesson MCH68-INFO-002 v0.1.0"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-INFO-002 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of the gestational ranges ('หนึ่งถึงสิบสองสัปดาห์', 'สิบสามถึงยี่สิบเจ็ดสัปดาห์', 'ยี่สิบแปดสัปดาห์ขึ้นไป'), 'สิบแปดเดือน' and 'ใบประกาศนียบัตร'.",
+      "Stages use prefix 'ตอนที่' because the parts are places (คลินิกฝากครรภ์ / หลังคลอด + คลินิกเด็กสุขภาพดี / what to know each time), not time periods. Item numbers 1–7 match the session numbers; items 8–10 are narrated without 'ข้อ' numbers so they are not confused with sessions — check the on-screen badges 8–10 do not read as sessions 8–10.",
+      "Lesson has 4th session alone under หลังคลอด (PP ward); it is grouped with the Well Child Clinic sessions in stage 2 because a stage needs at least 2 items.",
+      "Lesson note: ranges are as printed on p4 ('1-12', '13-27', '28 สัปดาห์ขึ้นไป'); the stray 'Volume' overlay (HANDBOOK ISSUE) is ignored, as in the lesson.",
+      "Lesson note: 'staff write the date and sign for each session' (item 8, summary 2) is read from the table columns; the handbook does not say it in a sentence.",
+      "Lesson note: 'bring the handbook' (item 8, summary 2) comes from PDF p2, not p4.",
+      "Not used in the video: certificate e-mail line (PMH CLARIFICATION on how the e-mail field is used), SMART HYBRID / online sessions, the 9-volume คู่มือ and QR, and the editorial 'parenting-school day is a good time to ask'."
+    ]
+  },
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3",
+    "stability": 0.5,
+    "style": 0,
+    "speed": 0.95,
+    "seed": 1234
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "kind": "title",
+      "heading": "โรงเรียนพ่อแม่ 7 ครั้ง",
+      "subheading": "จากสมุดบันทึกสุขภาพแม่และเด็ก ฉบับปรับปรุงใหม่ พ.ศ. 2568",
+      "chips": [
+        "คลินิกฝากครรภ์",
+        "หลังคลอด",
+        "คลินิกเด็กสุขภาพดี"
+      ],
+      "segments": [
+        {
+          "speak": "สมุดหน้าสอง เป็นหน้าบันทึกการเข้าร่วมกิจกรรมโรงเรียนพ่อแม่ ซึ่งมีทั้งหมดเจ็ดครั้ง",
+          "caption": "สมุดหน้า 2 เป็นหน้าบันทึกการเข้าร่วมกิจกรรมโรงเรียนพ่อแม่ ซึ่งมีทั้งหมด 7 ครั้ง"
+        },
+        {
+          "speak": "เริ่มที่คลินิกฝากครรภ์ ต่อด้วยหลังคลอด แล้วไปที่คลินิกเด็กสุขภาพดี",
+          "caption": "เริ่มที่คลินิกฝากครรภ์ ต่อด้วยหลังคลอด แล้วไปที่คลินิกเด็กสุขภาพดี"
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "kind": "stage",
+      "stage": 1,
+      "label": "คลินิกฝากครรภ์",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 1,
+          "icon": "clinic",
+          "text": "ครั้งที่ 1: อายุครรภ์ 1-12 สัปดาห์"
+        },
+        {
+          "n": 2,
+          "icon": "calendar",
+          "text": "ครั้งที่ 2: อายุครรภ์ 13-27 สัปดาห์"
+        },
+        {
+          "n": 3,
+          "icon": "calendar",
+          "text": "ครั้งที่ 3: อายุครรภ์ 28 สัปดาห์ขึ้นไป"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่หนึ่ง ที่คลินิกฝากครรภ์ มีสามครั้ง",
+          "caption": "ตอนที่ 1 ที่คลินิกฝากครรภ์ มี 3 ครั้ง"
+        },
+        {
+          "reveal": 1,
+          "speak": "ครั้งที่หนึ่ง อายุครรภ์หนึ่งถึงสิบสองสัปดาห์ เจ้าหน้าที่จะแนะนำขั้นตอนกิจกรรมและการใช้คู่มือ",
+          "caption": "ครั้งที่ 1 อายุครรภ์ 1-12 สัปดาห์ เจ้าหน้าที่จะแนะนำขั้นตอนกิจกรรมและการใช้คู่มือ"
+        },
+        {
+          "reveal": 2,
+          "speak": "ครั้งที่สอง อายุครรภ์สิบสามถึงยี่สิบเจ็ดสัปดาห์",
+          "caption": "ครั้งที่ 2 อายุครรภ์ 13-27 สัปดาห์"
+        },
+        {
+          "reveal": 3,
+          "speak": "ครั้งที่สาม อายุครรภ์ยี่สิบแปดสัปดาห์ขึ้นไป",
+          "caption": "ครั้งที่ 3 อายุครรภ์ 28 สัปดาห์ขึ้นไป"
+        }
+      ],
+      "hideNumbers": true
+    },
+    {
+      "id": "stage2",
+      "kind": "stage",
+      "stage": 2,
+      "label": "หลังคลอดและคลินิกเด็ก",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 4,
+          "icon": "baby",
+          "text": "ครั้งที่ 4: ทารกแรกเกิด (หลังคลอด)"
+        },
+        {
+          "n": 5,
+          "icon": "baby",
+          "text": "ครั้งที่ 5: ลูกอายุ 4 เดือน"
+        },
+        {
+          "n": 6,
+          "icon": "baby",
+          "text": "ครั้งที่ 6: ลูกอายุ 9 เดือน"
+        },
+        {
+          "n": 7,
+          "icon": "baby",
+          "text": "ครั้งที่ 7: ลูกอายุ 18 เดือน"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สอง หลังคลอด และที่คลินิกเด็กสุขภาพดี",
+          "caption": "ตอนที่ 2 หลังคลอด และที่คลินิกเด็กสุขภาพดี"
+        },
+        {
+          "reveal": 4,
+          "speak": "ครั้งที่สี่ ช่วงหลังคลอด เมื่อลูกเป็นทารกแรกเกิด",
+          "caption": "ครั้งที่ 4 ช่วงหลังคลอด เมื่อลูกเป็นทารกแรกเกิด"
+        },
+        {
+          "reveal": 5,
+          "speak": "ครั้งที่ห้า ที่คลินิกเด็กสุขภาพดี เมื่อลูกอายุสี่เดือน",
+          "caption": "ครั้งที่ 5 ที่คลินิกเด็กสุขภาพดี เมื่อลูกอายุ 4 เดือน"
+        },
+        {
+          "reveal": 6,
+          "speak": "ครั้งที่หก เมื่อลูกอายุเก้าเดือน",
+          "caption": "ครั้งที่ 6 เมื่อลูกอายุ 9 เดือน"
+        },
+        {
+          "reveal": 7,
+          "speak": "และครั้งที่เจ็ด เมื่อลูกอายุสิบแปดเดือน",
+          "caption": "และครั้งที่ 7 เมื่อลูกอายุ 18 เดือน"
+        }
+      ],
+      "hideNumbers": true
+    },
+    {
+      "id": "stage3",
+      "kind": "stage",
+      "stage": 3,
+      "label": "ทุกครั้งที่ไป",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 8,
+          "icon": "handbook",
+          "text": "พกสมุด เจ้าหน้าที่ลงวันที่และลงชื่อ"
+        },
+        {
+          "n": 9,
+          "icon": "check",
+          "text": "ครบ 7 ครั้ง ได้ใบประกาศนียบัตร"
+        },
+        {
+          "n": 10,
+          "icon": "ask",
+          "text": "สงสัย ปรึกษาแพทย์หรือบุคลากร"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สาม สิ่งที่ควรรู้ ทุกครั้งที่ไปร่วมกิจกรรม",
+          "caption": "ตอนที่ 3 สิ่งที่ควรรู้ ทุกครั้งที่ไปร่วมกิจกรรม"
+        },
+        {
+          "reveal": 8,
+          "speak": "พกสมุดไปด้วย เจ้าหน้าที่จะลงวันที่และลงชื่อ ในสมุดหน้าสองทุกครั้ง",
+          "caption": "พกสมุดไปด้วย เจ้าหน้าที่จะลงวันที่และลงชื่อในสมุดหน้า 2 ทุกครั้ง"
+        },
+        {
+          "reveal": 9,
+          "speak": "เมื่อเข้าร่วมกิจกรรมครบเจ็ดครั้ง จะได้รับใบประกาศนียบัตร",
+          "caption": "เมื่อเข้าร่วมกิจกรรมครบ 7 ครั้ง จะได้รับใบประกาศนียบัตร"
+        },
+        {
+          "reveal": 10,
+          "speak": "หากมีข้อสงสัย ไม่ควรลองถูกลองผิดด้วยตนเอง ควรปรึกษาแพทย์หรือบุคลากรทางสาธารณสุข",
+          "caption": "หากมีข้อสงสัย ไม่ควรลองถูกลองผิดด้วยตนเอง ควรปรึกษาแพทย์หรือบุคลากรทางสาธารณสุข"
+        }
+      ],
+      "hideNumbers": true
+    },
+    {
+      "id": "summary",
+      "kind": "summary",
+      "heading": "จำไว้ 3 เรื่อง",
+      "points": [
+        "ฝากครรภ์ 3 หลังคลอด 1 คลินิกเด็ก 3",
+        "พกสมุดไปทุกครั้ง",
+        "ครบ 7 ครั้ง ได้ใบประกาศนียบัตร"
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "สรุปเรื่องสำคัญ",
+          "caption": "สรุปเรื่องสำคัญ"
+        },
+        {
+          "reveal": 1,
+          "speak": "โรงเรียนพ่อแม่มีเจ็ดครั้ง ฝากครรภ์สามครั้ง หลังคลอดหนึ่งครั้ง และคลินิกเด็กสุขภาพดีสามครั้ง",
+          "caption": "โรงเรียนพ่อแม่มี 7 ครั้ง ฝากครรภ์ 3 ครั้ง หลังคลอด 1 ครั้ง และคลินิกเด็กสุขภาพดี 3 ครั้ง"
+        },
+        {
+          "reveal": 2,
+          "speak": "พกสมุดไปทุกครั้ง ให้เจ้าหน้าที่ลงวันที่และลงชื่อ",
+          "caption": "พกสมุดไปทุกครั้ง ให้เจ้าหน้าที่ลงวันที่และลงชื่อ"
+        },
+        {
+          "reveal": 3,
+          "speak": "และเข้าร่วมครบเจ็ดครั้ง ได้รับใบประกาศนียบัตร",
+          "caption": "และเข้าร่วมครบ 7 ครั้ง ได้รับใบประกาศนียบัตร"
+        }
+      ]
+    }
+  ]
+}

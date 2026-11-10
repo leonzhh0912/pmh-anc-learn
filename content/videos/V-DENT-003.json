@@ -1,0 +1,32 @@
+{
+  "id": "V-DENT-003",
+  "lessonId": "MCH68-DENT-003",
+  "title": "พฤติกรรมเสี่ยงฟันผุในเด็ก: ทำไมทันตบุคลากรถามเรื่องนมและขนม",
+  "mp4": "media/V-DENT-003.mp4",
+  "captionsVtt": "media/V-DENT-003.th.vtt",
+  "poster": "media/V-DENT-003.jpg",
+  "durationSec": 131.2,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-DENT-003 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'ทันตบุคลากร', 'คราบจุลินทรีย์', 'ขี้ฟัน', 'หลับคาขวด', 'มื้อดึก' and 'หกสิบสอง'.",
+      "Awareness only (as in the lesson): no colour bands, row numbers, scores, recall intervals, fluoride ppm figures or fluoride varnish. The page is described as a staff form, not a self-score (lesson editorial, reviewer to confirm who fills it).",
+      "PMH CLARIFICATION (night feeding, from lesson): item 4 quotes 'ดื่มนมมื้อดึก' as printed and is narrated together with the lesson's editorial pointer 'ถ้ามีคำถามเรื่องการให้นมลูกตอนกลางคืน ถามทันตบุคลากรหรือเจ้าหน้าที่'. The video never tells families to stop night breastfeeding. Dental and lactation teams must align messaging.",
+      "On-screen item texts 6 and 7 are shortened from printed rows 4 and 5 to fit the screen: 'ดูดนมรสหวาน/เครื่องดื่มมีน้ำตาลจากขวด' and 'ขนม/เครื่องดื่มมีน้ำตาล เกิน 2 ครั้ง/วัน'; the narration and captions use the printed wording. Item 8 and 10 narration lightly shortens the lesson sentences to fit captions. Dentist to confirm.",
+      "Editorial lesson sentences used (not printed on p64): 'ไม่ใช่แบบให้ครอบครัวให้คะแนนเอง', 'ทันตบุคลากรจึงถามเรื่องเหล่านี้', 'บางข้อทันตบุคลากรเป็นผู้ตรวจดูในปากของลูกเอง', 'ทันตบุคลากรจะอธิบายให้ นำสมุดไปด้วย…', and the ask-staff pointers about night feeding and toothpaste (items 4, 10, 11; summary).",
+      "The '(Hands on)' wording is not spoken; item 9 says 'สอนแปรงฟัน' only.",
+      "Not used in the video: rows 6, 8–10 (except the exam findings in item 8), the หมายเหตุ ppm advice, the HANDBOOK ISSUE typo in หมายเหตุ 2, and the family note. No safer alternatives are given (none printed)."
+    ]
+  }
+}

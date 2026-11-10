@@ -1,0 +1,411 @@
+{
+  "id": "MCH68-INFO-001",
+  "version": "0.1.1",
+  "title": "ข้อมูลครอบครัว และการแจ้งเกิดภายใน 15 วัน",
+  "summary": "หน้าแรกของสมุดสีชมพูมีช่องอะไรบ้าง ใครเป็นคนกรอก และข้อความเตือนเรื่องการแจ้งเกิดภายใน 15 วัน",
+  "sectionId": "info",
+  "stages": [
+    "pregnancy",
+    "birth",
+    "newborn"
+  ],
+  "audience": [
+    "mother",
+    "family"
+  ],
+  "minutes": 5,
+  "objectives": [
+    "ผู้เรียนบอกได้ว่าหน้าข้อมูลครอบครัวมีช่องข้อมูลของมารดา บิดา บุตร และที่อยู่ปัจจุบัน และครอบครัวกรอกเองในสมุดเล่มจริง",
+    "ผู้เรียนบอกได้ว่าคุณพ่อคุณแม่ต้องไปแจ้งเกิดและเพิ่มชื่อในทะเบียนบ้าน ณ อำเภอ เทศบาล หรือเขตต่าง ๆ ซึ่งเป็นท้องที่ที่มีการเกิด ภายใน 15 วัน"
+  ],
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      2,
+      3
+    ],
+    "printedPages": [
+      "1"
+    ],
+    "note": "หน้า 'ข้อมูลครอบครัว' (PDF p3, หน้า 1 มีเครื่องหมาย ♡): ช่องมารดา บิดา บุตร ที่อยู่ปัจจุบัน แถบ 'หากผู้ใดเก็บหรือพบสมุดเล่มนี้ โปรดส่งคืน' และข้อความแนะนำที่ขอบขวาเรื่องการแจ้งเกิด ความหมายของเครื่องหมาย ♡ และ 'เอกสารของครอบครัว' มาจากหน้าคำแนะนำสมุด (PDF p2 ด้านในปก ไม่มีเลขหน้าพิมพ์)"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "Field names, the 13-box ID layout, the 'โปรดส่งคืน' banner and the margin tip are from PDF p3 (printed 1), checked on the page image and a rotated crop of the margin strip. Margin tip quoted word for word: 'คุณพ่อคุณแม่ต้องไปแจ้งเกิด ณ อำเภอ เทศบาล หรือเขตต่าง ๆ ซึ่งเป็นท้องที่ที่มีการเกิด เพื่อแจ้งเกิดและเพิ่มชื่อในทะเบียนบ้านภายใน 15 วัน'.",
+      "'เอกสารของครอบครัว', 'นำสมุดไปพบบุคลากรทางสาธารณสุขทุกครั้ง' and the meaning of the ♡ icon (parents can study and fill in the page themselves) come from PDF p2 (inside cover, no printed page number), not from p3.",
+      "Privacy framing written for this app, not handbook text: 'แอปนี้ไม่ขอและไม่เก็บข้อมูลเหล่านี้ กรอกในสมุดเล่มจริงเท่านั้น' (text step 1, takeaway 1, quiz q4). The timeline only names the fields; nothing in the app asks for data. PMH privacy officer to confirm the wording.",
+      "Editorial pointers, not handbook text: 'ถ้าไม่แน่ใจว่าต้องกรอกช่องไหน ถามเจ้าหน้าที่ได้' (text step 1); the family note's sentence that the handbook does not say who may register the birth in the parents' place, and to ask at the district office/municipality or staff.",
+      "The field labels are copied as printed (มารดา / บิดา / บุตร). The lesson does not say that every family has to fill every block, and does not add advice about families without a father listed. PMH to decide whether a line is needed.",
+      "The handbook does not say how the 15 days are counted (whether the day of birth counts). The curriculum quiz idea ('baby born on 3 March — what is the last day?') was therefore NOT used; quiz q2/q3 only ask for 'ภายใน 15 วัน' and the place as printed. PMH admin / birth-certificate staff to confirm the rule wording and the local process.",
+      "The handbook does not say when the baby's blood group (หมู่เลือด) or ID number is filled in, or who provides them. Timeline details only say what goes in the box.",
+      "Quiz q1 (wrong options 'ภายใน 30 วัน', 'ก่อนลูกเข้าโรงเรียน'), q3 (wrong options for the place) and q5 (someone finds a lost book) are written for this lesson; they only repeat p3 wording.",
+      "Family note is app framing (relatives remind the parents about the 15 days and keep the book safe). Needs approval.",
+      "PMH CLARIFICATION (from curriculum): where Phimai families register births (district office / municipality) and how PMH issues the birth notification document are not in the handbook. Nothing added; PMH to supply if wanted.",
+      "PMH privacy officer (curriculum review requirement): the app must not collect ID numbers or addresses. This lesson has no input fields."
+    ]
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "First draft from official handbook PDF p3 (with p2 for the ♡ icon), 2nd printing April 2569; family-details fields and the birth-registration tip."
+    },
+    {
+      "version": "0.1.1",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "Added video step V-INFO-001 (narration derived from this lesson; no text changes)."
+    }
+  ],
+  "steps": [
+    {
+      "type": "text",
+      "heading": "หน้าแรกของสมุด: ข้อมูลครอบครัว",
+      "paragraphs": [
+        "สมุดสีชมพูหน้า 1 ชื่อว่า 'ข้อมูลครอบครัว' มีช่องข้อมูล 4 ส่วน คือ มารดา บิดา บุตร และที่อยู่ปัจจุบัน",
+        "หน้านี้มีเครื่องหมาย ♡ ซึ่งหมายถึงหน้าที่ผู้ปกครองศึกษาและบันทึกข้อมูลได้ด้วยตนเอง ถ้าไม่แน่ใจว่าต้องกรอกช่องไหน ถามเจ้าหน้าที่ได้",
+        "แอปนี้ไม่ขอและไม่เก็บข้อมูลเหล่านี้ ชื่อ เลขประจำตัวประชาชน เบอร์โทรศัพท์ และที่อยู่ กรอกในสมุดเล่มจริงเท่านั้น"
+      ]
+    },
+    {
+      "type": "video",
+      "heading": "ดูวิดีโอสรุป",
+      "videoId": "V-INFO-001"
+    },
+    {
+      "type": "text",
+      "heading": "ทำไมหน้านี้สำคัญ",
+      "paragraphs": [
+        "สมุดบันทึกสุขภาพแม่และเด็กเป็นเอกสารของครอบครัว ใช้บันทึกข้อมูลร่วมกับเจ้าหน้าที่สาธารณสุข ตั้งแต่ตั้งครรภ์ และเป็นข้อมูลต่อเนื่องของลูกตั้งแต่แรกเกิดจนถึง 6 ปี",
+        "เมื่อไปรับการรักษาพยาบาล ควรนำสมุดเล่มนี้ไปพบบุคลากรทางสาธารณสุขทุกครั้ง",
+        "ด้านล่างของหน้า 1 มีข้อความว่า 'หากผู้ใดเก็บหรือพบสมุดเล่มนี้ โปรดส่งคืน'"
+      ]
+    },
+    {
+      "type": "text",
+      "heading": "แจ้งเกิดภายใน 15 วัน",
+      "paragraphs": [
+        "ขอบหน้า 1 มีข้อความเตือนว่า คุณพ่อคุณแม่ต้องไปแจ้งเกิด ณ อำเภอ เทศบาล หรือเขตต่าง ๆ ซึ่งเป็นท้องที่ที่มีการเกิด เพื่อแจ้งเกิดและเพิ่มชื่อในทะเบียนบ้านภายใน 15 วัน",
+        "สถานที่แจ้งเกิด คือท้องที่ที่มีการเกิด และต้องไปภายใน 15 วัน"
+      ]
+    },
+    {
+      "type": "timeline",
+      "heading": "ในหน้าข้อมูลครอบครัวมีช่องอะไรบ้าง",
+      "intro": "เลือกแต่ละส่วน แล้วแตะเพื่อดูว่าสมุดมีช่องอะไร ไม่ต้องกรอกอะไรในแอป",
+      "stages": [
+        {
+          "id": "mother",
+          "label": "มารดา",
+          "items": [
+            {
+              "n": 1,
+              "title": "ชื่อ-นามสกุล",
+              "detail": "ช่องชื่อ-นามสกุลของมารดา"
+            },
+            {
+              "n": 2,
+              "title": "เลขประจำตัวประชาชน",
+              "detail": "ช่องตัวเลข 13 ช่อง กรอกในสมุดเล่มจริง"
+            },
+            {
+              "n": 3,
+              "title": "อายุ และโทรศัพท์",
+              "detail": "ช่องอายุ (ปี) และช่องเบอร์โทรศัพท์"
+            }
+          ]
+        },
+        {
+          "id": "father",
+          "label": "บิดา",
+          "items": [
+            {
+              "n": 4,
+              "title": "ชื่อ-นามสกุล",
+              "detail": "ช่องชื่อ-นามสกุลของบิดา"
+            },
+            {
+              "n": 5,
+              "title": "เลขประจำตัวประชาชน",
+              "detail": "ช่องตัวเลข 13 ช่อง กรอกในสมุดเล่มจริง"
+            },
+            {
+              "n": 6,
+              "title": "อายุ และโทรศัพท์",
+              "detail": "ช่องอายุ (ปี) และช่องเบอร์โทรศัพท์"
+            }
+          ]
+        },
+        {
+          "id": "child",
+          "label": "บุตร",
+          "items": [
+            {
+              "n": 7,
+              "title": "ชื่อ-นามสกุล และเลขประจำตัวประชาชน",
+              "detail": "ช่องชื่อ-นามสกุลของลูก และช่องตัวเลข 13 ช่อง"
+            },
+            {
+              "n": 8,
+              "title": "เกิดวันที่ เดือน พ.ศ. และเวลา",
+              "detail": "ช่องวันเกิดของลูก และเวลาเกิด (น.)"
+            },
+            {
+              "n": 9,
+              "title": "หมู่เลือด",
+              "detail": "ช่องหมู่เลือดของลูก"
+            }
+          ]
+        },
+        {
+          "id": "address",
+          "label": "ที่อยู่ปัจจุบัน",
+          "items": [
+            {
+              "n": 10,
+              "title": "บ้านเลขที่ หมู่ที่ หมู่บ้าน",
+              "detail": "ส่วนแรกของที่อยู่ปัจจุบัน"
+            },
+            {
+              "n": 11,
+              "title": "ซอย ถนน ตำบล/แขวง",
+              "detail": "ส่วนกลางของที่อยู่ปัจจุบัน"
+            },
+            {
+              "n": 12,
+              "title": "อำเภอ/เขต จังหวัด รหัสไปรษณีย์",
+              "detail": "ส่วนท้ายของที่อยู่ปัจจุบัน"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "heading": "ช่องนี้อยู่ส่วนไหน",
+      "intro": "แตะช่องข้อมูลหนึ่งใบ แล้วแตะส่วนของหน้าข้อมูลครอบครัวที่มีช่องนี้",
+      "buckets": [
+        {
+          "id": "parents",
+          "label": "มารดา และบิดา"
+        },
+        {
+          "id": "child",
+          "label": "บุตร"
+        },
+        {
+          "id": "address",
+          "label": "ที่อยู่ปัจจุบัน"
+        }
+      ],
+      "items": [
+        {
+          "id": "s1",
+          "text": "เวลาเกิด (น.)",
+          "bucketId": "child"
+        },
+        {
+          "id": "s2",
+          "text": "รหัสไปรษณีย์",
+          "bucketId": "address"
+        },
+        {
+          "id": "s3",
+          "text": "อายุ (ปี)",
+          "bucketId": "parents"
+        },
+        {
+          "id": "s4",
+          "text": "หมู่เลือด",
+          "bucketId": "child"
+        },
+        {
+          "id": "s5",
+          "text": "ตำบล/แขวง",
+          "bucketId": "address"
+        },
+        {
+          "id": "s6",
+          "text": "โทรศัพท์",
+          "bucketId": "parents"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "heading": "ทบทวนความเข้าใจ",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "prompt": "ตามสมุดหน้า 1 ต้องไปแจ้งเกิดและเพิ่มชื่อในทะเบียนบ้านภายในกี่วัน",
+          "options": [
+            {
+              "id": "a",
+              "text": "ภายใน 30 วัน",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า ภายใน 15 วัน"
+            },
+            {
+              "id": "b",
+              "text": "ก่อนลูกเข้าโรงเรียน",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า ต้องไปแจ้งเกิดและเพิ่มชื่อในทะเบียนบ้านภายใน 15 วัน"
+            },
+            {
+              "id": "c",
+              "text": "ภายใน 15 วัน",
+              "feedback": "ถูกต้อง แจ้งเกิดและเพิ่มชื่อในทะเบียนบ้านภายใน 15 วัน"
+            }
+          ],
+          "correctOptionId": "c",
+          "explanation": "ข้อความที่ขอบสมุดหน้า 1: คุณพ่อคุณแม่ต้องไปแจ้งเกิด ณ อำเภอ เทศบาล หรือเขตต่าง ๆ ซึ่งเป็นท้องที่ที่มีการเกิด เพื่อแจ้งเกิดและเพิ่มชื่อในทะเบียนบ้านภายใน 15 วัน",
+          "source": {
+            "pdfPages": [
+              3
+            ],
+            "printedPages": [
+              "1"
+            ]
+          }
+        },
+        {
+          "id": "q2",
+          "kind": "scenario",
+          "scenario": "ลูกเพิ่งคลอดได้ 2 วัน ญาติบอกว่า 'ยังไม่ต้องรีบแจ้งเกิด รอลูกครบเดือนก่อนก็ได้'",
+          "prompt": "ตามสมุด ข้อใดถูกต้อง",
+          "options": [
+            {
+              "id": "a",
+              "text": "ต้องไปแจ้งเกิดภายใน 15 วัน",
+              "feedback": "ใช่ สมุดเขียนว่า ต้องไปแจ้งเกิดและเพิ่มชื่อในทะเบียนบ้านภายใน 15 วัน"
+            },
+            {
+              "id": "b",
+              "text": "รอให้ลูกครบเดือนก่อน แล้วค่อยไป",
+              "feedback": "ยังไม่ใช่ ลูกครบเดือนจะเกิน 15 วันแล้ว สมุดเขียนว่าต้องแจ้งเกิดภายใน 15 วัน"
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "สมุดหน้า 1: แจ้งเกิดและเพิ่มชื่อในทะเบียนบ้านภายใน 15 วัน ถ้ามีคำถามเรื่องขั้นตอน ถามที่อำเภอ เทศบาล หรือเจ้าหน้าที่ได้",
+          "source": {
+            "pdfPages": [
+              3
+            ],
+            "printedPages": [
+              "1"
+            ]
+          }
+        },
+        {
+          "id": "q3",
+          "kind": "mcq",
+          "prompt": "ตามสมุด ไปแจ้งเกิดที่ไหน",
+          "options": [
+            {
+              "id": "a",
+              "text": "ที่ใดก็ได้ ไม่มีกำหนด",
+              "feedback": "ยังไม่ใช่ สมุดระบุสถานที่ไว้ คือ อำเภอ เทศบาล หรือเขต ซึ่งเป็นท้องที่ที่มีการเกิด"
+            },
+            {
+              "id": "b",
+              "text": "อำเภอ เทศบาล หรือเขต ซึ่งเป็นท้องที่ที่มีการเกิด",
+              "feedback": "ถูกต้อง แจ้งเกิด ณ อำเภอ เทศบาล หรือเขตต่าง ๆ ซึ่งเป็นท้องที่ที่มีการเกิด"
+            },
+            {
+              "id": "c",
+              "text": "ที่คลินิกเด็กสุขภาพดี ตอนพาลูกไปรับวัคซีน",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า แจ้งเกิด ณ อำเภอ เทศบาล หรือเขตต่าง ๆ ซึ่งเป็นท้องที่ที่มีการเกิด"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "สมุดหน้า 1: คุณพ่อคุณแม่ต้องไปแจ้งเกิด ณ อำเภอ เทศบาล หรือเขตต่าง ๆ ซึ่งเป็นท้องที่ที่มีการเกิด",
+          "source": {
+            "pdfPages": [
+              3
+            ],
+            "printedPages": [
+              "1"
+            ]
+          }
+        },
+        {
+          "id": "q4",
+          "kind": "truefalse",
+          "prompt": "เลขประจำตัวประชาชนและที่อยู่ของครอบครัว ต้องกรอกในแอปนี้ด้วย จริงหรือไม่",
+          "options": [
+            {
+              "id": "t",
+              "text": "จริง",
+              "feedback": "ไม่ใช่ แอปนี้ไม่ขอและไม่เก็บข้อมูลเหล่านี้ ครอบครัวกรอกในสมุดเล่มจริง"
+            },
+            {
+              "id": "f",
+              "text": "ไม่จริง",
+              "feedback": "ถูกต้อง ข้อมูลครอบครัวกรอกในสมุดเล่มจริงเท่านั้น แอปนี้ไม่เก็บข้อมูลเหล่านี้"
+            }
+          ],
+          "correctOptionId": "f",
+          "explanation": "หน้าข้อมูลครอบครัวมีเครื่องหมาย ♡ คือหน้าที่ผู้ปกครองบันทึกข้อมูลได้ด้วยตนเองในสมุด แอปนี้ใช้สำหรับเรียนรู้เท่านั้น ไม่เก็บข้อมูลส่วนตัว",
+          "source": {
+            "pdfPages": [
+              2,
+              3
+            ],
+            "printedPages": [
+              "1"
+            ]
+          }
+        },
+        {
+          "id": "q5",
+          "kind": "scenario",
+          "scenario": "เพื่อนบ้านเก็บสมุดสีชมพูได้เล่มหนึ่งที่ตลาด",
+          "prompt": "ด้านล่างหน้า 1 ของสมุดเขียนไว้ว่าอย่างไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "หากผู้ใดเก็บหรือพบสมุดเล่มนี้ โปรดส่งคืน",
+              "feedback": "ถูกต้อง เป็นข้อความบนแถบด้านล่างของหน้าข้อมูลครอบครัว"
+            },
+            {
+              "id": "b",
+              "text": "เก็บไว้ใช้เองได้",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า หากผู้ใดเก็บหรือพบสมุดเล่มนี้ โปรดส่งคืน"
+            },
+            {
+              "id": "c",
+              "text": "ทิ้งได้ ถ้าไม่รู้ว่าเป็นของใคร",
+              "feedback": "ยังไม่ใช่ สมุดเป็นเอกสารของครอบครัว และเขียนว่า โปรดส่งคืน"
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "สมุดหน้า 1 มีแถบข้อความว่า 'หากผู้ใดเก็บหรือพบสมุดเล่มนี้ โปรดส่งคืน' สมุดเล่มนี้เป็นเอกสารของครอบครัว",
+          "source": {
+            "pdfPages": [
+              3
+            ],
+            "printedPages": [
+              "1"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "takeaways",
+      "heading": "สรุปสิ่งสำคัญ",
+      "items": [
+        "หน้า 1 ข้อมูลครอบครัว มีช่อง มารดา บิดา บุตร และที่อยู่ปัจจุบัน ครอบครัวกรอกในสมุดเล่มจริง แอปนี้ไม่เก็บข้อมูลเหล่านี้",
+        "สมุดเป็นเอกสารของครอบครัว นำไปพบบุคลากรทางสาธารณสุขทุกครั้ง",
+        "ต้องไปแจ้งเกิดและเพิ่มชื่อในทะเบียนบ้านภายใน 15 วัน",
+        "แจ้งเกิด ณ อำเภอ เทศบาล หรือเขต ซึ่งเป็นท้องที่ที่มีการเกิด"
+      ],
+      "familyNote": "คนในครอบครัวหรือคนที่ช่วยดูแล ช่วยจำเรื่องแจ้งเกิดภายใน 15 วัน และช่วยเก็บสมุดไว้ในที่ปลอดภัย สมุดไม่ได้บอกว่าใครไปแจ้งเกิดแทนคุณพ่อคุณแม่ได้บ้าง ถ้าสงสัย สอบถามที่อำเภอ เทศบาล หรือเจ้าหน้าที่"
+    }
+  ]
+}

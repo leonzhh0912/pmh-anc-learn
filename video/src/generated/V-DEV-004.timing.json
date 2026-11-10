@@ -1,0 +1,182 @@
+{
+  "id": "V-DEV-004",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 4139,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 547,
+      "segments": [
+        {
+          "file": "audio/V-DEV-004/intro-1-a71bc17644.wav",
+          "from": 18,
+          "durationInFrames": 219,
+          "caption": "พ่อแม่ผู้ดูแลมีบทบาทสำคัญในการฝึกกระตุ้นพัฒนาการของเด็ก เพราะมีเวลาอยู่กับเด็กมากที่สุด",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-DEV-004/intro-2-c19529fb8c.wav",
+          "from": 251,
+          "durationInFrames": 269,
+          "caption": "สมุดหน้า 60 และหน้า 61 มีรายการพัฒนาการ 42 ถึง 78 เดือน แบ่งเป็น 8 ช่วงอายุ ช่วงละ 5 ด้าน",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 547,
+      "durationInFrames": 930,
+      "segments": [
+        {
+          "file": "audio/V-DEV-004/stage1-1-0a86592024.wav",
+          "from": 18,
+          "durationInFrames": 82,
+          "caption": "ตอนที่ 1 อ่านรายการอย่างไร",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-DEV-004/stage1-2-33c4e03592.wav",
+          "from": 114,
+          "durationInFrames": 281,
+          "caption": "หาช่องอายุของลูก ในสมุดหน้า 60 หรือ 61 ช่วง 73–78 เดือน อยู่แถบซ้ายของหน้า 61",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-DEV-004/stage1-3-5f2b0a507d.wav",
+          "from": 409,
+          "durationInFrames": 250,
+          "caption": "แล้วอ่านรายการทั้ง 5 ด้านในช่องนั้น บางช่องมีมากกว่า 1 รายการ เช่น ช่อง 42 และ 60 เดือน",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-DEV-004/stage1-4-90ccf6ae23.wav",
+          "from": 673,
+          "durationInFrames": 230,
+          "caption": "รายการในสมุดใช้ติดตามพัฒนาการของลูก ไม่ต้องตัดสินเอง ถ้าสงสัยหรือกังวล บอกเจ้าหน้าที่",
+          "reveal": 3
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1477,
+      "durationInFrames": 869,
+      "segments": [
+        {
+          "file": "audio/V-DEV-004/stage2-1-e490410ad0.wav",
+          "from": 18,
+          "durationInFrames": 307,
+          "caption": "ตอนที่ 2 ช่อง 42–59 เดือน ช่อง 42 เดือนมีสีแดง เป็นอายุที่เจ้าหน้าที่ช่วยคัดกรองพัฒนาการ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-DEV-004/stage2-2-8c94c84eae.wav",
+          "from": 339,
+          "durationInFrames": 175,
+          "caption": "ในช่อง 42 เดือน สมุดมีรายการ ยืนขาเดียวนาน 5 วินาที",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-DEV-004/stage2-3-97994925df.wav",
+          "from": 528,
+          "durationInFrames": 132,
+          "caption": "และในช่องเดียวกัน มีรายการ บอกเพศของตนเองได้",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-DEV-004/stage2-4-d1cd4e8d24.wav",
+          "from": 674,
+          "durationInFrames": 168,
+          "caption": "ในช่อง 55–59 เดือน มีรายการ จับดินสอได้ถูกต้อง",
+          "reveal": 6
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 2346,
+      "durationInFrames": 1074,
+      "segments": [
+        {
+          "file": "audio/V-DEV-004/stage3-1-1b0cd17ea4.wav",
+          "from": 18,
+          "durationInFrames": 288,
+          "caption": "ตอนที่ 3 ช่อง 60–78 เดือน ช่อง 60 เดือนมีสีแดง เป็นอายุที่เจ้าหน้าที่ช่วยคัดกรองพัฒนาการ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-DEV-004/stage3-2-71a6a11cf1.wav",
+          "from": 320,
+          "durationInFrames": 156,
+          "caption": "ในช่อง 60 เดือน สมุดมีรายการ วาดรูปคนได้ 6 ส่วน",
+          "reveal": 7
+        },
+        {
+          "file": "audio/V-DEV-004/stage3-3-a0b4542207.wav",
+          "from": 490,
+          "durationInFrames": 146,
+          "caption": "ในช่อง 61–66 เดือน มีรายการ ช่วยงานบ้าน",
+          "reveal": 8
+        },
+        {
+          "file": "audio/V-DEV-004/stage3-4-3565414d65.wav",
+          "from": 650,
+          "durationInFrames": 165,
+          "caption": "ในช่อง 67–72 เดือน มีรายการ เด็กแปรงฟันได้ทั่วทั้งปาก",
+          "reveal": 9
+        },
+        {
+          "file": "audio/V-DEV-004/stage3-5-f7c28701d4.wav",
+          "from": 829,
+          "durationInFrames": 218,
+          "caption": "และในช่อง 73–78 เดือน หน้า 61 มีรายการ เขียนชื่อตนเองได้ถูกต้อง",
+          "reveal": 10
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 3420,
+      "durationInFrames": 719,
+      "segments": [
+        {
+          "file": "audio/V-DEV-004/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-DEV-004/summary-2-e8906b1043.wav",
+          "from": 78,
+          "durationInFrames": 175,
+          "caption": "สมุดหน้า 60–61 มีรายการพัฒนาการ 8 ช่วงอายุ ช่วงละ 5 ด้าน",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-DEV-004/summary-3-9987ea9047.wav",
+          "from": 267,
+          "durationInFrames": 221,
+          "caption": "อายุ 42 เดือน และ 60 เดือน เป็นช่วงที่เจ้าหน้าที่สาธารณสุขช่วยคัดกรองพัฒนาการ",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-DEV-004/summary-4-e69d10cc42.wav",
+          "from": 502,
+          "durationInFrames": 190,
+          "caption": "ถ้าสงสัยหรือกังวลเรื่องพัฒนาการของลูก บอกเจ้าหน้าที่ และนำสมุดไปด้วย",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

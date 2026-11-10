@@ -1,0 +1,30 @@
+{
+  "id": "V-REC-002",
+  "lessonId": "MCH68-REC-002",
+  "title": "การดูแลฟันแม่ขณะตั้งครรภ์",
+  "mp4": "media/V-REC-002.mp4",
+  "captionsVtt": "media/V-REC-002.th.vtt",
+  "poster": "media/V-REC-002.jpg",
+  "durationSec": 127,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-REC-002 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'โรคปริทันต์', 'ฟลูออไรด์', 'เบกกิ้งโซดา', 'ไหมขัดฟัน' and 'สิบเอ็ด' / 'สิบสอง'.",
+      "Lesson HANDBOOK ISSUE (minor terminology '5 หมู่' vs '6 กลุ่ม'): the 'อาหารที่มีประโยชน์ครบ 5 หมู่' part of the food rule is left out of the video; item 8 uses only the second half of that rule ('หลีกเลี่ยงการกินอาหารที่มีน้ำตาลบ่อย ๆ').",
+      "PMH CLARIFICATION (from lesson): baking-soda rinse (item 9) — no ratio is printed and none is given. Dentist to decide whether a ratio is needed.",
+      "Lesson note: 'ส่งเชื้อฟันผุให้ลูกได้' (item 4) is a plain-language version of 'ถ่ายทอดเชื้อฟันผุจากแม่สู่ลูกได้'.",
+      "Item 12 mentions the record on printed p12; the '2 visits' detail and how to book the PMH dental check (PMH CLARIFICATION) are not narrated."
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "V-K-013",
+  "lessonId": "MCH68-K-013",
+  "title": "ป้องกันการบาดเจ็บในบ้าน",
+  "mp4": "media/V-K-013.mp4",
+  "captionsVtt": "media/V-K-013.th.vtt",
+  "poster": "media/V-K-013.jpg",
+  "durationSec": 71.3,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-K-013 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of เฟอร์นิเจอร์, บันไดเลื่อน, ลิฟต์, รถหัดเดิน, 'เก้าเซนติเมตร', 'มากกว่าหนึ่งเมตร'.",
+      "All 6 rules and both numbers are from p30 (printed 28) as printed. No reasons are given (none in the handbook).",
+      "Lesson app framing used: stage 1 intro 'ลองเดินดูบ้านของตัวเองไปพร้อมกัน' (timeline intro) and summary 4 'สมุดไม่ได้อธิบายเหตุผล... ถามเจ้าหน้าที่ได้' (text step 2). Not handbook text; PMH to approve.",
+      "Not used: examples taken from the illustrations (sofa/armchair as a high place, wardrobe fixed to the wall, holding hands on an escalator), sort/quiz scenarios, family note. Video illustrations: PMH to decide on local housing context (e.g. raised wooden houses) — no new rules added."
+    ]
+  }
+}

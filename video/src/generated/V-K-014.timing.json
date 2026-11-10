@@ -1,0 +1,168 @@
+{
+  "id": "V-K-014",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 2234,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 531,
+      "segments": [
+        {
+          "file": "audio/V-K-014/intro-1-04a417df70.wav",
+          "from": 18,
+          "durationInFrames": 218,
+          "caption": "สมุดสีชมพูหน้า 29 เขียนไว้ว่า อุบัติเหตุ เป็นสาเหตุการเสียชีวิตอันดับต้น ๆ ของเด็ก",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-K-014/intro-2-36b348ac71.wav",
+          "from": 250,
+          "durationInFrames": 254,
+          "caption": "การป้องกันการบาดเจ็บทางจราจร มี 3 เรื่อง ที่นั่งนิรภัย รถจักรยานยนต์ และห้ามทิ้งเด็กในรถ",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 531,
+      "durationInFrames": 322,
+      "segments": [
+        {
+          "file": "audio/V-K-014/stage1-1-d85198ea11.wav",
+          "from": 18,
+          "durationInFrames": 79,
+          "caption": "ตอนที่ 1 เมื่อนั่งรถยนต์",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-014/stage1-2-e7c1f26a2d.wav",
+          "from": 111,
+          "durationInFrames": 62,
+          "caption": "ใช้ที่นั่งนิรภัยทุกครั้ง",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-014/stage1-3-c85d4a0541.wav",
+          "from": 187,
+          "durationInFrames": 108,
+          "caption": "เด็กอายุน้อยกว่า 2 ปี ให้หันหน้าเข้าหาเบาะ",
+          "reveal": 2
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 853,
+      "durationInFrames": 544,
+      "segments": [
+        {
+          "file": "audio/V-K-014/stage2-1-d0b78d9b8b.wav",
+          "from": 18,
+          "durationInFrames": 82,
+          "caption": "ตอนที่ 2 รถจักรยานยนต์",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-014/stage2-2-68bb477cf5.wav",
+          "from": 114,
+          "durationInFrames": 106,
+          "caption": "เด็กอายุน้อยกว่า 2 ปี ห้ามโดยสารรถจักรยานยนต์",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-K-014/stage2-3-0e0866042f.wav",
+          "from": 234,
+          "durationInFrames": 151,
+          "caption": "เด็กอายุ 2-6 ปี ไม่แนะนำให้โดยสารหลังผู้ขับขี่ตามลำพัง",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-K-014/stage2-4-17a64bae4b.wav",
+          "from": 399,
+          "durationInFrames": 118,
+          "caption": "ถ้าที่บ้านใช้รถจักรยานยนต์เป็นหลัก ปรึกษาเจ้าหน้าที่ได้",
+          "reveal": 5
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 1397,
+      "durationInFrames": 294,
+      "segments": [
+        {
+          "file": "audio/V-K-014/stage3-1-7b1b210460.wav",
+          "from": 18,
+          "durationInFrames": 97,
+          "caption": "ตอนที่ 3 เมื่อจอดรถ และก่อนขับรถ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-014/stage3-2-92bf0f7278.wav",
+          "from": 129,
+          "durationInFrames": 41,
+          "caption": "ห้ามทิ้งเด็กในรถ",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-K-014/stage3-3-539c876c09.wav",
+          "from": 184,
+          "durationInFrames": 83,
+          "caption": "และตรวจรอบรถก่อนขับรถทุกครั้ง",
+          "reveal": 7
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 1691,
+      "durationInFrames": 543,
+      "segments": [
+        {
+          "file": "audio/V-K-014/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-014/summary-2-e0cdb73f47.wav",
+          "from": 78,
+          "durationInFrames": 163,
+          "caption": "ใช้ที่นั่งนิรภัยทุกครั้ง เด็กอายุน้อยกว่า 2 ปี หันหน้าเข้าหาเบาะ",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-014/summary-3-68bb477cf5.wav",
+          "from": 255,
+          "durationInFrames": 108,
+          "caption": "เด็กอายุน้อยกว่า 2 ปี ห้ามโดยสารรถจักรยานยนต์",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-K-014/summary-4-92bf0f7278.wav",
+          "from": 377,
+          "durationInFrames": 43,
+          "caption": "ห้ามทิ้งเด็กในรถ",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-K-014/summary-5-539c876c09.wav",
+          "from": 434,
+          "durationInFrames": 82,
+          "caption": "และตรวจรอบรถก่อนขับรถทุกครั้ง",
+          "reveal": 4
+        }
+      ]
+    }
+  ]
+}

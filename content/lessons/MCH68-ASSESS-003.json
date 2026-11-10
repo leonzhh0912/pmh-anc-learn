@@ -1,0 +1,337 @@
+{
+  "id": "MCH68-ASSESS-003",
+  "version": "0.1.1",
+  "title": "งดสุราและบุหรี่ ระหว่างตั้งครรภ์และให้นมลูก",
+  "summary": "สมุดพูดถึงเครื่องดื่มที่มีแอลกอฮอล์และบุหรี่อย่างไร และทำไมเจ้าหน้าที่จึงถามเรื่องนี้เมื่อฝากครรภ์",
+  "sectionId": "assess",
+  "stages": [
+    "pregnancy",
+    "postpartum"
+  ],
+  "audience": [
+    "mother",
+    "family"
+  ],
+  "minutes": 5,
+  "objectives": [
+    "ผู้เรียนบอกได้ว่าหญิงตั้งครรภ์และหญิงให้นมบุตรควรงดเครื่องดื่มที่มีแอลกอฮอล์ทุกชนิด เช่น เบียร์ เหล้า สาโท กะแช่ วิสกี้ สปาย ไวน์ เพราะการดื่มสุรามีผลต่อสุขภาพของมารดาและการเลี้ยงลูก",
+    "ผู้เรียนบอกผลเสียของการสูบบุหรี่ระหว่างตั้งครรภ์ตามสมุดได้: ลูกในครรภ์ตัวเล็กผิดปกติ เสี่ยงต่อโรคปอดและปัญหาทางเดินหายใจ",
+    "ผู้เรียนบอกได้ว่าการสูบบุหรี่หรือบุหรี่ไฟฟ้าของหญิงตั้งครรภ์หรือคนใกล้ชิด เป็นเรื่องที่เจ้าหน้าที่ประเมินเมื่อฝากครรภ์",
+    "ผู้เรียนอธิบายได้ว่าเจ้าหน้าที่ถามเรื่องการดื่มสุราในรอบ 1 ปีที่ผ่านมา เพื่อให้การดูแลเพิ่มเติม จึงควรตอบตามจริง"
+  ],
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      8,
+      19,
+      20,
+      26
+    ],
+    "printedPages": [
+      "6",
+      "17",
+      "18",
+      "24"
+    ],
+    "note": "การประเมินความเสี่ยงเมื่อฝากครรภ์ครั้งที่ 1 (หน้า 6, ใช้เฉพาะหัวข้อ ไม่ใช้ข้อคำถามหรือระดับความเสี่ยง); ส่วนที่ 3 การประเมินการดื่มสุรา (หน้า 17); ข้อความแนะนำเรื่องบุหรี่ที่ขอบหน้า 18; ข้อปฏิบัติการกินข้อ 9 (หน้า 24)"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "Alcohol abstinence for pregnant AND breastfeeding women is from p26 (printed 24) eating rule 9 'งดเครื่องดื่มที่มีแอลกอฮอล์ และหลีกเลี่ยงอาหารหมักดอง', checked on the page image.",
+      "The list of alcoholic drinks (เบียร์ เหล้า สาโท กะแช่ วิสกี้ สปาย ไวน์) and 'การดื่มสุราจะมีผลต่อสุขภาพของมารดาและการเลี้ยงลูก' are from the alcohol question on p19 (printed 17), checked on the page image.",
+      "Smoking harm is the p20 (printed 18) margin tip, quoted exactly and checked on a crop of the page image.",
+      "AWARENESS-ONLY CHECK: p8 (printed 6) is a STAFF-ONLY risk checklist. The lesson only says that drinking, smoking or e-cigarettes, and close contacts who smoke or use e-cigarettes are among the things staff assess at the first ANC visit. It gives no item number, colour code or risk level. 'ใช้สารเสพติด' on the same line is left out. Reviewer to confirm, or remove p8 content.",
+      "AWARENESS-ONLY CHECK: the p19 alcohol question is described in general terms ('staff ask about drinking in the past 1 year'), and its 'เคย → further assessment and care' note is explained as the reason staff ask. No screening items or scoring (ST-5, 2Q plus, EPDS on p19–p20) are reproduced. Reviewer to confirm.",
+      "'Staff record drinking at each assessment during pregnancy' is read from the p20 record table (สุรา: ไม่เคย / เคย, up to 8 times); the handbook does not say it in a sentence.",
+      "'ตอบตามจริง' (answer honestly) is framing written for this app (from the curriculum objective). It is not printed in the handbook.",
+      "SCOPE NOTE: the handbook says nothing about smoking or e-cigarettes while breastfeeding, and gives no harms of second-hand smoke. The lesson title (from curriculum.json) covers both alcohol and smoking during breastfeeding, but the lesson only applies the breastfeeding rule to alcohol (p26). PMH may want to adjust the title.",
+      "Sort cards 'น้ำสะอาด' and 'นมรสจืด' come from p26 rules 8 and 5 (for pregnant and breastfeeding women).",
+      "Quiz q4 (relative who uses e-cigarettes) and q5 (beer at a temple festival before knowing about the pregnancy) are situations written for this lesson.",
+      "Family note and the 'ปรึกษาเจ้าหน้าที่ได้' pointer are framing written for this app.",
+      "PMH CLARIFICATION (from plan): PMH smoking-cessation and alcohol-counselling service contacts (not in the handbook) should be shown with this lesson."
+    ]
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "First draft from official handbook PDF p8, p19, p20, p26 (2nd printing, April 2569)."
+    },
+    {
+      "version": "0.1.1",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "Added video step V-ASSESS-003 (narration derived from this lesson; no text changes)."
+    }
+  ],
+  "steps": [
+    {
+      "type": "text",
+      "heading": "งดเครื่องดื่มที่มีแอลกอฮอล์",
+      "paragraphs": [
+        "ข้อปฏิบัติการกินสำหรับหญิงตั้งครรภ์และหญิงให้นมบุตร ข้อ 9 คือ งดเครื่องดื่มที่มีแอลกอฮอล์ และหลีกเลี่ยงอาหารหมักดอง",
+        "สุรา หมายถึงเครื่องดื่มที่มีแอลกอฮอล์ทุกชนิด ได้แก่ เบียร์ เหล้า สาโท กะแช่ วิสกี้ สปาย ไวน์ เป็นต้น",
+        "สมุดบอกว่า การดื่มสุรามีผลต่อสุขภาพของแม่และการเลี้ยงลูก"
+      ]
+    },
+    {
+      "type": "video",
+      "heading": "ดูวิดีโอสรุป",
+      "videoId": "V-ASSESS-003"
+    },
+    {
+      "type": "text",
+      "heading": "บุหรี่และบุหรี่ไฟฟ้า",
+      "paragraphs": [
+        "หากสูบบุหรี่ระหว่างตั้งครรภ์ ลูกในครรภ์จะตัวเล็กผิดปกติ เสี่ยงต่อโรคปอดและปัญหาทางเดินหายใจ",
+        "เมื่อฝากครรภ์ครั้งแรก เจ้าหน้าที่จะประเมินความเสี่ยงของหญิงตั้งครรภ์ เรื่องที่ประเมินรวมถึงการดื่มสุรา การสูบบุหรี่หรือบุหรี่ไฟฟ้า และการที่คนใกล้ชิดสูบบุหรี่หรือบุหรี่ไฟฟ้า"
+      ]
+    },
+    {
+      "type": "text",
+      "heading": "ทำไมเจ้าหน้าที่ถามเรื่องการดื่ม",
+      "paragraphs": [
+        "ในหมวดแบบประเมิน เจ้าหน้าที่จะถามว่าในรอบ 1 ปีที่ผ่านมาเคยดื่มสุราหรือไม่ และบันทึกเรื่องสุราไว้ในการประเมินแต่ละครั้งระหว่างตั้งครรภ์",
+        "คำถามนี้มีไว้เพื่อดูแลแม่และลูก ถ้าเคยดื่ม สมุดแนะนำว่าควรได้รับการประเมินและการดูแลจากเจ้าหน้าที่เพิ่มเติม เพราะการดื่มสุรามีผลต่อสุขภาพของแม่และการเลี้ยงลูก",
+        "ตอบตามจริง เพื่อให้ได้รับการดูแลที่เหมาะสม"
+      ]
+    },
+    {
+      "type": "sort",
+      "heading": "งด หรือ ดื่มได้",
+      "intro": "แตะเครื่องดื่ม แล้วแตะว่าระหว่างตั้งครรภ์และให้นมลูก สมุดบอกให้งด หรือแนะนำให้ดื่ม",
+      "buckets": [
+        {
+          "id": "avoid",
+          "label": "มีแอลกอฮอล์: งด"
+        },
+        {
+          "id": "ok",
+          "label": "สมุดแนะนำให้ดื่ม"
+        }
+      ],
+      "items": [
+        {
+          "id": "d1",
+          "text": "เบียร์",
+          "bucketId": "avoid"
+        },
+        {
+          "id": "d2",
+          "text": "น้ำสะอาด",
+          "bucketId": "ok"
+        },
+        {
+          "id": "d3",
+          "text": "สาโท",
+          "bucketId": "avoid"
+        },
+        {
+          "id": "d4",
+          "text": "กะแช่",
+          "bucketId": "avoid"
+        },
+        {
+          "id": "d5",
+          "text": "นมรสจืด",
+          "bucketId": "ok"
+        },
+        {
+          "id": "d6",
+          "text": "เหล้า",
+          "bucketId": "avoid"
+        },
+        {
+          "id": "d7",
+          "text": "สปาย",
+          "bucketId": "avoid"
+        },
+        {
+          "id": "d8",
+          "text": "ไวน์",
+          "bucketId": "avoid"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "heading": "ทบทวนความเข้าใจ",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "prompt": "ข้อใดเป็นเครื่องดื่มที่มีแอลกอฮอล์ ตามที่สมุดบอก",
+          "options": [
+            {
+              "id": "a",
+              "text": "นมรสจืด",
+              "feedback": "ยังไม่ใช่ นมรสจืดเป็นเครื่องดื่มที่สมุดแนะนำให้ดื่ม"
+            },
+            {
+              "id": "b",
+              "text": "น้ำสะอาด",
+              "feedback": "ยังไม่ใช่ สมุดแนะนำให้ดื่มน้ำสะอาดให้เพียงพอ"
+            },
+            {
+              "id": "c",
+              "text": "สาโท",
+              "feedback": "ถูกต้อง สาโทเป็นเครื่องดื่มที่มีแอลกอฮอล์ เช่นเดียวกับเบียร์ เหล้า กะแช่ วิสกี้ สปาย ไวน์"
+            }
+          ],
+          "correctOptionId": "c",
+          "explanation": "สุรา หมายถึงเครื่องดื่มที่มีแอลกอฮอล์ทุกชนิด ได้แก่ เบียร์ เหล้า สาโท กะแช่ วิสกี้ สปาย ไวน์ เป็นต้น",
+          "source": {
+            "pdfPages": [
+              19
+            ],
+            "printedPages": [
+              "17"
+            ]
+          }
+        },
+        {
+          "id": "q2",
+          "kind": "truefalse",
+          "prompt": "จริงหรือไม่: หลังคลอดแล้ว ระหว่างให้นมลูก ดื่มเบียร์ได้ตามปกติ",
+          "options": [
+            {
+              "id": "a",
+              "text": "จริง",
+              "feedback": "ยังไม่ใช่ ข้อปฏิบัติการกินในสมุดใช้กับหญิงให้นมบุตรด้วย คือ งดเครื่องดื่มที่มีแอลกอฮอล์"
+            },
+            {
+              "id": "b",
+              "text": "ไม่จริง",
+              "feedback": "ถูกต้อง หญิงให้นมบุตรควรงดเครื่องดื่มที่มีแอลกอฮอล์ เช่นเดียวกับหญิงตั้งครรภ์"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "ข้อปฏิบัติการกินเพื่อสุขภาพที่ดี สำหรับหญิงตั้งครรภ์และหญิงให้นมบุตร ข้อ 9: งดเครื่องดื่มที่มีแอลกอฮอล์ และหลีกเลี่ยงอาหารหมักดอง",
+          "source": {
+            "pdfPages": [
+              26
+            ],
+            "printedPages": [
+              "24"
+            ]
+          }
+        },
+        {
+          "id": "q3",
+          "kind": "mcq",
+          "prompt": "สมุดบอกว่า ถ้าสูบบุหรี่ระหว่างตั้งครรภ์ จะเกิดอะไรกับลูกในครรภ์",
+          "options": [
+            {
+              "id": "a",
+              "text": "ลูกในครรภ์ตัวเล็กผิดปกติ เสี่ยงต่อโรคปอดและปัญหาทางเดินหายใจ",
+              "feedback": "ถูกต้อง นี่คือสิ่งที่สมุดเตือนไว้"
+            },
+            {
+              "id": "b",
+              "text": "ลูกในครรภ์ตัวใหญ่ขึ้น",
+              "feedback": "ยังไม่ใช่ สมุดบอกว่าลูกในครรภ์จะตัวเล็กผิดปกติ"
+            },
+            {
+              "id": "c",
+              "text": "ไม่มีผลอะไรกับลูก",
+              "feedback": "ยังไม่ใช่ สมุดบอกว่าลูกในครรภ์จะตัวเล็กผิดปกติ และเสี่ยงต่อโรคปอดและปัญหาทางเดินหายใจ"
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "ข้อความแนะนำที่ขอบสมุดหน้า 18: หากสูบบุหรี่ระหว่างตั้งครรภ์ ลูกในครรภ์จะตัวเล็กผิดปกติ เสี่ยงต่อโรคปอดและปัญหาทางเดินหายใจ",
+          "source": {
+            "pdfPages": [
+              20
+            ],
+            "printedPages": [
+              "18"
+            ]
+          }
+        },
+        {
+          "id": "q4",
+          "kind": "scenario",
+          "scenario": "คุณแม่ตั้งครรภ์อยู่บ้านเดียวกับญาติที่สูบบุหรี่ไฟฟ้า ส่วนตัวคุณแม่เองไม่สูบ",
+          "prompt": "ข้อใดถูกต้องตามสมุด",
+          "options": [
+            {
+              "id": "a",
+              "text": "เรื่องคนใกล้ชิดสูบบุหรี่ไม่เกี่ยวกับการฝากครรภ์",
+              "feedback": "ยังไม่ใช่ การที่คนใกล้ชิดสูบบุหรี่หรือบุหรี่ไฟฟ้า เป็นเรื่องที่เจ้าหน้าที่ประเมินเมื่อฝากครรภ์"
+            },
+            {
+              "id": "b",
+              "text": "การที่คนใกล้ชิดสูบบุหรี่หรือบุหรี่ไฟฟ้า เป็นเรื่องที่เจ้าหน้าที่ประเมินเมื่อฝากครรภ์ครั้งแรก",
+              "feedback": "ถูกต้อง เรื่องนี้เป็นส่วนหนึ่งของการประเมินความเสี่ยงเมื่อฝากครรภ์ครั้งแรก"
+            },
+            {
+              "id": "c",
+              "text": "บุหรี่ไฟฟ้าไม่นับเป็นบุหรี่ จึงไม่ต้องบอกเจ้าหน้าที่",
+              "feedback": "ยังไม่ใช่ สมุดระบุทั้งบุหรี่และบุหรี่ไฟฟ้า ทั้งของหญิงตั้งครรภ์และคนใกล้ชิด"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "การประเมินความเสี่ยงเมื่อฝากครรภ์ครั้งแรกรวมถึงการสูบบุหรี่หรือบุหรี่ไฟฟ้าของหญิงตั้งครรภ์ และของคนใกล้ชิด",
+          "source": {
+            "pdfPages": [
+              8
+            ],
+            "printedPages": [
+              "6"
+            ]
+          }
+        },
+        {
+          "id": "q5",
+          "kind": "scenario",
+          "scenario": "ก่อนรู้ว่าตั้งครรภ์ คุณแม่เคยดื่มเบียร์ในงานบุญ วันนี้เจ้าหน้าที่ถามว่าในรอบ 1 ปีที่ผ่านมาเคยดื่มสุราหรือไม่",
+          "prompt": "ควรตอบอย่างไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "ตอบว่าไม่เคย เพราะดื่มก่อนรู้ว่าตั้งครรภ์",
+              "feedback": "คำถามถามถึงช่วง 1 ปีที่ผ่านมา การตอบตามจริงช่วยให้เจ้าหน้าที่ดูแลได้เหมาะสม"
+            },
+            {
+              "id": "b",
+              "text": "ไม่ตอบ เปลี่ยนเรื่องคุย",
+              "feedback": "เจ้าหน้าที่ถามเพื่อดูแลแม่และลูก การตอบตามจริงช่วยให้ได้รับการดูแลที่เหมาะสม"
+            },
+            {
+              "id": "c",
+              "text": "ตอบตามจริงว่าเคย",
+              "feedback": "ใช่ การตอบตามจริงช่วยให้เจ้าหน้าที่ประเมินและดูแลเพิ่มเติมได้"
+            }
+          ],
+          "correctOptionId": "c",
+          "explanation": "เจ้าหน้าที่ถามเรื่องการดื่มสุราในรอบ 1 ปีที่ผ่านมา ถ้าเคยดื่ม ควรได้รับการประเมินและการดูแลจากเจ้าหน้าที่เพิ่มเติม เพราะการดื่มสุรามีผลต่อสุขภาพของแม่และการเลี้ยงลูก",
+          "source": {
+            "pdfPages": [
+              19
+            ],
+            "printedPages": [
+              "17"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "takeaways",
+      "heading": "สรุปสิ่งสำคัญ",
+      "items": [
+        "หญิงตั้งครรภ์และหญิงให้นมบุตร งดเครื่องดื่มที่มีแอลกอฮอล์ทุกชนิด เช่น เบียร์ เหล้า สาโท กะแช่ วิสกี้ สปาย ไวน์",
+        "การดื่มสุรามีผลต่อสุขภาพของแม่และการเลี้ยงลูก",
+        "สูบบุหรี่ระหว่างตั้งครรภ์ ลูกในครรภ์จะตัวเล็กผิดปกติ เสี่ยงต่อโรคปอดและปัญหาทางเดินหายใจ",
+        "เจ้าหน้าที่ถามเรื่องการดื่มสุรา และการสูบบุหรี่หรือบุหรี่ไฟฟ้าของแม่และคนใกล้ชิด ตอบตามจริงเพื่อให้ได้รับการดูแลที่เหมาะสม"
+      ],
+      "familyNote": "คนในครอบครัวและคนที่ดูแลช่วยได้มาก เช่น ไม่ชวนคุณแม่ดื่มในงานเลี้ยงหรืองานบุญ การสูบบุหรี่หรือบุหรี่ไฟฟ้าของคนใกล้ชิดก็เป็นเรื่องที่เจ้าหน้าที่ประเมินด้วย ถ้าอยากเลิกหรือลด ปรึกษาเจ้าหน้าที่ได้"
+    }
+  ]
+}

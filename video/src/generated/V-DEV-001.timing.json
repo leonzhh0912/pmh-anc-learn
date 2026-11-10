@@ -1,0 +1,161 @@
+{
+  "id": "V-DEV-001",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 3291,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 513,
+      "segments": [
+        {
+          "file": "audio/V-DEV-001/intro-1-0880a8a54b.wav",
+          "from": 18,
+          "durationInFrames": 221,
+          "caption": "คู่มือ DSPM จัดทำเพื่อให้พ่อแม่ผู้ดูแล ประเมินพัฒนาการของเด็กอย่างต่อเนื่อง",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-DEV-001/intro-2-e958812339.wav",
+          "from": 253,
+          "durationInFrames": 233,
+          "caption": "ในสมุดหน้า 58–61 มีรายการพัฒนาการตามอายุ ตั้งแต่แรกเกิดถึง 78 เดือน",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 513,
+      "durationInFrames": 737,
+      "segments": [
+        {
+          "file": "audio/V-DEV-001/stage1-1-f26607ad29.wav",
+          "from": 18,
+          "durationInFrames": 184,
+          "caption": "ตอนที่ 1 แต่ละช่วงอายุ แบ่งรายการเป็น 5 ด้าน ทุกข้อมีช่องสี่เหลี่ยม",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-DEV-001/stage1-2-1582526b9b.wav",
+          "from": 216,
+          "durationInFrames": 70,
+          "caption": "ข้อ 1 ด้านการเคลื่อนไหว",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-DEV-001/stage1-3-efe5dec361.wav",
+          "from": 300,
+          "durationInFrames": 122,
+          "caption": "ข้อ 2 ด้านการใช้กล้ามเนื้อมัดเล็กและสติปัญญา",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-DEV-001/stage1-4-0ad0e2e6b0.wav",
+          "from": 436,
+          "durationInFrames": 79,
+          "caption": "ข้อ 3 ด้านการเข้าใจภาษา",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-DEV-001/stage1-5-956897f3c3.wav",
+          "from": 529,
+          "durationInFrames": 67,
+          "caption": "ข้อ 4 ด้านการใช้ภาษา",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-DEV-001/stage1-6-5e0df475d8.wav",
+          "from": 610,
+          "durationInFrames": 100,
+          "caption": "ข้อ 5 ด้านการช่วยเหลือตัวเองและสังคม",
+          "reveal": 5
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1250,
+      "durationInFrames": 1305,
+      "segments": [
+        {
+          "file": "audio/V-DEV-001/stage2-1-d054e72d1d.wav",
+          "from": 18,
+          "durationInFrames": 160,
+          "caption": "ตอนที่ 2 พ่อแม่ผู้ดูแล และเจ้าหน้าที่ ทำอะไรบ้าง",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-DEV-001/stage2-2-e55435f132.wav",
+          "from": 192,
+          "durationInFrames": 245,
+          "caption": "ข้อ 6 พ่อแม่ผู้ดูแล มีบทบาทสำคัญในการฝึกกระตุ้นพัฒนาการ เพราะมีเวลาอยู่กับเด็กมากที่สุด",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-DEV-001/stage2-3-16225b51cb.wav",
+          "from": 451,
+          "durationInFrames": 319,
+          "caption": "ข้อ 7 เจ้าหน้าที่สาธารณสุขจะช่วยคัดกรองพัฒนาการเด็ก ที่อายุ 9, 18, 30, 42 และ 60 เดือน",
+          "reveal": 7
+        },
+        {
+          "file": "audio/V-DEV-001/stage2-4-f356f282ad.wav",
+          "from": 784,
+          "durationInFrames": 187,
+          "caption": "ข้อ 8 เมื่อประเมินแล้วพบว่าสงสัยล่าช้า จำเป็นต้องเข้ารับการฝึกกระตุ้นตามนัด",
+          "reveal": 8
+        },
+        {
+          "file": "audio/V-DEV-001/stage2-5-1d5d732959.wav",
+          "from": 985,
+          "durationInFrames": 293,
+          "caption": "ข้อ 9 กลุ่มเสี่ยง น้ำหนักแรกเกิดน้อยกว่า 2,500 กรัม หรือขาดออกซิเจนขณะคลอด ใช้ DAIM แทน",
+          "reveal": 9
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 2555,
+      "durationInFrames": 736,
+      "segments": [
+        {
+          "file": "audio/V-DEV-001/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-DEV-001/summary-2-4bcce470ce.wav",
+          "from": 78,
+          "durationInFrames": 209,
+          "caption": "DSPM ช่วยให้พ่อแม่ผู้ดูแล ประเมินพัฒนาการของเด็กอย่างต่อเนื่อง ใน 5 ด้าน",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-DEV-001/summary-3-fb5ac374e0.wav",
+          "from": 301,
+          "durationInFrames": 257,
+          "caption": "เจ้าหน้าที่สาธารณสุขช่วยคัดกรองพัฒนาการ ที่อายุ 9, 18, 30, 42 และ 60 เดือน",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-DEV-001/summary-4-ae5554bce4.wav",
+          "from": 572,
+          "durationInFrames": 137,
+          "caption": "ถ้าสงสัยหรือกังวลเรื่องพัฒนาการของลูก บอกเจ้าหน้าที่",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

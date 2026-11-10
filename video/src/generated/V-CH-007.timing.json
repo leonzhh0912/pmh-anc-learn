@@ -1,0 +1,196 @@
+{
+  "id": "V-CH-007",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 3197,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 409,
+      "segments": [
+        {
+          "file": "audio/V-CH-007/intro-1-e07257975b.wav",
+          "from": 18,
+          "durationInFrames": 230,
+          "caption": "สมุดหน้า 40 และหน้า 41 เป็นตารางเดียวกัน ชื่อ บันทึกการตรวจสุขภาพเด็กปฐมวัย",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-CH-007/intro-2-47c16045a9.wav",
+          "from": 262,
+          "durationInFrames": 120,
+          "caption": "ตารางมี 14 แถวอายุ ตั้งแต่แรกเกิดถึง 6 ปี",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 409,
+      "durationInFrames": 564,
+      "segments": [
+        {
+          "file": "audio/V-CH-007/stage1-1-b99b3a1cce.wav",
+          "from": 18,
+          "durationInFrames": 86,
+          "caption": "ตอนที่ 1 ช่องในหน้า 40",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-007/stage1-2-1dd8de80a9.wav",
+          "from": 118,
+          "durationInFrames": 132,
+          "caption": "ข้อ 1 น้ำหนัก ความยาวหรือส่วนสูง และรอบศีรษะ",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-CH-007/stage1-3-924b61fd3d.wav",
+          "from": 264,
+          "durationInFrames": 115,
+          "caption": "ข้อ 2 เติบโตสมส่วน และตรวจร่างกาย",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-CH-007/stage1-4-fd0f6ecc22.wav",
+          "from": 393,
+          "durationInFrames": 60,
+          "caption": "ข้อ 3 ความเข้มข้นเลือด",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-CH-007/stage1-5-75ceaa7a06.wav",
+          "from": 467,
+          "durationInFrames": 70,
+          "caption": "ข้อ 4 ตรวจระดับสายตา",
+          "reveal": 4
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 973,
+      "durationInFrames": 941,
+      "segments": [
+        {
+          "file": "audio/V-CH-007/stage2-1-181f9d3c89.wav",
+          "from": 18,
+          "durationInFrames": 87,
+          "caption": "ตอนที่ 2 ช่องในหน้า 41",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-007/stage2-2-e544eb225e.wav",
+          "from": 119,
+          "durationInFrames": 65,
+          "caption": "ข้อ 5 ตรวจการได้ยิน",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-CH-007/stage2-3-c542c680e5.wav",
+          "from": 198,
+          "durationInFrames": 223,
+          "caption": "ข้อ 6 เฝ้าระวังพัฒนาการ ที่ผู้ปกครองประเมิน และคัดกรองพัฒนาการ ที่เจ้าหน้าที่ประเมิน",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-CH-007/stage2-4-23a7d16d9b.wav",
+          "from": 435,
+          "durationInFrames": 120,
+          "caption": "ข้อ 7 คัดกรองออทิสติก และการตรวจสุขภาพช่องปาก",
+          "reveal": 7
+        },
+        {
+          "file": "audio/V-CH-007/stage2-5-179ac4c475.wav",
+          "from": 569,
+          "durationInFrames": 230,
+          "caption": "ข้อ 8 วิตามินเสริมธาตุเหล็ก ขอบหน้าเขียนว่า ยาน้ำเสริมธาตุเหล็ก ช่วยทำให้เด็กเจริญอาหาร",
+          "reveal": 8
+        },
+        {
+          "file": "audio/V-CH-007/stage2-6-bc906a08ff.wav",
+          "from": 813,
+          "durationInFrames": 101,
+          "caption": "ข้อ 9 ให้คำปรึกษาแนะนำสุขภาพ",
+          "reveal": 9
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 1914,
+      "durationInFrames": 514,
+      "segments": [
+        {
+          "file": "audio/V-CH-007/stage3-1-dd104cb72f.wav",
+          "from": 18,
+          "durationInFrames": 91,
+          "caption": "ตอนที่ 3 ทุกครั้งที่พาลูกมาตรวจ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-007/stage3-2-cbacb5493c.wav",
+          "from": 123,
+          "durationInFrames": 235,
+          "caption": "ข้อ 10 ครั้งนี้ลูกจะได้ตรวจอะไร เจ้าหน้าที่จะบอก และผลแต่ละช่อง เจ้าหน้าที่จะอธิบาย",
+          "reveal": 10
+        },
+        {
+          "file": "audio/V-CH-007/stage3-3-3c90367802.wav",
+          "from": 372,
+          "durationInFrames": 115,
+          "caption": "ข้อ 11 นำสมุดมาด้วยทุกครั้ง ที่พาลูกมาตรวจ",
+          "reveal": 11
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 2428,
+      "durationInFrames": 769,
+      "segments": [
+        {
+          "file": "audio/V-CH-007/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-007/summary-2-02f532898c.wav",
+          "from": 78,
+          "durationInFrames": 211,
+          "caption": "สมุดหน้า 40–41 มีตารางตรวจสุขภาพเด็กปฐมวัย ตั้งแต่แรกเกิดถึง 6 ปี",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-CH-007/summary-3-2e782cbb67.wav",
+          "from": 303,
+          "durationInFrames": 226,
+          "caption": "ภาวะซีดจากการขาดธาตุเหล็ก ส่งผลต่อสติปัญญาของเด็ก ควรได้รับการคัดกรองภาวะซีดตามกำหนด",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-CH-007/summary-4-f6d3e70ef9.wav",
+          "from": 543,
+          "durationInFrames": 84,
+          "caption": "แต่ละครั้งตรวจอะไร เจ้าหน้าที่จะบอก",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-CH-007/summary-5-aef82fd69b.wav",
+          "from": 641,
+          "durationInFrames": 101,
+          "caption": "และนำสมุดมาด้วย ทุกครั้งที่พาลูกมาตรวจ",
+          "reveal": 4
+        }
+      ]
+    }
+  ]
+}

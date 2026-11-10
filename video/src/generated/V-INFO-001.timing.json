@@ -1,0 +1,182 @@
+{
+  "id": "V-INFO-001",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 3834,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 431,
+      "segments": [
+        {
+          "file": "audio/V-INFO-001/intro-1-6fac1b57a0.wav",
+          "from": 18,
+          "durationInFrames": 230,
+          "caption": "สมุดสีชมพูหน้า 1 ชื่อว่า 'ข้อมูลครอบครัว' เป็นหน้าที่ผู้ปกครองบันทึกข้อมูลได้ด้วยตนเอง",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-INFO-001/intro-2-4de3d42799.wav",
+          "from": 262,
+          "durationInFrames": 142,
+          "caption": "มาดูว่าหน้านี้มีช่องอะไรบ้าง และข้อความเตือนเรื่องการแจ้งเกิด",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 431,
+      "durationInFrames": 1290,
+      "segments": [
+        {
+          "file": "audio/V-INFO-001/stage1-1-3910a8e171.wav",
+          "from": 18,
+          "durationInFrames": 289,
+          "caption": "ตอนที่ 1 หน้าข้อมูลครอบครัว มีช่องข้อมูล 4 ส่วน คือ มารดา บิดา บุตร และที่อยู่ปัจจุบัน",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-INFO-001/stage1-2-e5d6fb2992.wav",
+          "from": 321,
+          "durationInFrames": 230,
+          "caption": "ส่วนมารดาและบิดา มีช่องชื่อ นามสกุล เลขประจำตัวประชาชน อายุ และโทรศัพท์",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-INFO-001/stage1-3-4aa9562e36.wav",
+          "from": 565,
+          "durationInFrames": 262,
+          "caption": "ส่วนบุตร มีช่องชื่อ นามสกุล เลขประจำตัวประชาชน วันเดือนปีและเวลาเกิด และหมู่เลือดของลูก",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-INFO-001/stage1-4-48144d6882.wav",
+          "from": 841,
+          "durationInFrames": 206,
+          "caption": "ส่วนที่อยู่ปัจจุบัน มีช่องตั้งแต่บ้านเลขที่ หมู่ที่ ไปจนถึงจังหวัด และรหัสไปรษณีย์",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-INFO-001/stage1-5-75075b840a.wav",
+          "from": 1061,
+          "durationInFrames": 202,
+          "caption": "ครอบครัวกรอกข้อมูลเหล่านี้ในสมุดเล่มจริง ถ้าไม่แน่ใจว่าต้องกรอกช่องไหน ถามเจ้าหน้าที่ได้",
+          "reveal": 4
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1721,
+      "durationInFrames": 784,
+      "segments": [
+        {
+          "file": "audio/V-INFO-001/stage2-1-9e2ae101aa.wav",
+          "from": 18,
+          "durationInFrames": 89,
+          "caption": "ตอนที่ 2 ทำไมหน้านี้สำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-INFO-001/stage2-2-13f41d230c.wav",
+          "from": 121,
+          "durationInFrames": 214,
+          "caption": "สมุดเล่มนี้เป็นเอกสารของครอบครัว และเป็นข้อมูลต่อเนื่องของลูก ตั้งแต่แรกเกิดจนถึง 6 ปี",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-INFO-001/stage2-3-7516fb49be.wav",
+          "from": 349,
+          "durationInFrames": 197,
+          "caption": "เมื่อไปรับการรักษาพยาบาล ควรนำสมุดเล่มนี้ไปพบบุคลากรทางสาธารณสุขทุกครั้ง",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-INFO-001/stage2-4-3cbe6f899b.wav",
+          "from": 560,
+          "durationInFrames": 197,
+          "caption": "ด้านล่างของหน้า 1 มีข้อความว่า 'หากผู้ใดเก็บหรือพบสมุดเล่มนี้ โปรดส่งคืน'",
+          "reveal": 7
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 2505,
+      "durationInFrames": 589,
+      "segments": [
+        {
+          "file": "audio/V-INFO-001/stage3-1-d14ade0d78.wav",
+          "from": 18,
+          "durationInFrames": 132,
+          "caption": "ตอนที่ 3 ข้อความเตือนที่ขอบหน้า 1 เรื่องการแจ้งเกิด",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-INFO-001/stage3-2-064eb16ac4.wav",
+          "from": 164,
+          "durationInFrames": 115,
+          "caption": "คุณพ่อคุณแม่ต้องไปแจ้งเกิด และเพิ่มชื่อในทะเบียนบ้าน",
+          "reveal": 8
+        },
+        {
+          "file": "audio/V-INFO-001/stage3-3-4df8c06692.wav",
+          "from": 293,
+          "durationInFrames": 70,
+          "caption": "โดยต้องไปภายใน 15 วัน",
+          "reveal": 9
+        },
+        {
+          "file": "audio/V-INFO-001/stage3-4-fcb909d2f0.wav",
+          "from": 377,
+          "durationInFrames": 185,
+          "caption": "สถานที่แจ้งเกิด คือ อำเภอ เทศบาล หรือเขตต่าง ๆ ซึ่งเป็นท้องที่ที่มีการเกิด",
+          "reveal": 10
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 3094,
+      "durationInFrames": 740,
+      "segments": [
+        {
+          "file": "audio/V-INFO-001/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 43,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-INFO-001/summary-2-49f438fd3f.wav",
+          "from": 75,
+          "durationInFrames": 245,
+          "caption": "หน้าข้อมูลครอบครัว มีช่องมารดา บิดา บุตร และที่อยู่ปัจจุบัน ครอบครัวกรอกในสมุดเล่มจริง",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-INFO-001/summary-3-6506a9a7e4.wav",
+          "from": 334,
+          "durationInFrames": 161,
+          "caption": "สมุดเป็นเอกสารของครอบครัว นำไปพบบุคลากรทางสาธารณสุขทุกครั้ง",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-INFO-001/summary-4-e0321b247e.wav",
+          "from": 509,
+          "durationInFrames": 204,
+          "caption": "และต้องไปแจ้งเกิด และเพิ่มชื่อในทะเบียนบ้าน ภายใน 15 วัน ในท้องที่ที่มีการเกิด",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

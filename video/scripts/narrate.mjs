@@ -19,6 +19,7 @@ import { execFileSync } from "node:child_process";
 import { createHash } from "node:crypto";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { synthesize } from "./tts/index.mjs";
+import { writeRegistry } from "./registry.mjs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -125,3 +126,4 @@ writeFileSync(vttOut, vtt);
 console.log(
   `${id}: ${scenes.length} scenes, ${cues.length} segments, ${(cursor / FPS).toFixed(1)} s, narration=${timing.narration}`,
 );
+writeRegistry();

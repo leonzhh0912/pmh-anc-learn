@@ -1,0 +1,32 @@
+{
+  "id": "V-INFO-003",
+  "lessonId": "MCH68-INFO-003",
+  "title": "ทำไมต้องเล่าประวัติสุขภาพและการตั้งครรภ์ที่ผ่านมาให้ครบ",
+  "mp4": "media/V-INFO-003.mp4",
+  "captionsVtt": "media/V-INFO-003.th.vtt",
+  "poster": "media/V-INFO-003.jpg",
+  "durationSec": 113.1,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-INFO-003 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'ยุติการตั้งครรภ์', 'ภาวะแทรกซ้อน', 'ไทรอยด์', 'สมุดหน้าสาม' and 'ครรภ์ที่หนึ่งถึงหก'.",
+      "Lesson note: 'prepare dates, birth weights, drug names, allergy symptoms and food allergies before the visit' (items 1, 2, 6, 7, summary 2) is derived from the printed fields; the handbook does not tell mothers to prepare. ANC nurse to approve.",
+      "Lesson note: 'ask family members before the visit' and 'if you do not know, tell staff truthfully' (item 8, summary 3) are editorial, based on the printed 'ไม่มี/ไม่ทราบ' checkbox.",
+      "Lesson note: 'บันทึกในสมุดร่วมกับเจ้าหน้าที่' (summary 3) comes from PDF p2 and p67 item 4, not from p5 itself.",
+      "Item 5 names three of the printed โรคประจำตัว options that have a 'ชนิด' space (เบาหวาน, ไทรอยด์, โรคหัวใจ) as examples only; nothing is said about why any disease matters (not taught, by design). ANC nurse to verify the field list and tip wording (lesson review requirement).",
+      "Title segment 2 uses the lesson summary's short form of the p5 tip ('...ภาวะแทรกซ้อนในครรภ์นี้'); summary point 1 uses the tip wording shortened for caption length. Check both are acceptable.",
+      "Not used in the video: the app-privacy lines ('แอปนี้ไม่ได้ให้กรอกหรือเก็บประวัติของคุณ'), the sort step and the family note."
+    ]
+  }
+}

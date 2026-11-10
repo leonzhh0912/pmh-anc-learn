@@ -1,0 +1,235 @@
+{
+  "id": "V-GROW-001",
+  "lessonId": "MCH68-GROW-001",
+  "version": "0.1.0",
+  "title": "การใช้กราฟการเจริญเติบโตของลูก",
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      44
+    ],
+    "printedPages": [
+      "42"
+    ],
+    "note": "Narration derived from lesson MCH68-GROW-001 v0.1.0"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-GROW-001 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'สี่สิบสองเดือน', 'สิบหกกิโลกรัม', 'หนึ่งร้อยเซนติเมตร', 'สามปีหกเดือน', 'สี่สิบสอง' / 'สี่สิบสาม' (page numbers) and 'ความยาวหรือส่วนสูง'.",
+      "Scope: plotting only. No interpretation: colour bands, SD lines and the p44 'สรุป' for สดใส are not narrated; summary 3 says the meaning is on printed page 43 and staff explain it (lesson text step 3 / takeaway 5).",
+      "HANDBOOK ISSUE (from lesson, central to this video): the printed rule 'เส้นแนวนอน แทนช่วงอายุของเด็ก' does not fit the third example chart (weight-for-height has height on the horizontal axis). As in the lesson's sort intro, item 2 says 'ในกราฟที่ใช้อายุ', and item 9 describes the weight-for-height chart as drawn ('กราฟนี้ไม่ใช้อายุ'). Reviewer to decide whether to clarify further.",
+      "Lesson note: 'draw a line up from the age and across from the measurement and mark where they meet' (items 5–9) is a plain description of the p44 example drawings, not printed text.",
+      "Lesson note: the age-to-months working ('3 ปี × 12 + 6') is editorial arithmetic and is NOT narrated; the video only says '3 ปี 6 เดือน เท่ากับ 42 เดือน' as printed.",
+      "Lesson note: 'ร่วมกับเจ้าหน้าที่ ... ชั่ง วัด แล้วลงกราฟด้วยกัน' framing is not used; summary 3 keeps only the printed-page pointer and 'เจ้าหน้าที่จะเป็นผู้อธิบายผลให้'.",
+      "Not used in the video: the '1 ปี 3 เดือน = 15 เดือน' practice item and the family note (app framing, needs approval)."
+    ]
+  },
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3",
+    "stability": 0.5,
+    "style": 0,
+    "speed": 0.95,
+    "seed": 1234
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "kind": "title",
+      "heading": "จุดกราฟการเจริญเติบโต",
+      "subheading": "จากสมุดบันทึกสุขภาพแม่และเด็ก ฉบับปรับปรุงใหม่ พ.ศ. 2568",
+      "chips": [
+        "เลือกกราฟให้ถูกเพศ",
+        "อายุ กับ ค่าที่วัด",
+        "สมุดหน้า 42"
+      ],
+      "segments": [
+        {
+          "speak": "กราฟการเจริญเติบโต ใช้ติดตามการเปลี่ยนแปลงขนาดของร่างกายอย่างต่อเนื่อง",
+          "caption": "กราฟการเจริญเติบโต ใช้ติดตามการเปลี่ยนแปลงขนาดของร่างกายอย่างต่อเนื่อง"
+        },
+        {
+          "speak": "มาฝึกจุดกราฟ ตามตัวอย่างในสมุดหน้าสี่สิบสอง",
+          "caption": "มาฝึกจุดกราฟ ตามตัวอย่างในสมุดหน้า 42"
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "kind": "stage",
+      "stage": 1,
+      "label": "อ่านกราฟก่อนจุด",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 1,
+          "icon": "check",
+          "text": "เลือกกราฟให้ถูกเพศกับเด็ก"
+        },
+        {
+          "n": 2,
+          "icon": "calendar",
+          "text": "เส้นแนวนอน แทนช่วงอายุ"
+        },
+        {
+          "n": 3,
+          "icon": "scale",
+          "text": "เส้นแนวตั้ง แทนค่าที่วัด"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่หนึ่ง อ่านกราฟก่อนจุด",
+          "caption": "ตอนที่ 1 อ่านกราฟก่อนจุด"
+        },
+        {
+          "reveal": 1,
+          "speak": "ข้อหนึ่ง เลือกกราฟให้ถูกเพศ เพราะเด็กชายและเด็กหญิง มีค่าการเจริญเติบโตที่แตกต่างกัน",
+          "caption": "ข้อ 1 เลือกกราฟให้ถูกเพศ เพราะเด็กชายและเด็กหญิง มีค่าการเจริญเติบโตที่แตกต่างกัน"
+        },
+        {
+          "reveal": 2,
+          "speak": "ข้อสอง ในกราฟที่ใช้อายุ เส้นแนวนอนแทนช่วงอายุของเด็ก กราฟตัวอย่างนับอายุเป็นเดือน",
+          "caption": "ข้อ 2 ในกราฟที่ใช้อายุ เส้นแนวนอนแทนช่วงอายุของเด็ก กราฟตัวอย่างนับอายุเป็นเดือน"
+        },
+        {
+          "reveal": 3,
+          "speak": "ข้อสาม เส้นแนวตั้ง แทนเส้นรอบศีรษะ หรือน้ำหนัก หรือความยาวหรือส่วนสูงของเด็ก",
+          "caption": "ข้อ 3 เส้นแนวตั้ง แทนเส้นรอบศีรษะ หรือน้ำหนัก หรือความยาว/ส่วนสูงของเด็ก"
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "kind": "stage",
+      "stage": 2,
+      "label": "สดใส: น้ำหนักตามอายุ",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 4,
+          "icon": "baby",
+          "text": "สดใส 3 ปี 6 เดือน = 42 เดือน"
+        },
+        {
+          "n": 5,
+          "icon": "calendar",
+          "text": "หา 42 เดือน แล้วลากเส้นขึ้นไป"
+        },
+        {
+          "n": 6,
+          "icon": "scale",
+          "text": "หา 16 กิโลกรัม แล้วลากเส้นมา"
+        },
+        {
+          "n": 7,
+          "icon": "check",
+          "text": "จุดตรงที่ 2 เส้นมาพบกัน"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สอง ตัวอย่างในสมุด กราฟน้ำหนักตามอายุ",
+          "caption": "ตอนที่ 2 ตัวอย่างในสมุด กราฟน้ำหนักตามอายุ"
+        },
+        {
+          "reveal": 4,
+          "speak": "ข้อสี่ สดใส อายุสามปีหกเดือน เท่ากับสี่สิบสองเดือน น้ำหนักสิบหกกิโลกรัม สูงหนึ่งร้อยเซนติเมตร",
+          "caption": "ข้อ 4 สดใส อายุ 3 ปี 6 เดือน เท่ากับ 42 เดือน น้ำหนัก 16 กิโลกรัม สูง 100 เซนติเมตร"
+        },
+        {
+          "reveal": 5,
+          "speak": "ข้อห้า สดใสเป็นเด็กหญิง ใช้กราฟเด็กหญิง หาสี่สิบสองเดือนบนเส้นแนวนอน แล้วลากเส้นขึ้นไปตรง ๆ",
+          "caption": "ข้อ 5 สดใสเป็นเด็กหญิง ใช้กราฟเด็กหญิง หา 42 เดือนบนเส้นแนวนอน แล้วลากเส้นขึ้นไปตรง ๆ"
+        },
+        {
+          "reveal": 6,
+          "speak": "ข้อหก หาสิบหกกิโลกรัมบนเส้นแนวตั้ง แล้วลากเส้นมาตามแนวนอน",
+          "caption": "ข้อ 6 หา 16 กิโลกรัมบนเส้นแนวตั้ง แล้วลากเส้นมาตามแนวนอน"
+        },
+        {
+          "reveal": 7,
+          "speak": "ข้อเจ็ด ทำจุดตรงที่สองเส้นมาพบกัน เหมือนจุดสีแดงในตัวอย่าง",
+          "caption": "ข้อ 7 ทำจุดตรงที่ 2 เส้นมาพบกัน เหมือนจุดสีแดงในตัวอย่าง"
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "kind": "stage",
+      "stage": 3,
+      "label": "สดใส: อีก 2 กราฟ",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 8,
+          "icon": "calendar",
+          "text": "ส่วนสูงตามอายุ: 42 เดือน กับ 100 ซม."
+        },
+        {
+          "n": 9,
+          "icon": "scale",
+          "text": "น้ำหนักตามส่วนสูง: กราฟนี้ไม่ใช้อายุ"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สาม อีกสองกราฟในตัวอย่าง",
+          "caption": "ตอนที่ 3 อีก 2 กราฟในตัวอย่าง"
+        },
+        {
+          "reveal": 8,
+          "speak": "ข้อแปด กราฟส่วนสูงตามอายุ หาสี่สิบสองเดือน กับหนึ่งร้อยเซนติเมตร แล้วจุดตรงที่เส้นพบกัน",
+          "caption": "ข้อ 8 กราฟส่วนสูงตามอายุ หา 42 เดือน กับ 100 เซนติเมตร แล้วจุดตรงที่เส้นพบกัน"
+        },
+        {
+          "reveal": 9,
+          "speak": "ข้อเก้า กราฟน้ำหนักตามส่วนสูง ไม่ใช้อายุ เส้นแนวนอนเป็นส่วนสูง เส้นแนวตั้งเป็นน้ำหนัก",
+          "caption": "ข้อ 9 กราฟน้ำหนักตามส่วนสูง ไม่ใช้อายุ เส้นแนวนอนเป็นส่วนสูง เส้นแนวตั้งเป็นน้ำหนัก"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "kind": "summary",
+      "heading": "จำไว้ 3 เรื่อง",
+      "points": [
+        "ดูแนวโน้ม ไม่ใช่วัดครั้งเดียว",
+        "ถูกเพศ แล้วจุดตรงที่เส้นพบกัน",
+        "ความหมายของผล เจ้าหน้าที่อธิบายให้"
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "สรุปเรื่องสำคัญ",
+          "caption": "สรุปเรื่องสำคัญ"
+        },
+        {
+          "reveal": 1,
+          "speak": "ดูการเจริญเติบโตจากแนวโน้มตามระยะเวลา ไม่ใช่จากการวัดครั้งเดียว",
+          "caption": "ดูการเจริญเติบโตจากแนวโน้มตามระยะเวลา ไม่ใช่จากการวัดครั้งเดียว"
+        },
+        {
+          "reveal": 2,
+          "speak": "เลือกกราฟให้ถูกเพศ แล้วจุดตรงที่เส้นของอายุ กับเส้นของค่าที่วัด มาพบกัน",
+          "caption": "เลือกกราฟให้ถูกเพศ แล้วจุดตรงที่เส้นของอายุ กับเส้นของค่าที่วัด มาพบกัน"
+        },
+        {
+          "reveal": 3,
+          "speak": "สีและเส้นในกราฟมีความหมาย อยู่ในสมุดหน้าสี่สิบสาม และเจ้าหน้าที่จะเป็นผู้อธิบายผลให้",
+          "caption": "สีและเส้นในกราฟมีความหมาย อยู่ในสมุดหน้า 43 และเจ้าหน้าที่จะเป็นผู้อธิบายผลให้"
+        }
+      ]
+    }
+  ]
+}

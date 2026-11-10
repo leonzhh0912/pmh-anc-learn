@@ -51,11 +51,30 @@ without a database. See "Staff content editing" below.
 4. **Publish to app**: `npm run publish-to-app <id>` copies the MP4, VTT and poster to `app/public/media/`
    and writes `content/videos/<id>.json`.
 5. All in one: `npm run video <id>`.
+6. **Many videos:** `npm run batch -- V-K-001 V-K-002 …` runs, per video: script check → narrate → render
+   (plain + captioned) → publish → attach the video step to its lesson. It stops at the first failure (e.g. the
+   ElevenLabs character limit), so a broken run never keeps spending.
+
+### Writing a video script
+
+`content/video-scripts/V-<CODE>.json` (CODE = lesson id without `MCH68-`). Scenes: `title` (optional `chips`),
+1–3 `stage` scenes (2–6 items each, numbered 1..N across the video, icon names from `video/src/lesson/Icon.tsx`;
+optional `prefix` "ตอนที่"/"ช่วงที่" and `hideNumbers` when items carry their own numbering), and a `summary`.
+`speak` is what the voice says (numbers written as Thai words, no digits); `caption` is the subtitle (digits
+allowed, same meaning). Narration may only use content already in the lesson.
+
+`npm run check-scripts` validates every script (structure, icons, reveals, no digits in speech, ≤1,600 characters)
+before any money is spent. Icon reference sheet: render the `IconSheet` composition
+(`npx remotion still IconSheet out/icon-sheet.png`).
+
+Narration audio is cached locally in `video/public/audio/` (not in Git, too large). On a new machine the first
+`narrate` regenerates it from ElevenLabs (about 1,000–1,400 characters per video); a fixed `seed` keeps the
+voice consistent. The rendered MP4s in `app/public/media/` are the committed deliverable.
 
 Remotion Studio for previewing and editing: `npm run dev` (port 3000).
 
 To add a new scene type, add it to `video/src/lesson/types.ts` and `LessonVideo.tsx`. Icons are original
-SVGs in `Icon.tsx`. Register each new video in `video/src/lesson/registry.ts`.
+SVGs in `Icon.tsx`. New videos are registered automatically (`video/src/generated/videos.ts`, written by `narrate`).
 
 ## Git workflow
 
@@ -102,6 +121,8 @@ No database or server needed. Keep `npm run validate:content` as the gate.
 
 - `npm run validate:content`: schema, references, file names, approval fields. `--production` also
   rejects any non-approved lesson/video or draft TTS.
+- CI (`.github/workflows/ci.yml`) runs content validation, type-checks, the video-script check and the full
+  Playwright suite on every pull request. No secrets needed.
 - `npm run test:e2e`: Playwright against the production build, phone (Pixel 7) and desktop profiles:
   full lesson flow, retries, progress persistence, text size, captions served, no horizontal scroll at
   360 px, offline after first visit.

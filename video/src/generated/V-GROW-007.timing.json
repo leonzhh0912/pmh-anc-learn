@@ -1,0 +1,210 @@
+{
+  "id": "V-GROW-007",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 3956,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 450,
+      "segments": [
+        {
+          "file": "audio/V-GROW-007/intro-1-8f8adb2ba0.wav",
+          "from": 18,
+          "durationInFrames": 259,
+          "caption": "สมุดมีธงโภชนาการสำหรับเด็ก 2 แบบ สำหรับเด็กอายุ 12–23 เดือน และสำหรับเด็กอายุ 2–5 ปี",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-GROW-007/intro-2-b384ad9fc0.wav",
+          "from": 291,
+          "durationInFrames": 132,
+          "caption": "ทั้งสองธง บอกปริมาณอาหารที่แนะนำให้กินใน 1 วัน",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 450,
+      "durationInFrames": 905,
+      "segments": [
+        {
+          "file": "audio/V-GROW-007/stage1-1-e16d0b9640.wav",
+          "from": 18,
+          "durationInFrames": 225,
+          "caption": "ตอนที่ 1 ธงเด็กอายุ 12–23 เดือน ในสมุดหน้า 56",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-007/stage1-2-83ef341c5e.wav",
+          "from": 257,
+          "durationInFrames": 146,
+          "caption": "ข้อ 1 ข้าว - แป้ง 15 ช้อนกินข้าว",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-GROW-007/stage1-3-acacbe39fc.wav",
+          "from": 417,
+          "durationInFrames": 122,
+          "caption": "ข้อ 2 ผัก 5 ช้อนกินข้าว ผลไม้ 2 ส่วน",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-GROW-007/stage1-4-67ebc07891.wav",
+          "from": 553,
+          "durationInFrames": 129,
+          "caption": "ข้อ 3 เนื้อสัตว์ 3 ช้อนกินข้าว ไข่ 1 ฟอง",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-GROW-007/stage1-5-dff6806ec6.wav",
+          "from": 696,
+          "durationInFrames": 74,
+          "caption": "ข้อ 4 ไขมัน 2 ช้อนชา",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-GROW-007/stage1-6-c69df247e4.wav",
+          "from": 784,
+          "durationInFrames": 94,
+          "caption": "ข้อ 5 กินนมแม่ต่อเนื่องถึง 2 ปี",
+          "reveal": 5
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1355,
+      "durationInFrames": 1135,
+      "segments": [
+        {
+          "file": "audio/V-GROW-007/stage2-1-d632af2ca7.wav",
+          "from": 18,
+          "durationInFrames": 353,
+          "caption": "ตอนที่ 2 ธงเด็กอายุ 2–5 ปี ในสมุดหน้า 57 ดูหน่วยให้ดี ธงนี้วัดข้าว - แป้ง และผัก เป็นทัพพี",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-007/stage2-2-766ce69ba6.wav",
+          "from": 385,
+          "durationInFrames": 108,
+          "caption": "ข้อ 6 ข้าว - แป้ง 4 ทัพพี",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-GROW-007/stage2-3-eb3d22e39f.wav",
+          "from": 507,
+          "durationInFrames": 132,
+          "caption": "ข้อ 7 ผัก 1.5 ทัพพี ผลไม้ 2 ส่วน",
+          "reveal": 7
+        },
+        {
+          "file": "audio/V-GROW-007/stage2-4-a6fe0596a4.wav",
+          "from": 653,
+          "durationInFrames": 113,
+          "caption": "ข้อ 8 เนื้อสัตว์ 6 ช้อนกินข้าว ไข่ 1 ฟอง",
+          "reveal": 8
+        },
+        {
+          "file": "audio/V-GROW-007/stage2-5-1e463d0e3c.wav",
+          "from": 780,
+          "durationInFrames": 62,
+          "caption": "ข้อ 9 นม 2 แก้ว",
+          "reveal": 9
+        },
+        {
+          "file": "audio/V-GROW-007/stage2-6-5abe561ce9.wav",
+          "from": 856,
+          "durationInFrames": 252,
+          "caption": "ข้อ 10 ไขมัน 1.5 ช้อนชา น้ำตาล 3 ช้อนชา ไขมัน/น้ำตาล/เกลือ ใช้แต่น้อยเท่าที่จำเป็น",
+          "reveal": 10
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 2490,
+      "durationInFrames": 911,
+      "segments": [
+        {
+          "file": "audio/V-GROW-007/stage3-1-4436274afd.wav",
+          "from": 18,
+          "durationInFrames": 100,
+          "caption": "ตอนที่ 3 สิ่งที่สมุดแนะนำร่วมด้วย",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-007/stage3-2-963876c3f2.wav",
+          "from": 132,
+          "durationInFrames": 144,
+          "caption": "ข้อ 11 กินอาหารรสธรรมชาติ หรือปรุงแต่น้อยเท่าที่จำเป็น",
+          "reveal": 11
+        },
+        {
+          "file": "audio/V-GROW-007/stage3-3-400934bb7f.wav",
+          "from": 290,
+          "durationInFrames": 168,
+          "caption": "ข้อ 12 พ่อแม่และคนในครอบครัว ควรร่วมรับประทานอาหารพร้อมกับเด็ก",
+          "reveal": 12
+        },
+        {
+          "file": "audio/V-GROW-007/stage3-4-f50e8eeca0.wav",
+          "from": 472,
+          "durationInFrames": 72,
+          "caption": "ข้อ 13 เล่นกับลูก",
+          "reveal": 13
+        },
+        {
+          "file": "audio/V-GROW-007/stage3-5-af386cf556.wav",
+          "from": 558,
+          "durationInFrames": 326,
+          "caption": "ข้อ 14 ให้ลูกนอนพอ เด็ก 12–23 เดือน วันละ 11-14 ชั่วโมง เด็ก 2–5 ปี วันละ 10-13 ชั่วโมง",
+          "reveal": 14
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 3401,
+      "durationInFrames": 555,
+      "segments": [
+        {
+          "file": "audio/V-GROW-007/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-007/summary-2-eb5861ce8f.wav",
+          "from": 78,
+          "durationInFrames": 139,
+          "caption": "ดูธงให้ตรงกับอายุเด็ก สมุดหน้า 56 หรือ 57",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-GROW-007/summary-3-fce65aee0f.wav",
+          "from": 231,
+          "durationInFrames": 134,
+          "caption": "ดูหน่วยให้ดี ช้อนกินข้าว กับ ทัพพี ไม่เหมือนกัน",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-GROW-007/summary-4-872e5979af.wav",
+          "from": 379,
+          "durationInFrames": 149,
+          "caption": "เล่นกับลูก ให้ลูกนอนพอ และกินข้าวพร้อมกันทั้งครอบครัว",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

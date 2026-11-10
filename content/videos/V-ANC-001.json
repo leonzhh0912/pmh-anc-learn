@@ -1,0 +1,34 @@
+{
+  "id": "V-ANC-001",
+  "lessonId": "MCH68-ANC-001",
+  "title": "ผลตรวจเลือดตอนฝากครรภ์ของแม่และสามี",
+  "mp4": "media/V-ANC-001.mp4",
+  "captionsVtt": "media/V-ANC-001.th.vtt",
+  "poster": "media/V-ANC-001.jpg",
+  "durationSec": 114.9,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-ANC-001 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of บลัดกรุ๊ป, เอช ซี ที / เอช บี, เอ็ม ซี วี / โอ เอฟ, ดี ซี ไอ พี, เอช บี ไทปิ้ง, เฮปาไทติส บี, ซิฟิลิส, แอนติ เอช ไอ วี, ควอดรูเพิล เทสต์, เอ็น ไอ พี ที, แอมนิโอเซนทีซิส, ดาวน์ซินโดรม, ทันท่วงที.",
+      "By design (lesson): no test meanings, normal ranges, cut-offs, abnormal-result meanings or next steps; abbreviations are not expanded. The video says staff explain results.",
+      "Test names are shown on screen as printed (Blood group, Hct/Hb, MCV/OF, DCIP, Hb Typing, Hepatitis B, Syphilis, Anti-HIV); '(ABO, Rh)' after Blood group is left off the screen and narration for length. Speech uses Thai-letter spellings — medical technologist to confirm how staff say them aloud.",
+      "Stage 1 uses hideNumbers because item texts contain 'ครั้งที่ 1 และ 2' and '2 ฝั่ง'.",
+      "Lesson note: the handbook does not say when ครั้งที่ 1 / 2 are done or whether every couple is tested twice; the video says only that there is room for 2 results ('มีช่อง...2 ครั้ง').",
+      "Lesson note: the margin tip (stage 2, summary 2) is quoted as printed; the video does not say which rows are sexually transmitted infections.",
+      "Partner wording: 'สามี' is the printed table heading. The lesson's editorial line about a partner coming to be tested is not used. PMH to approve.",
+      "Down syndrome box: only the printed options and method names; no eligibility, timing, risk or cost.",
+      "Not used: the 'ประวัติการตั้งครรภ์ปัจจุบัน' block, the family note (privacy of results)."
+    ]
+  }
+}

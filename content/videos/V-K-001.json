@@ -1,0 +1,30 @@
+{
+  "id": "V-K-001",
+  "lessonId": "MCH68-K-001",
+  "title": "ธงโภชนาการ คืออะไร? อาหาร 6 กลุ่ม",
+  "mp4": "media/V-K-001.mp4",
+  "captionsVtt": "media/V-K-001.th.vtt",
+  "poster": "media/V-K-001.jpg",
+  "durationSec": 126.8,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "low",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-K-001 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of ธงโภชนาการ, ไตรมาส, ภาวะแทรกซ้อน and the numbers หก, สาม, สอง.",
+      "The p22 definition clause 'และป้องกันโรคติดต่อเรื้อรัง' (possible misprint, see lesson note) is NOT used; the narrated definition ends at 'สุขภาพแข็งแรง' (lightly shortened from the lesson sentence to fit the subtitle).",
+      "Lesson note applies: food examples per group come from the illustrations on p22 (rice/bread/noodles, fish/eggs/meat, oil/sugar/salt). No local examples added.",
+      "Lesson note applies: tier order (grains; vegetables + fruit; milk + meat; fat/sugar/salt) follows the flag picture on p22; middle-tier wording 'กินรองลงมา / กินน้อยลงอีก' is the lesson's.",
+      "The calcium-supplement line is not used in the video (no dose in the handbook; PMH still to confirm how women obtain it)."
+    ]
+  }
+}

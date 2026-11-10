@@ -13,7 +13,7 @@ import { FONT_FAMILY } from "../fonts";
 import { Icon } from "./Icon";
 import { theme } from "./theme";
 import { videos } from "./registry";
-import { activeReveal, revealFrame } from "./types";
+import { activeReveal, printedLabel, revealFrame } from "./types";
 import type { ScriptScene, TimingScene, VideoScript } from "./types";
 
 export type LessonVideoProps = { videoId: string; burnCaptions: boolean };
@@ -59,7 +59,7 @@ const SceneFade: React.FC<{ duration: number; children: React.ReactNode }> = ({ 
 const SceneBody: React.FC<{ scene: ScriptScene; timing: TimingScene; script: VideoScript }> = ({ scene, timing, script }) => {
   switch (scene.kind) {
     case "title":
-      return <TitleScene heading={scene.heading} sub={scene.subheading} timing={timing} />;
+      return <TitleScene heading={scene.heading} sub={scene.subheading} chips={scene.chips ?? []} timing={timing} />;
     case "stage":
       return <StageScene scene={scene} timing={timing} total={script.scenes.filter((s) => s.kind === "stage").length} />;
     case "summary":
@@ -80,7 +80,7 @@ const Chrome: React.FC<{ script: VideoScript }> = ({ script }) => (
         fontWeight: 600,
       }}
     >
-      สมุดบันทึกสุขภาพแม่และเด็ก ฉบับปรับปรุงใหม่ พ.ศ. 2568 (PDF หน้า {script.handbookRef.pdfPages.join(", ")})
+      สมุดบันทึกสุขภาพแม่และเด็ก ฉบับปรับปรุงใหม่ พ.ศ. 2568 ({pageText(script.handbookRef.pdfPages)})
     </div>
     {script.editorial.status !== "APPROVED" && script.editorial.status !== "PUBLISHED" && (
       <div
@@ -128,21 +128,31 @@ const Captions: React.FC<{ timing: TimingScene }> = ({ timing }) => {
 
 /* ---------------- scenes ---------------- */
 
-const TitleScene: React.FC<{ heading: string; sub: string; timing: TimingScene }> = ({ heading, sub, timing }) => {
+function pageText(pdfPages: number[]) {
+  const labels = pdfPages.map(printedLabel);
+  if (labels.length <= 3) return labels.join(", ");
+  return `${labels[0]}–${labels[labels.length - 1].replace("หน้า ", "")}`;
+}
+
+const TitleScene: React.FC<{ heading: string; sub: string; chips: string[]; timing: TimingScene }> = ({
+  heading,
+  sub,
+  chips,
+  timing,
+}) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const stagesAt = timing.segments[1]?.from ?? Infinity;
   const pop = spring({ frame: f - 4, fps, config: { damping: 200 } });
-  const labels = ["ก่อนและเริ่มตั้งครรภ์", "ระหว่างตั้งครรภ์", "หลังคลอดและการดูแลลูก"];
   return (
     <AbsoluteFill style={{ padding: "110px 96px 120px", flexDirection: "row", alignItems: "center", gap: 64 }}>
       <Handbook scale={pop} />
       <div style={{ flex: 1 }}>
         <div
           style={{
-            fontSize: 92,
+            fontSize: heading.length > 26 ? 64 : heading.length > 16 ? 76 : 92,
             fontWeight: 700,
-            lineHeight: 1.15,
+            lineHeight: 1.2,
             color: theme.magentaDeep,
             opacity: interpolate(f, [6, 26], [0, 1], clamp),
             translate: interpolate(f, [6, 26], ["0px 30px", "0px 0px"], { ...clamp, easing: ease }),
@@ -154,7 +164,7 @@ const TitleScene: React.FC<{ heading: string; sub: string; timing: TimingScene }
           {sub}
         </div>
         <div style={{ display: "flex", gap: 14, marginTop: 40, flexWrap: "wrap" }}>
-          {labels.map((l, i) => (
+          {chips.map((l, i) => (
             <div
               key={l}
               style={{
@@ -162,12 +172,13 @@ const TitleScene: React.FC<{ heading: string; sub: string; timing: TimingScene }
                 fontWeight: 600,
                 padding: "8px 20px",
                 borderRadius: 999,
-                background: theme.stageColors[i],
+                background: theme.stageColors[i % theme.stageColors.length],
                 opacity: interpolate(f, [stagesAt + i * 12, stagesAt + i * 12 + 14], [0, 1], clamp),
                 translate: interpolate(f, [stagesAt + i * 12, stagesAt + i * 12 + 14], ["0px 16px", "0px 0px"], { ...clamp, easing: ease }),
               }}
             >
-              {i + 1}. {l}
+              {chips.length > 1 ? `${i + 1}. ` : ""}
+              {l}
             </div>
           ))}
         </div>
@@ -262,7 +273,7 @@ const StageScene: React.FC<{ scene: Extract<ScriptScene, { kind: "stage" }>; tim
           {scene.stage}
         </div>
         <div style={{ fontSize: 30, color: theme.inkSoft, marginTop: 24 }}>
-          ช่วงที่ {scene.stage} จาก {total}
+          {scene.prefix ?? "ตอนที่"} {scene.stage} จาก {total}
         </div>
         <div style={{ fontSize: 84, fontWeight: 700, color: theme.magentaDeep, lineHeight: 1.2 }}>{scene.label}</div>
       </AbsoluteFill>
@@ -279,12 +290,20 @@ const StageScene: React.FC<{ scene: Extract<ScriptScene, { kind: "stage" }>; tim
               background: color,
             }}
           >
-            ช่วงที่ {scene.stage}: {scene.label}
+            {scene.prefix ?? "ตอนที่"} {scene.stage}: {scene.label}
           </div>
         </div>
 
         <div style={{ flex: 1, display: "flex", alignItems: "center", gap: 56, marginTop: 10 }}>
-          {item && <CurrentItem key={item.n} n={item.n} icon={item.icon} text={item.text} start={revealFrame(timing, item.n)} />}
+          {item && (
+            <CurrentItem
+              key={item.n}
+              n={scene.hideNumbers ? null : item.n}
+              icon={item.icon}
+              text={item.text}
+              start={revealFrame(timing, item.n)}
+            />
+          )}
         </div>
 
         {/* progress chips through this stage */}
@@ -308,7 +327,7 @@ const StageScene: React.FC<{ scene: Extract<ScriptScene, { kind: "stage" }>; tim
                 }}
               >
                 <Icon name={it.icon} size={38} />
-                <span style={{ fontSize: 24, fontWeight: 700 }}>ข้อ {it.n}</span>
+                {!scene.hideNumbers && <span style={{ fontSize: 24, fontWeight: 700 }}>ข้อ {it.n}</span>}
               </div>
             );
           })}
@@ -318,7 +337,7 @@ const StageScene: React.FC<{ scene: Extract<ScriptScene, { kind: "stage" }>; tim
   );
 };
 
-const CurrentItem: React.FC<{ n: number; icon: string; text: string; start: number }> = ({ n, icon, text, start }) => {
+const CurrentItem: React.FC<{ n: number | null; icon: string; text: string; start: number }> = ({ n, icon, text, start }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const s = spring({ frame: f - start, fps, config: { damping: 200 } });
@@ -341,7 +360,7 @@ const CurrentItem: React.FC<{ n: number; icon: string; text: string; start: numb
         <Icon name={icon} size={190} />
       </div>
       <div style={{ flex: 1, opacity: s, translate: `${(1 - s) * 40}px 0px` }}>
-        <div style={{ fontSize: 34, fontWeight: 700, color: theme.magenta }}>ข้อ {n}</div>
+        {n !== null && <div style={{ fontSize: 34, fontWeight: 700, color: theme.magenta }}>ข้อ {n}</div>}
         <div style={{ fontSize: 56, fontWeight: 700, lineHeight: 1.3 }}>{text}</div>
       </div>
     </>

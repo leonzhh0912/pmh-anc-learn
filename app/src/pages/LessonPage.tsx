@@ -115,7 +115,8 @@ export function LessonPage() {
         <h1 ref={headingRef} tabIndex={-1} className="lesson__title">
           {step.heading}
         </h1>
-        <StepBody step={step} lessonId={lesson.id} onQuizDone={next} />
+        {/* key: give every step its own component state (two flags or sorts in a row must not share it) */}
+        <StepBody key={`${lesson.id}:${index}`} step={step} lessonId={lesson.id} onQuizDone={next} />
         {step.type !== "quiz" && (
           <PageChip
             pdfPages={lesson.handbookRef.pdfPages}

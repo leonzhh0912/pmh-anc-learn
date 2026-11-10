@@ -1,0 +1,31 @@
+{
+  "id": "V-K-008",
+  "lessonId": "MCH68-K-008",
+  "title": "การเก็บและละลายน้ำนมแม่",
+  "mp4": "media/V-K-008.mp4",
+  "captionsVtt": "media/V-K-008.th.vtt",
+  "poster": "media/V-K-008.jpg",
+  "durationSec": 103.4,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-K-008 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of องศาเซลเซียส, ลบสี่ / ลบสิบเก้าองศาเซลเซียส, กระติกน้ำแข็ง, ไมโครเวฟ, เก้าสิบหกชั่วโมง.",
+      "All 7 table rows are narrated with the lesson's exact values (p28): >25 °C 1 ชั่วโมง; 16-25 °C 4 ชั่วโมง; กระติกน้ำแข็ง 15 °C 24 ชั่วโมง; ตู้เย็นช่องปกติ 2-8 °C 96 ชั่วโมง (4 วัน); ช่องแช่แข็งตู้เย็นประตูเดียว ไม่คงที่ 14 วัน; ช่องแช่แข็งตู้เย็น 2 ประตู น้อยกว่า -4 °C 3 เดือน; ตู้แช่แข็ง น้อยกว่า -19 °C 6 เดือน. Lactation nurse + nutritionist to verify.",
+      "HANDBOOK ISSUE used because it is central (how to thaw): 'ละลายในช่องธรรมดาล่วงหน้า 12 ชั่วโมง' is quoted as printed; 'ช่องธรรมดา' is not defined. Reviewer to decide whether to clarify; update narration if so.",
+      "HANDBOOK ISSUE (minor): the กระติกน้ำแข็ง row gives a single value '15' °C, quoted as printed ('อุณหภูมิสิบห้าองศาเซลเซียส').",
+      "°C / 'องศาเซลเซียส' is said after each value; the handbook prints the unit only in the column header (lesson note).",
+      "Grouping (นอกตู้เย็น / ตู้เย็นและตู้แช่แข็ง / การละลาย) is editorial; rows and numbers unchanged. Nothing added on how long thawed milk keeps, warming, or leftovers (not in the handbook)."
+    ]
+  }
+}

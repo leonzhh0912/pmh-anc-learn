@@ -1,0 +1,31 @@
+{
+  "id": "V-DEV-001",
+  "lessonId": "MCH68-DEV-001",
+  "title": "เฝ้าระวังพัฒนาการลูกด้วยคู่มือ DSPM",
+  "mp4": "media/V-DEV-001.mp4",
+  "captionsVtt": "media/V-DEV-001.th.vtt",
+  "poster": "media/V-DEV-001.jpg",
+  "durationSec": 109.7,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "medium",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-DEV-001 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'ดี เอส พี เอ็ม' (DSPM), 'ดี เอ ไอ เอ็ม' (DAIM), 'สองพันห้าร้อยกรัม', 'ขาดออกซิเจน' and the screening ages ('เก้า สิบแปด สามสิบ สี่สิบสอง และหกสิบเดือน').",
+      "English domain abbreviations (GM, FM, RL, EL, PS) appear only in on-screen item text (stage 1), not in speech or captions.",
+      "Lesson note: 'สงสัยล่าช้า' appears only inside the printed p62 tip, quoted verbatim in item 8 ('เมื่อประเมินแล้วพบว่าสงสัยล่าช้า จำเป็นต้องเข้ารับการฝึกกระตุ้นตามนัด'); the video never says a child is or is not delayed.",
+      "Lesson note: the DAIM risk-group line (item 9) is as printed on p63; nothing is added about who decides a child is in the risk group — PMH to add its local DAIM follow-up.",
+      "Lesson editorial framing used: 'ถ้าสงสัยหรือกังวลเรื่องพัฒนาการของลูก บอกเจ้าหน้าที่' (summary 3) and 'ทุกข้อมีช่องสี่เหลี่ยม' (stage 1 intro, describes the printed checklist).",
+      "Not used in the video: the three QR codes on printed p61, the age columns per page, 'แจกฟรี ห้ามจำหน่าย', the family note, and how to test or tick items (in the DSPM manual)."
+    ]
+  }
+}
