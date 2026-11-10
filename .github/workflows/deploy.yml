@@ -36,8 +36,8 @@ jobs:
       - name: Production build (fails if any content is not approved)
         run: npm run build:production
         env:
-          # served at https://<owner>.github.io/<repo>/
-          BASE_PATH: /${{ github.event.repository.name }}/
+          # https://<owner>.github.io/<repo>/, or the domain root for a repo named <owner>.github.io
+          BASE_PATH: ${{ endsWith(github.event.repository.name, '.github.io') && '/' || format('/{0}/', github.event.repository.name) }}
       - name: Single-page app fallback (GitHub Pages serves 404.html for unknown paths)
         run: cp dist/index.html dist/404.html
       - uses: actions/upload-pages-artifact@v3

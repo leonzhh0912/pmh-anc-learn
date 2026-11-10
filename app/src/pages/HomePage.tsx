@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import { lessons, lessonsInSection, sections } from "../content/load";
 import { useProgress } from "../lib/progress";
+import { InstallHelp } from "../components/InstallHelp";
 
 export function HomePage() {
   const progress = useProgress();
@@ -45,6 +46,7 @@ export function HomePage() {
         <p className="home__progress">
           เรียนจบแล้ว {doneCount} จาก {lessons.length} บทเรียนที่มีในตอนนี้
         </p>
+        <InstallHelp />
       </section>
 
       <section aria-labelledby="tabs-title" className="book">
