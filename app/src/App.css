@@ -530,11 +530,14 @@
 .install__steps { margin: 0 0 12px; padding-left: 1.4em; }
 .install__steps li { margin: 4px 0; }
 .install__icon { width: 1.2em; height: 1.2em; vertical-align: -0.2em; color: var(--focus); }
+.install__open { color: var(--magenta); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
 .install__actions { display: flex; flex-wrap: wrap; gap: 10px; }
 .install--done { color: var(--correct); font-weight: 600; background: var(--correct-wash); border-color: transparent; }
 
 /* printable poster and stickers (/poster) */
 .poster-page__tools { margin-bottom: 24px; }
+.poster-page__sub { font-size: var(--fs-h3); margin: 24px 0 6px; }
+.poster-page__link { font-size: 0.9rem; overflow-wrap: anywhere; color: var(--ink-soft); margin: 8px 0; }
 .sheet {
   background: #fff;
   color: #000;

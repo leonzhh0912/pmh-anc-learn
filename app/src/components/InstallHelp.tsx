@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { isLine, withOpenExternal } from "../lib/line";
 
 /**
  * Helps a family keep the app on their phone's home screen, so it opens like an app and
@@ -99,7 +100,17 @@ export function InstallHelp() {
       ) : (
         <>
           <ol className="install__steps">
-            {inAppBrowser() && <li>แตะปุ่ม ⋯ หรือ ⋮ ที่มุมจอ แล้วเลือกเปิดใน {browser}</li>}
+            {inAppBrowser() &&
+              (isLine() ? (
+                <li>
+                  <a className="install__open" href={withOpenExternal(window.location.href)}>
+                    แตะที่นี่เพื่อเปิดใน {browser}
+                  </a>{" "}
+                  (หรือแตะปุ่ม ⋯ หรือ ⋮ ที่มุมจอ แล้วเลือกเปิดใน {browser})
+                </li>
+              ) : (
+                <li>แตะปุ่ม ⋯ หรือ ⋮ ที่มุมจอ แล้วเลือกเปิดใน {browser}</li>
+              ))}
             {ios ? (
               <>
                 <li>

@@ -1,5 +1,6 @@
+import { useState } from "react";
 import { Link } from "react-router";
-import { appUrl, qrPath, qrViewBox } from "../generated/qr";
+import { appUrl, qrPath, qrUrl, qrViewBox } from "../generated/qr";
 
 /**
  * Staff page: printable A4 poster and an A4 sheet of 12 stickers for the inside cover of the pink
@@ -11,6 +12,26 @@ function Qr({ label }: { label: string }) {
       <rect x="0" y="0" width="100%" height="100%" fill="#fff" />
       <path d={qrPath} stroke="#000" />
     </svg>
+  );
+}
+
+function CopyButton({ text }: { text: string }) {
+  const [copied, setCopied] = useState(false);
+  return (
+    <button
+      type="button"
+      className="btn btn--quiet"
+      onClick={async () => {
+        try {
+          await navigator.clipboard.writeText(text);
+          setCopied(true);
+        } catch {
+          window.prompt("คัดลอกลิงก์นี้", text);
+        }
+      }}
+    >
+      {copied ? "คัดลอกแล้ว" : "คัดลอกลิงก์"}
+    </button>
   );
 }
 
@@ -31,6 +52,13 @@ export function PosterPage() {
         <button type="button" className="btn btn--primary" onClick={() => window.print()}>
           พิมพ์
         </button>
+        <h2 className="poster-page__sub">ลิงก์สำหรับส่งใน LINE</h2>
+        <p>
+          ลิงก์นี้ทำให้ LINE เปิดแอปในเบราว์เซอร์ของมือถือ (Safari หรือ Chrome) ซึ่งเพิ่มไว้ที่หน้าจอหลักได้
+          คิวอาร์โค้ดด้านล่างใช้ลิงก์เดียวกัน
+        </p>
+        <p className="poster-page__link">{qrUrl}</p>
+        <CopyButton text={qrUrl} />
       </div>
 
       <section className="sheet poster" aria-label="โปสเตอร์">
