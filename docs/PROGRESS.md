@@ -250,3 +250,7 @@ Read this first at the start of every working session. Add a dated entry at the 
   handbook. QR from `npm run make-qr` (rerun if the address changes, e.g. a hospital domain later).
 - Footer and About no longer say "ต้นแบบ" once all content is approved.
 - Checks: tsc, oxlint clean; production build at `/`; e2e 130 passed.
+- **LINE opens the app in Safari/Chrome**: the QR code and the staff "link for LINE" carry LINE's documented
+  `?openExternalBrowser=1` (developers.line.biz, "Opening a URL in an external browser"); cameras ignore it, and
+  the app removes it from the address bar on load. Inside LINE the install card also has a tap-to-open link.
+  Printed address stays `phimai-hospital.github.io`. Not yet tried on a real phone with LINE. e2e 138 passed.
