@@ -1,8 +1,9 @@
 import { expect, test } from "@playwright/test";
+import { expectDraftLabelMatchesStatus } from "./draft-label";
 
 test("K-001 nutrition flag: tiers reveal groups, sorting and quiz complete", async ({ page }) => {
   await page.goto("/lesson/MCH68-K-001");
-  await expect(page.locator(".draft-banner")).toContainText("ฉบับร่าง");
+  await expectDraftLabelMatchesStatus(page, "MCH68-K-001");
   // advance past the intro (and the video step, if the lesson has one) to the flag
   for (let i = 0; i < 3 && !(await page.locator(".flag__tier").count()); i++) {
     await page.getByRole("button", { name: "ต่อไป" }).click();

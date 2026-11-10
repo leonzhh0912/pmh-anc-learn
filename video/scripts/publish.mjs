@@ -28,7 +28,15 @@ if (!existsSync(mp4)) throw new Error(`render first: ${mp4} not found`);
 
 const mediaDir = join(repoRoot, "app/public/media");
 mkdirSync(mediaDir, { recursive: true });
-copyFileSync(mp4, join(mediaDir, `${id}.mp4`));
+// Narration is identical on both channels: keep the picture as rendered and store the speech as
+// 64 kbps mono AAC (level-preserving downmix). About 60% smaller than the render, so families use
+// less mobile data and GitHub Pages can sync the site. faststart lets playback begin before the
+// whole file has downloaded.
+execFileSync("ffmpeg", [
+  "-v", "error", "-y", "-i", mp4, "-map", "0", "-c:v", "copy",
+  "-af", "pan=mono|c0=0.5*c0+0.5*c1", "-c:a", "aac", "-b:a", "64k", "-movflags", "+faststart",
+  join(mediaDir, `${id}.mp4`),
+]);
 copyFileSync(vtt, join(mediaDir, `${id}.th.vtt`));
 
 // poster: a frame from the title scene, after its entrance animation
@@ -36,7 +44,7 @@ const posterAt = Math.min(12, timing.durationInFrames / timing.fps / 2);
 execFileSync("ffmpeg", ["-v", "error", "-y", "-ss", String(posterAt), "-i", mp4, "-frames:v", "1", "-q:v", "4", join(mediaDir, `${id}.jpg`)]);
 
 const durationSec = Number(
-  execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", mp4]).toString().trim(),
+  execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", join(mediaDir, `${id}.mp4`)]).toString().trim(),
 );
 
 // Guard: the MP4 must come from the current narration run, otherwise the
