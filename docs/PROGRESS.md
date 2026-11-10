@@ -238,3 +238,15 @@ Read this first at the start of every working session. Add a dated entry at the 
 1. Repo owner: Settings → Pages → Source: GitHub Actions (private repo needs a paid plan, or make it public).
 2. Reviewer: `npm run record-approval -- --reviewer … --date … --ref … --all --commit`, then push to main.
 3. Publish workflow deploys; tag the release `v1.0.0` (DEPLOYMENT.md).
+
+## Session 7 — 2026-11-11 (patient access, hospital address)
+
+- **Live at https://phimai-hospital.github.io/** — repository moved to the GitHub organisation
+  `phimai-hospital` (owner: the developer; add PMH staff as owners) and renamed `phimai-hospital.github.io`, so
+  Pages serves it at the domain root. The old personal-account address no longer works; nothing had been printed.
+- **Keep it on the phone**: home page card with one-tap install (Android/Chrome), iPhone steps, and "open in
+  Safari/Chrome" steps for LINE/Facebook in-app browsers. Hidden once installed or dismissed.
+- **`/poster`** (linked from About): printable A4 clinic poster and an A4 sheet of 12 QR stickers for the pink
+  handbook. QR from `npm run make-qr` (rerun if the address changes, e.g. a hospital domain later).
+- Footer and About no longer say "ต้นแบบ" once all content is approved.
+- Checks: tsc, oxlint clean; production build at `/`; e2e 130 passed.
