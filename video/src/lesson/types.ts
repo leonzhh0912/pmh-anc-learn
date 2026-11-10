@@ -71,3 +71,6 @@ export function printedLabel(pdfPage: number): string {
   if (pdfPage === 68) return "ปกหลัง";
   return `หน้า ${pdfPage - 2}`;
 }
+
+/** The published record (content/videos/<id>.json): where a reviewer's approval is recorded. */
+export type Published = { editorial: { status: string } };
