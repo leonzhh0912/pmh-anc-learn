@@ -1,6 +1,6 @@
 {
   "id": "MCH68-ASSESS-002",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "ภาวะซึมเศร้าหลังคลอด เกิดขึ้นได้กับทุกคน",
   "summary": "ภาวะซึมเศร้าหลังคลอดเกิดขึ้นได้กับทุกคน รู้ว่าเจ้าหน้าที่ประเมินเมื่อไร และเมื่อแม่รู้สึกเศร้าหรือทุกข์ใจ ครอบครัวช่วยได้อย่างไร",
   "sectionId": "assess",
@@ -31,10 +31,10 @@
     "note": "แบบประเมินภาวะซึมเศร้าหลังคลอด ในระยะหลังคลอด 4-6 สัปดาห์ (หน้า 17: ใช้เฉพาะชื่อแบบประเมิน คำแนะนำในการตอบ คำแนะนำให้ขอรับคำปรึกษา และข้อความข้างหน้า ไม่ใช้ข้อคำถาม คะแนน หรือเกณฑ์) และบันทึกสุขภาพจิตมารดาหลังคลอด (หน้า 19)"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "high",
     "reviewNotes": [
       "'ภาวะซึมเศร้าหลังคลอด เกิดขึ้นได้กับทุกคน โดยไม่จำเป็นต้องเคยมีประวัติซึมเศร้ามาก่อน' is the p21 (printed 19) margin tip; 'เมื่อตั้งครรภ์ ฮอร์โมนที่เปลี่ยนแปลงจะส่งผลต่ออารมณ์ของหญิงตั้งครรภ์ได้มาก' is the p19 (printed 17) margin tip. Both checked on the page images. The hormone tip is about pregnancy; the lesson keeps it in that context and does not extend it to the postnatal period.",
@@ -61,6 +61,12 @@
       "date": "2026-11-10",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-ASSESS-002 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

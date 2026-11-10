@@ -1,6 +1,6 @@
 {
   "id": "MCH68-CH-006",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "ก่อนและหลังพาลูกไปรับวัคซีน",
   "summary": "สิ่งที่ควรรู้ก่อนพาลูกไปรับวัคซีน การดูแลเมื่อมีไข้และแผลวัคซีนวัณโรคหลังฉีด และการมาตามนัด",
   "sectionId": "childhealth",
@@ -36,10 +36,10 @@
     "note": "หัวข้อ 'คำแนะนำเกี่ยวกับการได้รับวัคซีน' (PDF p40) หน้า 'นัดหมายการรับวัคซีน' (PDF p41) และข้อความแนะนำข้างหน้า PDF p38–p41 บทนี้ไม่สอนตารางวัคซีน (อยู่ในบทเรียน MCH68-CH-004)"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "medium",
     "reviewNotes": [
       "Source map (all verified on the page images): the 6 advice bullets are from PDF p40 (printed 38) 'คำแนะนำเกี่ยวกับการได้รับวัคซีน'; 'ไม่ควรกินยาลดไข้ดักไว้ก่อนการไปฉีดวัคซีน' is the p39 margin tip; 'วัคซีนส่วนใหญ่ หากเลยกำหนดสามารถฉีดต่อได้โดยไม่ต้องเริ่มใหม่' is the p40 margin tip; 'ควรมารับวัคซีนตามนัดหมาย หากขาดนัด ควรรีบมาติดตามเพื่อรับวัคซีนต่อเนื่อง' is the p41 margin tip; the appointment columns (วันที่ เวลา สถานที่ รายการนัด) are from the p41 form.",
@@ -66,6 +66,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-CH-006 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

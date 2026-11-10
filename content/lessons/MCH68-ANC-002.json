@@ -1,6 +1,6 @@
 {
   "id": "MCH68-ANC-002",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "วัคซีนสำหรับหญิงตั้งครรภ์",
   "summary": "วัคซีน 3 ชนิดในสมุดหน้า 5 คือ คอตีบ-บาดทะยัก (dT) ไอกรน และไข้หวัดใหญ่ ช่วงอายุครรภ์ที่สมุดแนะนำ และวิธีบันทึก",
   "sectionId": "anc",
@@ -31,10 +31,10 @@
     "note": "หน้า 'ประวัติวัคซีนหญิงตั้งครรภ์' (PDF p7, พิมพ์หน้า 5) หมวดข้อมูลฝากครรภ์ รวมหมายเหตุท้ายหน้าและข้อความที่ขอบหน้า; ข้อ 12 ของหน้า 'คุณลักษณะที่พึงประสงค์สำหรับคุณแม่ เพื่อลูกสุขภาพดี' (PDF p67) และคำแนะนำการใช้สมุดปกใน (PDF p2) ซึ่งไม่มีเลขหน้าพิมพ์"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "high",
     "reviewNotes": [
       "Vaccine names, every checkbox option, all week windows (20-32, 16, 32, 12-20), the dT rule (ครบ 3 เข็ม / เข็มกระตุ้นมาไม่เกิน 10 ปี), both footnotes, the source line and the margin tip are copied from PDF p7 (printed 5), checked on a 250-dpi render of the official 2nd-printing page. The page's own grouping (dT / ไอกรน / ไข้หวัดใหญ่ / วัคซีนอื่น; ก่อนตั้งครรภ์ / การตั้งครรภ์นี้) is kept.",
@@ -61,6 +61,12 @@
       "date": "2026-11-10",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-ANC-002 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

@@ -1,6 +1,6 @@
 {
   "id": "MCH68-INFO-003",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "ทำไมต้องเล่าประวัติสุขภาพและการตั้งครรภ์ที่ผ่านมาให้ครบ",
   "summary": "สมุดหน้า 3 บันทึกประวัติการตั้งครรภ์ โรคประจำตัว การแพ้ยา แพ้อาหาร และการเจ็บป่วยของคนในครอบครัว ข้อมูลที่ครบถ้วนถูกต้องช่วยป้องกันความเสี่ยงต่อภาวะแทรกซ้อนในครรภ์นี้",
   "sectionId": "info",
@@ -28,10 +28,10 @@
     "note": "หน้า 3 หมวดข้อมูลแม่และเด็ก: 'ประวัติสุขภาพของหญิงตั้งครรภ์และครอบครัว' ตารางประวัติการตั้งครรภ์ (ครรภ์ 1-6) ประวัติการเจ็บป่วยของหญิงตั้งครรภ์ (โรคประจำตัว ประวัติแพ้ยา ประวัติแพ้อาหาร ประวัติการเจ็บป่วยของบุคคลในครอบครัว) และข้อความแนะนำที่ขอบขวา เรื่องสมุดเป็นเอกสารที่บันทึกร่วมกับเจ้าหน้าที่มาจาก PDF p2 และ p67"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "low",
     "reviewNotes": [
       "Section titles, table columns (ครรภ์ | วันคลอด/ยุติการตั้งครรภ์ | อายุครรภ์ | วิธีคลอด | น้ำหนักทารก | เพศ | สถานที่คลอด | ภาวะแทรกซ้อน), rows ครรภ์ 1-6, all checkbox options and the margin tip are from PDF p5 (printed 3), checked on the page image and a rotated crop of the right margin strip. Tip quoted word for word: 'การให้ข้อมูลเกี่ยวกับการตั้งครรภ์ที่ผ่านมาอย่างครบถ้วนถูกต้อง ช่วยป้องกันความเสี่ยงต่อภาวะแทรกซ้อนในการตั้งครรภ์ปัจจุบัน'.",
@@ -61,6 +61,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-INFO-003 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

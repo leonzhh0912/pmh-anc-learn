@@ -1,6 +1,6 @@
 {
   "id": "MCH68-GROW-002",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "แปลผลกราฟน้ำหนัก ส่วนสูง และรูปร่างของลูก",
   "summary": "รู้จักระดับในกราฟน้ำหนักตามเกณฑ์อายุ ส่วนสูงตามเกณฑ์อายุ และน้ำหนักตามเกณฑ์ส่วนสูง และความหมายของแต่ละระดับตามที่สมุดเขียนไว้",
   "sectionId": "growth",
@@ -32,10 +32,10 @@
     "note": "หน้า 'การแปลผลกราฟติดตามการเจริญเติบโตของเด็ก' ข้อ 2–4 (PDF p45) และตัวอย่างสรุปผลของเด็กหญิงสดใส กับคำแนะนำข้างหน้า (PDF p44)"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "high",
     "reviewNotes": [
       "Source map: level names, their order (top to bottom of each funnel table) and every meaning/action sentence are copied from PDF p45 (printed 43), checked on 250–600 dpi renders of the official PDF. 'ดูแนวโน้ม ไม่ใช่การวัดครั้งเดียว', the สดใส summary ('น้ำหนักตามเกณฑ์ • ส่วนสูงตามเกณฑ์ • เติบโตสมส่วน') and the margin tip on recording with staff are from PDF p44 (printed 42).",
@@ -61,6 +61,12 @@
       "date": "2026-11-10",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-GROW-002 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

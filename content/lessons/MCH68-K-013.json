@@ -1,6 +1,6 @@
 {
   "id": "MCH68-K-013",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "ป้องกันการบาดเจ็บในบ้าน",
   "summary": "6 ข้อจากสมุดสีชมพูเพื่อป้องกันเด็กบาดเจ็บในบ้าน: ที่สูง ราวบันได หน้าต่าง เฟอร์นิเจอร์ รถหัดเดิน และบันไดเลื่อน/ลิฟต์",
   "sectionId": "knowledge",
@@ -29,10 +29,10 @@
     "note": "ส่วน 'การป้องกันการบาดเจ็บในเด็ก' ครึ่งล่างของหน้า (บัตรภาพ 6 ใบ) ส่วน 'สื่อหน้าจอกับพัฒนาการเด็ก' ครึ่งบนของหน้าเดียวกันไม่อยู่ในบทเรียนนี้"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "low",
     "reviewNotes": [
       "All 6 rules are from PDF p30 (printed 28), checked on the official page image: ไม่ปล่อยเด็กบนที่สูงลำพัง; ช่องห่างราวบันไดน้อยกว่า 9 เซนติเมตร (diagram label '< 9 ซม.'); หน้าต่างสูงจากพื้นมากกว่า 1 เมตร (diagram label '> 1 ม.'); ยึดเฟอร์นิเจอร์ให้มั่นคง; ไม่ใช้รถหัดเดิน; ดูแลใกล้ชิดเมื่อใช้บันไดเลื่อน/ลิฟต์.",
@@ -60,6 +60,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-K-013 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

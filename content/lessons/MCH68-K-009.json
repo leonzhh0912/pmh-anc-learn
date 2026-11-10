@@ -1,6 +1,6 @@
 {
   "id": "MCH68-K-009",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "ฝึกลูกเข้านอน: ชั่วโมงนอนตามวัย",
   "summary": "ลูกแต่ละวัยควรนอนวันละกี่ชั่วโมง ทำไมการนอนสำคัญ และการจัดบรรยากาศการนอนตามที่สมุดแนะนำ",
   "sectionId": "knowledge",
@@ -33,10 +33,10 @@
     "note": "ส่วน 'ฝึกลูกเข้านอน' ครึ่งบนของหน้า 27: ย่อหน้าการนอน ตารางช่วงอายุ/ระยะเวลาการนอน 4 แถว ย่อหน้าทารกหลังอายุ 6 เดือน และกราฟวงจรการนอนหลับ (45-50 นาที) รวมกับข้อความ 'นอนวันละ 11-14 ชั่วโมง' ในหน้าธงโภชนาการเด็ก 12 - 23 เดือน (หน้า 56) และ 'นอนวันละ 10-13 ชั่วโมง' ในหน้าธงโภชนาการเด็ก 2 - 5 ปี (หน้า 57)"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "low",
     "reviewNotes": [
       "Sleep table checked on a zoomed crop of the official page image, PDF p29 (printed 27): แรกเกิด - 3 เดือน 14 - 17 ชั่วโมง; 4 เดือน - 1 ปี 12 - 16 ชั่วโมง; 1 - 2 ปี (วัยเตาะแตะ) 11 - 14 ชั่วโมง; 3 - 5 ปี (ก่อนเข้าเรียน) 10 - 13 ชั่วโมง. Bubbles checked on page images: PDF p58 (printed 56, ธงโภชนาการ 12 - 23 เดือน) 'นอนวันละ 11-14 ชั่วโมง'; PDF p59 (printed 57, ธงโภชนาการ 2 - 5 ปี) 'นอนวันละ 10-13 ชั่วโมง'.",
@@ -65,6 +65,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-K-009 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

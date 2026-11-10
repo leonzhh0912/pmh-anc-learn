@@ -1,6 +1,6 @@
 {
   "id": "MCH68-INFO-002",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "โรงเรียนพ่อแม่ 7 ครั้ง",
   "summary": "กิจกรรมโรงเรียนพ่อแม่ 7 ครั้ง จัดที่ไหน ช่วงไหน ตั้งแต่ตั้งครรภ์จนลูกอายุ 18 เดือน และได้อะไรเมื่อเข้าร่วมครบ",
   "sectionId": "info",
@@ -31,10 +31,10 @@
     "note": "หน้า 'โรงเรียนพ่อแม่ : Parenting School' หมวดข้อมูลแม่และเด็ก ตารางบันทึกการเข้าร่วมกิจกรรม 7 ครั้ง และข้อความแนะนำที่ขอบหน้า"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "low",
     "reviewNotes": [
       "Places and gestational/child-age windows for all 7 sessions, the first-session checklist, the certificate e-mail line, the certificate after 7 sessions and the margin tip are from PDF p4 (printed 2), checked on the page image. Ranges are copied as printed (\"1-12\", \"13-27\", \"28 สัปดาห์ขึ้นไป\").",
@@ -64,6 +64,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-INFO-002 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

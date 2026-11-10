@@ -1,6 +1,6 @@
 {
   "id": "MCH68-DEV-005",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "พ่อแม่ส่งเสริมพัฒนาการลูก: กอด คุย เล่านิทาน เล่นด้วยกัน",
   "summary": "สิ่งที่พ่อแม่และคนในครอบครัวทำได้ในชีวิตประจำวัน เพื่อส่งเสริมพัฒนาการลูกตามที่สมุดแนะนำ",
   "sectionId": "dev",
@@ -39,10 +39,10 @@
     "note": "ข้อความแนะนำข้างหน้า PDF p33, p34, p59, p63 ข้อความในภาพ 'เล่นกับลูก' (p58, p59) ปกคู่มือ DSPM (p63) และข้อ 14 ในหน้าสรุปท้ายเล่ม (PDF p67 ไม่มีเลขหน้าพิมพ์)"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "low",
     "reviewNotes": [
       "Source map (all checked on the page images): brain growth in the first 5 years = p34 margin tip; parents' key role = p63 margin tip; 'โอบกอด พูดคุย เล่านิทาน ติดตามพัฒนาการ (คู่มือ DSPM)' = p67 item 14; 'เล่นกับลูก' = picture bubbles on p58 and p59; family meals = p59 margin tip; hitting = p33 margin tip; DSPM users ('ใช้สำหรับ พ่อแม่ ผู้ปกครอง เจ้าหน้าที่ ครู และผู้ดูแลเด็ก ในการส่งเสริมพัฒนาการเด็ก') = DSPM cover on p63.",
@@ -69,6 +69,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-DEV-005 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

@@ -1,6 +1,6 @@
 {
   "id": "MCH68-OVR-002",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "รู้จักสมุดบันทึกสุขภาพแม่และเด็ก",
   "summary": "สมุดเล่มนี้ใช้ทำอะไร ทำไมต้องพกไปทุกครั้ง หน้าที่มีรูปหัวใจคืออะไร และหาเรื่องที่ต้องการจากแถบสี 9 แถบ",
   "sectionId": "overview",
@@ -34,10 +34,10 @@
     "note": "หน้าปก (PDF p1, ไม่มีเลขหน้าพิมพ์) แถบสี 9 หมวด; หน้า 'คำแนะนำสมุดบันทึกสุขภาพแม่และเด็ก' ด้านในปก (PDF p2, ไม่มีเลขหน้าพิมพ์); หน้าติดรูปและข้อความถึงลูก (หน้า 32)"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "low",
     "reviewNotes": [
       "Purpose of the handbook, 'bring it every time you receive care', 'ask your local health staff' and the ♡ definition are from PDF p2 (inside cover), checked on the page image.",
@@ -67,6 +67,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-OVR-002 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

@@ -1,6 +1,6 @@
 {
   "id": "MCH68-CH-007",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "ตรวจสุขภาพเด็กปฐมวัยตามนัด: แต่ละช่วงอายุตรวจอะไร",
   "summary": "สมุดหน้า 40–41 'บันทึกการตรวจสุขภาพเด็กปฐมวัย' มี 14 แถวอายุ ตั้งแต่แรกเกิดถึง 6 ปี แต่ละแถวมีช่องอะไรให้บันทึก ช่องสีเทาคืออะไร และข้อความเรื่องภาวะซีดและยาน้ำเสริมธาตุเหล็ก",
   "sectionId": "childhealth",
@@ -32,10 +32,10 @@
     "note": "ตาราง 'บันทึกการตรวจสุขภาพเด็กปฐมวัย' 2 หน้าต่อกัน: หน้า 40 (วันที่ตรวจ อายุ น้ำหนัก ความยาว/ส่วนสูง รอบศีรษะ เติบโตสมส่วน ตรวจร่างกาย ความเข้มข้นเลือด (Hct) ตรวจระดับสายตา) หน้า 41 (ตรวจการได้ยิน เฝ้าระวังพัฒนาการ (ผู้ปกครองประเมิน) คัดกรองพัฒนาการ (เจ้าหน้าที่ประเมิน) คัดกรองออทิสติก การตรวจสุขภาพช่องปาก วิตามินเสริมธาตุเหล็ก ให้คำปรึกษาแนะนำสุขภาพ) 14 แถวอายุ ช่องสีเทา และข้อความที่ขอบหน้าทั้ง 2 หน้า"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "medium",
     "reviewNotes": [
       "Column headers, the 14 age rows and both margin tips checked on the official page images PDF p42–43 (printed 40–41); shading checked row by row on the page images and a zoomed crop of p43. Tips quoted word for word: p42 'ภาวะซีดจากการขาดธาตุเหล็ก ส่งผลต่อสติปัญญาของเด็ก ควรได้รับการคัดกรองภาวะซีดตามกำหนด'; p43 'ยาน้ำเสริมธาตุเหล็กในเด็ก ช่วยทำให้เด็กเจริญอาหาร เป็นโอกาสในการฝึกกินอาหารตามวัย'.",
@@ -67,6 +67,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-CH-007 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

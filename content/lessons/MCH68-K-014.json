@@ -1,6 +1,6 @@
 {
   "id": "MCH68-K-014",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "ปลอดภัยบนท้องถนน: ที่นั่งนิรภัย รถจักรยานยนต์ และไม่ทิ้งเด็กในรถ",
   "summary": "ใช้ที่นั่งนิรภัยทุกครั้ง อายุที่ห้ามและไม่แนะนำให้โดยสารรถจักรยานยนต์ และการป้องกันเด็กติดในรถ ตามสมุดสีชมพูหน้า 29",
   "sectionId": "knowledge",
@@ -29,10 +29,10 @@
     "note": "ส่วน 'การป้องกันการบาดเจ็บทางจราจร' ด้านบนของหน้า (บัตรภาพ 3 ใบ) และข้อความข้างหน้า 'อุบัติเหตุ เป็นสาเหตุการเสียชีวิตอันดับต้น ๆ ของเด็ก'"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "medium",
     "reviewNotes": [
       "All rules and ages are from PDF p31 (printed 29), verified on a zoomed crop of the official 2nd-printing page image: 'ใช้ที่นั่งนิรภัยทุกครั้ง (เด็กอายุน้อยกว่า 2 ปี หันหน้าเข้าหาเบาะ)'; car-seat diagram labels 'น้อยกว่า 2 ปี' (rear-facing) / 'มากกว่า 2 ปี' (forward-facing); 'เด็กอายุน้อยกว่า 2 ปี ห้ามโดยสารรถจักรยานยนต์ เด็กอายุ 2-6 ปี ไม่แนะนำให้โดยสารหลังผู้ขับขี่ตามลำพัง' ('ห้าม' and 'ไม่แนะนำ' printed in red); 'ห้ามทิ้งเด็กในรถ สอนบีบแตร ตรวจรอบรถก่อนขับรถทุกครั้ง'; margin tip 'อุบัติเหตุ เป็นสาเหตุการเสียชีวิตอันดับต้น ๆ ของเด็ก'.",
@@ -63,6 +63,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-K-014 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

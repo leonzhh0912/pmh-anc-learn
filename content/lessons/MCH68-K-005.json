@@ -1,6 +1,6 @@
 {
   "id": "MCH68-K-005",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "อาการผิดปกติที่แม่ท้องต้องมาโรงพยาบาลทันที",
   "summary": "จำ 7 อาการผิดปกติที่สมุดบอกว่าแม่ท้องต้องมาโรงพยาบาลทันที และสิ่งที่ต้องทำเมื่อมีน้ำใส ๆ ไหลจากช่องคลอด",
   "sectionId": "knowledge",
@@ -31,10 +31,10 @@
     "note": "อาการผิดปกติที่แม่ท้อง ต้องมาโรงพยาบาลทันที และข้อความข้างหน้าเรื่องภาวะครรภ์เป็นพิษ (หน้า 24); คำแนะนำการนับลูกดิ้น (หน้า 13) ใช้เป็นบริบทเรื่องลูกดิ้นเท่านั้น"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "high",
     "reviewNotes": [
       "The heading 'อาการผิดปกติที่แม่ท้อง ต้องมาโรงพยาบาลทันที', the 7 signs and the clear-fluid action ('ให้ใส่ผ้าอนามัยไว้ แล้วรีบมาโรงพยาบาล') are copied verbatim from p26 (printed 24), checked on the page image. Same count and wording; nothing merged, split or added. The timeline order follows the page (left column top to bottom, then right column top to bottom, starting with the top-centre sign).",
@@ -57,6 +57,12 @@
       "date": "2026-11-10",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-K-005 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

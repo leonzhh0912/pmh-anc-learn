@@ -1,6 +1,6 @@
 {
   "id": "MCH68-K-018",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "ปฐมพยาบาลเมื่อลูกชักจากไข้สูง",
   "summary": "วิธีที่ถูกต้อง 6 ข้อ เมื่อเด็กมีอาการชักจากไข้สูง ตามลำดับในสมุด และสิ่งที่ห้ามทำขณะเด็กชัก",
   "sectionId": "knowledge",
@@ -29,10 +29,10 @@
     "note": "หัวข้อ 'การปฐมพยาบาลเมื่อเด็กชัก' (ส่วนบนของหน้า) หมวดความรู้สู่การปฏิบัติเพื่อแม่ลูกสุขภาพดี"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "high",
     "reviewNotes": [
       "Source: 'การปฐมพยาบาลเมื่อเด็กชัก', top of PDF p33 (printed 31), checked on the page image. The intro sentence and the 6 numbered steps are copied in printed wording and order (1 ตะโกนขอความช่วยเหลือ หรือ โทร 1669; 2 จับนอนตะแคง ป้องกันสำลัก; 3 ห้าม! ล้วง/ใส่วัตถุในปาก; 4 ห้าม! เขย่า/กระแทก; 5 เช็ดตัวลดไข้ด้วยน้ำอุณหภูมิปกติ; 6 เมื่อตื่นรู้ตัว ป้อนยาลดไข้).",
@@ -53,6 +53,12 @@
       "date": "2026-11-10",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-K-018 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

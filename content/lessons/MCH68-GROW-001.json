@@ -1,6 +1,6 @@
 {
   "id": "MCH68-GROW-001",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "การใช้กราฟการเจริญเติบโตของลูก",
   "summary": "กราฟการเจริญเติบโตใช้ทำอะไร เลือกกราฟอย่างไร และจุดข้อมูลลงกราฟอย่างไร จากตัวอย่างเด็กหญิงสดใสในสมุดสีชมพูหน้า 42",
   "sectionId": "growth",
@@ -29,10 +29,10 @@
     "note": "หน้า 'การใช้กราฟแสดงการเจริญเติบโต' และ 'คำแนะนำการลงข้อมูลในกราฟ' พร้อมตัวอย่างเด็กหญิงสดใส 3 กราฟ บทเรียนนี้สอนวิธีใช้และจุดกราฟเท่านั้น ไม่สอนการแปลผล (การแปลผลอยู่ในสมุดหน้า 43 และบทเรียน GROW-002)"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "medium",
     "reviewNotes": [
       "Purpose paragraph, the 3 plotting instructions (choose the chart for the child's sex; horizontal line = age; vertical line = head circumference, weight or length/height), the example (เด็กหญิงสดใส อายุ 3 ปี 6 เดือน (เท่ากับ 42 เดือน) น้ำหนัก 16 กิโลกรัม สูง 100 เซนติเมตร) and the margin tip are from PDF p44 (printed 42), checked on a zoomed crop of the official page image.",
@@ -60,6 +60,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-GROW-001 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

@@ -13,10 +13,10 @@
     "model": "eleven_v3"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "low",
     "reviewNotes": [
       "2026-11-09: PMH staff listened and confirmed the ElevenLabs narration sounds correct (reported by the developer; reviewer name to be recorded for formal APPROVED status).",

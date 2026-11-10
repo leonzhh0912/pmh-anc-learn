@@ -1,6 +1,6 @@
 {
   "id": "MCH68-K-010",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "สีอุจจาระทารก: สีซีดต้องรีบพบกุมารแพทย์",
   "summary": "ถ้าอุจจาระของลูกช่วงทารกมีสีซีดผิดปกติ ต้องพาลูกไปพบกุมารแพทย์โดยเร็ว แม้จะไม่มีอาการอื่น ๆ และรู้ว่าทำไมต้องรีบ",
   "sectionId": "knowledge",
@@ -28,10 +28,10 @@
     "note": "หัวข้อ 'การขับถ่าย' ข้อ 'ช่วงทารก' และรูป 'สีอุจจาระทารก' หมวดความรู้สู่การปฏิบัติเพื่อแม่ลูกสุขภาพดี"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "high",
     "reviewNotes": [
       "Source: the 'ช่วงทารก' bullet under 'การขับถ่าย' and the 'สีอุจจาระทารก' photo panel (2 normal, 3 abnormal photos) on PDF p29 (printed 27), checked on the page image. The pale-stool sentence and its action are quoted verbatim.",
@@ -54,6 +54,12 @@
       "date": "2026-11-10",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-K-010 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

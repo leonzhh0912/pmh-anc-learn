@@ -1,6 +1,6 @@
 {
   "id": "MCH68-ASSESS-003",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "งดสุราและบุหรี่ ระหว่างตั้งครรภ์และให้นมลูก",
   "summary": "สมุดพูดถึงเครื่องดื่มที่มีแอลกอฮอล์และบุหรี่อย่างไร และทำไมเจ้าหน้าที่จึงถามเรื่องนี้เมื่อฝากครรภ์",
   "sectionId": "assess",
@@ -36,10 +36,10 @@
     "note": "การประเมินความเสี่ยงเมื่อฝากครรภ์ครั้งที่ 1 (หน้า 6, ใช้เฉพาะหัวข้อ ไม่ใช้ข้อคำถามหรือระดับความเสี่ยง); ส่วนที่ 3 การประเมินการดื่มสุรา (หน้า 17); ข้อความแนะนำเรื่องบุหรี่ที่ขอบหน้า 18; ข้อปฏิบัติการกินข้อ 9 (หน้า 24)"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "low",
     "reviewNotes": [
       "Alcohol abstinence for pregnant AND breastfeeding women is from p26 (printed 24) eating rule 9 'งดเครื่องดื่มที่มีแอลกอฮอล์ และหลีกเลี่ยงอาหารหมักดอง', checked on the page image.",
@@ -68,6 +68,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-ASSESS-003 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

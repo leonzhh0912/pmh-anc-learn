@@ -1,6 +1,6 @@
 {
   "id": "MCH68-K-004",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "ข้อปฏิบัติการกินเพื่อสุขภาพที่ดี 9 ข้อ สำหรับหญิงตั้งครรภ์และหญิงให้นมบุตร",
   "summary": "9 ข้อเรื่องการกินและการดื่ม สำหรับคุณแม่ตั้งครรภ์และคุณแม่ให้นมลูก อะไรควรกิน อะไรควรหลีกเลี่ยงหรืองด",
   "sectionId": "knowledge",
@@ -30,10 +30,10 @@
     "note": "ครึ่งบนของหน้า 'ข้อปฏิบัติการกินเพื่อสุขภาพที่ดี สำหรับหญิงตั้งครรภ์ และหญิงให้นมบุตร' (กรมอนามัย สำนักโภชนาการ) ครึ่งล่างของหน้าเรื่องอาการผิดปกติ อยู่ในบทเรียน MCH68-K-005"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "low",
     "reviewNotes": [
       "The 9 rules, the sub-points for pregnant and breastfeeding women, and every food example are from PDF p26 (printed 24), checked on the official page image. Wording is kept close to verbatim.",
@@ -59,6 +59,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-K-004 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

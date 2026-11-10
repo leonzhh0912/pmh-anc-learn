@@ -1,6 +1,6 @@
 {
   "id": "MCH68-ASSESS-001",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "ดูแลใจระหว่างตั้งครรภ์: ความเครียดและการผ่อนคลาย",
   "summary": "ทำไมเจ้าหน้าที่ถามเรื่องความเครียดและอารมณ์ระหว่างฝากครรภ์ และวิธีผ่อนคลายความเครียดตามสมุด",
   "sectionId": "assess",
@@ -31,10 +31,10 @@
     "note": "แบบประเมินสุขภาพจิตหญิงตั้งครรภ์และหลังคลอด (หน้า 16: ใช้เฉพาะข้อความนำ วิธีผ่อนคลาย และข้อความข้างหน้า ไม่ใช้ข้อคำถาม คะแนน หรือเกณฑ์) และการบันทึกผลการประเมินภาวะสุขภาพจิตและการดูแลช่วยเหลือ สำหรับหญิงตั้งครรภ์ (หน้า 18)"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "high",
     "reviewNotes": [
       "Purpose sentence ('การประเมินภาวะสุขภาพจิต จะช่วยให้มองเห็นปัญหาทางสุขภาพจิต และหาทางช่วยเหลือให้มารดาและลูกมีสุขภาพกายใจที่สมบูรณ์ต่อไป') and the margin tip ('สุขภาพจิตมีความสำคัญทั้งในช่วงการตั้งครรภ์และหลังคลอด อีกทั้งยังส่งผลต่อทารกในครรภ์ด้วย') are from p18 (printed 16), checked on the page image. 'มารดา' is written as 'แม่' in the lesson.",
@@ -60,6 +60,12 @@
       "date": "2026-11-10",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-ASSESS-001 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

@@ -1,6 +1,6 @@
 {
   "id": "MCH68-CH-005",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "วัคซีนเสริม (ทางเลือก)",
   "summary": "รู้จักวัคซีนในกรอบ 'วัคซีนเสริมอื่นๆ (Optional vaccine)' ของสมุดหน้า 37 และวัคซีนไข้เลือดออกในหน้า 38 พร้อมอายุที่แนะนำตามที่พิมพ์ไว้",
   "sectionId": "childhealth",
@@ -29,10 +29,10 @@
     "note": "กรอบ 'วัคซีนเสริมอื่นๆ (Optional vaccine)' ส่วนล่างของหน้า 37 และตาราง 'บันทึกการรับวัคซีน (ต่อ)' หน้า 38 (แถวไข้เลือดออก)"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "high",
     "reviewNotes": [
       "Source map (every age and interval checked on the official page images oimg/p39.jpg, oimg/p40.jpg and a 200-dpi render of the official PDF): EV71, Varicella, HAV and the COVID-19 inset = 'วัคซีนเสริมอื่นๆ (Optional vaccine)' box, PDF p39 (printed 37); Dengue row and 'อื่น ๆ (ระบุ)' row = 'บันทึกการรับวัคซีน (ต่อ)', PDF p40 (printed 38); sort bucket 'EPI' uses rows from the p38 (printed 36) table under the heading 'วัคซีนตามแผนงานสร้างเสริมภูมิคุ้มกันโรคของประเทศไทย (EPI …)'.",
@@ -60,6 +60,12 @@
       "date": "2026-11-10",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-CH-005 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

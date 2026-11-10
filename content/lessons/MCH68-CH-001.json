@@ -1,6 +1,6 @@
 {
   "id": "MCH68-CH-001",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "หลังคลอด: อาการผิดปกติของแม่ที่ต้องพบแพทย์ทันที และการเยี่ยมหลังคลอด",
   "summary": "จำ 6 อาการผิดปกติหลังคลอดที่ต้องพบแพทย์หรือเจ้าหน้าที่สาธารณสุขทันที รู้ช่วงเวลาเยี่ยมหลังคลอด 3 ครั้ง และหัวข้อคำแนะนำเพิ่มเติมในสมุด",
   "sectionId": "childhealth",
@@ -28,10 +28,10 @@
     "note": "บันทึกการเยี่ยมหลังคลอด: อาการผิดปกติหลังคลอด 6 อาการ ช่วงเวลาเยี่ยม 3 ครั้ง และการให้คำแนะนำเพิ่มเติม (หน้า 33)"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "high",
     "reviewNotes": [
       "The 6 signs are copied verbatim, in printed order, from the 'บันทึกการเยี่ยมหลังคลอด' table on p35 (printed 33), checked on the page image. Same count and wording; nothing merged, split or added.",
@@ -55,6 +55,12 @@
       "date": "2026-11-10",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-CH-001 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

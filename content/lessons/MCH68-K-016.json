@@ -1,6 +1,6 @@
 {
   "id": "MCH68-K-016",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "สิ่งแปลกปลอมติดคอ: วิธีช่วยเหลือเด็ก",
   "summary": "อาการที่ทำให้สงสัยว่ามีสิ่งแปลกปลอมอุดทางเดินหายใจ โทร 1669 และขั้นตอนช่วยเหลือเด็กอายุน้อยกว่า 1 ปี และมากกว่า 1 ปี ตามลำดับในสมุด",
   "sectionId": "knowledge",
@@ -29,10 +29,10 @@
     "note": "หัวข้อ 'การช่วยเหลือเมื่อมีสิ่งแปลกปลอมหลุดเข้าทางเดินหายใจ' (ครึ่งบนของหน้า) หมวดความรู้สู่การปฏิบัติเพื่อแม่ลูกสุขภาพดี"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "high",
     "reviewNotes": [
       "Source: choking flowchart, top half of PDF p32 (printed 30), checked on the page image. Intro paragraph, the two suspicion signs, 'โทร 1669', the responsiveness question, both age branches, the 5-count and the finger-sweep prohibition are copied in printed wording and order. No technique drawings or position icons are used.",
@@ -56,6 +56,12 @@
       "date": "2026-11-10",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-K-016 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

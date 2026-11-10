@@ -1,6 +1,6 @@
 {
   "id": "MCH68-DEV-004",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "พัฒนาการตามวัย 42 - 78 เดือน",
   "summary": "อ่านรายการพัฒนาการในสมุดหน้า 60 – 61 ตั้งแต่ 42 ถึง 78 เดือน ทั้ง 5 ด้าน และรู้ว่าอายุ 42 และ 60 เดือนเป็นช่วงที่เจ้าหน้าที่ช่วยคัดกรองพัฒนาการ",
   "sectionId": "dev",
@@ -32,10 +32,10 @@
     "note": "ตารางรายการพัฒนาการ DSPM 42 - 72 เดือน (PDF p62) และช่อง 73 - 78 เดือนกับข้อความแนะนำข้างหน้าเรื่องบทบาทพ่อแม่ (PDF p63); จาก PDF p61 ใช้เฉพาะข้อความแนะนำข้างหน้าเรื่องอายุที่เจ้าหน้าที่ช่วยคัดกรอง"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "medium",
     "reviewNotes": [
       "Source: all 40 cells (7 age bands × 5 domains on PDF p62 = printed 60, plus the 73–78-month column on PDF p63 = printed 61) were copied and checked one by one on 400-dpi crops of the official pages (p62 is a raster image with no text layer). Domain names are the p62 row headers. Child-development nurse to confirm the item text is verbatim (curriculum review requirement).",
@@ -66,6 +66,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-DEV-004 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

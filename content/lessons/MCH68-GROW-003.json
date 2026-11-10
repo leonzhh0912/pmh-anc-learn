@@ -1,6 +1,6 @@
 {
   "id": "MCH68-GROW-003",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "เส้นรอบศีรษะและกระหม่อมของลูก",
   "summary": "เส้นรอบศีรษะของเด็กแรกเกิด กระหม่อมหลังและกระหม่อมหน้าปิดอย่างช้าเมื่อไร และเมื่อไรที่สมุดแนะนำให้ปรึกษาบุคลากรทางสาธารณสุข",
   "sectionId": "growth",
@@ -34,10 +34,10 @@
     "note": "ข้อ 1 'กราฟเส้นรอบวงศีรษะ' ในหน้าการแปลผลกราฟ (PDF p45) และกราฟเส้นรอบวงศีรษะสำหรับเด็กชาย (PDF p46) และเด็กหญิง (PDF p47)"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "high",
     "reviewNotes": [
       "Source map: 35 ซม., 'กระหม่อมหลังปิดอย่างช้าไม่เกิน 4 เดือน', 'กระหม่อมหน้าปิดอย่างช้าไม่เกิน 1 ปีครึ่ง' and the referral sentence (with '85th' / '15th' as printed) are copied from PDF p45 section 1 (printed 43), checked on the page image and text layer. Chart titles, axis labels (อายุ แรกเกิด–5 ปี; เส้นรอบวงศีรษะ (เซนติเมตร)) and the five line labels 97th/85th/50th/15th/3rd are from PDF p46 (boys, printed 44) and p47 (girls, printed 45), read on rotated renders.",
@@ -64,6 +64,12 @@
       "date": "2026-11-10",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-GROW-003 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

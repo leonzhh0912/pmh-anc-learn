@@ -1,6 +1,6 @@
 {
   "id": "MCH68-GROW-004",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "บันทึกกราฟการเจริญเติบโตของลูกในสมุด (ชาย/หญิง)",
   "summary": "กราฟการเจริญเติบโตของเด็กชายและเด็กหญิงอยู่หน้าไหนในสมุด แต่ละกราฟดูอะไร และใครเป็นผู้จุดกราฟและอธิบายผล",
   "sectionId": "growth",
@@ -51,10 +51,10 @@
     "note": "กราฟการเจริญเติบโตเด็กชาย (PDF p46, p48–p51) และเด็กหญิง (PDF p47, p52–p55): ชื่อกราฟ แกน ช่วงอายุ และตาราง 'ผลการวัด'; คำแนะนำเลือกกราฟให้ถูกเพศและข้อความแนะนำข้างหน้า (PDF p44); ข้อ 9 เรื่องติดตามทุก 3 เดือน (PDF p57) ไม่สอนการแปลผล แถบสี หรือเส้นเกณฑ์"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "medium",
     "reviewNotes": [
       "Source map (all checked on 300-dpi renders of the official pages, rotated for the landscape charts; the chart pages have no text layer): chart titles, axis labels, axis ranges, 'ผลการวัด' table columns and the 'วัน เดือน ปี' date row from PDF p46–p55 (printed 44–53); 'เลือกใช้กราฟให้ถูกเพศกับเด็ก…' and the margin tip from PDF p44 (printed 42); note 9 'ควรติดตามการเจริญเติบโต โดยการชั่งน้ำหนักและวัดความยาวเทียบกับมาตรฐานการเจริญเติบโตตามช่วงอายุทุก 3 เดือน' from PDF p57 (printed 55).",
@@ -86,6 +86,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-GROW-004 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

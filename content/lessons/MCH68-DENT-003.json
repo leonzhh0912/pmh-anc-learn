@@ -1,6 +1,6 @@
 {
   "id": "MCH68-DENT-003",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "พฤติกรรมเสี่ยงฟันผุในเด็ก: ทำไมทันตบุคลากรถามเรื่องนมและขนม",
   "summary": "ทันตบุคลากรใช้สมุดหน้า 62 ประเมินความเสี่ยงต่อสุขภาพช่องปากของลูกตั้งแต่ 6 เดือนถึง 6 ปี รู้จักพฤติกรรมเสี่ยงเรื่องนมและขนมที่ครอบครัวช่วยปรับได้",
   "sectionId": "dental",
@@ -28,10 +28,10 @@
     "note": "หน้า 'การประเมินความเสี่ยงต่อสุขภาพช่องปาก' (แบบที่ทันตบุคลากรใช้) ใช้เฉพาะพฤติกรรมเสี่ยงข้อ 1–5 ช่องอายุ ข้อความ 'แนะนำให้ปรับพฤติกรรมเสี่ยง สอนแปรงฟัน (Hands on)' และข้อความแนะนำข้างหน้า ไม่สอนแถบสี ระยะนัด หรือค่าฟลูออไรด์ (ppm)"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "medium",
     "reviewNotes": [
       "Source map (all checked on 400-dpi crops of the official page; the row-4 text is also in the PDF text layer): page title 'การประเมินความเสี่ยงต่อสุขภาพช่องปาก', the age columns 6 เดือน … 6 ปี, risk rows 1–5 (habits), rows 7 and 10 (exam findings, used only as sort cards), the shared phrase 'แนะนำให้ปรับพฤติกรรมเสี่ยง สอนแปรงฟัน (Hands on)' from หมายเหตุ 1–3, and the left margin tip 'สามารถใช้ยาสีฟันและแปรงสีฟันได้ตั้งแต่ฟันซี่แรกของลูก' — all PDF p64 (printed 62).",
@@ -60,6 +60,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-DENT-003 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

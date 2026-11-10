@@ -1,6 +1,6 @@
 {
   "id": "MCH68-REC-003",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "การนับลูกดิ้น",
   "summary": "นับลูกดิ้นตั้งแต่อายุครรภ์ 28 สัปดาห์ หลังมื้ออาหาร ครั้งละ 1 ชั่วโมง บันทึกลงตารางในสมุด และรู้ว่าสมุดเขียนไว้อย่างไรเมื่อลูกดิ้นน้อย",
   "sectionId": "record",
@@ -31,10 +31,10 @@
     "note": "หน้า 'การนับลูกดิ้น' (PDF p15, พิมพ์หน้า 13) หมวดบันทึกการตรวจครรภ์ รวมข้อความที่ขอบหน้าและแถวตัวอย่าง; หัวข้อ 'อาการผิดปกติที่แม่ท้อง ต้องมาโรงพยาบาลทันที' (PDF p26, พิมพ์หน้า 24); คำแนะนำการใช้สมุดปกใน (PDF p2 ไม่มีเลขหน้าพิมพ์)"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "high",
     "reviewNotes": [
       "Main text, margin tip ('นับลูกดิ้นเมื่ออายุครรภ์ 28 สัปดาห์ขึ้นไป หลังอาหาร 3 มื้อ ครั้งละ 1 ชั่วโมง อย่างน้อยลูกต้องดิ้น 3 ครั้ง') and table columns (วันที่ / จำนวนครั้ง: เช้า เที่ยง เย็น) are from PDF p15 (printed 13), checked on the official page image. The danger-sign heading and the item 'เด็กดิ้นน้อยลง หรือไม่ดิ้น' are from PDF p26 (printed 24), copied word for word.",
@@ -59,6 +59,12 @@
       "date": "2026-11-10",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-REC-003 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

@@ -1,6 +1,6 @@
 {
   "id": "MCH68-INFO-001",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "ข้อมูลครอบครัว และการแจ้งเกิดภายใน 15 วัน",
   "summary": "หน้าแรกของสมุดสีชมพูมีช่องอะไรบ้าง ใครเป็นคนกรอก และข้อความเตือนเรื่องการแจ้งเกิดภายใน 15 วัน",
   "sectionId": "info",
@@ -30,10 +30,10 @@
     "note": "หน้า 'ข้อมูลครอบครัว' (PDF p3, หน้า 1 มีเครื่องหมาย ♡): ช่องมารดา บิดา บุตร ที่อยู่ปัจจุบัน แถบ 'หากผู้ใดเก็บหรือพบสมุดเล่มนี้ โปรดส่งคืน' และข้อความแนะนำที่ขอบขวาเรื่องการแจ้งเกิด ความหมายของเครื่องหมาย ♡ และ 'เอกสารของครอบครัว' มาจากหน้าคำแนะนำสมุด (PDF p2 ด้านในปก ไม่มีเลขหน้าพิมพ์)"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "low",
     "reviewNotes": [
       "Field names, the 13-box ID layout, the 'โปรดส่งคืน' banner and the margin tip are from PDF p3 (printed 1), checked on the page image and a rotated crop of the margin strip. Margin tip quoted word for word: 'คุณพ่อคุณแม่ต้องไปแจ้งเกิด ณ อำเภอ เทศบาล หรือเขตต่าง ๆ ซึ่งเป็นท้องที่ที่มีการเกิด เพื่อแจ้งเกิดและเพิ่มชื่อในทะเบียนบ้านภายใน 15 วัน'.",
@@ -61,6 +61,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-INFO-001 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

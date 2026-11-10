@@ -1,6 +1,6 @@
 {
   "id": "MCH68-K-008",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "การเก็บและละลายน้ำนมแม่",
   "summary": "น้ำนมแม่เก็บได้นานเท่าไรในแต่ละที่ และวิธีละลายนมแช่แข็งตามที่สมุดแนะนำ",
   "sectionId": "knowledge",
@@ -29,10 +29,10 @@
     "note": "ส่วน 'การเก็บน้ำนมแม่' ครึ่งล่างของหน้าการเลี้ยงลูกด้วยนมแม่: ตาราง 7 แถว (สถานที่เก็บ / อุณหภูมิ (°C) / ระยะเวลาเก็บ) และข้อแนะนำการละลาย 3 ข้อ"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "medium",
     "reviewNotes": [
       "Every temperature and storage time (7-row table) and the 3 thawing rules are from PDF p28 (printed 26), checked on a 200-dpi crop of the official page image: room >25 °C 1 ชั่วโมง; room 16-25 °C 4 ชั่วโมง; กระติกน้ำแข็ง 15 °C 24 ชั่วโมง; ตู้เย็นช่องปกติ 2-8 °C 96 ชั่วโมง (4 วัน); ช่องแช่แข็ง ตู้เย็นประตูเดียว ไม่คงที่ 14 วัน; ช่องแช่แข็ง ตู้เย็น 2 ประตู น้อยกว่า -4 °C 3 เดือน; ตู้แช่แข็ง น้อยกว่า -19 °C 6 เดือน.",
@@ -61,6 +61,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-K-008 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

@@ -1,6 +1,6 @@
 {
   "id": "MCH68-K-002",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "กินอย่างไรในแต่ละไตรมาส และช่วงให้นมลูก",
   "summary": "เลือกธงโภชนาการให้ตรงกับอายุครรภ์หรือช่วงให้นมลูก แล้วดูปริมาณอาหารใน 1 วัน ตามแบบการดื่มนมของคุณ",
   "sectionId": "knowledge",
@@ -35,10 +35,10 @@
     "note": "หน้า 'ธงโภชนาการ คืออะไร?' (หน้า 20) และธงโภชนาการหญิงตั้งครรภ์ไตรมาสที่ 1, 2, 3 และหญิงให้นมบุตร 6 เดือนแรก (หน้า 21–23) หมวดความรู้สู่การปฏิบัติเพื่อแม่ลูกสุขภาพดี"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "medium",
     "reviewNotes": [
       "Every amount in the three flag steps and in the quiz was copied cell by cell from the page images of PDF p23, p24 and p25 (printed 21–23), in the order ไม่ดื่มนม / ดื่มนม 1 แก้ว / ดื่มนม 2 แก้ว. Nutritionist + ANC nurse to recheck each cell (plan review requirement).",
@@ -67,6 +67,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-K-002 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

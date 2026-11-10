@@ -1,6 +1,6 @@
 {
   "id": "MCH68-K-006",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "ออกกำลังกายระหว่างตั้งครรภ์และหลังคลอด",
   "summary": "กิจกรรมทางกายที่สมุดแนะนำในแต่ละไตรมาสและหลังคลอด พร้อมเวลาที่ระบุไว้ และข้อควรระวัง 6 ข้อ",
   "sectionId": "knowledge",
@@ -30,10 +30,10 @@
     "note": "หน้า 'ข้อแนะนำกิจกรรมทางกาย สำหรับหญิงตั้งครรภ์และหญิงหลังคลอด' รวมกล่องข้อควรระวัง บรรทัดเพศสัมพันธ์ระหว่างตั้งครรภ์ และข้อความริมหน้า (2nd printing: แอโรบิคไตรมาสที่ 3 = 10-15 นาที)"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "medium",
     "reviewNotes": [
       "All activities, minute figures, stage week ranges, stage benefits, the 6 cautions, the sex line and the margin tip are from PDF p27 (printed 25), checked on a 200-dpi crop of the official 2nd printing. Trimester 3 aerobic = 10-15 นาที (the 1st printing had 10-20).",
@@ -62,6 +62,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-K-006 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

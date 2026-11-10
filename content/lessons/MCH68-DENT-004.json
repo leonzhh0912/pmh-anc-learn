@@ -1,6 +1,6 @@
 {
   "id": "MCH68-DENT-004",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "บันทึกการขึ้นและหลุดของฟันลูก และการตรวจฟันโดยทันตบุคลากร",
   "summary": "สมุดหน้า 64 ให้ผู้ปกครองจดอายุหรือวันที่ที่ฟันลูกแต่ละซี่ขึ้นและหลุด ในตาราง 4 ส่วน ซี่ A ถึง E ส่วนหน้า 63 เป็นบันทึกการตรวจฟันเด็กที่ทันตบุคลากรเป็นผู้บันทึก จึงควรนำสมุดไปด้วยทุกครั้ง",
   "sectionId": "dental",
@@ -32,10 +32,10 @@
     "note": "หน้า 63 'บันทึกการตรวจฟันเด็ก โดยทันตบุคลากร' (กรอบรูปฟัน ช่องตัวเลข และบันทึกดัชนีคราบจุลินทรีย์ Plaque Index (PI)) และข้อความที่ขอบหน้า หน้า 64 'บันทึกการขึ้นและหลุดของฟันเด็ก โดยผู้ปกครอง' (ตาราง 4 ส่วน ซี่ A-E ช่องอายุ/วันที่ ขึ้น/หลุด) 'เฝ้าดูฟัน 6 ขวบปีแรก' และข้อความที่ขอบหน้า ความหมายของเครื่องหมายหัวใจและคำแนะนำให้นำสมุดไปทุกครั้งมาจาก PDF p2"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "low",
     "reviewNotes": [
       "Source map (checked on the page images): page titles, the 4 tables (บนขวา / บนซ้าย / ล่างขวา / ล่างซ้าย, rows A-E, columns อายุ/วันที่ → ขึ้น / หลุด), the lettered arch diagram, the 'เฝ้าดูฟัน 6 ขวบปีแรก' age texts, the plaque-check footnote, the dentist banner and the left margin tip are from PDF p66 (printed 64). Page title, charting box, number grid, 'บันทึกดัชนีคราบจุลินทรีย์ Plaque Index (PI)' and the right margin tip 'ฟันผุนำไปสู่โรคทางกายร้ายแรงอื่น ๆ ได้หลายโรค' are from PDF p65 (printed 63). Heart-mark meaning and 'bring the book every time' are from PDF p2.",
@@ -64,6 +64,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-DENT-004 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

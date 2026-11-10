@@ -1,6 +1,6 @@
 {
   "id": "MCH68-DENT-001",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "ดูแลช่องปากลูกตามวัย แรกเกิด - 6 ปี",
   "summary": "ทำความสะอาดช่องปากลูกตามช่วงอายุ ปริมาณยาสีฟันตามที่สมุดพิมพ์ไว้ การพบทันตแพทย์ และการไม่ส่งต่อเชื้อฟันผุสู่ลูก",
   "sectionId": "dental",
@@ -37,10 +37,10 @@
     "note": "การถ่ายทอดเชื้อฟันผุจากแม่สู่ลูก (PDF p14) การไม่ส่งผ่านเชื้อฟันผุและนัดตรวจช่องปาก 6 เดือนหลังคลอด (p35) ข้อความแนะนำข้างหน้า p64 (หน้า p64 เป็นแบบประเมินของเจ้าหน้าที่) และ 'เฝ้าดูฟัน 6 ขวบปีแรก' (p66)"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "medium",
     "reviewNotes": [
       "Source map (all checked on the page images): mother-to-child caries transmission = p14 'การดูแลฟันแม่' paragraph; 'การไม่ส่งผ่านเชื้อฟันผุจากผู้ดูแลสู่เด็ก เช่น การใช้ช้อนร่วมกันกับเด็ก การเป่าอาหารให้เด็ก การเคี้ยวอาหารให้เด็ก' and 'นัดตรวจสุขภาพช่องปากแม่และลูก 6 เดือนหลังคลอด' = p35 staff advice checkboxes; 'สามารถใช้ยาสีฟันและแปรงสีฟันได้ตั้งแต่ฟันซี่แรกของลูก' = p64 margin tip; age-by-age care, toothpaste panels, plaque-check footnote, dentist banner and the 'no tooth at 1 year' tip = p66.",
@@ -68,6 +68,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-DENT-001 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

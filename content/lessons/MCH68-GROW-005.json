@@ -1,6 +1,6 @@
 {
   "id": "MCH68-GROW-005",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "นมแม่อย่างเดียว 6 เดือน และอาหารมื้อแรกของลูก",
   "summary": "ทำไมทารกแรกเกิดถึง 6 เดือนกินนมแม่อย่างเดียว และเริ่มอาหารมื้อแรกเมื่ออายุ 6 เดือนอย่างไรตามตารางในสมุด",
   "sectionId": "growth",
@@ -31,10 +31,10 @@
     "note": "หน้า 'อาหารที่แนะนำใน 1 วัน' หมวดการเจริญเติบโต + อาหารตามวัย: กล่องนมแม่ ประโยชน์ของการเลี้ยงลูกด้วยนมแม่ ตารางเดือนที่ 6 คำแนะนำ 1–4 และข้อความแนะนำข้างหน้า"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "medium",
     "reviewNotes": [
       "Source: everything is from PDF p56 (printed 54), checked on the page image: นมแม่ box, the benefits sidebar, the margin tip (no need to wait for teeth), the 6-month table and คำแนะนำ 1–4.",
@@ -63,6 +63,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-GROW-005 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

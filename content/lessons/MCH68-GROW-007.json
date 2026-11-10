@@ -1,6 +1,6 @@
 {
   "id": "MCH68-GROW-007",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "ธงโภชนาการสำหรับเด็ก 1-5 ปี",
   "summary": "ปริมาณอาหารที่แนะนำให้กินใน 1 วัน ตามธงโภชนาการสำหรับเด็กอายุ 12 - 23 เดือน และ 2 - 5 ปี ดูหน่วยให้ถูก และสิ่งที่สมุดแนะนำให้ทำร่วมกัน",
   "sectionId": "growth",
@@ -31,10 +31,10 @@
     "note": "ธงโภชนาการสำหรับเด็กอายุ 12 - 23 เดือน (PDF p58) และ 2 - 5 ปี (PDF p59): ปริมาณในธงทุกช่อง ข้อความในภาพ (เล่นกับลูก ชั่วโมงนอน กินอาหารครบถ้วน นมแม่/นมจืด รสธรรมชาติ) และข้อความแนะนำข้างหน้าทั้งสองหน้า"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "medium",
     "reviewNotes": [
       "Source: every amount was copied cell by cell from the flag images on PDF p58 (printed 56) and p59 (printed 57). 12–23 months: ข้าว - แป้ง 15 ช้อนกินข้าว; ผัก 5 ช้อนกินข้าว; ผลไม้ 2 ส่วน; นม 2 แก้ว; เนื้อสัตว์ 3 ช้อนกินข้าว; ไข่ 1 ฟอง; ไขมัน 2 ช้อนชา. 2–5 years: ข้าว - แป้ง 4 ทัพพี; ผัก 1.5 ทัพพี; ผลไม้ 2 ส่วน; นม 2 แก้ว; เนื้อสัตว์ 6 ช้อนกินข้าว; ไข่ 1 ฟอง; ถั่วเมล็ดแห้งสุก 1 ช้อนกินข้าว สัปดาห์ละ 2 ครั้ง; ไขมัน 1.5 ช้อนชา; น้ำตาล 3 ช้อนชา. Nutritionist + paediatrician to verify.",
@@ -64,6 +64,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-GROW-007 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

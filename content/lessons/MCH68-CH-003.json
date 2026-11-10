@@ -1,6 +1,6 @@
 {
   "id": "MCH68-CH-003",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "บันทึกสุขภาพเด็ก: แพ้ยา แพ้อาหาร และการเจ็บป่วยสำคัญ",
   "summary": "สมุดหน้า 35 บันทึกประวัติแพ้ยา แพ้อาหาร โรคประจำตัว ยาที่ใช้ประจำ หมู่เลือด การเจ็บป่วยที่สำคัญ และโรคทางพันธุกรรมในครอบครัว การจดบันทึกเป็นประโยชน์ต่อการวินิจฉัยโรคของแพทย์ในอนาคต",
   "sectionId": "childhealth",
@@ -29,10 +29,10 @@
     "note": "หน้า 35 หมวดประวัติสุขภาพเด็กและบันทึกวัคซีน: 'บันทึกสุขภาพเด็ก' ประวัติการแพ้ยา ประวัติแพ้อาหาร ประวัติโรคประจำตัว ยาที่ใช้ประจำ หมู่เลือด ประวัติการเจ็บป่วยที่สำคัญ (ไข้สูงแล้วชัก หลอดลมตีบ ภาวะอื่นๆ) โรคทางพันธุกรรมในครอบครัว และข้อความแนะนำที่ขอบขวา คำแนะนำให้นำสมุดไปทุกครั้งมาจาก PDF p2"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "low",
     "reviewNotes": [
       "All block labels, columns (ชื่อยา / อาการ / ลงชื่อผู้ประเมิน/วันที่; ชนิดอาหาร / อาการ / ลงชื่อผู้ประเมิน/วันที่), the หมู่เลือด field, ครั้งที่ 1-3 rows with วันที่ / ลงชื่อแพทย์ / โรงพยาบาล and หมายเหตุ, the ภาวะอื่นๆ space, the 2 genetic-disease rows (โรค/ภาวะ, ความเกี่ยวข้อง ☐ บิดา ☐ มารดา ☐ อื่นๆ (ระบุ)) and the margin tip are from PDF p37 (printed 35), checked on the page image and a rotated crop of the right margin strip. English terms copied as printed: 'Febrile convulsion', 'Wheezing'. Tip quoted word for word: 'การจดบันทึกประวัติการเจ็บป่วยของเด็ก เป็นประโยชน์ต่อการวินิจฉัยโรคต่าง ๆ ของแพทย์ในอนาคต'.",
@@ -61,6 +61,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-CH-003 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

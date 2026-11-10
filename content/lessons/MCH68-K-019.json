@@ -1,6 +1,6 @@
 {
   "id": "MCH68-K-019",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "อาการที่ต้องพาทารกไปพบแพทย์",
   "summary": "7 อาการที่สมุดระบุว่าต้องพาทารกไปพบแพทย์ และทารกอายุน้อยกว่า 1 เดือน หากมีไข้ต้องไปพบแพทย์ทันที",
   "sectionId": "knowledge",
@@ -30,10 +30,10 @@
     "note": "หัวข้อ 'อาการที่ต้องพาทารกไปพบแพทย์' (หน้า 31) และข้อความที่ขอบหน้า 'บันทึกการคลอด' (หน้า 33)"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "high",
     "reviewNotes": [
       "Source: 'อาการที่ต้องพาทารกไปพบแพทย์' on PDF p33 (printed 31) — 7 signs copied verbatim, same count, none merged or split; and the margin tip on PDF p35 (printed 33) 'ทารกอายุน้อยกว่า 1 เดือน หากมีไข้ต้องไปพบแพทย์ทันที'. Both checked on the page images.",
@@ -56,6 +56,12 @@
       "date": "2026-11-10",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-K-019 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

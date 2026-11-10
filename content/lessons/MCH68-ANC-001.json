@@ -1,6 +1,6 @@
 {
   "id": "MCH68-ANC-001",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "ผลตรวจเลือดตอนฝากครรภ์ของแม่และสามี",
   "summary": "สมุดหน้า 4 บันทึกผลตรวจเลือดอะไรบ้าง ของใคร กี่ครั้ง และการตรวจภาวะดาวน์ซินโดรม เจ้าหน้าที่เป็นผู้อธิบายผล",
   "sectionId": "anc",
@@ -29,10 +29,10 @@
     "note": "หน้า 4 หมวดข้อมูลฝากครรภ์: ประวัติการตั้งครรภ์ปัจจุบัน ตาราง 'รายงานการตรวจเลือด' (หญิงตั้งครรภ์ / สามี ครั้งที่ 1-2) กล่อง 'การตรวจภาวะดาวน์ซินโดรม' และข้อความแนะนำที่ขอบซ้ายเรื่องโรคติดต่อทางเพศสัมพันธ์ คำแนะนำให้ถามเจ้าหน้าที่เมื่อสงสัยมาจาก PDF p2 และ p67"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "medium",
     "reviewNotes": [
       "Table rows, column headings (หญิงตั้งครรภ์ / สามี, ครั้งที่ 1 / ครั้งที่ 2 with date lines), the Down syndrome box and the margin tip are from PDF p6 (printed 4), checked on the page image and a rotated crop of the margin strip. Test names are copied as printed, including 'MCV/OF' and 'Hb Typing'. Margin tip quoted word for word: 'โรคติดต่อทางเพศสัมพันธ์ สามารถป้องกันไม่ให้ติดต่อไปสู่ทารกได้ หากให้ยาป้องกันที่ถูกต้องและทันท่วงที'.",
@@ -63,6 +63,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-ANC-001 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

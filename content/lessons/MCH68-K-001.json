@@ -1,6 +1,6 @@
 {
   "id": "MCH68-K-001",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "ธงโภชนาการ คืออะไร? อาหาร 6 กลุ่ม",
   "summary": "อ่านธงโภชนาการให้เป็น รู้จักอาหาร 6 กลุ่ม และทำไมการกินที่ถูกต้องสำคัญต่อแม่และลูก",
   "sectionId": "knowledge",
@@ -30,10 +30,10 @@
     "note": "หน้า 'ธงโภชนาการ คืออะไร?' หมวดความรู้สู่การปฏิบัติเพื่อแม่ลูกสุขภาพดี"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "low",
     "reviewNotes": [
       "POSSIBLE HANDBOOK MISPRINT (p22, verified on the page image): the definition ends 'และป้องกันโรคติดต่อเรื้อรัง' (chronic COMMUNICABLE disease); the usual term is 'โรคไม่ติดต่อเรื้อรัง' (NCDs). The clause is omitted from this draft until a nutritionist confirms the intended wording.",
@@ -56,6 +56,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-K-001 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

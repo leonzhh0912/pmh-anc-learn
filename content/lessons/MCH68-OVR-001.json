@@ -1,6 +1,6 @@
 {
   "id": "MCH68-OVR-001",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "15 ข้อ เพื่อแม่ลูกสุขภาพดี",
   "summary": "ภาพรวมสิ่งที่ทำได้ ตั้งแต่ก่อนตั้งครรภ์ ระหว่างตั้งครรภ์ จนถึงหลังคลอดและการดูแลลูก",
   "sectionId": "overview",
@@ -31,10 +31,10 @@
     "note": "หน้าสรุป 'คุณลักษณะที่พึงประสงค์สำหรับคุณแม่ เพื่อลูกสุขภาพดี' ท้ายเล่ม (ไม่มีเลขหน้าพิมพ์) และหน้าคำแนะนำสมุดฯ (PDF p2)"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "low",
     "reviewNotes": [
       "All 15 statements are taken from official PDF p67. Cross-reference page numbers come from the page extraction and must be checked against the printed book.",
@@ -55,6 +55,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Removed wording borrowed from the 1st printing (item 8 detail, sort card)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

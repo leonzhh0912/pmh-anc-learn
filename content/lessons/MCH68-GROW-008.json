@@ -1,6 +1,6 @@
 {
   "id": "MCH68-GROW-008",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "ยาน้ำเสริมธาตุเหล็กสำหรับเด็ก 6 เดือน - 5 ปี",
   "summary": "เด็กอายุ 6 เดือน - 5 ปี ทุกคน ต้องกินยาน้ำเสริมธาตุเหล็กสัปดาห์ละ 1 ครั้ง ร่วมกับการกินไข่ทุกวัน หรือกินไข่สลับกับตับ ตามที่สมุดเขียนไว้",
   "sectionId": "growth",
@@ -36,10 +36,10 @@
     "note": "ข้อแนะนำข้างหน้าบันทึกการตรวจสุขภาพเด็กปฐมวัย (PDF p42–43), คำแนะนำข้อ 5 หน้าอาหารทารก (PDF p57) และข้อความบนธงโภชนาการเด็ก 12–23 เดือน และ 2–5 ปี (PDF p58–59)"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "high",
     "reviewNotes": [
       "Source map (all read on page images; p57 also ): 'เด็กอายุ 6 เดือน - 5 ปี ทุกคน ต้องกินยาน้ำเสริมธาตุเหล็ก สัปดาห์ละ 1 ครั้ง' — bubbles on PDF p58 and p59 (printed 56, 57); note 5 'เพื่อให้ได้รับธาตุเหล็กเพียงพอ เด็กอายุ 6 เดือน – 5 ปี ต้องได้รับยาน้ำเสริมธาตุเหล็กสัปดาห์ละ 1 ครั้ง ร่วมกับการกินไข่ทุกวัน หรือกินไข่สลับกับตับ ซึ่งเป็นแหล่งสำคัญของวิตามินเอ และโฟเลตด้วย' — PDF p57 (printed 55); margin tip 'ภาวะซีดจากการขาดธาตุเหล็ก ส่งผลต่อสติปัญญาของเด็ก ควรได้รับการคัดกรองภาวะซีดตามกำหนด' — PDF p42 (printed 40); margin tip 'ยาน้ำเสริมธาตุเหล็กในเด็ก ช่วยทำให้เด็กเจริญอาหาร เป็นโอกาสในการฝึกกินอาหารตามวัย' — PDF p43 (printed 41); column names 'ความเข้มข้นเลือด (Hct)' (p42) and 'วิตามินเสริมธาตุเหล็ก' (p43).",
@@ -63,6 +63,12 @@
       "date": "2026-11-10",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-GROW-008 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

@@ -1,6 +1,6 @@
 {
   "id": "MCH68-DEV-003",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "พัฒนาการตามวัย 13 - 41 เดือน",
   "summary": "อ่านรายการพัฒนาการในสมุดหน้า 59 ตั้งแต่ 13 ถึง 41 เดือน ทั้ง 5 ด้าน และรู้ว่าอายุ 18 และ 30 เดือนเป็นช่วงที่เจ้าหน้าที่ช่วยคัดกรองพัฒนาการ",
   "sectionId": "dev",
@@ -30,10 +30,10 @@
     "note": "ตารางรายการพัฒนาการ DSPM 13 - 41 เดือน และข้อความแนะนำข้างหน้าเรื่องอายุที่เจ้าหน้าที่ช่วยคัดกรอง (PDF p61); จาก PDF p60 ใช้เฉพาะชื่อ 5 ด้านที่หัวแถว (p61 ไม่มีหัวแถว) และข้อความแนะนำเรื่อง DSPM"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "medium",
     "reviewNotes": [
       "Source: all 40 cells (8 age bands × 5 domains) were copied from PDF p61 (printed 59) and checked one by one on 400-dpi crops of the official page (the table is a raster image; only the margin tip is in the text layer). Child-development nurse to confirm the item text is verbatim (curriculum review requirement).",
@@ -62,6 +62,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-DEV-003 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

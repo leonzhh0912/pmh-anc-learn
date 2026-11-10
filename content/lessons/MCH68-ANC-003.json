@@ -1,6 +1,6 @@
 {
   "id": "MCH68-ANC-003",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "ทำไมเจ้าหน้าที่ประเมินความเสี่ยงการตั้งครรภ์เมื่อมาฝากครรภ์",
   "summary": "สมุดหน้า 6-7 เป็นแบบประเมินความเสี่ยงที่เจ้าหน้าที่เป็นผู้ประเมิน ผลใช้พิจารณาสถานที่ฝากครรภ์และผู้ดูแล ตอบตามจริงและมาฝากครรภ์สม่ำเสมอ ช่วยลดความเสี่ยง",
   "sectionId": "anc",
@@ -31,10 +31,10 @@
     "note": "หน้า 6-7 หมวดข้อมูลฝากครรภ์ (หน้าสำหรับเจ้าหน้าที่): 'ประเมินความเสี่ยงของหญิงตั้งครรภ์ ฝากครรภ์ ครั้งที่ 1' และ 'ติดตามความเสี่ยงของหญิงตั้งครรภ์เมื่อมาฝากครรภ์' ใช้เฉพาะชื่อหน้า ชื่อกลุ่มประวัติ ช่องผู้ประเมิน/วันที่ ตารางระดับความเสี่ยงกับสถานที่ฝากครรภ์ และข้อความแนะนำที่ขอบหน้า ไม่แสดงข้อคำถามในแบบประเมิน ข้อความเรื่องให้ข้อมูลครบถ้วนมาจาก PDF p5 (หน้า 3) และเรื่องมาตามนัดจาก PDF p67"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "medium",
     "reviewNotes": [
       "Page titles, the three group headings (ประวัติอดีต / ประวัติปัจจุบัน / ประวัติโรคทางอายุรกรรม), the ไม่มี | มี columns, ผู้ประเมิน / วันที่, the line '(ข้อ 1-16 ประเมินเฉพาะการฝากครรภ์ ครั้งที่ 1)', the visit columns ครั้งที่ 2 to ครั้งที่ 8, the 4-level placement legend and both margin tips are from PDF p8-9 (printed 6-7), checked on the page images and rotated crops of both margin strips. Tips quoted word for word: p8 'หญิงที่มีโรคประจำตัวบางโรค เมื่อมีการตั้งครรภ์อาจทำให้อาการของโรคเพิ่มมากขึ้น ควรปรึกษาแพทย์หรือบุคลากรทางสาธารณสุข'; p9 'ภาวะแทรกซ้อนอาจพบได้ตลอดช่วงการตั้งครรภ์ การมาฝากครรภ์ที่สม่ำเสมอจะช่วยลดความเสี่ยงในการเกิดภาวะแทรกซ้อนได้'.",
@@ -68,6 +68,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-ANC-003 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

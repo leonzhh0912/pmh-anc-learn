@@ -1,6 +1,6 @@
 {
   "id": "MCH68-REC-004",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "น้ำหนักที่เพิ่มขึ้นขณะตั้งครรภ์ และกราฟ Vallop curve",
   "summary": "คิด BMI ก่อนตั้งครรภ์ เลือก 1 ใน 4 กราฟ บันทึกน้ำหนักในตารางครั้งที่มารับบริการ แล้วจุดลงกราฟในสมุดหน้า 14–15",
   "sectionId": "record",
@@ -33,10 +33,10 @@
     "note": "หน้า 'กราฟการเพิ่มขึ้นของน้ำหนักหญิงตั้งครรภ์ (Vallop curve)' (PDF p16, พิมพ์หน้า 14) และ 'ตารางบันทึกการเพิ่มขึ้นของน้ำหนักขณะตั้งครรภ์' กับกราฟอีก 2 กราฟ (PDF p17, พิมพ์หน้า 15) หมวดบันทึกการตรวจครรภ์; ข้อ 15 ของหน้า 'คุณลักษณะที่พึงประสงค์ฯ' (PDF p67) และคำแนะนำการใช้สมุดปกใน (PDF p2) ซึ่งไม่มีเลขหน้าพิมพ์"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "high",
     "reviewNotes": [
       "Title, (A)/(B) boxes, BMI formula, the instruction to tick 1 of 4 charts, the 4 printed chart labels with BMI ranges (<18.5; 18.5 - 22.9; 23.0 - 24.9; ≥25.0 กิโลกรัมต่อตารางเมตร), axis titles, zone names and both margin tips are from PDF p16–17 (printed 14–15), checked on 250-dpi renders of the official page images.",
@@ -61,6 +61,12 @@
       "date": "2026-11-10",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-REC-004 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

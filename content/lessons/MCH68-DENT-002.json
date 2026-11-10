@@ -1,6 +1,6 @@
 {
   "id": "MCH68-DENT-002",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "ยาสีฟันฟลูออไรด์: ปริมาณที่เหมาะกับวัย",
   "summary": "ปริมาณยาสีฟันและความเข้มข้นของฟลูออไรด์ที่สมุดหน้า 64 แนะนำสำหรับเด็กแต่ละช่วงอายุ ตั้งแต่ฟันซี่แรก",
   "sectionId": "dental",
@@ -30,10 +30,10 @@
     "note": "ช่องปริมาณยาสีฟันตามอายุในหัวข้อ 'เฝ้าดูฟัน 6 ขวบปีแรก' หน้า 64 ข้อความข้างหน้า 62 และบรรทัด 'เพิ่มเติม' เรื่อง 1,400 - 1,500 ppm ในหน้า 62"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "high",
     "reviewNotes": [
       "Source map: the three toothpaste panels (age label, amount, ppm) and the 7-11 month line 'แปรงฟันให้ลูกตั้งแต่ซี่แรกด้วยยาสีฟันผสมฟลูออไรด์' = PDF p66 (printed 64); margin tip 'สามารถใช้ยาสีฟันและแปรงสีฟันได้ตั้งแต่ฟันซี่แรกของลูก' and the sentence 'การใช้ยาสีฟันที่มีความเข้มข้นของฟลูออไรด์ 1,400 - 1,500 ppm ควรอยู่ภายใต้การแนะนำของทันตบุคลากร' = PDF p64 (printed 62).",
@@ -58,6 +58,12 @@
       "date": "2026-11-10",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-DENT-002 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

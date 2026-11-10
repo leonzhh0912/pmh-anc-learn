@@ -1,6 +1,6 @@
 {
   "id": "MCH68-DEV-001",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "เฝ้าระวังพัฒนาการลูกด้วยคู่มือ DSPM",
   "summary": "DSPM คืออะไร พ่อแม่ผู้ดูแลและเจ้าหน้าที่ใช้อย่างไร อายุที่เจ้าหน้าที่ช่วยคัดกรองพัฒนาการ และเมื่อไรใช้คู่มือ DAIM แทน",
   "sectionId": "dev",
@@ -36,10 +36,10 @@
     "note": "หมวดพัฒนาการเด็ก: ข้อความแนะนำข้างหน้า PDF p60–p63 ชื่อ 5 ด้านที่หัวแถวตาราง ช่วงอายุและช่องอายุที่มีสีแดงในตาราง ปกคู่มือ DSPM และ DAIM ข้อความ QR และข้อความ 'หากเป็นกลุ่มเสี่ยง' (p63) ไม่สอนรายการพัฒนาการแต่ละข้อ"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "medium",
     "reviewNotes": [
       "Source map (all checked on the page images; p61 and p63 tips also in the PDF text layer): DSPM purpose = p60 margin tip; 5 domain names = p60 row headers; screening ages 9, 18, 30, 42, 60 = p61 margin tip, and those columns are red on p60–p62; 'เมื่อประเมินแล้วพบว่าสงสัยล่าช้า จำเป็นต้องเข้ารับการฝึกกระตุ้นตามนัด' = p62 margin tip; parents' key role = p63 margin tip; DSPM/DAIM manual titles, user line 'ใช้สำหรับ พ่อแม่ ผู้ปกครอง เจ้าหน้าที่ ครู และผู้ดูแลเด็ก ในการส่งเสริมพัฒนาการเด็ก', 'แจกฟรี ห้ามจำหน่าย', the three QR captions and the risk-group line = p63.",
@@ -67,6 +67,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-DEV-001 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

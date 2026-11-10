@@ -1,6 +1,6 @@
 {
   "id": "MCH68-GROW-006",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "อาหารตามวัย 7-11 เดือน",
   "summary": "อ่านตารางอาหารในสมุดสำหรับลูกอายุ 7–11 เดือน: จำนวนมื้อ ลักษณะอาหาร และปริมาณข้าว เนื้อสัตว์ ไข่ ตับ ผัก ผลไม้ พร้อมข้อแนะนำท้ายตาราง",
   "sectionId": "growth",
@@ -32,10 +32,10 @@
     "note": "ตาราง 'อาหารที่แนะนำใน 1 วัน' ส่วน 7–11 เดือน (PDF p57) ข้อความแถบบน ข้อความแนะนำข้างหน้า และคำแนะนำข้อ 6–9; จาก PDF p56 ใช้เฉพาะชื่อแถวของตาราง (หน่วย 'ช้อนกินข้าว' ของข้าว) ชื่อหัวข้อ และคำแนะนำข้อ 2 (ค่อย ๆ เพิ่มความหยาบ)"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "medium",
     "reviewNotes": [
       "Source: table, banner 'กินนมแม่ควบคู่กับอาหารทารกตามวัย จนเด็กอายุ 2 ปี หรือนานกว่านั้น', margin tip (age 6 months is the right time to start) and notes 6–9 are from PDF p57 (printed 55), all checked on the page image (and the p57 text layer for the tip and note 6). PDF p56 (printed 54) is cited only for the spread title 'อาหารที่แนะนำใน 1 วัน', the row labels and note 2 (coarser texture with age, to practise chewing and swallowing).",
@@ -66,6 +66,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-GROW-006 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

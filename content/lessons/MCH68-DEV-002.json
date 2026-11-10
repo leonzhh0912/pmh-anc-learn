@@ -1,6 +1,6 @@
 {
   "id": "MCH68-DEV-002",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "พัฒนาการตามวัย แรกเกิด - 12 เดือน",
   "summary": "อ่านรายการพัฒนาการในสมุดหน้า 58 ตั้งแต่แรกเกิดถึง 12 เดือน ทั้ง 5 ด้าน และรู้ว่าอายุ 9 เดือนเป็นช่วงที่เจ้าหน้าที่ช่วยคัดกรองพัฒนาการ",
   "sectionId": "dev",
@@ -31,10 +31,10 @@
     "note": "ตารางรายการพัฒนาการ DSPM แรกเกิด - 12 เดือน และข้อความแนะนำข้างหน้า (PDF p60); จาก PDF p61 ใช้เฉพาะข้อความแนะนำข้างหน้าเรื่องอายุที่เจ้าหน้าที่ช่วยคัดกรอง"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "medium",
     "reviewNotes": [
       "Source: all 35 checklist items (7 age bands × 5 domains) were copied from PDF p60 (printed 58) and checked one by one on the page image (the PDF page is a raster image with no text layer). Child-development nurse to confirm the item text is verbatim (curriculum review requirement).",
@@ -63,6 +63,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-DEV-002 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

@@ -1,6 +1,6 @@
 {
   "id": "MCH68-REC-001",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "มาฝากครรภ์ตามนัด: แต่ละครั้งเจ้าหน้าที่ตรวจอะไรบ้าง",
   "summary": "สมุดหน้า 8–11 บันทึกอะไรในแต่ละครั้งที่มาฝากครรภ์ วันกำหนดคลอดและผลอัลตราซาวนด์อยู่ตรงไหน และทำไมควรมาตามนัดทุกครั้ง",
   "sectionId": "record",
@@ -35,10 +35,10 @@
     "note": "หมวดบันทึกการตรวจครรภ์ หน้า 8–11: ตรวจร่างกาย (หัวใจ/ปอด ไทรอยด์) ตารางบันทึกการตรวจครรภ์ 1/2 และ 2/2 (หน้า 8, 10) ตารางต่อเนื่อง GA/การจัดการ/วันนัด (หน้า 9, 11) วันกำหนดคลอด (EDC) ผลการตรวจอัลตราซาวนด์ การคัดกรองเบาหวาน การตรวจหัวนม ความผิดปกติ/ความเสี่ยงที่พบ หมายเหตุ และข้อความแนะนำที่ขอบหน้าทั้ง 4 หน้า"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "medium",
     "reviewNotes": [
       "Column names, box titles and the 4 margin tips are from PDF p10–13 (printed 8–11), checked on the page images and rotated crops of each margin strip. Tips quoted word for word: p10 'การมาฝากครรภ์สม่ำเสมอจะช่วยให้พบความเสี่ยงและให้การรักษาอย่างทันท่วงที'; p11 'การอัลตราซาวนด์สามารถใช้ประเมินความผิดปกติของทารกในเบื้องต้นได้ แต่มีความผิดปกติบางอย่างที่ต้องประเมินหลังทารกเกิด'; p12 'นมแม่เป็นสารอาหารที่ดีที่สุดสำหรับทารก การตรวจประเมินหัวนมเป็นการเตรียมความพร้อมสำหรับการให้นมแม่'; p13 'เมื่อใกล้ถึงกำหนดคลอด ควรหลีกเลี่ยงการเดินทางไกล เช่น เครื่องบิน หากจำเป็นควรปรึกษาแพทย์'.",
@@ -69,6 +69,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-REC-001 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

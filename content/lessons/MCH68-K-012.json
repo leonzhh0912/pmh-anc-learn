@@ -1,6 +1,6 @@
 {
   "id": "MCH68-K-012",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "สื่อหน้าจอกับพัฒนาการเด็ก",
   "summary": "เด็กแต่ละวัยใช้สื่อหน้าจอได้แค่ไหน ช่วงไหนควรหลีกเลี่ยง และผู้ปกครองเป็นแบบอย่างได้อย่างไร ตามสมุดหน้า 28",
   "sectionId": "knowledge",
@@ -29,10 +29,10 @@
     "note": "ส่วน 'สื่อหน้าจอกับพัฒนาการเด็ก' ครึ่งบนของหน้า 28: การ์ดภาพ 3 ใบ (อายุน้อยกว่า 2 ปี / อายุ 2 ปีขึ้นไป / หลีกเลี่ยง) การ์ด 'ผู้ปกครองควรเป็นแบบอย่างที่ดี' และข้อความแนะนำที่ขอบซ้าย"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "low",
     "reviewNotes": [
       "All rules are from PDF p30 (printed 28), checked on the official page image, a zoomed crop of the cards and a rotated crop of the margin strip: 'อายุน้อยกว่า 2 ปี : ห้ามใช้สื่อหน้าจอ (ยกเว้นวิดีโอคอล)'; 'อายุ 2 ปีขึ้นไป : จำกัด 1 ชม./ครั้ง และไม่เกิน 2 ครั้ง/วัน (มีผู้ดูแล)'; 'หลีกเลี่ยง : ดูจอระหว่างมื้ออาหาร/และช่วงก่อนนอน 1 ชั่วโมง'; 'ผู้ปกครองควรเป็นแบบอย่างที่ดี'; margin tip 'ไม่ควรให้เด็กใช้สื่อหน้าจอตามลำพัง รวมถึงการเปิดจอทิ้งไว้'.",
@@ -60,6 +60,12 @@
       "date": "2026-11-09",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-K-012 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

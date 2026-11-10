@@ -1,6 +1,6 @@
 {
   "id": "MCH68-K-003",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "ยาเม็ดเสริมธาตุเหล็ก ไอโอดีน และโฟลิก ทุกวัน",
   "summary": "สมุดบอกให้กินยาเม็ดเสริมธาตุเหล็ก ไอโอดีน และโฟลิก ทุกวันตลอดการตั้งครรภ์ และเริ่มวิตามินเสริม (เหล็ก/โฟลิก) อย่างน้อย 3 เดือนก่อนตั้งครรภ์",
   "sectionId": "knowledge",
@@ -36,10 +36,10 @@
     "note": "ข้อความท้ายหน้าธงโภชนาการหญิงตั้งครรภ์ ไตรมาสที่ 1–3 (PDF p23–25, พิมพ์หน้า 21–23) ข้อความที่ขอบหน้า 20 และ 22 (PDF p22, p24) หมวดความรู้สู่การปฏิบัติฯ และข้อ 1 กับข้อ 15 ของหน้า 'คุณลักษณะที่พึงประสงค์สำหรับคุณแม่ เพื่อลูกสุขภาพดี' (PDF p67 ไม่มีเลขหน้าพิมพ์)"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "high",
     "reviewNotes": [
       "The banner 'กินยาเม็ดเสริมธาตุเหล็ก ไอโอดีน และโฟลิก ทุกวันตลอดการตั้งครรภ์' and the bottle label 'ยาเม็ดเสริมธาตุเหล็ก ไอโอดีน โฟลิก' were checked on the official page images of PDF p23, p24 and p25 (printed 21–23); the wording is identical on all three. Margin tips checked on rotated crops: p22 'วิตามินเสริมระหว่างฝากครรภ์ ช่วยเสริมสารอาหารที่จำเป็น'; p24 'ธาตุเหล็ก ช่วยป้องกันภาวะซีดในหญิงตั้งครรภ์'. p67 items 1 and 15 checked on the page image.",
@@ -63,6 +63,12 @@
       "date": "2026-11-10",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-K-003 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [

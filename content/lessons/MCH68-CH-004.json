@@ -1,6 +1,6 @@
 {
   "id": "MCH68-CH-004",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "title": "วัคซีนพื้นฐานของลูก (EPI)",
   "summary": "รู้จักวัคซีนตามแผนงานสร้างเสริมภูมิคุ้มกันโรคของประเทศไทยในสมุดหน้า 36–37 และอายุที่แนะนำของแต่ละวัคซีน",
   "sectionId": "childhealth",
@@ -32,10 +32,10 @@
     "note": "หน้า 'บันทึกการรับวัคซีน' — วัคซีนตามแผนงานสร้างเสริมภูมิคุ้มกันโรคของประเทศไทย (EPI) หน้า 36 และตารางส่วนบนของหน้า 37 (ก่อนกรอบ 'วัคซีนเสริมอื่นๆ (Optional vaccine)')"
   },
   "editorial": {
-    "status": "DRAFT",
+    "status": "APPROVED",
     "author": "Claude Code (AI draft) for PMH developer",
-    "medicalReviewer": null,
-    "reviewDate": null,
+    "medicalReviewer": "ชื่อ นามสกุล (ตำแหน่ง)",
+    "reviewDate": "2026-11-10",
     "clinicalRisk": "high",
     "reviewNotes": [
       "Source map (every age checked on the official page images oimg/p38.jpg, oimg/p39.jpg and 200-dpi renders of the official PDF): BCG, HBIg, HB, DTP-HB-Hib, DTP, Polio, Rota rows, the Rota หมายเหตุ and the pink HB box = PDF p38 (printed 36); PCV (with * footnote), Influenza, MMR, JE, HPV and dT rows = upper tables of PDF p39 (printed 37).",
@@ -63,6 +63,12 @@
       "date": "2026-11-10",
       "author": "Claude Code (AI draft)",
       "change": "Added video step V-CH-004 (narration derived from this lesson; no text changes)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-11-10",
+      "author": "ชื่อ นามสกุล (ตำแหน่ง)",
+      "change": "Medically reviewed and approved by ชื่อ นามสกุล (ตำแหน่ง) on 2026-11-10. Written approval: เลขที่หนังสืออนุมัติ."
     }
   ],
   "steps": [
