@@ -47,9 +47,13 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    timeout-minutes: 40
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          # the site carries ~300 MB of lesson video; GitHub needs longer than the default 10 min to sync it
+          timeout: 1800000
