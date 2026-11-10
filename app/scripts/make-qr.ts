@@ -7,7 +7,7 @@ import { writeFileSync } from "node:fs";
 import { join } from "node:path";
 import QRCode from "qrcode";
 
-const url = process.argv[2] ?? "https://leonzhh0912.github.io/pmh-anc-learn/";
+const url = process.argv[2] ?? "https://phimai-hospital.github.io/";
 // error level M: still scans with a scuff or a fold, keeps the code small enough for a sticker
 const svg = await QRCode.toString(url, { type: "svg", errorCorrectionLevel: "M", margin: 0 });
 const viewBox = /viewBox="([^"]+)"/.exec(svg)![1];

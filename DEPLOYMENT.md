@@ -1,13 +1,18 @@
 # Deployment
 
-**Hosting: GitHub Pages** (decided 2026-11-10), at `https://leonzhh0912.github.io/pmh-anc-learn/`.
+**Hosting: GitHub Pages** (decided 2026-11-10), at **https://phimai-hospital.github.io/** (since 2026-11-11;
+the repository lives in the GitHub organisation `phimai-hospital` and is named `phimai-hospital.github.io`, which
+GitHub serves at the domain root). The first address, under the developer's personal account, no longer works.
+
+If the address ever changes (e.g. a hospital domain such as `anc.<hospital domain>`: hospital IT adds a CNAME
+record pointing to `phimai-hospital.github.io`, then set it under Settings → Pages → Custom domain), regenerate the
+QR code before printing anything: `cd app && npm run make-qr -- https://new.address/`, then print from `/poster`.
 `.github/workflows/deploy.yml` publishes the **production build** on every push to `main`. The production
 build refuses anything not APPROVED/PUBLISHED, so the site goes live only after a PMH reviewer records
 sign-off (`npm run record-approval`, see CONTENT_REVIEW.md). Drafts are never published there.
 
 One-time setup by the repo owner: GitHub → Settings → Pages → Source: **GitHub Actions**.
-(Pages on a private repository needs a paid GitHub plan; otherwise make the repository public or use
-another static host — see below.)
+(Pages on a private repository needs a paid GitHub plan; the repository is public, as the PMH director agreed.)
 
 ## Environments
 
