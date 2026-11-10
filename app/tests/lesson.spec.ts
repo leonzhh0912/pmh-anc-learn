@@ -1,4 +1,5 @@
 import { expect, test, type Page } from "@playwright/test";
+import { expectDraftLabelMatchesStatus } from "./draft-label";
 
 const LESSON = "/lesson/MCH68-OVR-001";
 
@@ -16,8 +17,8 @@ test("home shows handbook sections and the first lesson", async ({ page }) => {
 
 test("complete lesson: timeline, sorting, quiz with retry, progress saved", async ({ page }) => {
   await page.goto(LESSON);
-  // draft content is always labelled
-  await expect(page.locator(".draft-banner")).toContainText("ฉบับร่าง");
+  // draft content is always labelled; approved content is not
+  await expectDraftLabelMatchesStatus(page, "MCH68-OVR-001");
 
   // 1 text
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("สมุดสีชมพูคือคู่มือของครอบครัว");
