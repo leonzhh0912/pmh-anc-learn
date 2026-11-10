@@ -5,6 +5,7 @@ import { HomePage } from "./pages/HomePage";
 import { LessonPage } from "./pages/LessonPage";
 import { SectionPage } from "./pages/SectionPage";
 import { setTextScale, useProgress } from "./lib/progress";
+import { allApproved } from "./content/load";
 import "./App.css";
 
 const scales = [
@@ -53,7 +54,7 @@ function Shell() {
       </div>
       <footer className="footer">
         <p>
-          ต้นแบบเพื่อการทดสอบ เนื้อหาอ้างอิงสมุดบันทึกสุขภาพแม่และเด็ก ฉบับปรับปรุงใหม่ พ.ศ. 2568 กรมอนามัย
+          {allApproved ? "" : "ต้นแบบเพื่อการทดสอบ "}เนื้อหาอ้างอิงสมุดบันทึกสุขภาพแม่และเด็ก ฉบับปรับปรุงใหม่ พ.ศ. 2568 กรมอนามัย
           ไม่ใช่เครื่องมือวินิจฉัยโรค
         </p>
         <Link to="/about">เกี่ยวกับแอปและข้อมูลของคุณ</Link>
@@ -75,6 +76,11 @@ const router = createBrowserRouter(
           // staff-only coverage table: loaded on demand so patients never download it
           path: "/curriculum",
           lazy: async () => ({ Component: (await import("./pages/CurriculumPage")).CurriculumPage }),
+        },
+        {
+          // staff: printable QR poster and handbook stickers, loaded on demand
+          path: "/poster",
+          lazy: async () => ({ Component: (await import("./pages/PosterPage")).PosterPage }),
         },
         { path: "*", element: <HomePage /> },
       ],

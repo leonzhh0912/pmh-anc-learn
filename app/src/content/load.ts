@@ -57,3 +57,7 @@ export const lessonsInSection = (sectionId: string) =>
 /** Whether this item may be presented as authoritative medical guidance. */
 export const isApproved = (status: Lesson["editorial"]["status"]) =>
   status === "APPROVED" || status === "PUBLISHED";
+
+/** True when every lesson and video is approved: the app is then no longer a prototype. */
+export const allApproved =
+  lessons.every((l) => isApproved(l.editorial.status)) && videos.every((v) => isApproved(v.editorial.status));

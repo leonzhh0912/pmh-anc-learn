@@ -516,3 +516,79 @@
   .sort__buckets--many { grid-template-columns: repeat(3, 1fr); }
 }
 .sort__buckets { scroll-margin-bottom: 96px; } /* stay clear of the sticky next button */
+
+/* install help (home) */
+.install {
+  margin-top: 20px;
+  padding: 16px 18px;
+  background: var(--paper-raised);
+  border: 1.5px solid var(--line);
+  border-radius: var(--radius-lg);
+}
+.install__title { font-size: var(--fs-h3); color: var(--magenta-deep); margin: 0 0 6px; }
+.install__text { margin: 0 0 12px; }
+.install__steps { margin: 0 0 12px; padding-left: 1.4em; }
+.install__steps li { margin: 4px 0; }
+.install__icon { width: 1.2em; height: 1.2em; vertical-align: -0.2em; color: var(--focus); }
+.install__actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.install--done { color: var(--correct); font-weight: 600; background: var(--correct-wash); border-color: transparent; }
+
+/* printable poster and stickers (/poster) */
+.poster-page__tools { margin-bottom: 24px; }
+.sheet {
+  background: #fff;
+  color: #000;
+  margin: 0 auto 24px;
+  box-shadow: 0 2px 12px rgba(52, 24, 43, 0.15);
+  width: 100%;
+  max-width: 210mm;
+  aspect-ratio: 210 / 297;
+  box-sizing: border-box;
+}
+.qr { display: block; width: 100%; height: auto; }
+.poster {
+  padding: 7% 9%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-top: 14px solid var(--magenta);
+  container-type: inline-size;
+}
+.poster__org { margin: 0; font-weight: 700; color: var(--magenta-deep); font-size: 4.2cqi; }
+.poster__title { margin: 1% 0 2%; color: var(--magenta-deep); font-size: 10cqi; line-height: 1.15; }
+.poster__lede { margin: 0 0 4%; font-size: 3.6cqi; line-height: 1.5; color: var(--ink); max-width: 34em; }
+.poster .qr { width: 52%; padding: 2.5%; border: 2px solid var(--line); border-radius: 12px; background: #fff; }
+.poster__scan { margin: 3% 0 2%; font-size: 5cqi; font-weight: 700; color: var(--ink); }
+.poster__points { list-style: none; padding: 0; margin: 0 0 3%; font-size: 3.4cqi; line-height: 1.6; color: var(--ink); }
+.poster__url { margin: auto 0 0; font-size: 3cqi; color: var(--ink-soft); }
+.stickers {
+  padding: 8mm;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 4mm;
+}
+.sticker {
+  border: 1px dashed #c9a9b8;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6% 8%;
+  text-align: center;
+  container-type: inline-size;
+}
+.sticker .qr { width: 66%; }
+.sticker__title { margin: 6% 0 0; font-weight: 700; color: var(--magenta-deep); font-size: 9cqi; line-height: 1.3; }
+.sticker__scan { margin: 2% 0 0; font-size: 7cqi; color: #000; line-height: 1.3; }
+
+@media print {
+  @page { size: A4; margin: 0; }
+  .skip, .topbar, .footer, .poster-page__tools { display: none !important; }
+  body, .page { background: #fff !important; padding: 0 !important; margin: 0 !important; max-width: none !important; }
+  .sheet { box-shadow: none; margin: 0; width: 210mm; max-width: none; height: 297mm; aspect-ratio: auto; break-after: page; }
+  .sheet:last-child { break-after: auto; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}

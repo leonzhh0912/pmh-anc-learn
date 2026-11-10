@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { handbookSource } from "../content/load";
+import { allApproved, handbookSource } from "../content/load";
 import { resetProgress } from "../lib/progress";
 
 export function AboutPage() {
@@ -10,7 +10,7 @@ export function AboutPage() {
       </Link>
       <h1>เกี่ยวกับแอปนี้</h1>
       <p>
-        แอปนี้เป็นต้นแบบสื่อการเรียนรู้ของโรงพยาบาลพิมาย จัดทำตามเนื้อหาใน
+        แอปนี้เป็น{allApproved ? "" : "ต้นแบบ"}สื่อการเรียนรู้ของโรงพยาบาลพิมาย จัดทำตามเนื้อหาใน
         “{handbookSource.title}” โดย{handbookSource.publisher}
       </p>
       <p>

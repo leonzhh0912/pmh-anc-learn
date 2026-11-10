@@ -12,7 +12,8 @@
     "lint": "oxlint",
     "test:e2e": "playwright test",
     "review-pack": "tsx scripts/review-pack.ts",
-    "record-approval": "tsx scripts/record-approval.ts"
+    "record-approval": "tsx scripts/record-approval.ts",
+    "make-qr": "tsx scripts/make-qr.ts"
   },
   "dependencies": {
     "react": "^19.3.1",
@@ -23,10 +24,12 @@
     "@fontsource/sarabun": "^5.3.0",
     "@playwright/test": "^1.65.0",
     "@types/node": "^24.19.2",
+    "@types/qrcode": "^1.5.5",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.1.2",
     "oxlint": "^1.90.0",
+    "qrcode": "^1.5.4",
     "tsx": "^4.23.15",
     "typescript": "~7.0.2",
     "vite": "^8.3.6",
