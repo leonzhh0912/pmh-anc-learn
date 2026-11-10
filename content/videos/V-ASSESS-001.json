@@ -1,0 +1,30 @@
+{
+  "id": "V-ASSESS-001",
+  "lessonId": "MCH68-ASSESS-001",
+  "title": "ดูแลใจระหว่างตั้งครรภ์: ความเครียดและการผ่อนคลาย",
+  "mp4": "media/V-ASSESS-001.mp4",
+  "captionsVtt": "media/V-ASSESS-001.th.vtt",
+  "poster": "media/V-ASSESS-001.jpg",
+  "durationSec": 100.7,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "high",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-ASSESS-001 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of สุขภาพกายใจ, ปรึกษาหารือ, คลี่คลาย, 'ลึก ๆ ช้า ๆ' (repetition mark), บุคลากรสาธารณสุข, แปดครั้ง.",
+      "Item 5 / 'ตอบตามความรู้สึกจริง' is app framing already listed in the lesson reviewNotes.",
+      "Item 9 / 'ความเครียดสูงอาจส่งผลเสียต่อร่างกาย ... ขอรับคำปรึกษา' is from the p18 8+ band interpretation, given without the score and without the printed body examples (see lesson reviewNotes).",
+      "SAFE-MESSAGING: the lesson's self-harm help-seeking sentence is left out of the video on purpose; psychiatric nurse to decide whether the video should carry it and to check the tone of the whole narration.",
+      "No ST-5 / 2Q plus item, score or cut-off is spoken or shown."
+    ]
+  }
+}

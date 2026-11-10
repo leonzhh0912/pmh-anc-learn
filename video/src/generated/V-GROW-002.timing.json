@@ -1,0 +1,189 @@
+{
+  "id": "V-GROW-002",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 4101,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 489,
+      "segments": [
+        {
+          "file": "audio/V-GROW-002/intro-1-716df9c2a4.wav",
+          "from": 18,
+          "durationInFrames": 192,
+          "caption": "สมุดหน้า 43 อธิบายความหมายของผล ในกราฟการเจริญเติบโต 3 แบบ",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-GROW-002/intro-2-8e8eb0252f.wav",
+          "from": 224,
+          "durationInFrames": 238,
+          "caption": "แต่ละกราฟแบ่งเป็นระดับ และการประเมินการเจริญเติบโต ต้องดูแนวโน้มตามระยะเวลา ไม่ใช่การวัดครั้งเดียว",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 489,
+      "durationInFrames": 827,
+      "segments": [
+        {
+          "file": "audio/V-GROW-002/stage1-1-8c76d974ec.wav",
+          "from": 18,
+          "durationInFrames": 95,
+          "caption": "ตอนที่ 1 กราฟแสดงน้ำหนักตามเกณฑ์อายุ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-002/stage1-2-23c304c627.wav",
+          "from": 127,
+          "durationInFrames": 242,
+          "caption": "มี 5 ระดับ: น้ำหนักมาก ค่อนข้างมาก ตามเกณฑ์ ค่อนข้างน้อย และน้อย",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-GROW-002/stage1-3-8d6c18906c.wav",
+          "from": 383,
+          "durationInFrames": 218,
+          "caption": "น้ำหนักมาก และค่อนข้างมาก: ต้องดูกราฟน้ำหนักตามเกณฑ์ส่วนสูงเพิ่ม",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-GROW-002/stage1-4-a9a7644731.wav",
+          "from": 615,
+          "durationInFrames": 185,
+          "caption": "ค่อนข้างน้อย: เสี่ยงขาดอาหาร สัญญาณเตือนระวังน้ำหนักน้อย",
+          "reveal": 3
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1316,
+      "durationInFrames": 1023,
+      "segments": [
+        {
+          "file": "audio/V-GROW-002/stage2-1-0fa64e4280.wav",
+          "from": 18,
+          "durationInFrames": 101,
+          "caption": "ตอนที่ 2 กราฟแสดงส่วนสูงตามเกณฑ์อายุ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-002/stage2-2-72ab80f39a.wav",
+          "from": 133,
+          "durationInFrames": 226,
+          "caption": "มี 5 ระดับ: สูง ค่อนข้างสูง ตามเกณฑ์ ค่อนข้างเตี้ย และเตี้ย",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-GROW-002/stage2-3-c5d5048ed5.wav",
+          "from": 373,
+          "durationInFrames": 190,
+          "caption": "ตามเกณฑ์: การเจริญเติบโตดี แสดงถึงการได้รับอาหารเพียงพอ",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-GROW-002/stage2-4-2d55b588b4.wav",
+          "from": 577,
+          "durationInFrames": 199,
+          "caption": "ค่อนข้างเตี้ย: เสี่ยงขาดอาหารเรื้อรัง สัญญาณเตือนให้ระวัง ควรเสริมอาหาร",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-GROW-002/stage2-5-bbb4110a1e.wav",
+          "from": 790,
+          "durationInFrames": 206,
+          "caption": "เตี้ย: ขาดอาหารเรื้อรัง ส่งผลต่อสติปัญญา ทำให้เจ็บป่วยบ่อย",
+          "reveal": 7
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 2339,
+      "durationInFrames": 1154,
+      "segments": [
+        {
+          "file": "audio/V-GROW-002/stage3-1-4ca132250f.wav",
+          "from": 18,
+          "durationInFrames": 108,
+          "caption": "ตอนที่ 3 กราฟแสดงน้ำหนักตามเกณฑ์ส่วนสูง",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-002/stage3-2-0670f1e67a.wav",
+          "from": 140,
+          "durationInFrames": 252,
+          "caption": "มี 6 ระดับ: อ้วน เริ่มอ้วน ท้วม สมส่วน ค่อนข้างผอม และผอม",
+          "reveal": 8
+        },
+        {
+          "file": "audio/V-GROW-002/stage3-3-4b0b184c5a.wav",
+          "from": 406,
+          "durationInFrames": 252,
+          "caption": "สมส่วน: การเจริญเติบโตดี มีน้ำหนักเหมาะสมกับส่วนสูง ส่งเสริมให้เติบโตอยู่ในระดับนี้",
+          "reveal": 9
+        },
+        {
+          "file": "audio/V-GROW-002/stage3-4-0b4a580abf.wav",
+          "from": 672,
+          "durationInFrames": 218,
+          "caption": "ท้วม: เสี่ยงต่อการมีภาวะอ้วน เป็นการเตือนให้ระวัง น้ำหนักจะเพิ่มขึ้นหากไม่ควบคุม",
+          "reveal": 10
+        },
+        {
+          "file": "audio/V-GROW-002/stage3-5-8cde3fe4d8.wav",
+          "from": 904,
+          "durationInFrames": 223,
+          "caption": "ค่อนข้างผอม: เสี่ยงต่อการขาดสารอาหาร เป็นการเตือนให้ระวัง หากไม่ดูแลน้ำหนักอาจลดลง",
+          "reveal": 11
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 3493,
+      "durationInFrames": 608,
+      "segments": [
+        {
+          "file": "audio/V-GROW-002/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-002/summary-2-5ed9151094.wav",
+          "from": 78,
+          "durationInFrames": 161,
+          "caption": "ดูการเจริญเติบโตจากแนวโน้มตามระยะเวลา ไม่ใช่จากการวัดครั้งเดียว",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-GROW-002/summary-3-774cde032e.wav",
+          "from": 253,
+          "durationInFrames": 206,
+          "caption": "พ่อแม่ผู้ดูแลเด็ก ควรร่วมกับเจ้าหน้าที่สาธารณสุข บันทึกการเจริญเติบโตของเด็กอย่างต่อเนื่อง",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-GROW-002/summary-4-f94f946513.wav",
+          "from": 473,
+          "durationInFrames": 108,
+          "caption": "ถ้าไม่แน่ใจความหมายของระดับใด ถามเจ้าหน้าที่ได้",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

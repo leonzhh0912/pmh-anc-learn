@@ -1,0 +1,29 @@
+{
+  "id": "V-K-017",
+  "lessonId": "MCH68-K-017",
+  "title": "กู้ชีพเด็กโดยการกดหัวใจ",
+  "mp4": "media/V-K-017.mp4",
+  "captionsVtt": "media/V-K-017.th.vtt",
+  "poster": "media/V-K-017.jpg",
+  "durationSec": 108.2,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "high",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-K-017 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of หนึ่งหกหกเก้า (1669, read digit by digit), 'กดสามสิบ เป่าสอง', 'หนึ่งในสาม', ทรวงอก, อุ้งมือ.",
+      "Lesson note applies: 'ถ้าไม่หายใจ หรือหากไม่แน่ใจ ให้เริ่มกดหน้าอกเลย' is the lesson's reading of the flowchart arrow; resuscitation instructor to confirm.",
+      "Lesson HANDBOOK ISSUE applies: 'ทำไปเรื่อย ๆ จนกว่าเจ้าหน้าที่กู้ชีพจะมา' is narrated only together with the with-helper ratio, as printed.",
+      "No technique drawings: item icons are generic (baby, warning, check, heart, group, clock) and show no hand or body position."
+    ]
+  }
+}

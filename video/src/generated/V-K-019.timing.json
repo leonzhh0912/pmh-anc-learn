@@ -1,0 +1,168 @@
+{
+  "id": "V-K-019",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 2443,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 400,
+      "segments": [
+        {
+          "file": "audio/V-K-019/intro-1-6b7f5eb273.wav",
+          "from": 18,
+          "durationInFrames": 156,
+          "caption": "สมุดหน้า 31 ระบุอาการที่ต้องพาทารกไปพบแพทย์ไว้ 7 อาการ",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-K-019/intro-2-0d87c1f3d4.wav",
+          "from": 188,
+          "durationInFrames": 185,
+          "caption": "และสมุดหน้า 33 มีข้อความสำคัญ สำหรับทารกอายุน้อยกว่า 1 เดือน",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 400,
+      "durationInFrames": 430,
+      "segments": [
+        {
+          "file": "audio/V-K-019/stage1-1-221cbd7e09.wav",
+          "from": 18,
+          "durationInFrames": 123,
+          "caption": "ตอนที่ 1 อาการเรื่องการกินนม และการขับถ่าย",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-019/stage1-2-9aa6cce868.wav",
+          "from": 155,
+          "durationInFrames": 59,
+          "caption": "ดูดนมน้อยลงชัดเจน",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-019/stage1-3-b08bf4d49c.wav",
+          "from": 228,
+          "durationInFrames": 70,
+          "caption": "ไม่ปัสสาวะใน 6-8 ชั่วโมง",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-K-019/stage1-4-fa25bfdaaf.wav",
+          "from": 312,
+          "durationInFrames": 91,
+          "caption": "ท้องอืดมาก ถ่ายเป็นน้ำ หรืออาเจียนมาก",
+          "reveal": 3
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 830,
+      "durationInFrames": 678,
+      "segments": [
+        {
+          "file": "audio/V-K-019/stage2-1-7f303667f3.wav",
+          "from": 18,
+          "durationInFrames": 158,
+          "caption": "ตอนที่ 2 อาการเรื่องไข้ การหายใจ ตา และผิวหนัง",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-019/stage2-2-cf6d3ed755.wav",
+          "from": 190,
+          "durationInFrames": 41,
+          "caption": "ไข้ ซึม",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-K-019/stage2-3-0b22bf1bd4.wav",
+          "from": 245,
+          "durationInFrames": 134,
+          "caption": "หอบเหนื่อย หายใจเร็ว มากกว่า 60 ครั้งต่อนาที",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-K-019/stage2-4-910aa6598a.wav",
+          "from": 393,
+          "durationInFrames": 98,
+          "caption": "ตา ผิวหนัง สะดือ บวมแดง มีหนอง",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-K-019/stage2-5-38a1434d72.wav",
+          "from": 505,
+          "durationInFrames": 146,
+          "caption": "ตัวเหลืองมากขึ้น ทั้ง 7 อาการนี้ ต้องพาทารกไปพบแพทย์",
+          "reveal": 7
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 1508,
+      "durationInFrames": 384,
+      "segments": [
+        {
+          "file": "audio/V-K-019/stage3-1-840bd84dba.wav",
+          "from": 18,
+          "durationInFrames": 99,
+          "caption": "ตอนที่ 3 ทารกอายุน้อยกว่า 1 เดือน",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-019/stage3-2-d8194f449c.wav",
+          "from": 131,
+          "durationInFrames": 226,
+          "caption": "สมุดหน้า 33: ทารกอายุน้อยกว่า 1 เดือน หากมีไข้ต้องไปพบแพทย์ทันที",
+          "reveal": 8
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 1892,
+      "durationInFrames": 551,
+      "segments": [
+        {
+          "file": "audio/V-K-019/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-019/summary-2-37ce0ece27.wav",
+          "from": 78,
+          "durationInFrames": 137,
+          "caption": "ถ้าทารกมีอาการใดใน 7 อาการนี้ ต้องพาทารกไปพบแพทย์",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-019/summary-3-955f957769.wav",
+          "from": 229,
+          "durationInFrames": 132,
+          "caption": "ทารกอายุน้อยกว่า 1 เดือน หากมีไข้ต้องไปพบแพทย์ทันที",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-K-019/summary-4-8707e6b685.wav",
+          "from": 375,
+          "durationInFrames": 149,
+          "caption": "เปิดสมุดหน้า 31 ดูรูปอาการทั้ง 7 ด้วยกัน ทั้งครอบครัว",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

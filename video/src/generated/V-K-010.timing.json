@@ -1,0 +1,154 @@
+{
+  "id": "V-K-010",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 2603,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 455,
+      "segments": [
+        {
+          "file": "audio/V-K-010/intro-1-fb2430ff46.wav",
+          "from": 18,
+          "durationInFrames": 242,
+          "caption": "ในหัวข้อการขับถ่าย สมุดบันทึกสุขภาพแม่และเด็ก เขียนเรื่องสีอุจจาระของลูกช่วงทารกไว้",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-K-010/intro-2-fd2b97b1c6.wav",
+          "from": 274,
+          "durationInFrames": 154,
+          "caption": "มาดูว่าสมุดบอกให้ทำอะไร ทำไมต้องรีบ และดูรูปเทียบได้ที่ไหน",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 455,
+      "durationInFrames": 507,
+      "segments": [
+        {
+          "file": "audio/V-K-010/stage1-1-b94fc34a1f.wav",
+          "from": 18,
+          "durationInFrames": 115,
+          "caption": "ตอนที่ 1 สีซีดผิดปกติ ต้องทำอะไร",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-010/stage1-2-55ee5ed744.wav",
+          "from": 147,
+          "durationInFrames": 230,
+          "caption": "สมุดเขียนว่า หากมีสีอุจจาระซีดผิดปกติดังรูป จำเป็นต้องพาลูกไปพบกุมารแพทย์โดยเร็ว",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-010/stage1-3-36813309a1.wav",
+          "from": 391,
+          "durationInFrames": 89,
+          "caption": "ต้องไป แม้ลูกจะไม่มีอาการอื่น ๆ",
+          "reveal": 2
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 962,
+      "durationInFrames": 391,
+      "segments": [
+        {
+          "file": "audio/V-K-010/stage2-1-3c5e134575.wav",
+          "from": 18,
+          "durationInFrames": 80,
+          "caption": "ตอนที่ 2 ทำไมต้องรีบ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-010/stage2-2-02ee0a161b.wav",
+          "from": 112,
+          "durationInFrames": 130,
+          "caption": "เพราะสีซีดผิดปกติ อาจเกิดจากโรคท่อน้ำดีตีบตัน",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-K-010/stage2-3-50251ac1f6.wav",
+          "from": 256,
+          "durationInFrames": 108,
+          "caption": "ซึ่งต้องให้การรักษาเร่งด่วน ก่อนลูกอายุ 2 เดือน",
+          "reveal": 4
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 1353,
+      "durationInFrames": 618,
+      "segments": [
+        {
+          "file": "audio/V-K-010/stage3-1-e9b4c59d8e.wav",
+          "from": 18,
+          "durationInFrames": 84,
+          "caption": "ตอนที่ 3 ดูรูปเทียบในสมุด",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-010/stage3-2-a91b70d9df.wav",
+          "from": 116,
+          "durationInFrames": 233,
+          "caption": "ที่มุมขวาล่างของสมุดหน้า 27 มีรูปสีอุจจาระปกติ 2 รูป และสีอุจจาระผิดปกติ 3 รูป",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-K-010/stage3-3-0a609c5a7a.wav",
+          "from": 363,
+          "durationInFrames": 228,
+          "caption": "แอปไม่แสดงสีบนจอ เพราะจอแต่ละเครื่องแสดงสีไม่เหมือนกัน ให้ดูรูปในสมุดเล่มจริงเพื่อเทียบ",
+          "reveal": 6
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 1971,
+      "durationInFrames": 632,
+      "segments": [
+        {
+          "file": "audio/V-K-010/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-010/summary-2-824d97e28d.wav",
+          "from": 78,
+          "durationInFrames": 194,
+          "caption": "อุจจาระของลูกช่วงทารกมีสีซีดผิดปกติ ต้องพาลูกไปพบกุมารแพทย์โดยเร็ว",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-010/summary-3-110f5ced54.wav",
+          "from": 286,
+          "durationInFrames": 163,
+          "caption": "ต้องไปแม้จะไม่มีอาการอื่น ๆ เพราะต้องรักษาเร่งด่วนก่อนอายุ 2 เดือน",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-K-010/summary-4-32c50f2236.wav",
+          "from": 463,
+          "durationInFrames": 142,
+          "caption": "และเปิดสมุดหน้า 27 ดูรูปเทียบด้วยกันทั้งครอบครัว",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

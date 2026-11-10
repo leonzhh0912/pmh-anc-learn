@@ -1,0 +1,31 @@
+{
+  "id": "V-GROW-002",
+  "lessonId": "MCH68-GROW-002",
+  "title": "แปลผลกราฟน้ำหนัก ส่วนสูง และรูปร่างของลูก",
+  "mp4": "media/V-GROW-002.mp4",
+  "captionsVtt": "media/V-GROW-002.th.vtt",
+  "poster": "media/V-GROW-002.jpg",
+  "durationSec": 136.7,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "high",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-GROW-002 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'สี่สิบสาม' (page number), 'ค่อนข้างเตี้ย', 'ขาดอาหารเรื้อรัง', 'สติปัญญา', 'สมส่วน', 'ท้วม'.",
+      "HANDBOOK ISSUE (from lesson): the meanings of the 'ตามเกณฑ์' and 'น้อย' rows of the weight-for-age table on p45 are double-printed and are left out of the lesson; the video names these two levels only in the list of five and says nothing about their meaning.",
+      "Item 2 on screen is shortened to 'มาก/ค่อนข้างมาก: ดูกราฟน้ำหนักตามส่วนสูง' (40-character limit); the narration and caption say the full printed wording 'ต้องดูกราฟน้ำหนักตามเกณฑ์ส่วนสูงเพิ่ม'.",
+      "No SD values are narrated (lesson editorial choice; section 4 prints no SD cut-offs).",
+      "Lesson note: 'ถ้าไม่แน่ใจความหมาย ถามเจ้าหน้าที่' (summary point 3) comes from the lesson's family note, which is editorial and needs approval.",
+      "Not used in the video: the 'อ้วน', 'เริ่มอ้วน', 'สูง', 'ค่อนข้างสูง' and 'ผอม' meanings, the สดใส example summary, and the quiz scenarios."
+    ]
+  }
+}

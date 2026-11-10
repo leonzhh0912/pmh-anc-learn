@@ -1,0 +1,31 @@
+{
+  "id": "V-ASSESS-002",
+  "lessonId": "MCH68-ASSESS-002",
+  "title": "ภาวะซึมเศร้าหลังคลอด เกิดขึ้นได้กับทุกคน",
+  "mp4": "media/V-ASSESS-002.mp4",
+  "captionsVtt": "media/V-ASSESS-002.th.vtt",
+  "poster": "media/V-ASSESS-002.jpg",
+  "durationSec": 103.7,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "high",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-ASSESS-002 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of ซึมเศร้า, ฮอร์โมน, บุคลากรสาธารณสุข, 'สี่ถึงหกสัปดาห์', ทุกข์ใจ.",
+      "Items 3 and 8 (telling people close to you; family listening without blame) are app framing already listed in the lesson reviewNotes. The sentence 'ไม่ใช่ความผิดของใคร' was removed from item 3 and the summary.",
+      "APP FRAMING (trigger): stage 3 (intro 'เมื่อคุณแม่รู้สึกเศร้าหรือทุกข์ใจ', segment 2 and item 7) and summary point 3 attach the printed EPDS counselling advice to the app-written trigger 'รู้สึกเศร้าหรือทุกข์ใจ'; p19 ties that advice to the EPDS result. Listed in the lesson reviewNotes too.",
+      "Item 2 keeps the p19 tip in its pregnancy context ('เมื่อตั้งครรภ์ ... หญิงตั้งครรภ์'); it is not applied to the postnatal period.",
+      "SAFE-MESSAGING: the lesson's self-harm wording is left out of the video on purpose; psychiatric nurse to check the tone of the whole narration.",
+      "No EPDS or 2Q plus item, score or cut-off is spoken or shown; the instrument abbreviations are not spoken."
+    ]
+  }
+}

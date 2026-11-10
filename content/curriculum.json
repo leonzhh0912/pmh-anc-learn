@@ -284,7 +284,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -459,7 +459,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -504,7 +504,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -529,7 +529,7 @@
     ],
     "interactivity": [
       "guided slow-breathing exercise (animated circle) based on the printed coping advice — no scoring",
-      "'who can I talk to?' card: family + PMH contacts (PMH to fill)",
+      "'who can I talk to?' card: family and staff, as printed",
       "explainer carousel 'why the nurse asks these questions' — topics in general terms only; ST-5 / 2Q plus items and scores are NOT reproduced"
     ],
     "videoTreatment": "60 s gentle animation: mood changes in pregnancy are common, the nurse's questions are a way to help, slow-breathing demo",
@@ -549,7 +549,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -591,7 +591,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -771,7 +771,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -829,15 +829,13 @@
     "objectivesTh": [
       "ผู้เรียนสามารถบอกอาการผิดปกติ 7 อาการที่แม่ท้องต้องมาโรงพยาบาลทันที",
       "ผู้เรียนสามารถปฏิบัติได้ถูกต้องเมื่อมีน้ำใส ๆ ไหลจากช่องคลอด: ใส่ผ้าอนามัยไว้ แล้วรีบมาโรงพยาบาล",
-      "ผู้เรียนสามารถบอกได้ว่าเวียนศีรษะ ตาพร่า ขาบวม อาจเกิดจากภาวะครรภ์เป็นพิษ",
-      "ผู้เรียน (ครอบครัว) สามารถบอกได้ว่าจะไปที่ใดและติดต่อใครเมื่อพบอาการเหล่านี้ ตามข้อมูลของโรงพยาบาลพิมาย"
+      "ผู้เรียนสามารถบอกได้ว่าเวียนศีรษะ ตาพร่า ขาบวม อาจเกิดจากภาวะครรภ์เป็นพิษ"
     ],
     "interactivity": [
       "scenario quiz: 8 short scenarios → 'go to hospital now' vs 'mention at next visit' (only the 7 printed signs count as 'now')",
-      "tap-to-reveal body map with the 7 icons",
-      "one-tap PMH emergency contact card (PMH to supply)"
+      "tap-to-reveal body map with the 7 icons"
     ],
-    "videoTreatment": "60 s calm animation: each sign with its icon, ending on the PMH where-to-go card",
+    "videoTreatment": "60 s calm animation: each sign with its icon, ending on 'มาโรงพยาบาลทันที' as printed",
     "audience": [
       "mother",
       "family"
@@ -852,7 +850,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -1048,7 +1046,7 @@
       "scenario quiz: which stool colour needs a doctor (calibrated colour swatches, not copied photos)",
       "tap-to-reveal: why treatment must happen before 2 months"
     ],
-    "videoTreatment": "30-45 s animation with a calibrated colour card",
+    "videoTreatment": "30-45 s animation; colours described in words, no swatches",
     "audience": [
       "mother",
       "family",
@@ -1066,7 +1064,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -1285,8 +1283,7 @@
     ],
     "interactivity": [
       "step-through animation of choking first aid as a decision tree (responsive? under or over 1 year?)",
-      "sequence-ordering quiz",
-      "prompt to practise on a manikin with PMH staff (PMH to supply booking details)"
+      "sequence-ordering quiz"
     ],
     "videoTreatment": "60-90 s step-by-step animation, reviewed frame by frame by a resuscitation instructor",
     "audience": [
@@ -1304,7 +1301,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -1346,7 +1343,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -1387,7 +1384,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -1430,7 +1427,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -1452,8 +1449,7 @@
     ],
     "interactivity": [
       "postpartum day timeline (day 0-42) with the 3 visit windows",
-      "scenario quiz on the 6 danger signs (e.g. 'lochia still red after 2 weeks')",
-      "PMH contact card"
+      "scenario quiz on the 6 danger signs (e.g. 'lochia still red after 2 weeks')"
     ],
     "videoTreatment": "60 s animation for mother and family",
     "audience": [
@@ -1471,7 +1467,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -1595,7 +1591,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -1637,7 +1633,7 @@
     ],
     "priority": "P3",
     "release": "R3",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -1808,7 +1804,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -1852,7 +1848,7 @@
     ],
     "priority": "P3",
     "release": "R3",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -2090,7 +2086,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {
@@ -2399,7 +2395,7 @@
     ],
     "priority": "P2",
     "release": "R2",
-    "status": "NOT_STARTED",
+    "status": "DRAFT",
     "videoStatus": "NOT_STARTED"
   },
   {

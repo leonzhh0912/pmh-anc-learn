@@ -1,0 +1,30 @@
+{
+  "id": "V-GROW-003",
+  "lessonId": "MCH68-GROW-003",
+  "title": "เส้นรอบศีรษะและกระหม่อมของลูก",
+  "mp4": "media/V-GROW-003.mp4",
+  "captionsVtt": "media/V-GROW-003.th.vtt",
+  "poster": "media/V-GROW-003.jpg",
+  "durationSec": 90.4,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "high",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-GROW-003 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of the chart line labels, spoken as 'เส้นแปดสิบห้า' / 'เส้นสิบห้า' / 'เก้าสิบเจ็ด … สาม' for the printed '85th', '15th', '97th 50th 3rd' (the handbook prints them in English ordinal form); also 'สามสิบห้าเซนติเมตร' (printed 'ซม.'), 'หนึ่งปีครึ่ง', 'กระหม่อม', 'บุคลากรทางสาธารณสุข'.",
+      "HANDBOOK ISSUE (from lesson): referral wording changed from the 1st printing (P90 / P10) to the 85th / 15th trend; the video uses only the 2nd-printing wording. The truncated chart footnote ('ข้อม :') is not narrated.",
+      "Lesson note: 'เส้น 85th และ 15th พิมพ์เป็นสีส้ม' is an editorial description of the chart image; it is not narrated.",
+      "Icon for item 6 is 'ask' (the printed action is 'ควรปรึกษาบุคลากรทางสาธารณสุข', not 'go to hospital'), so 'warning' is not used.",
+      "On-screen texts are shortened for the 40/34-character limits (item 6 'แนวโน้มสูงกว่า 85th/ต่ำกว่า 15th: ปรึกษา'; summary 'ปิดช้าสุด' for 'ปิดอย่างช้าไม่เกิน', 'เกิน 85th หรือต่ำกว่า 15th: ปรึกษา'); the narration and captions say the full printed wording, including 'แนวโน้มเริ่ม…' and 'ควรปรึกษาบุคลากรทางสาธารณสุข'."
+    ]
+  }
+}

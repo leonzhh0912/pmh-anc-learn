@@ -1,0 +1,373 @@
+{
+  "id": "MCH68-GROW-003",
+  "version": "0.1.1",
+  "title": "เส้นรอบศีรษะและกระหม่อมของลูก",
+  "summary": "เส้นรอบศีรษะของเด็กแรกเกิด กระหม่อมหลังและกระหม่อมหน้าปิดอย่างช้าเมื่อไร และเมื่อไรที่สมุดแนะนำให้ปรึกษาบุคลากรทางสาธารณสุข",
+  "sectionId": "growth",
+  "stages": [
+    "newborn",
+    "child"
+  ],
+  "audience": [
+    "mother",
+    "family"
+  ],
+  "minutes": 6,
+  "objectives": [
+    "ผู้เรียนบอกได้ว่าโดยเฉลี่ยเด็กแรกเกิดมีเส้นรอบศีรษะประมาณ 35 ซม.",
+    "ผู้เรียนบอกได้ว่ากระหม่อมหลังปิดอย่างช้าไม่เกิน 4 เดือน และกระหม่อมหน้าปิดอย่างช้าไม่เกิน 1 ปีครึ่ง",
+    "ผู้เรียนบอกได้ว่าเมื่อแนวโน้มเส้นรอบศีรษะเริ่มสูงกว่าเส้น 85th หรือเริ่มต่ำกว่าเส้น 15th ควรปรึกษาบุคลากรทางสาธารณสุข",
+    "ผู้เรียนเลือกกราฟเส้นรอบวงศีรษะให้ตรงกับเพศของลูกได้ (เด็กชายสมุดหน้า 44 เด็กหญิงสมุดหน้า 45)"
+  ],
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      45,
+      46,
+      47
+    ],
+    "printedPages": [
+      "43",
+      "44",
+      "45"
+    ],
+    "note": "ข้อ 1 'กราฟเส้นรอบวงศีรษะ' ในหน้าการแปลผลกราฟ (PDF p45) และกราฟเส้นรอบวงศีรษะสำหรับเด็กชาย (PDF p46) และเด็กหญิง (PDF p47)"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "high",
+    "reviewNotes": [
+      "Source map: 35 ซม., 'กระหม่อมหลังปิดอย่างช้าไม่เกิน 4 เดือน', 'กระหม่อมหน้าปิดอย่างช้าไม่เกิน 1 ปีครึ่ง' and the referral sentence (with '85th' / '15th' as printed) are copied from PDF p45 section 1 (printed 43), checked on the page image and text layer. Chart titles, axis labels (อายุ แรกเกิด–5 ปี; เส้นรอบวงศีรษะ (เซนติเมตร)) and the five line labels 97th/85th/50th/15th/3rd are from PDF p46 (boys, printed 44) and p47 (girls, printed 45), read on rotated renders.",
+      "HANDBOOK ISSUE (from curriculum): the source footnote on both head-circumference charts (PDF p46, p47) begins with the truncated word 'ข้อม :' (probably 'ข้อมูล'), confirmed on 300-dpi renders. The lesson does not quote the footnote.",
+      "HANDBOOK ISSUE (from curriculum): the referral wording changed from the 1st printing (greater than P90 / less than P10) to 'แนวโน้มเริ่มสูงกว่าเส้น 85th หรือเริ่มต่ำกว่าเส้น 15th' in the 2nd printing. The lesson uses only the 2nd-printing wording. Paediatrician to confirm.",
+      "Editorial description (not printed as text): 'เส้น 85th และ 15th พิมพ์เป็นสีส้ม' — read from the chart images (97th/3rd red, 85th/15th orange, 50th green). Added only to help families find the lines in their own book; reviewer may remove.",
+      "Editorial (not printed): 'ใช้กราฟให้ตรงกับเพศของลูก' is taken from the chart titles 'สำหรับเด็กชาย' / 'สำหรับเด็กหญิง' (the general rule 'เลือกใช้กราฟให้ถูกเพศกับเด็ก' is on printed page 42); 'จุดที่บันทึกต่อเนื่องหลายครั้ง' in the quiz scenario restates 'แนวโน้ม'; text step 2 adds the subject 'เส้นรอบศีรษะ' to the printed 'หากเริ่มมีขนาดเมื่อเทียบกับกราฟ…' for clarity. The app does not plot or judge any child's measurement and draws no chart.",
+      "The lesson does not explain what or where the fontanelles are, and says nothing about what a late or early closure means — the handbook gives only the two latest closing ages.",
+      "Sort step matches each printed number/line with what it refers to; it does not rank anything by urgency.",
+      "Quiz q4 scenario (a grandmother looking at her grandchild's chart) is written for this lesson; all distractors are written for the quiz and their feedback only restates the printed action.",
+      "Family note is editorial. Needs approval. Paediatrician to review (curriculum review requirement).",
+      "Editorial: the timeline stage label 'แรกเกิดถึง 5 ปี' for the referral sentence comes from the x-axis of the p46-47 charts; p45 gives no age range for the referral."
+    ]
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "First draft from official handbook PDF p45–p47 (2nd printing, April 2569)."
+    },
+    {
+      "version": "0.1.1",
+      "date": "2026-11-10",
+      "author": "Claude Code (AI draft)",
+      "change": "Added video step V-GROW-003 (narration derived from this lesson; no text changes)."
+    }
+  ],
+  "steps": [
+    {
+      "type": "text",
+      "heading": "เส้นรอบศีรษะของลูก",
+      "paragraphs": [
+        "โดยเฉลี่ยเด็กแรกเกิด จะมีเส้นรอบศีรษะอยู่ที่ประมาณ 35 ซม.",
+        "สมุดมีกราฟเส้นรอบวงศีรษะแยกกัน สำหรับเด็กชายอยู่สมุดหน้า 44 และสำหรับเด็กหญิงอยู่สมุดหน้า 45 ใช้กราฟให้ตรงกับเพศของลูก",
+        "ในกราฟ เส้นแนวนอนคืออายุ ตั้งแต่แรกเกิดถึง 5 ปี เส้นแนวตั้งคือเส้นรอบวงศีรษะ (เซนติเมตร)",
+        "ในกราฟมีเส้นโค้ง 5 เส้น ติดป้ายว่า 97th 85th 50th 15th และ 3rd เส้น 85th และ 15th พิมพ์เป็นสีส้ม"
+      ]
+    },
+    {
+      "type": "video",
+      "heading": "ดูวิดีโอสรุป",
+      "videoId": "V-GROW-003"
+    },
+    {
+      "type": "text",
+      "heading": "กระหม่อม และเมื่อไรควรปรึกษา",
+      "paragraphs": [
+        "กระหม่อมหลังปิดอย่างช้าไม่เกิน 4 เดือน",
+        "กระหม่อมหน้าปิดอย่างช้าไม่เกิน 1 ปีครึ่ง",
+        "หากเส้นรอบศีรษะเริ่มมีขนาดเมื่อเทียบกับกราฟมากหรือน้อยจนเกินไป (แนวโน้มเริ่มสูงกว่าเส้น 85th หรือเริ่มต่ำกว่าเส้น 15th) ควรปรึกษาบุคลากรทางสาธารณสุข"
+      ]
+    },
+    {
+      "type": "timeline",
+      "heading": "ตัวเลขสำคัญตามช่วงอายุ",
+      "intro": "แตะแต่ละช่วง เพื่อดูสิ่งที่สมุดหน้า 43 เขียนไว้",
+      "stages": [
+        {
+          "id": "birth",
+          "label": "แรกเกิด",
+          "items": [
+            {
+              "n": 1,
+              "title": "เส้นรอบศีรษะประมาณ 35 ซม.",
+              "detail": "โดยเฉลี่ยเด็กแรกเกิด จะมีเส้นรอบศีรษะอยู่ที่ประมาณ 35 ซม."
+            }
+          ]
+        },
+        {
+          "id": "m4",
+          "label": "ไม่เกิน 4 เดือน",
+          "items": [
+            {
+              "n": 2,
+              "title": "กระหม่อมหลังปิด",
+              "detail": "กระหม่อมหลังปิดอย่างช้าไม่เกิน 4 เดือน"
+            }
+          ]
+        },
+        {
+          "id": "y15",
+          "label": "ไม่เกิน 1 ปีครึ่ง",
+          "items": [
+            {
+              "n": 3,
+              "title": "กระหม่อมหน้าปิด",
+              "detail": "กระหม่อมหน้าปิดอย่างช้าไม่เกิน 1 ปีครึ่ง"
+            }
+          ]
+        },
+        {
+          "id": "to5",
+          "label": "แรกเกิดถึง 5 ปี",
+          "items": [
+            {
+              "n": 4,
+              "title": "ดูแนวโน้มในกราฟเส้นรอบวงศีรษะ",
+              "detail": "หากแนวโน้มเริ่มสูงกว่าเส้น 85th หรือเริ่มต่ำกว่าเส้น 15th ควรปรึกษาบุคลากรทางสาธารณสุข"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "heading": "ตัวเลขนี้คืออะไร",
+      "intro": "แตะข้อความ แล้วแตะเรื่องที่ข้อความนั้นพูดถึง",
+      "buckets": [
+        {
+          "id": "hc",
+          "label": "เส้นรอบศีรษะแรกเกิด"
+        },
+        {
+          "id": "post",
+          "label": "กระหม่อมหลัง"
+        },
+        {
+          "id": "ant",
+          "label": "กระหม่อมหน้า"
+        },
+        {
+          "id": "line",
+          "label": "เส้นที่ใช้ดูแนวโน้ม"
+        }
+      ],
+      "items": [
+        {
+          "id": "s1",
+          "text": "ปิดอย่างช้าไม่เกิน 1 ปีครึ่ง",
+          "bucketId": "ant"
+        },
+        {
+          "id": "s2",
+          "text": "เส้น 85th",
+          "bucketId": "line"
+        },
+        {
+          "id": "s3",
+          "text": "ประมาณ 35 ซม.",
+          "bucketId": "hc"
+        },
+        {
+          "id": "s4",
+          "text": "ปิดอย่างช้าไม่เกิน 4 เดือน",
+          "bucketId": "post"
+        },
+        {
+          "id": "s5",
+          "text": "เส้น 15th",
+          "bucketId": "line"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "heading": "ทบทวนความเข้าใจ",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "prompt": "โดยเฉลี่ย เด็กแรกเกิดมีเส้นรอบศีรษะประมาณเท่าไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "ประมาณ 25 ซม.",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่าโดยเฉลี่ยประมาณ 35 ซม."
+            },
+            {
+              "id": "b",
+              "text": "ประมาณ 35 ซม.",
+              "feedback": "ถูกต้อง โดยเฉลี่ยเด็กแรกเกิดมีเส้นรอบศีรษะประมาณ 35 ซม."
+            },
+            {
+              "id": "c",
+              "text": "ประมาณ 45 ซม.",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่าโดยเฉลี่ยประมาณ 35 ซม."
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "สมุดหน้า 43: โดยเฉลี่ยเด็กแรกเกิด จะมีเส้นรอบศีรษะอยู่ที่ประมาณ 35 ซม.",
+          "source": {
+            "pdfPages": [
+              45
+            ],
+            "printedPages": [
+              "43"
+            ]
+          }
+        },
+        {
+          "id": "q2",
+          "kind": "mcq",
+          "prompt": "สมุดเขียนว่า กระหม่อมหลังปิดอย่างช้าไม่เกินเมื่อไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "1 ปีครึ่ง",
+              "feedback": "1 ปีครึ่งเป็นตัวเลขของกระหม่อมหน้า กระหม่อมหลังปิดอย่างช้าไม่เกิน 4 เดือน"
+            },
+            {
+              "id": "b",
+              "text": "5 ปี",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่ากระหม่อมหลังปิดอย่างช้าไม่เกิน 4 เดือน"
+            },
+            {
+              "id": "c",
+              "text": "4 เดือน",
+              "feedback": "ถูกต้อง กระหม่อมหลังปิดอย่างช้าไม่เกิน 4 เดือน"
+            }
+          ],
+          "correctOptionId": "c",
+          "explanation": "สมุดหน้า 43: กระหม่อมหลังปิดอย่างช้าไม่เกิน 4 เดือน กระหม่อมหน้าปิดอย่างช้าไม่เกิน 1 ปีครึ่ง",
+          "source": {
+            "pdfPages": [
+              45
+            ],
+            "printedPages": [
+              "43"
+            ]
+          }
+        },
+        {
+          "id": "q3",
+          "kind": "truefalse",
+          "prompt": "กระหม่อมหน้าปิดอย่างช้าไม่เกิน 1 ปีครึ่ง",
+          "options": [
+            {
+              "id": "a",
+              "text": "ผิด",
+              "feedback": "ข้อความนี้ตรงกับสมุด กระหม่อมหน้าปิดอย่างช้าไม่เกิน 1 ปีครึ่ง"
+            },
+            {
+              "id": "b",
+              "text": "ถูก",
+              "feedback": "ถูกต้อง ตรงกับที่สมุดเขียนไว้"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "สมุดหน้า 43: กระหม่อมหน้าปิดอย่างช้าไม่เกิน 1 ปีครึ่ง",
+          "source": {
+            "pdfPages": [
+              45
+            ],
+            "printedPages": [
+              "43"
+            ]
+          }
+        },
+        {
+          "id": "q4",
+          "kind": "scenario",
+          "scenario": "ยายดูกราฟเส้นรอบวงศีรษะในสมุดของหลาน เห็นว่าจุดที่บันทึกต่อเนื่องหลายครั้ง มีแนวโน้มเริ่มสูงกว่าเส้น 85th",
+          "prompt": "สมุดแนะนำให้ทำอย่างไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "ปรึกษาบุคลากรทางสาธารณสุข",
+              "feedback": "ถูกต้อง สมุดแนะนำว่า หากแนวโน้มเริ่มสูงกว่าเส้น 85th หรือเริ่มต่ำกว่าเส้น 15th ควรปรึกษาบุคลากรทางสาธารณสุข"
+            },
+            {
+              "id": "b",
+              "text": "รอดูเองไปจนหลานอายุ 5 ปี",
+              "feedback": "สมุดไม่ได้แนะนำแบบนี้ สมุดแนะนำให้ปรึกษาบุคลากรทางสาธารณสุข"
+            },
+            {
+              "id": "c",
+              "text": "เปลี่ยนไปใช้กราฟของอีกเพศ",
+              "feedback": "ไม่ใช่ ต้องใช้กราฟให้ตรงกับเพศของเด็ก และสมุดแนะนำให้ปรึกษาบุคลากรทางสาธารณสุข"
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "หากเริ่มมีขนาดเมื่อเทียบกับกราฟมากหรือน้อยจนเกินไป (แนวโน้มเริ่มสูงกว่าเส้น 85th หรือเริ่มต่ำกว่าเส้น 15th) ควรปรึกษาบุคลากรทางสาธารณสุข (สมุดหน้า 43)",
+          "source": {
+            "pdfPages": [
+              45
+            ],
+            "printedPages": [
+              "43"
+            ]
+          }
+        },
+        {
+          "id": "q5",
+          "kind": "mcq",
+          "prompt": "สมุดใช้เส้นไหนในกราฟเส้นรอบวงศีรษะ เป็นจุดสังเกตแนวโน้ม",
+          "options": [
+            {
+              "id": "a",
+              "text": "เส้น 50th เส้นเดียว",
+              "feedback": "ยังไม่ใช่ สมุดใช้เส้น 85th และเส้น 15th"
+            },
+            {
+              "id": "b",
+              "text": "เส้น 85th และเส้น 15th",
+              "feedback": "ถูกต้อง แนวโน้มเริ่มสูงกว่าเส้น 85th หรือเริ่มต่ำกว่าเส้น 15th ควรปรึกษาบุคลากรทางสาธารณสุข"
+            },
+            {
+              "id": "c",
+              "text": "เส้น 97th และเส้น 3rd",
+              "feedback": "ยังไม่ใช่ ข้อความในสมุดหน้า 43 พูดถึงเส้น 85th และเส้น 15th"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "สมุดหน้า 43 ใช้เส้น 85th และเส้น 15th ในกราฟเส้นรอบวงศีรษะ (สมุดหน้า 44–45) เป็นจุดสังเกต",
+          "source": {
+            "pdfPages": [
+              45,
+              46,
+              47
+            ],
+            "printedPages": [
+              "43",
+              "44",
+              "45"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "takeaways",
+      "heading": "สรุปสิ่งสำคัญ",
+      "items": [
+        "โดยเฉลี่ยเด็กแรกเกิดมีเส้นรอบศีรษะประมาณ 35 ซม.",
+        "กระหม่อมหลังปิดอย่างช้าไม่เกิน 4 เดือน กระหม่อมหน้าปิดอย่างช้าไม่เกิน 1 ปีครึ่ง",
+        "แนวโน้มเริ่มสูงกว่าเส้น 85th หรือเริ่มต่ำกว่าเส้น 15th ควรปรึกษาบุคลากรทางสาธารณสุข",
+        "ใช้กราฟเส้นรอบวงศีรษะให้ตรงกับเพศของลูก: เด็กชายสมุดหน้า 44 เด็กหญิงสมุดหน้า 45"
+      ],
+      "familyNote": "คนในครอบครัว ปู่ย่าตายาย หรือคนที่ดูแล ที่พาเด็กไปรับบริการ เปิดกราฟเส้นรอบวงศีรษะในสมุดดูด้วยกันได้ ถ้าเห็นแนวโน้มตามที่สมุดเขียนไว้ หรือไม่แน่ใจ ปรึกษาบุคลากรทางสาธารณสุข"
+    }
+  ]
+}

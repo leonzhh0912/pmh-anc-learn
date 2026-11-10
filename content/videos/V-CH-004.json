@@ -1,0 +1,33 @@
+{
+  "id": "V-CH-004",
+  "lessonId": "MCH68-CH-004",
+  "title": "วัคซีนพื้นฐานของลูก (EPI)",
+  "mp4": "media/V-CH-004.mp4",
+  "captionsVtt": "media/V-CH-004.th.vtt",
+  "poster": "media/V-CH-004.jpg",
+  "durationSec": 128.6,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "high",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-CH-004 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'บี ซี จี', 'เอช บี', 'เอช บี ไอ จี', 'ฮิบ', 'พี ซี วี', 'เจอี', 'โรต้า', 'สามสิบหก', 'เก้าถึงสิบสองเดือน', 'สองปีครึ่ง'.",
+      "EPI nurse + paediatrician: every age in the video is copied from the lesson (p38-p39). The video narrates only a selection: not narrated are HB at 1 month (เฉพาะแม่ที่เป็นพาหะ), OPV at 6 and 18 months, DTP at 18 months, the PCV booster at 12-15 months and its * footnote, influenza, HPV and the dT 10-year booster.",
+      "Item 2 shortens 'HBIg เฉพาะที่เกิดจากแม่ติดเชื้อตับอักเสบบี' to fit on screen; the narration says the full wording.",
+      "Item 10 shortens the pink-box text on screen to 'เจาะเลือด 9-12 เดือน (เฉพาะบางคน)'; the narration says 'เฉพาะเด็กที่เกิดจากแม่ติดเชื้อไวรัสตับอักเสบบี เจาะเลือดที่อายุเก้าถึงสิบสองเดือน' as printed. The result fields and advice options in the pink box are not shown (same as the lesson).",
+      "Lesson note: the upper tables of p39 have no heading of their own and are grouped with the EPI table (HANDBOOK ISSUE in the lesson); the title narration repeats that grouping ('ต่อไปถึงส่วนบนของหน้าสามสิบเจ็ด').",
+      "Lesson note: the JE English name is printed 'Lived attenuated'; the video uses only the Thai name 'ไข้สมองอักเสบเจอี'.",
+      "Rota: the video says the book prints two schedules (2, 4 months or 2, 4, 6 months) and does not say which one a child gets (same as the lesson).",
+      "Summary point 3 ('ไม่แน่ใจ ถามเจ้าหน้าที่') is the lesson's editorial pointer."
+    ]
+  }
+}

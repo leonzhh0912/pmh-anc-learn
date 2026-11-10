@@ -1,0 +1,30 @@
+{
+  "id": "V-REC-003",
+  "lessonId": "MCH68-REC-003",
+  "title": "การนับลูกดิ้น",
+  "mp4": "media/V-REC-003.mp4",
+  "captionsVtt": "media/V-REC-003.th.vtt",
+  "poster": "media/V-REC-003.jpg",
+  "durationSec": 86.7,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "high",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-REC-003 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of สุขภาวะ, ความตระหนัก, 'ยี่สิบแปดสัปดาห์', 'หน้าสิบสาม', 'หน้ายี่สิบสี่', ตรวจประเมิน.",
+      "Lesson HANDBOOK ISSUE (p15 'แนะนำให้พบแพทย์' vs p26 'ต้องมาโรงพยาบาลทันที'): both are central, so both are narrated, each with its own page (items 7 and 8, summary points 3 and 4), word for word and without ranking. Obstetrician / ANC nurse to decide whether one instruction should be shown before release.",
+      "Item 8 and summary point 4 shorten the p26 wording on screen only (โรงพยาบาล → 'รพ.', 'ดิ้นน้อยลง/ไม่ดิ้น'); their speak/caption say the full printed sign and action ('เด็กดิ้นน้อยลง หรือไม่ดิ้น' ... 'ต้องมาโรงพยาบาลทันที'). Summary points 3–4 are 34 and 39 characters (brief target 34) to keep the printed meaning.",
+      "Lesson note: 28 weeks is the 2nd-printing value (the 1st printing said 32 weeks).",
+      "Not narrated: the example row counts (5 / 3 / 6), the other 6 danger signs on p26, the family note."
+    ]
+  }
+}

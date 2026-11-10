@@ -1,0 +1,224 @@
+{
+  "id": "V-CH-001",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 3863,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 400,
+      "segments": [
+        {
+          "file": "audio/V-CH-001/intro-1-b4b7bafb60.wav",
+          "from": 18,
+          "durationInFrames": 226,
+          "caption": "หลังคลอด สมุดมีอาการผิดปกติของแม่ 6 อาการ ที่ต้องพบแพทย์หรือเจ้าหน้าที่สาธารณสุขทันที",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-CH-001/intro-2-b427914ed9.wav",
+          "from": 258,
+          "durationInFrames": 115,
+          "caption": "และมีตารางเยี่ยมหลังคลอด 3 ครั้ง กับคำแนะนำเพิ่มเติม",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 400,
+      "durationInFrames": 1174,
+      "segments": [
+        {
+          "file": "audio/V-CH-001/stage1-1-a2e326d392.wav",
+          "from": 18,
+          "durationInFrames": 96,
+          "caption": "ตอนที่ 1 อาการผิดปกติหลังคลอด",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-001/stage1-2-d28238e72d.wav",
+          "from": 128,
+          "durationInFrames": 154,
+          "caption": "ถ้ามีอาการใดอาการหนึ่ง ต้องพบแพทย์หรือเจ้าหน้าที่สาธารณสุขทันที",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-001/stage1-3-388fd5e2a2.wav",
+          "from": 296,
+          "durationInFrames": 130,
+          "caption": "ข้อ 1 ตกเลือดหลังคลอด เป็นก้อน ลิ่มเลือด",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-CH-001/stage1-4-5b74d5e364.wav",
+          "from": 440,
+          "durationInFrames": 113,
+          "caption": "ข้อ 2 ตัวร้อนเป็นไข้ ติดต่อกัน 2 วัน",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-CH-001/stage1-5-58022a73ca.wav",
+          "from": 567,
+          "durationInFrames": 197,
+          "caption": "ข้อ 3 น้ำคาวปลามีกลิ่นเหม็น ขุ่นข้น หรือมีสีแดงนานเกิน 2 สัปดาห์",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-CH-001/stage1-6-9d88565a92.wav",
+          "from": 778,
+          "durationInFrames": 137,
+          "caption": "ข้อ 4 ปัสสาวะแสบ ขัด กะปริบกะปรอย หรือปัสสาวะไม่ออก",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-CH-001/stage1-7-e9a753cb68.wav",
+          "from": 929,
+          "durationInFrames": 120,
+          "caption": "ข้อ 5 ปวด บวม บริเวณฝีเย็บหรือแผลแยก",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-CH-001/stage1-8-6aa9a02a60.wav",
+          "from": 1063,
+          "durationInFrames": 84,
+          "caption": "ข้อ 6 หัวนมแตก หรืออักเสบ",
+          "reveal": 6
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1574,
+      "durationInFrames": 695,
+      "segments": [
+        {
+          "file": "audio/V-CH-001/stage2-1-215af5cafc.wav",
+          "from": 18,
+          "durationInFrames": 104,
+          "caption": "ตอนที่ 2 การเยี่ยมหลังคลอด 3 ครั้ง",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-001/stage2-2-913ef20327.wav",
+          "from": 136,
+          "durationInFrames": 166,
+          "caption": "แต่ละครั้ง ผู้ประเมินจะดูอาการผิดปกติทั้ง 6 อาการ และบันทึกไว้ในสมุด",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-001/stage2-3-590dc778c3.wav",
+          "from": 316,
+          "durationInFrames": 98,
+          "caption": "ครั้งที่ 1 ภายในสัปดาห์แรกหลังคลอด",
+          "reveal": 7
+        },
+        {
+          "file": "audio/V-CH-001/stage2-4-16a53ebf03.wav",
+          "from": 428,
+          "durationInFrames": 108,
+          "caption": "ครั้งที่ 2 วันที่ 8 ถึงวันที่ 15 หลังคลอด",
+          "reveal": 8
+        },
+        {
+          "file": "audio/V-CH-001/stage2-5-4eccd643fd.wav",
+          "from": 550,
+          "durationInFrames": 118,
+          "caption": "ครั้งที่ 3 วันที่ 16 ถึงวันที่ 42 หลังคลอด",
+          "reveal": 9
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 2269,
+      "durationInFrames": 958,
+      "segments": [
+        {
+          "file": "audio/V-CH-001/stage3-1-f9951f0f16.wav",
+          "from": 18,
+          "durationInFrames": 86,
+          "caption": "ตอนที่ 3 คำแนะนำเพิ่มเติม",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-001/stage3-2-708981dc7b.wav",
+          "from": 118,
+          "durationInFrames": 230,
+          "caption": "สมุดมีหัวข้อเรื่องการคุมกำเนิด และการดูแลเหงือกและฟัน ถามรายละเอียดจากเจ้าหน้าที่ได้",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-001/stage3-3-e41083ae54.wav",
+          "from": 362,
+          "durationInFrames": 151,
+          "caption": "เน้นการดื่มนมแม่อย่างเดียว โดยไม่ต้องป้อนน้ำเปล่า ในทารกอายุ 6 เดือนแรก",
+          "reveal": 10
+        },
+        {
+          "file": "audio/V-CH-001/stage3-4-119355325b.wav",
+          "from": 527,
+          "durationInFrames": 86,
+          "caption": "ไม่ส่งผ่านเชื้อฟันผุจากผู้ดูแลสู่เด็ก",
+          "reveal": 11
+        },
+        {
+          "file": "audio/V-CH-001/stage3-5-fc294ed9c3.wav",
+          "from": 627,
+          "durationInFrames": 175,
+          "caption": "เช่น การใช้ช้อนร่วมกันกับเด็ก การเป่าอาหารให้เด็ก การเคี้ยวอาหารให้เด็ก",
+          "reveal": 11
+        },
+        {
+          "file": "audio/V-CH-001/stage3-6-6c2aadc52c.wav",
+          "from": 816,
+          "durationInFrames": 115,
+          "caption": "และนัดตรวจสุขภาพช่องปากแม่และลูก 6 เดือนหลังคลอด",
+          "reveal": 12
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 3227,
+      "durationInFrames": 636,
+      "segments": [
+        {
+          "file": "audio/V-CH-001/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 43,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-001/summary-2-c8609cc4f8.wav",
+          "from": 75,
+          "durationInFrames": 180,
+          "caption": "อาการผิดปกติหลังคลอด 6 อาการ ต้องพบแพทย์หรือเจ้าหน้าที่สาธารณสุขทันที",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-CH-001/summary-3-011be5799c.wav",
+          "from": 269,
+          "durationInFrames": 211,
+          "caption": "เยี่ยมหลังคลอด 3 ครั้ง: ภายในสัปดาห์แรก วันที่ 8-15 และวันที่ 16-42",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-CH-001/summary-4-dcfbd2af59.wav",
+          "from": 494,
+          "durationInFrames": 115,
+          "caption": "และนมแม่อย่างเดียว 6 เดือนแรก ไม่ต้องป้อนน้ำเปล่า",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

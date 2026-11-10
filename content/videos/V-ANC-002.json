@@ -1,0 +1,29 @@
+{
+  "id": "V-ANC-002",
+  "lessonId": "MCH68-ANC-002",
+  "title": "วัคซีนสำหรับหญิงตั้งครรภ์",
+  "mp4": "media/V-ANC-002.mp4",
+  "captionsVtt": "media/V-ANC-002.th.vtt",
+  "poster": "media/V-ANC-002.jpg",
+  "durationSec": 98.9,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "high",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-ANC-002 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'ดี ที' (dT), คอตีบ, บาดทะยัก, ไอกรน, 'ยี่สิบถึงสามสิบสองสัปดาห์', 'สิบสองถึงยี่สิบสัปดาห์', ภูมิคุ้มกัน, ขวบปีแรก.",
+      "Lesson HANDBOOK ISSUE (footnote 2: influenza schedule 'อยู่ระหว่าง...ปรับอายุการให้วัคซีน', no new rule printed): footnote 2 is NOT narrated. The printed influenza window (12-20 สัปดาห์, ให้ได้ตลอดการตั้งครรภ์) is central and is narrated; reviewer to confirm it may be shown before release.",
+      "Not narrated: Tdap/TdaP footnote (its definitions carry a lesson HANDBOOK ISSUE), the 'ap หรือ aP' label, Lot./Exp, the 'ก่อนตั้งครรภ์' history column and the family note.",
+      "Item 3 / its segment says 'ถ้าฉีด สมุดมีช่องบันทึก...' — describes the printed dT checkboxes; it does not say who decides which applies."
+    ]
+  }
+}

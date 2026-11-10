@@ -1,0 +1,182 @@
+{
+  "id": "V-ANC-002",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 2966,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 431,
+      "segments": [
+        {
+          "file": "audio/V-ANC-002/intro-1-a60d9b20d9.wav",
+          "from": 18,
+          "durationInFrames": 209,
+          "caption": "สมุดบันทึกสุขภาพแม่และเด็ก หน้า 5 มีตารางบันทึกวัคซีนสำหรับหญิงตั้งครรภ์ 3 ชนิด",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-ANC-002/intro-2-f6f6b29e19.wav",
+          "from": 241,
+          "durationInFrames": 163,
+          "caption": "การได้รับวัคซีนในหญิงตั้งครรภ์ ช่วยส่งต่อภูมิคุ้มกันโรคไปยังทารกได้",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 431,
+      "durationInFrames": 682,
+      "segments": [
+        {
+          "file": "audio/V-ANC-002/stage1-1-dfc766197b.wav",
+          "from": 18,
+          "durationInFrames": 139,
+          "caption": "ตอนที่ 1 วัคซีนคอตีบ-บาดทะยัก (dT)",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-ANC-002/stage1-2-e0c1811774.wav",
+          "from": 171,
+          "durationInFrames": 132,
+          "caption": "สมุดเขียนว่า ไม่ฉีดในครรภ์นี้ เนื่องจากได้ครบ 3 เข็ม",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-ANC-002/stage1-3-f0de5e1c04.wav",
+          "from": 317,
+          "durationInFrames": 86,
+          "caption": "หรือได้รับเข็มกระตุ้นมาไม่เกิน 10 ปี",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-ANC-002/stage1-4-b1760c3dee.wav",
+          "from": 417,
+          "durationInFrames": 238,
+          "caption": "ถ้าฉีด สมุดมีช่องบันทึกวันที่ ครั้งที่ 1, 2 และ 3 หรือฉีดเฉพาะเข็มกระตุ้น",
+          "reveal": 3
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1113,
+      "durationInFrames": 750,
+      "segments": [
+        {
+          "file": "audio/V-ANC-002/stage2-1-d0a78ae163.wav",
+          "from": 18,
+          "durationInFrames": 79,
+          "caption": "ตอนที่ 2 วัคซีนไอกรน",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-ANC-002/stage2-2-8f6dc759ab.wav",
+          "from": 111,
+          "durationInFrames": 111,
+          "caption": "ไอกรน ฉีดวัคซีน 1 ครั้ง ทุกการตั้งครรภ์",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-ANC-002/stage2-3-02be3ad644.wav",
+          "from": 236,
+          "durationInFrames": 96,
+          "caption": "แนะนำที่อายุครรภ์ 20-32 สัปดาห์",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-ANC-002/stage2-4-1d16bebc74.wav",
+          "from": 346,
+          "durationInFrames": 130,
+          "caption": "ทั้งนี้สามารถให้ได้เมื่ออายุครรภ์ 16 สัปดาห์ขึ้นไป",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-ANC-002/stage2-5-bb771aff03.wav",
+          "from": 490,
+          "durationInFrames": 233,
+          "caption": "ฉีดหลัง 32 สัปดาห์ ยังคงมีประโยชน์ ลดการติดเชื้อหรือเสียชีวิตจากไอกรนในทารกขวบปีแรก",
+          "reveal": 7
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 1863,
+      "durationInFrames": 479,
+      "segments": [
+        {
+          "file": "audio/V-ANC-002/stage3-1-3d0661eb70.wav",
+          "from": 18,
+          "durationInFrames": 82,
+          "caption": "ตอนที่ 3 วัคซีนไข้หวัดใหญ่",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-ANC-002/stage3-2-706b670484.wav",
+          "from": 114,
+          "durationInFrames": 118,
+          "caption": "ไข้หวัดใหญ่ ฉีดวัคซีน 1 ครั้ง ทุกการตั้งครรภ์",
+          "reveal": 8
+        },
+        {
+          "file": "audio/V-ANC-002/stage3-3-80969db570.wav",
+          "from": 246,
+          "durationInFrames": 94,
+          "caption": "แนะนำที่อายุครรภ์ 12-20 สัปดาห์",
+          "reveal": 9
+        },
+        {
+          "file": "audio/V-ANC-002/stage3-4-1063db992f.wav",
+          "from": 354,
+          "durationInFrames": 98,
+          "caption": "ทั้งนี้สามารถให้ได้ตลอดการตั้งครรภ์",
+          "reveal": 10
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 2342,
+      "durationInFrames": 624,
+      "segments": [
+        {
+          "file": "audio/V-ANC-002/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-ANC-002/summary-2-80ce7568ce.wav",
+          "from": 78,
+          "durationInFrames": 160,
+          "caption": "ไอกรน ฉีดทุกการตั้งครรภ์ แนะนำที่ 20-32 สัปดาห์",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-ANC-002/summary-3-242d00c49b.wav",
+          "from": 252,
+          "durationInFrames": 163,
+          "caption": "ไข้หวัดใหญ่ ฉีดทุกการตั้งครรภ์ แนะนำที่ 12-20 สัปดาห์",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-ANC-002/summary-4-22ae4868b4.wav",
+          "from": 429,
+          "durationInFrames": 168,
+          "caption": "และการได้รับวัคซีนในหญิงตั้งครรภ์ ช่วยส่งต่อภูมิคุ้มกันโรคไปยังทารกได้",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "V-GROW-008",
+  "lessonId": "MCH68-GROW-008",
+  "title": "ยาน้ำเสริมธาตุเหล็กสำหรับเด็ก 6 เดือน - 5 ปี",
+  "mp4": "media/V-GROW-008.mp4",
+  "captionsVtt": "media/V-GROW-008.th.vtt",
+  "poster": "media/V-GROW-008.jpg",
+  "durationSec": 84.7,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "high",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-GROW-008 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'ยาน้ำเสริมธาตุเหล็ก', 'โฟเลต', 'วิตามินเอ', 'สติปัญญา', 'หกเดือนถึงห้าปี', 'ห้าสิบห้า ห้าสิบหก และห้าสิบเจ็ด' (page numbers).",
+      "Scope (from lesson): no dose amount, product, time of day, storage or side effects are narrated — none are printed.",
+      "Lesson note: in p57 note 5, 'ซึ่งเป็นแหล่งสำคัญของวิตามินเอ และโฟเลต' follows 'กินไข่ทุกวัน หรือกินไข่สลับกับตับ'; item 6 narrates the sentence as printed.",
+      "Not used in the video: the p42–43 record columns, the HANDBOOK ISSUE about the 'วิตามินเสริมธาตุเหล็ก' column name/shading, and the family note (editorial)."
+    ]
+  }
+}

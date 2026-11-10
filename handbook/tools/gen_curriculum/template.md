@@ -2,7 +2,7 @@
 
 Machine-readable version: [`content/curriculum.json`](content/curriculum.json) (one object per lesson). This document is generated from the same data. If the two disagree, `curriculum.json` is correct.
 
-**Scope rule.** The only syllabus is the official handbook named below. No topic from outside the handbook is added, and no medical content is invented. Where a lesson needs local instructions (phone numbers, where to go, clinic days) or plain-language wording that the handbook does not print, it is listed under *PMH clarification* and must be written and approved by Phimai Hospital (PMH). Families are never taught to self-score the clinical screening tools.
+**Scope rule.** The only syllabus is the official handbook named below. No topic from outside the handbook is added, and no medical content is invented. The app digitises the handbook to make it easier to learn and adds no information (decision of the PMH director, in line with MOPH, 2026-11-10). Where the handbook is silent (local phone numbers, where to go, clinic days, doses, products), the app is silent too; only numbers printed in the handbook (e.g. 1669) appear. Families are never taught to self-score the clinical screening tools.
 
 **At a glance:** {{TOTAL}} lessons · risk: {{RISK}} · priority: {{PRI}} · release: {{REL}} · content type: {{TYPE}}.
 
@@ -60,7 +60,7 @@ Lesson IDs are shown without the `MCH68-` prefix. A page can feed several lesson
 
 ## 4. Lesson map by section
 
-Columns: ID · Thai title / English · PDF and printed pages · content type · objectives (Thai, from page content only) · interactivity · video treatment · clinical risk · priority / release (status). Review requirements and PMH clarifications for each lesson are in `curriculum.json` and summarised in §6.
+Columns: ID · Thai title / English · PDF and printed pages · content type · objectives (Thai, from page content only) · interactivity · video treatment · clinical risk · priority / release (status). Review requirements and planning notes for each lesson are in `curriculum.json` and summarised in §6.
 
 {{LESSONS}}
 
@@ -98,22 +98,15 @@ No changes were flagged for p47–p65 apart from those listed. The extraction fo
 
 ---
 
-## 6. Clinical clarification / PMH-specific instructions needed
+## 6. Clinical review notes
 
-### 6a. Local instructions PMH must supply (the handbook gives none)
+### 6a. Local instructions: not added (decided 2026-11-10)
 
-1. **Emergency route in pregnancy** (K-005, REC-003): where to go 24 hours a day (labour room / ER), phone number, and when to call 1669 versus coming by own transport. The handbook says "ต้องมาโรงพยาบาลทันที" but prints no number for pregnancy emergencies.
-2. **Reduced fetal movements**: p15 says "แนะนำให้พบแพทย์" (< 3 per hour), while p26 lists "เด็กดิ้นน้อยลง หรือไม่ดิ้น" as "ต้องมาโรงพยาบาลทันที". PMH should give one clear instruction.
-3. **Sick-baby route** (K-010, K-019, K-018): paediatric OPD hours vs ER after hours; where to bring a baby with pale stools urgently; where to bring a child after a seizure.
-4. **Postpartum** (CH-001): who makes postnatal home visits in Phimai and how families are contacted; route for postpartum haemorrhage; **contraception advice** is listed on p35 but has no content in the handbook.
-5. **Mental-health crisis pathway** (ASSESS-001, ASSESS-002): the handbook prints no crisis line or after-hours contact. Any hotline would be a PMH addition. PMH also needs a policy for the ♡ icon on p18–19, which implies mothers may fill in ST-5/2Q plus/EPDS themselves. The app will not offer self-scoring.
-6. **Clinics and schedules**: ANC visit schedule (not printed), parenting-school session dates and booking, well-child/vaccine clinic days, dental clinic booking for pregnant women and for children before age 1, child-development stimulation (ฝึกกระตุ้น) clinic, lactation support, smoking-cessation and alcohol counselling.
-7. **Birth registration** (INFO-001): where Phimai families register a birth within 15 days, and PMH's birth-notification process.
-8. **Referral tier** (ANC-003): where PMH sits among รพ.สต. / รพช. / รพช.แม่ข่าย / รพท. / รพศ., and where high-risk women are referred.
-9. **Vaccines** (ANC-002, CH-004, CH-005): which maternal vaccines PMH gives (aP / Tdap / TdaP, influenza) and whether free; which rotavirus vaccine (monovalent or pentavalent); which p39 vaccines are EPI vs optional; which optional vaccines PMH offers and their cost; who gives HPV (ป.5) and dT at 12 years.
-10. **Medicines with no dose printed**: maternal iron/iodine/folic tablets (K-003, OVR-001 item 1), calcium supplement for low milk intake (K-001), child iron syrup weekly 6 months–5 years (GROW-008), antipyretics (K-018, CH-006). The handbook gives no product, amount or side-effect advice. PMH pharmacy must decide what to say; nothing may be invented.
-11. **Plain-language purposes** of tests and screenings that the handbook only names (ANC-001 blood tests and Down syndrome tests, REC-001 visit checks, CH-002 newborn screening). PMH must write and approve these, or the lessons stay at "name only".
-12. **Local context for illustrations only** (K-013, K-014, K-015, K-004): rural housing, motorcycles, water jars and ponds, local fermented foods. Adding local examples must not add new rules.
+An earlier plan asked PMH to supply local details the handbook does not print (emergency routes and numbers,
+clinic days, which vaccines or tablets PMH uses, doses, crisis lines, plain-language test purposes). The PMH
+director decided the app adds no information, so none of these are added. Danger-sign lessons say "go to
+hospital" exactly as the handbook does. The `pmhClarificationNeeded` lists in `curriculum.json` are kept as
+planning history; only their handbook problems (typos, contradictions, unclear text) still need a reviewer.
 
 ### 6b. Handbook ambiguities and internal inconsistencies (clinical review needed)
 

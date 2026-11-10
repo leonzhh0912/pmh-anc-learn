@@ -6,7 +6,7 @@ How to use: open each lesson in the app (staging or `npm run dev`, path `/lesson
 check every statement against the cited page of the paper handbook. Resolve every note below, then record the
 reviewer name and date (see CONTENT_REVIEW.md). Notes marked **HANDBOOK ISSUE** need a decision from PMH.
 
-Lessons in this pack: 39
+Lessons in this pack: 58
 
 ## MCH68-OVR-001 — 15 ข้อ เพื่อแม่ลูกสุขภาพดี
 
@@ -34,13 +34,6 @@ Lessons in this pack: 39
 - [ ] Thai-speaking reviewer must listen to the whole video and check pronunciation, especially numbers, 'ดี เอส พี เอ็ม' (DSPM), ฟลูออไรด์, โฟลิก, and tone of delivery.
 - [ ] Item 5 follows the handbook ('พร้อมสามี'). PMH to decide whether to add inclusive wording for people attending without a partner.
 - [ ] v0.2.0: narration re-aligned to 2nd-printing p67 wording (v0.1.0 had borrowed fuller phrasing from the 1st printing).
-
-**Local PMH information needed**
-
-- [ ] RESOLVED 2026-11-09: V-OVR-001 v0.2.0 re-aligned to the 2nd-printing p67 wording (items 6 and 8).
-- [ ] Item 5 'พร้อมสามี': PMH to decide inclusive wording for women attending without a partner
-- [ ] Item 15 'ปรึกษาแพทย์/บุคลากร': PMH to add how to contact the PMH ANC / well-child clinics
-- [ ] Item 1 pre-conception supplements: handbook gives no dose or source; PMH to say where women planning pregnancy can get iron/folic tablets
 
 **Sign-off**
 
@@ -88,12 +81,6 @@ Lessons in this pack: 39
 - [ ] PMH CLARIFICATION (from lesson): 'เจ้าหน้าที่สาธารณสุขใกล้บ้าน' (item 4) — PMH to supply clinic / รพ.สต. contact details.
 - [ ] Item 5 on-screen text says 'หน้ารูปหัวใจ' instead of the ♡ symbol, in case the video font lacks the glyph; the caption keeps ♡ — check it renders.
 
-**Local PMH information needed**
-
-- [ ] Whether to mention the หมอพร้อม app / Line OA '9 ย่างเพื่อสร้างลูก' service (p1, p34) — external government service; QR targets on p1, p2 and p34 were not decoded or verified
-- [ ] Who families should ask ('เจ้าหน้าที่สาธารณสุขใกล้บ้าน'): PMH to supply clinic / รพ.สต. contact information
-- [ ] Page thumbnails of the handbook need กรมอนามัย permission
-
 **Sign-off**
 
 | Role | Name | Date | Decision |
@@ -139,10 +126,6 @@ Lessons in this pack: 39
 - [ ] Item 1/2 screen texts list only some fields to fit; the narration names the printed fields (incl. เลขประจำตัวประชาชน). The 13-box ID layout is not mentioned.
 - [ ] Lesson note: the handbook does not say how the 15 days are counted; the video says only 'ภายในสิบห้าวัน' as printed. Summary 3 says 'ในท้องที่ที่มีการเกิด' (spoken instead of 'ณ') — same place as printed.
 - [ ] Not used in the video: the family note (who may register the birth in the parents' place; relatives keep the book safe), blood group / ID timing.
-
-**Local PMH information needed**
-
-- [ ] Where Phimai families register births (district office / municipality) and how PMH issues the birth notification document — not in the handbook
 
 **Sign-off**
 
@@ -191,13 +174,6 @@ Lessons in this pack: 39
 - [ ] Lesson note: 'bring the handbook' (item 8, summary 2) comes from PDF p2, not p4.
 - [ ] Not used in the video: certificate e-mail line (PMH CLARIFICATION on how the e-mail field is used), SMART HYBRID / online sessions, the 9-volume คู่มือ and QR, and the editorial 'parenting-school day is a good time to ask'.
 
-**Local PMH information needed**
-
-- [ ] PMH schedule, room and booking method for each session; whether PMH runs SMART HYBRID (online) sessions
-- [ ] Who issues the certificate and how the e-mail field is used
-- [ ] QR to the 9-volume คู่มือโรงเรียนพ่อแม่: confirm link and permission (cover age ranges are tiny print; the hidden text layer mislabels Volumes 2-3)
-- [ ] Whether app lessons can complement or count toward parenting-school sessions (PMH decision)
-
 **Sign-off**
 
 | Role | Name | Date | Decision |
@@ -244,11 +220,6 @@ Lessons in this pack: 39
 - [ ] Item 5 names three of the printed โรคประจำตัว options that have a 'ชนิด' space (เบาหวาน, ไทรอยด์, โรคหัวใจ) as examples only; nothing is said about why any disease matters (not taught, by design). ANC nurse to verify the field list and tip wording (lesson review requirement).
 - [ ] Title segment 2 uses the lesson summary's short form of the p5 tip ('...ภาวะแทรกซ้อนในครรภ์นี้'); summary point 1 uses the tip wording shortened for caption length. Check both are acceptable.
 - [ ] Not used in the video: the app-privacy lines ('แอปนี้ไม่ได้ให้กรอกหรือเก็บประวัติของคุณ'), the sort step and the family note.
-
-**Local PMH information needed**
-
-- [ ] Whether PMH wants a printable 'prepare for your first ANC visit' list
-- [ ] App must not store health history (privacy)
 
 **Sign-off**
 
@@ -302,11 +273,47 @@ Lessons in this pack: 39
 - [ ] Down syndrome box: only the printed options and method names; no eligibility, timing, risk or cost.
 - [ ] Not used: the 'ประวัติการตั้งครรภ์ปัจจุบัน' block, the family note (privacy of results).
 
-**Local PMH information needed**
+**Sign-off**
 
-- [ ] The handbook lists test names only. Any plain-language explanation of what each test detects (e.g. thalassaemia screen) is NOT in the handbook and must be written and approved by PMH, or limited to the p33 QR resource 'โรคที่ถ่ายทอดทางพันธุกรรม เช่น ดาวน์ซินโดรม ธาลัสซีเมีย'
-- [ ] Which Down syndrome screening PMH offers, eligibility and cost
-- [ ] How and when PMH tells couples about abnormal results; privacy of HIV/syphilis results
+| Role | Name | Date | Decision |
+|---|---|---|---|
+| Clinical reviewer |  |  | approve / changes needed |
+| Thai language / pronunciation |  |  | approve / changes needed |
+
+---
+
+## MCH68-ANC-002 — วัคซีนสำหรับหญิงตั้งครรภ์
+
+- Handbook: printed page ปก, 5, สรุปท้ายเล่ม (official PDF p2, p7, p67)
+- Status: **DRAFT** · version 0.1.1 · clinical risk **high** · release R2
+- Content: 8 steps, end-of-lesson quiz with 5 questions, video V-ANC-002 (v0.1.0)
+- Handbook issues to decide: 3
+
+**Who should review**
+
+- [ ] ANC nurse + obstetrician + vaccine/EPI coordinator
+- [ ] Verify windows: aP 20-32 wk (from 16 wk; after 32 wk still beneficial), influenza 12-20 wk (any time in pregnancy), dT rule (3 doses complete or booster ≤10 years → no dose), Tdap/TdaP substitution footnote
+
+**Author notes to resolve (lesson)**
+
+- [ ] Vaccine names, every checkbox option, all week windows (20-32, 16, 32, 12-20), the dT rule (ครบ 3 เข็ม / เข็มกระตุ้นมาไม่เกิน 10 ปี), both footnotes, the source line and the margin tip are copied from PDF p7 (printed 5), checked on a 250-dpi render of the official 2nd-printing page. The page's own grouping (dT / ไอกรน / ไข้หวัดใหญ่ / วัคซีนอื่น; ก่อนตั้งครรภ์ / การตั้งครรภ์นี้) is kept.
+- [ ] HANDBOOK ISSUE: the table row is printed 'ไอกรน* (ap หรือ aP)' with a lowercase 'ap'; footnote 1 uses only 'aP'. Quoted as printed; reviewer to confirm whether 'ap' is a typo.
+- [ ] HANDBOOK ISSUE: footnote 1 defines Tdap as 'วัคซีนรวมคอตีบ - บาดทะยัก - ไอกรนชนิดไร้เซลล์แบบ cellular'. 'ไร้เซลล์' (acellular) followed by 'แบบ cellular' reads as contradictory. Quoted verbatim in text step 3 only; not explained or reworded.
+- [ ] HANDBOOK ISSUE: footnote 2 says influenza vaccination is 'อยู่ระหว่างสำนักงานหลักประกันสุขภาพแห่งชาติดำเนินการปรับอายุการให้วัคซีน' but does not state the new rule. Quoted verbatim; the lesson teaches only the printed window (12-20 สัปดาห์, ให้ได้ตลอดการตั้งครรภ์). Reviewer to confirm the printed window may be shown.
+- [ ] Not taught (handbook silent): what each disease is, what dT/aP/Tdap/TdaP/Lot./Exp mean beyond the printed footnote, who chooses the dT option, side effects, cost or availability.
+- [ ] p67 item 12 'รับวัคซีนครบตามเกณฑ์ (ทั้งแม่และเด็ก)' is quoted in text step 1 and in q4 feedback.
+- [ ] Text step 2 sentence 'ถ้าจำไม่ได้ว่าเคยฉีดหรือไม่ ในสมุดมีช่อง ไม่ทราบ/ไม่แน่ใจ' is framing around the printed checkbox.
+- [ ] Timeline and sort steps are editorial arrangements of printed phrases (which vaccine row each phrase belongs to). Wording is as printed or shortened without changing meaning.
+- [ ] Quiz q3 (mother who already had 3 dT doses) is a situation written for this lesson; it only asks which printed dT checkbox matches and is not a self-decision tool. Quiz q5 statement is written to test 'ทุกการตั้งครรภ์'.
+- [ ] Family note is app framing written for this lesson (help remember past vaccines, bring the handbook). Bringing the handbook to every health visit is printed on PDF p2 (inside cover).
+
+**Video notes to resolve**
+
+- [ ] Narration derived only from lesson MCH68-ANC-002 v0.1.0; no new content.
+- [ ] Thai-speaking reviewer: check pronunciation of 'ดี ที' (dT), คอตีบ, บาดทะยัก, ไอกรน, 'ยี่สิบถึงสามสิบสองสัปดาห์', 'สิบสองถึงยี่สิบสัปดาห์', ภูมิคุ้มกัน, ขวบปีแรก.
+- [ ] Lesson HANDBOOK ISSUE (footnote 2: influenza schedule 'อยู่ระหว่าง...ปรับอายุการให้วัคซีน', no new rule printed): footnote 2 is NOT narrated. The printed influenza window (12-20 สัปดาห์, ให้ได้ตลอดการตั้งครรภ์) is central and is narrated; reviewer to confirm it may be shown before release.
+- [ ] Not narrated: Tdap/TdaP footnote (its definitions carry a lesson HANDBOOK ISSUE), the 'ap หรือ aP' label, Lot./Exp, the 'ก่อนตั้งครรภ์' history column and the family note.
+- [ ] Item 3 / its segment says 'ถ้าฉีด สมุดมีช่องบันทึก...' — describes the printed dT checkboxes; it does not say who decides which applies.
 
 **Sign-off**
 
@@ -360,12 +367,6 @@ Lessons in this pack: 39
 - [ ] Items 3 and 6 shorten the p8 and p9 margin tips for caption length (item 3 drops 'หญิงที่' and 'ของโรค', and says 'บุคลากร' for 'บุคลากรทางสาธารณสุข'). Check wording is acceptable.
 - [ ] Not used in the video: the timeline 'ask staff where to go if referred' line, the family note and the sort step.
 
-**Local PMH information needed**
-
-- [ ] PMH's own place in the referral tiers and where high-risk women are referred — PMH to supply
-- [ ] QR 'สแกน QR Code เพื่อดูรายละเอียดของความเสี่ยงแต่ละกลุ่ม' target not verified
-- [ ] p8 anaemia threshold printed as 'Hb < 11 mg/dL' (unit as printed) — staff-side issue; do not reproduce
-
 **Sign-off**
 
 | Role | Name | Date | Decision |
@@ -414,12 +415,6 @@ Lessons in this pack: 39
 - [ ] Nipple check (item 11): the two printed checkbox options and what happens if the nipple is retracted are not narrated; mothers are not told to check themselves.
 - [ ] Not used: fetal-movement counting, family note.
 
-**Local PMH information needed**
-
-- [ ] PMH ANC visit schedule (number and timing of visits) is not printed in the handbook — PMH to supply if wanted
-- [ ] Plain-language purposes of each check are not in the handbook — PMH must approve wording
-- [ ] Retracted nipple: where PMH refers mothers for breastfeeding preparation/support
-
 **Sign-off**
 
 | Role | Name | Date | Decision |
@@ -461,10 +456,172 @@ Lessons in this pack: 39
 - [ ] Lesson note: 'ส่งเชื้อฟันผุให้ลูกได้' (item 4) is a plain-language version of 'ถ่ายทอดเชื้อฟันผุจากแม่สู่ลูกได้'.
 - [ ] Item 12 mentions the record on printed p12; the '2 visits' detail and how to book the PMH dental check (PMH CLARIFICATION) are not narrated.
 
-**Local PMH information needed**
+**Sign-off**
 
-- [ ] How to book the PMH dental check for pregnant women (the record has 2 visits)
-- [ ] Baking-soda rinse: dentist to decide whether a ratio is needed (not printed)
+| Role | Name | Date | Decision |
+|---|---|---|---|
+| Clinical reviewer |  |  | approve / changes needed |
+| Thai language / pronunciation |  |  | approve / changes needed |
+
+---
+
+## MCH68-REC-003 — การนับลูกดิ้น
+
+- Handbook: printed page ปก, 13, 24 (official PDF p2, p15, p26)
+- Status: **DRAFT** · version 0.1.1 · clinical risk **high** · release R2
+- Content: 7 steps, end-of-lesson quiz with 5 questions, video V-REC-003 (v0.1.0)
+- Handbook issues to decide: 2
+
+**Who should review**
+
+- [ ] ANC nurse + obstetrician: verify 28-week start (was 32 weeks in the 1st printing), 1 hour after each meal, < 3 per hour rule
+
+**Author notes to resolve (lesson)**
+
+- [ ] Main text, margin tip ('นับลูกดิ้นเมื่ออายุครรภ์ 28 สัปดาห์ขึ้นไป หลังอาหาร 3 มื้อ ครั้งละ 1 ชั่วโมง อย่างน้อยลูกต้องดิ้น 3 ครั้ง') and table columns (วันที่ / จำนวนครั้ง: เช้า เที่ยง เย็น) are from PDF p15 (printed 13), checked on the official page image. The danger-sign heading and the item 'เด็กดิ้นน้อยลง หรือไม่ดิ้น' are from PDF p26 (printed 24), copied word for word.
+- [ ] HANDBOOK ISSUE: the two pages word the action differently. p15 (printed 13): 'ถ้าน้อยกว่า 3 ครั้งต่อชั่วโมง แนะนำให้พบแพทย์เพื่อตรวจประเมินสุขภาพของทารกในครรภ์'. p26 (printed 24): 'เด็กดิ้นน้อยลง หรือไม่ดิ้น' is listed under 'อาการผิดปกติที่แม่ท้อง ต้องมาโรงพยาบาลทันที'. The lesson quotes each with its own page and does not choose, merge or rank them. Obstetrician / ANC nurse to decide whether the app should show one instruction.
+- [ ] HANDBOOK ISSUE (change from the 1st printing): the start is 28 weeks in this printing; the earlier printing said 32 weeks. The lesson uses 28 weeks only.
+- [ ] The 'ตัวอย่าง' row is printed as tally marks; read as เช้า 5, เที่ยง 3, เย็น 6 on a 400-dpi render. The lesson states these numbers only as what the example row shows; it does not classify any count.
+- [ ] p26 lists 7 signs in total. This lesson quotes only the fetal-movement sign and points to printed page 24 for the full list (taught in its own lesson); it does not reword or summarise the other signs.
+- [ ] Text step 2 sentence about using tally marks like the example row is framing around the printed example.
+- [ ] Quiz q4 (2 movements in 1 hour after lunch) is a situation written for this lesson. The correct option is the p15 wording; every option's feedback and the explanation quote both p15 (printed 13) and p26 (printed 24, 'เด็กดิ้นน้อยลง หรือไม่ดิ้น' under 'ต้องมาโรงพยาบาลทันที') with their pages, without choosing between them. No option or feedback says that reduced movement can wait or is normal.
+- [ ] Family note is app framing written for this lesson. Bringing the handbook to every health visit is printed on PDF p2 (inside cover).
+
+**Video notes to resolve**
+
+- [ ] Narration derived only from lesson MCH68-REC-003 v0.1.0; no new content.
+- [ ] Thai-speaking reviewer: check pronunciation of สุขภาวะ, ความตระหนัก, 'ยี่สิบแปดสัปดาห์', 'หน้าสิบสาม', 'หน้ายี่สิบสี่', ตรวจประเมิน.
+- [ ] Lesson HANDBOOK ISSUE (p15 'แนะนำให้พบแพทย์' vs p26 'ต้องมาโรงพยาบาลทันที'): both are central, so both are narrated, each with its own page (items 7 and 8, summary points 3 and 4), word for word and without ranking. Obstetrician / ANC nurse to decide whether one instruction should be shown before release.
+- [ ] Item 8 and summary point 4 shorten the p26 wording on screen only (โรงพยาบาล → 'รพ.', 'ดิ้นน้อยลง/ไม่ดิ้น'); their speak/caption say the full printed sign and action ('เด็กดิ้นน้อยลง หรือไม่ดิ้น' ... 'ต้องมาโรงพยาบาลทันที'). Summary points 3–4 are 34 and 39 characters (brief target 34) to keep the printed meaning.
+- [ ] Lesson note: 28 weeks is the 2nd-printing value (the 1st printing said 32 weeks).
+- [ ] Not narrated: the example row counts (5 / 3 / 6), the other 6 danger signs on p26, the family note.
+
+**Sign-off**
+
+| Role | Name | Date | Decision |
+|---|---|---|---|
+| Clinical reviewer |  |  | approve / changes needed |
+| Thai language / pronunciation |  |  | approve / changes needed |
+
+---
+
+## MCH68-REC-004 — น้ำหนักที่เพิ่มขึ้นขณะตั้งครรภ์ และกราฟ Vallop curve
+
+- Handbook: printed page ปก, 14, 15, สรุปท้ายเล่ม (official PDF p2, p16, p17, p67)
+- Status: **DRAFT** · version 0.1.1 · clinical risk **high** · release R2
+- Content: 8 steps, end-of-lesson quiz with 5 questions, video V-REC-004 (v0.1.0)
+- Handbook issues to decide: 2
+
+**Who should review**
+
+- [ ] ANC nurse + nutritionist + obstetrician
+- [ ] Verify BMI categories (<18.5; 18.5-22.9; 23.0-24.9; ≥25.0 kg/m²) and that any zone boundaries come from official Vallop curve source data, not values read off the page image
+
+**Author notes to resolve (lesson)**
+
+- [ ] Title, (A)/(B) boxes, BMI formula, the instruction to tick 1 of 4 charts, the 4 printed chart labels with BMI ranges (<18.5; 18.5 - 22.9; 23.0 - 24.9; ≥25.0 กิโลกรัมต่อตารางเมตร), axis titles, zone names and both margin tips are from PDF p16–17 (printed 14–15), checked on 250-dpi renders of the official page images.
+- [ ] No digital chart is drawn and no zone boundary is given as a number: the zone boundaries are not printed as numbers. The lesson teaches reading the printed chart in words (axes, zone names, which chart to tick). Zone colours (แดง / เขียว / เหลือง) are described in words only, to help find the zones in the family's own handbook.
+- [ ] HANDBOOK ISSUE: the title is printed 'Vallop curve²' with a superscript 2, but no matching reference note appears on p16 or p17. The lesson writes 'Vallop curve' without the superscript.
+- [ ] HANDBOOK ISSUE (FYI, not used in this lesson): the staff risk checklist on PDF p8 (printed 6) uses different pre-pregnancy BMI bands (< 18.5 หรือ 23-29.9 / 30-40 / > 40 กก./ตร.ม.) from the 4 chart labels on p16–17. The bands serve different purposes, but reviewer may want to check that learners are not confused.
+- [ ] Not taught (handbook silent): what to do when a point falls in the 'น้ำหนักเพิ่มมาก' or 'น้ำหนักเพิ่มน้อย' zone, target weight gains, or diet advice. The lesson only repeats p67 item 15 ('หากมีข้อสงสัย ปรึกษาแพทย์/บุคลากร (ไม่ควรลองผิดลองถูก)') and p2 (pages marked ♡ can be studied and filled in by parents; ask public-health staff if in doubt).
+- [ ] Example numbers are written for this lesson and are not from the handbook: sort-step BMI values (17.0, 18.5, 21.0, 23.0, 24.5, 25.0, 28.0) and quiz values (A = 50 kg, B = 56 kg; BMI 24.0). They only practise reading the printed ranges and the printed (B) - (A) subtraction.
+- [ ] Text step 3 sentence 'เส้นแบ่งโซนในสมุดไม่ได้พิมพ์เป็นตัวเลข แอปจึงไม่วาดกราฟให้' is app framing.
+- [ ] Quiz q2 is a situation written for this lesson (simple subtraction). Family note is app framing written for this lesson.
+
+**Video notes to resolve**
+
+- [ ] Narration derived only from lesson MCH68-REC-004 v0.1.0; no new content.
+- [ ] Thai-speaking reviewer: check pronunciation of 'บีเอ็มไอ' (BMI), 'วัลลอป เคิร์ฟ' (Vallop curve), 'บี ลบ เอ', 'สิบแปดจุดห้า', 'ยี่สิบสองจุดเก้า', 'ยี่สิบสามจุดศูนย์', 'ยี่สิบสี่จุดเก้า', 'ยี่สิบห้าจุดศูนย์', 'ยกกำลังสอง', ภาวะแทรกซ้อน.
+- [ ] No chart is drawn and no zone boundary is spoken or shown: zone boundaries are not printed as numbers. Only the printed BMI ranges, formula, (B) - (A), axis meaning and zone names are used.
+- [ ] The title is said and shown as 'Vallop curve' without the printed superscript ² (lesson HANDBOOK ISSUE: no matching reference note).
+- [ ] Summary point 4 repeats p67 item 15 (in the lesson); no instruction is given for points in the มาก / น้อย zones because the handbook gives none.
+- [ ] Summary point 3 (p17 margin tip) is 37 characters on screen; speech says the full tip.
+- [ ] Not narrated: example BMI values and the quiz example (A = 50, B = 56), zone colours, the family note.
+
+**Sign-off**
+
+| Role | Name | Date | Decision |
+|---|---|---|---|
+| Clinical reviewer |  |  | approve / changes needed |
+| Thai language / pronunciation |  |  | approve / changes needed |
+
+---
+
+## MCH68-ASSESS-001 — ดูแลใจระหว่างตั้งครรภ์: ความเครียดและการผ่อนคลาย
+
+- Handbook: printed page 16, 18 (official PDF p18, p20)
+- Status: **DRAFT** · version 0.1.1 · clinical risk **high** · release R2
+- Content: 7 steps, end-of-lesson quiz with 5 questions, video V-ASSESS-001 (v0.1.0)
+- Handbook issues to decide: 0
+
+**Who should review**
+
+- [ ] Psychiatric nurse / PMH mental-health team + ANC nurse
+- [ ] Confirm no self-scoring; suicide safe-messaging review of every screen and the narration
+
+**Author notes to resolve (lesson)**
+
+- [ ] Purpose sentence ('การประเมินภาวะสุขภาพจิต จะช่วยให้มองเห็นปัญหาทางสุขภาพจิต และหาทางช่วยเหลือให้มารดาและลูกมีสุขภาพกายใจที่สมบูรณ์ต่อไป') and the margin tip ('สุขภาพจิตมีความสำคัญทั้งในช่วงการตั้งครรภ์และหลังคลอด อีกทั้งยังส่งผลต่อทารกในครรภ์ด้วย') are from p18 (printed 16), checked on the page image. 'มารดา' is written as 'แม่' in the lesson.
+- [ ] AWARENESS-ONLY CHECK: no ST-5 or 2Q plus item, score, cut-off or result label is reproduced, and the app offers no self-scoring. The lesson names only the record topics (ความเครียด, ซึมเศร้า, สุรา, การดูแลช่วยเหลือ) and 'up to 8 times during pregnancy' from the p20 (printed 18) record table, checked on the page image. Reviewer to confirm.
+- [ ] The three ways to relax (talk or consult with people close to you, to let out stress or untangle its cause; breathe in and out deeply and slowly several times; use religious principles to ease worry) are printed on p18 inside the ST-5 interpretation for the 5-7 band. The lesson gives them as general advice without the score band. Reviewer to confirm.
+- [ ] 'ความเครียดสูงอาจส่งผลเสียต่อร่างกาย ... ควรขอรับคำปรึกษาจากบุคลากรสาธารณสุข เพื่อดูแลจิตใจ' comes from the p18 interpretation of the 8+ band, given without the score. The printed examples (ปวดศีรษะ ปวดหลัง นอนไม่หลับ) are left out on purpose, so that headache is not linked to stress in an app where 'ปวดศีรษะมาก ตาพร่ามัว จุกแน่นยอดอก' is a printed danger sign (p26, printed 24). Reviewer to decide whether to restore them.
+- [ ] SAFE-MESSAGING CHECK: the sentence 'ถ้าทุกข์ใจมาก หรือมีความคิดทำร้ายตัวเอง ให้บอกเจ้าหน้าที่หรือบุคลากรทางการแพทย์ เพื่อประเมินและดูแลเพิ่มเติม' is app wording. It is based on the p18 2Q plus '+' interpretation ('ส่งพบบุคลากรทางการแพทย์เพื่อประเมินเพิ่มเติม') but does not reproduce the item. It is kept out of the quiz. Psychiatric nurse to approve the wording on every screen.
+- [ ] App framing, not printed: 'ตอบตามความรู้สึกจริง', 'แบบประเมินอยู่ในสมุดเล่มจริง แอปนี้ไม่มีแบบประเมินและไม่คิดคะแนนให้', 'สงสัยเรื่องแบบประเมิน ถามเจ้าหน้าที่ได้', the sort-step grouping (by page section: relaxation advice vs record topics), quiz scenario q4 (stress about work and home at 6 months), and the family note (listen, let the mother talk, help her go to counselling).
+- [ ] More app framing, not printed: q1 option a feedback 'การประเมินไม่ได้มีไว้ตัดสินใคร'; q5 option c feedback 'ไม่ควรงด วันฝากครรภ์เป็นโอกาสขอรับคำปรึกษาจากบุคลากรสาธารณสุข'; and the 'ทุกข์ใจมาก' trigger in takeaways item 4 ('ถ้าเครียดมากหรือทุกข์ใจมาก') and in the family note. p18 ties counselling to the score bands, not to these words.
+- [ ] The p18/p20 ♡ icon (pages the mother may study and fill in herself) is not explained in this lesson; how the paper form is completed is left to staff.
+- [ ] The p20 margin tip on smoking in pregnancy is not repeated here; it is taught in MCH68-ASSESS-003.
+
+**Video notes to resolve**
+
+- [ ] Narration derived only from lesson MCH68-ASSESS-001 v0.1.0; no new content.
+- [ ] Thai-speaking reviewer: check pronunciation of สุขภาพกายใจ, ปรึกษาหารือ, คลี่คลาย, 'ลึก ๆ ช้า ๆ' (repetition mark), บุคลากรสาธารณสุข, แปดครั้ง.
+- [ ] Item 5 / 'ตอบตามความรู้สึกจริง' is app framing already listed in the lesson reviewNotes.
+- [ ] Item 9 / 'ความเครียดสูงอาจส่งผลเสียต่อร่างกาย ... ขอรับคำปรึกษา' is from the p18 8+ band interpretation, given without the score and without the printed body examples (see lesson reviewNotes).
+- [ ] SAFE-MESSAGING: the lesson's self-harm help-seeking sentence is left out of the video on purpose; psychiatric nurse to decide whether the video should carry it and to check the tone of the whole narration.
+- [ ] No ST-5 / 2Q plus item, score or cut-off is spoken or shown.
+
+**Sign-off**
+
+| Role | Name | Date | Decision |
+|---|---|---|---|
+| Clinical reviewer |  |  | approve / changes needed |
+| Thai language / pronunciation |  |  | approve / changes needed |
+
+---
+
+## MCH68-ASSESS-002 — ภาวะซึมเศร้าหลังคลอด เกิดขึ้นได้กับทุกคน
+
+- Handbook: printed page 17, 19 (official PDF p19, p21)
+- Status: **DRAFT** · version 0.1.1 · clinical risk **high** · release R2
+- Content: 7 steps, end-of-lesson quiz with 5 questions, video V-ASSESS-002 (v0.1.0)
+- Handbook issues to decide: 2
+
+**Who should review**
+
+- [ ] Psychiatric nurse + postnatal nurse: safe-messaging; no EPDS item or cut-off reproduced
+
+**Author notes to resolve (lesson)**
+
+- [ ] 'ภาวะซึมเศร้าหลังคลอด เกิดขึ้นได้กับทุกคน โดยไม่จำเป็นต้องเคยมีประวัติซึมเศร้ามาก่อน' is the p21 (printed 19) margin tip; 'เมื่อตั้งครรภ์ ฮอร์โมนที่เปลี่ยนแปลงจะส่งผลต่ออารมณ์ของหญิงตั้งครรภ์ได้มาก' is the p19 (printed 17) margin tip. Both checked on the page images. The hormone tip is about pregnancy; the lesson keeps it in that context and does not extend it to the postnatal period.
+- [ ] AWARENESS-ONLY CHECK: no EPDS or 2Q plus item, score, cut-off or result label is reproduced, and the app offers no self-scoring. The lesson uses only the EPDS title, its answering instructions (feelings in the past 7 days, not today; the mother should read the form herself, and staff may read it to her if she has problems reading Thai) from p19, and the record headings and topics from p21. Reviewer to confirm.
+- [ ] 'ขอรับคำปรึกษาจากบุคลากรสาธารณสุข เพื่อดูแลจิตใจ หรือได้รับการส่งต่อเพื่อรักษาต่อไป' is the printed EPDS interpretation advice (p19), given without the score bands.
+- [ ] SAFE-MESSAGING CHECK: the self-harm sentence 'ถ้าทุกข์ใจมาก หรือมีความคิดทำร้ายตัวเอง ให้บอกเจ้าหน้าที่หรือบุคลากรทางการแพทย์ เพื่อประเมินและดูแลเพิ่มเติม' is app wording, written the same way as in MCH68-ASSESS-001. It refers, without reproducing it, to EPDS item 10* on p19 (printed: further suicide-risk assessment, plus counselling or referral). It is kept apart from the counselling sentence and out of the quiz and video. Psychiatric nurse to approve all mood wording.
+- [ ] APP FRAMING (trigger): p19 ties 'ขอรับคำปรึกษาจากบุคลากรสาธารณสุข เพื่อดูแลจิตใจหรือได้รับการส่งต่อเพื่อรักษาต่อไป' to the EPDS result. The lesson also uses it with an app-written trigger, 'รู้สึกเศร้าหรือทุกข์ใจ', in step 4 paragraph 1, quiz q4, takeaways item 4 and the family note (and in V-ASSESS-002 stage 3). Reviewer to confirm.
+- [ ] Timeline: the two postnatal record blocks on p21 ('หลังคลอด 4-6 สัปดาห์' and 'หลังคลอดมากกว่า 6 สัปดาห์', each with ครั้งที่ 1 and 2). Their topics are listed in the printed row order (4-6 weeks: ความเครียด, สุรา, ภาวะซึมเศร้าหลังคลอด, การดูแลช่วยเหลือ; after 6 weeks: ความเครียด, ซึมเศร้า, สุรา, การดูแลช่วยเหลือ), checked on the page image. Instrument names (EPDS, 2Q plus) are given as printed; nothing about their contents.
+- [ ] Quiz q4 feedback 'ไม่จำเป็นต้องรอวันประเมิน' is app framing: the handbook ties its advice to assessment results. It encourages earlier help-seeking; reviewer to confirm.
+- [ ] App framing, not printed: 'การบอกความรู้สึกให้คนใกล้ตัวและเจ้าหน้าที่รู้ เป็นก้าวแรกของการดูแลใจ', 'แอปนี้ไม่มีแบบประเมินและไม่คิดคะแนนให้', the family note (listen without blame, go with the mother to counselling), quiz scenario q4 (3 weeks after birth, often tearful) and 'รับฟัง' in its correct option. The earlier sentence 'อารมณ์ที่เปลี่ยนไปจึงไม่ใช่ความผิดของใคร' was removed so the lesson does not imply mood change is only hormonal.
+- [ ] HANDBOOK ISSUE (staff-side, not shown in the app): on p19 the score-3 label for EPDS item 10 is printed 'ค่อนข้างน้อย', which reads oddly for the highest score (checked on the page image). Clinical team to check against the official Thai EPDS.
+- [ ] HANDBOOK ISSUE (minor): on p19 a stray overlapping 'แบบ' prints over the start of the EPDS title (visible on the page image). The lesson uses the title without it.
+
+**Video notes to resolve**
+
+- [ ] Narration derived only from lesson MCH68-ASSESS-002 v0.1.0; no new content.
+- [ ] Thai-speaking reviewer: check pronunciation of ซึมเศร้า, ฮอร์โมน, บุคลากรสาธารณสุข, 'สี่ถึงหกสัปดาห์', ทุกข์ใจ.
+- [ ] Items 3 and 8 (telling people close to you; family listening without blame) are app framing already listed in the lesson reviewNotes. The sentence 'ไม่ใช่ความผิดของใคร' was removed from item 3 and the summary.
+- [ ] APP FRAMING (trigger): stage 3 (intro 'เมื่อคุณแม่รู้สึกเศร้าหรือทุกข์ใจ', segment 2 and item 7) and summary point 3 attach the printed EPDS counselling advice to the app-written trigger 'รู้สึกเศร้าหรือทุกข์ใจ'; p19 ties that advice to the EPDS result. Listed in the lesson reviewNotes too.
+- [ ] Item 2 keeps the p19 tip in its pregnancy context ('เมื่อตั้งครรภ์ ... หญิงตั้งครรภ์'); it is not applied to the postnatal period.
+- [ ] SAFE-MESSAGING: the lesson's self-harm wording is left out of the video on purpose; psychiatric nurse to check the tone of the whole narration.
+- [ ] No EPDS or 2Q plus item, score or cut-off is spoken or shown; the instrument abbreviations are not spoken.
 
 **Sign-off**
 
@@ -511,10 +668,6 @@ Lessons in this pack: 39
 - [ ] SCOPE NOTE (lesson): the handbook says nothing about smoking while breastfeeding or second-hand-smoke harms; the video applies the breastfeeding rule to alcohol only and the smoking harm to pregnancy only.
 - [ ] Lesson note applies: PMH smoking-cessation and alcohol-counselling contacts should be shown with this lesson (not in the narration).
 
-**Local PMH information needed**
-
-- [ ] PMH smoking-cessation and alcohol-counselling service contacts (not in the handbook)
-
 **Sign-off**
 
 | Role | Name | Date | Decision |
@@ -552,11 +705,6 @@ Lessons in this pack: 39
 - [ ] Lesson note applies: food examples per group come from the illustrations on p22 (rice/bread/noodles, fish/eggs/meat, oil/sugar/salt). No local examples added.
 - [ ] Lesson note applies: tier order (grains; vegetables + fruit; milk + meat; fat/sugar/salt) follows the flag picture on p22; middle-tier wording 'กินรองลงมา / กินน้อยลงอีก' is the lesson's.
 - [ ] The calcium-supplement line is not used in the video (no dose in the handbook; PMH still to confirm how women obtain it).
-
-**Local PMH information needed**
-
-- [ ] Local (Isan) food examples would be a PMH addition requiring nutritionist sign-off
-- [ ] Low or no milk intake → calcium supplement: no dose or source printed; PMH to state how women get it
 
 **Sign-off**
 
@@ -604,11 +752,44 @@ Lessons in this pack: 39
 - [ ] Milk-symbol colour names (เขียว / ฟ้า / ชมพู) are not used in the video (they are not printed words).
 - [ ] Lesson note applies: mothers with chronic disease need individual advice; PMH nutrition-clinic referral route still to be added.
 
-**Local PMH information needed**
+**Sign-off**
 
-- [ ] Trimester boundaries differ inside the handbook (p23-25: <12 / 13-27 / 28-40 wk; p27: <12 / 13-26 / 27-40 wk) — PMH to choose consistent app wording
-- [ ] Portion-size example photos sit behind QR codes — permission, or PMH-made photos
-- [ ] Mothers with chronic disease or GDM need individual advice (p22 footer) — PMH nutrition-clinic referral route
+| Role | Name | Date | Decision |
+|---|---|---|---|
+| Clinical reviewer |  |  | approve / changes needed |
+| Thai language / pronunciation |  |  | approve / changes needed |
+
+---
+
+## MCH68-K-003 — ยาเม็ดเสริมธาตุเหล็ก ไอโอดีน และโฟลิก ทุกวัน
+
+- Handbook: printed page 20, 21, 22, 23, สรุปท้ายเล่ม (official PDF p22, p23, p24, p25, p67)
+- Status: **DRAFT** · version 0.1.1 · clinical risk **high** · release R2
+- Content: 7 steps, end-of-lesson quiz with 5 questions, video V-K-003 (v0.1.0)
+- Handbook issues to decide: 2
+
+**Who should review**
+
+- [ ] ANC nurse + pharmacist: no dose, brand or side-effect advice may be added unless PMH supplies it
+
+**Author notes to resolve (lesson)**
+
+- [ ] The banner 'กินยาเม็ดเสริมธาตุเหล็ก ไอโอดีน และโฟลิก ทุกวันตลอดการตั้งครรภ์' and the bottle label 'ยาเม็ดเสริมธาตุเหล็ก ไอโอดีน โฟลิก' were checked on the official page images of PDF p23, p24 and p25 (printed 21–23); the wording is identical on all three. Margin tips checked on rotated crops: p22 'วิตามินเสริมระหว่างฝากครรภ์ ช่วยเสริมสารอาหารที่จำเป็น'; p24 'ธาตุเหล็ก ช่วยป้องกันภาวะซีดในหญิงตั้งครรภ์'. p67 items 1 and 15 checked on the page image.
+- [ ] No dose, number of tablets, time of day, brand, side effect, storage or refill advice is given: none is printed in the handbook.
+- [ ] HANDBOOK ISSUE: p25 (printed 23) is for both 'หญิงตั้งครรภ์ ไตรมาสที่ 3' and 'หญิงให้นมบุตร 6 เดือนแรก', but its supplement banner says only 'ทุกวันตลอดการตั้งครรภ์'. The handbook does not say whether supplements continue while breastfeeding. The lesson says nothing about breastfeeding.
+- [ ] HANDBOOK ISSUE: wording differs between pages. p67 item 1 (before pregnancy) says 'วิตามินเสริม (เหล็ก/โฟลิก)' without iodine; p23–25 (during pregnancy) say 'ยาเม็ดเสริมธาตุเหล็ก ไอโอดีน และโฟลิก'; the p22 tip says 'วิตามินเสริมระหว่างฝากครรภ์'. The lesson keeps each wording with its own page and does not say whether these are the same tablet.
+- [ ] Timeline: stage 'ระหว่างตั้งครรภ์' repeats the same printed banner once per trimester page (printed 21 / 22 / 23) without week ranges, to show it is printed on every trimester page. The two margin tips are grouped in a separate 'ประโยชน์ตามสมุด' stage because they are not trimester-specific.
+- [ ] Quiz q1 statement is from the curriculum interactivity idea ('take the tablets only in the first trimester' — false). Quiz q5 (a relative suggests stopping in late pregnancy) is a situation written for this lesson; the answer rests on the p25 banner and p67 item 15.
+- [ ] Family note is app framing written for this lesson (remind daily; tell household members planning a pregnancy about the p67 advice).
+
+**Video notes to resolve**
+
+- [ ] Narration derived only from lesson MCH68-K-003 v0.1.0; no new content.
+- [ ] Thai-speaking reviewer: check pronunciation of ไอโอดีน, โฟลิก, ธาตุเหล็ก, ภาวะซีด, ไตรมาส.
+- [ ] No dose, number of tablets, time of day, brand, side effect or storage is narrated (none printed).
+- [ ] Lesson HANDBOOK ISSUE (p67 says 'วิตามินเสริม (เหล็ก/โฟลิก)' before pregnancy; p23–25 say 'ยาเม็ดเสริมธาตุเหล็ก ไอโอดีน และโฟลิก' during pregnancy): each wording is kept with its own period (items 1–2 vs 3–5); the video does not say whether they are the same tablet.
+- [ ] Lesson HANDBOOK ISSUE (breastfeeding not covered by the p25 banner): nothing about breastfeeding is narrated.
+- [ ] Not narrated: family note.
 
 **Sign-off**
 
@@ -650,9 +831,44 @@ Lessons in this pack: 39
 - [ ] Lesson note applies: grouping rules 1–5 'กินให้ครบ หลากหลาย' / 6–9 'สะอาด และหลีกเลี่ยง' and the short on-screen titles are editorial.
 - [ ] The danger-sign box on the same page is not covered (belongs to MCH68-K-005).
 
-**Local PMH information needed**
+**Sign-off**
 
-- [ ] Local fermented foods (e.g. ปลาร้า) as examples of 'อาหารหมักดอง' would be a PMH addition — nutritionist to decide
+| Role | Name | Date | Decision |
+|---|---|---|---|
+| Clinical reviewer |  |  | approve / changes needed |
+| Thai language / pronunciation |  |  | approve / changes needed |
+
+---
+
+## MCH68-K-005 — อาการผิดปกติที่แม่ท้องต้องมาโรงพยาบาลทันที
+
+- Handbook: printed page 13, 24 (official PDF p15, p26)
+- Status: **DRAFT** · version 0.1.1 · clinical risk **high** · release R2
+- Content: 7 steps, end-of-lesson quiz with 5 questions, video V-K-005 (v0.1.0)
+- Handbook issues to decide: 1
+
+**Who should review**
+
+- [ ] Obstetrician + ANC / labour-room nurse: verify the 7 signs verbatim and the PMH emergency route
+
+**Author notes to resolve (lesson)**
+
+- [ ] The heading 'อาการผิดปกติที่แม่ท้อง ต้องมาโรงพยาบาลทันที', the 7 signs and the clear-fluid action ('ให้ใส่ผ้าอนามัยไว้ แล้วรีบมาโรงพยาบาล') are copied verbatim from p26 (printed 24), checked on the page image. Same count and wording; nothing merged, split or added. The timeline order follows the page (left column top to bottom, then right column top to bottom, starting with the top-centre sign).
+- [ ] The margin tip 'เวียนศีรษะ ตาพร่า ขาบวม อาจเกิดจากภาวะครรภ์เป็นพิษ' is from p26 (vertical left strip), checked on the page image. The lesson does not link it to any particular sign in the list.
+- [ ] HANDBOOK ISSUE: fetal movement is worded differently on two pages. p15 (printed 13): count after meals, 1 hour each time; 'ถ้าน้อยกว่า 3 ครั้งต่อชั่วโมง แนะนำให้พบแพทย์เพื่อตรวจประเมินสุขภาพของทารกในครรภ์'. p26 (printed 24): 'เด็กดิ้นน้อยลง หรือไม่ดิ้น' is listed under 'ต้องมาโรงพยาบาลทันที'. The lesson quotes each with its page and does not choose between them; the timeline and quiz q4 use the p24 wording because that is the page being taught. Obstetrician to harmonise.
+- [ ] The p15 counting method is given only as context (from 28 weeks to birth, every day, after meals, 1 hour each time, fewer than 3 per hour). Full counting and the log are taught in MCH68-REC-003.
+- [ ] App framing, not printed: 'แอปนี้ช่วยให้จำอาการตามสมุด ไม่ได้ใช้ตรวจหรือวินิจฉัยอาการ', 'ถ้ามีอาการใดอาการหนึ่ง', the timeline detail lines (page pointers), the family note ('ช่วยพาคุณแม่มาโรงพยาบาลทันที'), and quiz scenarios q4 (32 weeks, baby moving less today) and q5 (relative at home; sign 1).
+- [ ] Quiz design: questions test only recall of the printed signs and the printed action. Wrong options are actions (wait, rest, tell nobody), never a symptom labelled as not urgent; feedback always repeats the printed action.
+
+**Video notes to resolve**
+
+- [ ] Narration derived only from lesson MCH68-K-005 v0.1.0; no new content.
+- [ ] Thai-speaking reviewer: check pronunciation of จุกแน่นยอดอก, ตาพร่ามัว, หัวหน่าว, ปวดหน่วง, บุ๋ม, 'น้ำใส ๆ' (repetition mark), ครรภ์เป็นพิษ, หน้ายี่สิบสี่.
+- [ ] All 7 signs are spoken in full exactly as printed on p26 (printed 24). Item 3's on-screen text is shortened to fit; its speak/caption segment says the full printed sign. Item 7's on-screen text shows the printed sign only; its segment speaks and captions the printed action ('ให้ใส่ผ้าอนามัยไว้ แล้วรีบมาโรงพยาบาล') in full.
+- [ ] HANDBOOK ISSUE (from lesson): p15 (printed 13) says fewer than 3 movements per hour → 'แนะนำให้พบแพทย์', while p26 lists 'เด็กดิ้นน้อยลง หรือไม่ดิ้น' under 'ต้องมาโรงพยาบาลทันที'. The video uses only the p26 list it is teaching and leaves the p15 counting rule out. Obstetrician to harmonise.
+- [ ] Summary point 2 on-screen text 'เวียนศีรษะ ตาพร่า ขาบวม อาจเกิดจากครรภ์เป็นพิษ' omits 'ภาวะ' to fit (2 lines); the narration says the full printed tip. Item 3 on-screen text is a 2-line near-verbatim form (only 'ปวด' before 'หน่วง' and 'และ' dropped); the narration says the full printed sign.
+- [ ] Summary point 3 and the 'ดูรายการทั้งหมดได้ในสมุดหน้า 24' pointer are app framing from the lesson's family note and takeaways (already listed in the lesson reviewNotes).
+- [ ] The app does not triage: the narration only repeats the printed signs and the printed action.
 
 **Sign-off**
 
@@ -700,13 +916,6 @@ Lessons in this pack: 39
 - [ ] The sex-during-pregnancy line is not used in the video (kept in the lesson).
 - [ ] ANC nurse + physiotherapist / obstetrician to verify activities per stage (curriculum review requirement).
 
-**Local PMH information needed**
-
-- [ ] The handbook lists neither exercise contraindications nor which 'abnormal symptoms' mean stop — PMH to decide whether to add clinician-approved text or say 'ask your ANC nurse'
-- [ ] Trimester boundaries on p27 (13-26 / 27-40 wk) differ from p24-25 (13-27 / 28-40 wk)
-- [ ] '150 นาที/สัปดาห์' is printed without 'อย่างน้อย' in this printing
-- [ ] QR video 'กิจกรรมทางกายสำหรับหญิงตั้งครรภ์และหลังคลอด': link and permission; pelvic-floor technique is not described in the handbook
-
 **Sign-off**
 
 | Role | Name | Date | Decision |
@@ -750,12 +959,6 @@ Lessons in this pack: 39
 - [ ] Lesson note applies: latch/positioning is not described in the handbook; the video repeats the lesson's 'ขอให้เจ้าหน้าที่ช่วยดูได้' pointer. PMH lactation-clinic contact still to be added.
 - [ ] Lesson note applies: linking '1 ชั่วโมงแรก' (1-6-2) with 'ดูดเร็ว' is an editorial link between two p28 items.
 - [ ] The nipple check (p12) is not covered in the video.
-
-**Local PMH information needed**
-
-- [ ] Latch and positioning ('ดูดถูกวิธี') are not illustrated in the handbook — PMH to decide on approved visuals or refer to the PMH lactation clinic
-- [ ] PMH breastfeeding-support contact
-- [ ] UNICEF comparison graphic needs permission or a recreation
 
 **Sign-off**
 
@@ -802,10 +1005,6 @@ Lessons in this pack: 39
 - [ ] °C / 'องศาเซลเซียส' is said after each value; the handbook prints the unit only in the column header (lesson note).
 - [ ] Grouping (นอกตู้เย็น / ตู้เย็นและตู้แช่แข็ง / การละลาย) is editorial; rows and numbers unchanged. Nothing added on how long thawed milk keeps, warming, or leftovers (not in the handbook).
 
-**Local PMH information needed**
-
-- [ ] Expressing technique and container advice are not in the handbook — PMH to decide
-
 **Sign-off**
 
 | Role | Name | Date | Decision |
@@ -851,10 +1050,42 @@ Lessons in this pack: 39
 - [ ] Narration says 'นอน ... ชั่วโมง' for each table row (the table heading is 'ระยะเวลาการนอน').
 - [ ] Not used: the sleep-cycle chart (45-50 นาที is a reading of the chart, still to be confirmed), the family note, safe-sleep position (not in the handbook).
 
-**Local PMH information needed**
+**Sign-off**
 
-- [ ] The handbook gives no safe-sleep position guidance (only 'ที่นอนไม่นิ่มจนยุบ' on p31) — PMH to decide whether this gap needs a paediatrician-approved addition
-- [ ] 'ไม่จำเป็นต้องกินนมในตอนกลางคืนแล้ว' after 6 months vs breastfeeding on demand — paediatric and lactation teams to align the message
+| Role | Name | Date | Decision |
+|---|---|---|---|
+| Clinical reviewer |  |  | approve / changes needed |
+| Thai language / pronunciation |  |  | approve / changes needed |
+
+---
+
+## MCH68-K-010 — สีอุจจาระทารก: สีซีดต้องรีบพบกุมารแพทย์
+
+- Handbook: printed page 27 (official PDF p29)
+- Status: **DRAFT** · version 0.1.1 · clinical risk **high** · release R2
+- Content: 6 steps, end-of-lesson quiz with 5 questions, video V-K-010 (v0.1.0)
+- Handbook issues to decide: 0
+
+**Who should review**
+
+- [ ] Paediatrician (paediatric GI if available)
+- [ ] Colour calibration of swatches across common phone screens
+
+**Author notes to resolve (lesson)**
+
+- [ ] Source: the 'ช่วงทารก' bullet under 'การขับถ่าย' and the 'สีอุจจาระทารก' photo panel (2 normal, 3 abnormal photos) on PDF p29 (printed 27), checked on the page image. The pale-stool sentence and its action are quoted verbatim.
+- [ ] The handbook prints no colour names (only the labels 'สีอุจจาระปกติ' / 'สีอุจจาระผิดปกติ' and the word 'ซีด'). An earlier draft sentence describing the photo colours in words was removed after fact-check; the lesson names no colours and points families to the printed photos.
+- [ ] No colour swatches and no copied photos (photo copyright; phone screens render colour differently). The sentence explaining why the app shows no colours, and the pointer to 'มุมขวาล่างของหน้า 27' in the family's own handbook, are editorial.
+- [ ] Sort step bucket labels (สิ่งที่ต้องสังเกต / สิ่งที่ต้องทำ / เหตุผล) are editorial framing; cards are phrased from the printed sentence, except card c2 ('เทียบกับรูปสีอุจจาระผิดปกติในสมุดหน้า 27'), which is an editorial pointer to the printed photos. The intro says the cards are 'เรียบเรียงจากสมุดหน้า 27'. No bucket or card classifies any colour as safe or not urgent.
+- [ ] Quiz scenarios (grandparent changing a nappy; a family thinking of waiting) and the takeaways familyNote are editorial; they only repeat the printed action 'พาลูกไปพบกุมารแพทย์โดยเร็ว แม้จะไม่มีอาการอื่น ๆ'.
+- [ ] Toilet training and bedwetting on the same page are taught in MCH68-K-011, not here.
+
+**Video notes to resolve**
+
+- [ ] Narration derived only from lesson MCH68-K-010 v0.1.0; no new content.
+- [ ] Thai-speaking reviewer: check pronunciation of กุมารแพทย์, ท่อน้ำดีตีบตัน, อุจจาระ and the numbers สอง (เดือน), ยี่สิบเจ็ด (หน้า).
+- [ ] No colour names are used (the handbook prints none); the video only says 'สีซีดผิดปกติ' as printed and points to the photos on printed page 27.
+- [ ] Lesson notes apply: the pointer to the photos in the family's own handbook and the sentence that the app shows no colours because phone screens differ are editorial.
 
 **Sign-off**
 
@@ -898,10 +1129,6 @@ Lessons in this pack: 39
 - [ ] Paediatrician: verify referral ages (curriculum requirement). Items 9–10 say 'พาไปพบกุมารแพทย์' as printed; no PMH referral route is added (PMH CLARIFICATION pending).
 - [ ] Stage 3 uses hideNumbers because item texts carry ages (4 ปี, 5 ปี); narration does not use 'ข้อ' numbers. Item 5 caption/speech drops 'เพื่อให้' before 'เท้าไม่ลอย' to fit the 90-character caption limit (meaning unchanged; reviewer to confirm).
 - [ ] Not used in the video: the family note.
-
-**Local PMH information needed**
-
-- [ ] PMH paediatric clinic referral route
 
 **Sign-off**
 
@@ -947,10 +1174,6 @@ Lessons in this pack: 39
 - [ ] No reasons or evidence for the limits are given (none in the handbook).
 - [ ] Not used: sort/quiz scenarios, family note.
 
-**Local PMH information needed**
-
-- [ ] The app itself is a screen: copy should address parents and avoid suggesting the app be shown to children under 2
-
 **Sign-off**
 
 | Role | Name | Date | Decision |
@@ -992,10 +1215,6 @@ Lessons in this pack: 39
 - [ ] All 6 rules and both numbers are from p30 (printed 28) as printed. No reasons are given (none in the handbook).
 - [ ] Lesson app framing used: stage 1 intro 'ลองเดินดูบ้านของตัวเองไปพร้อมกัน' (timeline intro) and summary 4 'สมุดไม่ได้อธิบายเหตุผล... ถามเจ้าหน้าที่ได้' (text step 2). Not handbook text; PMH to approve.
 - [ ] Not used: examples taken from the illustrations (sofa/armchair as a high place, wardrobe fixed to the wall, holding hands on an escalator), sort/quiz scenarios, family note. Video illustrations: PMH to decide on local housing context (e.g. raised wooden houses) — no new rules added.
-
-**Local PMH information needed**
-
-- [ ] Local housing context (e.g. raised wooden houses) for illustrations only — no new rules
 
 **Sign-off**
 
@@ -1044,11 +1263,6 @@ Lessons in this pack: 39
 - [ ] Item 5 ('ถ้าที่บ้านใช้รถจักรยานยนต์เป็นหลัก ปรึกษาเจ้าหน้าที่ได้') is the lesson's app framing (text step 3), linked to the PMH clarification on rural motorcycle use. The 'ห้าม' rule is not softened. PMH to approve.
 - [ ] Not added: helmets, rear-seat/airbag rationale (1st printing only), reasons for 'ตรวจรอบรถ', car-seat loan scheme.
 
-**Local PMH information needed**
-
-- [ ] Motorcycles are the main family transport in rural Phimai — PMH to decide supportive wording (the handbook rule 'ห้าม' under 2 years stands)
-- [ ] Any PMH car-seat loan scheme (none mentioned in the handbook)
-
 **Sign-off**
 
 | Role | Name | Date | Decision |
@@ -1093,9 +1307,192 @@ Lessons in this pack: 39
 - [ ] Item 2 uses the lesson's sort-card wording 'ผู้ปกครองดูแลใกล้ชิดเมื่ออยู่ในน้ำ'; the printed line is 'ผู้ปกครองดูแลใกล้ชิด'.
 - [ ] Not used in the video: the family note (app framing, needs approval).
 
-**Local PMH information needed**
+**Sign-off**
 
-- [ ] Local water hazards (water jars, ponds, river) for illustrations only
+| Role | Name | Date | Decision |
+|---|---|---|---|
+| Clinical reviewer |  |  | approve / changes needed |
+| Thai language / pronunciation |  |  | approve / changes needed |
+
+---
+
+## MCH68-K-016 — สิ่งแปลกปลอมติดคอ: วิธีช่วยเหลือเด็ก
+
+- Handbook: printed page 30 (official PDF p32)
+- Status: **DRAFT** · version 0.1.1 · clinical risk **high** · release R2
+- Content: 7 steps, end-of-lesson quiz with 5 questions, video V-K-016 (v0.1.0)
+- Handbook issues to decide: 2
+
+**Who should review**
+
+- [ ] Paediatrician + ER / resuscitation instructor: hand and body positions in every frame; agreement with current Thai paediatric first-aid guidance
+
+**Author notes to resolve (lesson)**
+
+- [ ] Source: choking flowchart, top half of PDF p32 (printed 30), checked on the page image. Intro paragraph, the two suspicion signs, 'โทร 1669', the responsiveness question, both age branches, the 5-count and the finger-sweep prohibition are copied in printed wording and order. No technique drawings or position icons are used.
+- [ ] Order inside the under-1-year loop (back blows shown first, then chest thrusts) follows the page layout: the page draws the two actions left-to-right around a circular arrow labelled 'วนสลับกัน อย่างละ 5 ครั้ง ไปเรื่อยๆ' without numbering them. Resuscitation instructor to confirm the lesson's order.
+- [ ] HANDBOOK ISSUE: for the under-1-year chest thrust the page prints 'มืออีกข้างใช้บริเวณอุ้งมือ กดที่กลางหน้าอก' (heel of hand), while the CPR box on the same page says infants 'ใช้ 2 นิ้วกดกลางกระดูกหน้าอก'. Copied as printed; resuscitation instructor to confirm the intended technique.
+- [ ] HANDBOOK ISSUE: the branches are 'เด็กอายุน้อยกว่า 1 ปี' and 'เด็กอายุมากกว่า 1 ปี'; the page does not say which applies to a child aged exactly 1 year. Copied as printed.
+- [ ] Timeline and sort-step headings, intros, bucket labels ('เด็กอายุน้อยกว่า 1 ปี' / 'เด็กอายุมากกว่า 1 ปี' / 'ทั้งสองวัย') and the pointer to the CPR lesson are editorial framing; cards and items repeat printed phrases. 'ทั้งสองวัย' groups steps the flowchart shows before the age split (โทร 1669) or for both branches (no finger sweep; unresponsive → CPR).
+- [ ] Age scope of the prohibition 'ห้าม!! พยายามเอาวัตถุออกด้วยการใช้นิ้วล้วงเข้าไปในปาก' is the lesson's reading: on p32 the red line sits at the bottom of the flowchart, under the under-1-year column, and the page does not say whether it covers both ages. The lesson treats it as applying to both (text step 'ข้อห้าม' quotes it without an age; q3 feedback for a 3-year-old applies it to an older child). It was kept out of the age sort so the app does not assign it an age. Resuscitation instructor to confirm.
+- [ ] Quiz scenarios (a toddler eating, a caregiver tempted to use a finger) and the takeaways familyNote are editorial; they only repeat printed steps.
+
+**Video notes to resolve**
+
+- [ ] Narration derived only from lesson MCH68-K-016 v0.1.0; no new content.
+- [ ] Thai-speaking reviewer: check pronunciation of หนึ่งหกหกเก้า (1669, read digit by digit), ลิ้นปี่, อุ้งมือ, สิ่งแปลกปลอม.
+- [ ] Lesson HANDBOOK ISSUE applies: for the under-1-year chest thrust the page prints 'บริเวณอุ้งมือ' while infant CPR uses '2 นิ้ว'. The step is central, so the video says only 'กดที่กลางหน้าอก' and does not name the hand part; resuscitation instructor to confirm before render.
+- [ ] Lesson note applies: back blows are narrated before chest thrusts for under-1-year, following the page layout (the page does not number them).
+- [ ] No technique drawings: item icons are generic (warning, check, baby, group, heart) and show no hand or body position.
+
+**Sign-off**
+
+| Role | Name | Date | Decision |
+|---|---|---|---|
+| Clinical reviewer |  |  | approve / changes needed |
+| Thai language / pronunciation |  |  | approve / changes needed |
+
+---
+
+## MCH68-K-017 — กู้ชีพเด็กโดยการกดหัวใจ
+
+- Handbook: printed page 30 (official PDF p32)
+- Status: **DRAFT** · version 0.1.1 · clinical risk **high** · release R2
+- Content: 7 steps, end-of-lesson quiz with 5 questions, video V-K-017 (v0.1.0)
+- Handbook issues to decide: 2
+
+**Who should review**
+
+- [ ] Paediatrician + resuscitation instructor (BLS/PALS): confirm 30:2 single-rescuer and 15:2 with-helper ratios, rate and depth against current Thai lay-rescuer guidance
+
+**Author notes to resolve (lesson)**
+
+- [ ] Source: CPR box, bottom half of PDF p32 (printed 30), and the margin tip 'สมองทนต่อการขาดอากาศได้ไม่เกิน 4 นาที', checked on the page image. All numbers copied exactly: steps ①–③, 1669, กด 30 : เป่า 2, กด 15 : เป่า 2 with a helper, 120 ครั้ง/นาที, ลึก 1/3 ของความหนาทรวงอก, 2 นิ้ว, 4 นาที. No technique drawings or position icons are used.
+- [ ] Reading of the flowchart: the arrow from 'ไม่หายใจ' leads to 'กด 30 : เป่า 2' and carries the label 'หากไม่แน่ใจ ให้เริ่มกดหน้าอกเลย'. The lesson states this as 'ถ้าไม่หายใจ หรือหากไม่แน่ใจ ให้เริ่มกดหน้าอกเลย'. Resuscitation instructor to confirm this reading.
+- [ ] Inference: quiz q2 asks 'ถ้าไม่มีผู้ช่วย' for the 30 : 2 ratio. p32 prints only 'กด 30 : เป่า 2' and 'หากมีผู้ช่วย ให้ใช้การ กด 15 : เป่า 2'; it does not say 'คนเดียว' or 'ไม่มีผู้ช่วย'. The q2 feedback does not attribute that wording to the handbook.
+- [ ] HANDBOOK ISSUE: 'ทำไปเรื่อย ๆ จนกว่าเจ้าหน้าที่กู้ชีพจะมา' is printed in the same sentence as 'หากมีผู้ช่วย ให้ใช้การ กด 15 : เป่า 2', so it is not explicit that it also applies when there is no helper (30 : 2). The lesson keeps it attached to the helper sentence, as printed.
+- [ ] HANDBOOK ISSUE: 'เด็กทารก' (2 fingers) and 'เด็ก' (heel of hand) are not defined by age on this page. Copied as printed without adding ages.
+- [ ] Text-step framing, timeline stage labels, sort-step bucket labels (ก่อนเริ่มกด / ขณะกดหน้าอก / การเป่าปาก) and the cross-reference that the choking lesson also leads here are editorial; items and cards repeat printed phrases.
+- [ ] Quiz scenario (a grandparent finding a child unconscious) and the takeaways familyNote are editorial; they only repeat printed steps.
+
+**Video notes to resolve**
+
+- [ ] Narration derived only from lesson MCH68-K-017 v0.1.0; no new content.
+- [ ] Thai-speaking reviewer: check pronunciation of หนึ่งหกหกเก้า (1669, read digit by digit), 'กดสามสิบ เป่าสอง', 'หนึ่งในสาม', ทรวงอก, อุ้งมือ.
+- [ ] Lesson note applies: 'ถ้าไม่หายใจ หรือหากไม่แน่ใจ ให้เริ่มกดหน้าอกเลย' is the lesson's reading of the flowchart arrow; resuscitation instructor to confirm.
+- [ ] Lesson HANDBOOK ISSUE applies: 'ทำไปเรื่อย ๆ จนกว่าเจ้าหน้าที่กู้ชีพจะมา' is narrated only together with the with-helper ratio, as printed.
+- [ ] No technique drawings: item icons are generic (baby, warning, check, heart, group, clock) and show no hand or body position.
+
+**Sign-off**
+
+| Role | Name | Date | Decision |
+|---|---|---|---|
+| Clinical reviewer |  |  | approve / changes needed |
+| Thai language / pronunciation |  |  | approve / changes needed |
+
+---
+
+## MCH68-K-018 — ปฐมพยาบาลเมื่อลูกชักจากไข้สูง
+
+- Handbook: printed page 31 (official PDF p33)
+- Status: **DRAFT** · version 0.1.1 · clinical risk **high** · release R2
+- Content: 6 steps, end-of-lesson quiz with 5 questions, video V-K-018 (v0.1.0)
+- Handbook issues to decide: 0
+
+**Who should review**
+
+- [ ] Paediatrician: verify steps and the antipyretic statement (no dose printed)
+
+**Author notes to resolve (lesson)**
+
+- [ ] Source: 'การปฐมพยาบาลเมื่อเด็กชัก', top of PDF p33 (printed 31), checked on the page image. The intro sentence and the 6 numbered steps are copied in printed wording and order (1 ตะโกนขอความช่วยเหลือ หรือ โทร 1669; 2 จับนอนตะแคง ป้องกันสำลัก; 3 ห้าม! ล้วง/ใส่วัตถุในปาก; 4 ห้าม! เขย่า/กระแทก; 5 เช็ดตัวลดไข้ด้วยน้ำอุณหภูมิปกติ; 6 เมื่อตื่นรู้ตัว ป้อนยาลดไข้).
+- [ ] No antipyretic name, dose or interval is given (none is printed). No positioning drawings or technique icons are used.
+- [ ] Timeline stage labels, the item 'detail' lines (which only restate the printed step), and the sort buckets 'สิ่งที่ควรทำ' / 'ห้าม!' are editorial framing based on the page's own 'ห้าม!' labels.
+- [ ] Quiz scenarios (a family member wanting to give medicine during the seizure; a grandparent wanting to put something in the mouth) and the takeaways familyNote are editorial; they only repeat printed steps.
+
+**Video notes to resolve**
+
+- [ ] Narration derived only from lesson MCH68-K-018 v0.1.0; no new content.
+- [ ] Thai-speaking reviewer: check pronunciation of หนึ่งหกหกเก้า (1669, read digit by digit), สำลัก, กระตุก, อุณหภูมิ.
+- [ ] No antipyretic name, dose or interval is narrated (none is printed). No positioning drawings: item icons are generic (warning, baby, water, clock).
+- [ ] Item numbers 1–6 in the video match the printed step numbers 1–6 on p33.
+
+**Sign-off**
+
+| Role | Name | Date | Decision |
+|---|---|---|---|
+| Clinical reviewer |  |  | approve / changes needed |
+| Thai language / pronunciation |  |  | approve / changes needed |
+
+---
+
+## MCH68-K-019 — อาการที่ต้องพาทารกไปพบแพทย์
+
+- Handbook: printed page 31, 33 (official PDF p33, p35)
+- Status: **DRAFT** · version 0.1.1 · clinical risk **high** · release R2
+- Content: 7 steps, end-of-lesson quiz with 5 questions, video V-K-019 (v0.1.0)
+- Handbook issues to decide: 1
+
+**Who should review**
+
+- [ ] Paediatrician + neonatal nurse
+
+**Author notes to resolve (lesson)**
+
+- [ ] Source: 'อาการที่ต้องพาทารกไปพบแพทย์' on PDF p33 (printed 31) — 7 signs copied verbatim, same count, none merged or split; and the margin tip on PDF p35 (printed 33) 'ทารกอายุน้อยกว่า 1 เดือน หากมีไข้ต้องไปพบแพทย์ทันที'. Both checked on the page images.
+- [ ] The page arranges the 7 signs around a picture of a crying baby without numbers. The numbering 1–7 and the order in the lesson (top-left, then clockwise-ish reading order) are editorial.
+- [ ] HANDBOOK ISSUE: p33 prints the sign 'ไข้ ซึม' as one item, so it is unclear whether fever alone or fever together with drowsiness is meant; p35 separately says a baby under 1 month with fever 'ต้องไปพบแพทย์ทันที'. The two pages also use different action wording (p33 heading 'ต้องพาทารกไปพบแพทย์'; p35 'ต้องไปพบแพทย์ทันที'). The lesson quotes each in its own context with its page and does not reconcile them.
+- [ ] Breathing count: the page gives only 'หอบเหนื่อย หายใจเร็ว มากกว่า 60 ครั้งต่อนาที'; it does not say how to count, so the lesson does not teach a counting method. 'ตัวเหลืองมากขึ้น' is shown without further explanation, as printed.
+- [ ] Sort-step buckets group the printed signs by what is observed (การกินนมและการขับถ่าย / ไข้และการหายใจ / ตา ผิวหนัง สะดือ); this grouping is editorial and is not an urgency ranking. Every card is a printed sign and the intro repeats that all 7 need a doctor.
+- [ ] Timeline detail lines describing the page illustrations, the quiz scenario (a 2-week-old baby with fever), the 'wait' distractors in q4–q5 (each corrected by the printed action) and the takeaways familyNote are editorial. No question or feedback says any symptom can wait or is normal.
+
+**Video notes to resolve**
+
+- [ ] Narration derived only from lesson MCH68-K-019 v0.1.0; no new content.
+- [ ] Thai-speaking reviewer: check pronunciation of 'หกสิบครั้งต่อนาที', 'หกถึงแปดชั่วโมง', สะดือ, ปัสสาวะ, อาเจียน.
+- [ ] Lesson HANDBOOK ISSUE applies: 'ไข้ ซึม' (p33) is narrated exactly as printed, and the p35 margin line 'ทารกอายุน้อยกว่า 1 เดือน หากมีไข้ต้องไปพบแพทย์ทันที' is narrated separately with its own page; the two are not reconciled.
+- [ ] All 7 signs are narrated in full printed wording; the grouping into two parts (กินนมและขับถ่าย / ไข้ หายใจ ตา ผิวหนัง) follows the lesson's sort step and is not an urgency ranking.
+- [ ] On-screen text is shortened in two places to fit: item 5 'หอบเหนื่อย หายใจเร็ว > 60 ครั้ง/นาที' and summary point 'ไม่ถึง 1 เดือน มีไข้: พบแพทย์ทันที'; the narration and captions for both say the full printed wording (มากกว่า 60 ครั้งต่อนาที; ทารกอายุน้อยกว่า 1 เดือน หากมีไข้ต้องไปพบแพทย์ทันที).
+
+**Sign-off**
+
+| Role | Name | Date | Decision |
+|---|---|---|---|
+| Clinical reviewer |  |  | approve / changes needed |
+| Thai language / pronunciation |  |  | approve / changes needed |
+
+---
+
+## MCH68-CH-001 — หลังคลอด: อาการผิดปกติของแม่ที่ต้องพบแพทย์ทันที และการเยี่ยมหลังคลอด
+
+- Handbook: printed page 33 (official PDF p35)
+- Status: **DRAFT** · version 0.1.1 · clinical risk **high** · release R2
+- Content: 8 steps, end-of-lesson quiz with 5 questions, video V-CH-001 (v0.1.0)
+- Handbook issues to decide: 0
+
+**Who should review**
+
+- [ ] Postnatal / obstetric nurse + obstetrician: verify the 6 signs verbatim
+
+**Author notes to resolve (lesson)**
+
+- [ ] The 6 signs are copied verbatim, in printed order, from the 'บันทึกการเยี่ยมหลังคลอด' table on p35 (printed 33), checked on the page image. Same count and wording; nothing merged, split or added.
+- [ ] The page is a staff record form. Its instruction 'ใส่เครื่องหมาย X เมื่อมีอาการเหล่านี้ และส่งต่อพบแพทย์หรือเจ้าหน้าที่สาธารณสุขทันที' is addressed to the assessor. The lesson quotes it and tells the mother and family 'ต้องพบแพทย์หรือเจ้าหน้าที่สาธารณสุขทันที'. Reviewer to confirm this wording for families.
+- [ ] Visit windows ('ภายในสัปดาห์แรกหลังคลอด', 'วันที่ 8-15 หลังคลอด', 'วันที่ 16-42 หลังคลอด') are the column headers on p35, checked on the page image. The handbook does not say who makes the visits or where; the lesson says only that the handbook has a table for 3 postnatal visits, where the assessor marks each sign ไม่มี or มี and signs and dates each visit.
+- [ ] Contraception ('คำแนะนำเรื่องการคุมกำเนิด') and gum and teeth care ('การดูแลเหงือกและฟัน') are printed only as topic names under 'การให้คำแนะนำเพิ่มเติม'. The lesson names them and adds 'ถามรายละเอียดจากเจ้าหน้าที่' (app framing); no content is given.
+- [ ] The other further-advice items (not passing tooth-decay germs from carer to child, with the 3 printed examples; mother-and-baby oral check 6 months after birth; exclusive breastfeeding without giving plain water in the first 6 months) are copied from p35, checked on the page image.
+- [ ] The newborn margin tip 'ทารกอายุน้อยกว่า 1 เดือน หากมีไข้ต้องไปพบแพทย์ทันที' (p35, checked on the page image) is quoted once in the further-advice step; infant danger signs are taught in MCH68-K-019.
+- [ ] App framing, not printed: 'แอปนี้ช่วยให้จำอาการตามสมุด ไม่ได้ใช้ตรวจหรือวินิจฉัยอาการ', 'ถ้ามีอาการใดอาการหนึ่ง', the sort-step grouping (by page section: sign list vs further-advice list), quiz scenario q3 (3 weeks after birth, lochia still red), and the family note.
+
+**Video notes to resolve**
+
+- [ ] Narration derived only from lesson MCH68-CH-001 v0.1.0; no new content.
+- [ ] Thai-speaking reviewer: check pronunciation of ลิ่มเลือด, น้ำคาวปลา, ขุ่นข้น, กะปริบกะปรอย, ฝีเย็บ, หัวนม, 'วันที่แปด ถึงวันที่สิบห้า', 'วันที่สิบหก ถึงวันที่สี่สิบสอง'.
+- [ ] All 6 signs are spoken in full exactly as printed on p35 (printed 33). Items 3 and 4 have shortened on-screen text; their speak/caption segments say the full printed sign.
+- [ ] The page's instruction is addressed to the assessor ('ส่งต่อพบแพทย์หรือเจ้าหน้าที่สาธารณสุขทันที'); the narration says 'ต้องพบแพทย์หรือเจ้าหน้าที่สาธารณสุขทันที', as in the lesson (see lesson reviewNotes).
+- [ ] Contraception and gum/teeth care are named as topics only, with the lesson's 'ถามรายละเอียดจากเจ้าหน้าที่ได้' framing; no content given.
+- [ ] The handbook does not say who makes postnatal visits or where; the narration does not say either.
+- [ ] The newborn fever tip on p35 is left out of the video (taught in MCH68-K-019).
 
 **Sign-off**
 
@@ -1145,11 +1542,6 @@ Lessons in this pack: 39
 - [ ] Item 12 shortens the p36 margin tip for caption length ('แม่ติดเชื้อ... ลูกต้องได้วัคซีนป้องกันเพิ่ม'); check wording. The extra vaccine is not named (not printed on this page); summary 2 adds the lesson's 'ask staff about vaccines and dates' line.
 - [ ] Not used in the video: the congenital abnormality / newborn health status checkboxes, the sort step and the family note.
 
-**Local PMH information needed**
-
-- [ ] Plain-language purposes of each screening are not in the handbook — PMH must write and approve them
-- [ ] How PMH notifies parents of abnormal thyroid / IEM results and the hearing re-test pathway
-
 **Sign-off**
 
 | Role | Name | Date | Decision |
@@ -1196,9 +1588,96 @@ Lessons in this pack: 39
 - [ ] Not taught (as in the lesson): what febrile convulsion or wheezing is, what to do, which drugs to avoid, or what a blood group means. The 'ภาวะอื่นๆ' space is not narrated.
 - [ ] Not used in the video: the app-privacy line, the sort step and the family note.
 
-**Local PMH information needed**
+**Sign-off**
 
-- [ ] App must not store allergy data unless PMH approves
+| Role | Name | Date | Decision |
+|---|---|---|---|
+| Clinical reviewer |  |  | approve / changes needed |
+| Thai language / pronunciation |  |  | approve / changes needed |
+
+---
+
+## MCH68-CH-004 — วัคซีนพื้นฐานของลูก (EPI)
+
+- Handbook: printed page 36, 37 (official PDF p38, p39)
+- Status: **DRAFT** · version 0.1.1 · clinical risk **high** · release R2
+- Content: 7 steps, end-of-lesson quiz with 5 questions, video V-CH-004 (v0.1.0)
+- Handbook issues to decide: 3
+
+**Who should review**
+
+- [ ] EPI nurse + paediatrician: verify every age on p38-39 against the current national EPI schedule
+
+**Author notes to resolve (lesson)**
+
+- [ ] Source map (every age checked on the official page images oimg/p38.jpg, oimg/p39.jpg and 200-dpi renders of the official PDF): BCG, HBIg, HB, DTP-HB-Hib, DTP, Polio, Rota rows, the Rota หมายเหตุ and the pink HB box = PDF p38 (printed 36); PCV (with * footnote), Influenza, MMR, JE, HPV and dT rows = upper tables of PDF p39 (printed 37).
+- [ ] EPI nurse + paediatrician (curriculum review requirement): verify every age as copied: HB แรกเกิด, 1 เดือน (เฉพาะแม่ที่เป็นพาหะ); DTP-HB-Hib 2, 4, 6 เดือน; DTP 18 เดือน (1 ปีครึ่ง), 4 ปี; Polio 2, 4 เดือนชนิดฉีด (IPV), 6, 18 เดือน, 4 ปี ชนิดหยอด (OPV); Rota 2, 4 เดือน (Monovalent) or 2, 4, 6 เดือน (Pentavalent); PCV ฉีด 2+1 ที่ 2, 4 เดือน และกระตุ้นที่ 12-15 เดือน; Influenza 6 เดือนขึ้นไป (ครั้งแรกฉีด 2 เข็ม ห่างกัน 1 เดือน) และฉีดกระตุ้น 1 เข็ม ทุก 1 ปี; MMR 9 เดือน, 18 เดือน (1 ปีครึ่ง); JE 1 ปี, 2 ปีครึ่ง; HPV เด็กหญิง ป.5; dT 12 ปี (แนะนำกระตุ้นซ้ำทุก 10 ปี).
+- [ ] HANDBOOK ISSUE (layout): the upper tables of p39 (PCV, ไข้หวัดใหญ่, MMR, ไข้สมองอักเสบเจอี, HPV, dT) have no heading of their own. The lesson groups them with the p38 EPI table because they come before the separate 'วัคซีนเสริมอื่นๆ (Optional vaccine)' heading on the same page. Reviewer to confirm this grouping is how families should read the page.
+- [ ] HANDBOOK ISSUE: the JE row on p39 is printed 'Lived attenuated Japanese Encephalitis'. The app uses the correct spelling 'Live attenuated Japanese Encephalitis' (timeline item 13).
+- [ ] HANDBOOK ISSUE (wording): the HB row says the 1-month dose is 'เฉพาะแม่ที่เป็นพาหะ', the HBIg cell says 'เฉพาะที่เกิดจากแม่ติดเชื้อตับอักเสบบี', and the pink box says 'เฉพาะเด็กที่เกิดจากแม่ติดเชื้อไวรัสตับอักเสบบี'. Each is copied as printed in its own place. Objective 4 and takeaway 3 summarise HBIg and the 9-12-month blood test together (objective uses the pink-box wording, takeaway the HBIg-cell wording); reviewer to confirm the summary.
+- [ ] Rota: the page prints both Monovalent (2, 4 เดือน) and Pentavalent (2, 4, 6 เดือน) with tick boxes. The lesson shows both and says 'สมุดพิมพ์ไว้ 2 แบบ' without saying which one a child gets.
+- [ ] Pink HB box: the lesson teaches only that these children have a blood test at 9-12 months and that the result and advice are recorded in that box. The printed result fields (HBsAg, Anti-HBs) and advice options (กระตุ้นวัคซีนอีก 3 ครั้ง (0-2-6 เดือน) + เจาะเลือดซ้ำ; วินิจฉัยติดเชื้อตับอักเสบบี ส่งต่อกุมารแพทย์) are deliberately not taught, so families do not interpret results.
+- [ ] PCV footnote '* พิจารณาฉีดเพิ่มที่ 6 เดือน ในเด็กเสี่ยงตามคำแนะนำของสมาคมโรคติดเชื้อในเด็กฯ' is copied as printed (the 'ฯ' abbreviation is the handbook's).
+- [ ] Editorial (not printed): timeline grouping into 4 age bands and the item titles; 'เจ้าหน้าที่จะบันทึกผลตรวจและคำแนะนำไว้ในกรอบนี้' (the page does not say who fills in the pink box); the reading tip in text step 1 ('เทียบอายุของลูกกับช่องอายุที่แนะนำ…') and the 'ถามเจ้าหน้าที่' pointers in text step 1, takeaway 5 and the family note; 'นำสมุดเล่มนี้ไปด้วยทุกครั้ง' in the family note.
+- [ ] Not included (taught in MCH68-CH-006): the p38 margin tip 'วัคซีนบางชนิดอาจทำให้เกิดไข้ได้ สามารถให้ยาลดไข้ ร่วมกับเช็ดตัวลดไข้' and the p39 margin tip 'ไม่ควรกินยาลดไข้ดักไว้ก่อนการไปฉีดวัคซีน'.
+- [ ] Sort step uses the first recommended age printed for each vaccine. Quiz scenarios q3 (grandmother with a 2-month-old) and q5 (mother with hepatitis B) are written for this lesson; they only repeat p38-p39 entries. All distractors are written for the quiz.
+
+**Video notes to resolve**
+
+- [ ] Narration derived only from lesson MCH68-CH-004 v0.1.0; no new content.
+- [ ] Thai-speaking reviewer: check pronunciation of 'บี ซี จี', 'เอช บี', 'เอช บี ไอ จี', 'ฮิบ', 'พี ซี วี', 'เจอี', 'โรต้า', 'สามสิบหก', 'เก้าถึงสิบสองเดือน', 'สองปีครึ่ง'.
+- [ ] EPI nurse + paediatrician: every age in the video is copied from the lesson (p38-p39). The video narrates only a selection: not narrated are HB at 1 month (เฉพาะแม่ที่เป็นพาหะ), OPV at 6 and 18 months, DTP at 18 months, the PCV booster at 12-15 months and its * footnote, influenza, HPV and the dT 10-year booster.
+- [ ] Item 2 shortens 'HBIg เฉพาะที่เกิดจากแม่ติดเชื้อตับอักเสบบี' to fit on screen; the narration says the full wording.
+- [ ] Item 10 shortens the pink-box text on screen to 'เจาะเลือด 9-12 เดือน (เฉพาะบางคน)'; the narration says 'เฉพาะเด็กที่เกิดจากแม่ติดเชื้อไวรัสตับอักเสบบี เจาะเลือดที่อายุเก้าถึงสิบสองเดือน' as printed. The result fields and advice options in the pink box are not shown (same as the lesson).
+- [ ] Lesson note: the upper tables of p39 have no heading of their own and are grouped with the EPI table (HANDBOOK ISSUE in the lesson); the title narration repeats that grouping ('ต่อไปถึงส่วนบนของหน้าสามสิบเจ็ด').
+- [ ] Lesson note: the JE English name is printed 'Lived attenuated'; the video uses only the Thai name 'ไข้สมองอักเสบเจอี'.
+- [ ] Rota: the video says the book prints two schedules (2, 4 months or 2, 4, 6 months) and does not say which one a child gets (same as the lesson).
+- [ ] Summary point 3 ('ไม่แน่ใจ ถามเจ้าหน้าที่') is the lesson's editorial pointer.
+
+**Sign-off**
+
+| Role | Name | Date | Decision |
+|---|---|---|---|
+| Clinical reviewer |  |  | approve / changes needed |
+| Thai language / pronunciation |  |  | approve / changes needed |
+
+---
+
+## MCH68-CH-005 — วัคซีนเสริม (ทางเลือก)
+
+- Handbook: printed page 37, 38 (official PDF p39, p40)
+- Status: **DRAFT** · version 0.1.1 · clinical risk **high** · release R3
+- Content: 6 steps, end-of-lesson quiz with 5 questions, video V-CH-005 (v0.1.0)
+- Handbook issues to decide: 4
+
+**Who should review**
+
+- [ ] Paediatrician + EPI nurse
+
+**Author notes to resolve (lesson)**
+
+- [ ] Source map (every age and interval checked on the official page images oimg/p39.jpg, oimg/p40.jpg and a 200-dpi render of the official PDF): EV71, Varicella, HAV and the COVID-19 inset = 'วัคซีนเสริมอื่นๆ (Optional vaccine)' box, PDF p39 (printed 37); Dengue row and 'อื่น ๆ (ระบุ)' row = 'บันทึกการรับวัคซีน (ต่อ)', PDF p40 (printed 38); sort bucket 'EPI' uses rows from the p38 (printed 36) table under the heading 'วัคซีนตามแผนงานสร้างเสริมภูมิคุ้มกันโรคของประเทศไทย (EPI …)'.
+- [ ] Paediatrician + EPI nurse (curriculum review requirement): verify as copied: มือเท้าปาก ชนิดรุนแรง (Enterovirus 71) 6 เดือนขึ้นไป (2 เข็ม ห่างกันอย่างน้อย 1 เดือน); สุกใส (Varicella) 12-15 เดือน, 1 ปีครึ่ง - 2 ปี; ตับอักเสบเอ (HAV) ชนิดเชื้อตาย 2 เข็ม ห่างกัน 6-12 เดือน (เริ่มที่อายุ 1 ปีขึ้นไป); วัคซีนป้องกันเชื้อโควิด-19 อายุ 6 เดือนขึ้นไป ระยะห่างเข็มถัดไป 6-12 เดือน; ไข้เลือดออก (Dengue) 4 ปีขึ้นไป (2 เข็ม ห่างกัน 3 เดือนขึ้นไป).
+- [ ] HANDBOOK ISSUE: the COVID-19 inset on p39 is printed '• อายุ 6 เดือนขึ้นไป ระยะห่างเข็มถัดไป 6-12 เดือน)' with a stray closing ')' and no opening bracket. The app shows the text without the stray ')'.
+- [ ] HANDBOOK ISSUE: the JE row on p39 is printed 'Lived attenuated Japanese Encephalitis'. JE is not an optional vaccine and is not taught in this lesson; wherever the app shows the English name (MCH68-CH-004) it uses the correct 'Live attenuated'.
+- [ ] HANDBOOK ISSUE (grouping): the Dengue row is on p40 under 'บันทึกการรับวัคซีน (ต่อ)'; the page does not repeat the 'วัคซีนเสริมอื่นๆ (Optional vaccine)' heading. The lesson presents Dengue as 'the next page of the record', does not label it EPI or optional, and leaves it out of the sort step. Reviewer to confirm how families should read it.
+- [ ] No costs, availability, brands or 'which vaccines PMH gives' are mentioned (book-only rule). The handbook does not explain what 'Optional' means; the lesson does not explain it either.
+- [ ] The COVID-19 inset has record slots ครั้งที่ 1, 2, 3; the lesson mentions the three slots only as a description of the page.
+- [ ] Editorial (not printed): the 'ถามแพทย์หรือเจ้าหน้าที่' pointer in text step 1, takeaway 4 and the family note; 'นำสมุดไปด้วย' in the family note; stage and item titles in the timeline.
+- [ ] Sort step: EPI cards are taken only from the p38 table (which carries the EPI heading); the unlabeled upper tables of p39 (PCV, influenza, MMR, JE, HPV, dT) are not used as cards to avoid a grouping the page does not print. Text step 1 does describe those upper tables as continuing the EPI table, the same reading as MCH68-CH-004 (see its HANDBOOK ISSUE layout note).
+- [ ] Quiz scenarios q3 (grandmother looking for the chickenpox vaccine) is written for this lesson; it only repeats p39 entries. All distractors are written for the quiz.
+- [ ] Editorial: the title gloss 'ทางเลือก' translates the printed '(Optional vaccine)'; the page prints only 'วัคซีนเสริมอื่นๆ (Optional vaccine)'. Varicella: the page prints two ages as bullets without dose numbers; the lesson does not number them.
+
+**Video notes to resolve**
+
+- [ ] Narration derived only from lesson MCH68-CH-005 v0.1.0; no new content.
+- [ ] Thai-speaking reviewer: check pronunciation of 'โควิดสิบเก้า', 'สุกใส', 'ตับอักเสบเอ', 'ชนิดเชื้อตาย', 'หกถึงสิบสองเดือน', 'สิบสองถึงสิบห้าเดือน', 'หนึ่งปีครึ่ง ถึงสองปี', 'สามสิบเจ็ด', 'สามสิบแปด'.
+- [ ] Paediatrician + EPI nurse: every age and interval is copied from the lesson (p39-p40). The curriculum listed this lesson as 'interactive only'; the script was written on request and can be dropped.
+- [ ] Lesson HANDBOOK ISSUE: the COVID-19 inset has a stray ')' on p39. The video shows and says the text without it.
+- [ ] Lesson HANDBOOK ISSUE: the Dengue row is on p40 'บันทึกการรับวัคซีน (ต่อ)' without the 'Optional vaccine' heading. The video puts Dengue in its own part 'หน้า 38' and does not call it optional or EPI.
+- [ ] Lesson HANDBOOK ISSUE: JE 'Lived attenuated' typo — JE is not in this video.
+- [ ] On-screen item texts 1, 3, 4 and 5 are shortened (interval or dose count left out); the narration and captions say the full printed age and interval.
+- [ ] No costs, availability or brands are mentioned. Summary point 3 ('ถามแพทย์หรือเจ้าหน้าที่') is the lesson's editorial pointer.
 
 **Sign-off**
 
@@ -1243,11 +1722,6 @@ Lessons in this pack: 39
 - [ ] Item 2 shortens 'ผลข้างเคียงของวัคซีน' to 'อาการรุนแรงจากวัคซีน', drops the examples 'ชักจากไข้สูง' and 'ผื่นแพ้รุนแรง', and says 'บุคลากร' for 'บุคลากรทางสาธารณสุข' (caption length). Item 10 drops the 'school / travel abroad' detail. Check wording is acceptable.
 - [ ] Summary point 2 narration says 'ถ้ามีไข้หลังฉีด ให้เช็ดตัวลดไข้' (from p40) without repeating the antipyretic line; check this is acceptable.
 - [ ] PMH CLARIFICATION (from lesson): how PMH follows up missed appointments — the video only repeats the p41 tip ('รีบมาติดตาม').
-
-**Local PMH information needed**
-
-- [ ] Antipyretic dose is not printed — refer to doctor / pharmacist
-- [ ] How PMH follows up missed appointments
 
 **Sign-off**
 
@@ -1298,11 +1772,6 @@ Lessons in this pack: 39
 - [ ] Abbreviation 'Hct' appears only in the on-screen item text, not in speech or captions.
 - [ ] Not used in the video: the 14 age rows read one by one, the parent-assessed options (ปกติ / สงสัยล่าช้า), the sort step and the family note.
 
-**Local PMH information needed**
-
-- [ ] The schedule comes from cell shading, not printed rules — PMH must confirm (Hct at 9 m and 4 y; vision from 9 m; hearing birth-6 m; staff developmental screening at 9 m, 1 y 6 m, 2 y 6 m, 3 y 6 m, 5 y; autism screening at 1 y 6 m, 2 y, 2 y 6 m; oral exam from 9 m; iron from 6 m)
-- [ ] PMH well-child clinic days
-
 **Sign-off**
 
 | Role | Name | Date | Decision |
@@ -1348,9 +1817,89 @@ Lessons in this pack: 39
 - [ ] Lesson note: 'ร่วมกับเจ้าหน้าที่ ... ชั่ง วัด แล้วลงกราฟด้วยกัน' framing is not used; summary 3 keeps only the printed-page pointer and 'เจ้าหน้าที่จะเป็นผู้อธิบายผลให้'.
 - [ ] Not used in the video: the '1 ปี 3 เดือน = 15 เดือน' practice item and the family note (app framing, needs approval).
 
-**Local PMH information needed**
+**Sign-off**
 
-- [ ] Whether the app should ever plot a real child's data (needs chart-data permission and PMH clinical governance)
+| Role | Name | Date | Decision |
+|---|---|---|---|
+| Clinical reviewer |  |  | approve / changes needed |
+| Thai language / pronunciation |  |  | approve / changes needed |
+
+---
+
+## MCH68-GROW-002 — แปลผลกราฟน้ำหนัก ส่วนสูง และรูปร่างของลูก
+
+- Handbook: printed page 42, 43 (official PDF p44, p45)
+- Status: **DRAFT** · version 0.1.1 · clinical risk **high** · release R2
+- Content: 7 steps, end-of-lesson quiz with 5 questions, video V-GROW-002 (v0.1.0)
+- Handbook issues to decide: 3
+
+**Who should review**
+
+- [ ] Nutritionist + paediatrician; resolve the p45 overlapping-text rows before content is written
+
+**Author notes to resolve (lesson)**
+
+- [ ] Source map: level names, their order (top to bottom of each funnel table) and every meaning/action sentence are copied from PDF p45 (printed 43), checked on 250–600 dpi renders of the official PDF. 'ดูแนวโน้ม ไม่ใช่การวัดครั้งเดียว', the สดใส summary ('น้ำหนักตามเกณฑ์ • ส่วนสูงตามเกณฑ์ • เติบโตสมส่วน') and the margin tip on recording with staff are from PDF p44 (printed 42).
+- [ ] HANDBOOK ISSUE: PDF p45, section 2 (กราฟแสดงน้ำหนักตามเกณฑ์อายุ) — the meaning text in the 'ตามเกณฑ์' row and the 'น้อย' row is printed twice on top of itself and cannot be read unambiguously on the page image at 600 dpi. The PDF text layer holds the same string twice in each row, shifted about 7.6 pt sideways ('การเจริญเติบโตดี ควรคงน้ำหนักอยู่ในระดับนี้' and 'ขาดอาหาร'), so the intended wording is probably that, but the lesson LEAVES BOTH MEANINGS OUT and the timeline items for these two rows say only 'ถามเจ้าหน้าที่ได้'. Reviewer: check a physical 2nd-printing copy; if the wording is confirmed, add it to timeline items 3 and 5 and to the quiz/takeaways as needed.
+- [ ] HANDBOOK ISSUE (from curriculum): section 4 (กราฟแสดงน้ำหนักตามเกณฑ์ส่วนสูง) prints no SD cut-offs, while sections 2–3 do and the p44 example chart shows +3/+2/+1.5/MEDIAN/−1.5/−2 SD lines. The lesson teaches no SD values for any section (editorial choice: families read the level names and colours printed in their own book; SD cut-offs are not explained in the handbook).
+- [ ] HANDBOOK ISSUE (minor): the 'อ้วน' meaning on p45 breaks a line after '…ความดันโลหิตสูง อ้วน' and continues 'ไขมันในเลือดสูง…'; it is unclear whether 'อ้วน' is a separate item or part of 'อ้วนไขมันในเลือดสูง'. The lesson copies the printed words in printed order without reinterpreting.
+- [ ] Editorial (not printed): the opening sentence of text step 1 ('สมุดหน้า 43 อธิบายความหมาย…'), the plain description 'แต่ละกราฟแบ่งเป็นระดับ', the timeline and sort instructions, and 'ถามเจ้าหน้าที่ได้' / 'ถ้าไม่แน่ใจความหมาย ถามเจ้าหน้าที่' pointers. The app does not interpret any child's result.
+- [ ] Sort step groups printed level names by the graph (page section) they belong to — not by urgency. 'ตามเกณฑ์' is deliberately not used as a card because it appears in both sections 2 and 3.
+- [ ] Quiz q4 scenario (a parent who sees 'ค่อนข้างมาก' in the book) and q2 statement are written for this lesson; every distractor is written for the quiz and its feedback only restates the printed meaning/action.
+- [ ] Family note is editorial framing of the p44 margin tip. Needs approval.
+- [ ] Nutritionist + paediatrician to review (curriculum review requirement).
+
+**Video notes to resolve**
+
+- [ ] Narration derived only from lesson MCH68-GROW-002 v0.1.0; no new content.
+- [ ] Thai-speaking reviewer: check pronunciation of 'สี่สิบสาม' (page number), 'ค่อนข้างเตี้ย', 'ขาดอาหารเรื้อรัง', 'สติปัญญา', 'สมส่วน', 'ท้วม'.
+- [ ] HANDBOOK ISSUE (from lesson): the meanings of the 'ตามเกณฑ์' and 'น้อย' rows of the weight-for-age table on p45 are double-printed and are left out of the lesson; the video names these two levels only in the list of five and says nothing about their meaning.
+- [ ] Item 2 on screen is shortened to 'มาก/ค่อนข้างมาก: ดูกราฟน้ำหนักตามส่วนสูง' (40-character limit); the narration and caption say the full printed wording 'ต้องดูกราฟน้ำหนักตามเกณฑ์ส่วนสูงเพิ่ม'.
+- [ ] No SD values are narrated (lesson editorial choice; section 4 prints no SD cut-offs).
+- [ ] Lesson note: 'ถ้าไม่แน่ใจความหมาย ถามเจ้าหน้าที่' (summary point 3) comes from the lesson's family note, which is editorial and needs approval.
+- [ ] Not used in the video: the 'อ้วน', 'เริ่มอ้วน', 'สูง', 'ค่อนข้างสูง' and 'ผอม' meanings, the สดใส example summary, and the quiz scenarios.
+
+**Sign-off**
+
+| Role | Name | Date | Decision |
+|---|---|---|---|
+| Clinical reviewer |  |  | approve / changes needed |
+| Thai language / pronunciation |  |  | approve / changes needed |
+
+---
+
+## MCH68-GROW-003 — เส้นรอบศีรษะและกระหม่อมของลูก
+
+- Handbook: printed page 43, 44, 45 (official PDF p45, p46, p47)
+- Status: **DRAFT** · version 0.1.1 · clinical risk **high** · release R3
+- Content: 7 steps, end-of-lesson quiz with 5 questions, video V-GROW-003 (v0.1.0)
+- Handbook issues to decide: 2
+
+**Who should review**
+
+- [ ] Paediatrician
+
+**Author notes to resolve (lesson)**
+
+- [ ] Source map: 35 ซม., 'กระหม่อมหลังปิดอย่างช้าไม่เกิน 4 เดือน', 'กระหม่อมหน้าปิดอย่างช้าไม่เกิน 1 ปีครึ่ง' and the referral sentence (with '85th' / '15th' as printed) are copied from PDF p45 section 1 (printed 43), checked on the page image and text layer. Chart titles, axis labels (อายุ แรกเกิด–5 ปี; เส้นรอบวงศีรษะ (เซนติเมตร)) and the five line labels 97th/85th/50th/15th/3rd are from PDF p46 (boys, printed 44) and p47 (girls, printed 45), read on rotated renders.
+- [ ] HANDBOOK ISSUE (from curriculum): the source footnote on both head-circumference charts (PDF p46, p47) begins with the truncated word 'ข้อม :' (probably 'ข้อมูล'), confirmed on 300-dpi renders. The lesson does not quote the footnote.
+- [ ] HANDBOOK ISSUE (from curriculum): the referral wording changed from the 1st printing (greater than P90 / less than P10) to 'แนวโน้มเริ่มสูงกว่าเส้น 85th หรือเริ่มต่ำกว่าเส้น 15th' in the 2nd printing. The lesson uses only the 2nd-printing wording. Paediatrician to confirm.
+- [ ] Editorial description (not printed as text): 'เส้น 85th และ 15th พิมพ์เป็นสีส้ม' — read from the chart images (97th/3rd red, 85th/15th orange, 50th green). Added only to help families find the lines in their own book; reviewer may remove.
+- [ ] Editorial (not printed): 'ใช้กราฟให้ตรงกับเพศของลูก' is taken from the chart titles 'สำหรับเด็กชาย' / 'สำหรับเด็กหญิง' (the general rule 'เลือกใช้กราฟให้ถูกเพศกับเด็ก' is on printed page 42); 'จุดที่บันทึกต่อเนื่องหลายครั้ง' in the quiz scenario restates 'แนวโน้ม'; text step 2 adds the subject 'เส้นรอบศีรษะ' to the printed 'หากเริ่มมีขนาดเมื่อเทียบกับกราฟ…' for clarity. The app does not plot or judge any child's measurement and draws no chart.
+- [ ] The lesson does not explain what or where the fontanelles are, and says nothing about what a late or early closure means — the handbook gives only the two latest closing ages.
+- [ ] Sort step matches each printed number/line with what it refers to; it does not rank anything by urgency.
+- [ ] Quiz q4 scenario (a grandmother looking at her grandchild's chart) is written for this lesson; all distractors are written for the quiz and their feedback only restates the printed action.
+- [ ] Family note is editorial. Needs approval. Paediatrician to review (curriculum review requirement).
+- [ ] Editorial: the timeline stage label 'แรกเกิดถึง 5 ปี' for the referral sentence comes from the x-axis of the p46-47 charts; p45 gives no age range for the referral.
+
+**Video notes to resolve**
+
+- [ ] Narration derived only from lesson MCH68-GROW-003 v0.1.0; no new content.
+- [ ] Thai-speaking reviewer: check pronunciation of the chart line labels, spoken as 'เส้นแปดสิบห้า' / 'เส้นสิบห้า' / 'เก้าสิบเจ็ด … สาม' for the printed '85th', '15th', '97th 50th 3rd' (the handbook prints them in English ordinal form); also 'สามสิบห้าเซนติเมตร' (printed 'ซม.'), 'หนึ่งปีครึ่ง', 'กระหม่อม', 'บุคลากรทางสาธารณสุข'.
+- [ ] HANDBOOK ISSUE (from lesson): referral wording changed from the 1st printing (P90 / P10) to the 85th / 15th trend; the video uses only the 2nd-printing wording. The truncated chart footnote ('ข้อม :') is not narrated.
+- [ ] Lesson note: 'เส้น 85th และ 15th พิมพ์เป็นสีส้ม' is an editorial description of the chart image; it is not narrated.
+- [ ] Icon for item 6 is 'ask' (the printed action is 'ควรปรึกษาบุคลากรทางสาธารณสุข', not 'go to hospital'), so 'warning' is not used.
+- [ ] On-screen texts are shortened for the 40/34-character limits (item 6 'แนวโน้มสูงกว่า 85th/ต่ำกว่า 15th: ปรึกษา'; summary 'ปิดช้าสุด' for 'ปิดอย่างช้าไม่เกิน', 'เกิน 85th หรือต่ำกว่า 15th: ปรึกษา'); the narration and captions say the full printed wording, including 'แนวโน้มเริ่ม…' and 'ควรปรึกษาบุคลากรทางสาธารณสุข'.
 
 **Sign-off**
 
@@ -1402,12 +1951,6 @@ Lessons in this pack: 39
 - [ ] All stages use hideNumbers: item texts carry page numbers and month ranges.
 - [ ] Not used in the video: the 'ทุก 3 เดือน' sentence from PDF p57 (lesson flags it as coming from the infant-food page), the length/height-chart subtitle issue, per-chart page numbers, the head-circumference charts having no 'ผลการวัด' table, and the family note.
 
-**Local PMH information needed**
-
-- [ ] p49 / p53 titles say 'ติดตามน้ำหนักของลูก' on height charts (handbook error) — app wording should say height
-- [ ] p51, p54, p55 print no source footnote
-- [ ] Any digital redraw of the WHO 2006 / สำนักโภชนาการ 2563-2564 charts needs permission and exact source data
-
 **Sign-off**
 
 | Role | Name | Date | Decision |
@@ -1453,12 +1996,6 @@ Lessons in this pack: 39
 - [ ] Lesson note: 'กล้วยครูด' kept as printed; fruit piece size (item 12) is only shown in handbook photos, not in words.
 - [ ] Item 4 on-screen text ('ข้าวต้ม: 1 → 2 → 3 ช้อนกินข้าว') and item 5 text ('ไข่แดง ½ ฟอง แล้วเพิ่มเนื้อสัตว์ 1 ช้อนชา') compress two day-spans into one line; the narration and caption give both spans in full. Check on-screen text is not misleading.
 - [ ] Not used in the video: breastfeeding benefits list, principles 2–4 (texture, gradual increase, variety) beyond 'บดละเอียด', and the allergy-observation line (PMH CLARIFICATION: allergy signs are not in the handbook).
-
-**Local PMH information needed**
-
-- [ ] Signs of food allergy and what to do are NOT in the handbook — paediatrician to decide
-- [ ] QR 'ดูตัวอย่างอาหารทารกเพิ่มเติม' target not verified
-- [ ] Local porridge recipes would be PMH additions
 
 **Sign-off**
 
@@ -1508,10 +2045,6 @@ Lessons in this pack: 39
 - [ ] Not used in the video: note 5 / iron syrup and the lesson's editorial iron-syrup sentence (high-risk lesson GROW-008), growth monitoring every 3 months, and the family note.
 - [ ] Lesson editorial framing used: 'ถ้าไม่แน่ใจ ถามเจ้าหน้าที่' (summary 4, from the timeline intro).
 
-**Local PMH information needed**
-
-- [ ] Local recipe examples would be PMH additions
-
 **Sign-off**
 
 | Role | Name | Date | Decision |
@@ -1558,10 +2091,43 @@ Lessons in this pack: 39
 - [ ] Lesson note: the video does not say how big a ทัพพี / ส่วน / แก้ว is (not printed on these pages). Lesson editorial framing used: 'ดูหน่วยให้ดี: ช้อนกินข้าว กับ ทัพพี ไม่เหมือนกัน' (stage 2 intro, summary 2).
 - [ ] Item 2 / item 7 group vegetables and fruit, item 3 / item 8 group meat and egg, following the flag tiers; tier names and 'eat more at the top' are not narrated (as in the lesson).
 
-**Local PMH information needed**
+**Sign-off**
 
-- [ ] Units change between flags (ช้อนกินข้าว vs ทัพพี) — design must not confuse
-- [ ] QR exchange-list targets not verified
+| Role | Name | Date | Decision |
+|---|---|---|---|
+| Clinical reviewer |  |  | approve / changes needed |
+| Thai language / pronunciation |  |  | approve / changes needed |
+
+---
+
+## MCH68-GROW-008 — ยาน้ำเสริมธาตุเหล็กสำหรับเด็ก 6 เดือน - 5 ปี
+
+- Handbook: printed page 40, 41, 55, 56, 57 (official PDF p42, p43, p57, p58, p59)
+- Status: **DRAFT** · version 0.1.1 · clinical risk **high** · release R2
+- Content: 7 steps, end-of-lesson quiz with 5 questions, video V-GROW-008 (v0.1.0)
+- Handbook issues to decide: 1
+
+**Who should review**
+
+- [ ] Paediatrician + pharmacist
+
+**Author notes to resolve (lesson)**
+
+- [ ] Source map (all read on page images; p57 also ): 'เด็กอายุ 6 เดือน - 5 ปี ทุกคน ต้องกินยาน้ำเสริมธาตุเหล็ก สัปดาห์ละ 1 ครั้ง' — bubbles on PDF p58 and p59 (printed 56, 57); note 5 'เพื่อให้ได้รับธาตุเหล็กเพียงพอ เด็กอายุ 6 เดือน – 5 ปี ต้องได้รับยาน้ำเสริมธาตุเหล็กสัปดาห์ละ 1 ครั้ง ร่วมกับการกินไข่ทุกวัน หรือกินไข่สลับกับตับ ซึ่งเป็นแหล่งสำคัญของวิตามินเอ และโฟเลตด้วย' — PDF p57 (printed 55); margin tip 'ภาวะซีดจากการขาดธาตุเหล็ก ส่งผลต่อสติปัญญาของเด็ก ควรได้รับการคัดกรองภาวะซีดตามกำหนด' — PDF p42 (printed 40); margin tip 'ยาน้ำเสริมธาตุเหล็กในเด็ก ช่วยทำให้เด็กเจริญอาหาร เป็นโอกาสในการฝึกกินอาหารตามวัย' — PDF p43 (printed 41); column names 'ความเข้มข้นเลือด (Hct)' (p42) and 'วิตามินเสริมธาตุเหล็ก' (p43).
+- [ ] Scope: the lesson states only what is printed. It gives no amount per dose, product, time of day, storage, side effects or where to get the syrup, and does not teach which rows of the p42–43 record are shaded (screening ages are implied by shading only, not printed as text).
+- [ ] HANDBOOK ISSUE (minor): the record column on PDF p43 is headed 'วิตามินเสริมธาตุเหล็ก', while every other mention says 'ยาน้ำเสริมธาตุเหล็ก'. Also, that column is open (not shaded) from the 6 เดือน row through the 6 ปี row, while the text on p57–59 says 6 เดือน – 5 ปี. The lesson names the column as printed and teaches the age range from the text only.
+- [ ] Wording note: in note 5 (p57), 'ซึ่งเป็นแหล่งสำคัญของวิตามินเอ และโฟเลตด้วย' follows 'กินไข่ทุกวัน หรือกินไข่สลับกับตับ'; the lesson keeps the sentence as printed and the sort step files that card under 'ไข่ และตับ' without saying which of the two is the source.
+- [ ] Editorial (not printed): headings, the timeline layout by age band with page pointers (the p57 page is titled 'สำหรับทารกแรกเกิด - 11 เดือน 29 วัน'; the note itself says 6 เดือน – 5 ปี), the sort instructions and bucket labels.
+- [ ] Quiz q4 scenario (a grandmother asking about food for a 1-year-old who already gets the syrup) is written for this lesson; all distractors are written for the quiz and their feedback only restates the printed advice.
+- [ ] Family note is editorial (who in the household gives the weekly syrup). Needs approval. Paediatrician + pharmacist to review (curriculum review requirement).
+
+**Video notes to resolve**
+
+- [ ] Narration derived only from lesson MCH68-GROW-008 v0.1.0; no new content.
+- [ ] Thai-speaking reviewer: check pronunciation of 'ยาน้ำเสริมธาตุเหล็ก', 'โฟเลต', 'วิตามินเอ', 'สติปัญญา', 'หกเดือนถึงห้าปี', 'ห้าสิบห้า ห้าสิบหก และห้าสิบเจ็ด' (page numbers).
+- [ ] Scope (from lesson): no dose amount, product, time of day, storage or side effects are narrated — none are printed.
+- [ ] Lesson note: in p57 note 5, 'ซึ่งเป็นแหล่งสำคัญของวิตามินเอ และโฟเลต' follows 'กินไข่ทุกวัน หรือกินไข่สลับกับตับ'; item 6 narrates the sentence as printed.
+- [ ] Not used in the video: the p42–43 record columns, the HANDBOOK ISSUE about the 'วิตามินเสริมธาตุเหล็ก' column name/shading, and the family note (editorial).
 
 **Sign-off**
 
@@ -1606,12 +2172,6 @@ Lessons in this pack: 39
 - [ ] Lesson note: the DAIM risk-group line (item 9) is as printed on p63; nothing is added about who decides a child is in the risk group — PMH to add its local DAIM follow-up.
 - [ ] Lesson editorial framing used: 'ถ้าสงสัยหรือกังวลเรื่องพัฒนาการของลูก บอกเจ้าหน้าที่' (summary 3) and 'ทุกข้อมีช่องสี่เหลี่ยม' (stage 1 intro, describes the printed checklist).
 - [ ] Not used in the video: the three QR codes on printed p61, the age columns per page, 'แจกฟรี ห้ามจำหน่าย', the family note, and how to test or tick items (in the DSPM manual).
-
-**Local PMH information needed**
-
-- [ ] How to test each item is in the DSPM manual, not the handbook — link to the official manual / video QR rather than re-create
-- [ ] PMH stimulation (ฝึกกระตุ้น) clinic and appointment process; DAIM follow-up at PMH
-- [ ] Policy: any in-app DSPM checklist is surveillance only, never a diagnosis
 
 **Sign-off**
 
@@ -1658,11 +2218,6 @@ Lessons in this pack: 39
 - [ ] Lesson note: the 9-month screening sentence (stage 3 intro) comes from the p61 tip; that the 9-month column is red on p60 is described from the image.
 - [ ] Not used in the video: the remaining checklist items, the domain abbreviations, pictures / speech-bubble props, and the family note.
 
-**Local PMH information needed**
-
-- [ ] Pictogram permission (กรมอนามัย / DSPM)
-- [ ] Whether parents may tick items in the app (recommend: tick in the handbook only)
-
 **Sign-off**
 
 | Role | Name | Date | Decision |
@@ -1707,10 +2262,6 @@ Lessons in this pack: 39
 - [ ] All stages use hideNumbers: item texts carry age numbers (and '59', '5'), so badges are hidden and narration does not use 'ข้อ' numbers.
 - [ ] Lesson note: the 18- and 30-month screening sentences (stage 2 / 3 intros, summary 2) come from the p61 margin tip; that these columns are red is described from the image.
 - [ ] Not used in the video: the names of the 5 domains and their abbreviations, the remaining checklist items, the 9/42/60-month screening ages, pictures / speech-bubble props, and the family note.
-
-**Local PMH information needed**
-
-- [ ] Pictogram permission (กรมอนามัย / DSPM)
 
 **Sign-off**
 
@@ -1760,10 +2311,6 @@ Lessons in this pack: 39
 - [ ] Intro segment 1 quotes the p63 (printed 61) margin tip word for word. The 42- and 60-month screening sentences come from the p61 margin tip (printed 59); that these columns are red on p62 is described from the image (lesson note).
 - [ ] Not used in the video: the names of the 5 domains, the remaining checklist items, the DSPM/DAIM manual covers and QR codes, and the family note.
 
-**Local PMH information needed**
-
-- [ ] Pictogram permission (กรมอนามัย / DSPM)
-
 **Sign-off**
 
 | Role | Name | Date | Decision |
@@ -1806,11 +2353,6 @@ Lessons in this pack: 39
 - [ ] Lesson note for reviewer: the handbook frames DSPM as a parent tool too (p63 cover lists parents first); the 'ask staff' pointer is editorial — confirm the intended message.
 - [ ] PMH CLARIFICATION (from lesson): the no-hitting message (item 9) is culturally sensitive — PMH to approve tone. Wording follows the p33 tip.
 - [ ] Not used in the video: the QR codes on printed p31 ('การเลี้ยงดูลูกเชิงบวก') and p61 ('รู้ใจวัยจิ๋ว'), milestone checklists, sleep hours and iron syrup.
-
-**Local PMH information needed**
-
-- [ ] Positive-parenting detail lives behind the p33 QR 'การเลี้ยงดูลูกเชิงบวก' — link only, with permission
-- [ ] No-hitting message is culturally sensitive — PMH to approve tone
 
 **Sign-off**
 
@@ -1856,10 +2398,45 @@ Lessons in this pack: 39
 - [ ] Item 4 shortens 'ใช้ผ้าสะอาดเช็ดฟองออก' to 'เช็ดฟองออก' (caption length); brushing technique wording 'ถูไปมาสั้น ๆ ในแนวขวาง' is kept as printed. Item 10 shortens the p66 wording 'จนลูกเข้า ป.1 หรืออายุ 7-8 ปี หรือจนกว่าลูกจะแปรงฟันได้สะอาด' to 'จนกว่าลูกจะแปรงฟันได้สะอาด'. Check this is acceptable.
 - [ ] Not used in the video: plaque check with a small plastic straw (dentist to confirm), the 6-month postpartum mother-and-baby oral check (PMH CLARIFICATION on booking), the p64 tooth eruption record, and anything from the p64 staff risk-assessment form.
 
-**Local PMH information needed**
+**Sign-off**
 
-- [ ] How to book the PMH dental clinic before age 1 (and the 6-month postpartum mother-and-baby oral check)
-- [ ] Brushing technique beyond the printed 'ถูไปมาสั้น ๆ ในแนวขวาง' needs dental approval
+| Role | Name | Date | Decision |
+|---|---|---|---|
+| Clinical reviewer |  |  | approve / changes needed |
+| Thai language / pronunciation |  |  | approve / changes needed |
+
+---
+
+## MCH68-DENT-002 — ยาสีฟันฟลูออไรด์: ปริมาณที่เหมาะกับวัย
+
+- Handbook: printed page 62, 64 (official PDF p64, p66)
+- Status: **DRAFT** · version 0.1.1 · clinical risk **high** · release R2
+- Content: 7 steps, end-of-lesson quiz with 5 questions, video V-DENT-002 (v0.1.0)
+- Handbook issues to decide: 2
+
+**Who should review**
+
+- [ ] Dentist: verify 'เท่าเมล็ดข้าวโพด' (changed from 'เมล็ดข้าวสาร' in the 1st printing) and that the same descriptor appears for both the <3 and 3-6 groups
+
+**Author notes to resolve (lesson)**
+
+- [ ] Source map: the three toothpaste panels (age label, amount, ppm) and the 7-11 month line 'แปรงฟันให้ลูกตั้งแต่ซี่แรกด้วยยาสีฟันผสมฟลูออไรด์' = PDF p66 (printed 64); margin tip 'สามารถใช้ยาสีฟันและแปรงสีฟันได้ตั้งแต่ฟันซี่แรกของลูก' and the sentence 'การใช้ยาสีฟันที่มีความเข้มข้นของฟลูออไรด์ 1,400 - 1,500 ppm ควรอยู่ภายใต้การแนะนำของทันตบุคลากร' = PDF p64 (printed 62).
+- [ ] FOR DENTIST REVIEW — amounts copied exactly from the official 2nd-printing p66 (checked on oimg/p66.jpg, a 200-dpi render of the official PDF and its text layer): ฟันซี่แรก-อายุต่ำกว่า 3 ปี 'แตะขนแปรงพอเปียก หรือเท่าเมล็ดข้าวโพด และใช้ยาสีฟันผสมฟลูออไรด์ 1,000 ppm'; อายุ 3 - อายุต่ำกว่า 6 ปี 'บีบเท่ากับความกว้างแปรง หรือเท่าเมล็ดข้าวโพด และใช้ยาสีฟันผสมฟลูออไรด์ 1,000 ppm'; อายุ 6 ปีขึ้นไป 'บีบเท่ากับความยาวแปรง และใช้ยาสีฟันผสมฟลูออไรด์ 1,500 ppm'.
+- [ ] HANDBOOK ISSUE: 'หรือเท่าเมล็ดข้าวโพด' is printed as the alternative amount in BOTH the under-3 panel (main wording: smear) and the 3-<6 panel (main wording: brush width). The 1st printing read 'เท่าเมล็ดข้าวสาร' for the under-3 panel (an older image in the scratchpad, hi/p66.png, still shows it — not used). The lesson copies both panels exactly; the quiz and sort never use 'เมล็ดข้าวโพด' to tell the groups apart. Dentist to confirm before publication.
+- [ ] HANDBOOK ISSUE: p66 (family panel) prints 1,500 ppm for age 6 and over with no condition, while the p64 'เพิ่มเติม' note says use of 1,400 - 1,500 ppm toothpaste should be under dental-staff advice. The lesson quotes each sentence with its page and does not resolve them.
+- [ ] Staff-side content NOT taught (p64 is the staff oral-health risk-assessment form): หมายเหตุ 1-3 (yellow/orange/red bands, 1,500 ppm for under-6s at orange/red risk, fluoride varnish, 3- and 6-month follow-up), the staff criteria in the 'เพิ่มเติม' note (drinking-water fluoride below 0.5 ppm, no oral fluoride supplements), and risk row 6 (toothpaste below 1,000 ppm). Because staff may advise differently for an individual child, the lesson adds an editorial deferral (see next note).
+- [ ] Editorial (not printed): 'เป็นหน้าที่ทันตบุคลากรใช้ประเมิน' (p64 does not say who fills it in; same wording as MCH68-DENT-003); 'ถ้าทันตบุคลากรแนะนำเรื่องยาสีฟันให้ลูกเป็นการเฉพาะ ให้ทำตามคำแนะนำนั้น' and the 'ถามทันตบุคลากร' pointers (text step 2, takeaway 5, family note, quiz q5 feedback); 'ปริมาณขึ้นกับอายุของเด็ก' framing; sort bucket labels combine age and amount. The handbook does not tell families how to find the ppm on a tube; the curriculum's label-reading game was not built.
+- [ ] Quiz scenarios q4 (grandfather brushing a 4-year-old's teeth) and q5 (dental staff gave individual advice) are written for this lesson; they only repeat p64/p66 statements. Sort cards (child ages) are written for the lesson. All distractors are written for the quiz.
+- [ ] Family note is editorial. Dentist / dental nurse (ทันตาภิบาล) to review (curriculum review requirement).
+
+**Video notes to resolve**
+
+- [ ] Narration derived only from lesson MCH68-DENT-002 v0.1.0; no new content.
+- [ ] Thai-speaking reviewer: check pronunciation of 'ฟลูออไรด์', 'พี พี เอ็ม', 'หนึ่งพัน', 'หนึ่งพันห้าร้อย', 'เมล็ดข้าวโพด', 'หกสิบสี่'.
+- [ ] Dentist: the three amounts are the exact printed descriptors from p66 (printed 64), on screen and in the narration. Item 3 ('บีบเท่ากับความกว้างแปรง หรือเท่าเมล็ดข้าวโพด') is longer than the usual 40-character limit so that the printed descriptor is not changed.
+- [ ] Lesson HANDBOOK ISSUE: 'หรือเท่าเมล็ดข้าวโพด' is printed for both the under-3 and the 3-<6 groups (1st printing had 'เมล็ดข้าวสาร' for under-3). The video copies both exactly; dentist to confirm before narration is produced.
+- [ ] Lesson HANDBOOK ISSUE: p66 gives 1,500 ppm for 6 years and over without condition, while p64 says 1,400 - 1,500 ppm should be under dental-staff advice. The p64 sentence is not narrated; summary point 3 uses the lesson's editorial deferral ('ทันตบุคลากรแนะนำเป็นการเฉพาะ ให้ทำตามนั้น').
+- [ ] Staff-side p64 notes (risk colours, 1,500 ppm for under-6s at higher risk, water-fluoride criteria, varnish, follow-up intervals) are not in the video, same as the lesson.
 
 **Sign-off**
 
@@ -1907,11 +2484,6 @@ Lessons in this pack: 39
 - [ ] The '(Hands on)' wording is not spoken; item 9 says 'สอนแปรงฟัน' only.
 - [ ] Not used in the video: rows 6, 8–10 (except the exam findings in item 8), the หมายเหตุ ppm advice, the HANDBOOK ISSUE typo in หมายเหตุ 2, and the family note. No safer alternatives are given (none printed).
 
-**Local PMH information needed**
-
-- [ ] 'ดื่มนมมื้อดึก' (night feeding) as a caries risk vs breastfeeding on demand — dental and lactation teams must align messaging
-- [ ] Fluoride varnish (ทาฟลูออไรด์) availability at PMH
-
 **Sign-off**
 
 | Role | Name | Date | Decision |
@@ -1957,10 +2529,6 @@ Lessons in this pack: 39
 - [ ] Lesson note: reading the tooth map (item 6) is derived from the p66 diagram. The handbook does not say whether ขวา/ซ้าย is the child's right/left; the video tells families to follow the words in the picture and does not explain orientation. Dentist to confirm.
 - [ ] Lesson note: 'จดเมื่อเห็นฟันซี่นั้นขึ้น / หลุด' (item 8) is how the p66 columns are read; no eruption or loss ages are given (PMH CLARIFICATION: typical eruption ages are not in the handbook).
 - [ ] Not used in the video: toothpaste amounts and fluoride strengths (FOR DENTIST REVIEW in DENT-001), the 'เฝ้าดูฟัน 6 ขวบปีแรก' age-by-age care (covered by V-DENT-001), the plastic-straw plaque check, the app privacy line, and the family note.
-
-**Local PMH information needed**
-
-- [ ] Typical eruption ages are NOT printed in the handbook — do not add without dental sign-off
 
 **Sign-off**
 

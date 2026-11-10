@@ -1,0 +1,175 @@
+{
+  "id": "V-K-016",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 3225,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 404,
+      "segments": [
+        {
+          "file": "audio/V-K-016/intro-1-3102f38397.wav",
+          "from": 18,
+          "durationInFrames": 194,
+          "caption": "ทารกหรือเด็กเล็ก มีความเสี่ยงที่อาหารหรือสิ่งของใด ๆ หลุดเข้าทางเดินหายใจได้",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-K-016/intro-2-0da5006323.wav",
+          "from": 226,
+          "durationInFrames": 151,
+          "caption": "ร่างกายของเด็กจะสามารถทนต่อการขาดอากาศหายใจได้เพียงไม่กี่นาทีเท่านั้น",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 404,
+      "durationInFrames": 680,
+      "segments": [
+        {
+          "file": "audio/V-K-016/stage1-1-067fd382df.wav",
+          "from": 18,
+          "durationInFrames": 177,
+          "caption": "ตอนที่ 1 ตามสมุดหน้า 30 เมื่อสงสัยว่ามีสิ่งแปลกปลอมอุดทางเดินหายใจ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-016/stage1-2-0eb4c315fc.wav",
+          "from": 209,
+          "durationInFrames": 134,
+          "caption": "อาการที่สมุดเขียนไว้ คือ เด็กไม่สามารถส่งเสียงได้",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-016/stage1-3-4c8f41ed67.wav",
+          "from": 357,
+          "durationInFrames": 86,
+          "caption": "และเด็กดูซีด เขียว หายใจลำบาก",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-K-016/stage1-4-5b04e49310.wav",
+          "from": 457,
+          "durationInFrames": 72,
+          "caption": "ให้โทร 1669",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-K-016/stage1-5-270ff3f95d.wav",
+          "from": 543,
+          "durationInFrames": 110,
+          "caption": "แล้วดูว่าเด็กตอบสนองต่อการเรียก/กระตุ้นหรือไม่",
+          "reveal": 4
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1084,
+      "durationInFrames": 889,
+      "segments": [
+        {
+          "file": "audio/V-K-016/stage2-1-a94924f726.wav",
+          "from": 18,
+          "durationInFrames": 164,
+          "caption": "ตอนที่ 2 ถ้าเด็กยังตอบสนอง/รู้สึกตัว ให้ช่วยตามอายุ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-016/stage2-2-47448d5a8f.wav",
+          "from": 196,
+          "durationInFrames": 238,
+          "caption": "น้อยกว่า 1 ปี ตบที่กลางหลัง และกดที่กลางหน้าอก วนสลับกัน อย่างละ 5 ครั้ง ไปเรื่อย ๆ",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-K-016/stage2-3-fcbd861ea4.wav",
+          "from": 448,
+          "durationInFrames": 266,
+          "caption": "มากกว่า 1 ปี ตบกลางหลัง 5 ครั้ง สลับโอบจากด้านหลัง กำมือวางที่ลิ้นปี่ ดันเข้าหาตัว 5 ครั้ง",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-K-016/stage2-4-113afdf679.wav",
+          "from": 728,
+          "durationInFrames": 134,
+          "caption": "ทั้งสองวัย ทำซ้ำเรื่อย ๆ จนกว่าวัตถุแปลกปลอมจะออกมา",
+          "reveal": 7
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 1973,
+      "durationInFrames": 497,
+      "segments": [
+        {
+          "file": "audio/V-K-016/stage3-1-8d83756404.wav",
+          "from": 18,
+          "durationInFrames": 77,
+          "caption": "ตอนที่ 3 สิ่งที่ต้องจำ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-016/stage3-2-94baa3a009.wav",
+          "from": 109,
+          "durationInFrames": 182,
+          "caption": "สมุดเขียนตัวแดงไว้ว่า ห้าม!! พยายามเอาวัตถุออกด้วยการใช้นิ้วล้วงเข้าไปในปาก",
+          "reveal": 8
+        },
+        {
+          "file": "audio/V-K-016/stage3-3-78623bc4a8.wav",
+          "from": 305,
+          "durationInFrames": 165,
+          "caption": "และหากเด็กไม่ตอบสนอง/ไม่รู้สึกตัว ให้กู้ชีพโดยการกดหัวใจ",
+          "reveal": 9
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 2470,
+      "durationInFrames": 755,
+      "segments": [
+        {
+          "file": "audio/V-K-016/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-016/summary-2-14dfc97cf2.wav",
+          "from": 78,
+          "durationInFrames": 197,
+          "caption": "สงสัยว่ามีสิ่งแปลกปลอมอุด ให้โทร 1669 แล้วดูการตอบสนอง",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-016/summary-3-086d211304.wav",
+          "from": 289,
+          "durationInFrames": 238,
+          "caption": "ช่วยตามอายุ ตบที่กลางหลัง สลับกับกด หรือดัน อย่างละ 5 ครั้ง จนกว่าวัตถุจะออกมา",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-K-016/summary-4-7fefbfca4f.wav",
+          "from": 541,
+          "durationInFrames": 187,
+          "caption": "ห้ามใช้นิ้วล้วงเข้าไปในปาก และถ้าไม่ตอบสนอง ให้กู้ชีพโดยการกดหัวใจ",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

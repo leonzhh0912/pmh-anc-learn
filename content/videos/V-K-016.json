@@ -1,0 +1,29 @@
+{
+  "id": "V-K-016",
+  "lessonId": "MCH68-K-016",
+  "title": "สิ่งแปลกปลอมติดคอ: วิธีช่วยเหลือเด็ก",
+  "mp4": "media/V-K-016.mp4",
+  "captionsVtt": "media/V-K-016.th.vtt",
+  "poster": "media/V-K-016.jpg",
+  "durationSec": 107.5,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "high",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-K-016 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of หนึ่งหกหกเก้า (1669, read digit by digit), ลิ้นปี่, อุ้งมือ, สิ่งแปลกปลอม.",
+      "Lesson HANDBOOK ISSUE applies: for the under-1-year chest thrust the page prints 'บริเวณอุ้งมือ' while infant CPR uses '2 นิ้ว'. The step is central, so the video says only 'กดที่กลางหน้าอก' and does not name the hand part; resuscitation instructor to confirm before render.",
+      "Lesson note applies: back blows are narrated before chest thrusts for under-1-year, following the page layout (the page does not number them).",
+      "No technique drawings: item icons are generic (warning, check, baby, group, heart) and show no hand or body position."
+    ]
+  }
+}

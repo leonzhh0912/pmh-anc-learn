@@ -194,7 +194,7 @@ add(lessonId="MCH68-ANC-002", sectionId="anc",
         "Influenza footnote: NHSO is adjusting the age/timing of administration — PMH must confirm current local practice before release",
         "Which of aP / Tdap / TdaP and influenza vaccine PMH provides, when, and whether free",
     ],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 add(lessonId="MCH68-ANC-003", sectionId="anc",
     titleTh="ทำไมเจ้าหน้าที่ประเมินความเสี่ยงการตั้งครรภ์เมื่อมาฝากครรภ์",
@@ -298,7 +298,7 @@ add(lessonId="MCH68-REC-003", sectionId="record",
         "p15 says 'แนะนำให้พบแพทย์' while p26 says 'ต้องมาโรงพยาบาลทันที' — PMH to give one clear instruction",
         "Whether the in-app counter may store counts (recommend local-only or none)",
     ],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 add(lessonId="MCH68-REC-004", sectionId="record",
     titleTh="น้ำหนักที่เพิ่มขึ้นขณะตั้งครรภ์ และกราฟ Vallop curve",
@@ -326,7 +326,7 @@ add(lessonId="MCH68-REC-004", sectionId="record",
         "What PMH wants mothers to do when a point falls in the 'มาก' or 'น้อย' zone",
         "QR 'คำแนะนำโภชนาการหญิงตั้งครรภ์' target not verified",
     ],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 # ---------------------------------------------------------------- assess
 add(lessonId="MCH68-ASSESS-001", sectionId="assess",
@@ -341,7 +341,7 @@ add(lessonId="MCH68-ASSESS-001", sectionId="assess",
     ],
     interactivity=[
         "guided slow-breathing exercise (animated circle) based on the printed coping advice — no scoring",
-        "'who can I talk to?' card: family + PMH contacts (PMH to fill)",
+        "'who can I talk to?' card: family and staff, as printed",
         "explainer carousel 'why the nurse asks these questions' — topics in general terms only; ST-5 / 2Q plus items and scores are NOT reproduced",
     ],
     videoTreatment="60 s gentle animation: mood changes in pregnancy are common, the nurse's questions are a way to help, slow-breathing demo",
@@ -355,7 +355,7 @@ add(lessonId="MCH68-ASSESS-001", sectionId="assess",
         "p16-17 carry the ♡ icon (mother may complete them herself) — PMH to set policy; the app will not offer self-scoring",
         "Permission from กรมสุขภาพจิต before displaying ST-5 / 2Q plus in any form",
     ],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 add(lessonId="MCH68-ASSESS-002", sectionId="assess",
     titleTh="ภาวะซึมเศร้าหลังคลอด เกิดขึ้นได้กับทุกคน",
@@ -380,7 +380,7 @@ add(lessonId="MCH68-ASSESS-002", sectionId="assess",
         "EPDS item 10 score-3 label is printed as 'ค่อนข้างน้อย' — clinical team to check against the official Thai EPDS (staff-side)",
         "EPDS copyright / Thai translation permission if the instrument is ever displayed",
     ],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 add(lessonId="MCH68-ASSESS-003", sectionId="assess",
     titleTh="งดสุราและบุหรี่ ระหว่างตั้งครรภ์และให้นมลูก",
@@ -478,7 +478,7 @@ add(lessonId="MCH68-K-003", sectionId="knowledge",
         "Which tablet PMH dispenses and how to get refills",
         "Whether supplements continue while breastfeeding is not stated in the handbook",
     ],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 add(lessonId="MCH68-K-004", sectionId="knowledge",
     titleTh="ข้อปฏิบัติการกินเพื่อสุขภาพที่ดี 9 ข้อ สำหรับหญิงตั้งครรภ์และหญิงให้นมบุตร",
@@ -509,14 +509,12 @@ add(lessonId="MCH68-K-005", sectionId="knowledge",
         "ผู้เรียนสามารถบอกอาการผิดปกติ 7 อาการที่แม่ท้องต้องมาโรงพยาบาลทันที",
         "ผู้เรียนสามารถปฏิบัติได้ถูกต้องเมื่อมีน้ำใส ๆ ไหลจากช่องคลอด: ใส่ผ้าอนามัยไว้ แล้วรีบมาโรงพยาบาล",
         "ผู้เรียนสามารถบอกได้ว่าเวียนศีรษะ ตาพร่า ขาบวม อาจเกิดจากภาวะครรภ์เป็นพิษ",
-        "ผู้เรียน (ครอบครัว) สามารถบอกได้ว่าจะไปที่ใดและติดต่อใครเมื่อพบอาการเหล่านี้ ตามข้อมูลของโรงพยาบาลพิมาย",
     ],
     interactivity=[
         "scenario quiz: 8 short scenarios → 'go to hospital now' vs 'mention at next visit' (only the 7 printed signs count as 'now')",
         "tap-to-reveal body map with the 7 icons",
-        "one-tap PMH emergency contact card (PMH to supply)",
     ],
-    videoTreatment="60 s calm animation: each sign with its icon, ending on the PMH where-to-go card",
+    videoTreatment="60 s calm animation: each sign with its icon, ending on 'มาโรงพยาบาลทันที' as printed",
     audience=MF, clinicalRisk="high",
     reviewRequirements=[
         "Obstetrician + ANC / labour-room nurse: verify the 7 signs verbatim and the PMH emergency route",
@@ -525,7 +523,7 @@ add(lessonId="MCH68-K-005", sectionId="knowledge",
         "PMH must supply the 24-h labour room / ER location, phone number, and when to call 1669 versus coming by own transport (the handbook gives no number for pregnancy emergencies)",
         "Harmonise with the fetal-movement rule on p15",
     ],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 add(lessonId="MCH68-K-006", sectionId="knowledge",
     titleTh="ออกกำลังกายระหว่างตั้งครรภ์และหลังคลอด",
@@ -637,7 +635,7 @@ add(lessonId="MCH68-K-010", sectionId="knowledge",
         "scenario quiz: which stool colour needs a doctor (calibrated colour swatches, not copied photos)",
         "tap-to-reveal: why treatment must happen before 2 months",
     ],
-    videoTreatment="30-45 s animation with a calibrated colour card",
+    videoTreatment="30-45 s animation; colours described in words, no swatches",
     audience=CHILD, clinicalRisk="high",
     reviewRequirements=[
         "Paediatrician (paediatric GI if available)",
@@ -648,7 +646,7 @@ add(lessonId="MCH68-K-010", sectionId="knowledge",
         "Screen colour rendering varies — PMH to decide whether to point families to a printed national stool colour card instead",
         "Handbook stool photos cannot be copied without permission",
     ],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 add(lessonId="MCH68-K-011", sectionId="knowledge",
     titleTh="ฝึกขับถ่าย และการขับถ่ายรดที่นอน",
@@ -763,7 +761,6 @@ add(lessonId="MCH68-K-016", sectionId="knowledge",
     interactivity=[
         "step-through animation of choking first aid as a decision tree (responsive? under or over 1 year?)",
         "sequence-ordering quiz",
-        "prompt to practise on a manikin with PMH staff (PMH to supply booking details)",
     ],
     videoTreatment="60-90 s step-by-step animation, reviewed frame by frame by a resuscitation instructor",
     audience=CHILD, clinicalRisk="high",
@@ -774,7 +771,7 @@ add(lessonId="MCH68-K-016", sectionId="knowledge",
         "Whether PMH offers hands-on infant first-aid practice (an app is not training)",
         "1669 is printed; PMH may add its own ER number",
     ],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 add(lessonId="MCH68-K-017", sectionId="knowledge",
     titleTh="กู้ชีพเด็กโดยการกดหัวใจ",
@@ -800,7 +797,7 @@ add(lessonId="MCH68-K-017", sectionId="knowledge",
         "PMH resuscitation committee to confirm the lay-rescuer ratios as printed",
         "Availability of hands-on CPR classes for parents",
     ],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 add(lessonId="MCH68-K-018", sectionId="knowledge",
     titleTh="ปฐมพยาบาลเมื่อลูกชักจากไข้สูง",
@@ -823,7 +820,7 @@ add(lessonId="MCH68-K-018", sectionId="knowledge",
         "Antipyretic dose is not in the handbook — direct parents to the label / pharmacist / doctor; do not add a dose without paediatric sign-off",
         "Where to bring the child after a seizure at PMH",
     ],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 add(lessonId="MCH68-K-019", sectionId="knowledge",
     titleTh="อาการที่ต้องพาทารกไปพบแพทย์",
@@ -846,7 +843,7 @@ add(lessonId="MCH68-K-019", sectionId="knowledge",
         "PMH paediatric OPD hours vs ER after hours, and phone numbers",
         "'ตัวเหลืองมากขึ้น' is the only jaundice guidance — any further explanation would be a PMH addition",
     ],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 # ---------------------------------------------------------------- childhealth
 add(lessonId="MCH68-CH-001", sectionId="childhealth",
@@ -861,7 +858,6 @@ add(lessonId="MCH68-CH-001", sectionId="childhealth",
     interactivity=[
         "postpartum day timeline (day 0-42) with the 3 visit windows",
         "scenario quiz on the 6 danger signs (e.g. 'lochia still red after 2 weeks')",
-        "PMH contact card",
     ],
     videoTreatment="60 s animation for mother and family",
     audience=MF, clinicalRisk="high",
@@ -871,7 +867,7 @@ add(lessonId="MCH68-CH-001", sectionId="childhealth",
         "Contraception advice is listed but the handbook gives no content — PMH to supply approved content or refer to its family-planning service",
         "Emergency route for postpartum haemorrhage",
     ],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 add(lessonId="MCH68-CH-002", sectionId="childhealth",
     titleTh="ลูกแรกเกิดได้รับการตรวจคัดกรองอะไรบ้าง",
@@ -940,7 +936,7 @@ add(lessonId="MCH68-CH-004", sectionId="childhealth",
         "Which p39 vaccines are EPI (free) vs optional: PCV and influenza appear at the top of p39 above MMR/JE, before the 'วัคซีนเสริมอื่นๆ (Optional vaccine)' box — confirm national status",
         "HPV (ป.5 girls) and dT at 12 years are school-age — confirm who delivers them",
     ],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 add(lessonId="MCH68-CH-005", sectionId="childhealth",
     titleTh="วัคซีนเสริม (ทางเลือก)",
@@ -962,7 +958,7 @@ add(lessonId="MCH68-CH-005", sectionId="childhealth",
         "COVID-19 inset has a stray ')' and may be out of date — verify",
         "'Lived attenuated' (JE) typo as printed — use correct wording in-app",
     ],
-    priority="P3", release="R3")
+    priority="P3", release="R3", status="DRAFT")
 
 add(lessonId="MCH68-CH-006", sectionId="childhealth",
     titleTh="ก่อนและหลังพาลูกไปรับวัคซีน",
@@ -1056,7 +1052,7 @@ add(lessonId="MCH68-GROW-002", sectionId="growth",
         "Section 4 (weight-for-height) prints no SD cut-offs; p44/p50 show +3/+2/+1.5/−1.5/−2 SD lines — confirm the mapping",
         "What PMH wants families to do for each band (handbook only says e.g. 'ต้องดูกราฟน้ำหนักตามเกณฑ์ส่วนสูงเพิ่ม', 'ควรเสริมอาหาร')",
     ],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 add(lessonId="MCH68-GROW-003", sectionId="growth",
     titleTh="เส้นรอบศีรษะและกระหม่อมของลูก",
@@ -1078,7 +1074,7 @@ add(lessonId="MCH68-GROW-003", sectionId="growth",
         "Referral criterion changed from >P90 / <P10 (1st printing) to the 85th / 15th trend — confirm",
         "Footnote on p46-47 is truncated ('ข้อม')",
     ],
-    priority="P3", release="R3")
+    priority="P3", release="R3", status="DRAFT")
 
 add(lessonId="MCH68-GROW-004", sectionId="growth",
     titleTh="บันทึกกราฟการเจริญเติบโตของลูกในสมุด (ชาย/หญิง)",
@@ -1192,7 +1188,7 @@ add(lessonId="MCH68-GROW-008", sectionId="growth",
         "Product, amount per dose and where to obtain it are not printed — PMH must supply or say 'as dispensed by PMH'",
         "Storage and side effects are not in the handbook",
     ],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 # ---------------------------------------------------------------- dev
 add(lessonId="MCH68-DEV-001", sectionId="dev",
@@ -1350,7 +1346,7 @@ add(lessonId="MCH68-DENT-002", sectionId="dental",
         "Drinking-water fluoride level in Phimai (relevant to the p64 note on 1,400-1,500 ppm) — PMH dental team",
         "p64 tells staff to use 1,500 ppm for under-6s at orange/red risk — family messaging must defer to dental staff",
     ],
-    priority="P2", release="R2")
+    priority="P2", release="R2", status="DRAFT")
 
 add(lessonId="MCH68-DENT-003", sectionId="dental",
     titleTh="พฤติกรรมเสี่ยงฟันผุในเด็ก: ทำไมทันตบุคลากรถามเรื่องนมและขนม",

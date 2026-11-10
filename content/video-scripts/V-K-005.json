@@ -1,0 +1,200 @@
+{
+  "id": "V-K-005",
+  "lessonId": "MCH68-K-005",
+  "version": "0.1.0",
+  "title": "อาการผิดปกติที่แม่ท้องต้องมาโรงพยาบาลทันที",
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      15,
+      26
+    ],
+    "printedPages": [
+      "13",
+      "24"
+    ],
+    "note": "Narration derived from lesson MCH68-K-005 v0.1.0"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "high",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-K-005 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of จุกแน่นยอดอก, ตาพร่ามัว, หัวหน่าว, ปวดหน่วง, บุ๋ม, 'น้ำใส ๆ' (repetition mark), ครรภ์เป็นพิษ, หน้ายี่สิบสี่.",
+      "All 7 signs are spoken in full exactly as printed on p26 (printed 24). Item 3's on-screen text is shortened to fit; its speak/caption segment says the full printed sign. Item 7's on-screen text shows the printed sign only; its segment speaks and captions the printed action ('ให้ใส่ผ้าอนามัยไว้ แล้วรีบมาโรงพยาบาล') in full.",
+      "HANDBOOK ISSUE (from lesson): p15 (printed 13) says fewer than 3 movements per hour → 'แนะนำให้พบแพทย์', while p26 lists 'เด็กดิ้นน้อยลง หรือไม่ดิ้น' under 'ต้องมาโรงพยาบาลทันที'. The video uses only the p26 list it is teaching and leaves the p15 counting rule out. Obstetrician to harmonise.",
+      "Summary point 2 on-screen text 'เวียนศีรษะ ตาพร่า ขาบวม อาจเกิดจากครรภ์เป็นพิษ' omits 'ภาวะ' to fit (2 lines); the narration says the full printed tip. Item 3 on-screen text is a 2-line near-verbatim form (only 'ปวด' before 'หน่วง' and 'และ' dropped); the narration says the full printed sign.",
+      "Summary point 3 and the 'ดูรายการทั้งหมดได้ในสมุดหน้า 24' pointer are app framing from the lesson's family note and takeaways (already listed in the lesson reviewNotes).",
+      "The app does not triage: the narration only repeats the printed signs and the printed action."
+    ]
+  },
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3",
+    "stability": 0.5,
+    "style": 0,
+    "speed": 0.95,
+    "seed": 1234
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "kind": "title",
+      "heading": "ต้องมาโรงพยาบาลทันที",
+      "subheading": "จากสมุดบันทึกสุขภาพแม่และเด็ก ฉบับปรับปรุงใหม่ พ.ศ. 2568",
+      "chips": [
+        "7 อาการ",
+        "น้ำใส ๆ ไหล",
+        "ครรภ์เป็นพิษ"
+      ],
+      "segments": [
+        {
+          "speak": "สมุดบันทึกสุขภาพแม่และเด็ก บอกอาการผิดปกติที่แม่ท้อง ต้องมาโรงพยาบาลทันที ไว้เจ็ดอาการ",
+          "caption": "สมุดบันทึกสุขภาพแม่และเด็ก บอกอาการผิดปกติที่แม่ท้อง ต้องมาโรงพยาบาลทันที ไว้ 7 อาการ"
+        },
+        {
+          "speak": "ถ้ามีอาการใดอาการหนึ่ง ต้องมาโรงพยาบาลทันที",
+          "caption": "ถ้ามีอาการใดอาการหนึ่ง ต้องมาโรงพยาบาลทันที"
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "kind": "stage",
+      "stage": 1,
+      "label": "ศีรษะ ปัสสาวะ หลัง และเท้า",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 1,
+          "icon": "warning",
+          "text": "ปวดศีรษะมาก ตาพร่ามัว จุกแน่นยอดอก"
+        },
+        {
+          "n": 2,
+          "icon": "warning",
+          "text": "ปัสสาวะแสบขัดหรือปัสสาวะลำบาก"
+        },
+        {
+          "n": 3,
+          "icon": "warning",
+          "text": "เจ็บหลังร้าวถึงท้องน้อย หัวหน่าว หน่วงคล้ายปวดอุจจาระ"
+        },
+        {
+          "n": 4,
+          "icon": "warning",
+          "text": "เท้าบวม กดแล้วบุ๋ม"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่หนึ่ง อาการที่ศีรษะ ปัสสาวะ หลัง และเท้า",
+          "caption": "ตอนที่ 1 อาการที่ศีรษะ ปัสสาวะ หลัง และเท้า"
+        },
+        {
+          "reveal": 1,
+          "speak": "ข้อหนึ่ง ปวดศีรษะมาก ตาพร่ามัว จุกแน่นยอดอก",
+          "caption": "ข้อ 1 ปวดศีรษะมาก ตาพร่ามัว จุกแน่นยอดอก"
+        },
+        {
+          "reveal": 2,
+          "speak": "ข้อสอง ปัสสาวะแสบขัด หรือปัสสาวะลำบาก",
+          "caption": "ข้อ 2 ปัสสาวะแสบขัด หรือปัสสาวะลำบาก"
+        },
+        {
+          "reveal": 3,
+          "speak": "ข้อสาม เจ็บที่หลัง แล้วปวดร้าวมาถึงบริเวณท้องน้อยและหัวหน่าว ปวดหน่วงคล้ายปวดอุจจาระ",
+          "caption": "ข้อ 3 เจ็บที่หลัง แล้วปวดร้าวมาถึงบริเวณท้องน้อยและหัวหน่าว ปวดหน่วงคล้ายปวดอุจจาระ"
+        },
+        {
+          "reveal": 4,
+          "speak": "ข้อสี่ เท้าบวม กดแล้วบุ๋ม",
+          "caption": "ข้อ 4 เท้าบวม กดแล้วบุ๋ม"
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "kind": "stage",
+      "stage": 2,
+      "label": "ลูกในท้องและช่องคลอด",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 5,
+          "icon": "warning",
+          "text": "เด็กดิ้นน้อยลง หรือไม่ดิ้น"
+        },
+        {
+          "n": 6,
+          "icon": "warning",
+          "text": "เลือดออกจากช่องคลอด"
+        },
+        {
+          "n": 7,
+          "icon": "warning",
+          "text": "มีน้ำใส ๆ ไหลจากช่องคลอด"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สอง อาการเรื่องลูกในท้อง และช่องคลอด",
+          "caption": "ตอนที่ 2 อาการเรื่องลูกในท้อง และช่องคลอด"
+        },
+        {
+          "reveal": 5,
+          "speak": "ข้อห้า เด็กดิ้นน้อยลง หรือไม่ดิ้น",
+          "caption": "ข้อ 5 เด็กดิ้นน้อยลง หรือไม่ดิ้น"
+        },
+        {
+          "reveal": 6,
+          "speak": "ข้อหก เลือดออกจากช่องคลอด",
+          "caption": "ข้อ 6 เลือดออกจากช่องคลอด"
+        },
+        {
+          "reveal": 7,
+          "speak": "ข้อเจ็ด มีน้ำใส ๆ ไหลจากช่องคลอด ให้ใส่ผ้าอนามัยไว้ แล้วรีบมาโรงพยาบาล",
+          "caption": "ข้อ 7 มีน้ำใส ๆ ไหลจากช่องคลอด ให้ใส่ผ้าอนามัยไว้ แล้วรีบมาโรงพยาบาล"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "kind": "summary",
+      "heading": "จำไว้ 3 เรื่อง",
+      "points": [
+        "7 อาการนี้ ต้องมาโรงพยาบาลทันที",
+        "เวียนศีรษะ ตาพร่า ขาบวม อาจเกิดจากครรภ์เป็นพิษ",
+        "ครอบครัวช่วยพามาโรงพยาบาลทันที"
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "สรุปเรื่องสำคัญ",
+          "caption": "สรุปเรื่องสำคัญ"
+        },
+        {
+          "speak": "เจ็ดอาการนี้ ต้องมาโรงพยาบาลทันที ดูรายการทั้งหมดได้ในสมุดหน้ายี่สิบสี่",
+          "caption": "7 อาการนี้ ต้องมาโรงพยาบาลทันที ดูรายการทั้งหมดได้ในสมุดหน้า 24",
+          "reveal": 1
+        },
+        {
+          "speak": "เวียนศีรษะ ตาพร่า ขาบวม อาจเกิดจากภาวะครรภ์เป็นพิษ",
+          "caption": "เวียนศีรษะ ตาพร่า ขาบวม อาจเกิดจากภาวะครรภ์เป็นพิษ",
+          "reveal": 2
+        },
+        {
+          "speak": "ถ้าคุณแม่มีอาการใดอาการหนึ่ง คนในครอบครัวช่วยพาคุณแม่มาโรงพยาบาลทันที",
+          "caption": "ถ้าคุณแม่มีอาการใดอาการหนึ่ง คนในครอบครัวช่วยพาคุณแม่มาโรงพยาบาลทันที",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

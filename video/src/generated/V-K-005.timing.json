@@ -1,0 +1,147 @@
+{
+  "id": "V-K-005",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 2452,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 400,
+      "segments": [
+        {
+          "file": "audio/V-K-005/intro-1-78dc3c755e.wav",
+          "from": 18,
+          "durationInFrames": 233,
+          "caption": "สมุดบันทึกสุขภาพแม่และเด็ก บอกอาการผิดปกติที่แม่ท้อง ต้องมาโรงพยาบาลทันที ไว้ 7 อาการ",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-K-005/intro-2-d83c508696.wav",
+          "from": 265,
+          "durationInFrames": 108,
+          "caption": "ถ้ามีอาการใดอาการหนึ่ง ต้องมาโรงพยาบาลทันที",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 400,
+      "durationInFrames": 792,
+      "segments": [
+        {
+          "file": "audio/V-K-005/stage1-1-4b51151a07.wav",
+          "from": 18,
+          "durationInFrames": 143,
+          "caption": "ตอนที่ 1 อาการที่ศีรษะ ปัสสาวะ หลัง และเท้า",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-005/stage1-2-dda91128f9.wav",
+          "from": 175,
+          "durationInFrames": 142,
+          "caption": "ข้อ 1 ปวดศีรษะมาก ตาพร่ามัว จุกแน่นยอดอก",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-005/stage1-3-b31bbc25f5.wav",
+          "from": 331,
+          "durationInFrames": 108,
+          "caption": "ข้อ 2 ปัสสาวะแสบขัด หรือปัสสาวะลำบาก",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-K-005/stage1-4-829ece84b7.wav",
+          "from": 453,
+          "durationInFrames": 214,
+          "caption": "ข้อ 3 เจ็บที่หลัง แล้วปวดร้าวมาถึงบริเวณท้องน้อยและหัวหน่าว ปวดหน่วงคล้ายปวดอุจจาระ",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-K-005/stage1-5-1ec6b67d53.wav",
+          "from": 681,
+          "durationInFrames": 84,
+          "caption": "ข้อ 4 เท้าบวม กดแล้วบุ๋ม",
+          "reveal": 4
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1192,
+      "durationInFrames": 588,
+      "segments": [
+        {
+          "file": "audio/V-K-005/stage2-1-d115578536.wav",
+          "from": 18,
+          "durationInFrames": 125,
+          "caption": "ตอนที่ 2 อาการเรื่องลูกในท้อง และช่องคลอด",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-005/stage2-2-b017dd83b8.wav",
+          "from": 157,
+          "durationInFrames": 103,
+          "caption": "ข้อ 5 เด็กดิ้นน้อยลง หรือไม่ดิ้น",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-K-005/stage2-3-16543b3d2c.wav",
+          "from": 274,
+          "durationInFrames": 74,
+          "caption": "ข้อ 6 เลือดออกจากช่องคลอด",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-K-005/stage2-4-f11ce4e62e.wav",
+          "from": 362,
+          "durationInFrames": 199,
+          "caption": "ข้อ 7 มีน้ำใส ๆ ไหลจากช่องคลอด ให้ใส่ผ้าอนามัยไว้ แล้วรีบมาโรงพยาบาล",
+          "reveal": 7
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 1780,
+      "durationInFrames": 672,
+      "segments": [
+        {
+          "file": "audio/V-K-005/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-005/summary-2-ef1eb83ace.wav",
+          "from": 78,
+          "durationInFrames": 199,
+          "caption": "7 อาการนี้ ต้องมาโรงพยาบาลทันที ดูรายการทั้งหมดได้ในสมุดหน้า 24",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-005/summary-3-462f56eedb.wav",
+          "from": 291,
+          "durationInFrames": 158,
+          "caption": "เวียนศีรษะ ตาพร่า ขาบวม อาจเกิดจากภาวะครรภ์เป็นพิษ",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-K-005/summary-4-2829e689d5.wav",
+          "from": 463,
+          "durationInFrames": 182,
+          "caption": "ถ้าคุณแม่มีอาการใดอาการหนึ่ง คนในครอบครัวช่วยพาคุณแม่มาโรงพยาบาลทันที",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

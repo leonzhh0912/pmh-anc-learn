@@ -74,6 +74,7 @@ Read this first at the start of every working session. Add a dated entry at the 
 | 4 | ~~Production narration voice~~ **Decided 2026-11-09:** ElevenLabs only, `eleven_v3`, voice `MYZYcGOqrkYQcwDunXl7` | developer | Still needed per video: Thai-speaking PMH reviewer approves pronunciation. For handover, PMH needs its own ElevenLabs subscription with the same voice (docs/VOICE.md) |
 | 5 | Staging hosting and access control | PMH IT | See DEPLOYMENT.md |
 | 6 | Medical reviewers and their capacity per month | PMH | Sets the real pace of Phase 2 |
+| 7 | ~~Local contacts and extra clinical detail for high-risk lessons~~ **Decided 2026-11-10 by the PMH director (in line with MOPH):** the app digitises the handbook and adds no information | developer | Where the handbook is silent (local phone numbers, routes, doses, products), the app is silent. Only numbers printed in the handbook (e.g. 1669) appear. CLAUDE.md rule 8. docs/PMH-INPUT-NEEDED.md withdrawn |
 
 ## Next steps checklist
 
@@ -82,7 +83,7 @@ Read this first at the start of every working session. Add a dated entry at the 
 - [ ] Collect staff feedback (note it in this file)
 - [ ] Get decisions 1–6 above, or at least named owners
 - [ ] Identify medical and Thai-language reviewers. Review `MCH68-OVR-001` and `V-OVR-001` with them
-- [ ] Ask for PMH-specific local info: where to go for danger signs, phone numbers, ANC schedule, Parenting School times
+- [x] ~~Ask for PMH-specific local info~~ not needed: book-only scope (decision 7)
 - [ ] Get the Smart ANC presentation and record what it requires
 - [x] Create private GitHub repo and push (leonzhh0912/pmh-anc-learn)
 - [ ] Add a PMH staff collaborator; agree how and when the repo is transferred to PMH
@@ -173,6 +174,47 @@ Read this first at the start of every working session. Add a dated entry at the 
   timed out while the Mac was busy). Tests: 92/92 passing (39 lesson walk-throughs on phone and desktop).
 
 ### Next
-- PMH: answer docs/PMH-INPUT-NEEDED.md, then the 19 high-risk lessons can be written.
+- ~~PMH: answer docs/PMH-INPUT-NEEDED.md~~ withdrawn in session 5 (book-only scope).
 - PMH reviewers: work through docs/REVIEW-PACK.md (39 lessons, 39 videos).
 - Media is 244 MB in Git; move MP4s to Git LFS or a CDN before the library grows further.
+
+## Session 5 — 2026-11-10 (book-only scope, high-risk lessons)
+
+### Decided
+- **Book-only scope** (PMH director, in line with MOPH): the app digitises the handbook and adds no information.
+  No local phone numbers, routes, doses or products unless printed (e.g. 1669). CLAUDE.md rule 8; decision 7
+  above. docs/PMH-INPUT-NEEDED.md withdrawn; the curriculum's local-information requests are kept only as history.
+
+### Done and verified
+- **All 58 lessons are now drafted** (DRAFT, awaiting clinical sign-off). The 19 high-risk lessons were written from
+  the handbook alone: ANC-002, REC-003, REC-004, ASSESS-001, ASSESS-002, K-003, K-005, K-010, K-016, K-017,
+  K-018, K-019, CH-001, CH-004, CH-005, GROW-002, GROW-003, GROW-008, DENT-002.
+  - Danger signs verbatim, in printed count and order, with the printed action. Quizzes test recall only: no
+    question or feedback says a symptom can wait or is normal.
+  - Screening tools (ST-5, 2Q plus, EPDS): no items, scores or cut-offs and no self-scoring; the lessons explain
+    what the pages are for.
+  - No doses or products (iron, iodine, folic acid, child iron syrup, antipyretics): none are printed.
+  - First aid and CPR: steps in printed order, every number as printed, no technique drawings.
+  - Stool colour: described as printed ("ซีด"), no swatches or colour names (none are printed).
+  - Unreadable text on p45 (two rows printed on top of each other) is left out and flagged.
+- **Independent fact-check** of every new lesson and script against the 2nd-printing page images (a second agent
+  per batch, without the author's notes). All numbers, ages, windows, ratios and correct answers matched; wording
+  problems it found were fixed (an unprinted stool-colour sentence removed, speak/caption mismatches aligned,
+  unprinted inferences removed or listed in reviewNotes, the reduced-fetal-movement quiz now quotes both p13 and p24).
+- **19 videos** narrated with the ElevenLabs voice (17,681 characters ≈ US$1.4 of plan allowance) and attached.
+
+### Handbook issues found in this round (also in each lesson's reviewNotes)
+- p15 vs p26: fewer than 3 movements/hour → "แนะนำให้พบแพทย์" (p15) but reduced movements are under
+  "ต้องมาโรงพยาบาลทันที" (p26). Both are quoted with their page.
+- p45: the meanings of the "ตามเกณฑ์" and "น้อย" rows (weight-for-age) are overprinted and unreadable.
+- p46–47: chart footnote truncated ("ข้อม :"). p39: "Lived attenuated"; stray ")" in the COVID-19 box (p40).
+- p7: "ap หรือ aP"; Tdap defined as "ไร้เซลล์แบบ cellular"; footnote 2 says influenza timing is being adjusted.
+- p32: heel of hand for infant chest thrusts (choking) vs 2 fingers (CPR) on the same page; exactly-1-year-olds
+  not covered; age scope of "ห้าม!! … ใช้นิ้วล้วง" not stated.
+- p33 vs p35: "ไข้ ซึม" as one sign vs fever alone under 1 month → doctor "ทันที".
+- p66: "เท่าเมล็ดข้าวโพด" for both under-3 and 3–6; p66 1,500 ppm for 6+ vs p64 "under dental advice".
+- p67 says "วิตามินเสริม (เหล็ก/โฟลิก)" without iodine; p23–25 say iron, iodine and folic acid.
+
+### Next
+- PMH reviewers: docs/REVIEW-PACK.md now covers all 58 lessons and videos.
+- Media size keeps growing (58 videos); move MP4s to Git LFS or a CDN.

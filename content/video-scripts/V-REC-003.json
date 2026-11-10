@@ -1,0 +1,216 @@
+{
+  "id": "V-REC-003",
+  "lessonId": "MCH68-REC-003",
+  "version": "0.1.0",
+  "title": "การนับลูกดิ้น",
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      2,
+      15,
+      26
+    ],
+    "printedPages": [
+      "13",
+      "24"
+    ],
+    "note": "Narration derived from lesson MCH68-REC-003 v0.1.0"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "high",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-REC-003 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of สุขภาวะ, ความตระหนัก, 'ยี่สิบแปดสัปดาห์', 'หน้าสิบสาม', 'หน้ายี่สิบสี่', ตรวจประเมิน.",
+      "Lesson HANDBOOK ISSUE (p15 'แนะนำให้พบแพทย์' vs p26 'ต้องมาโรงพยาบาลทันที'): both are central, so both are narrated, each with its own page (items 7 and 8, summary points 3 and 4), word for word and without ranking. Obstetrician / ANC nurse to decide whether one instruction should be shown before release.",
+      "Item 8 and summary point 4 shorten the p26 wording on screen only (โรงพยาบาล → 'รพ.', 'ดิ้นน้อยลง/ไม่ดิ้น'); their speak/caption say the full printed sign and action ('เด็กดิ้นน้อยลง หรือไม่ดิ้น' ... 'ต้องมาโรงพยาบาลทันที'). Summary points 3–4 are 34 and 39 characters (brief target 34) to keep the printed meaning.",
+      "Lesson note: 28 weeks is the 2nd-printing value (the 1st printing said 32 weeks).",
+      "Not narrated: the example row counts (5 / 3 / 6), the other 6 danger signs on p26, the family note."
+    ]
+  },
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3",
+    "stability": 0.5,
+    "style": 0,
+    "speed": 0.95,
+    "seed": 1234
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "kind": "title",
+      "heading": "การนับลูกดิ้น",
+      "subheading": "จากสมุดบันทึกสุขภาพแม่และเด็ก ฉบับปรับปรุงใหม่ พ.ศ. 2568",
+      "chips": [
+        "28 สัปดาห์ขึ้นไป",
+        "หลังอาหาร",
+        "ครั้งละ 1 ชั่วโมง"
+      ],
+      "segments": [
+        {
+          "speak": "สมุดบันทึกสุขภาพแม่และเด็ก หน้าสิบสาม แนะนำให้หญิงตั้งครรภ์ นับจำนวนครั้งที่ทารกดิ้น",
+          "caption": "สมุดบันทึกสุขภาพแม่และเด็ก หน้า 13 แนะนำให้หญิงตั้งครรภ์นับจำนวนครั้งที่ทารกดิ้น"
+        },
+        {
+          "speak": "การนับลูกดิ้น เป็นการเพิ่มความตระหนัก ต่อสุขภาวะของทารก",
+          "caption": "การนับลูกดิ้น เป็นการเพิ่มความตระหนักต่อสุขภาวะของทารก"
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "kind": "stage",
+      "stage": 1,
+      "label": "นับอย่างไร",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 1,
+          "icon": "calendar",
+          "text": "เริ่มอายุครรภ์ 28 สัปดาห์ จนกระทั่งคลอด"
+        },
+        {
+          "n": 2,
+          "icon": "check",
+          "text": "ควรปฏิบัติทุกวัน"
+        },
+        {
+          "n": 3,
+          "icon": "food",
+          "text": "หลังอาหาร 3 มื้อ เช้า เที่ยง เย็น"
+        },
+        {
+          "n": 4,
+          "icon": "clock",
+          "text": "นับครั้งละ 1 ชั่วโมง"
+        },
+        {
+          "n": 5,
+          "icon": "handbook",
+          "text": "ขีดนับลงตารางในสมุดหน้า 13"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่หนึ่ง นับอย่างไร",
+          "caption": "ตอนที่ 1 นับอย่างไร"
+        },
+        {
+          "reveal": 1,
+          "speak": "เริ่มนับตั้งแต่อายุครรภ์ ยี่สิบแปดสัปดาห์ จนกระทั่งคลอด",
+          "caption": "เริ่มนับตั้งแต่อายุครรภ์ 28 สัปดาห์ จนกระทั่งคลอด"
+        },
+        {
+          "reveal": 2,
+          "speak": "และควรปฏิบัติทุกวัน",
+          "caption": "และควรปฏิบัติทุกวัน"
+        },
+        {
+          "reveal": 3,
+          "speak": "นับหลังมื้ออาหาร สามมื้อ เช้า เที่ยง เย็น",
+          "caption": "นับหลังมื้ออาหาร 3 มื้อ เช้า เที่ยง เย็น"
+        },
+        {
+          "reveal": 4,
+          "speak": "นับครั้งละหนึ่งชั่วโมง",
+          "caption": "นับครั้งละ 1 ชั่วโมง"
+        },
+        {
+          "reveal": 5,
+          "speak": "แล้วขีดจำนวนครั้ง ลงตารางในสมุดหน้าสิบสาม",
+          "caption": "แล้วขีดจำนวนครั้งลงตารางในสมุดหน้า 13"
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "kind": "stage",
+      "stage": 2,
+      "label": "สมุดเขียนไว้ว่า",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 6,
+          "icon": "baby",
+          "text": "อย่างน้อยลูกต้องดิ้น 3 ครั้ง"
+        },
+        {
+          "n": 7,
+          "icon": "warning",
+          "text": "น้อยกว่า 3 ครั้ง/ชั่วโมง แนะนำให้พบแพทย์"
+        },
+        {
+          "n": 8,
+          "icon": "warning",
+          "text": "เด็กดิ้นน้อยลง หรือไม่ดิ้น: มา รพ. ทันที"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สอง สมุดเขียนไว้ว่าอย่างไร",
+          "caption": "ตอนที่ 2 สมุดเขียนไว้ว่าอย่างไร"
+        },
+        {
+          "reveal": 6,
+          "speak": "ข้อความที่ขอบสมุดหน้าสิบสามเขียนว่า อย่างน้อยลูกต้องดิ้นสามครั้ง",
+          "caption": "ข้อความที่ขอบสมุดหน้า 13 เขียนว่า อย่างน้อยลูกต้องดิ้น 3 ครั้ง"
+        },
+        {
+          "reveal": 7,
+          "speak": "หน้าสิบสาม ถ้าน้อยกว่าสามครั้งต่อชั่วโมง แนะนำให้พบแพทย์ เพื่อตรวจประเมินสุขภาพของทารกในครรภ์",
+          "caption": "หน้า 13: ถ้าน้อยกว่า 3 ครั้งต่อชั่วโมง แนะนำให้พบแพทย์เพื่อตรวจประเมินสุขภาพของทารกในครรภ์"
+        },
+        {
+          "reveal": 8,
+          "speak": "หน้ายี่สิบสี่ เด็กดิ้นน้อยลง หรือไม่ดิ้น เป็นอาการผิดปกติที่แม่ท้อง ต้องมาโรงพยาบาลทันที",
+          "caption": "หน้า 24: เด็กดิ้นน้อยลง หรือไม่ดิ้น เป็นอาการผิดปกติที่แม่ท้อง ต้องมาโรงพยาบาลทันที"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "kind": "summary",
+      "heading": "จำไว้ 4 เรื่อง",
+      "points": [
+        "28 สัปดาห์ขึ้นไป นับทุกวัน",
+        "หลังอาหาร ครั้งละ 1 ชั่วโมง",
+        "หน้า 13: <3 ครั้ง/ชม. แนะนำพบแพทย์",
+        "หน้า 24: ดิ้นน้อยลง/ไม่ดิ้น มา รพ.ทันที"
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "สรุปเรื่องสำคัญ",
+          "caption": "สรุปเรื่องสำคัญ"
+        },
+        {
+          "reveal": 1,
+          "speak": "ตั้งแต่อายุครรภ์ยี่สิบแปดสัปดาห์ นับลูกดิ้นทุกวัน",
+          "caption": "ตั้งแต่อายุครรภ์ 28 สัปดาห์ นับลูกดิ้นทุกวัน"
+        },
+        {
+          "reveal": 2,
+          "speak": "นับหลังมื้ออาหาร ครั้งละหนึ่งชั่วโมง",
+          "caption": "นับหลังมื้ออาหาร ครั้งละ 1 ชั่วโมง"
+        },
+        {
+          "reveal": 3,
+          "speak": "สมุดหน้าสิบสาม ถ้าน้อยกว่าสามครั้งต่อชั่วโมง แนะนำให้พบแพทย์",
+          "caption": "สมุดหน้า 13 ถ้าน้อยกว่า 3 ครั้งต่อชั่วโมง แนะนำให้พบแพทย์"
+        },
+        {
+          "reveal": 4,
+          "speak": "สมุดหน้ายี่สิบสี่ เด็กดิ้นน้อยลง หรือไม่ดิ้น ต้องมาโรงพยาบาลทันที",
+          "caption": "สมุดหน้า 24 เด็กดิ้นน้อยลง หรือไม่ดิ้น ต้องมาโรงพยาบาลทันที"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "V-K-003",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 2165,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 242,
+      "segments": [
+        {
+          "file": "audio/V-K-003/intro-1-83bb415bf5.wav",
+          "from": 18,
+          "durationInFrames": 197,
+          "caption": "สมุดบันทึกสุขภาพแม่และเด็ก เขียนเรื่องวิตามินเสริม ทั้งก่อนและระหว่างตั้งครรภ์",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 242,
+      "durationInFrames": 395,
+      "segments": [
+        {
+          "file": "audio/V-K-003/stage1-1-db0ffdfeb4.wav",
+          "from": 18,
+          "durationInFrames": 72,
+          "caption": "ช่วงที่ 1 ก่อนตั้งครรภ์",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-003/stage1-2-44550d3461.wav",
+          "from": 104,
+          "durationInFrames": 166,
+          "caption": "หน้าสรุปท้ายสมุด แนะนำให้รับประทานวิตามินเสริม (เหล็ก/โฟลิก)",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-003/stage1-3-15c7036bfc.wav",
+          "from": 284,
+          "durationInFrames": 84,
+          "caption": "เริ่มอย่างน้อย 3 เดือนก่อนตั้งครรภ์",
+          "reveal": 2
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 637,
+      "durationInFrames": 912,
+      "segments": [
+        {
+          "file": "audio/V-K-003/stage2-1-306d86ae5d.wav",
+          "from": 18,
+          "durationInFrames": 74,
+          "caption": "ช่วงที่ 2 ระหว่างตั้งครรภ์",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-003/stage2-2-44d594bcd7.wav",
+          "from": 106,
+          "durationInFrames": 113,
+          "caption": "กินยาเม็ดเสริมธาตุเหล็ก ไอโอดีน และโฟลิก",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-K-003/stage2-3-fb677608e1.wav",
+          "from": 233,
+          "durationInFrames": 67,
+          "caption": "กินทุกวัน ตลอดการตั้งครรภ์",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-K-003/stage2-4-4672b841c6.wav",
+          "from": 314,
+          "durationInFrames": 156,
+          "caption": "ข้อความนี้พิมพ์ไว้ท้ายหน้าธงโภชนาการของทั้ง 3 ไตรมาส",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-K-003/stage2-5-bd7699531b.wav",
+          "from": 484,
+          "durationInFrames": 202,
+          "caption": "ขอบสมุดหน้า 20 เขียนว่า วิตามินเสริมระหว่างฝากครรภ์ ช่วยเสริมสารอาหารที่จำเป็น",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-K-003/stage2-6-0769854df9.wav",
+          "from": 700,
+          "durationInFrames": 185,
+          "caption": "และขอบสมุดหน้า 22 เขียนว่า ธาตุเหล็ก ช่วยป้องกันภาวะซีดในหญิงตั้งครรภ์",
+          "reveal": 7
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 1549,
+      "durationInFrames": 616,
+      "segments": [
+        {
+          "file": "audio/V-K-003/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 41,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-003/summary-2-9f1936e6ac.wav",
+          "from": 73,
+          "durationInFrames": 161,
+          "caption": "กินยาเม็ดเสริมธาตุเหล็ก ไอโอดีน และโฟลิก ทุกวันตลอดการตั้งครรภ์",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-003/summary-3-f45d963bf2.wav",
+          "from": 248,
+          "durationInFrames": 161,
+          "caption": "วิตามินเสริม (เหล็ก/โฟลิก) เริ่มอย่างน้อย 3 เดือนก่อนตั้งครรภ์",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-K-003/summary-4-9852671019.wav",
+          "from": 423,
+          "durationInFrames": 166,
+          "caption": "หากมีข้อสงสัย ปรึกษาแพทย์/บุคลากร ไม่ควรลองผิดลองถูก",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

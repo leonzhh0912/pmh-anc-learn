@@ -1,0 +1,32 @@
+{
+  "id": "V-CH-005",
+  "lessonId": "MCH68-CH-005",
+  "title": "วัคซีนเสริม (ทางเลือก)",
+  "mp4": "media/V-CH-005.mp4",
+  "captionsVtt": "media/V-CH-005.th.vtt",
+  "poster": "media/V-CH-005.jpg",
+  "durationSec": 80.7,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "high",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-CH-005 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'โควิดสิบเก้า', 'สุกใส', 'ตับอักเสบเอ', 'ชนิดเชื้อตาย', 'หกถึงสิบสองเดือน', 'สิบสองถึงสิบห้าเดือน', 'หนึ่งปีครึ่ง ถึงสองปี', 'สามสิบเจ็ด', 'สามสิบแปด'.",
+      "Paediatrician + EPI nurse: every age and interval is copied from the lesson (p39-p40). The curriculum listed this lesson as 'interactive only'; the script was written on request and can be dropped.",
+      "Lesson HANDBOOK ISSUE: the COVID-19 inset has a stray ')' on p39. The video shows and says the text without it.",
+      "Lesson HANDBOOK ISSUE: the Dengue row is on p40 'บันทึกการรับวัคซีน (ต่อ)' without the 'Optional vaccine' heading. The video puts Dengue in its own part 'หน้า 38' and does not call it optional or EPI.",
+      "Lesson HANDBOOK ISSUE: JE 'Lived attenuated' typo — JE is not in this video.",
+      "On-screen item texts 1, 3, 4 and 5 are shortened (interval or dose count left out); the narration and captions say the full printed age and interval.",
+      "No costs, availability or brands are mentioned. Summary point 3 ('ถามแพทย์หรือเจ้าหน้าที่') is the lesson's editorial pointer."
+    ]
+  }
+}
