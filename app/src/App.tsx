@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { createBrowserRouter, Link, Outlet, RouterProvider } from "react-router";
 import { AboutPage } from "./pages/AboutPage";
-import { CurriculumPage } from "./pages/CurriculumPage";
 import { HomePage } from "./pages/HomePage";
 import { LessonPage } from "./pages/LessonPage";
 import { SectionPage } from "./pages/SectionPage";
@@ -72,7 +71,11 @@ const router = createBrowserRouter(
         { path: "/section/:sectionId", element: <SectionPage /> },
         { path: "/lesson/:lessonId", element: <LessonPage /> },
         { path: "/about", element: <AboutPage /> },
-        { path: "/curriculum", element: <CurriculumPage /> },
+        {
+          // staff-only coverage table: loaded on demand so patients never download it
+          path: "/curriculum",
+          lazy: async () => ({ Component: (await import("./pages/CurriculumPage")).CurriculumPage }),
+        },
         { path: "*", element: <HomePage /> },
       ],
     },

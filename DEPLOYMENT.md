@@ -1,7 +1,13 @@
 # Deployment
 
-**Nothing is deployed yet.** No staging or production environment exists, and none should be created
-without PMH approval of hosting, domain and data-protection arrangements.
+**Hosting: GitHub Pages** (decided 2026-11-10), at `https://leonzhh0912.github.io/pmh-anc-learn/`.
+`.github/workflows/deploy.yml` publishes the **production build** on every push to `main`. The production
+build refuses anything not APPROVED/PUBLISHED, so the site goes live only after a PMH reviewer records
+sign-off (`npm run record-approval`, see CONTENT_REVIEW.md). Drafts are never published there.
+
+One-time setup by the repo owner: GitHub → Settings → Pages → Source: **GitHub Actions**.
+(Pages on a private repository needs a paid GitHub plan; otherwise make the repository public or use
+another static host — see below.)
 
 ## Environments
 
@@ -20,7 +26,7 @@ root. The server must fall back to `index.html` for unknown paths (single-page a
 
 Production: `npm run build:production`. It fails if any content is not approved or any video uses draft TTS.
 
-## Hosting options (decision for PMH)
+## Other hosting options
 
 1. **PMH / MOPH server or hospital web hosting.** Data stays with the hospital. Needs IT to host static
    files with HTTPS and SPA fallback.

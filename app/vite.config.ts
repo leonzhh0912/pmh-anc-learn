@@ -25,6 +25,23 @@ export default defineConfig({
         server.watcher.on("unlink", reload);
       },
     },
+    {
+      // Patients only need what the screen shows. In the built app, drop editorial-only
+      // fields (review notes, history, objectives, reviewer names) from lesson and video
+      // JSON; keep editorial.status, which drives the draft banner. The JSON files in
+      // content/ are unchanged and stay the reviewed source.
+      name: "slim-content",
+      apply: "build",
+      enforce: "pre",
+      transform(code, id) {
+        if (!/[\\/]content[\\/](lessons|videos)[\\/][^\\/]+\.json$/.test(id)) return;
+        const d = JSON.parse(code);
+        delete d.history;
+        delete d.objectives;
+        d.editorial = { status: d.editorial.status };
+        return { code: JSON.stringify(d), map: null };
+      },
+    },
     VitePWA({
       registerType: "autoUpdate",
       includeAssets: ["favicon.svg", "icons/*.png"],

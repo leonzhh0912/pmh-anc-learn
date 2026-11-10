@@ -218,3 +218,23 @@ Read this first at the start of every working session. Add a dated entry at the 
 ### Next
 - PMH reviewers: docs/REVIEW-PACK.md now covers all 58 lessons and videos.
 - Media size keeps growing (58 videos); move MP4s to Git LFS or a CDN.
+
+## Session 6 — 2026-11-10 (release readiness and hosting)
+
+- The director reports that the PMH reviewer has reviewed and signed off all content. The sign-off is not yet
+  recorded in the repository: by rule, only the reviewer or content owner records it.
+- **`npm run record-approval`** (app/scripts/record-approval.ts): records reviewer, date and written-approval
+  reference for chosen lessons and their videos (APPROVED, version 1.0.0, history entry), validates, and with
+  `--commit` commits with a message naming the reviewer. Tested: after a trial run, `validate --production`
+  passed for all 58 lessons and 58 videos (trial reverted).
+- **Hosting: GitHub Pages** via `.github/workflows/deploy.yml`, production build only, so nothing is published
+  before approval is recorded. Tested a sub-path build (`/pmh-anc-learn/`) with a Pages-like server: deep links
+  (404.html fallback), video with Thai captions, staff page, service worker and offline deep links on a phone.
+- **Smaller first download**: patients' build no longer contains review notes, history, objectives or reviewer
+  names (content/ files unchanged); the staff coverage page loads on demand. Main JS 345 KB → 224 KB gzipped.
+- Checks: validate 0 errors, tsc (app, video), oxlint clean, check-scripts 58 ok, e2e 130 passed.
+
+### To go live
+1. Repo owner: Settings → Pages → Source: GitHub Actions (private repo needs a paid plan, or make it public).
+2. Reviewer: `npm run record-approval -- --reviewer … --date … --ref … --all --commit`, then push to main.
+3. Publish workflow deploys; tag the release `v1.0.0` (DEPLOYMENT.md).
