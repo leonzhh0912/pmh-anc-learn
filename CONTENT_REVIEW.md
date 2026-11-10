@@ -57,8 +57,19 @@ APPROVED/PUBLISHED without a reviewer name and date fails validation.
    rendered MP4, the handbook page), and sends it to the reviewer.
 2. Reviewer comments in writing (paper or a shared document is fine). Comments go into `reviewNotes`.
 3. Author fixes, bumps `version`, adds a `history` entry.
-4. Reviewer confirms. Author records `medicalReviewer`, `reviewDate`, sets `APPROVED` in a commit whose
-   message names the reviewer. Keep the reviewer's written approval (email/memo) in PMH records.
+4. Reviewer confirms. The reviewer (or PMH content owner) records the sign-off with one command, which
+   sets `APPROVED`, `medicalReviewer`, `reviewDate`, bumps the version, adds a history entry, validates,
+   and commits with a message that names the reviewer:
+
+   ```bash
+   cd app
+   npm run record-approval -- --reviewer "ชื่อ นามสกุล (ตำแหน่ง)" --date 2026-11-10 \
+     --ref "เลขที่บันทึกข้อความ/อีเมลอนุมัติ" --all --commit
+   ```
+
+   Use `--risk high` or lesson ids instead of `--all` when different reviewers signed different lessons;
+   `--dry-run` shows what would change. Push to `main`: the Publish workflow deploys the site.
+   Keep the reviewer's written approval (email/memo) in PMH records.
 
 **Later (Git-based CMS):** reviewers comment and approve via pull requests; merging = approval.
 
