@@ -8,6 +8,11 @@
  * app/public/media/, and writes content/videos/<id>.json with the measured
  * duration and the editorial status copied from the script.
  * "Publish" here means "make available to the app build" — not "approved".
+ *
+ *   --media-only   replace the MP4 and poster only (e.g. re-rendered after approval removed the
+ *                  draft badge); content/videos/<id>.json, with its recorded approval, is kept
+ *   --reopen       allow replacing an APPROVED/PUBLISHED video: its record goes back to the
+ *                  script's editorial state (DRAFT) and it needs review again (CONTENT_REVIEW.md)
  */
 import { execFileSync } from "node:child_process";
 import { copyFileSync, mkdirSync, readFileSync, writeFileSync, existsSync } from "node:fs";
@@ -17,8 +22,21 @@ import { fileURLToPath } from "node:url";
 const here = dirname(fileURLToPath(import.meta.url));
 const videoRoot = resolve(here, "..");
 const repoRoot = resolve(videoRoot, "..");
-const id = process.argv[2];
-if (!id) throw new Error("usage: node scripts/publish.mjs <id>");
+const args = process.argv.slice(2);
+const mediaOnly = args.includes("--media-only");
+const reopen = args.includes("--reopen");
+const id = args.find((a) => !a.startsWith("--"));
+if (!id) throw new Error("usage: node scripts/publish.mjs <id> [--media-only | --reopen]");
+
+const recordPath = join(repoRoot, "content/videos", `${id}.json`);
+const existing = existsSync(recordPath) ? JSON.parse(readFileSync(recordPath, "utf8")) : null;
+const isApproved = ["APPROVED", "PUBLISHED"].includes(existing?.editorial?.status);
+if (isApproved && !mediaOnly && !reopen) {
+  throw new Error(
+    `${id} is ${existing.editorial.status}. Replacing it needs review again: rerun with --reopen ` +
+      `(record goes back to DRAFT; re-render so the draft badge returns), or --media-only for an unchanged re-render.`,
+  );
+}
 
 const script = JSON.parse(readFileSync(join(repoRoot, "content/video-scripts", `${id}.json`), "utf8"));
 const timing = JSON.parse(readFileSync(join(videoRoot, "src/generated", `${id}.timing.json`), "utf8"));
@@ -69,6 +87,13 @@ const meta = {
   voice: timing.voice,
   editorial: script.editorial,
 };
-mkdirSync(join(repoRoot, "content/videos"), { recursive: true });
-writeFileSync(join(repoRoot, "content/videos", `${id}.json`), JSON.stringify(meta, null, 2) + "\n");
-console.log(`published ${id} (${meta.durationSec}s) -> app/public/media, content/videos/${id}.json`);
+if (mediaOnly) {
+  if (!existing) throw new Error(`${id}: --media-only needs an existing content/videos/${id}.json`);
+  if (Math.abs(existing.durationSec - meta.durationSec) > 0.15)
+    throw new Error(`${id}: --media-only but duration changed (${existing.durationSec}s -> ${meta.durationSec}s)`);
+  console.log(`published media for ${id} (${meta.durationSec}s); content/videos/${id}.json kept`);
+} else {
+  mkdirSync(join(repoRoot, "content/videos"), { recursive: true });
+  writeFileSync(recordPath, JSON.stringify(meta, null, 2) + "\n");
+  console.log(`published ${id} (${meta.durationSec}s) -> app/public/media, content/videos/${id}.json`);
+}

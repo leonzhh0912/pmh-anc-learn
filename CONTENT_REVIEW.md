@@ -75,7 +75,10 @@ APPROVED/PUBLISHED without a reviewer name and date fails validation.
 
 ## Changing approved content
 
-Any edit to an APPROVED lesson returns it to `DRAFT` with a new version and history entry. A wording-only
+Any edit to an APPROVED lesson returns it to `DRAFT` with a new version and history entry. For videos, the
+draft badge in the picture follows the approval recorded in `content/videos/<id>.json`: an unchanged
+re-render after approval is published with `node scripts/publish.mjs <id> --media-only`; a changed video
+needs `--reopen` (its record goes back to DRAFT) and is rendered again so the badge returns. A wording-only
 fix still needs a reviewer confirmation. If the Department of Health issues a new handbook printing,
 compare page by page (see how the 1st→2nd printing differences were found in CURRICULUM.md) and send
 every affected lesson back to review.

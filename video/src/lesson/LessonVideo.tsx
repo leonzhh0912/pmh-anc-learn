@@ -24,7 +24,11 @@ const ease = Easing.bezier(0.16, 1, 0.3, 1);
 export const LessonVideo: React.FC<LessonVideoProps> = ({ videoId, burnCaptions }) => {
   const entry = videos.find((v) => v.script.id === videoId);
   if (!entry) throw new Error(`Unknown video ${videoId}`);
-  const { script, timing } = entry;
+  const { script, timing, published } = entry;
+  // The draft badge goes only when a PMH reviewer's approval is recorded on the published video
+  // (npm run record-approval). publish.mjs refuses to overwrite an approved record, so a changed
+  // video must be reopened as DRAFT first and is then rendered with the badge again.
+  const approved = ["APPROVED", "PUBLISHED"].includes(published?.editorial.status ?? "");
 
   return (
     <AbsoluteFill style={{ backgroundColor: theme.paper, fontFamily: FONT_FAMILY, color: theme.ink }}>
@@ -42,7 +46,7 @@ export const LessonVideo: React.FC<LessonVideoProps> = ({ videoId, burnCaptions 
           </Sequence>
         );
       })}
-      <Chrome script={script} />
+      <Chrome script={script} approved={approved} />
     </AbsoluteFill>
   );
 };
@@ -68,7 +72,7 @@ const SceneBody: React.FC<{ scene: ScriptScene; timing: TimingScene; script: Vid
 };
 
 /** Persistent frame: source line and draft status (never hidden on drafts). */
-const Chrome: React.FC<{ script: VideoScript }> = ({ script }) => (
+const Chrome: React.FC<{ script: VideoScript; approved: boolean }> = ({ script, approved }) => (
   <>
     <div
       style={{
@@ -82,7 +86,7 @@ const Chrome: React.FC<{ script: VideoScript }> = ({ script }) => (
     >
       สมุดบันทึกสุขภาพแม่และเด็ก ฉบับปรับปรุงใหม่ พ.ศ. 2568 ({pageText(script.handbookRef.pdfPages)})
     </div>
-    {script.editorial.status !== "APPROVED" && script.editorial.status !== "PUBLISHED" && (
+    {!approved && (
       <div
         style={{
           position: "absolute",

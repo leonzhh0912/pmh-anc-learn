@@ -55,6 +55,10 @@ if (!reviewer) fail('--reviewer "name (role)" is required');
 if (!date || !/^\d{4}-\d{2}-\d{2}$/.test(date) || Number.isNaN(Date.parse(date)))
   fail("--date YYYY-MM-DD is required (the date the reviewer signed)");
 if (!ref) fail('--ref "<written approval reference>" is required (memo / email kept in PMH records)');
+// the example values from the docs must never be recorded as a real approval
+const placeholders = ["ชื่อ นามสกุล", "ตำแหน่ง", "เลขที่หนังสืออนุมัติ", "REAL NAME", "REAL MEMO"];
+for (const [label, value] of [["--reviewer", reviewer], ["--ref", ref]] as const)
+  if (placeholders.some((p) => value.includes(p))) fail(`${label} still contains the example text; type the real value`);
 if (risk && !["low", "medium", "high"].includes(risk)) fail("--risk must be low, medium or high");
 if (!all && !risk && !ids.length) fail("choose lessons: --all, --risk <level>, or lesson ids");
 
