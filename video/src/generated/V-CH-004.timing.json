@@ -1,0 +1,203 @@
+{
+  "id": "V-CH-004",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 3857,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 438,
+      "segments": [
+        {
+          "file": "audio/V-CH-004/intro-1-73e38eff85.wav",
+          "from": 18,
+          "durationInFrames": 257,
+          "caption": "สมุดหน้า 36 มีตารางวัคซีนตามแผนงานสร้างเสริมภูมิคุ้มกันโรคของประเทศไทย ต่อไปถึงส่วนบนของหน้า 37",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-CH-004/intro-2-07122ccce4.wav",
+          "from": 289,
+          "durationInFrames": 122,
+          "caption": "มาดูอายุที่แนะนำของวัคซีนสำคัญ ตามที่พิมพ์ไว้ในสมุด",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 438,
+      "durationInFrames": 1265,
+      "segments": [
+        {
+          "file": "audio/V-CH-004/stage1-1-908766dbc9.wav",
+          "from": 18,
+          "durationInFrames": 101,
+          "caption": "ตอนที่ 1 ตั้งแต่แรกเกิด ถึง 6 เดือน",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-004/stage1-2-8045fd010a.wav",
+          "from": 133,
+          "durationInFrames": 187,
+          "caption": "แรกเกิด มีวัคซีนวัณโรค (BCG) และวัคซีนตับอักเสบบี (HB)",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-CH-004/stage1-3-c021ad98c7.wav",
+          "from": 334,
+          "durationInFrames": 178,
+          "caption": "HBIg ให้เฉพาะที่เกิดจากแม่ติดเชื้อตับอักเสบบี ไม่ใช่เด็กทุกคน",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-CH-004/stage1-4-4a54e60efb.wav",
+          "from": 526,
+          "durationInFrames": 221,
+          "caption": "อายุ 2, 4, 6 เดือน คอตีบ บาดทะยัก ไอกรน ตับอักเสบบี และฮิบ",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-CH-004/stage1-5-23130ad173.wav",
+          "from": 761,
+          "durationInFrames": 259,
+          "caption": "อายุ 2 และ 4 เดือน โปลิโอชนิดฉีด (IPV) และวัคซีนเชื้อนิวโมคอคคัส ชนิดคอนจูเกต (PCV)",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-CH-004/stage1-6-243a91316a.wav",
+          "from": 1034,
+          "durationInFrames": 204,
+          "caption": "วัคซีนโรต้า สมุดพิมพ์ไว้ 2 แบบ คือ 2, 4 เดือน หรือ 2, 4, 6 เดือน",
+          "reveal": 5
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1703,
+      "durationInFrames": 519,
+      "segments": [
+        {
+          "file": "audio/V-CH-004/stage2-1-ef73bc1539.wav",
+          "from": 18,
+          "durationInFrames": 140,
+          "caption": "ตอนที่ 2 หมายเหตุวัคซีนป้องกันท้องเสียจากโรต้า",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-004/stage2-2-2e93258b5d.wav",
+          "from": 172,
+          "durationInFrames": 86,
+          "caption": "ให้ครั้งแรก ไม่เร็วกว่าอายุ 6 สัปดาห์",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-CH-004/stage2-3-d258b92ccb.wav",
+          "from": 272,
+          "durationInFrames": 110,
+          "caption": "ให้ครั้งสุดท้าย ไม่ช้าเกินกว่าอายุ 8 เดือน",
+          "reveal": 7
+        },
+        {
+          "file": "audio/V-CH-004/stage2-4-af24727d90.wav",
+          "from": 396,
+          "durationInFrames": 96,
+          "caption": "และระหว่างโดส ไม่เร็วกว่า 4 สัปดาห์",
+          "reveal": 8
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 2222,
+      "durationInFrames": 1015,
+      "segments": [
+        {
+          "file": "audio/V-CH-004/stage3-1-553f765e77.wav",
+          "from": 18,
+          "durationInFrames": 106,
+          "caption": "ตอนที่ 3 ตั้งแต่ 9 เดือน ถึง 12 ปี",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-004/stage3-2-477330c86c.wav",
+          "from": 138,
+          "durationInFrames": 187,
+          "caption": "หัด-คางทูม-หัดเยอรมัน (MMR) อายุ 9 เดือน และ 18 เดือน (1 ปีครึ่ง)",
+          "reveal": 9
+        },
+        {
+          "file": "audio/V-CH-004/stage3-3-c847555025.wav",
+          "from": 339,
+          "durationInFrames": 182,
+          "caption": "เฉพาะเด็กที่เกิดจากแม่ติดเชื้อไวรัสตับอักเสบบี เจาะเลือดที่อายุ 9-12 เดือน",
+          "reveal": 10
+        },
+        {
+          "file": "audio/V-CH-004/stage3-4-88ee7f245d.wav",
+          "from": 535,
+          "durationInFrames": 127,
+          "caption": "ไข้สมองอักเสบเจอี อายุ 1 ปี และ 2 ปีครึ่ง",
+          "reveal": 11
+        },
+        {
+          "file": "audio/V-CH-004/stage3-5-7c088755a9.wav",
+          "from": 676,
+          "durationInFrames": 166,
+          "caption": "อายุ 4 ปี คอตีบ บาดทะยัก ไอกรน (DTP) และโปลิโอชนิดหยอด (OPV)",
+          "reveal": 12
+        },
+        {
+          "file": "audio/V-CH-004/stage3-6-fe2c49cef4.wav",
+          "from": 856,
+          "durationInFrames": 132,
+          "caption": "อายุ 12 ปี คอตีบ บาดทะยัก เข็มกระตุ้น (dT)",
+          "reveal": 13
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 3237,
+      "durationInFrames": 620,
+      "segments": [
+        {
+          "file": "audio/V-CH-004/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 43,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-004/summary-2-aede53fb85.wav",
+          "from": 75,
+          "durationInFrames": 125,
+          "caption": "ตารางวัคซีนพื้นฐาน อยู่ในสมุดหน้า 36 และ 37",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-CH-004/summary-3-7a9f112135.wav",
+          "from": 214,
+          "durationInFrames": 238,
+          "caption": "วัคซีนโรต้า ให้ครั้งแรกไม่เร็วกว่าอายุ 6 สัปดาห์ และครั้งสุดท้ายไม่ช้าเกินกว่าอายุ 8 เดือน",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-CH-004/summary-4-e508105edf.wav",
+          "from": 466,
+          "durationInFrames": 127,
+          "caption": "ถ้าไม่แน่ใจว่าวัคซีนครั้งต่อไปคืออะไร ถามเจ้าหน้าที่",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

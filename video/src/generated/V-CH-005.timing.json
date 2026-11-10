@@ -1,0 +1,140 @@
+{
+  "id": "V-CH-005",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 2420,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 371,
+      "segments": [
+        {
+          "file": "audio/V-CH-005/intro-1-78a374ea7e.wav",
+          "from": 18,
+          "durationInFrames": 170,
+          "caption": "ส่วนล่างของสมุดหน้า 37 มีกรอบแยกออกมา ชื่อ 'วัคซีนเสริมอื่นๆ (Optional vaccine)'",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-CH-005/intro-2-b383158eeb.wav",
+          "from": 202,
+          "durationInFrames": 142,
+          "caption": "มาดูว่ามีวัคซีนอะไรบ้าง และอายุที่แนะนำตามที่พิมพ์ไว้",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 371,
+      "durationInFrames": 1041,
+      "segments": [
+        {
+          "file": "audio/V-CH-005/stage1-1-9032c0cd4e.wav",
+          "from": 18,
+          "durationInFrames": 119,
+          "caption": "ตอนที่ 1 กรอบวัคซีนเสริมอื่นๆ มี 4 รายการ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-005/stage1-2-e3e63dee19.wav",
+          "from": 151,
+          "durationInFrames": 218,
+          "caption": "มือเท้าปาก ชนิดรุนแรง (Enterovirus 71) 6 เดือนขึ้นไป 2 เข็ม ห่างกันอย่างน้อย 1 เดือน",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-CH-005/stage1-3-0d9d3c6208.wav",
+          "from": 383,
+          "durationInFrames": 154,
+          "caption": "สุกใส (Varicella) 12-15 เดือน และ 1 ปีครึ่ง - 2 ปี",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-CH-005/stage1-4-d502cb12fb.wav",
+          "from": 551,
+          "durationInFrames": 223,
+          "caption": "ตับอักเสบเอ (HAV) ชนิดเชื้อตาย 2 เข็ม ห่างกัน 6-12 เดือน เริ่มที่อายุ 1 ปีขึ้นไป",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-CH-005/stage1-5-ffae57d82d.wav",
+          "from": 788,
+          "durationInFrames": 226,
+          "caption": "วัคซีนป้องกันเชื้อโควิด-19 อายุ 6 เดือนขึ้นไป ระยะห่างเข็มถัดไป 6-12 เดือน",
+          "reveal": 4
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1412,
+      "durationInFrames": 484,
+      "segments": [
+        {
+          "file": "audio/V-CH-005/stage2-1-6b00c01af7.wav",
+          "from": 18,
+          "durationInFrames": 144,
+          "caption": "ตอนที่ 2 หน้า 38 บันทึกการรับวัคซีน (ต่อ)",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-005/stage2-2-9cb64b02e3.wav",
+          "from": 176,
+          "durationInFrames": 154,
+          "caption": "ไข้เลือดออก (Dengue) 4 ปีขึ้นไป 2 เข็ม ห่างกัน 3 เดือนขึ้นไป",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-CH-005/stage2-3-62b500fbcb.wav",
+          "from": 344,
+          "durationInFrames": 113,
+          "caption": "และมีแถว 'อื่น ๆ (ระบุ)' ไว้บันทึกวัคซีนอื่น",
+          "reveal": 6
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 1896,
+      "durationInFrames": 524,
+      "segments": [
+        {
+          "file": "audio/V-CH-005/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-CH-005/summary-2-74bfbdaee7.wav",
+          "from": 78,
+          "durationInFrames": 127,
+          "caption": "วัคซีนเสริมอื่นๆ อยู่ในกรอบแยก ส่วนล่างของสมุดหน้า 37",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-CH-005/summary-3-43a9556d98.wav",
+          "from": 219,
+          "durationInFrames": 146,
+          "caption": "วัคซีนไข้เลือดออก อยู่ในหน้า 38 อายุ 4 ปีขึ้นไป",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-CH-005/summary-4-3d2404f98f.wav",
+          "from": 379,
+          "durationInFrames": 118,
+          "caption": "ถ้ามีคำถามเรื่องวัคซีนเสริม ถามแพทย์หรือเจ้าหน้าที่",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

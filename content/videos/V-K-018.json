@@ -1,0 +1,28 @@
+{
+  "id": "V-K-018",
+  "lessonId": "MCH68-K-018",
+  "title": "ปฐมพยาบาลเมื่อลูกชักจากไข้สูง",
+  "mp4": "media/V-K-018.mp4",
+  "captionsVtt": "media/V-K-018.th.vtt",
+  "poster": "media/V-K-018.jpg",
+  "durationSec": 81,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "high",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-K-018 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of หนึ่งหกหกเก้า (1669, read digit by digit), สำลัก, กระตุก, อุณหภูมิ.",
+      "No antipyretic name, dose or interval is narrated (none is printed). No positioning drawings: item icons are generic (warning, baby, water, clock).",
+      "Item numbers 1–6 in the video match the printed step numbers 1–6 on p33."
+    ]
+  }
+}

@@ -48,8 +48,9 @@ Do NOT add a `video` step (videos are produced separately).
 - objectives: 2–4, start with "ผู้เรียน…", taken from or close to the curriculum entry.
 - handbookRef: edition "MCH-2568", pdfPages, printedPages (strings), note.
 - editorial: status "DRAFT", author "Claude Code (AI draft) for PMH developer", medicalReviewer null,
-  reviewDate null, clinicalRisk from curriculum.json, reviewNotes (see rules 4–5; also copy any
-  pmhClarificationNeeded items that apply).
+  reviewDate null, clinicalRisk from curriculum.json, reviewNotes (see rules 4–5; copy any
+  handbook issues from the curriculum's pmhClarificationNeeded list. Its requests for local PMH details are
+  out of scope: the app adds nothing the handbook does not print, see CLAUDE.md rule 8).
 - history: [{ "version": "0.1.0", "date": "2026-11-09", "author": "Claude Code (AI draft)", "change": "First draft from official handbook PDF p…" }]
 
 ## Files and checks

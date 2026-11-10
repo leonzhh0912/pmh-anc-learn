@@ -1,0 +1,31 @@
+{
+  "id": "V-REC-004",
+  "lessonId": "MCH68-REC-004",
+  "title": "น้ำหนักที่เพิ่มขึ้นขณะตั้งครรภ์ และกราฟ Vallop curve",
+  "mp4": "media/V-REC-004.mp4",
+  "captionsVtt": "media/V-REC-004.th.vtt",
+  "poster": "media/V-REC-004.jpg",
+  "durationSec": 99.5,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "high",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-REC-004 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'บีเอ็มไอ' (BMI), 'วัลลอป เคิร์ฟ' (Vallop curve), 'บี ลบ เอ', 'สิบแปดจุดห้า', 'ยี่สิบสองจุดเก้า', 'ยี่สิบสามจุดศูนย์', 'ยี่สิบสี่จุดเก้า', 'ยี่สิบห้าจุดศูนย์', 'ยกกำลังสอง', ภาวะแทรกซ้อน.",
+      "No chart is drawn and no zone boundary is spoken or shown: zone boundaries are not printed as numbers. Only the printed BMI ranges, formula, (B) - (A), axis meaning and zone names are used.",
+      "The title is said and shown as 'Vallop curve' without the printed superscript ² (lesson HANDBOOK ISSUE: no matching reference note).",
+      "Summary point 4 repeats p67 item 15 (in the lesson); no instruction is given for points in the มาก / น้อย zones because the handbook gives none.",
+      "Summary point 3 (p17 margin tip) is 37 characters on screen; speech says the full tip.",
+      "Not narrated: example BMI values and the quiz example (A = 50, B = 56), zone colours, the family note."
+    ]
+  }
+}

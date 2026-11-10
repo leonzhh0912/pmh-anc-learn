@@ -1,0 +1,161 @@
+{
+  "id": "V-REC-003",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 2600,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 422,
+      "segments": [
+        {
+          "file": "audio/V-REC-003/intro-1-699a2be33b.wav",
+          "from": 18,
+          "durationInFrames": 214,
+          "caption": "สมุดบันทึกสุขภาพแม่และเด็ก หน้า 13 แนะนำให้หญิงตั้งครรภ์นับจำนวนครั้งที่ทารกดิ้น",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-REC-003/intro-2-223644ede0.wav",
+          "from": 246,
+          "durationInFrames": 149,
+          "caption": "การนับลูกดิ้น เป็นการเพิ่มความตระหนักต่อสุขภาวะของทารก",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 422,
+      "durationInFrames": 654,
+      "segments": [
+        {
+          "file": "audio/V-REC-003/stage1-1-505215162f.wav",
+          "from": 18,
+          "durationInFrames": 65,
+          "caption": "ตอนที่ 1 นับอย่างไร",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-REC-003/stage1-2-af94fa554c.wav",
+          "from": 97,
+          "durationInFrames": 113,
+          "caption": "เริ่มนับตั้งแต่อายุครรภ์ 28 สัปดาห์ จนกระทั่งคลอด",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-REC-003/stage1-3-7d78458612.wav",
+          "from": 224,
+          "durationInFrames": 53,
+          "caption": "และควรปฏิบัติทุกวัน",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-REC-003/stage1-4-f68ba9b33a.wav",
+          "from": 291,
+          "durationInFrames": 132,
+          "caption": "นับหลังมื้ออาหาร 3 มื้อ เช้า เที่ยง เย็น",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-REC-003/stage1-5-cacd95a7f7.wav",
+          "from": 437,
+          "durationInFrames": 58,
+          "caption": "นับครั้งละ 1 ชั่วโมง",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-REC-003/stage1-6-447c8449dc.wav",
+          "from": 509,
+          "durationInFrames": 118,
+          "caption": "แล้วขีดจำนวนครั้งลงตารางในสมุดหน้า 13",
+          "reveal": 5
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1076,
+      "durationInFrames": 842,
+      "segments": [
+        {
+          "file": "audio/V-REC-003/stage2-1-65cc29386e.wav",
+          "from": 18,
+          "durationInFrames": 97,
+          "caption": "ตอนที่ 2 สมุดเขียนไว้ว่าอย่างไร",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-REC-003/stage2-2-f69b7cee14.wav",
+          "from": 129,
+          "durationInFrames": 173,
+          "caption": "ข้อความที่ขอบสมุดหน้า 13 เขียนว่า อย่างน้อยลูกต้องดิ้น 3 ครั้ง",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-REC-003/stage2-3-28bc5fde53.wav",
+          "from": 316,
+          "durationInFrames": 245,
+          "caption": "หน้า 13: ถ้าน้อยกว่า 3 ครั้งต่อชั่วโมง แนะนำให้พบแพทย์เพื่อตรวจประเมินสุขภาพของทารกในครรภ์",
+          "reveal": 7
+        },
+        {
+          "file": "audio/V-REC-003/stage2-4-af142932c1.wav",
+          "from": 575,
+          "durationInFrames": 240,
+          "caption": "หน้า 24: เด็กดิ้นน้อยลง หรือไม่ดิ้น เป็นอาการผิดปกติที่แม่ท้อง ต้องมาโรงพยาบาลทันที",
+          "reveal": 8
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 1918,
+      "durationInFrames": 682,
+      "segments": [
+        {
+          "file": "audio/V-REC-003/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-REC-003/summary-2-dbf409abc0.wav",
+          "from": 78,
+          "durationInFrames": 125,
+          "caption": "ตั้งแต่อายุครรภ์ 28 สัปดาห์ นับลูกดิ้นทุกวัน",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-REC-003/summary-3-356280e624.wav",
+          "from": 217,
+          "durationInFrames": 84,
+          "caption": "นับหลังมื้ออาหาร ครั้งละ 1 ชั่วโมง",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-REC-003/summary-4-da3bed653b.wav",
+          "from": 315,
+          "durationInFrames": 144,
+          "caption": "สมุดหน้า 13 ถ้าน้อยกว่า 3 ครั้งต่อชั่วโมง แนะนำให้พบแพทย์",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-REC-003/summary-5-25eaf1b00f.wav",
+          "from": 473,
+          "durationInFrames": 182,
+          "caption": "สมุดหน้า 24 เด็กดิ้นน้อยลง หรือไม่ดิ้น ต้องมาโรงพยาบาลทันที",
+          "reveal": 4
+        }
+      ]
+    }
+  ]
+}

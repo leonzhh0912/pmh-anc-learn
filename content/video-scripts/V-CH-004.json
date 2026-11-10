@@ -1,0 +1,278 @@
+{
+  "id": "V-CH-004",
+  "lessonId": "MCH68-CH-004",
+  "version": "0.1.0",
+  "title": "วัคซีนพื้นฐานของลูก (EPI)",
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      38,
+      39
+    ],
+    "printedPages": [
+      "36",
+      "37"
+    ],
+    "note": "Narration derived from lesson MCH68-CH-004 v0.1.0"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "high",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-CH-004 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'บี ซี จี', 'เอช บี', 'เอช บี ไอ จี', 'ฮิบ', 'พี ซี วี', 'เจอี', 'โรต้า', 'สามสิบหก', 'เก้าถึงสิบสองเดือน', 'สองปีครึ่ง'.",
+      "EPI nurse + paediatrician: every age in the video is copied from the lesson (p38-p39). The video narrates only a selection: not narrated are HB at 1 month (เฉพาะแม่ที่เป็นพาหะ), OPV at 6 and 18 months, DTP at 18 months, the PCV booster at 12-15 months and its * footnote, influenza, HPV and the dT 10-year booster.",
+      "Item 2 shortens 'HBIg เฉพาะที่เกิดจากแม่ติดเชื้อตับอักเสบบี' to fit on screen; the narration says the full wording.",
+      "Item 10 shortens the pink-box text on screen to 'เจาะเลือด 9-12 เดือน (เฉพาะบางคน)'; the narration says 'เฉพาะเด็กที่เกิดจากแม่ติดเชื้อไวรัสตับอักเสบบี เจาะเลือดที่อายุเก้าถึงสิบสองเดือน' as printed. The result fields and advice options in the pink box are not shown (same as the lesson).",
+      "Lesson note: the upper tables of p39 have no heading of their own and are grouped with the EPI table (HANDBOOK ISSUE in the lesson); the title narration repeats that grouping ('ต่อไปถึงส่วนบนของหน้าสามสิบเจ็ด').",
+      "Lesson note: the JE English name is printed 'Lived attenuated'; the video uses only the Thai name 'ไข้สมองอักเสบเจอี'.",
+      "Rota: the video says the book prints two schedules (2, 4 months or 2, 4, 6 months) and does not say which one a child gets (same as the lesson).",
+      "Summary point 3 ('ไม่แน่ใจ ถามเจ้าหน้าที่') is the lesson's editorial pointer."
+    ]
+  },
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3",
+    "stability": 0.5,
+    "style": 0,
+    "speed": 0.95,
+    "seed": 1234
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "kind": "title",
+      "heading": "วัคซีนพื้นฐานของลูก",
+      "subheading": "จากสมุดบันทึกสุขภาพแม่และเด็ก ฉบับปรับปรุงใหม่ พ.ศ. 2568",
+      "chips": [
+        "แรกเกิด – 6 เดือน",
+        "วัคซีนโรต้า",
+        "9 เดือน – 12 ปี"
+      ],
+      "segments": [
+        {
+          "speak": "สมุดหน้าสามสิบหก มีตารางวัคซีนตามแผนงานสร้างเสริมภูมิคุ้มกันโรคของประเทศไทย ต่อไปถึงส่วนบนของหน้าสามสิบเจ็ด",
+          "caption": "สมุดหน้า 36 มีตารางวัคซีนตามแผนงานสร้างเสริมภูมิคุ้มกันโรคของประเทศไทย ต่อไปถึงส่วนบนของหน้า 37"
+        },
+        {
+          "speak": "มาดูอายุที่แนะนำของวัคซีนสำคัญ ตามที่พิมพ์ไว้ในสมุด",
+          "caption": "มาดูอายุที่แนะนำของวัคซีนสำคัญ ตามที่พิมพ์ไว้ในสมุด"
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "kind": "stage",
+      "stage": 1,
+      "label": "แรกเกิด – 6 เดือน",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 1,
+          "icon": "vaccine",
+          "text": "แรกเกิด: วัณโรค (BCG) และตับอักเสบบี"
+        },
+        {
+          "n": 2,
+          "icon": "vaccine",
+          "text": "HBIg: เฉพาะเด็กที่แม่ติดเชื้อตับอักเสบบี"
+        },
+        {
+          "n": 3,
+          "icon": "vaccine",
+          "text": "2, 4, 6 เดือน: DTP - HB - Hib"
+        },
+        {
+          "n": 4,
+          "icon": "vaccine",
+          "text": "2, 4 เดือน: โปลิโอชนิดฉีด (IPV) และ PCV"
+        },
+        {
+          "n": 5,
+          "icon": "vaccine",
+          "text": "โรต้า: 2, 4 เดือน หรือ 2, 4, 6 เดือน"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่หนึ่ง ตั้งแต่แรกเกิด ถึงหกเดือน",
+          "caption": "ตอนที่ 1 ตั้งแต่แรกเกิด ถึง 6 เดือน"
+        },
+        {
+          "reveal": 1,
+          "speak": "แรกเกิด มีวัคซีนวัณโรค หรือ บี ซี จี และวัคซีนตับอักเสบบี",
+          "caption": "แรกเกิด มีวัคซีนวัณโรค (BCG) และวัคซีนตับอักเสบบี (HB)"
+        },
+        {
+          "reveal": 2,
+          "speak": "เอช บี ไอ จี ให้เฉพาะที่เกิดจากแม่ติดเชื้อตับอักเสบบี ไม่ใช่เด็กทุกคน",
+          "caption": "HBIg ให้เฉพาะที่เกิดจากแม่ติดเชื้อตับอักเสบบี ไม่ใช่เด็กทุกคน"
+        },
+        {
+          "reveal": 3,
+          "speak": "อายุสอง สี่ และหกเดือน คอตีบ บาดทะยัก ไอกรน ตับอักเสบบี และฮิบ",
+          "caption": "อายุ 2, 4, 6 เดือน คอตีบ บาดทะยัก ไอกรน ตับอักเสบบี และฮิบ"
+        },
+        {
+          "reveal": 4,
+          "speak": "อายุสอง และสี่เดือน โปลิโอชนิดฉีด และวัคซีนเชื้อนิวโมคอคคัส ชนิดคอนจูเกต หรือ พี ซี วี",
+          "caption": "อายุ 2 และ 4 เดือน โปลิโอชนิดฉีด (IPV) และวัคซีนเชื้อนิวโมคอคคัส ชนิดคอนจูเกต (PCV)"
+        },
+        {
+          "reveal": 5,
+          "speak": "วัคซีนโรต้า สมุดพิมพ์ไว้สองแบบ คือ สอง สี่เดือน หรือ สอง สี่ หกเดือน",
+          "caption": "วัคซีนโรต้า สมุดพิมพ์ไว้ 2 แบบ คือ 2, 4 เดือน หรือ 2, 4, 6 เดือน"
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "kind": "stage",
+      "stage": 2,
+      "label": "หมายเหตุวัคซีนโรต้า",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 6,
+          "icon": "clock",
+          "text": "ครั้งแรก ไม่เร็วกว่าอายุ 6 สัปดาห์"
+        },
+        {
+          "n": 7,
+          "icon": "calendar",
+          "text": "ครั้งสุดท้าย ไม่ช้าเกินกว่าอายุ 8 เดือน"
+        },
+        {
+          "n": 8,
+          "icon": "clock",
+          "text": "ระหว่างโดส ไม่เร็วกว่า 4 สัปดาห์"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สอง หมายเหตุวัคซีนป้องกันท้องเสียจากโรต้า",
+          "caption": "ตอนที่ 2 หมายเหตุวัคซีนป้องกันท้องเสียจากโรต้า"
+        },
+        {
+          "reveal": 6,
+          "speak": "ให้ครั้งแรก ไม่เร็วกว่าอายุหกสัปดาห์",
+          "caption": "ให้ครั้งแรก ไม่เร็วกว่าอายุ 6 สัปดาห์"
+        },
+        {
+          "reveal": 7,
+          "speak": "ให้ครั้งสุดท้าย ไม่ช้าเกินกว่าอายุแปดเดือน",
+          "caption": "ให้ครั้งสุดท้าย ไม่ช้าเกินกว่าอายุ 8 เดือน"
+        },
+        {
+          "reveal": 8,
+          "speak": "และระหว่างโดส ไม่เร็วกว่าสี่สัปดาห์",
+          "caption": "และระหว่างโดส ไม่เร็วกว่า 4 สัปดาห์"
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "kind": "stage",
+      "stage": 3,
+      "label": "9 เดือน – 12 ปี",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 9,
+          "icon": "vaccine",
+          "text": "9 และ 18 เดือน: หัด คางทูม หัดเยอรมัน"
+        },
+        {
+          "n": 10,
+          "icon": "blood",
+          "text": "เจาะเลือด 9-12 เดือน (เฉพาะบางคน)"
+        },
+        {
+          "n": 11,
+          "icon": "vaccine",
+          "text": "1 ปี และ 2 ปีครึ่ง: ไข้สมองอักเสบเจอี"
+        },
+        {
+          "n": 12,
+          "icon": "vaccine",
+          "text": "4 ปี: DTP และโปลิโอชนิดหยอด (OPV)"
+        },
+        {
+          "n": 13,
+          "icon": "vaccine",
+          "text": "12 ปี: คอตีบ บาดทะยัก เข็มกระตุ้น (dT)"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สาม ตั้งแต่เก้าเดือน ถึงสิบสองปี",
+          "caption": "ตอนที่ 3 ตั้งแต่ 9 เดือน ถึง 12 ปี"
+        },
+        {
+          "reveal": 9,
+          "speak": "หัด คางทูม หัดเยอรมัน อายุเก้าเดือน และสิบแปดเดือน หรือหนึ่งปีครึ่ง",
+          "caption": "หัด-คางทูม-หัดเยอรมัน (MMR) อายุ 9 เดือน และ 18 เดือน (1 ปีครึ่ง)"
+        },
+        {
+          "reveal": 10,
+          "speak": "เฉพาะเด็กที่เกิดจากแม่ติดเชื้อไวรัสตับอักเสบบี เจาะเลือดที่อายุเก้าถึงสิบสองเดือน",
+          "caption": "เฉพาะเด็กที่เกิดจากแม่ติดเชื้อไวรัสตับอักเสบบี เจาะเลือดที่อายุ 9-12 เดือน"
+        },
+        {
+          "reveal": 11,
+          "speak": "ไข้สมองอักเสบเจอี อายุหนึ่งปี และสองปีครึ่ง",
+          "caption": "ไข้สมองอักเสบเจอี อายุ 1 ปี และ 2 ปีครึ่ง"
+        },
+        {
+          "reveal": 12,
+          "speak": "อายุสี่ปี คอตีบ บาดทะยัก ไอกรน และโปลิโอชนิดหยอด",
+          "caption": "อายุ 4 ปี คอตีบ บาดทะยัก ไอกรน (DTP) และโปลิโอชนิดหยอด (OPV)"
+        },
+        {
+          "reveal": 13,
+          "speak": "อายุสิบสองปี คอตีบ บาดทะยัก เข็มกระตุ้น",
+          "caption": "อายุ 12 ปี คอตีบ บาดทะยัก เข็มกระตุ้น (dT)"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "kind": "summary",
+      "heading": "จำไว้ 3 เรื่อง",
+      "points": [
+        "ตารางวัคซีนพื้นฐาน: สมุดหน้า 36–37",
+        "โรต้า: เริ่มไม่เร็วกว่า 6 สัปดาห์",
+        "ไม่แน่ใจ ถามเจ้าหน้าที่"
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "สรุปเรื่องสำคัญ",
+          "caption": "สรุปเรื่องสำคัญ"
+        },
+        {
+          "reveal": 1,
+          "speak": "ตารางวัคซีนพื้นฐาน อยู่ในสมุดหน้าสามสิบหก และสามสิบเจ็ด",
+          "caption": "ตารางวัคซีนพื้นฐาน อยู่ในสมุดหน้า 36 และ 37"
+        },
+        {
+          "reveal": 2,
+          "speak": "วัคซีนโรต้า ให้ครั้งแรกไม่เร็วกว่าอายุหกสัปดาห์ และครั้งสุดท้ายไม่ช้าเกินกว่าอายุแปดเดือน",
+          "caption": "วัคซีนโรต้า ให้ครั้งแรกไม่เร็วกว่าอายุ 6 สัปดาห์ และครั้งสุดท้ายไม่ช้าเกินกว่าอายุ 8 เดือน"
+        },
+        {
+          "reveal": 3,
+          "speak": "ถ้าไม่แน่ใจว่าวัคซีนครั้งต่อไปคืออะไร ถามเจ้าหน้าที่",
+          "caption": "ถ้าไม่แน่ใจว่าวัคซีนครั้งต่อไปคืออะไร ถามเจ้าหน้าที่"
+        }
+      ]
+    }
+  ]
+}

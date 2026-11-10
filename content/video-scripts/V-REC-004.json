@@ -1,0 +1,208 @@
+{
+  "id": "V-REC-004",
+  "lessonId": "MCH68-REC-004",
+  "version": "0.1.0",
+  "title": "น้ำหนักที่เพิ่มขึ้นขณะตั้งครรภ์ และกราฟ Vallop curve",
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      2,
+      16,
+      17,
+      67
+    ],
+    "printedPages": [
+      "14",
+      "15"
+    ],
+    "note": "Narration derived from lesson MCH68-REC-004 v0.1.0"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "high",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-REC-004 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'บีเอ็มไอ' (BMI), 'วัลลอป เคิร์ฟ' (Vallop curve), 'บี ลบ เอ', 'สิบแปดจุดห้า', 'ยี่สิบสองจุดเก้า', 'ยี่สิบสามจุดศูนย์', 'ยี่สิบสี่จุดเก้า', 'ยี่สิบห้าจุดศูนย์', 'ยกกำลังสอง', ภาวะแทรกซ้อน.",
+      "No chart is drawn and no zone boundary is spoken or shown: zone boundaries are not printed as numbers. Only the printed BMI ranges, formula, (B) - (A), axis meaning and zone names are used.",
+      "The title is said and shown as 'Vallop curve' without the printed superscript ² (lesson HANDBOOK ISSUE: no matching reference note).",
+      "Summary point 4 repeats p67 item 15 (in the lesson); no instruction is given for points in the มาก / น้อย zones because the handbook gives none.",
+      "Summary point 3 (p17 margin tip) is 37 characters on screen; speech says the full tip.",
+      "Not narrated: example BMI values and the quiz example (A = 50, B = 56), zone colours, the family note."
+    ]
+  },
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3",
+    "stability": 0.5,
+    "style": 0,
+    "speed": 0.95,
+    "seed": 1234
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "kind": "title",
+      "heading": "กราฟน้ำหนักขณะตั้งครรภ์",
+      "subheading": "จากสมุดบันทึกสุขภาพแม่และเด็ก ฉบับปรับปรุงใหม่ พ.ศ. 2568",
+      "chips": [
+        "BMI ก่อนตั้งครรภ์",
+        "ตารางหน้า 15",
+        "3 โซน"
+      ],
+      "segments": [
+        {
+          "speak": "สมุดหน้าสิบสี่ และสิบห้า มีกราฟการเพิ่มขึ้นของน้ำหนักหญิงตั้งครรภ์ หรือ วัลลอป เคิร์ฟ",
+          "caption": "สมุดหน้า 14 และ 15 มีกราฟการเพิ่มขึ้นของน้ำหนักหญิงตั้งครรภ์ (Vallop curve)"
+        },
+        {
+          "speak": "น้ำหนักที่เพิ่มขึ้นอย่างเหมาะสม ส่งผลต่อสุขภาพที่ดีของทารกในครรภ์",
+          "caption": "น้ำหนักที่เพิ่มขึ้นอย่างเหมาะสม ส่งผลต่อสุขภาพที่ดีของทารกในครรภ์"
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "kind": "stage",
+      "stage": 1,
+      "label": "เลือกกราฟ",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 1,
+          "icon": "scale",
+          "text": "น้ำหนักก่อนตั้งครรภ์ ในช่อง (A)"
+        },
+        {
+          "n": 2,
+          "icon": "form",
+          "text": "BMI = น้ำหนัก (กก.) / ส่วนสูง (ม.)²"
+        },
+        {
+          "n": 3,
+          "icon": "check",
+          "text": "เลือก 1 ใน 4 กราฟ ตาม BMI ก่อนตั้งครรภ์"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่หนึ่ง เลือกกราฟ",
+          "caption": "ตอนที่ 1 เลือกกราฟ"
+        },
+        {
+          "reveal": 1,
+          "speak": "เขียนน้ำหนักก่อนตั้งครรภ์ เป็นกิโลกรัม ในช่อง เอ",
+          "caption": "เขียนน้ำหนักก่อนตั้งครรภ์ เป็นกิโลกรัม ในช่อง (A)"
+        },
+        {
+          "reveal": 2,
+          "speak": "คิดบีเอ็มไอก่อนตั้งครรภ์ คือ น้ำหนักเป็นกิโลกรัม หารด้วย ส่วนสูงเป็นเมตร ยกกำลังสอง",
+          "caption": "คิด BMI ก่อนตั้งครรภ์ คือ น้ำหนักเป็นกิโลกรัม หารด้วย ส่วนสูงเป็นเมตร ยกกำลังสอง"
+        },
+        {
+          "reveal": 3,
+          "speak": "แล้วทำเครื่องหมายเลือกกราฟ หนึ่งในสี่กราฟ ตามบีเอ็มไอ คือ น้อยกว่าสิบแปดจุดห้า, สิบแปดจุดห้า ถึงยี่สิบสองจุดเก้า, ยี่สิบสามจุดศูนย์ ถึงยี่สิบสี่จุดเก้า, และตั้งแต่ยี่สิบห้าจุดศูนย์ขึ้นไป",
+          "caption": "ทำเครื่องหมายเลือก 1 ใน 4 กราฟ ตาม BMI: <18.5 / 18.5-22.9 / 23.0-24.9 / ≥25.0"
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "kind": "stage",
+      "stage": 2,
+      "label": "ครั้งที่มารับบริการ",
+      "prefix": "ตอนที่",
+      "items": [
+        {
+          "n": 4,
+          "icon": "calendar",
+          "text": "บันทึกอายุครรภ์ และน้ำหนัก (B)"
+        },
+        {
+          "n": 5,
+          "icon": "scale",
+          "text": "น้ำหนักที่เพิ่มขึ้น = (B) - (A)"
+        },
+        {
+          "n": 6,
+          "icon": "plan",
+          "text": "จุดลงกราฟที่เลือกไว้ ตามอายุครรภ์"
+        },
+        {
+          "n": 7,
+          "icon": "check",
+          "text": "ดูโซน: เพิ่มมาก / เพิ่มดี / เพิ่มน้อย"
+        }
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "ตอนที่สอง ตารางครั้งที่มารับบริการ หน้าสิบห้า",
+          "caption": "ตอนที่ 2 ตารางครั้งที่มารับบริการ หน้า 15"
+        },
+        {
+          "reveal": 4,
+          "speak": "บันทึกอายุครรภ์ และน้ำหนัก ณ วันที่มารับบริการ บี ลงตารางหน้าสิบห้า",
+          "caption": "บันทึกอายุครรภ์ และน้ำหนัก ณ วันที่มารับบริการ (B) ลงตารางหน้า 15"
+        },
+        {
+          "reveal": 5,
+          "speak": "น้ำหนักที่เพิ่มขึ้น คำนวณจาก บี ลบ เอ",
+          "caption": "น้ำหนักที่เพิ่มขึ้น คำนวณจาก (B) - (A)"
+        },
+        {
+          "reveal": 6,
+          "speak": "จุดลงกราฟที่เลือกไว้ แนวนอนคืออายุครรภ์ แนวตั้งคือน้ำหนักที่เพิ่มขึ้น",
+          "caption": "จุดลงกราฟที่เลือกไว้ แนวนอนคืออายุครรภ์ แนวตั้งคือน้ำหนักที่เพิ่มขึ้น"
+        },
+        {
+          "reveal": 7,
+          "speak": "แล้วดูว่าจุดอยู่ในโซนไหน น้ำหนักเพิ่มมาก น้ำหนักเพิ่มดี หรือน้ำหนักเพิ่มน้อย",
+          "caption": "แล้วดูว่าจุดอยู่ในโซนไหน: น้ำหนักเพิ่มมาก / น้ำหนักเพิ่มดี / น้ำหนักเพิ่มน้อย"
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "kind": "summary",
+      "heading": "จำไว้ 4 เรื่อง",
+      "points": [
+        "เลือกกราฟตาม BMI ก่อนตั้งครรภ์",
+        "หน้า 15: (B) - (A) แล้วจุดลงกราฟ",
+        "เพิ่มมากเกิน ส่งผลให้เกิดภาวะแทรกซ้อน",
+        "สงสัย ปรึกษาแพทย์/บุคลากร"
+      ],
+      "segments": [
+        {
+          "reveal": 0,
+          "speak": "สรุปเรื่องสำคัญ",
+          "caption": "สรุปเรื่องสำคัญ"
+        },
+        {
+          "reveal": 1,
+          "speak": "เลือกกราฟ ตามบีเอ็มไอก่อนตั้งครรภ์",
+          "caption": "เลือกกราฟตาม BMI ก่อนตั้งครรภ์"
+        },
+        {
+          "reveal": 2,
+          "speak": "ในตารางหน้าสิบห้า คิด บี ลบ เอ แล้วจุดลงกราฟ",
+          "caption": "ในตารางหน้า 15 คิด (B) - (A) แล้วจุดลงกราฟ"
+        },
+        {
+          "reveal": 3,
+          "speak": "น้ำหนักที่เพิ่มขึ้นมากเกิน ส่งผลให้เกิดภาวะแทรกซ้อนต่อการตั้งครรภ์",
+          "caption": "น้ำหนักที่เพิ่มขึ้นมากเกิน ส่งผลให้เกิดภาวะแทรกซ้อนต่อการตั้งครรภ์"
+        },
+        {
+          "reveal": 4,
+          "speak": "หากมีข้อสงสัย ปรึกษาแพทย์หรือบุคลากร ไม่ควรลองผิดลองถูก",
+          "caption": "หากมีข้อสงสัย ปรึกษาแพทย์/บุคลากร ไม่ควรลองผิดลองถูก"
+        }
+      ]
+    }
+  ]
+}

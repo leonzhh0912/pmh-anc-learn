@@ -1,0 +1,31 @@
+{
+  "id": "V-CH-001",
+  "lessonId": "MCH68-CH-001",
+  "title": "หลังคลอด: อาการผิดปกติของแม่ที่ต้องพบแพทย์ทันที และการเยี่ยมหลังคลอด",
+  "mp4": "media/V-CH-001.mp4",
+  "captionsVtt": "media/V-CH-001.th.vtt",
+  "poster": "media/V-CH-001.jpg",
+  "durationSec": 128.8,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "high",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-CH-001 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of ลิ่มเลือด, น้ำคาวปลา, ขุ่นข้น, กะปริบกะปรอย, ฝีเย็บ, หัวนม, 'วันที่แปด ถึงวันที่สิบห้า', 'วันที่สิบหก ถึงวันที่สี่สิบสอง'.",
+      "All 6 signs are spoken in full exactly as printed on p35 (printed 33). Items 3 and 4 have shortened on-screen text; their speak/caption segments say the full printed sign.",
+      "The page's instruction is addressed to the assessor ('ส่งต่อพบแพทย์หรือเจ้าหน้าที่สาธารณสุขทันที'); the narration says 'ต้องพบแพทย์หรือเจ้าหน้าที่สาธารณสุขทันที', as in the lesson (see lesson reviewNotes).",
+      "Contraception and gum/teeth care are named as topics only, with the lesson's 'ถามรายละเอียดจากเจ้าหน้าที่ได้' framing; no content given.",
+      "The handbook does not say who makes postnatal visits or where; the narration does not say either.",
+      "The newborn fever tip on p35 is left out of the video (taught in MCH68-K-019)."
+    ]
+  }
+}

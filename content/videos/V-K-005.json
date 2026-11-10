@@ -1,0 +1,31 @@
+{
+  "id": "V-K-005",
+  "lessonId": "MCH68-K-005",
+  "title": "อาการผิดปกติที่แม่ท้องต้องมาโรงพยาบาลทันที",
+  "mp4": "media/V-K-005.mp4",
+  "captionsVtt": "media/V-K-005.th.vtt",
+  "poster": "media/V-K-005.jpg",
+  "durationSec": 81.7,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "high",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-K-005 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of จุกแน่นยอดอก, ตาพร่ามัว, หัวหน่าว, ปวดหน่วง, บุ๋ม, 'น้ำใส ๆ' (repetition mark), ครรภ์เป็นพิษ, หน้ายี่สิบสี่.",
+      "All 7 signs are spoken in full exactly as printed on p26 (printed 24). Item 3's on-screen text is shortened to fit; its speak/caption segment says the full printed sign. Item 7's on-screen text shows the printed sign only; its segment speaks and captions the printed action ('ให้ใส่ผ้าอนามัยไว้ แล้วรีบมาโรงพยาบาล') in full.",
+      "HANDBOOK ISSUE (from lesson): p15 (printed 13) says fewer than 3 movements per hour → 'แนะนำให้พบแพทย์', while p26 lists 'เด็กดิ้นน้อยลง หรือไม่ดิ้น' under 'ต้องมาโรงพยาบาลทันที'. The video uses only the p26 list it is teaching and leaves the p15 counting rule out. Obstetrician to harmonise.",
+      "Summary point 2 on-screen text 'เวียนศีรษะ ตาพร่า ขาบวม อาจเกิดจากครรภ์เป็นพิษ' omits 'ภาวะ' to fit (2 lines); the narration says the full printed tip. Item 3 on-screen text is a 2-line near-verbatim form (only 'ปวด' before 'หน่วง' and 'และ' dropped); the narration says the full printed sign.",
+      "Summary point 3 and the 'ดูรายการทั้งหมดได้ในสมุดหน้า 24' pointer are app framing from the lesson's family note and takeaways (already listed in the lesson reviewNotes).",
+      "The app does not triage: the narration only repeats the printed signs and the printed action."
+    ]
+  }
+}

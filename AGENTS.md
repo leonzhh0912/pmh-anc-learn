@@ -13,7 +13,11 @@ This is real patient-education software for Phimai Hospital, Thailand. Accuracy 
 3. New or changed content is always `"status": "DRAFT"`. Only a human PMH reviewer may set
    `MEDICAL_REVIEW → APPROVED → PUBLISHED` (see CONTENT_REVIEW.md). Never edit `medicalReviewer`/`reviewDate`.
 4. The app must not diagnose, triage, or tell a user whether they need emergency care. Danger-sign lessons
-   say "go to hospital / contact staff", exactly as the handbook does, plus PMH-approved local contacts.
+   say "go to hospital / contact staff", exactly as the handbook does. Phone numbers only if printed in the
+   handbook (e.g. 1669).
+8. Scope: the app digitises the handbook to make it easier to learn; it adds no information (decision of the
+   PMH director, in line with MOPH). Where the handbook is silent (local contacts, doses, product names,
+   follow-up routes), the app is silent too. Do not ask PMH to supply extra content.
 5. Never collect patient data. Progress stays in `localStorage`. No accounts, analytics or HIS integration.
 6. The earlier 1st-printing PDF (sha256 `5f5cc4f7…`) must not be used as a source.
 7. Do not copy handbook illustrations. Draw original graphics (see `video/src/lesson/Icon.tsx`).

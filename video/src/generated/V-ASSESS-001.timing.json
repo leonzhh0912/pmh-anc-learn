@@ -1,0 +1,182 @@
+{
+  "id": "V-ASSESS-001",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 3019,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 341,
+      "segments": [
+        {
+          "file": "audio/V-ASSESS-001/intro-1-c18c30d224.wav",
+          "from": 18,
+          "durationInFrames": 98,
+          "caption": "ระหว่างตั้งครรภ์ การดูแลใจก็สำคัญ",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-ASSESS-001/intro-2-6bc48d38f4.wav",
+          "from": 130,
+          "durationInFrames": 184,
+          "caption": "มาดูกันว่า ทำไมเจ้าหน้าที่ถามเรื่องความรู้สึก และสมุดแนะนำให้ผ่อนคลายอย่างไร",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 341,
+      "durationInFrames": 1224,
+      "segments": [
+        {
+          "file": "audio/V-ASSESS-001/stage1-1-0c79c35d43.wav",
+          "from": 18,
+          "durationInFrames": 109,
+          "caption": "ตอนที่ 1 ทำไมเจ้าหน้าที่จึงถามเรื่องความรู้สึก",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-ASSESS-001/stage1-2-7e2b085a06.wav",
+          "from": 141,
+          "durationInFrames": 146,
+          "caption": "สุขภาพจิตมีความสำคัญ ทั้งในช่วงการตั้งครรภ์และหลังคลอด",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-ASSESS-001/stage1-3-b2cf8316fb.wav",
+          "from": 301,
+          "durationInFrames": 77,
+          "caption": "และยังส่งผลต่อทารกในครรภ์ด้วย",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-ASSESS-001/stage1-4-9a271b19d6.wav",
+          "from": 392,
+          "durationInFrames": 113,
+          "caption": "การประเมินภาวะสุขภาพจิต ช่วยให้มองเห็นปัญหา",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-ASSESS-001/stage1-5-442b57e201.wav",
+          "from": 519,
+          "durationInFrames": 146,
+          "caption": "และหาทางช่วยเหลือ ให้แม่และลูกมีสุขภาพกายใจที่สมบูรณ์",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-ASSESS-001/stage1-6-c0fa02e059.wav",
+          "from": 679,
+          "durationInFrames": 132,
+          "caption": "ระหว่างตั้งครรภ์ เจ้าหน้าที่บันทึกผลการประเมินได้ถึง 8 ครั้ง",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-ASSESS-001/stage1-7-6059cc382c.wav",
+          "from": 825,
+          "durationInFrames": 166,
+          "caption": "ได้แก่ ความเครียด ซึมเศร้า สุรา และการดูแลช่วยเหลือ",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-ASSESS-001/stage1-8-90000e6c9a.wav",
+          "from": 1005,
+          "durationInFrames": 192,
+          "caption": "เมื่อเจ้าหน้าที่ถาม ให้ตอบตามความรู้สึกจริง เพื่อให้หาทางช่วยเหลือได้ตรงกับที่เป็นอยู่",
+          "reveal": 5
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1565,
+      "durationInFrames": 874,
+      "segments": [
+        {
+          "file": "audio/V-ASSESS-001/stage2-1-907c204b48.wav",
+          "from": 18,
+          "durationInFrames": 118,
+          "caption": "ตอนที่ 2 วิธีผ่อนคลายความเครียด ที่สมุดแนะนำ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-ASSESS-001/stage2-2-e6424be8cb.wav",
+          "from": 150,
+          "durationInFrames": 187,
+          "caption": "พูดคุยหรือปรึกษาหารือกับคนใกล้ชิด เพื่อระบายความเครียด หรือคลี่คลายที่มาของปัญหา",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-ASSESS-001/stage2-3-bb693eb496.wav",
+          "from": 351,
+          "durationInFrames": 101,
+          "caption": "หายใจเข้าออกลึก ๆ ช้า ๆ หลายครั้ง",
+          "reveal": 7
+        },
+        {
+          "file": "audio/V-ASSESS-001/stage2-4-510b56264c.wav",
+          "from": 466,
+          "durationInFrames": 98,
+          "caption": "หรือใช้หลักการทางศาสนา เพื่อคลายความกังวล",
+          "reveal": 8
+        },
+        {
+          "file": "audio/V-ASSESS-001/stage2-5-a04bd2b0bf.wav",
+          "from": 578,
+          "durationInFrames": 82,
+          "caption": "ความเครียดสูงอาจส่งผลเสียต่อร่างกาย",
+          "reveal": 9
+        },
+        {
+          "file": "audio/V-ASSESS-001/stage2-6-579f888da9.wav",
+          "from": 674,
+          "durationInFrames": 173,
+          "caption": "ถ้าเครียดมาก ขอรับคำปรึกษาจากบุคลากรสาธารณสุข เพื่อดูแลจิตใจ",
+          "reveal": 9
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 2439,
+      "durationInFrames": 580,
+      "segments": [
+        {
+          "file": "audio/V-ASSESS-001/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-ASSESS-001/summary-2-f5695c75bd.wav",
+          "from": 78,
+          "durationInFrames": 94,
+          "caption": "สุขภาพจิตของแม่ ส่งผลต่อลูกในครรภ์",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-ASSESS-001/summary-3-add18f1674.wav",
+          "from": 186,
+          "durationInFrames": 202,
+          "caption": "ผ่อนคลายด้วยการพูดคุยกับคนใกล้ชิด หรือหายใจเข้าออกลึก ๆ ช้า ๆ หลายครั้ง",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-ASSESS-001/summary-4-a2de81453f.wav",
+          "from": 402,
+          "durationInFrames": 151,
+          "caption": "และถ้าเครียดมาก ขอรับคำปรึกษาจากบุคลากรสาธารณสุขได้",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

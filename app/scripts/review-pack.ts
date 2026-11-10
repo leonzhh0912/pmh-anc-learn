@@ -72,9 +72,6 @@ for (const l of lessons) {
       "",
     );
   }
-  if (plan?.pmhClarificationNeeded?.length) {
-    out.push("**Local PMH information needed**", "", ...plan.pmhClarificationNeeded.map((c) => `- [ ] ${c}`), "");
-  }
   out.push(
     "**Sign-off**",
     "",

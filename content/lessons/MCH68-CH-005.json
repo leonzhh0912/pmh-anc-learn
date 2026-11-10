@@ -1,0 +1,399 @@
+{
+  "id": "MCH68-CH-005",
+  "version": "0.1.1",
+  "title": "วัคซีนเสริม (ทางเลือก)",
+  "summary": "รู้จักวัคซีนในกรอบ 'วัคซีนเสริมอื่นๆ (Optional vaccine)' ของสมุดหน้า 37 และวัคซีนไข้เลือดออกในหน้า 38 พร้อมอายุที่แนะนำตามที่พิมพ์ไว้",
+  "sectionId": "childhealth",
+  "stages": [
+    "child"
+  ],
+  "audience": [
+    "mother",
+    "family"
+  ],
+  "minutes": 6,
+  "objectives": [
+    "ผู้เรียนบอกวัคซีนเสริมที่ระบุในสมุด (มือเท้าปาก ชนิดรุนแรง สุกใส ตับอักเสบเอ โควิด-19) และวัคซีนไข้เลือดออก พร้อมอายุที่แนะนำได้",
+    "ผู้เรียนแยกได้ว่าวัคซีนใดอยู่ในตารางวัคซีนตามแผนงานฯ (EPI) และวัคซีนใดอยู่ในกรอบวัคซีนเสริมอื่นๆ ของหน้าบันทึกวัคซีน"
+  ],
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      39,
+      40
+    ],
+    "printedPages": [
+      "37",
+      "38"
+    ],
+    "note": "กรอบ 'วัคซีนเสริมอื่นๆ (Optional vaccine)' ส่วนล่างของหน้า 37 และตาราง 'บันทึกการรับวัคซีน (ต่อ)' หน้า 38 (แถวไข้เลือดออก)"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "high",
+    "reviewNotes": [
+      "Source map (every age and interval checked on the official page images oimg/p39.jpg, oimg/p40.jpg and a 200-dpi render of the official PDF): EV71, Varicella, HAV and the COVID-19 inset = 'วัคซีนเสริมอื่นๆ (Optional vaccine)' box, PDF p39 (printed 37); Dengue row and 'อื่น ๆ (ระบุ)' row = 'บันทึกการรับวัคซีน (ต่อ)', PDF p40 (printed 38); sort bucket 'EPI' uses rows from the p38 (printed 36) table under the heading 'วัคซีนตามแผนงานสร้างเสริมภูมิคุ้มกันโรคของประเทศไทย (EPI …)'.",
+      "Paediatrician + EPI nurse (curriculum review requirement): verify as copied: มือเท้าปาก ชนิดรุนแรง (Enterovirus 71) 6 เดือนขึ้นไป (2 เข็ม ห่างกันอย่างน้อย 1 เดือน); สุกใส (Varicella) 12-15 เดือน, 1 ปีครึ่ง - 2 ปี; ตับอักเสบเอ (HAV) ชนิดเชื้อตาย 2 เข็ม ห่างกัน 6-12 เดือน (เริ่มที่อายุ 1 ปีขึ้นไป); วัคซีนป้องกันเชื้อโควิด-19 อายุ 6 เดือนขึ้นไป ระยะห่างเข็มถัดไป 6-12 เดือน; ไข้เลือดออก (Dengue) 4 ปีขึ้นไป (2 เข็ม ห่างกัน 3 เดือนขึ้นไป).",
+      "HANDBOOK ISSUE: the COVID-19 inset on p39 is printed '• อายุ 6 เดือนขึ้นไป ระยะห่างเข็มถัดไป 6-12 เดือน)' with a stray closing ')' and no opening bracket. The app shows the text without the stray ')'.",
+      "HANDBOOK ISSUE: the JE row on p39 is printed 'Lived attenuated Japanese Encephalitis'. JE is not an optional vaccine and is not taught in this lesson; wherever the app shows the English name (MCH68-CH-004) it uses the correct 'Live attenuated'.",
+      "HANDBOOK ISSUE (grouping): the Dengue row is on p40 under 'บันทึกการรับวัคซีน (ต่อ)'; the page does not repeat the 'วัคซีนเสริมอื่นๆ (Optional vaccine)' heading. The lesson presents Dengue as 'the next page of the record', does not label it EPI or optional, and leaves it out of the sort step. Reviewer to confirm how families should read it.",
+      "No costs, availability, brands or 'which vaccines PMH gives' are mentioned (book-only rule). The handbook does not explain what 'Optional' means; the lesson does not explain it either.",
+      "The COVID-19 inset has record slots ครั้งที่ 1, 2, 3; the lesson mentions the three slots only as a description of the page.",
+      "Editorial (not printed): the 'ถามแพทย์หรือเจ้าหน้าที่' pointer in text step 1, takeaway 4 and the family note; 'นำสมุดไปด้วย' in the family note; stage and item titles in the timeline.",
+      "Sort step: EPI cards are taken only from the p38 table (which carries the EPI heading); the unlabeled upper tables of p39 (PCV, influenza, MMR, JE, HPV, dT) are not used as cards to avoid a grouping the page does not print. Text step 1 does describe those upper tables as continuing the EPI table, the same reading as MCH68-CH-004 (see its HANDBOOK ISSUE layout note).",
+      "Quiz scenarios q3 (grandmother looking for the chickenpox vaccine) is written for this lesson; it only repeats p39 entries. All distractors are written for the quiz.",
+      "Editorial: the title gloss 'ทางเลือก' translates the printed '(Optional vaccine)'; the page prints only 'วัคซีนเสริมอื่นๆ (Optional vaccine)'. Varicella: the page prints two ages as bullets without dose numbers; the lesson does not number them."
+    ]
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "First draft from official handbook PDF p39-p40 (2nd printing, April 2569)."
+    },
+    {
+      "version": "0.1.1",
+      "date": "2026-11-10",
+      "author": "Claude Code (AI draft)",
+      "change": "Added video step V-CH-005 (narration derived from this lesson; no text changes)."
+    }
+  ],
+  "steps": [
+    {
+      "type": "text",
+      "heading": "กรอบวัคซีนเสริมในสมุด",
+      "paragraphs": [
+        "สมุดหน้า 36 และส่วนบนของหน้า 37 เป็นตารางวัคซีนตามแผนงานสร้างเสริมภูมิคุ้มกันโรคของประเทศไทย (EPI)",
+        "ส่วนล่างของหน้า 37 มีกรอบแยกออกมา ชื่อ 'วัคซีนเสริมอื่นๆ (Optional vaccine)' มี 4 รายการ: มือเท้าปาก ชนิดรุนแรง (Enterovirus 71), สุกใส (Varicella), ตับอักเสบเอ (HAV) และวัคซีนป้องกันเชื้อโควิด-19",
+        "หน้า 38 'บันทึกการรับวัคซีน (ต่อ)' มีแถวไข้เลือดออก (Dengue) และแถว 'อื่น ๆ (ระบุ)' ไว้บันทึกวัคซีนอื่น",
+        "ถ้ามีคำถามเรื่องวัคซีนเสริม ถามแพทย์หรือเจ้าหน้าที่"
+      ]
+    },
+    {
+      "type": "video",
+      "heading": "ดูวิดีโอสรุป",
+      "videoId": "V-CH-005"
+    },
+    {
+      "type": "timeline",
+      "heading": "อายุที่แนะนำของวัคซีนเสริม",
+      "intro": "เลือกวัคซีน แล้วแตะแต่ละข้อเพื่ออ่านอายุที่แนะนำตามที่พิมพ์ในสมุด",
+      "stages": [
+        {
+          "id": "ev71",
+          "label": "มือเท้าปาก ชนิดรุนแรง",
+          "items": [
+            {
+              "n": 1,
+              "title": "อายุที่แนะนำ: 6 เดือนขึ้นไป",
+              "detail": "มือเท้าปาก ชนิดรุนแรง (Enterovirus 71): 6 เดือนขึ้นไป"
+            },
+            {
+              "n": 2,
+              "title": "2 เข็ม ห่างกันอย่างน้อย 1 เดือน",
+              "detail": "สมุดเขียนในวงเล็บว่า (2 เข็ม ห่างกันอย่างน้อย 1 เดือน)"
+            }
+          ]
+        },
+        {
+          "id": "varicella",
+          "label": "สุกใส",
+          "items": [
+            {
+              "n": 3,
+              "title": "12-15 เดือน",
+              "detail": "สุกใส (Varicella) อายุที่แนะนำ: 12-15 เดือน"
+            },
+            {
+              "n": 4,
+              "title": "1 ปีครึ่ง - 2 ปี",
+              "detail": "สุกใส (Varicella) อายุที่แนะนำ: 1 ปีครึ่ง - 2 ปี"
+            }
+          ]
+        },
+        {
+          "id": "hav",
+          "label": "ตับอักเสบเอ",
+          "items": [
+            {
+              "n": 5,
+              "title": "ชนิดเชื้อตาย 2 เข็ม ห่างกัน 6-12 เดือน",
+              "detail": "ตับอักเสบเอ (HAV): ชนิดเชื้อตาย 2 เข็ม ห่างกัน 6-12 เดือน"
+            },
+            {
+              "n": 6,
+              "title": "เริ่มที่อายุ 1 ปีขึ้นไป",
+              "detail": "สมุดเขียนในวงเล็บว่า (เริ่มที่อายุ 1 ปีขึ้นไป)"
+            }
+          ]
+        },
+        {
+          "id": "covid",
+          "label": "โควิด-19",
+          "items": [
+            {
+              "n": 7,
+              "title": "อายุ 6 เดือนขึ้นไป",
+              "detail": "วัคซีนป้องกันเชื้อโควิด-19: อายุ 6 เดือนขึ้นไป"
+            },
+            {
+              "n": 8,
+              "title": "ระยะห่างเข็มถัดไป 6-12 เดือน",
+              "detail": "วัคซีนป้องกันเชื้อโควิด-19: ระยะห่างเข็มถัดไป 6-12 เดือน ในสมุดมีช่องบันทึกครั้งที่ 1, 2 และ 3"
+            }
+          ]
+        },
+        {
+          "id": "dengue",
+          "label": "ไข้เลือดออก (หน้า 38)",
+          "items": [
+            {
+              "n": 9,
+              "title": "อายุ 4 ปีขึ้นไป",
+              "detail": "ไข้เลือดออก (Dengue): 4 ปีขึ้นไป"
+            },
+            {
+              "n": 10,
+              "title": "2 เข็ม ห่างกัน 3 เดือนขึ้นไป",
+              "detail": "สมุดเขียนในวงเล็บว่า (2 เข็ม ห่างกัน 3 เดือนขึ้นไป)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "heading": "วัคซีนนี้อยู่ส่วนไหนของสมุด",
+      "intro": "แตะชื่อวัคซีน แล้วแตะส่วนของสมุดที่วัคซีนนั้นอยู่",
+      "buckets": [
+        {
+          "id": "epi",
+          "label": "ตารางวัคซีนตามแผนงานฯ (EPI) หน้า 36"
+        },
+        {
+          "id": "optional",
+          "label": "กรอบวัคซีนเสริมอื่นๆ (Optional vaccine) หน้า 37"
+        }
+      ],
+      "items": [
+        {
+          "id": "s1",
+          "text": "สุกใส (Varicella)",
+          "bucketId": "optional"
+        },
+        {
+          "id": "s2",
+          "text": "วัณโรค (BCG)",
+          "bucketId": "epi"
+        },
+        {
+          "id": "s3",
+          "text": "มือเท้าปาก ชนิดรุนแรง (Enterovirus 71)",
+          "bucketId": "optional"
+        },
+        {
+          "id": "s4",
+          "text": "โรต้า (Rota)",
+          "bucketId": "epi"
+        },
+        {
+          "id": "s5",
+          "text": "ตับอักเสบเอ (HAV)",
+          "bucketId": "optional"
+        },
+        {
+          "id": "s6",
+          "text": "โปลิโอ (Polio)",
+          "bucketId": "epi"
+        },
+        {
+          "id": "s7",
+          "text": "วัคซีนป้องกันเชื้อโควิด-19",
+          "bucketId": "optional"
+        },
+        {
+          "id": "s8",
+          "text": "คอตีบ บาดทะยัก ไอกรน (DTP)",
+          "bucketId": "epi"
+        }
+      ]
+    },
+    {
+      "type": "quiz",
+      "heading": "ทบทวนความเข้าใจ",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "prompt": "วัคซีนมือเท้าปาก ชนิดรุนแรง (Enterovirus 71) มีอายุที่แนะนำตามสมุดอย่างไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "แรกเกิด 1 เข็ม",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า 6 เดือนขึ้นไป (2 เข็ม ห่างกันอย่างน้อย 1 เดือน)"
+            },
+            {
+              "id": "b",
+              "text": "6 เดือนขึ้นไป (2 เข็ม ห่างกันอย่างน้อย 1 เดือน)",
+              "feedback": "ถูกต้อง ตามที่พิมพ์ในกรอบวัคซีนเสริมหน้า 37"
+            },
+            {
+              "id": "c",
+              "text": "4 ปีขึ้นไป (2 เข็ม ห่างกัน 3 เดือนขึ้นไป)",
+              "feedback": "ยังไม่ใช่ นี่คืออายุที่แนะนำของวัคซีนไข้เลือดออกในหน้า 38"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "สมุดหน้า 37 กรอบวัคซีนเสริมอื่นๆ: มือเท้าปาก ชนิดรุนแรง (Enterovirus 71) 6 เดือนขึ้นไป (2 เข็ม ห่างกันอย่างน้อย 1 เดือน)",
+          "source": {
+            "pdfPages": [
+              39
+            ],
+            "printedPages": [
+              "37"
+            ]
+          }
+        },
+        {
+          "id": "q2",
+          "kind": "truefalse",
+          "prompt": "จริงหรือไม่: ตามสมุด วัคซีนตับอักเสบเอ (HAV) เป็นชนิดเชื้อตาย 2 เข็ม ห่างกัน 6-12 เดือน เริ่มที่อายุ 1 ปีขึ้นไป",
+          "options": [
+            {
+              "id": "a",
+              "text": "จริง",
+              "feedback": "ถูกต้อง ตรงกับที่พิมพ์ในกรอบวัคซีนเสริมหน้า 37"
+            },
+            {
+              "id": "b",
+              "text": "ไม่จริง",
+              "feedback": "ข้อความนี้ตรงกับสมุด: ชนิดเชื้อตาย 2 เข็ม ห่างกัน 6-12 เดือน (เริ่มที่อายุ 1 ปีขึ้นไป)"
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "สมุดหน้า 37: ตับอักเสบเอ (HAV) ชนิดเชื้อตาย 2 เข็ม ห่างกัน 6-12 เดือน (เริ่มที่อายุ 1 ปีขึ้นไป)",
+          "source": {
+            "pdfPages": [
+              39
+            ],
+            "printedPages": [
+              "37"
+            ]
+          }
+        },
+        {
+          "id": "q3",
+          "kind": "scenario",
+          "scenario": "คุณยายเปิดสมุดของหลาน อยากหาว่าวัคซีนสุกใสอยู่ตรงไหน และอายุที่แนะนำคือเท่าไร",
+          "prompt": "ข้อไหนตรงกับสมุด",
+          "options": [
+            {
+              "id": "a",
+              "text": "อยู่ในตารางหน้า 36 อายุที่แนะนำ 2, 4, 6 เดือน",
+              "feedback": "ยังไม่ใช่ สุกใสอยู่ในกรอบวัคซีนเสริมอื่นๆ ส่วนล่างของหน้า 37"
+            },
+            {
+              "id": "b",
+              "text": "อยู่ในหน้า 38 อายุที่แนะนำ 4 ปีขึ้นไป",
+              "feedback": "ยังไม่ใช่ หน้า 38 คือแถวไข้เลือดออก"
+            },
+            {
+              "id": "c",
+              "text": "อยู่ในกรอบวัคซีนเสริมอื่นๆ หน้า 37 อายุที่แนะนำ 12-15 เดือน และ 1 ปีครึ่ง - 2 ปี",
+              "feedback": "ถูกต้อง สุกใส (Varicella) อยู่ในกรอบวัคซีนเสริมอื่นๆ"
+            }
+          ],
+          "correctOptionId": "c",
+          "explanation": "สมุดหน้า 37 กรอบวัคซีนเสริมอื่นๆ (Optional vaccine): สุกใส (Varicella) 12-15 เดือน และ 1 ปีครึ่ง - 2 ปี",
+          "source": {
+            "pdfPages": [
+              39
+            ],
+            "printedPages": [
+              "37"
+            ]
+          }
+        },
+        {
+          "id": "q4",
+          "kind": "mcq",
+          "prompt": "วัคซีนไข้เลือดออก (Dengue) ในสมุดหน้า 38 มีอายุที่แนะนำอย่างไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "4 ปีขึ้นไป (2 เข็ม ห่างกัน 3 เดือนขึ้นไป)",
+              "feedback": "ถูกต้อง ตามที่พิมพ์ในหน้า 38"
+            },
+            {
+              "id": "b",
+              "text": "6 เดือนขึ้นไป ระยะห่างเข็มถัดไป 6-12 เดือน",
+              "feedback": "ยังไม่ใช่ นี่คือข้อความของวัคซีนป้องกันเชื้อโควิด-19"
+            },
+            {
+              "id": "c",
+              "text": "12-15 เดือน",
+              "feedback": "ยังไม่ใช่ นี่คืออายุที่แนะนำครั้งแรกของวัคซีนสุกใส"
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "สมุดหน้า 38 'บันทึกการรับวัคซีน (ต่อ)': ไข้เลือดออก (Dengue) 4 ปีขึ้นไป (2 เข็ม ห่างกัน 3 เดือนขึ้นไป)",
+          "source": {
+            "pdfPages": [
+              40
+            ],
+            "printedPages": [
+              "38"
+            ]
+          }
+        },
+        {
+          "id": "q5",
+          "kind": "mcq",
+          "prompt": "กรอบวัคซีนป้องกันเชื้อโควิด-19 ในสมุด เขียนไว้ว่าอย่างไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "แรกเกิด และ 1 เดือน",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า อายุ 6 เดือนขึ้นไป ระยะห่างเข็มถัดไป 6-12 เดือน"
+            },
+            {
+              "id": "b",
+              "text": "9 เดือน และ 18 เดือน",
+              "feedback": "ยังไม่ใช่ นี่คืออายุที่แนะนำของ MMR ในตารางส่วนบน"
+            },
+            {
+              "id": "c",
+              "text": "อายุ 6 เดือนขึ้นไป ระยะห่างเข็มถัดไป 6-12 เดือน",
+              "feedback": "ถูกต้อง ตามที่พิมพ์ในกรอบวัคซีนป้องกันเชื้อโควิด-19"
+            }
+          ],
+          "correctOptionId": "c",
+          "explanation": "สมุดหน้า 37 กรอบวัคซีนป้องกันเชื้อโควิด-19: อายุ 6 เดือนขึ้นไป ระยะห่างเข็มถัดไป 6-12 เดือน มีช่องบันทึกครั้งที่ 1, 2 และ 3",
+          "source": {
+            "pdfPages": [
+              39
+            ],
+            "printedPages": [
+              "37"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "takeaways",
+      "heading": "สรุปสิ่งสำคัญ",
+      "items": [
+        "วัคซีนเสริมอื่นๆ (Optional vaccine) อยู่ในกรอบแยก ส่วนล่างของสมุดหน้า 37",
+        "มือเท้าปาก ชนิดรุนแรง 6 เดือนขึ้นไป สุกใส 12-15 เดือน และ 1 ปีครึ่ง - 2 ปี ตับอักเสบเอ เริ่มที่อายุ 1 ปีขึ้นไป",
+        "โควิด-19 อายุ 6 เดือนขึ้นไป ไข้เลือดออก (หน้า 38) อายุ 4 ปีขึ้นไป",
+        "มีคำถามเรื่องวัคซีนเสริม ถามแพทย์หรือเจ้าหน้าที่"
+      ],
+      "familyNote": "ปู่ย่าตายายหรือคนที่ดูแลเด็กช่วยได้ ด้วยการเปิดหน้า 37–38 ดูด้วยกัน และนำสมุดไปด้วยเมื่อพาเด็กไปรับวัคซีน มีคำถามอะไรจดไว้ถามแพทย์หรือเจ้าหน้าที่"
+    }
+  ]
+}

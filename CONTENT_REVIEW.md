@@ -44,7 +44,7 @@ APPROVED/PUBLISHED without a reviewer name and date fails validation.
 - [ ] Every statement matches the cited handbook page (open the PDF page, not the extraction)
 - [ ] No added medical advice, numbers or thresholds that are not in the handbook
 - [ ] Items in `reviewNotes` resolved (accepted, changed, or removed)
-- [ ] PMH-specific instructions added where needed (where to go, phone numbers, local schedule)
+- [ ] Nothing added that the handbook does not print (no local phone numbers, routes, doses or schedules; book-only scope)
 - [ ] Quiz: correct answers right, every option's feedback and explanation correct and kind
 - [ ] Language: plain Thai, adult tone, no blame, no assumption that every mother has a partner
 - [ ] Video: script matches lesson, captions match narration, pronunciation checked by a Thai speaker

@@ -1,0 +1,154 @@
+{
+  "id": "V-REC-004",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 2984,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 448,
+      "segments": [
+        {
+          "file": "audio/V-REC-004/intro-1-a3c7e0e623.wav",
+          "from": 18,
+          "durationInFrames": 230,
+          "caption": "สมุดหน้า 14 และ 15 มีกราฟการเพิ่มขึ้นของน้ำหนักหญิงตั้งครรภ์ (Vallop curve)",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-REC-004/intro-2-85f59eebda.wav",
+          "from": 262,
+          "durationInFrames": 159,
+          "caption": "น้ำหนักที่เพิ่มขึ้นอย่างเหมาะสม ส่งผลต่อสุขภาพที่ดีของทารกในครรภ์",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 448,
+      "durationInFrames": 953,
+      "segments": [
+        {
+          "file": "audio/V-REC-004/stage1-1-f9c37bc70d.wav",
+          "from": 18,
+          "durationInFrames": 60,
+          "caption": "ตอนที่ 1 เลือกกราฟ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-REC-004/stage1-2-64db67c353.wav",
+          "from": 92,
+          "durationInFrames": 120,
+          "caption": "เขียนน้ำหนักก่อนตั้งครรภ์ เป็นกิโลกรัม ในช่อง (A)",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-REC-004/stage1-3-767059db86.wav",
+          "from": 226,
+          "durationInFrames": 242,
+          "caption": "คิด BMI ก่อนตั้งครรภ์ คือ น้ำหนักเป็นกิโลกรัม หารด้วย ส่วนสูงเป็นเมตร ยกกำลังสอง",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-REC-004/stage1-4-a212aaf91f.wav",
+          "from": 482,
+          "durationInFrames": 444,
+          "caption": "ทำเครื่องหมายเลือก 1 ใน 4 กราฟ ตาม BMI: <18.5 / 18.5-22.9 / 23.0-24.9 / ≥25.0",
+          "reveal": 3
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1401,
+      "durationInFrames": 884,
+      "segments": [
+        {
+          "file": "audio/V-REC-004/stage2-1-49e129c121.wav",
+          "from": 18,
+          "durationInFrames": 125,
+          "caption": "ตอนที่ 2 ตารางครั้งที่มารับบริการ หน้า 15",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-REC-004/stage2-2-730dbe31c8.wav",
+          "from": 157,
+          "durationInFrames": 199,
+          "caption": "บันทึกอายุครรภ์ และน้ำหนัก ณ วันที่มารับบริการ (B) ลงตารางหน้า 15",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-REC-004/stage2-3-cf719f4a90.wav",
+          "from": 370,
+          "durationInFrames": 96,
+          "caption": "น้ำหนักที่เพิ่มขึ้น คำนวณจาก (B) - (A)",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-REC-004/stage2-4-c9cc9bbe13.wav",
+          "from": 480,
+          "durationInFrames": 185,
+          "caption": "จุดลงกราฟที่เลือกไว้ แนวนอนคืออายุครรภ์ แนวตั้งคือน้ำหนักที่เพิ่มขึ้น",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-REC-004/stage2-5-821dc3396c.wav",
+          "from": 679,
+          "durationInFrames": 178,
+          "caption": "แล้วดูว่าจุดอยู่ในโซนไหน: น้ำหนักเพิ่มมาก / น้ำหนักเพิ่มดี / น้ำหนักเพิ่มน้อย",
+          "reveal": 7
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 2285,
+      "durationInFrames": 699,
+      "segments": [
+        {
+          "file": "audio/V-REC-004/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-REC-004/summary-2-5b4b864eb5.wav",
+          "from": 78,
+          "durationInFrames": 86,
+          "caption": "เลือกกราฟตาม BMI ก่อนตั้งครรภ์",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-REC-004/summary-3-b7976d51d9.wav",
+          "from": 178,
+          "durationInFrames": 144,
+          "caption": "ในตารางหน้า 15 คิด (B) - (A) แล้วจุดลงกราฟ",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-REC-004/summary-4-343fdef43b.wav",
+          "from": 336,
+          "durationInFrames": 161,
+          "caption": "น้ำหนักที่เพิ่มขึ้นมากเกิน ส่งผลให้เกิดภาวะแทรกซ้อนต่อการตั้งครรภ์",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-REC-004/summary-5-9852671019.wav",
+          "from": 511,
+          "durationInFrames": 161,
+          "caption": "หากมีข้อสงสัย ปรึกษาแพทย์/บุคลากร ไม่ควรลองผิดลองถูก",
+          "reveal": 4
+        }
+      ]
+    }
+  ]
+}

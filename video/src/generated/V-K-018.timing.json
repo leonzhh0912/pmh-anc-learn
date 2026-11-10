@@ -1,0 +1,154 @@
+{
+  "id": "V-K-018",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 2431,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 461,
+      "segments": [
+        {
+          "file": "audio/V-K-018/intro-1-bb1e2b3d0f.wav",
+          "from": 18,
+          "durationInFrames": 257,
+          "caption": "ในเด็กเล็ก โดยเฉพาะอายุต่ำกว่า 5 ปี เมื่อมีไข้สูง อาจทำให้เกิดอาการชัก เกร็ง กระตุกได้",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-K-018/intro-2-cf6862c86b.wav",
+          "from": 289,
+          "durationInFrames": 145,
+          "caption": "การปฐมพยาบาลที่ไม่ถูกวิธี อาจนำมาซึ่งอันตรายต่อเด็กได้",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 461,
+      "durationInFrames": 533,
+      "segments": [
+        {
+          "file": "audio/V-K-018/stage1-1-be4cda1ce6.wav",
+          "from": 18,
+          "durationInFrames": 211,
+          "caption": "วิธีที่ถูกต้องมี 6 ข้อ ตามลำดับในสมุด ตอนที่ 1 ขอความช่วยเหลือ และจัดท่า",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-018/stage1-2-3897891d3b.wav",
+          "from": 243,
+          "durationInFrames": 151,
+          "caption": "ข้อ 1 ตะโกนขอความช่วยเหลือ หรือ โทร 1669",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-018/stage1-3-930a249a6a.wav",
+          "from": 408,
+          "durationInFrames": 98,
+          "caption": "ข้อ 2 จับนอนตะแคง ป้องกันสำลัก",
+          "reveal": 2
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 994,
+      "durationInFrames": 377,
+      "segments": [
+        {
+          "file": "audio/V-K-018/stage2-1-ba478e4d7c.wav",
+          "from": 18,
+          "durationInFrames": 122,
+          "caption": "ตอนที่ 2 สิ่งที่ห้ามทำ มี 2 ข้อ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-018/stage2-2-928451d022.wav",
+          "from": 154,
+          "durationInFrames": 98,
+          "caption": "ข้อ 3 ห้าม! ล้วง/ใส่วัตถุในปาก",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-K-018/stage2-3-d05664f259.wav",
+          "from": 266,
+          "durationInFrames": 84,
+          "caption": "ข้อ 4 ห้าม! เขย่า/กระแทก",
+          "reveal": 4
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 1371,
+      "durationInFrames": 413,
+      "segments": [
+        {
+          "file": "audio/V-K-018/stage3-1-0ecbeda0b5.wav",
+          "from": 18,
+          "durationInFrames": 114,
+          "caption": "ตอนที่ 3 ลดไข้ ข้อ 5 และข้อ 6",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-018/stage3-2-efb296c412.wav",
+          "from": 146,
+          "durationInFrames": 108,
+          "caption": "ข้อ 5 เช็ดตัวลดไข้ด้วยน้ำอุณหภูมิปกติ",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-K-018/stage3-3-6d719c04f5.wav",
+          "from": 268,
+          "durationInFrames": 118,
+          "caption": "ข้อ 6 เมื่อเด็กตื่นรู้ตัวแล้ว จึงป้อนยาลดไข้",
+          "reveal": 6
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 1784,
+      "durationInFrames": 647,
+      "segments": [
+        {
+          "file": "audio/V-K-018/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-018/summary-2-8c861306cf.wav",
+          "from": 78,
+          "durationInFrames": 211,
+          "caption": "ตะโกนขอความช่วยเหลือ หรือ โทร 1669 แล้วจับนอนตะแคง ป้องกันสำลัก",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-018/summary-3-37c2af076f.wav",
+          "from": 303,
+          "durationInFrames": 125,
+          "caption": "ห้าม! ล้วง/ใส่วัตถุในปาก และห้าม! เขย่า/กระแทก",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-K-018/summary-4-a2da1ddd74.wav",
+          "from": 442,
+          "durationInFrames": 178,
+          "caption": "เช็ดตัวลดไข้ด้วยน้ำอุณหภูมิปกติ และเมื่อตื่นรู้ตัว จึงป้อนยาลดไข้",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

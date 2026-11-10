@@ -142,7 +142,8 @@ const TitleScene: React.FC<{ heading: string; sub: string; chips: string[]; timi
 }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const stagesAt = timing.segments[1]?.from ?? Infinity;
+  // chips appear with the second narration line; with only one line, shortly after the heading
+  const stagesAt = timing.segments[1]?.from ?? 40;
   const pop = spring({ frame: f - 4, fps, config: { damping: 200 } });
   return (
     <AbsoluteFill style={{ padding: "110px 96px 120px", flexDirection: "row", alignItems: "center", gap: 64 }}>

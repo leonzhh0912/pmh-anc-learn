@@ -1,0 +1,147 @@
+{
+  "id": "V-GROW-003",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 2711,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 341,
+      "segments": [
+        {
+          "file": "audio/V-GROW-003/intro-1-0f8ae018f5.wav",
+          "from": 18,
+          "durationInFrames": 115,
+          "caption": "เรื่องนี้อยู่ในสมุดหน้า 43 ถึง 45",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-GROW-003/intro-2-19bfa839ca.wav",
+          "from": 147,
+          "durationInFrames": 167,
+          "caption": "มาดูเส้นรอบศีรษะของลูก กระหม่อม และเมื่อไรที่สมุดแนะนำให้ปรึกษา",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 341,
+      "durationInFrames": 579,
+      "segments": [
+        {
+          "file": "audio/V-GROW-003/stage1-1-26a84bdb58.wav",
+          "from": 18,
+          "durationInFrames": 80,
+          "caption": "ตอนที่ 1 ตัวเลขที่ควรรู้",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-003/stage1-2-6c91a75e17.wav",
+          "from": 112,
+          "durationInFrames": 175,
+          "caption": "ข้อ 1 โดยเฉลี่ยเด็กแรกเกิด จะมีเส้นรอบศีรษะอยู่ที่ประมาณ 35 ซม.",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-GROW-003/stage1-3-221f807eaf.wav",
+          "from": 301,
+          "durationInFrames": 115,
+          "caption": "ข้อ 2 กระหม่อมหลังปิดอย่างช้าไม่เกิน 4 เดือน",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-GROW-003/stage1-4-dca2d4de61.wav",
+          "from": 430,
+          "durationInFrames": 122,
+          "caption": "ข้อ 3 กระหม่อมหน้าปิดอย่างช้าไม่เกิน 1 ปีครึ่ง",
+          "reveal": 3
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 920,
+      "durationInFrames": 1107,
+      "segments": [
+        {
+          "file": "audio/V-GROW-003/stage2-1-d6b518e293.wav",
+          "from": 18,
+          "durationInFrames": 89,
+          "caption": "ตอนที่ 2 กราฟเส้นรอบวงศีรษะ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-003/stage2-2-8bd00431a5.wav",
+          "from": 121,
+          "durationInFrames": 264,
+          "caption": "ข้อ 4 ใช้กราฟให้ตรงกับเพศของลูก เด็กชายสมุดหน้า 44 เด็กหญิงสมุดหน้า 45",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-GROW-003/stage2-3-1816577b3d.wav",
+          "from": 399,
+          "durationInFrames": 415,
+          "caption": "ข้อ 5 แนวนอนคืออายุ แนวตั้งคือเส้นรอบวงศีรษะ มีเส้นโค้ง 5 เส้น: 97th 85th 50th 15th 3rd",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-GROW-003/stage2-4-afa9e89638.wav",
+          "from": 828,
+          "durationInFrames": 252,
+          "caption": "ข้อ 6 แนวโน้มเริ่มสูงกว่าเส้น 85th หรือเริ่มต่ำกว่าเส้น 15th ควรปรึกษาบุคลากรทางสาธารณสุข",
+          "reveal": 6
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 2027,
+      "durationInFrames": 684,
+      "segments": [
+        {
+          "file": "audio/V-GROW-003/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 48,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-003/summary-2-217bad788c.wav",
+          "from": 80,
+          "durationInFrames": 146,
+          "caption": "โดยเฉลี่ยเด็กแรกเกิด มีเส้นรอบศีรษะประมาณ 35 ซม.",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-GROW-003/summary-3-50d815eadf.wav",
+          "from": 240,
+          "durationInFrames": 86,
+          "caption": "กระหม่อมหลังปิดอย่างช้าไม่เกิน 4 เดือน",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-GROW-003/summary-4-91977dacf6.wav",
+          "from": 340,
+          "durationInFrames": 92,
+          "caption": "กระหม่อมหน้าปิดอย่างช้าไม่เกิน 1 ปีครึ่ง",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-GROW-003/summary-5-abc22b1e7f.wav",
+          "from": 446,
+          "durationInFrames": 211,
+          "caption": "แนวโน้มเริ่มสูงกว่าเส้น 85th หรือเริ่มต่ำกว่าเส้น 15th ควรปรึกษาบุคลากรทางสาธารณสุข",
+          "reveal": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "V-K-019",
+  "lessonId": "MCH68-K-019",
+  "title": "อาการที่ต้องพาทารกไปพบแพทย์",
+  "mp4": "media/V-K-019.mp4",
+  "captionsVtt": "media/V-K-019.th.vtt",
+  "poster": "media/V-K-019.jpg",
+  "durationSec": 81.5,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "high",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-K-019 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'หกสิบครั้งต่อนาที', 'หกถึงแปดชั่วโมง', สะดือ, ปัสสาวะ, อาเจียน.",
+      "Lesson HANDBOOK ISSUE applies: 'ไข้ ซึม' (p33) is narrated exactly as printed, and the p35 margin line 'ทารกอายุน้อยกว่า 1 เดือน หากมีไข้ต้องไปพบแพทย์ทันที' is narrated separately with its own page; the two are not reconciled.",
+      "All 7 signs are narrated in full printed wording; the grouping into two parts (กินนมและขับถ่าย / ไข้ หายใจ ตา ผิวหนัง) follows the lesson's sort step and is not an urgency ranking.",
+      "On-screen text is shortened in two places to fit: item 5 'หอบเหนื่อย หายใจเร็ว > 60 ครั้ง/นาที' and summary point 'ไม่ถึง 1 เดือน มีไข้: พบแพทย์ทันที'; the narration and captions for both say the full printed wording (มากกว่า 60 ครั้งต่อนาที; ทารกอายุน้อยกว่า 1 เดือน หากมีไข้ต้องไปพบแพทย์ทันที)."
+    ]
+  }
+}

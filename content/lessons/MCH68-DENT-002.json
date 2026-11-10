@@ -1,0 +1,371 @@
+{
+  "id": "MCH68-DENT-002",
+  "version": "0.1.1",
+  "title": "ยาสีฟันฟลูออไรด์: ปริมาณที่เหมาะกับวัย",
+  "summary": "ปริมาณยาสีฟันและความเข้มข้นของฟลูออไรด์ที่สมุดหน้า 64 แนะนำสำหรับเด็กแต่ละช่วงอายุ ตั้งแต่ฟันซี่แรก",
+  "sectionId": "dental",
+  "stages": [
+    "child"
+  ],
+  "audience": [
+    "mother",
+    "family"
+  ],
+  "minutes": 5,
+  "objectives": [
+    "ผู้เรียนบอกปริมาณยาสีฟันตามอายุได้ (ฟันซี่แรก-อายุต่ำกว่า 3 ปี: แตะขนแปรงพอเปียก หรือเท่าเมล็ดข้าวโพด; อายุ 3 - อายุต่ำกว่า 6 ปี: บีบเท่ากับความกว้างแปรง หรือเท่าเมล็ดข้าวโพด; อายุ 6 ปีขึ้นไป: บีบเท่ากับความยาวแปรง)",
+    "ผู้เรียนบอกความเข้มข้นฟลูออไรด์ตามสมุดได้ (ต่ำกว่า 6 ปี 1,000 ppm; 6 ปีขึ้นไป 1,500 ppm)",
+    "ผู้เรียนบอกได้ว่าการใช้ยาสีฟันที่มีความเข้มข้นของฟลูออไรด์ 1,400 - 1,500 ppm ควรอยู่ภายใต้การแนะนำของทันตบุคลากร"
+  ],
+  "handbookRef": {
+    "edition": "MCH-2568",
+    "pdfPages": [
+      64,
+      66
+    ],
+    "printedPages": [
+      "62",
+      "64"
+    ],
+    "note": "ช่องปริมาณยาสีฟันตามอายุในหัวข้อ 'เฝ้าดูฟัน 6 ขวบปีแรก' หน้า 64 ข้อความข้างหน้า 62 และบรรทัด 'เพิ่มเติม' เรื่อง 1,400 - 1,500 ppm ในหน้า 62"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "high",
+    "reviewNotes": [
+      "Source map: the three toothpaste panels (age label, amount, ppm) and the 7-11 month line 'แปรงฟันให้ลูกตั้งแต่ซี่แรกด้วยยาสีฟันผสมฟลูออไรด์' = PDF p66 (printed 64); margin tip 'สามารถใช้ยาสีฟันและแปรงสีฟันได้ตั้งแต่ฟันซี่แรกของลูก' and the sentence 'การใช้ยาสีฟันที่มีความเข้มข้นของฟลูออไรด์ 1,400 - 1,500 ppm ควรอยู่ภายใต้การแนะนำของทันตบุคลากร' = PDF p64 (printed 62).",
+      "FOR DENTIST REVIEW — amounts copied exactly from the official 2nd-printing p66 (checked on oimg/p66.jpg, a 200-dpi render of the official PDF and its text layer): ฟันซี่แรก-อายุต่ำกว่า 3 ปี 'แตะขนแปรงพอเปียก หรือเท่าเมล็ดข้าวโพด และใช้ยาสีฟันผสมฟลูออไรด์ 1,000 ppm'; อายุ 3 - อายุต่ำกว่า 6 ปี 'บีบเท่ากับความกว้างแปรง หรือเท่าเมล็ดข้าวโพด และใช้ยาสีฟันผสมฟลูออไรด์ 1,000 ppm'; อายุ 6 ปีขึ้นไป 'บีบเท่ากับความยาวแปรง และใช้ยาสีฟันผสมฟลูออไรด์ 1,500 ppm'.",
+      "HANDBOOK ISSUE: 'หรือเท่าเมล็ดข้าวโพด' is printed as the alternative amount in BOTH the under-3 panel (main wording: smear) and the 3-<6 panel (main wording: brush width). The 1st printing read 'เท่าเมล็ดข้าวสาร' for the under-3 panel (an older image in the scratchpad, hi/p66.png, still shows it — not used). The lesson copies both panels exactly; the quiz and sort never use 'เมล็ดข้าวโพด' to tell the groups apart. Dentist to confirm before publication.",
+      "HANDBOOK ISSUE: p66 (family panel) prints 1,500 ppm for age 6 and over with no condition, while the p64 'เพิ่มเติม' note says use of 1,400 - 1,500 ppm toothpaste should be under dental-staff advice. The lesson quotes each sentence with its page and does not resolve them.",
+      "Staff-side content NOT taught (p64 is the staff oral-health risk-assessment form): หมายเหตุ 1-3 (yellow/orange/red bands, 1,500 ppm for under-6s at orange/red risk, fluoride varnish, 3- and 6-month follow-up), the staff criteria in the 'เพิ่มเติม' note (drinking-water fluoride below 0.5 ppm, no oral fluoride supplements), and risk row 6 (toothpaste below 1,000 ppm). Because staff may advise differently for an individual child, the lesson adds an editorial deferral (see next note).",
+      "Editorial (not printed): 'เป็นหน้าที่ทันตบุคลากรใช้ประเมิน' (p64 does not say who fills it in; same wording as MCH68-DENT-003); 'ถ้าทันตบุคลากรแนะนำเรื่องยาสีฟันให้ลูกเป็นการเฉพาะ ให้ทำตามคำแนะนำนั้น' and the 'ถามทันตบุคลากร' pointers (text step 2, takeaway 5, family note, quiz q5 feedback); 'ปริมาณขึ้นกับอายุของเด็ก' framing; sort bucket labels combine age and amount. The handbook does not tell families how to find the ppm on a tube; the curriculum's label-reading game was not built.",
+      "Quiz scenarios q4 (grandfather brushing a 4-year-old's teeth) and q5 (dental staff gave individual advice) are written for this lesson; they only repeat p64/p66 statements. Sort cards (child ages) are written for the lesson. All distractors are written for the quiz.",
+      "Family note is editorial. Dentist / dental nurse (ทันตาภิบาล) to review (curriculum review requirement)."
+    ]
+  },
+  "history": [
+    {
+      "version": "0.1.0",
+      "date": "2026-11-09",
+      "author": "Claude Code (AI draft)",
+      "change": "First draft from official handbook PDF p64, p66 (2nd printing, April 2569)."
+    },
+    {
+      "version": "0.1.1",
+      "date": "2026-11-10",
+      "author": "Claude Code (AI draft)",
+      "change": "Added video step V-DENT-002 (narration derived from this lesson; no text changes)."
+    }
+  ],
+  "steps": [
+    {
+      "type": "text",
+      "heading": "ยาสีฟันฟลูออไรด์ ตั้งแต่ฟันซี่แรก",
+      "paragraphs": [
+        "สมุดเขียนว่า สามารถใช้ยาสีฟันและแปรงสีฟันได้ตั้งแต่ฟันซี่แรกของลูก",
+        "ช่วง 7-11 เดือน สมุดแนะนำให้แปรงฟันให้ลูกตั้งแต่ซี่แรกด้วยยาสีฟันผสมฟลูออไรด์",
+        "ปริมาณยาสีฟันและความเข้มข้นของฟลูออไรด์ (ppm) ขึ้นกับอายุของเด็ก สมุดหน้า 64 แบ่งไว้ 3 ช่วงอายุ"
+      ]
+    },
+    {
+      "type": "video",
+      "heading": "ดูวิดีโอสรุป",
+      "videoId": "V-DENT-002"
+    },
+    {
+      "type": "timeline",
+      "heading": "ปริมาณยาสีฟันตามวัย",
+      "intro": "เลือกช่วงอายุ แล้วแตะแต่ละข้อเพื่ออ่านปริมาณและความเข้มข้นตามสมุดหน้า 64",
+      "stages": [
+        {
+          "id": "u3",
+          "label": "ฟันซี่แรก - อายุต่ำกว่า 3 ปี",
+          "items": [
+            {
+              "n": 1,
+              "title": "ปริมาณยาสีฟัน",
+              "detail": "แตะขนแปรงพอเปียก หรือเท่าเมล็ดข้าวโพด"
+            },
+            {
+              "n": 2,
+              "title": "ความเข้มข้นฟลูออไรด์",
+              "detail": "ใช้ยาสีฟันผสมฟลูออไรด์ 1,000 ppm"
+            }
+          ]
+        },
+        {
+          "id": "y3-6",
+          "label": "อายุ 3 - อายุต่ำกว่า 6 ปี",
+          "items": [
+            {
+              "n": 3,
+              "title": "ปริมาณยาสีฟัน",
+              "detail": "บีบเท่ากับความกว้างแปรง หรือเท่าเมล็ดข้าวโพด"
+            },
+            {
+              "n": 4,
+              "title": "ความเข้มข้นฟลูออไรด์",
+              "detail": "ใช้ยาสีฟันผสมฟลูออไรด์ 1,000 ppm"
+            }
+          ]
+        },
+        {
+          "id": "y6",
+          "label": "อายุ 6 ปีขึ้นไป",
+          "items": [
+            {
+              "n": 5,
+              "title": "ปริมาณยาสีฟัน",
+              "detail": "บีบเท่ากับความยาวแปรง"
+            },
+            {
+              "n": 6,
+              "title": "ความเข้มข้นฟลูออไรด์",
+              "detail": "ใช้ยาสีฟันผสมฟลูออไรด์ 1,500 ppm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "heading": "เด็กคนนี้ ใช้ยาสีฟันแบบไหน",
+      "intro": "แตะอายุของเด็ก แล้วแตะช่องปริมาณยาสีฟันที่ตรงกับสมุดหน้า 64",
+      "buckets": [
+        {
+          "id": "u3",
+          "label": "ฟันซี่แรก - ต่ำกว่า 3 ปี: แตะขนแปรงพอเปียก หรือเท่าเมล็ดข้าวโพด (1,000 ppm)"
+        },
+        {
+          "id": "y3-6",
+          "label": "3 - ต่ำกว่า 6 ปี: บีบเท่ากับความกว้างแปรง หรือเท่าเมล็ดข้าวโพด (1,000 ppm)"
+        },
+        {
+          "id": "y6",
+          "label": "6 ปีขึ้นไป: บีบเท่ากับความยาวแปรง (1,500 ppm)"
+        }
+      ],
+      "items": [
+        {
+          "id": "c1",
+          "text": "ลูกเพิ่งมีฟันซี่แรกขึ้น",
+          "bucketId": "u3"
+        },
+        {
+          "id": "c2",
+          "text": "เด็กอายุ 5 ปี",
+          "bucketId": "y3-6"
+        },
+        {
+          "id": "c3",
+          "text": "เด็กอายุ 8 ปี",
+          "bucketId": "y6"
+        },
+        {
+          "id": "c4",
+          "text": "เด็กอายุ 2 ปี",
+          "bucketId": "u3"
+        },
+        {
+          "id": "c5",
+          "text": "เด็กอายุ 3 ปี",
+          "bucketId": "y3-6"
+        },
+        {
+          "id": "c6",
+          "text": "เด็กอายุ 6 ปี",
+          "bucketId": "y6"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "heading": "ทันตบุคลากรช่วยแนะนำได้",
+      "paragraphs": [
+        "สมุดหน้า 62 'การประเมินความเสี่ยงต่อสุขภาพช่องปาก' เป็นหน้าที่ทันตบุคลากรใช้ประเมิน และมีช่อง 'การให้คำแนะนำ' ตามอายุของลูก",
+        "หน้า 62 เขียนไว้ว่า การใช้ยาสีฟันที่มีความเข้มข้นของฟลูออไรด์ 1,400 - 1,500 ppm ควรอยู่ภายใต้การแนะนำของทันตบุคลากร",
+        "ถ้าทันตบุคลากรแนะนำเรื่องยาสีฟันให้ลูกเป็นการเฉพาะ ให้ทำตามคำแนะนำนั้น ถ้าไม่แน่ใจ ถามทันตบุคลากร"
+      ]
+    },
+    {
+      "type": "quiz",
+      "heading": "ทบทวนความเข้าใจ",
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "prompt": "ตามสมุดหน้า 64 เด็กช่วง 'ฟันซี่แรก - อายุต่ำกว่า 3 ปี' ใช้ยาสีฟันปริมาณเท่าไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "บีบเท่ากับความยาวแปรง",
+              "feedback": "ยังไม่ใช่ ปริมาณนี้สำหรับอายุ 6 ปีขึ้นไป"
+            },
+            {
+              "id": "b",
+              "text": "แตะขนแปรงพอเปียก หรือเท่าเมล็ดข้าวโพด",
+              "feedback": "ถูกต้อง ตามที่พิมพ์ในสมุดหน้า 64"
+            },
+            {
+              "id": "c",
+              "text": "บีบให้เต็มแปรงทุกครั้ง",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่าแตะขนแปรงพอเปียก หรือเท่าเมล็ดข้าวโพด"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "สมุดหน้า 64: ฟันซี่แรก-อายุต่ำกว่า 3 ปี แตะขนแปรงพอเปียก หรือเท่าเมล็ดข้าวโพด และใช้ยาสีฟันผสมฟลูออไรด์ 1,000 ppm",
+          "source": {
+            "pdfPages": [
+              66
+            ],
+            "printedPages": [
+              "64"
+            ]
+          }
+        },
+        {
+          "id": "q2",
+          "kind": "mcq",
+          "prompt": "ตามสมุดหน้า 64 เด็กอายุ 6 ปีขึ้นไป ใช้ยาสีฟันผสมฟลูออไรด์กี่ ppm",
+          "options": [
+            {
+              "id": "a",
+              "text": "500 ppm",
+              "feedback": "ยังไม่ใช่ สมุดเขียนว่า 1,500 ppm"
+            },
+            {
+              "id": "b",
+              "text": "1,000 ppm",
+              "feedback": "ยังไม่ใช่ 1,000 ppm คือของเด็กอายุต่ำกว่า 6 ปีในสมุดหน้า 64"
+            },
+            {
+              "id": "c",
+              "text": "1,500 ppm",
+              "feedback": "ถูกต้อง อายุ 6 ปีขึ้นไป ใช้ยาสีฟันผสมฟลูออไรด์ 1,500 ppm"
+            }
+          ],
+          "correctOptionId": "c",
+          "explanation": "สมุดหน้า 64: อายุ 6 ปีขึ้นไป บีบเท่ากับความยาวแปรง และใช้ยาสีฟันผสมฟลูออไรด์ 1,500 ppm",
+          "source": {
+            "pdfPages": [
+              66
+            ],
+            "printedPages": [
+              "64"
+            ]
+          }
+        },
+        {
+          "id": "q3",
+          "kind": "truefalse",
+          "prompt": "จริงหรือไม่: สมุดเขียนว่า สามารถใช้ยาสีฟันและแปรงสีฟันได้ตั้งแต่ฟันซี่แรกของลูก",
+          "options": [
+            {
+              "id": "a",
+              "text": "จริง",
+              "feedback": "ถูกต้อง ข้อความนี้อยู่ข้างหน้า 62 ของสมุด"
+            },
+            {
+              "id": "b",
+              "text": "ไม่จริง",
+              "feedback": "ข้อความนี้ตรงกับสมุด: สามารถใช้ยาสีฟันและแปรงสีฟันได้ตั้งแต่ฟันซี่แรกของลูก"
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "ข้อความข้างหน้า 62: สามารถใช้ยาสีฟันและแปรงสีฟันได้ตั้งแต่ฟันซี่แรกของลูก และหน้า 64 ช่วง 7-11 เดือน แนะนำให้แปรงฟันให้ลูกตั้งแต่ซี่แรกด้วยยาสีฟันผสมฟลูออไรด์",
+          "source": {
+            "pdfPages": [
+              64,
+              66
+            ],
+            "printedPages": [
+              "62",
+              "64"
+            ]
+          }
+        },
+        {
+          "id": "q4",
+          "kind": "scenario",
+          "scenario": "คุณตาช่วยแปรงฟันให้หลานอายุ 4 ปีทุกเช้า และอยากรู้ว่าควรบีบยาสีฟันเท่าไร",
+          "prompt": "สมุดหน้า 64 แนะนำปริมาณเท่าไรสำหรับอายุนี้",
+          "options": [
+            {
+              "id": "a",
+              "text": "บีบเท่ากับความกว้างแปรง หรือเท่าเมล็ดข้าวโพด",
+              "feedback": "ถูกต้อง อายุ 3 - อายุต่ำกว่า 6 ปี บีบเท่ากับความกว้างแปรง หรือเท่าเมล็ดข้าวโพด"
+            },
+            {
+              "id": "b",
+              "text": "บีบเท่ากับความยาวแปรง",
+              "feedback": "ยังไม่ใช่ ปริมาณนี้สำหรับอายุ 6 ปีขึ้นไป"
+            },
+            {
+              "id": "c",
+              "text": "ไม่ต้องใช้ยาสีฟัน",
+              "feedback": "ยังไม่ใช่ สมุดแนะนำให้ใช้ยาสีฟันผสมฟลูออไรด์ตั้งแต่ฟันซี่แรก"
+            }
+          ],
+          "correctOptionId": "a",
+          "explanation": "สมุดหน้า 64: อายุ 3 - อายุต่ำกว่า 6 ปี บีบเท่ากับความกว้างแปรง หรือเท่าเมล็ดข้าวโพด และใช้ยาสีฟันผสมฟลูออไรด์ 1,000 ppm",
+          "source": {
+            "pdfPages": [
+              66
+            ],
+            "printedPages": [
+              "64"
+            ]
+          }
+        },
+        {
+          "id": "q5",
+          "kind": "scenario",
+          "scenario": "ทันตบุคลากรตรวจฟันลูก แล้วให้คำแนะนำเรื่องยาสีฟันสำหรับลูกโดยเฉพาะ",
+          "prompt": "ควรทำอย่างไร",
+          "options": [
+            {
+              "id": "a",
+              "text": "ไม่สนใจคำแนะนำ ใช้ตามที่เคยใช้",
+              "feedback": "ยังไม่ใช่ ทันตบุคลากรเป็นผู้ประเมินฟันของลูก ควรทำตามคำแนะนำ ถ้าไม่แน่ใจ ถามทันตบุคลากร"
+            },
+            {
+              "id": "b",
+              "text": "ทำตามคำแนะนำของทันตบุคลากร ถ้าไม่แน่ใจ ถามทันตบุคลากร",
+              "feedback": "ใช่ สมุดหน้า 62 มีช่อง 'การให้คำแนะนำ' ที่ทันตบุคลากรใช้ และการใช้ยาสีฟันฟลูออไรด์ 1,400 - 1,500 ppm ควรอยู่ภายใต้การแนะนำของทันตบุคลากร"
+            },
+            {
+              "id": "c",
+              "text": "เปลี่ยนยาสีฟันเองตามที่คนอื่นบอก",
+              "feedback": "ยังไม่ใช่ ควรทำตามคำแนะนำของทันตบุคลากรที่ตรวจฟันลูก"
+            }
+          ],
+          "correctOptionId": "b",
+          "explanation": "สมุดหน้า 62 เป็นหน้าการประเมินความเสี่ยงต่อสุขภาพช่องปาก มีช่อง 'การให้คำแนะนำ' และเขียนว่าการใช้ยาสีฟันที่มีความเข้มข้นของฟลูออไรด์ 1,400 - 1,500 ppm ควรอยู่ภายใต้การแนะนำของทันตบุคลากร",
+          "source": {
+            "pdfPages": [
+              64
+            ],
+            "printedPages": [
+              "62"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "takeaways",
+      "heading": "สรุปสิ่งสำคัญ",
+      "items": [
+        "ใช้ยาสีฟันและแปรงสีฟันได้ตั้งแต่ฟันซี่แรกของลูก",
+        "ฟันซี่แรก - อายุต่ำกว่า 3 ปี: แตะขนแปรงพอเปียก หรือเท่าเมล็ดข้าวโพด ยาสีฟันผสมฟลูออไรด์ 1,000 ppm",
+        "อายุ 3 - อายุต่ำกว่า 6 ปี: บีบเท่ากับความกว้างแปรง หรือเท่าเมล็ดข้าวโพด ยาสีฟันผสมฟลูออไรด์ 1,000 ppm",
+        "อายุ 6 ปีขึ้นไป: บีบเท่ากับความยาวแปรง ยาสีฟันผสมฟลูออไรด์ 1,500 ppm",
+        "ทันตบุคลากรแนะนำเรื่องยาสีฟันให้ลูกเป็นการเฉพาะ ให้ทำตามนั้น ไม่แน่ใจ ถามทันตบุคลากร"
+      ],
+      "familyNote": "ทุกคนที่แปรงฟันให้เด็ก เช่น พ่อแม่ ปู่ย่าตายาย หรือคนที่ดูแล ควรรู้ปริมาณยาสีฟันตามอายุของเด็กในบ้าน เปิดสมุดหน้า 64 ดูด้วยกันได้ และถามทันตบุคลากรเมื่อไม่แน่ใจ"
+    }
+  ]
+}

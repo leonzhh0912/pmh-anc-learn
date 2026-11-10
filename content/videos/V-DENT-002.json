@@ -1,0 +1,30 @@
+{
+  "id": "V-DENT-002",
+  "lessonId": "MCH68-DENT-002",
+  "title": "ยาสีฟันฟลูออไรด์: ปริมาณที่เหมาะกับวัย",
+  "mp4": "media/V-DENT-002.mp4",
+  "captionsVtt": "media/V-DENT-002.th.vtt",
+  "poster": "media/V-DENT-002.jpg",
+  "durationSec": 81.5,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "high",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-DENT-002 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of 'ฟลูออไรด์', 'พี พี เอ็ม', 'หนึ่งพัน', 'หนึ่งพันห้าร้อย', 'เมล็ดข้าวโพด', 'หกสิบสี่'.",
+      "Dentist: the three amounts are the exact printed descriptors from p66 (printed 64), on screen and in the narration. Item 3 ('บีบเท่ากับความกว้างแปรง หรือเท่าเมล็ดข้าวโพด') is longer than the usual 40-character limit so that the printed descriptor is not changed.",
+      "Lesson HANDBOOK ISSUE: 'หรือเท่าเมล็ดข้าวโพด' is printed for both the under-3 and the 3-<6 groups (1st printing had 'เมล็ดข้าวสาร' for under-3). The video copies both exactly; dentist to confirm before narration is produced.",
+      "Lesson HANDBOOK ISSUE: p66 gives 1,500 ppm for 6 years and over without condition, while p64 says 1,400 - 1,500 ppm should be under dental-staff advice. The p64 sentence is not narrated; summary point 3 uses the lesson's editorial deferral ('ทันตบุคลากรแนะนำเป็นการเฉพาะ ให้ทำตามนั้น').",
+      "Staff-side p64 notes (risk colours, 1,500 ppm for under-6s at higher risk, water-fluoride criteria, varnish, follow-up intervals) are not in the video, same as the lesson."
+    ]
+  }
+}

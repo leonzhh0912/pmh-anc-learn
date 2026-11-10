@@ -1,0 +1,147 @@
+{
+  "id": "V-GROW-008",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 2542,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 347,
+      "segments": [
+        {
+          "file": "audio/V-GROW-008/intro-1-a626a88951.wav",
+          "from": 18,
+          "durationInFrames": 190,
+          "caption": "สมุดเขียนว่า เด็กอายุ 6 เดือน - 5 ปี ทุกคน ต้องกินยาน้ำเสริมธาตุเหล็ก",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-GROW-008/intro-2-765b4882bd.wav",
+          "from": 222,
+          "durationInFrames": 98,
+          "caption": "มาดูว่าทำไม และสมุดแนะนำให้ทำอย่างไร",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 347,
+      "durationInFrames": 689,
+      "segments": [
+        {
+          "file": "audio/V-GROW-008/stage1-1-87251df657.wav",
+          "from": 18,
+          "durationInFrames": 91,
+          "caption": "ตอนที่ 1 ทำไมเด็กต้องได้รับธาตุเหล็ก",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-008/stage1-2-debd7c2ec0.wav",
+          "from": 123,
+          "durationInFrames": 163,
+          "caption": "ข้อ 1 ภาวะซีดจากการขาดธาตุเหล็ก ส่งผลต่อสติปัญญาของเด็ก",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-GROW-008/stage1-3-ccdc1dacbd.wav",
+          "from": 300,
+          "durationInFrames": 120,
+          "caption": "ข้อ 2 ควรได้รับการคัดกรองภาวะซีดตามกำหนด",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-GROW-008/stage1-4-924b9d8a7c.wav",
+          "from": 434,
+          "durationInFrames": 228,
+          "caption": "ข้อ 3 ยาน้ำเสริมธาตุเหล็กในเด็ก ช่วยทำให้เด็กเจริญอาหาร เป็นโอกาสในการฝึกกินอาหารตามวัย",
+          "reveal": 3
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1036,
+      "durationInFrames": 972,
+      "segments": [
+        {
+          "file": "audio/V-GROW-008/stage2-1-28e6ad9310.wav",
+          "from": 18,
+          "durationInFrames": 94,
+          "caption": "ตอนที่ 2 สมุดแนะนำให้ทำอะไร",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-008/stage2-2-3bbce99027.wav",
+          "from": 126,
+          "durationInFrames": 110,
+          "caption": "ข้อ 4 เด็กอายุ 6 เดือน - 5 ปี ทุกคน",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-GROW-008/stage2-3-f608956b30.wav",
+          "from": 250,
+          "durationInFrames": 122,
+          "caption": "ข้อ 5 ต้องกินยาน้ำเสริมธาตุเหล็ก สัปดาห์ละ 1 ครั้ง",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-GROW-008/stage2-4-63646d1df4.wav",
+          "from": 386,
+          "durationInFrames": 235,
+          "caption": "ข้อ 6 กินร่วมกับการกินไข่ทุกวัน หรือกินไข่สลับกับตับ ซึ่งเป็นแหล่งสำคัญของวิตามินเอ และโฟเลต",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-GROW-008/stage2-5-09bba2bd73.wav",
+          "from": 635,
+          "durationInFrames": 310,
+          "caption": "ข้อ 7 ข้อความนี้พิมพ์ไว้หลายหน้า ทั้งหน้าอาหารทารก และธงโภชนาการเด็ก สมุดหน้า 55, 56, 57",
+          "reveal": 7
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 2008,
+      "durationInFrames": 534,
+      "segments": [
+        {
+          "file": "audio/V-GROW-008/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-GROW-008/summary-2-2ea54300aa.wav",
+          "from": 78,
+          "durationInFrames": 180,
+          "caption": "เด็กอายุ 6 เดือน - 5 ปี ทุกคน ต้องกินยาน้ำเสริมธาตุเหล็ก สัปดาห์ละ 1 ครั้ง",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-GROW-008/summary-3-feee393073.wav",
+          "from": 272,
+          "durationInFrames": 101,
+          "caption": "กินร่วมกับไข่ทุกวัน หรือกินไข่สลับกับตับ",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-GROW-008/summary-4-a895dccd84.wav",
+          "from": 387,
+          "durationInFrames": 120,
+          "caption": "ภาวะซีดจากการขาดธาตุเหล็ก ส่งผลต่อสติปัญญาของเด็ก",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "V-K-003",
+  "lessonId": "MCH68-K-003",
+  "title": "ยาเม็ดเสริมธาตุเหล็ก ไอโอดีน และโฟลิก ทุกวัน",
+  "mp4": "media/V-K-003.mp4",
+  "captionsVtt": "media/V-K-003.th.vtt",
+  "poster": "media/V-K-003.jpg",
+  "durationSec": 72.2,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "editorial": {
+    "status": "DRAFT",
+    "author": "Claude Code (AI draft) for PMH developer",
+    "medicalReviewer": null,
+    "reviewDate": null,
+    "clinicalRisk": "high",
+    "reviewNotes": [
+      "Narration derived only from lesson MCH68-K-003 v0.1.0; no new content.",
+      "Thai-speaking reviewer: check pronunciation of ไอโอดีน, โฟลิก, ธาตุเหล็ก, ภาวะซีด, ไตรมาส.",
+      "No dose, number of tablets, time of day, brand, side effect or storage is narrated (none printed).",
+      "Lesson HANDBOOK ISSUE (p67 says 'วิตามินเสริม (เหล็ก/โฟลิก)' before pregnancy; p23–25 say 'ยาเม็ดเสริมธาตุเหล็ก ไอโอดีน และโฟลิก' during pregnancy): each wording is kept with its own period (items 1–2 vs 3–5); the video does not say whether they are the same tablet.",
+      "Lesson HANDBOOK ISSUE (breastfeeding not covered by the p25 banner): nothing about breastfeeding is narrated.",
+      "Not narrated: family note."
+    ]
+  }
+}

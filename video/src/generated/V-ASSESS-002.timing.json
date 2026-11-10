@@ -1,0 +1,175 @@
+{
+  "id": "V-ASSESS-002",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 3111,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 299,
+      "segments": [
+        {
+          "file": "audio/V-ASSESS-002/intro-1-1c12822083.wav",
+          "from": 18,
+          "durationInFrames": 110,
+          "caption": "ภาวะซึมเศร้าหลังคลอด เกิดขึ้นได้กับทุกคน",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-ASSESS-002/intro-2-eb7ad0ff40.wav",
+          "from": 142,
+          "durationInFrames": 130,
+          "caption": "เรื่องนี้สำหรับคุณแม่ และคนในครอบครัวที่ดูแลคุณแม่",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 299,
+      "durationInFrames": 744,
+      "segments": [
+        {
+          "file": "audio/V-ASSESS-002/stage1-1-4d52dc7140.wav",
+          "from": 18,
+          "durationInFrames": 84,
+          "caption": "ตอนที่ 1 เกิดขึ้นได้กับทุกคน",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-ASSESS-002/stage1-2-411e975aaf.wav",
+          "from": 116,
+          "durationInFrames": 194,
+          "caption": "ภาวะซึมเศร้าหลังคลอด เกิดขึ้นได้กับทุกคน โดยไม่จำเป็นต้องเคยมีประวัติซึมเศร้ามาก่อน",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-ASSESS-002/stage1-3-f933f16d94.wav",
+          "from": 324,
+          "durationInFrames": 204,
+          "caption": "สมุดบอกว่า เมื่อตั้งครรภ์ ฮอร์โมนที่เปลี่ยนแปลง จะส่งผลต่ออารมณ์ของหญิงตั้งครรภ์ได้มาก",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-ASSESS-002/stage1-4-0c005a3c1d.wav",
+          "from": 542,
+          "durationInFrames": 175,
+          "caption": "การบอกความรู้สึกให้คนใกล้ตัวและเจ้าหน้าที่รู้ เป็นก้าวแรกของการดูแลใจ",
+          "reveal": 3
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 1043,
+      "durationInFrames": 801,
+      "segments": [
+        {
+          "file": "audio/V-ASSESS-002/stage2-1-ffb0a5b8b4.wav",
+          "from": 18,
+          "durationInFrames": 79,
+          "caption": "ตอนที่ 2 การประเมินหลังคลอด",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-ASSESS-002/stage2-2-88010c62f5.wav",
+          "from": 111,
+          "durationInFrames": 149,
+          "caption": "ในระยะหลังคลอด 4-6 สัปดาห์ มีแบบประเมินภาวะซึมเศร้าหลังคลอด",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-ASSESS-002/stage2-3-dbc7f4b99d.wav",
+          "from": 274,
+          "durationInFrames": 137,
+          "caption": "ถามถึงความรู้สึกใน 7 วันที่ผ่านมา ไม่ใช่ความรู้สึกในวันนี้",
+          "reveal": 4
+        },
+        {
+          "file": "audio/V-ASSESS-002/stage2-4-bfe7343dd8.wav",
+          "from": 425,
+          "durationInFrames": 194,
+          "caption": "แม่ควรอ่านแบบประเมินด้วยตนเอง ถ้ามีปัญหาในการอ่านภาษาไทย ให้เจ้าหน้าที่อ่านให้ฟังได้",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-ASSESS-002/stage2-5-61460f5ae8.wav",
+          "from": 633,
+          "durationInFrames": 141,
+          "caption": "เมื่อหลังคลอดมากกว่า 6 สัปดาห์ เจ้าหน้าที่จะประเมินสุขภาพจิตอีกครั้ง",
+          "reveal": 6
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 1844,
+      "durationInFrames": 657,
+      "segments": [
+        {
+          "file": "audio/V-ASSESS-002/stage3-1-7586c99870.wav",
+          "from": 18,
+          "durationInFrames": 125,
+          "caption": "ตอนที่ 3 เมื่อคุณแม่รู้สึกเศร้าหรือทุกข์ใจ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-ASSESS-002/stage3-2-a9a8220258.wav",
+          "from": 157,
+          "durationInFrames": 238,
+          "caption": "ขอรับคำปรึกษาจากบุคลากรสาธารณสุข เพื่อดูแลจิตใจ หรือได้รับการส่งต่อเพื่อรักษาต่อไป",
+          "reveal": 7
+        },
+        {
+          "file": "audio/V-ASSESS-002/stage3-3-df3ad55832.wav",
+          "from": 409,
+          "durationInFrames": 221,
+          "caption": "คนในครอบครัวหรือคนที่ดูแล ช่วยได้ด้วยการรับฟังโดยไม่ตำหนิ และพาคุณแม่ไปขอรับคำปรึกษา",
+          "reveal": 8
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 2501,
+      "durationInFrames": 610,
+      "segments": [
+        {
+          "file": "audio/V-ASSESS-002/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 46,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-ASSESS-002/summary-2-1b04356661.wav",
+          "from": 78,
+          "durationInFrames": 185,
+          "caption": "ภาวะซึมเศร้าหลังคลอด เกิดขึ้นได้กับทุกคน แม้ไม่เคยมีประวัติซึมเศร้ามาก่อน",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-ASSESS-002/summary-3-3ca4e5765c.wav",
+          "from": 277,
+          "durationInFrames": 137,
+          "caption": "หลังคลอด 4-6 สัปดาห์ มีการประเมินภาวะซึมเศร้าหลังคลอด",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-ASSESS-002/summary-4-4d88999c7e.wav",
+          "from": 428,
+          "durationInFrames": 155,
+          "caption": "รู้สึกเศร้าหรือทุกข์ใจ ขอรับคำปรึกษาจากบุคลากรสาธารณสุขได้",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "id": "V-K-017",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 3246,
+  "narration": "cloud-tts",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice": "MYZYcGOqrkYQcwDunXl7",
+    "model": "eleven_v3"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "from": 0,
+      "durationInFrames": 290,
+      "segments": [
+        {
+          "file": "audio/V-K-017/intro-1-0e6e026010.wav",
+          "from": 18,
+          "durationInFrames": 101,
+          "caption": "สมองทนต่อการขาดอากาศได้ไม่เกิน 4 นาที",
+          "reveal": null
+        },
+        {
+          "file": "audio/V-K-017/intro-2-ada520b377.wav",
+          "from": 133,
+          "durationInFrames": 130,
+          "caption": "มาดูลำดับการกู้ชีพโดยการกดหัวใจ ตามสมุดหน้า 30",
+          "reveal": null
+        }
+      ]
+    },
+    {
+      "id": "stage1",
+      "from": 290,
+      "durationInFrames": 692,
+      "segments": [
+        {
+          "file": "audio/V-K-017/stage1-1-f3cd44cd64.wav",
+          "from": 18,
+          "durationInFrames": 159,
+          "caption": "ตอนที่ 1 เมื่อพบเด็กหมดสติ ไม่มีการตอบสนอง ไม่หายใจ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-017/stage1-2-7247fd41e5.wav",
+          "from": 191,
+          "durationInFrames": 89,
+          "caption": "ข้อ 1 ตบฝ่าเท้า/ร้องเรียก",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-017/stage1-3-33999e6a7f.wav",
+          "from": 294,
+          "durationInFrames": 108,
+          "caption": "ข้อ 2 โทร 1669",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-K-017/stage1-4-247aa94c1b.wav",
+          "from": 416,
+          "durationInFrames": 110,
+          "caption": "ข้อ 3 ดูการเคลื่อนไหวของหน้าอกและหน้าท้อง",
+          "reveal": 3
+        },
+        {
+          "file": "audio/V-K-017/stage1-5-733c3f52f9.wav",
+          "from": 540,
+          "durationInFrames": 125,
+          "caption": "ถ้าไม่หายใจ หรือหากไม่แน่ใจ ให้เริ่มกดหน้าอกเลย",
+          "reveal": 4
+        }
+      ]
+    },
+    {
+      "id": "stage2",
+      "from": 982,
+      "durationInFrames": 838,
+      "segments": [
+        {
+          "file": "audio/V-K-017/stage2-1-6d41fc30e2.wav",
+          "from": 18,
+          "durationInFrames": 90,
+          "caption": "ตอนที่ 2 หลักการกดหน้าอกและเป่าปาก",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-017/stage2-2-28edb6c38a.wav",
+          "from": 122,
+          "durationInFrames": 71,
+          "caption": "กด 30 : เป่า 2",
+          "reveal": 5
+        },
+        {
+          "file": "audio/V-K-017/stage2-3-f577fe35a0.wav",
+          "from": 207,
+          "durationInFrames": 106,
+          "caption": "กดที่ความเร็ว 120 ครั้ง/นาที",
+          "reveal": 6
+        },
+        {
+          "file": "audio/V-K-017/stage2-4-45cf7424ae.wav",
+          "from": 327,
+          "durationInFrames": 223,
+          "caption": "กดลึก 1/3 ของความหนาทรวงอก และปล่อยให้หน้าอกยกคืนกลับสู่ตำแหน่งปกติก่อนจะกดครั้งต่อไป",
+          "reveal": 7
+        },
+        {
+          "file": "audio/V-K-017/stage2-5-31056bd66c.wav",
+          "from": 564,
+          "durationInFrames": 247,
+          "caption": "หากมีผู้ช่วย ให้ใช้การ กด 15 : เป่า 2 ทำไปเรื่อย ๆ จนกว่าเจ้าหน้าที่กู้ชีพจะมา",
+          "reveal": 8
+        }
+      ]
+    },
+    {
+      "id": "stage3",
+      "from": 1820,
+      "durationInFrames": 807,
+      "segments": [
+        {
+          "file": "audio/V-K-017/stage3-1-cade6e12a5.wav",
+          "from": 18,
+          "durationInFrames": 98,
+          "caption": "ตอนที่ 3 ตำแหน่งกด และการเป่าปาก",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-017/stage3-2-490aabe05e.wav",
+          "from": 130,
+          "durationInFrames": 108,
+          "caption": "เด็กทารก ใช้ 2 นิ้วกดกลางกระดูกหน้าอก",
+          "reveal": 9
+        },
+        {
+          "file": "audio/V-K-017/stage3-3-b37bcdbbc7.wav",
+          "from": 252,
+          "durationInFrames": 156,
+          "caption": "เด็ก ใช้อุ้งมือกดกลางกระดูกหน้าอก อาจใช้เพียงมือเดียวในเด็กที่ตัวเล็ก",
+          "reveal": 10
+        },
+        {
+          "file": "audio/V-K-017/stage3-4-1d8ce029b0.wav",
+          "from": 422,
+          "durationInFrames": 204,
+          "caption": "การเป่าปาก ใช้มือยกคางเด็กขึ้น เงยศีรษะไปด้านหลัง และเอียงหน้าออกเล็กน้อย",
+          "reveal": 11
+        },
+        {
+          "file": "audio/V-K-017/stage3-5-68ed740665.wav",
+          "from": 640,
+          "durationInFrames": 140,
+          "caption": "จากนั้นประกบปาก แล้วเป่าลม จนหน้าอกขยายตัวยกขึ้น",
+          "reveal": 11
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "from": 2627,
+      "durationInFrames": 619,
+      "segments": [
+        {
+          "file": "audio/V-K-017/summary-1-53434110a1.wav",
+          "from": 18,
+          "durationInFrames": 43,
+          "caption": "สรุปเรื่องสำคัญ",
+          "reveal": 0
+        },
+        {
+          "file": "audio/V-K-017/summary-2-c8303bc9ec.wav",
+          "from": 75,
+          "durationInFrames": 247,
+          "caption": "พบเด็กหมดสติ ตบฝ่าเท้า/ร้องเรียก โทร 1669 แล้วดูการเคลื่อนไหวของหน้าอกและหน้าท้อง",
+          "reveal": 1
+        },
+        {
+          "file": "audio/V-K-017/summary-3-c8509159dc.wav",
+          "from": 336,
+          "durationInFrames": 84,
+          "caption": "หากไม่แน่ใจ ให้เริ่มกดหน้าอกเลย",
+          "reveal": 2
+        },
+        {
+          "file": "audio/V-K-017/summary-4-488b552244.wav",
+          "from": 434,
+          "durationInFrames": 158,
+          "caption": "กด 30 : เป่า 2 ความเร็ว 120 ครั้ง/นาที",
+          "reveal": 3
+        }
+      ]
+    }
+  ]
+}
