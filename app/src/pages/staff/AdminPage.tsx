@@ -37,6 +37,8 @@ const actionLabel: Record<string, string> = {
   "admin.remove_learner_from_cohort": "นำผู้เรียนออกจากกลุ่ม",
   "admin.set_learner_status": "เปิด/ปิดบัญชีผู้เรียน",
   "bootstrap.admin_invitation": "สร้างผู้ดูแลระบบคนแรก (จากฐานข้อมูล)",
+  "admin.delete_learner": "ลบบัญชีผู้เรียน (เก็บข้อมูลการเรียนแบบไม่ระบุตัวตน 5 ปี)",
+  "system.purge_expired": "ลบข้อมูลที่ครบ 5 ปีแล้ว (อัตโนมัติ)",
 };
 
 const problemText = (e: unknown) => {
@@ -44,6 +46,8 @@ const problemText = (e: unknown) => {
   if (m === "last_active_admin") return "ทำไม่ได้: ต้องมีผู้ดูแลระบบที่ใช้งานอยู่อย่างน้อย 1 คน";
   if (m === "email_already_has_account") return "อีเมลนี้มีบัญชีอยู่แล้ว (เช่น บัญชีผู้เรียน) ใช้อีเมลงานอีกอีเมลหนึ่ง";
   if (m === "bad_email") return "อีเมลไม่ถูกต้อง";
+  if (m === "reason_required") return "ต้องใส่เหตุผลในการลบบัญชี";
+  if (m === "already_deleted") return "บัญชีนี้ถูกลบแล้ว";
   if (/duplicate key/.test(m)) return "มีบัญชีที่รอเปิดใช้สำหรับอีเมลนี้ หรือชื่อนี้อยู่แล้ว";
   return "ทำรายการไม่สำเร็จ ลองอีกครั้ง";
 };
@@ -247,6 +251,30 @@ function LearnerAdmin() {
       setMsg(problemText(e));
     }
   };
+  // Deleting cannot be undone: the person can no longer sign in, and their name and phone/email are removed
+  // at once. Learning records are kept without any link to the person for 5 years (research), then removed.
+  const remove = async (l: Learner) => {
+    const who = l.display_name || l.contact_hint;
+    const reason = window.prompt(
+      `ลบบัญชี “${who}”?\n\n` +
+        "• ผู้เรียนจะเข้าสู่ระบบไม่ได้อีก ชื่อและเบอร์/อีเมลถูกลบทันที\n" +
+        "• ข้อมูลการเรียนเก็บไว้แบบไม่ระบุตัวตน 5 ปีเพื่อการวิจัย แล้วลบอัตโนมัติ\n" +
+        "• ย้อนกลับไม่ได้\n\n" +
+        "พิมพ์เหตุผล (เช่น เด็กอายุครบตามที่โรงพยาบาลกำหนด) แล้วกดตกลง",
+    );
+    if (reason === null) return;
+    if (!reason.trim()) {
+      setMsg("ต้องใส่เหตุผลในการลบบัญชี");
+      return;
+    }
+    try {
+      await call("admin_delete_learner", { p_learner: l.id, p_reason: reason });
+      setMsg(`ลบบัญชี “${who}” แล้ว ข้อมูลการเรียนแบบไม่ระบุตัวตนจะถูกลบอัตโนมัติเมื่อครบ 5 ปี`);
+      await search(q);
+    } catch (e) {
+      setMsg(problemText(e));
+    }
+  };
   return (
     <section aria-label="บัญชีผู้เรียน">
       <p className="auth__hint">หน้านี้แสดงเฉพาะข้อมูลบัญชี ไม่แสดงความคืบหน้าการเรียน ใช้เพื่อจัดกลุ่มและเปิด/ปิดบัญชี</p>
@@ -281,18 +309,24 @@ function LearnerAdmin() {
                 );
               })}
             </fieldset>
-            <button
-              type="button"
-              className="btn btn--quiet"
-              onClick={() => void act("admin_set_learner_status", { p_learner: l.id, p_status: l.status === "active" ? "deactivated" : "active" })}
-            >
-              {l.status === "active" ? "ปิดใช้งานบัญชี" : "เปิดใช้งานบัญชี"}
-            </button>
+            <div className="auth__actions">
+              <button
+                type="button"
+                className="btn btn--quiet"
+                onClick={() => void act("admin_set_learner_status", { p_learner: l.id, p_status: l.status === "active" ? "deactivated" : "active" })}
+              >
+                {l.status === "active" ? "ปิดใช้งานบัญชี" : "เปิดใช้งานบัญชี"}
+              </button>
+              <button type="button" className="btn btn--quiet btn--danger" onClick={() => void remove(l)}>
+                ลบบัญชี
+              </button>
+            </div>
           </li>
         ))}
       </ul>
       <p className="staff__note">
         การกู้คืนบัญชี (เปลี่ยนเบอร์ เปลี่ยนอีเมล มือถือหาย) ทำตามขั้นตอนใน docs/ACCOUNTS-ADMIN-GUIDE.md เท่านั้น ห้ามรวมบัญชีเพราะชื่อเหมือนกัน
+        การลบบัญชี: ลบตัวตนทันที เก็บข้อมูลการเรียนแบบไม่ระบุตัวตน 5 ปีเพื่อการวิจัย แล้วระบบลบเอง
       </p>
     </section>
   );
@@ -327,6 +361,10 @@ function HealthPanel() {
     <dl className="facts">
       <dt>ผู้เรียนทั้งหมด</dt>
       <dd>{h.learners} (ใช้งาน {h.learners_active})</dd>
+      <dt>บัญชีที่ลบแล้ว (เก็บข้อมูลแบบไม่ระบุตัวตน)</dt>
+      <dd>
+        {h.deleted_kept} รายการ{h.next_purge ? ` · ลบอัตโนมัติครั้งถัดไป ${formatBangkok(h.next_purge as string)}` : ""}
+      </dd>
       <dt>เจ้าหน้าที่ที่ใช้งาน</dt>
       <dd>{h.staff_active} (ผู้ดูแลระบบ {h.admins_active})</dd>
       <dt>กิจกรรมการเรียน 24 ชม.</dt>

@@ -228,4 +228,16 @@ test("staff: an authorised nurse sees the learner; others cannot", async ({ brow
   await expect(nurseRow.getByLabel("คลินิกฝากครรภ์ (ข้อมูลทดสอบ)")).not.toBeChecked();
   await nurse.goto("/staff");
   await expect(nurse.getByText("พบ 0 คน")).toBeVisible();
+
+  // an administrator deletes the other learner's account (reason required; identity removed, records kept 5 years)
+  await admin.getByRole("tab", { name: "บัญชีผู้เรียน" }).click();
+  const otherRow = admin.locator(".admin__staff").filter({ hasText: "ot•••@example.test" });
+  admin.once("dialog", (d) => void d.accept("เด็กอายุครบตามที่โรงพยาบาลกำหนด (ทดสอบ)"));
+  await otherRow.getByRole("button", { name: "ลบบัญชี" }).click();
+  await expect(admin.getByText(/ลบบัญชี .* แล้ว/)).toBeVisible();
+  await expect(otherRow).toHaveCount(0);
+  const gone = await db.query("select count(*)::int n from auth.users where email = $1", [OTHER]);
+  expect(gone.rows[0].n).toBe(0);
+  await admin.getByRole("tab", { name: "สถานะระบบ" }).click();
+  await expect(admin.locator(".facts")).toContainText("บัญชีที่ลบแล้ว");
 });

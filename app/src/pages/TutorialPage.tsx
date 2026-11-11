@@ -352,7 +352,7 @@ function VideoPractice({ done, onDone }: P) {
             <track kind="captions" srcLang="th" label="ไทย" src={`${base}media/APP-TUTORIAL.th.vtt`} />
           </video>
           <figcaption className="video__meta">
-            <span>วิดีโอวิธีใช้งาน ความยาวประมาณ 2 นาที มีข้อความภาษาไทยบนวิดีโอ และเปิดคำบรรยาย (CC) เพิ่มได้</span>
+            <span>วิดีโอวิธีใช้งาน ความยาวประมาณ 1 นาทีครึ่ง มีข้อความภาษาไทยบนวิดีโอ และเปิดคำบรรยาย (CC) เพิ่มได้</span>
             <span className="video__draft">ฉบับร่าง รอโรงพยาบาลตรวจทาน</span>
           </figcaption>
         </figure>

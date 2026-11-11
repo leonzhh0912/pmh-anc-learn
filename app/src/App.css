@@ -801,3 +801,5 @@
 /* topbar with an account link: keep each item on one line; the text-size buttons wrap under on narrow phones */
 .topbar { flex-wrap: wrap; row-gap: 6px; }
 .topbar__name, .topbar__org, .topbar__account, .syncchip { white-space: nowrap; }
+.btn--danger { color: #9b1c1c; border-color: #e7b4b4; }
+.btn--danger:hover { border-color: #9b1c1c; }

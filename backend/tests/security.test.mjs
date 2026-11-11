@@ -357,3 +357,57 @@ describe("staff access", () => {
     assert.ok(staffSecret);
   });
 });
+
+describe("deletion and 5-year retention", () => {
+  test("only an admin with a second factor can delete, and a reason is required", async () => {
+    const { client, user } = await emailSignIn(mail("to-delete"), { display_name: "คุณซี (ทดสอบ)" });
+    await rpc(client, "sync_learning", {
+      p_events: [ev("lesson_complete", L1, { stepCount: 7, version: "1.0.0" }), ev("quiz_answer", L1, { questionId: "q1", correct: true })],
+    });
+    assert.equal((await rpc(staff, "admin_delete_learner", { p_learner: user.id, p_reason: "x" })).error, "not_admin");
+    assert.equal((await rpc(client, "admin_delete_learner", { p_learner: user.id, p_reason: "x" })).error, "not_staff");
+    assert.equal((await rpc(admin.client, "admin_delete_learner", { p_learner: user.id, p_reason: " " })).error, "reason_required");
+  });
+
+  test("deleting removes the sign-in and identity at once and keeps de-identified records for 5 years", async () => {
+    const { rows: [c] } = await db.query("select id from auth.users where email = $1", [mail("to-delete")]);
+    await rpc(admin.client, "admin_set_learner_cohort", { p_learner: c.id, p_cohort: cohortId, p_member: true });
+    assert.ok((await rpc(staff, "staff_list_learners", { p_query: "คุณซี" })).data.total === 1);
+
+    const r = await rpc(admin.client, "admin_delete_learner", { p_learner: c.id, p_reason: "เด็กอายุครบตามที่โรงพยาบาลกำหนด (ทดสอบ)" });
+    assert.ifError(r.error);
+    const years = (Date.parse(r.data.purge_after) - Date.parse(r.data.deleted_at)) / (365.25 * 24 * 3600 * 1000);
+    assert.ok(Math.abs(years - 5) < 0.01, `purge after ~5 years, got ${years}`);
+
+    const auth = await db.query("select count(*)::int n from auth.users where id = $1", [c.id]);
+    assert.equal(auth.rows[0].n, 0, "phone/email and sign-in removed");
+    const l = (await db.query("select display_name, contact_hint, deleted_at from public.learners where id = $1", [c.id])).rows[0];
+    assert.equal(l.display_name, "");
+    assert.equal(l.contact_hint, "");
+    const kept = await db.query(
+      "select (select count(*) from public.lesson_progress where learner_id = $1)::int lp, (select count(*) from public.quiz_answers where learner_id = $1)::int qa",
+      [c.id]);
+    assert.deepEqual(kept.rows[0], { lp: 1, qa: 1 }, "learning records kept, de-identified");
+
+    assert.equal((await rpc(staff, "staff_list_learners", { p_query: "คุณซี" })).data.total, 0, "no longer shown to staff");
+    assert.deepEqual((await rpc(staff, "staff_learner_detail", { p_learner: c.id })).data, { error: "learner_not_in_scope" });
+    const admins = await rpc(admin.client, "admin_list_learners", {});
+    assert.ok(!admins.data.rows.some((x) => x.id === c.id));
+    assert.equal((await rpc(admin.client, "admin_set_learner_status", { p_learner: c.id, p_status: "active" })).error, "already_deleted");
+    const { rows } = await db.query("select details from public.audit_log where action = 'admin.delete_learner' and target_id = $1", [c.id]);
+    assert.match(rows[0].details.reason, /อายุครบ/);
+  });
+
+  test("records are removed automatically once the 5 years are over, and not before", async () => {
+    const { rows: [c] } = await db.query("select id from public.learners where deleted_at is not null limit 1");
+    assert.equal((await db.query("select private.purge_expired_learners() n")).rows[0].n, 0, "nothing due yet");
+    await db.query("update public.learners set purge_after = now() - interval '1 minute' where id = $1", [c.id]);
+    assert.equal((await db.query("select private.purge_expired_learners() n")).rows[0].n, 1);
+    const left = await db.query(
+      "select (select count(*) from public.learners where id = $1)::int l, (select count(*) from public.lesson_progress where learner_id = $1)::int lp, (select count(*) from public.learning_events where learner_id = $1)::int ev",
+      [c.id]);
+    assert.deepEqual(left.rows[0], { l: 0, lp: 0, ev: 0 });
+    const job = await db.query("select schedule from cron.job where jobname = 'pmh-purge-expired-learners'");
+    assert.equal(job.rows[0]?.schedule, "15 20 * * *", "daily purge scheduled");
+  });
+});
