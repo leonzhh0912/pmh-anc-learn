@@ -37,6 +37,18 @@ requires the following:
 - **Clinical approval (rule 3).** An administrator role gives no authority over clinical approval or content.
 - **Guest access.** Guests keep full access to the lessons, videos and tutorial without an account.
 
+## Decisions recorded on 2026-11-11 (relayed by the developer for PMH)
+
+| Topic | Decision | Still open |
+|---|---|---|
+| Deletion | Administrators delete learner accounts, usually once the child reaches an age PMH sets. The app stores no ages, so the administrator decides. | The age |
+| Retention | On deletion, identity (sign-in, phone/email, name) is removed at once; learning records are kept **de-identified for 5 years for research**, then purged automatically (daily job). | Research/ethics approval for that use; whether records of *active* accounts also have a limit |
+| Hosting | Data may live in a **Thai cloud** (self-hosted Supabase); the developer is taught the setup (docs/THAI-CLOUD-SETUP.md). | Which provider |
+| Sign-in | **SMS phone sign-in first**; email is the fallback. Any email sender is fine. | SMS provider account and sender-name registration |
+| Owners | More owners are added to every account; the developer is taught how. | Names |
+| Narration | The project ElevenLabs voice, not the free draft voice, including for the Lesson 0 video. | PMH product review of the video |
+| QR codes | The developer confirmed the poster QR opens the app (including from LINE). | — |
+
 ## What must happen before real people use accounts (BLOCKED until a human approves)
 
 1. **Privacy and IT review by PMH's authorised staff:**

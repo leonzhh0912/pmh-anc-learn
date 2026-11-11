@@ -803,3 +803,9 @@
 .topbar__name, .topbar__org, .topbar__account, .syncchip { white-space: nowrap; }
 .btn--danger { color: #9b1c1c; border-color: #e7b4b4; }
 .btn--danger:hover { border-color: #9b1c1c; }
+/* SMS sign-in is the main option; email is the fallback */
+.auth__methods { grid-template-columns: 1fr !important; }
+.auth__method--main { border-color: var(--magenta); background: var(--magenta-wash); min-height: 96px; }
+.auth__method--main .auth__method-name { font-size: calc(var(--fs-h3) * 1.15); }
+.auth__method--alt { min-height: 64px; padding: 12px 18px; }
+.auth__method--alt .auth__method-name { font-size: var(--fs-body); }

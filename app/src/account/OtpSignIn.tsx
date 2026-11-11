@@ -110,18 +110,23 @@ export function OtpSignIn({ methods, meta, onSignedIn, audience = "learner" }: P
               เลือกวิธีเข้าสู่ระบบ
             </h2>
           </legend>
-          <p className="auth__hint">เลือกอย่างใดอย่างหนึ่ง ใช้เบอร์มือถือหรืออีเมลที่คุณเปิดดูได้ตอนนี้</p>
+          <p className="auth__hint">ใช้เบอร์มือถือที่อยู่กับคุณตอนนี้ ไม่ต้องตั้งรหัสผ่าน</p>
           <div className="auth__methods">
+            {/* phone (SMS) is the main way in (PMH, 2026-11-11); email is there for people without a mobile */}
             {methods.includes("phone") && (
-              <button type="button" className="auth__method" onClick={() => setMethod("phone")}>
+              <button type="button" className="auth__method auth__method--main" onClick={() => setMethod("phone")}>
                 <span className="auth__method-name">เบอร์โทรศัพท์</span>
-                <span className="auth__method-sub">รับรหัสทางข้อความ SMS</span>
+                <span className="auth__method-sub">รับรหัสทางข้อความ SMS (แนะนำ)</span>
               </button>
             )}
             {methods.includes("email") && (
-              <button type="button" className="auth__method" onClick={() => setMethod("email")}>
+              <button
+                type="button"
+                className={`auth__method ${methods.includes("phone") ? "auth__method--alt" : ""}`}
+                onClick={() => setMethod("email")}
+              >
                 <span className="auth__method-name">อีเมล</span>
-                <span className="auth__method-sub">รับรหัสทางอีเมล</span>
+                <span className="auth__method-sub">ไม่มีเบอร์มือถือ หรือรับ SMS ไม่ได้ ใช้อีเมลแทน</span>
               </button>
             )}
           </div>

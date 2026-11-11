@@ -24,10 +24,6 @@ const NURSE = "nurse.test@pmh.example.test";
 
 test.describe.configure({ mode: "serial" });
 
-test.afterAll(async () => {
-  await db.end();
-});
-
 async function desktop(browser: Browser) {
   const ctx = await browser.newContext({ viewport: { width: 1100, height: 900 }, locale: "th-TH", timezoneId: "Asia/Bangkok", isMobile: false, hasTouch: false });
   return ctx.newPage();

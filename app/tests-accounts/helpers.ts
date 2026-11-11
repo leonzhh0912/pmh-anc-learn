@@ -4,7 +4,7 @@ import { TOTP } from "otpauth";
 import { env } from "./env";
 import type { Lesson } from "../src/content/schema";
 
-export const db = new pg.Pool({ connectionString: env.DATABASE_URL, max: 2 });
+export const db = new pg.Pool({ connectionString: env.DATABASE_URL, max: 2, allowExitOnIdle: true });
 
 export async function emailCode(email: string, after: number): Promise<string> {
   for (let i = 0; i < 60; i++) {
@@ -96,4 +96,24 @@ export async function walkLesson(page: Page, lesson: Lesson, { wrongFirst = fals
     await page.getByRole("button", { name: /^(ต่อไป|จบบทเรียน)$/ }).click();
   }
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("จบบทเรียนแล้ว");
+}
+
+/** Sign in through the real UI with a Thai mobile number; the code is read from the local SMS outbox. */
+export async function uiPhoneSignIn(page: Page, typed: string, e164: string) {
+  await page.goto("/signin");
+  await page.getByRole("button", { name: /^เบอร์โทรศัพท์/ }).click();
+  await page.getByLabel("เบอร์มือถือ 10 หลัก").fill(typed);
+  const { rows } = await db.query("select coalesce(max(id), 0)::int id from dev_only.sms_outbox");
+  await page.getByRole("button", { name: "ส่งรหัส", exact: true }).click();
+  const codeField = page.getByLabel("รหัส 6 หลัก");
+  await expect(codeField).toBeVisible();
+  let otp = "";
+  for (let i = 0; i < 40 && !otp; i++) {
+    const r = await db.query("select otp from dev_only.sms_outbox where phone = $1 and id > $2 order by id desc limit 1", [e164.slice(1), rows[0].id]);
+    otp = r.rows[0]?.otp ?? "";
+    if (!otp) await page.waitForTimeout(250);
+  }
+  await codeField.fill(otp);
+  await page.getByRole("button", { name: "ยืนยันรหัส" }).click();
+  await expect(codeField).toBeHidden({ timeout: 15_000 });
 }
