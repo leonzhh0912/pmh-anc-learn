@@ -1,0 +1,239 @@
+{
+  "id": "APP-TUTORIAL",
+  "version": "0.1.0",
+  "fps": 30,
+  "durationInFrames": 3274,
+  "narration": "draft-tts",
+  "scenes": [
+    {
+      "id": "open",
+      "title": "เปิดแอป",
+      "from": 0,
+      "durationInFrames": 490,
+      "segments": [
+        {
+          "file": "audio/APP-TUTORIAL/open-1-fcc84822a9.wav",
+          "from": 11,
+          "durationInFrames": 283,
+          "caption": "ANC Learn คือบทเรียนสั้น ๆ จากสมุดสีชมพู เปิดจาก QR หรือไอคอนบนหน้าจอมือถือ",
+          "screen": "01-home",
+          "focus": null
+        },
+        {
+          "file": "audio/APP-TUTORIAL/open-2-9cc95848bc.wav",
+          "from": 305,
+          "durationInFrames": 167,
+          "caption": "ครั้งแรก เริ่มที่ “วิธีใช้งาน” มีปุ่มให้ลองกดทีละขั้น",
+          "screen": "01-home",
+          "focus": [
+            16,
+            345,
+            358,
+            133
+          ]
+        }
+      ]
+    },
+    {
+      "id": "signin",
+      "title": "เข้าสู่ระบบด้วยเบอร์หรืออีเมล",
+      "from": 490,
+      "durationInFrames": 476,
+      "segments": [
+        {
+          "file": "audio/APP-TUTORIAL/signin-1-5693690893.wav",
+          "from": 11,
+          "durationInFrames": 193,
+          "caption": "ทุกบทเปิดดูได้เลย อยากเก็บความคืบหน้าไว้ในบัญชี แตะ “เข้าสู่ระบบ”",
+          "screen": "01-home",
+          "focus": [
+            270,
+            12,
+            108,
+            42
+          ]
+        },
+        {
+          "file": "audio/APP-TUTORIAL/signin-2-0412ccb93d.wav",
+          "from": 215,
+          "durationInFrames": 112,
+          "caption": "เลือกเบอร์โทรศัพท์ หรืออีเมล อย่างใดอย่างหนึ่ง",
+          "screen": "02-signin-choose",
+          "focus": null
+        },
+        {
+          "file": "audio/APP-TUTORIAL/signin-3-71dcac1861.wav",
+          "from": 338,
+          "durationInFrames": 120,
+          "caption": "พิมพ์เบอร์หรืออีเมลของคุณ แล้วแตะ “ส่งรหัส”",
+          "screen": "03-signin-email",
+          "focus": null
+        }
+      ]
+    },
+    {
+      "id": "code",
+      "title": "ใส่รหัส 6 หลัก",
+      "from": 966,
+      "durationInFrames": 494,
+      "segments": [
+        {
+          "file": "audio/APP-TUTORIAL/code-1-171bd41dce.wav",
+          "from": 11,
+          "durationInFrames": 245,
+          "caption": "รหัส 6 หลักมาทาง SMS หรืออีเมล พิมพ์ลงในช่องนี้ แล้วแตะ “ยืนยันรหัส”",
+          "screen": "04-signin-code",
+          "focus": [
+            15,
+            382,
+            292,
+            82
+          ]
+        },
+        {
+          "file": "audio/APP-TUTORIAL/code-2-3e6f41f4c3.wav",
+          "from": 267,
+          "durationInFrames": 209,
+          "caption": "ห้ามบอกรหัสกับใคร รหัสไม่มา รอ 1 นาที แล้วแตะ “ขอรหัสใหม่”",
+          "screen": "04-signin-code",
+          "focus": null
+        }
+      ]
+    },
+    {
+      "id": "find",
+      "title": "หาบทเรียน",
+      "from": 1460,
+      "durationInFrames": 403,
+      "segments": [
+        {
+          "file": "audio/APP-TUTORIAL/find-1-6e2db9a799.wav",
+          "from": 11,
+          "durationInFrames": 159,
+          "caption": "หน้าแรกแบ่งบทเรียนเป็นหมวด สีตรงกับแถบข้างสมุดสีชมพู",
+          "screen": "05-home-sections",
+          "focus": null
+        },
+        {
+          "file": "audio/APP-TUTORIAL/find-2-34cc5eade3.wav",
+          "from": 181,
+          "durationInFrames": 204,
+          "caption": "ในบทเรียน แตะ “ต่อไป” ไปขั้นถัดไป แตะ “ย้อนกลับ” ดูขั้นก่อน",
+          "screen": "06-lesson",
+          "focus": null
+        }
+      ]
+    },
+    {
+      "id": "video",
+      "title": "ดูวิดีโอ",
+      "from": 1863,
+      "durationInFrames": 297,
+      "segments": [
+        {
+          "file": "audio/APP-TUTORIAL/video-1-2f79e883a1.wav",
+          "from": 11,
+          "durationInFrames": 141,
+          "caption": "แตะปุ่มเล่นเพื่อดูวิดีโอ คำบรรยายภาษาไทยเปิดไว้แล้ว",
+          "screen": "07-video",
+          "focus": [
+            34,
+            360,
+            322,
+            182
+          ]
+        },
+        {
+          "file": "audio/APP-TUTORIAL/video-2-47df7fb01e.wav",
+          "from": 163,
+          "durationInFrames": 116,
+          "caption": "ตัวอักษรเล็กไป แตะปุ่ม “ก” ที่มุมบน",
+          "screen": "07-video",
+          "focus": [
+            16,
+            60,
+            142,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quiz",
+      "title": "ตอบคำถาม",
+      "from": 2160,
+      "durationInFrames": 338,
+      "segments": [
+        {
+          "file": "audio/APP-TUTORIAL/quiz-1-a9d64cd971.wav",
+          "from": 11,
+          "durationInFrames": 142,
+          "caption": "ท้ายบทมีคำถามสั้น ๆ ตอบผิดได้ แตะ “ลองตอบอีกครั้ง”",
+          "screen": "08-quiz-retry",
+          "focus": null
+        },
+        {
+          "file": "audio/APP-TUTORIAL/quiz-2-9a3c72da0e.wav",
+          "from": 164,
+          "durationInFrames": 156,
+          "caption": "ไม่มีคะแนน ไม่มีการตัดสิน มีคำอธิบายให้อ่าน",
+          "screen": "09-quiz-correct",
+          "focus": null
+        }
+      ]
+    },
+    {
+      "id": "save",
+      "title": "การบันทึก",
+      "from": 2498,
+      "durationInFrames": 371,
+      "segments": [
+        {
+          "file": "audio/APP-TUTORIAL/save-1-54be3f0fc2.wav",
+          "from": 11,
+          "durationInFrames": 180,
+          "caption": "แอปบันทึกให้เอง ถ้าเข้าสู่ระบบ ป้ายจะบอกว่า “บันทึกเข้าบัญชีแล้ว”",
+          "screen": "10-account-saved",
+          "focus": [
+            16,
+            226,
+            358,
+            96
+          ]
+        },
+        {
+          "file": "audio/APP-TUTORIAL/save-2-f531e08e7b.wav",
+          "from": 202,
+          "durationInFrames": 151,
+          "caption": "ไม่มีอินเทอร์เน็ต เรียนต่อได้ แอปจะส่งให้เองเมื่อเน็ตกลับมา",
+          "screen": "10-account-saved",
+          "focus": null
+        }
+      ]
+    },
+    {
+      "id": "return",
+      "title": "กลับมาเรียนต่อ",
+      "from": 2869,
+      "durationInFrames": 405,
+      "segments": [
+        {
+          "file": "audio/APP-TUTORIAL/return-1-1295eb44d8.wav",
+          "from": 11,
+          "durationInFrames": 129,
+          "caption": "ครั้งหน้า เปิดแอป แล้วแตะ “เรียนต่อจากครั้งที่แล้ว”",
+          "screen": "11-home-continue",
+          "focus": null
+        },
+        {
+          "file": "audio/APP-TUTORIAL/return-2-7994a36a1d.wav",
+          "from": 151,
+          "durationInFrames": 236,
+          "caption": "ใช้มือถือร่วมกับคนอื่น ออกจากระบบทุกครั้ง ดูวิธีใช้งานซ้ำได้ที่ด้านล่างของทุกหน้า",
+          "screen": "13-signout",
+          "focus": null
+        }
+      ]
+    }
+  ]
+}

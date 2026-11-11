@@ -1,0 +1,55 @@
+import { expect, test } from "@playwright/test";
+
+// Lesson 0 (how to use the app) in the public build: no account needed, first card on Home, skippable,
+// replayable, no handbook citation, not counted in the 58 lessons, and its video plays.
+test("Lesson 0: first card, works without sign-in, skip and replay, not counted", async ({ page }) => {
+  await page.goto("/");
+  const cards = await page.locator(".start-here, .continue").evaluateAll((els) => els.map((e) => e.className));
+  expect(cards[0]).toContain("start-here");
+  await expect(page.locator(".home__progress")).toContainText("จาก 58 บทเรียน");
+
+  await page.locator(".start-here").click();
+  await expect(page.locator(".lesson__kind")).toHaveText("ขั้นที่ 1 จาก 8");
+  await expect(page.locator(".page-chip")).toHaveCount(0);
+  // the practice sign-in sends nothing: there is no network call to any auth service
+  const calls: string[] = [];
+  page.on("request", (r) => /auth\/v1|rest\/v1/.test(r.url()) && calls.push(r.url()));
+  await page.goto("/start?step=1");
+  await page.getByRole("button", { name: /^อีเมล/ }).click();
+  await page.getByRole("button", { name: "ส่งรหัส (ฝึก)" }).click();
+  await page.getByLabel("พิมพ์รหัส 6 หลักจากข้อความตัวอย่าง").fill("000000");
+  await page.getByRole("button", { name: "ยืนยันรหัส (ฝึก)" }).click();
+  await expect(page.getByRole("alert")).toContainText("รหัสยังไม่ตรง");
+  await page.getByLabel("พิมพ์รหัส 6 หลักจากข้อความตัวอย่าง").fill("123456");
+  await page.getByRole("button", { name: "ยืนยันรหัส (ฝึก)" }).click();
+  await expect(page.locator(".tutorial__done")).toContainText("สำเร็จ");
+  expect(calls).toEqual([]);
+
+  await page.getByRole("button", { name: "ข้ามวิธีใช้งาน ไปเรียนเลย" }).click();
+  await expect(page.locator(".start-here")).toHaveCount(0);
+  await page.getByRole("link", { name: "ดูวิธีใช้งานอีกครั้ง" }).click();
+  await expect(page).toHaveURL(/\/start/);
+  await page.goto("/help");
+  await expect(page.getByRole("link", { name: /ดูวิธีใช้งานทีละขั้น/ })).toBeVisible();
+});
+
+test("Lesson 0 video plays with captions available", async ({ page }) => {
+  await page.goto("/start?step=4");
+  const video = page.locator(".tutorial video");
+  await expect(video).toBeVisible();
+  const meta = await video.evaluate(async (v: HTMLVideoElement) => {
+    v.muted = true;
+    await v.play();
+    await new Promise((r) => setTimeout(r, 1200));
+    const t = v.currentTime;
+    v.pause();
+    return { duration: v.duration, played: t, tracks: v.textTracks.length, w: v.videoWidth };
+  });
+  expect(meta.duration).toBeGreaterThan(60);
+  expect(meta.played).toBeGreaterThan(0.3);
+  expect(meta.tracks).toBe(1);
+  expect(meta.w).toBe(1280);
+  const vtt = await page.request.get("/media/APP-TUTORIAL.th.vtt");
+  expect(vtt.ok()).toBe(true);
+  expect(await vtt.text()).toContain("WEBVTT");
+});

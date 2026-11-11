@@ -348,10 +348,11 @@ function VideoPractice({ done, onDone }: P) {
             onError={() => setMissing(true)}
           >
             <source src={`${base}media/APP-TUTORIAL.mp4`} type="video/mp4" onError={() => setMissing(true)} />
-            <track kind="captions" srcLang="th" label="ไทย" src={`${base}media/APP-TUTORIAL.th.vtt`} default />
+            {/* the words are already on screen in the video; the caption track is there for anyone who wants it */}
+            <track kind="captions" srcLang="th" label="ไทย" src={`${base}media/APP-TUTORIAL.th.vtt`} />
           </video>
           <figcaption className="video__meta">
-            <span>วิดีโอวิธีใช้งาน มีคำบรรยายภาษาไทย</span>
+            <span>วิดีโอวิธีใช้งาน ความยาวประมาณ 2 นาที มีข้อความภาษาไทยบนวิดีโอ และเปิดคำบรรยาย (CC) เพิ่มได้</span>
             <span className="video__draft">ฉบับร่าง รอโรงพยาบาลตรวจทาน</span>
           </figcaption>
         </figure>

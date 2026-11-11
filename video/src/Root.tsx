@@ -3,6 +3,7 @@ import { SmokeTest } from "./SmokeTest";
 import { LessonVideo } from "./lesson/LessonVideo";
 import { videos } from "./lesson/registry";
 import { IconSheet } from "./lesson/IconSheet";
+import { AppTutorial, tutorialDuration } from "./tutorial/AppTutorial";
 import "./fonts";
 
 export const RemotionRoot: React.FC = () => {
@@ -33,6 +34,10 @@ export const RemotionRoot: React.FC = () => {
             defaultProps={{ videoId: script.id, burnCaptions: true }}
           />
         ))}
+      </Folder>
+      <Folder name="AppTutorial">
+        {/* how to use the app: software instruction, kept apart from the handbook lesson videos */}
+        <Composition id="APP-TUTORIAL" component={AppTutorial} durationInFrames={tutorialDuration} fps={30} width={1280} height={720} />
       </Folder>
       <Folder name="Pipeline">
         <Composition id="IconSheet" component={IconSheet} durationInFrames={1} fps={30} width={1280} height={720} />
