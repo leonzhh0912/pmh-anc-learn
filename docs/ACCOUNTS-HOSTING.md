@@ -6,7 +6,8 @@ them before buying.
 
 ## Decided on 2026-11-11 (relayed by the developer)
 
-- **H1:** a Thai cloud server running self-hosted Supabase.
+- **H1 (revised):** a server **inside Phimai Hospital** running self-hosted Supabase, no cloud
+  (docs/HOSPITAL-SERVER-SETUP.md). The Thai-cloud guide stays as an alternative.
 - **H3/H4 (revised the same day, budget):** no SMS or email sender. Staff create patient accounts and print
   slips (patient ID + random password); administrators create staff accounts the same way. The SMS sender
   (ThaiBulkSMS/SMSMKT) stays in the code, switched off.

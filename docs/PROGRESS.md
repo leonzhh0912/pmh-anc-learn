@@ -335,3 +335,14 @@ email budget**: staff create patient accounts and hand over credentials.
 
 VERIFIED (session 8c): backend 46/46, accounts e2e 8/8 (staff-issued flow end to end + optional email/SMS flows), public e2e 144/144, validate 0 errors, tsc clean.
 NOT YET TESTED: printing a slip on a real printer; patient sign-in on real phones; GOTRUE_DISABLE_SIGNUP on the real server.
+
+## Session 8d — 2026-11-11 (no cloud: hospital server)
+
+- Decision (developer, for PMH): no cloud. The accounts database runs on a server inside Phimai Hospital
+  (self-hosted Supabase); recommended network option A: reachable from the internet through the hospital
+  firewall (443/80, DNS name, Let's Encrypt via Caddy). Option B (hospital Wi-Fi only) is not built: Chrome's
+  Local Network Access prompt would appear when the public app calls an internal address.
+- docs/HOSPITAL-SERVER-SETUP.md (hardware incl. UPS and external backup drive, Ubuntu, network/firewall,
+  Docker, Supabase, HTTPS, migrations, first admin, backups with an off-room copy, checklist, upkeep).
+  NOT YET TESTED on the hospital's machine. Thai-cloud guide kept as an alternative. Privacy text now says data
+  is kept on the hospital's server, not in a cloud.

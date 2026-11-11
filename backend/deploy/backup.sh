@@ -1,10 +1,11 @@
 #!/bin/sh
 # Nightly database backup for self-hosted Supabase (run from cron as the server's admin user).
+# BACKUP_DIR: where dumps go (hospital server: the external drive, e.g. /mnt/backup/pmh-anc).
 #   15 2 * * *  /home/ubuntu/backup.sh >> /home/ubuntu/backup.log 2>&1
 # Keeps 14 daily dumps on the server; copy them off the server too (BACKUP_REMOTE, e.g. object storage in
 # Thailand). Test a restore regularly (docs/THAI-CLOUD-SETUP.md, part 11).
 set -eu
-DIR=/home/ubuntu/backups
+DIR=${BACKUP_DIR:-/home/ubuntu/backups}
 mkdir -p "$DIR"
 STAMP=$(date +%Y-%m-%d)
 docker exec supabase-db pg_dumpall -h localhost -U supabase_admin | gzip > "$DIR/pmh-anc-$STAMP.sql.gz"

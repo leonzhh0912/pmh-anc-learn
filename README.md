@@ -55,7 +55,7 @@ cd app && npx playwright install chromium && npm run test:e2e
 - [CLAUDE.md](CLAUDE.md) — rules for AI assistants working on this repo
 - [docs/PROGRESS.md](docs/PROGRESS.md) — session log and next-step checklist
 - Accounts (in development, not live): [scope](docs/ACCOUNTS-SCOPE.md), [architecture](docs/ACCOUNTS-ARCHITECTURE.md),
-  [hosting and approvals](docs/ACCOUNTS-HOSTING.md), [staff guide](docs/ACCOUNTS-STAFF-GUIDE.md), [admin guide](docs/ACCOUNTS-ADMIN-GUIDE.md)
+  [hosting and approvals](docs/ACCOUNTS-HOSTING.md), [hospital server setup](docs/HOSPITAL-SERVER-SETUP.md), [staff guide](docs/ACCOUNTS-STAFF-GUIDE.md), [admin guide](docs/ACCOUNTS-ADMIN-GUIDE.md)
 
 ## Ownership
 

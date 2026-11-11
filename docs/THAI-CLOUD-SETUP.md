@@ -1,4 +1,7 @@
-# Step-by-step: accounts on a Thai cloud server (for the developer and PMH IT)
+# Step-by-step: accounts on a Thai cloud server (alternative)
+
+> **PMH chose a server inside the hospital instead (2026-11-11): follow docs/HOSPITAL-SERVER-SETUP.md.** This
+> guide is kept in case the hospital later prefers a cloud server.
 
 You do the clicks and sign-ups; Claude can't create accounts or pay. Each part ends with a check, so you know it
 worked before you go on. Prices and screens were checked on 2026-11-11 and can change.

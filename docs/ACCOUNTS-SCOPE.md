@@ -44,7 +44,7 @@ requires the following:
 | Deletion | Administrators delete learner accounts **manually**. | — |
 | Retention | On deletion, identity (sign-in, ID, name) is removed at once; learning records are kept **de-identified for 5 years for research**, then purged automatically (daily job). **Approved by the PMH director** (reported by the developer, 2026-11-11). | Whether records of *active* accounts also have a limit |
 | Privacy / IT | **PMH IT approved** the accounts plan (reported by the developer, 2026-11-11). | Named people for the server and accounts |
-| Hosting | Data may live in a **Thai cloud** (self-hosted Supabase); the developer is taught the setup (docs/THAI-CLOUD-SETUP.md). | Which provider |
+| Hosting | ~~Thai cloud~~ **Revised: a server inside Phimai Hospital** (self-hosted Supabase, no cloud); reachable from the internet through the hospital firewall (recommended). Guide: docs/HOSPITAL-SERVER-SETUP.md. | Hardware; IT opens ports 443/80 and a DNS name |
 | Sign-in | ~~SMS first~~ **Superseded the same day (budget): staff-issued logins.** Staff create each patient's account; the system generates an 8-digit patient ID and a random 10-digit password (different for everyone, stored hashed), printed on a slip. No SMS or email sender. SMS/email code sign-in stays in the code, switched off (`VITE_SIGNIN_METHODS`). | — |
 | Staff sign-in | Administrators create staff accounts (work email + random password on a slip); staff add an authenticator app (free) as the second factor. | — |
 | Sorting | Patient lists sorted by account creation date, newest first. | — |

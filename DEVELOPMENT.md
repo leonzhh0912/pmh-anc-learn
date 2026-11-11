@@ -78,7 +78,8 @@ SVGs in `Icon.tsx`. New videos are registered automatically (`video/src/generate
 
 ## Accounts, staff tracking and Lesson 0 (branch `feat/accounts-progress`, not live)
 
-Design: docs/ACCOUNTS-ARCHITECTURE.md. Scope and approvals: docs/ACCOUNTS-SCOPE.md. Hosting: docs/ACCOUNTS-HOSTING.md.
+Design: docs/ACCOUNTS-ARCHITECTURE.md. Scope and approvals: docs/ACCOUNTS-SCOPE.md. Hosting: docs/ACCOUNTS-HOSTING.md;
+production server setup (inside the hospital): docs/HOSPITAL-SERVER-SETUP.md.
 
 Local setup (needs Docker, e.g. Colima or Docker Desktop; everything runs on this computer, fictional people only):
 
