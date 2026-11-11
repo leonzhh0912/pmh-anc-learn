@@ -74,4 +74,20 @@
 - ตรวจจากภายนอกด้วย `backend/deploy/check-server.sh` แล้วส่งผลให้ไอที
 - เชื่อมแอปกับเซิร์ฟเวอร์ **หลังไอทีและผู้บริหารอนุมัติเท่านั้น**
 
+## 7. ติดตั้ง (ไอทีทำเองได้ หรือให้ผู้พัฒนาทำผ่าน SSH)
+ตัวติดตั้งอยู่ใน GitHub ของโครงการ (สาธารณะ ไม่มีรหัสลับ): https://github.com/phimai-hospital/phimai-hospital.github.io
+ใช้ branch **`feat/accounts-progress`** (เวอร์ชันใหม่ที่มีระบบบัญชี) บน VM รัน:
+
+```bash
+git clone --depth 1 -b feat/accounts-progress https://github.com/phimai-hospital/phimai-hospital.github.io.git pmh-anc
+cd pmh-anc/backend/deploy
+sudo sh install.sh --domain ancapi.<โดเมนโรงพยาบาล> --admin-email <อีเมลงานผู้ดูแลระบบคนแรก> --admin-name "<ชื่อ>" --backup-dir /mnt/backup/pmh-anc
+sh check-server.sh ancapi.<โดเมนโรงพยาบาล> <คีย์สาธารณะที่แสดงตอนติดตั้งเสร็จ>   # ต้องได้ 9 passed, 0 failed
+```
+
+- ใช้เวลาประมาณ 15–30 นาที รันซ้ำได้ปลอดภัย
+- ตอนจบแสดง **รหัสผ่านผู้ดูแลระบบคนแรกครั้งเดียว** ให้เจ้าของอีเมลนั้นโดยตรง ห้ามส่งทางแชต/อีเมล
+- ถ้าหยุดพร้อมข้อความ "STOPPED: ..." ส่งข้อความนั้นให้ผู้พัฒนา (ห้ามส่งรหัสผ่านหรือไฟล์ `.env`)
+- ถ้าให้ผู้พัฒนาติดตั้งเอง: เพิ่มไฟล์ `ssh-key-for-IT.pub` ใน `~/.ssh/authorized_keys` ของผู้ใช้บน VM
+
 ติดต่อ/รายละเอียดเทคนิค: `docs/HOSPITAL-SERVER-SETUP.md`
