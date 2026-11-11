@@ -3,7 +3,7 @@ import { Link, useNavigate, useSearchParams } from "react-router";
 import tutorial from "../../../content/app-tutorial/tutorial.json";
 import { setTextScale, useProgress } from "../lib/progress";
 import { tutorialComplete, tutorialSkip, tutorialStep } from "../lib/tutorial";
-import { accountsEnabled, signinMethods } from "../account/config";
+import { accountsEnabled } from "../account/config";
 
 /**
  * Lesson 0: how to use the app. Hands-on practice with pretend buttons; nothing is sent anywhere
@@ -116,7 +116,7 @@ function Practice({ id, done, onDone }: { id: string; done: boolean; onDone: () 
     case "start":
       return <StartPractice done={done} onDone={onDone} />;
     case "login":
-      return signinMethods.includes("password") ? <SlipPractice done={done} onDone={onDone} /> : <LoginPractice done={done} onDone={onDone} />;
+      return <SlipPractice done={done} onDone={onDone} />;
     case "find":
       return <FindPractice done={done} onDone={onDone} />;
     case "nav":
@@ -230,92 +230,6 @@ function SlipPractice({ done, onDone }: P) {
         </p>
       )}
       <Done show={done}>เข้าสู่ระบบ (ฝึก) สำเร็จ ถ้าลืมรหัสผ่านหรือทำใบหาย ขอให้เจ้าหน้าที่ออกรหัสผ่านใหม่</Done>
-    </div>
-  );
-}
-
-const SAMPLE_PHONE = "081-234-5678";
-const SAMPLE_CODE = "123456";
-
-function LoginPractice({ done, onDone }: P) {
-  const [method, setMethod] = useState<"phone" | "email" | null>(null);
-  const [sent, setSent] = useState(false);
-  const [code, setCode] = useState("");
-  const [wrong, setWrong] = useState(false);
-  const contact = method === "email" ? "somjai@example.com" : SAMPLE_PHONE;
-  return (
-    <div className="practice">
-      <p className="practice__fiction">ฝึกเท่านั้น: เบอร์ อีเมล และรหัสข้างล่างเป็นตัวอย่าง ไม่มีการส่งข้อความจริง</p>
-      {!method && (
-        <div className="auth__methods">
-          <button type="button" className="auth__method" onClick={() => setMethod("phone")}>
-            <span className="auth__method-name">เบอร์โทรศัพท์</span>
-            <span className="auth__method-sub">รับรหัสทางข้อความ SMS</span>
-          </button>
-          <button type="button" className="auth__method" onClick={() => setMethod("email")}>
-            <span className="auth__method-name">อีเมล</span>
-            <span className="auth__method-sub">รับรหัสทางอีเมล</span>
-          </button>
-        </div>
-      )}
-      {method && !sent && (
-        <div>
-          <p className="auth__label">{method === "phone" ? "เบอร์มือถือ 10 หลัก" : "อีเมล"}</p>
-          <p className="practice__field">{contact}</p>
-          <p className="auth__hint">ของจริง: พิมพ์{method === "phone" ? "เบอร์" : "อีเมล"}ของคุณเอง แล้วแตะ “ส่งรหัส”</p>
-          <button type="button" className="btn btn--primary" onClick={() => setSent(true)}>
-            ส่งรหัส (ฝึก)
-          </button>
-        </div>
-      )}
-      {method && sent && (
-        <div>
-          <div className="practice__message" aria-label={method === "phone" ? "ตัวอย่างข้อความ SMS" : "ตัวอย่างอีเมล"}>
-            <p className="practice__message-from">{method === "phone" ? "ข้อความ SMS (ตัวอย่าง)" : "อีเมล: รหัสยืนยัน ANC Learn (ตัวอย่าง)"}</p>
-            <p>
-              รหัสยืนยัน ANC Learn: <strong>{SAMPLE_CODE}</strong> ใช้ได้ 10 นาที ห้ามบอกรหัสนี้กับผู้อื่น
-            </p>
-          </div>
-          <p className="auth__hint">
-            {method === "phone"
-              ? "ของจริง: รหัสมาเป็นข้อความ SMS บางเครื่องแตะรหัสเหนือแป้นพิมพ์ได้เลย"
-              : "ของจริง: เปิดแอปอีเมล หาอีเมลชื่อ “รหัสยืนยัน ANC Learn” ถ้าไม่เห็นให้ดูในจดหมายขยะ"}
-          </p>
-          <label className="auth__label" htmlFor="practice-code">
-            พิมพ์รหัส 6 หลักจากข้อความตัวอย่าง
-          </label>
-          <input
-            id="practice-code"
-            className="auth__input auth__input--code"
-            inputMode="numeric"
-            autoComplete="off"
-            value={code}
-            onChange={(e) => {
-              setCode(e.target.value.replace(/\D/g, "").slice(0, 6));
-              setWrong(false);
-            }}
-          />
-          <div className="auth__actions">
-            <button
-              type="button"
-              className="btn btn--primary"
-              onClick={() => (code === SAMPLE_CODE ? onDone() : setWrong(true))}
-            >
-              ยืนยันรหัส (ฝึก)
-            </button>
-            <button type="button" className="btn btn--quiet" onClick={() => { setSent(false); setMethod(null); setCode(""); }}>
-              เริ่มฝึกใหม่
-            </button>
-          </div>
-          {wrong && <p className="auth__problem" role="alert">รหัสยังไม่ตรง ดูตัวเลขในข้อความตัวอย่างอีกครั้ง</p>}
-        </div>
-      )}
-      <Done show={done}>เข้าสู่ระบบ (ฝึก) สำเร็จ ถ้ารหัสไม่มา ของจริงมีปุ่ม “ขอรหัสใหม่” และถามเจ้าหน้าที่ได้</Done>
-      {accountsEnabled && (
-        <p className="auth__hint">
-          พร้อมแล้ว <Link to="/signin">เข้าสู่ระบบจริง</Link> (ทำทีหลังก็ได้)
-        </p>
-      )}
     </div>
   );
 }
