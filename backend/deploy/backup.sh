@@ -1,19 +1,20 @@
 #!/bin/sh
-# Nightly database backup for self-hosted Supabase (run from cron as the server's admin user).
-# BACKUP_DIR: where dumps go (hospital server: the external drive, e.g. /mnt/backup/pmh-anc).
-#   15 2 * * *  /home/ubuntu/backup.sh >> /home/ubuntu/backup.log 2>&1
-# Keeps 14 daily dumps on the server; copy them off the server too (BACKUP_REMOTE, e.g. object storage in
-# Thailand). Test a restore regularly (docs/THAI-CLOUD-SETUP.md, part 11).
+# Nightly database backup for the ANC Learn server (installed by install.sh as /usr/local/sbin/pmh-anc-backup,
+# run by /etc/cron.d/pmh-anc-backup as root).
+#   BACKUP_DIR  where dumps go (an external drive or a share in another room), default /var/backups/pmh-anc
+#   PROJECT     the Supabase folder, default /opt/supabase-project
+# Keeps 14 daily dumps. Test a restore regularly (docs/HOSPITAL-SERVER-SETUP.md).
 set -eu
-DIR=${BACKUP_DIR:-/home/ubuntu/backups}
-mkdir -p "$DIR"
+DIR=${BACKUP_DIR:-/var/backups/pmh-anc}
+PROJECT=${PROJECT:-/opt/supabase-project}
+mkdir -p "$DIR" && chmod 700 "$DIR"
 STAMP=$(date +%Y-%m-%d)
-docker exec supabase-db pg_dumpall -h localhost -U supabase_admin | gzip > "$DIR/pmh-anc-$STAMP.sql.gz"
-# the encryption root key: without it, encrypted secrets in a restore are unreadable. Keep it safe.
-cp -n /home/ubuntu/supabase-project/volumes/db/data/pgsodium_root.key "$DIR/pgsodium_root.key" 2>/dev/null || true
+OUT="$DIR/pmh-anc-$STAMP.sql.gz"
+docker exec supabase-db pg_dumpall -h localhost -U supabase_admin | gzip > "$OUT.part"
+gzip -t "$OUT.part" && mv "$OUT.part" "$OUT"
+chmod 600 "$OUT"
+# the database encryption root key and the server secrets: needed to restore. Copied once, kept with the dumps.
+[ -f "$DIR/pgsodium_root.key" ] || cp "$PROJECT/volumes/db/data/pgsodium_root.key" "$DIR/" 2>/dev/null || true
+[ -f "$DIR/supabase.env" ] || install -m 600 "$PROJECT/.env" "$DIR/supabase.env"
 find "$DIR" -name 'pmh-anc-*.sql.gz' -mtime +14 -delete
-if [ -n "${BACKUP_REMOTE:-}" ]; then
-  # e.g. rclone copy "$DIR" "$BACKUP_REMOTE"   (set up rclone for your provider's object storage)
-  rclone copy "$DIR" "$BACKUP_REMOTE"
-fi
-echo "$(date -Iseconds) backup ok: $DIR/pmh-anc-$STAMP.sql.gz"
+echo "$(date -Iseconds) backup ok: $OUT ($(du -h "$OUT" | cut -f1))"
