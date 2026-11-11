@@ -17,7 +17,7 @@ export function explain(err: unknown): AuthProblem {
     return { message: "ตอนนี้ยังเข้าสู่ระบบด้วยวิธีนี้ไม่ได้ ลองอีกวิธีหนึ่ง หรือติดต่อเจ้าหน้าที่" };
   if (/Database error saving new user|no_staff_invitation/i.test(msg))
     return { message: "อีเมลนี้ยังไม่มีบัญชีเจ้าหน้าที่ หรือเกิน 7 วันแล้ว ให้ผู้ดูแลระบบสร้างบัญชีให้ใหม่" };
-  if (/sending|sms|send/i.test(msg) && (e?.status ?? 0) >= 500)
+  if ((/sending|sms|send|hook/i.test(msg) && (e?.status ?? 0) >= 500) || e?.code === "hook_timeout" || /hook/i.test(e?.code ?? ""))
     return { message: "ส่งรหัสไม่สำเร็จ ระบบส่งข้อความขัดข้อง ลองอีกครั้งภายหลัง หรือใช้อีกวิธีหนึ่ง" };
   if (/fetch|network|Load failed/i.test(msg))
     return { message: "เชื่อมต่ออินเทอร์เน็ตไม่ได้ การเข้าสู่ระบบต้องใช้อินเทอร์เน็ต" };
