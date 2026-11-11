@@ -41,7 +41,9 @@ test("admin and nurse accounts, then the nurse creates a patient", async ({ brow
   const pw = (await db.query("select private.bootstrap_admin_password($1, $2) pw", [ADMIN, "ผู้ดูแลระบบ (ทดสอบ)"])).rows[0].pw;
   admin = await desktop(browser);
   await uiPasswordSignIn(admin, ADMIN, pw, "/staff");
-  await uiSecondFactor(admin);
+  // PMH default: no authenticator app, staff and admins go straight in after the password
+  await expect(admin.getByRole("heading", { name: "ความคืบหน้าผู้เรียน" })).toBeVisible();
+  await expect(admin.getByRole("heading", { name: "ยืนยันตัวตนขั้นที่ 2" })).toHaveCount(0);
   await admin.goto("/admin");
   await admin.getByLabel("อีเมลงาน (ใช้เป็นชื่อเข้าระบบ)").fill(NURSE);
   await admin.getByLabel("ชื่อที่แสดง").fill("พยาบาลทดสอบ");
@@ -58,8 +60,7 @@ test("admin and nurse accounts, then the nurse creates a patient", async ({ brow
 
   nurse = await desktop(browser);
   await uiPasswordSignIn(nurse, NURSE, nurseSlip.password, "/staff");
-  await shot(nurse, "staff-second-factor");
-  await uiSecondFactor(nurse);
+  await expect(nurse.getByRole("heading", { name: "ความคืบหน้าผู้เรียน" })).toBeVisible();
   await nurse.getByRole("button", { name: "สร้างบัญชีผู้เรียน" }).click();
   await nurse.getByLabel("ชื่อผู้เรียน (ชื่อเล่นหรือชื่อจริง)").fill("สมใจ (ทดสอบ)");
   await nurse.getByLabel("กลุ่ม").selectOption({ label: COHORT });
@@ -112,7 +113,9 @@ test("another phone: same ID + password, same progress; sign-out clears the phon
   await expect(page.getByText("บทเรียนจากสมุดสีชมพู: เรียนจบแล้ว 1 จาก 58 บท")).toBeVisible({ timeout: 15_000 });
   await expect(page.getByText(/วิธีใช้งาน: เรียนจบแล้ว/)).toBeVisible();
   await page.getByRole("button", { name: "ออกจากระบบ" }).click();
-  await expect(page).toHaveURL(/\/signin/); // signed out: back to the sign-in page
+  // sign-out reloads the app at "/", which then sends the signed-out person to sign-in
+  await expect(page).toHaveURL(/\/signin\?next=%2F$/);
+  await page.waitForLoadState("load");
   const leftovers = await page.evaluate(() => Object.keys(localStorage).filter((k) => k.includes(":account:") || k.includes("auth")));
   expect(leftovers).toEqual([]);
 });
@@ -205,4 +208,17 @@ test("outsiders see nothing; revoking a group hides patients; the admin deletes 
   await admin.getByRole("tab", { name: "บันทึกการใช้งาน" }).click();
   await expect(admin.locator(".timeline-log")).toContainText("สร้างบัญชีผู้เรียน");
   await shot(admin, "admin-audit");
+});
+
+test("if IT switches the authenticator requirement on, staff must add it (and it works)", async ({ browser }) => {
+  await db.query("update private.settings set value = 'true' where key = 'require_staff_mfa'");
+  try {
+    const page = await desktop(browser);
+    const pw = (await db.query("select private.bootstrap_admin_password($1, $2) pw", ["admin.mfa@pmh.example.test", "ผู้ดูแลระบบ (ทดสอบแอป)"])).rows[0].pw;
+    await uiPasswordSignIn(page, "admin.mfa@pmh.example.test", pw, "/staff");
+    await uiSecondFactor(page);
+    await expect(page.getByRole("heading", { name: "ความคืบหน้าผู้เรียน" })).toBeVisible();
+  } finally {
+    await db.query("update private.settings set value = 'false' where key = 'require_staff_mfa'");
+  }
 });

@@ -145,3 +145,8 @@ export async function staffPasswordSignIn(email, password, { totpSecret } = {}) 
   if (error) throw error;
   return { client, user, totpSecret: secret };
 }
+
+/** Server setting: whether staff/admins need an authenticator code (default off since 2026-11-11). */
+export async function setStaffMfa(on) {
+  await db.query("update private.settings set value = $1::jsonb, updated_at = now() where key = 'require_staff_mfa'", [on ? "true" : "false"]);
+}

@@ -189,7 +189,8 @@ DASHBOARD_USERNAME=<any name>
 DASHBOARD_PASSWORD=<long, with letters>
 ```
 
-Leave SMTP as it is (nothing is sent). Staff authenticator apps (TOTP) are on by default.
+Leave SMTP as it is (nothing is sent). Staff sign in with email + password only (the authenticator-app
+requirement is a database setting, off by default; docs/ACCOUNTS-ADMIN-GUIDE.md part 6 switches it on).
 
 **Copy the whole `.env` into the password manager now.** It holds every server secret.
 
@@ -242,9 +243,9 @@ docker exec -it supabase-db psql -U postgres -d postgres \
 ```
 
 The last command prints a 10-digit password **once**; give it to that person on paper. They then:
-1. open the app → วิธีใช้งานและช่วยเหลือ → สำหรับเจ้าหน้าที่;
+1. open the app → เข้าสู่ระบบ (the same sign-in page as learners);
 2. sign in;
-3. set up an authenticator app.
+3. (only if IT switched the authenticator setting on) set up an authenticator app.
 
 After that, administrators create everyone else in the app (docs/ACCOUNTS-ADMIN-GUIDE.md).
 
@@ -293,7 +294,7 @@ A private trial on a separate test address can come first.
 - [ ] Two owners for GitHub, the server and the app (part 1)
 - [ ] The server restarts by itself after a power cut (pull the plug once, with the UPS removed, as a test)
 - [ ] The mobile-data HTTPS check works (part 3)
-- [ ] An administrator creates a staff account; the staff member signs in with the slip and an authenticator app
+- [ ] An administrator creates a staff account; the staff member signs in with the slip (email + password)
 - [ ] Staff create a test patient, print the slip, and the patient signs in on a real iPhone and Android phone
 - [ ] Staff see only their group; "forgot password" gives a new slip and the old password stops working
 - [ ] There is no way to create an account from the public sign-in page

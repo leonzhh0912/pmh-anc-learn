@@ -58,7 +58,8 @@ export function StaffGate({ admin = false, children }: { admin?: boolean; childr
         </button>
       </main>
     );
-  if (s.account.aal !== "aal2") return <SecondFactor />;
+  // the authenticator step only when the server requires it (PMH default: off, password only)
+  if (s.account.mfa_required && s.account.aal !== "aal2") return <SecondFactor />;
   if (admin && s.account.role !== "admin")
     return (
       <main className="page staff">

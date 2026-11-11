@@ -119,7 +119,8 @@ test("another browser: the same progress after signing in", async ({ browser }) 
   // shared phone: sign out removes this account's data from the device
   await page.goto("/account");
   await page.getByRole("button", { name: "ออกจากระบบ" }).click();
-  await expect(page).toHaveURL(/\/signin/);
+  await expect(page).toHaveURL(/\/signin\?next=%2F$/);
+  await page.waitForLoadState("load");
   const leftovers = await page.evaluate(() => Object.keys(localStorage).filter((k) => k.includes(":account:") || k.includes("auth")));
   expect(leftovers).toEqual([]);
   await page.goBack();

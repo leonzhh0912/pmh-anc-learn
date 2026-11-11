@@ -34,15 +34,18 @@ async function secondFactor(c) {
 const tag = Date.now().toString(36);
 
 const admin = await signIn(adminEmail, adminPassword);
-check((await rpc(admin, "admin_list_staff")).error === "mfa_required", "admin without authenticator is refused");
-await secondFactor(admin);
-check(!(await rpc(admin, "admin_list_staff")).error, "admin with password + authenticator gets in");
+const mfaOn = (await rpc(admin, "my_account")).data?.mfa_required === true;
+if (mfaOn) {
+  check((await rpc(admin, "admin_list_staff")).error === "mfa_required", "admin without authenticator is refused (setting on)");
+  await secondFactor(admin);
+}
+check(!(await rpc(admin, "admin_list_staff")).error, `admin gets in (${mfaOn ? "password + authenticator" : "password only, PMH default"})`);
 
 const cohort = (await rpc(admin, "admin_create_cohort", { p_name: `ซ้อม ${tag}` })).data;
 const nurseSlip = (await rpc(admin, "admin_create_staff", { p_email: `nurse-${tag}@pmh.example.test`, p_display_name: "พยาบาลซ้อม", p_role: "staff" })).data;
 check(/^\d{10}$/.test(nurseSlip?.password ?? ""), "admin creates a nurse account with a one-time password");
 const nurse = await signIn(nurseSlip.email, nurseSlip.password);
-await secondFactor(nurse);
+if (mfaOn) await secondFactor(nurse);
 await rpc(admin, "admin_set_staff_cohort", { p_staff: nurseSlip.user_id, p_cohort: cohort, p_granted: true });
 
 const slip = (await rpc(nurse, "staff_create_learner", { p_display_name: "ผู้เรียนซ้อม", p_cohort: cohort })).data;

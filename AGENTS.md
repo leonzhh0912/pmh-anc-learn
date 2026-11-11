@@ -30,7 +30,8 @@ This is real patient-education software for Phimai Hospital, Thailand. Accuracy 
      build without an account server stays open to everyone. Guest progress already on a device is never
      uploaded or merged without the learner's explicit choice.
    - Sign-in for the PMH setup: staff-issued learner ID + password (no SMS/email budget); one sign-in page for
-     learners, staff and admins; staff/admins also need an authenticator code.
+     learners, staff and admins. Staff/admin authenticator code: a server setting, OFF by default (developer
+     for PMH, 2026-11-11: old phones; `private.settings.require_staff_mfa`).
    - Roles are enforced by the database (RLS + checked functions), never by the browser. Staff see only
      learners assigned to them. Public sign-up always creates a learner.
    - Real-user data collection stays OFF until PMH's privacy/IT approval and an approved hosting and

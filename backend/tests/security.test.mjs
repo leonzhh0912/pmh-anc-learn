@@ -3,7 +3,7 @@
 import { after, before, describe, test } from "node:test";
 import assert from "node:assert/strict";
 import {
-  db, emailSignIn, ev, latestEmailCode, newClient, phoneSignIn, rpc, run, staffSignIn,
+  db, emailSignIn, ev, latestEmailCode, newClient, phoneSignIn, rpc, run, setStaffMfa, staffSignIn,
 } from "./helpers.mjs";
 
 const L1 = "MCH68-OVR-001"; // a real lesson id (7 steps)
@@ -14,6 +14,8 @@ const phoneB = `+6680${String(Date.now()).slice(-7)}`;
 let admin, staff, staffSecret, learnerA, learnerB, cohortId;
 
 before(async () => {
+  // this file checks the strict setting (authenticator required); local-logins checks the default (off)
+  await setStaffMfa(true);
   // first administrator: created by a person with direct database access, never through the API
   await db.query("select private.bootstrap_admin($1, $2)", [mail("admin"), "ผู้ดูแลระบบ (ทดสอบ)"]);
   admin = await staffSignIn(mail("admin"));
@@ -22,6 +24,7 @@ before(async () => {
 });
 
 after(async () => {
+  await setStaffMfa(false);
   await db.end();
 });
 

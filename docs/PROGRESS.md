@@ -362,3 +362,13 @@ NOT YET TESTED: printing a slip on a real printer; patient sign-in on real phone
 - Restore drill (practice server): database wiped, last night's dump restored into a fresh install: counts identical
   (4 learners, 6 staff, 18 audit rows, 6 events), admin sign-in over HTTPS OK; ~400 expected "already exists" lines.
 NOT YET TESTED: x86-64 hardware, the hospital network/firewall/DNS, a real Let's Encrypt certificate. BLOCKED: IT approval of the software and the VM; management approval before real accounts.
+
+## Session 8f — 2026-11-11 (simpler sign-in)
+
+- One sign-in page for learners (8-digit ID), staff and admins (work email); the account decides where they go.
+- Sign in before learning (`VITE_REQUIRE_LOGIN`, on); sign-in, Lesson 0, help, privacy, about stay open.
+- Staff/admin authenticator app: now a database setting `private.settings.require_staff_mfa`, **off** by default
+  (developer for PMH: many old phones). Compensating controls: unique random passwords, sign-in rate limits,
+  instant deactivation, audit log. IT can switch it on with one SQL line (admin guide part 6).
+- Lesson 0 text/video, help, about, privacy, guides and slips updated. Demo link refreshed (password only).
+- Tests: backend 48/48 (both settings), accounts e2e 9/9 (incl. setting on), Lesson 0 + lesson specs pass.

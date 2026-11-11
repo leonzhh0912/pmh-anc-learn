@@ -2,12 +2,13 @@
 // patient ID + password. Real Supabase Auth sign-in against the LOCAL stack; fictional people only.
 import { after, before, describe, test } from "node:test";
 import assert from "node:assert/strict";
-import { db, newClient, passwordSignIn, patientEmail, rpc, run, staffPasswordSignIn } from "./helpers.mjs";
+import { db, newClient, passwordSignIn, patientEmail, rpc, run, setStaffMfa, staffPasswordSignIn } from "./helpers.mjs";
 
 const mail = (who) => `${who}-${run}@pmh.example.test`;
 let admin, nurse, nurseId, cohortA, cohortB, created;
 
 before(async () => {
+  await setStaffMfa(true); // these first checks cover the strict setting; the last block covers the default (off)
   const { rows } = await db.query("select private.bootstrap_admin_password($1, $2) pw", [mail("admin"), "ผู้ดูแลระบบ (ทดสอบ)"]);
   assert.match(rows[0].pw, /^\d{10}$/);
   admin = await staffPasswordSignIn(mail("admin"), rows[0].pw);
@@ -16,6 +17,7 @@ before(async () => {
 });
 
 after(async () => {
+  await setStaffMfa(false);
   // leave no extra active administrator behind for the other test files
   await db.query("update public.staff_members set status = 'deactivated' where email = $1", [mail("admin")]);
 });
@@ -119,5 +121,35 @@ describe("patient accounts created by staff", () => {
     for (const fn of ["bootstrap_admin_password", "create_password_user", "set_password", "random_digits"]) {
       assert.ok((await nurse.client.rpc(fn, {})).error, fn);
     }
+  });
+});
+
+describe("default setting: no authenticator for staff (simple sign-in)", () => {
+  test("staff and admins work with password only; learners still get nothing; IT can switch it back on", async () => {
+    await setStaffMfa(false);
+    const r = await rpc(admin.client, "admin_create_staff", { p_email: mail("simple"), p_display_name: "พยาบาลไม่มีแอป", p_role: "staff" });
+    assert.ifError(r.error);
+    const plain = await passwordSignIn(mail("simple"), r.data.password); // password only, no authenticator
+    const me = await rpc(plain.client, "my_account");
+    assert.equal(me.data.aal, "aal1");
+    assert.equal(me.data.mfa_required, false);
+    assert.ifError((await rpc(plain.client, "staff_list_learners", {})).error);
+    assert.equal((await rpc(plain.client, "admin_list_staff")).error, "not_admin", "roles still apply");
+    const p = await passwordSignIn(patientEmail(created.username), (await rpc(admin.client, "staff_reset_learner_password", { p_learner: created.learner_id })).data.password);
+    assert.equal((await rpc(p.client, "staff_list_learners", {})).error, "not_staff", "learners still get nothing");
+    const wrong = await newClient().auth.signInWithPassword({ email: mail("simple"), password: "0000000000" });
+    assert.ok(wrong.error, "a wrong staff password is refused");
+
+    await setStaffMfa(true);
+    assert.equal((await rpc(plain.client, "staff_list_learners", {})).error, "mfa_required", "switching it on applies at once");
+    assert.equal((await rpc(plain.client, "my_account")).data.mfa_required, true);
+    await setStaffMfa(false);
+    assert.ifError((await rpc(plain.client, "staff_list_learners", {})).error);
+  });
+
+  test("the setting cannot be changed through the API", async () => {
+    const t = await admin.client.from("settings").select("*");
+    assert.ok(t.error);
+    assert.ok((await admin.client.rpc("staff_mfa_required", {})).error);
   });
 });

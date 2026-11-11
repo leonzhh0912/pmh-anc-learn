@@ -5,6 +5,7 @@ import { StaffGate } from "./StaffGate";
 import { StaffHeader } from "./StaffPage";
 import { CredentialSlip } from "../../account/CredentialSlip";
 import { staffSignin } from "../../account/config";
+import { useSession } from "../../account/session";
 
 type Cohort = { id: string; name: string; learners?: number };
 type Staff = {
@@ -98,6 +99,8 @@ function AdminDashboard() {
 }
 
 function StaffAdmin() {
+  const session = useSession();
+  const mfa = session.account.kind === "staff" && session.account.mfa_required;
   const [data, setData] = useState<StaffList | null>(null);
   const [msg, setMsg] = useState<string | null>(null);
   const [form, setForm] = useState({ email: "", name: "", role: "staff" });
@@ -125,7 +128,7 @@ function StaffAdmin() {
       <p className="auth__hint">
         {staffSignin === "email"
           ? "สร้างบัญชีด้วยอีเมลงาน เจ้าหน้าที่เปิดใช้เองภายใน 7 วันด้วยรหัสทางอีเมล แล้วตั้งค่าแอปยืนยันตัวตน"
-          : "ระบบสร้างรหัสผ่านแบบสุ่มให้ (ไม่ซ้ำกัน) พิมพ์ใบให้เจ้าหน้าที่ ครั้งแรกที่เข้า เจ้าหน้าที่ต้องตั้งค่าแอปยืนยันตัวตนในมือถือ"}
+          : `ระบบสร้างรหัสผ่านแบบสุ่มให้ (ไม่ซ้ำกัน) พิมพ์ใบให้เจ้าหน้าที่${mfa ? " ครั้งแรกที่เข้า เจ้าหน้าที่ต้องตั้งค่าแอปยืนยันตัวตนในมือถือ" : " เจ้าหน้าที่เข้าสู่ระบบด้วยอีเมลงานและรหัสผ่านนี้"}`}
       </p>
       {slip && <CredentialSlip kind="staff" name={slip.display_name} id={slip.email} password={slip.password} onClose={() => setSlip(null)} />}
       <form
@@ -182,7 +185,8 @@ function StaffAdmin() {
           <li key={s.user_id} className="admin__staff">
             <p>
               <strong>{s.display_name}</strong> · {s.email} · {s.role === "admin" ? "ผู้ดูแลระบบ" : "เจ้าหน้าที่"} ·{" "}
-              {s.status === "active" ? "ใช้งาน" : "ปิดใช้งาน"} · {s.mfa_enrolled ? "ตั้งค่ายืนยันตัวตนแล้ว" : "ยังไม่ได้ตั้งค่ายืนยันตัวตน"}
+              {s.status === "active" ? "ใช้งาน" : "ปิดใช้งาน"}
+              {mfa && (s.mfa_enrolled ? " · ตั้งค่ายืนยันตัวตนแล้ว" : " · ยังไม่ได้ตั้งค่ายืนยันตัวตน")}
             </p>
             <fieldset className="admin__cohorts">
               <legend>ดูผู้เรียนในกลุ่ม</legend>
@@ -212,9 +216,11 @@ function StaffAdmin() {
                 type="button"
                 className="btn btn--quiet"
                 onClick={async () => {
-                  const lost = confirm(
-                    `ออกรหัสผ่านใหม่ให้ ${s.display_name}?\n\nกด “ตกลง” ถ้าทำมือถือที่มีแอปยืนยันตัวตนหายด้วย (ต้องตั้งค่าแอปใหม่)\nกด “ยกเลิก” ถ้าลืมแค่รหัสผ่าน`,
-                  );
+                  const lost =
+                    mfa &&
+                    confirm(
+                      `ออกรหัสผ่านใหม่ให้ ${s.display_name}?\n\nกด “ตกลง” ถ้าทำมือถือที่มีแอปยืนยันตัวตนหายด้วย (ต้องตั้งค่าแอปใหม่)\nกด “ยกเลิก” ถ้าลืมแค่รหัสผ่าน`,
+                    );
                   if (!confirm("ยืนยันออกรหัสผ่านใหม่? รหัสผ่านเดิมจะใช้ไม่ได้ทันที")) return;
                   try {
                     setSlip(await call("admin_reset_staff_login", { p_user: s.user_id, p_reset_authenticator: lost }));

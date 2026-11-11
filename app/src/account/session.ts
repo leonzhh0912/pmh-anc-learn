@@ -31,7 +31,7 @@ export type Account =
       legacy_imported_at: string | null;
       created_at: string;
     }
-  | { kind: "staff"; role: "staff" | "admin"; status: "active" | "deactivated"; display_name: string; aal: string };
+  | { kind: "staff"; role: "staff" | "admin"; status: "active" | "deactivated"; display_name: string; aal: string; mfa_required: boolean };
 
 export type SyncState = "idle" | "pending" | "sending" | "offline" | "error";
 
