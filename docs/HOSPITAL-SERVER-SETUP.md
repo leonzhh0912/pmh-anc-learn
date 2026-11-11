@@ -31,6 +31,60 @@ Patient's phone (anywhere) ──HTTPS──► https://ancapi.<hospital domain>
 
 The rest of this guide is option **A**. If IT can't open a firewall port, tell Claude and we'll plan B properly.
 
+## Part 0. With IT, in the data center (first meeting)
+
+Ask IT for, and write the answers down:
+1. **A machine:** if the data center already runs virtual machines (VMware, Proxmox or Hyper-V), ask for a VM
+   instead of new hardware: Ubuntu Server 24.04, 4 vCPU, 8 GB RAM, 100 GB disk. Otherwise use part 2.
+2. **Its fixed internal IP**, for example 10.x.x.50.
+3. **A public name**, `ancapi.<hospital domain>`, pointing at the hospital's public IP, and **ports 443 and 80
+   forwarded** to the machine. If the hospital already has a reverse proxy or web firewall, IT can route the name
+   through it instead.
+4. **SSH access** (port 22) from your Mac's network only.
+5. **A backup target:** an external drive or a file share in another room.
+
+**How you reach the machine: SSH from your Mac.** SSH is a secure remote terminal: you type commands on your Mac
+and they run on the server. Make a key once (it stays on your Mac; give IT only the `.pub` file):
+
+```bash
+ssh-keygen -t ed25519 -C "pmh-anc-learn"
+```
+
+```bash
+cat ~/.ssh/id_ed25519.pub
+```
+
+IT adds that line to the server user's `~/.ssh/authorized_keys`, or you run `ssh-copy-id ubuntu@<internal IP>`
+once with the password IT gives you. Then connect:
+
+```bash
+ssh ubuntu@<internal IP>
+```
+
+Your Mac must be on the hospital network, or on the hospital VPN when you are away. Type `exit` to leave.
+
+**How the software runs: nobody opens it.** There is no program to click.
+- **Docker** starts when the machine boots, and every Supabase part is set to `restart: unless-stopped`. After a
+  reboot or power cut they come back on their own.
+- **Caddy** (the HTTPS front door) is a system service that also starts at boot.
+- To look at it:
+
+```bash
+cd ~/supabase-project && docker compose ps          # every part should say "healthy"
+sudo systemctl status caddy                         # "active (running)"
+docker compose logs --tail=50 auth                  # recent sign-in messages
+```
+
+**How a patient's phone reaches it (option A):**
+
+```
+phone (mobile data or any Wi-Fi)
+  → https://ancapi.<hospital domain>        DNS gives the hospital's public IP
+  → hospital firewall                       forwards 443 to the ANC server only
+  → Caddy on the server (HTTPS certificate)
+  → Supabase gateway (port 8000, internal)  → sign-in / database
+```
+
 ## Part 1. Owners: never one person
 
 Every account and the machine itself need **at least two PMH people**.
