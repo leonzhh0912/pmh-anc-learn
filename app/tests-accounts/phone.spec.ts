@@ -18,7 +18,7 @@ test("phone sign-in: Thai formatting, landline refused, code by SMS", async ({ p
   await expect(page.getByRole("alert")).toContainText("ไม่ใช่เบอร์มือถือไทยที่ถูกต้อง");
 
   await uiPhoneSignIn(page, typed, e164);
-  await expect(page).toHaveURL(/\/account$/);
+  await page.goto("/account");
   await expect(page.getByText(/เข้าสู่ระบบด้วยเบอร์ 08x-xxx-\d{4}/)).toBeVisible();
   const { rows } = await db.query("select phone from auth.users where phone = $1", [e164.slice(1)]);
   expect(rows).toHaveLength(1); // stored as E.164 digits, never 660…

@@ -48,6 +48,8 @@ requires the following:
 | Sign-in | ~~SMS first~~ **Superseded the same day (budget): staff-issued logins.** Staff create each patient's account; the system generates an 8-digit patient ID and a random 10-digit password (different for everyone, stored hashed), printed on a slip. No SMS or email sender. SMS/email code sign-in stays in the code, switched off (`VITE_SIGNIN_METHODS`). | — |
 | Staff sign-in | Administrators create staff accounts (work email + random password on a slip); staff add an authenticator app (free) as the second factor. | — |
 | Sorting | Patient lists sorted by account creation date, newest first. | — |
+| Sign-in page | **One sign-in page** for learners (8-digit ID), staff and admins (work email); the account decides where the person goes; staff/admins still need the authenticator code. | — |
+| Sign-in first | **Sign in before learning** so all learning is tracked (developer for PMH, 2026-11-11). Sign-in, Lesson 0, help, privacy and about stay open; switch `VITE_REQUIRE_LOGIN` (default on). This replaces the earlier brief's "guests learn without an account". Note: handbook danger-sign lessons are then also behind sign-in. | Confirm with management that lessons should not be open to people without an account |
 | Owners | More owners are added to every account; the developer is taught how. | Names |
 | Narration | The project ElevenLabs voice, not the free draft voice, including for the Lesson 0 video. | PMH product review of the video |
 | QR codes | The developer confirmed the poster QR opens the app (including from LINE). | — |

@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { accountsEnabled } from "../account/config";
+import { accountsEnabled, requireLogin } from "../account/config";
 
 /** Permanent help: replay the tutorial, plus short answers to common problems. Works without signing in. */
 export function HelpPage() {
@@ -18,7 +18,11 @@ export function HelpPage() {
       <h2>คำถามที่พบบ่อย</h2>
       <details className="faq">
         <summary>ต้องเข้าสู่ระบบไหม</summary>
-        <p>ไม่ต้อง ทุกบทเรียนและวิดีโอเปิดดูได้เลย{accountsEnabled ? " การเข้าสู่ระบบช่วยเก็บความคืบหน้าไว้ในบัญชี เปิดจากเครื่องอื่นได้ และเจ้าหน้าที่ที่ดูแลคุณเห็นว่าเรียนถึงไหน" : ""}</p>
+        <p>
+          {requireLogin
+            ? "ต้องเข้าสู่ระบบก่อนเริ่มเรียน ด้วยรหัสผู้เรียนและรหัสผ่านจากใบที่เจ้าหน้าที่ให้ หน้าวิธีใช้งานและหน้านี้เปิดดูได้โดยไม่ต้องเข้าสู่ระบบ"
+            : `ไม่ต้อง ทุกบทเรียนและวิดีโอเปิดดูได้เลย${accountsEnabled ? " การเข้าสู่ระบบช่วยเก็บความคืบหน้าไว้ในบัญชี เปิดจากเครื่องอื่นได้ และเจ้าหน้าที่ที่ดูแลคุณเห็นว่าเรียนถึงไหน" : ""}`}
+        </p>
       </details>
       {accountsEnabled && (
         <>

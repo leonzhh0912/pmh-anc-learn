@@ -27,3 +27,4 @@ dist-ssr
 dist-accounts
 test-results-accounts
 playwright-report-accounts
+dist-demo

@@ -20,9 +20,9 @@ let learnerId = "";
 test("learner: sign in, Lesson 0, one lesson, progress saved to the account", async ({ page }) => {
   await test.step("1. sign in with an email one-time code", async () => {
     await page.goto("/");
-    await expect(page.getByRole("link", { name: "เข้าสู่ระบบ" })).toBeVisible();
+    await expect(page).toHaveURL(/\/signin/); // sign-in first
     await uiEmailSignIn(page, LEARNER);
-    await expect(page).toHaveURL(/\/account$/);
+    await page.goto("/account");
     await page.getByLabel("ชื่อที่ให้เจ้าหน้าที่เห็น").fill("สมใจ (ทดสอบ)");
     await page.getByRole("button", { name: "บันทึกชื่อ" }).click();
     await expect(page.getByRole("status").filter({ hasText: "บันทึกแล้ว" })).toBeVisible();
@@ -108,9 +108,9 @@ test("another browser: the same progress after signing in", async ({ browser }) 
   const ctx = await browser.newContext({ locale: "th-TH", timezoneId: "Asia/Bangkok", viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
   const page = await ctx.newPage();
   await page.goto("/");
-  await expect(page.locator(".home__progress")).toContainText("เรียนจบแล้ว 0 จาก 58"); // nothing before sign-in
+  await expect(page).toHaveURL(/\/signin/); // nothing is shown before sign-in
   await uiEmailSignIn(page, LEARNER);
-  await expect(page).toHaveURL(/\/account$/);
+  await page.goto("/account");
   await expect(page.getByText("บทเรียนจากสมุดสีชมพู: เรียนจบแล้ว 1 จาก 58 บท")).toBeVisible({ timeout: 15_000 });
   await expect(page.getByText(/วิธีใช้งาน: เรียนจบแล้ว/)).toBeVisible();
   await page.goto("/");
@@ -119,8 +119,7 @@ test("another browser: the same progress after signing in", async ({ browser }) 
   // shared phone: sign out removes this account's data from the device
   await page.goto("/account");
   await page.getByRole("button", { name: "ออกจากระบบ" }).click();
-  await expect(page).toHaveURL(/\/$/);
-  await expect(page.locator(".home__progress")).toContainText("เรียนจบแล้ว 0 จาก 58");
+  await expect(page).toHaveURL(/\/signin/);
   const leftovers = await page.evaluate(() => Object.keys(localStorage).filter((k) => k.includes(":account:") || k.includes("auth")));
   expect(leftovers).toEqual([]);
   await page.goBack();

@@ -19,14 +19,18 @@ This is real patient-education software for Phimai Hospital, Thailand. Accuracy 
    PMH director, in line with MOPH). Where the handbook is silent (local contacts, doses, product names,
    follow-up routes), the app is silent too. Do not ask PMH to supply extra content.
 5. Accounts and data (rule narrowed on 2026-11-11 by the PMH hospital executive; see docs/ACCOUNTS-SCOPE.md):
-   - Allowed: learner sign-in with ONE verified phone number or email (one-time code preferred), a display
+   - Allowed: learner sign-in (staff-issued ID + password; phone/email one-time codes built but off), a display
      name, account status, account-linked learning activity in this app (lesson steps and completion, quiz
      answers given in the app, video playback coverage, tutorial progress), staff/admin accounts, and audit
      records of privileged actions.
    - Never collect: diagnoses, pregnancy histories, symptoms, national ID numbers, hospital medical records,
      location, or anything for advertising or third-party behavioural analytics. No HIS integration.
-   - Guests can always learn without an account; guest progress stays on the device and is never uploaded
-     or merged without the learner's explicit choice.
+   - Sign-in before learning (developer for PMH, 2026-11-11): when accounts are on, lessons need sign-in
+     (`VITE_REQUIRE_LOGIN`, default on); sign-in, Lesson 0, help, privacy and about stay open. The public
+     build without an account server stays open to everyone. Guest progress already on a device is never
+     uploaded or merged without the learner's explicit choice.
+   - Sign-in for the PMH setup: staff-issued learner ID + password (no SMS/email budget); one sign-in page for
+     learners, staff and admins; staff/admins also need an authenticator code.
    - Roles are enforced by the database (RLS + checked functions), never by the browser. Staff see only
      learners assigned to them. Public sign-up always creates a learner.
    - Real-user data collection stays OFF until PMH's privacy/IT approval and an approved hosting and

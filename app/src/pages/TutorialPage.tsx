@@ -3,7 +3,7 @@ import { Link, useNavigate, useSearchParams } from "react-router";
 import tutorial from "../../../content/app-tutorial/tutorial.json";
 import { setTextScale, useProgress } from "../lib/progress";
 import { tutorialComplete, tutorialSkip, tutorialStep } from "../lib/tutorial";
-import { accountsEnabled } from "../account/config";
+import { accountsEnabled, requireLogin } from "../account/config";
 
 /**
  * Lesson 0: how to use the app. Hands-on practice with pretend buttons; nothing is sent anywhere
@@ -451,9 +451,11 @@ function SavePractice() {
           <span>อยู่ในบัญชีแล้ว เปิดจากเครื่องอื่นก็เห็น</span>
         </li>
       </ul>
-      <p className="auth__hint">
-        ถ้าไม่เข้าสู่ระบบ ความคืบหน้าเก็บไว้ในเครื่องนี้เท่านั้น ไม่ส่งไปที่ไหน และเปิดจากเครื่องอื่นไม่เห็น
-      </p>
+      {!requireLogin && (
+        <p className="auth__hint">
+          ถ้าไม่เข้าสู่ระบบ ความคืบหน้าเก็บไว้ในเครื่องนี้เท่านั้น ไม่ส่งไปที่ไหน และเปิดจากเครื่องอื่นไม่เห็น
+        </p>
+      )}
     </div>
   );
 }

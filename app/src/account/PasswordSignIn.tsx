@@ -2,10 +2,11 @@ import { useId, useState } from "react";
 import { explainPassword, passwordSignIn, patientIdEmail } from "./auth";
 
 /**
- * Sign in with what staff handed over on the slip: patient ID (8 digits) + password; or, for staff, work
- * email + password. No SMS or email is sent.
+ * One sign-in form for everyone. Learners type the 8-digit ID from their slip; staff and administrators type
+ * their work email. The account itself (checked by the server) decides where the person goes next, and
+ * staff/admins still need their authenticator code. No SMS or email is sent.
  */
-export function PasswordSignIn({ audience, onSignedIn }: { audience: "learner" | "staff"; onSignedIn: () => void }) {
+export function PasswordSignIn({ onSignedIn }: { onSignedIn: () => void }) {
   const [id, setId] = useState("");
   const [password, setPassword] = useState("");
   const [show, setShow] = useState(false);
@@ -16,11 +17,13 @@ export function PasswordSignIn({ audience, onSignedIn }: { audience: "learner" |
   async function submit(e: React.FormEvent) {
     e.preventDefault();
     setProblem(null);
-    const email = audience === "learner" ? patientIdEmail(id) : id.trim().toLowerCase();
-    if (audience === "learner" && id.replace(/\D/g, "").length !== 8) {
-      setProblem("รหัสผู้เรียนมี 8 หลัก ดูในใบที่เจ้าหน้าที่ให้");
+    const typed = id.trim();
+    const isEmail = typed.includes("@");
+    if (!isEmail && typed.replace(/\D/g, "").length !== 8) {
+      setProblem("ผู้เรียน: ใส่รหัสผู้เรียน 8 หลักจากใบที่ได้รับ · เจ้าหน้าที่: ใส่อีเมลงาน");
       return;
     }
+    const email = isEmail ? typed.toLowerCase() : patientIdEmail(typed);
     if (!password.trim()) {
       setProblem("ใส่รหัสผ่าน");
       return;
@@ -39,17 +42,19 @@ export function PasswordSignIn({ audience, onSignedIn }: { audience: "learner" |
   return (
     <form className="auth__form" onSubmit={submit} noValidate>
       <label htmlFor={`${uid}-id`} className="auth__label">
-        {audience === "learner" ? "รหัสผู้เรียน (8 หลัก)" : "อีเมลงาน"}
+        รหัสผู้เรียน หรืออีเมลงาน (เจ้าหน้าที่)
       </label>
       <input
         id={`${uid}-id`}
-        className={`auth__input ${audience === "learner" ? "auth__input--id" : ""}`}
-        inputMode={audience === "learner" ? "numeric" : "email"}
+        className="auth__input auth__input--id"
+        inputMode="text"
         autoComplete="username"
-        type={audience === "learner" ? "text" : "email"}
-        placeholder={audience === "learner" ? "เช่น 1234-5678" : "name@hospital"}
+        autoCapitalize="none"
+        spellCheck={false}
+        type="text"
+        placeholder="เช่น 1234-5678"
         value={id}
-        onChange={(e) => setId(audience === "learner" ? e.target.value.replace(/[^\d-\s]/g, "").slice(0, 10) : e.target.value)}
+        onChange={(e) => setId(e.target.value.slice(0, 120))}
         aria-invalid={problem ? true : undefined}
       />
       <label htmlFor={`${uid}-pw`} className="auth__label">
@@ -60,7 +65,7 @@ export function PasswordSignIn({ audience, onSignedIn }: { audience: "learner" |
           id={`${uid}-pw`}
           className="auth__input"
           type={show ? "text" : "password"}
-          inputMode={audience === "learner" && !/[^\d\s]/.test(password) ? "numeric" : "text"}
+          inputMode={!id.includes("@") && !/[^\d\s]/.test(password) ? "numeric" : "text"}
           autoComplete="current-password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
@@ -70,9 +75,11 @@ export function PasswordSignIn({ audience, onSignedIn }: { audience: "learner" |
           {show ? "ซ่อน" : "แสดง"}
         </button>
       </div>
-      {audience === "learner" && (
-        <p className="auth__hint">รหัสผู้เรียนและรหัสผ่านอยู่ในใบที่เจ้าหน้าที่ให้ ลืมรหัสผ่าน ถามเจ้าหน้าที่ที่คลินิกให้ออกรหัสใหม่</p>
-      )}
+      <p className="auth__hint">
+        ผู้เรียน: รหัสผู้เรียนและรหัสผ่านอยู่ในใบที่เจ้าหน้าที่ให้ ลืมรหัสผ่าน ถามเจ้าหน้าที่ที่คลินิกให้ออกรหัสใหม่
+        <br />
+        เจ้าหน้าที่และผู้ดูแลระบบ: ใช้อีเมลงานและรหัสผ่าน แล้วตามด้วยรหัสจากแอปยืนยันตัวตน
+      </p>
       {problem && (
         <p className="auth__problem" role="alert">
           {problem}

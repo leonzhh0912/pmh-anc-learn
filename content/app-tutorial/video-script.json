@@ -1,7 +1,7 @@
 {
   "id": "APP-TUTORIAL",
   "kind": "app-use-tutorial-video",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "note": "How to use the app (software instruction, CLAUDE.md rule 9): not a handbook lesson, no handbook citation, not in the 58-lesson curriculum. Screens are real app screens with a fictional person (video/public/app-tutorial, made by app/scripts/capture-tutorial-screens.ts). DRAFT: needs PMH product review. Narration: the project ElevenLabs voice (same as the lesson videos).",
   "title": "วิธีใช้งาน ANC Learn",
   "editorial": {
@@ -23,20 +23,14 @@
       "title": "เปิดแอป",
       "segments": [
         {
-          "screen": "01-home",
+          "screen": "03-signin-password",
           "speak": "เอ เอ็น ซี เลิร์น คือบทเรียนสั้น ๆ จากสมุดสีชมพู เปิดจากคิวอาร์โค้ด หรือไอคอนบนหน้าจอ",
           "caption": "ANC Learn คือบทเรียนสั้น ๆ จากสมุดสีชมพู เปิดจาก QR หรือไอคอนบนหน้าจอ"
         },
         {
-          "screen": "01-home",
-          "focus": [
-            16,
-            345,
-            358,
-            133
-          ],
-          "speak": "ครั้งแรก เริ่มที่ปุ่ม วิธีใช้งาน",
-          "caption": "ครั้งแรก เริ่มที่ “วิธีใช้งาน”"
+          "screen": "03-signin-password",
+          "speak": "ก่อนเริ่มเรียน ต้องเข้าสู่ระบบ ด้วยบัญชีที่เจ้าหน้าที่สร้างให้",
+          "caption": "ก่อนเริ่มเรียน ต้องเข้าสู่ระบบด้วยบัญชีที่เจ้าหน้าที่สร้างให้"
         }
       ]
     },
@@ -44,17 +38,6 @@
       "id": "signin",
       "title": "เข้าสู่ระบบด้วยใบรหัส",
       "segments": [
-        {
-          "screen": "01-home",
-          "focus": [
-            270,
-            12,
-            108,
-            42
-          ],
-          "speak": "ทุกบทเปิดดูได้เลย ถ้าอยากเก็บความคืบหน้าไว้ในบัญชี แตะ เข้าสู่ระบบ",
-          "caption": "ทุกบทเปิดดูได้เลย อยากเก็บความคืบหน้าไว้ในบัญชี แตะ “เข้าสู่ระบบ”"
-        },
         {
           "screen": "02-slip-sample",
           "focus": [
@@ -76,6 +59,17 @@
           ],
           "speak": "พิมพ์รหัสผู้เรียนและรหัสผ่านจากใบ แล้วแตะ เข้าสู่ระบบ",
           "caption": "พิมพ์รหัสผู้เรียนและรหัสผ่านจากใบ แล้วแตะ “เข้าสู่ระบบ”"
+        },
+        {
+          "screen": "01-home",
+          "focus": [
+            16,
+            345,
+            358,
+            133
+          ],
+          "speak": "ครั้งแรก เริ่มที่ปุ่ม วิธีใช้งาน",
+          "caption": "ครั้งแรก เริ่มที่ “วิธีใช้งาน”"
         }
       ]
     },
@@ -167,8 +161,8 @@
             358,
             96
           ],
-          "speak": "แอปบันทึกให้เอง ถ้าเข้าสู่ระบบ ป้ายนี้จะบอกว่า บันทึกเข้าบัญชีแล้ว",
-          "caption": "แอปบันทึกให้เอง ถ้าเข้าสู่ระบบ ป้ายจะบอกว่า “บันทึกเข้าบัญชีแล้ว”"
+          "speak": "แอปบันทึกให้เอง ป้ายนี้บอกว่า บันทึกเข้าบัญชีแล้ว",
+          "caption": "แอปบันทึกให้เอง ป้ายนี้บอกว่า “บันทึกเข้าบัญชีแล้ว”"
         },
         {
           "screen": "10-account-saved",

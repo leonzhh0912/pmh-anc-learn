@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import { allApproved, handbookSource } from "../content/load";
 import { resetProgress } from "../lib/progress";
-import { accountsEnabled } from "../account/config";
+import { accountsEnabled, requireLogin } from "../account/config";
 
 export function AboutPage() {
   return (
@@ -22,10 +22,12 @@ export function AboutPage() {
       {accountsEnabled ? (
         <>
           <p>
-            เรียนได้ทุกบทโดยไม่ต้องเข้าสู่ระบบ ถ้าไม่เข้าสู่ระบบ ความคืบหน้าเก็บไว้ในเครื่องนี้เท่านั้น ไม่ส่งออกจากเครื่อง
+            {requireLogin
+              ? "เข้าสู่ระบบก่อนเริ่มเรียน ด้วยบัญชีที่เจ้าหน้าที่ของโรงพยาบาลสร้างให้"
+              : "เรียนได้ทุกบทโดยไม่ต้องเข้าสู่ระบบ ถ้าไม่เข้าสู่ระบบ ความคืบหน้าเก็บไว้ในเครื่องนี้เท่านั้น ไม่ส่งออกจากเครื่อง"}
           </p>
           <p>
-            ถ้าเข้าสู่ระบบ (เจ้าหน้าที่สร้างบัญชีให้) ชื่อ รหัสผู้เรียน และความคืบหน้าการเรียนในแอปนี้ จะเก็บในบัญชีของคุณ
+            เมื่อเข้าสู่ระบบ ชื่อ รหัสผู้เรียน และความคืบหน้าการเรียนในแอปนี้ จะเก็บในบัญชีของคุณ
             และเจ้าหน้าที่ที่ได้รับอนุญาตของโรงพยาบาลดูได้ <Link to="/privacy">อ่านรายละเอียด</Link>
           </p>
         </>

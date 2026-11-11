@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router";
+import { Link, Navigate } from "react-router";
 import { OtpSignIn } from "../../account/OtpSignIn";
-import { PasswordSignIn } from "../../account/PasswordSignIn";
 import { staffSignin } from "../../account/config";
 import { explain, mfaEnroll, mfaStatus, mfaVerify } from "../../account/auth";
 import { signOut, useSession } from "../../account/session";
@@ -26,6 +25,8 @@ export function StaffGate({ admin = false, children }: { admin?: boolean; childr
 
   if (s.phase === "disabled") return <AccountsOff />;
   if (s.phase === "loading") return <main className="page"><p role="status">กำลังโหลด…</p></main>;
+  // one sign-in page for everyone: staff bookmarks to /staff land there and come back here afterwards
+  if (s.phase === "guest" && staffSignin === "password") return <Navigate to="/signin" replace />;
   if (s.phase === "guest")
     return (
       <main className="page staff">
@@ -33,12 +34,8 @@ export function StaffGate({ admin = false, children }: { admin?: boolean; childr
           ‹ หน้าแรก
         </Link>
         <h1>เข้าสู่ระบบเจ้าหน้าที่</h1>
-        <p>สำหรับเจ้าหน้าที่ที่ผู้ดูแลระบบสร้างบัญชีให้แล้วเท่านั้น ใช้อีเมลงานและรหัสผ่านที่ได้รับ แล้วตามด้วยรหัสจากแอปยืนยันตัวตน</p>
-        {staffSignin === "password" ? (
-          <PasswordSignIn audience="staff" onSignedIn={() => undefined} />
-        ) : (
-          <OtpSignIn methods={["email"]} meta={{ intent: "staff" }} audience="staff" onSignedIn={() => undefined} />
-        )}
+        <p>สำหรับเจ้าหน้าที่ที่ผู้ดูแลระบบสร้างบัญชีให้แล้วเท่านั้น ใช้อีเมลงาน แล้วตามด้วยรหัสจากแอปยืนยันตัวตน</p>
+        <OtpSignIn methods={["email"]} meta={{ intent: "staff" }} audience="staff" onSignedIn={() => undefined} />
       </main>
     );
   if (s.account.kind !== "staff")

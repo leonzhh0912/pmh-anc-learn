@@ -75,12 +75,16 @@ test("admin and nurse accounts, then the nurse creates a patient", async ({ brow
 
 test("patient: sign in with the slip, Lesson 0, one lesson, saved to the account", async ({ browser }) => {
   const page = await phone(browser);
-  await page.goto("/");
-  await shot(page, "learner-home");
-  await page.getByRole("link", { name: "เข้าสู่ระบบ" }).click();
+  // sign-in comes first: lessons are not shown to anyone signed out
+  await page.goto("/lesson/MCH68-OVR-001");
+  await expect(page).toHaveURL(/\/signin\?next=/);
+  await expect(page.locator(".lesson__kind")).toHaveCount(0);
   await shot(page, "learner-signin");
   await uiPasswordSignIn(page, patient.id, patient.password);
-  await expect(page).toHaveURL(/\/account$/);
+  await expect(page).toHaveURL(/\/$/);
+  await expect(page.locator(".start-here")).toBeVisible();
+  await shot(page, "learner-home");
+  await page.goto("/account");
   await expect(page.getByText(`รหัสผู้เรียนของคุณ ${patient.id}`)).toBeVisible();
 
   await page.goto("/start");
@@ -104,10 +108,11 @@ test("patient: sign in with the slip, Lesson 0, one lesson, saved to the account
 test("another phone: same ID + password, same progress; sign-out clears the phone", async ({ browser }) => {
   const page = await phone(browser);
   await uiPasswordSignIn(page, patient.id.replace("-", ""), patient.password);
+  await page.goto("/account");
   await expect(page.getByText("บทเรียนจากสมุดสีชมพู: เรียนจบแล้ว 1 จาก 58 บท")).toBeVisible({ timeout: 15_000 });
   await expect(page.getByText(/วิธีใช้งาน: เรียนจบแล้ว/)).toBeVisible();
   await page.getByRole("button", { name: "ออกจากระบบ" }).click();
-  await expect(page).toHaveURL(/\/$/);
+  await expect(page).toHaveURL(/\/signin/); // signed out: back to the sign-in page
   const leftovers = await page.evaluate(() => Object.keys(localStorage).filter((k) => k.includes(":account:") || k.includes("auth")));
   expect(leftovers).toEqual([]);
 });
@@ -139,12 +144,12 @@ test("nurse sees the progress, newest patients first, and issues a new password"
   await closeSlip(nurse);
   const page = await phone(browser);
   await page.goto("/signin");
-  await page.getByLabel("รหัสผู้เรียน (8 หลัก)").fill(patient.id);
+  await page.getByLabel("รหัสผู้เรียน หรืออีเมลงาน (เจ้าหน้าที่)").fill(patient.id);
   await page.getByLabel("รหัสผ่าน", { exact: true }).fill(patient.password);
   await page.getByRole("button", { name: "เข้าสู่ระบบ", exact: true }).click();
   await expect(page.getByRole("alert")).toContainText("รหัสไม่ถูกต้อง");
   await uiPasswordSignIn(page, patient.id, fresh.password);
-  await expect(page).toHaveURL(/\/account$/);
+  await expect(page).toHaveURL(/\/$/);
   patient.password = fresh.password;
 });
 

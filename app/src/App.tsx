@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { createBrowserRouter, Link, Outlet, RouterProvider } from "react-router";
+import { createBrowserRouter, Link, Navigate, Outlet, RouterProvider, useLocation } from "react-router";
 import { AboutPage } from "./pages/AboutPage";
 import { HomePage } from "./pages/HomePage";
 import { LessonPage } from "./pages/LessonPage";
@@ -8,7 +8,7 @@ import { setTextScale, useProgress } from "./lib/progress";
 import { allApproved } from "./content/load";
 import { TutorialPage } from "./pages/TutorialPage";
 import { HelpPage } from "./pages/HelpPage";
-import { accountsEnabled } from "./account/config";
+import { accountsEnabled, openWithoutLogin, requireLogin } from "./account/config";
 import { startAccounts, useSession } from "./account/session";
 import { SyncStatus } from "./account/SyncStatus";
 import "./App.css";
@@ -36,6 +36,16 @@ function AccountLink() {
       เข้าสู่ระบบ
     </Link>
   );
+}
+
+/** Sign-in first (when switched on): everything except the pages that explain how to sign in. */
+function LoginGate() {
+  const s = useSession();
+  const loc = useLocation();
+  if (!requireLogin || openWithoutLogin.some((p) => loc.pathname === p || loc.pathname.startsWith(p + "/"))) return <Outlet />;
+  if (s.phase === "loading") return <main className="page"><p role="status">กำลังโหลด…</p></main>;
+  if (s.phase !== "signed-in") return <Navigate to={`/signin?next=${encodeURIComponent(loc.pathname + loc.search)}`} replace />;
+  return <Outlet />;
 }
 
 function Shell() {
@@ -75,7 +85,7 @@ function Shell() {
         </div>
       </header>
       <div id="main">
-        <Outlet />
+        <LoginGate />
       </div>
       <footer className="footer">
         <p>

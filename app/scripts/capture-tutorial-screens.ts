@@ -21,9 +21,6 @@ const browser = await chromium.launch();
 const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, locale: "th-TH", timezoneId: "Asia/Bangkok", isMobile: true, hasTouch: true });
 const page = await ctx.newPage();
 
-await page.goto(`${base}/`);
-await page.locator(".start-here").waitFor();
-await shot(page, "01-home");
 // sign-in with a staff-issued slip: a fictional patient created directly in the LOCAL database
 import pg from "pg";
 const db = new pg.Client({ connectionString: env.DATABASE_URL });
@@ -38,16 +35,18 @@ await page.goto(`${base}/start?step=1`);
 await page.locator(".slip--sample").evaluate((e: HTMLElement) => e.scrollIntoView({ block: "center" }));
 await page.waitForTimeout(300);
 await shot(page, "02-slip-sample");
-await page.goto(`${base}/signin`);
-await page.getByLabel("รหัสผู้เรียน (8 หลัก)").waitFor();
+await page.goto(`${base}/`); // sign-in comes first
+await page.getByLabel("รหัสผู้เรียน หรืออีเมลงาน (เจ้าหน้าที่)").waitFor();
 await shot(page, "03-signin-password");
-await page.getByLabel("รหัสผู้เรียน (8 หลัก)").fill("1234-5678");
+await page.getByLabel("รหัสผู้เรียน หรืออีเมลงาน (เจ้าหน้าที่)").fill("1234-5678");
 await page.getByLabel("รหัสผ่าน", { exact: true }).fill("2468135790");
 await page.getByLabel("รหัสผ่าน", { exact: true }).evaluate((e: HTMLElement) => e.scrollIntoView({ block: "center" }));
 await shot(page, "04-signin-filled");
-await page.getByLabel("รหัสผู้เรียน (8 หลัก)").fill(username);
+await page.getByLabel("รหัสผู้เรียน หรืออีเมลงาน (เจ้าหน้าที่)").fill(username);
 await page.getByRole("button", { name: "เข้าสู่ระบบ", exact: true }).click();
-await page.waitForURL(/\/account$/);
+await page.locator(".start-here").waitFor();
+await shot(page, "01-home");
+await page.goto(`${base}/account`);
 
 await page.goto(`${base}/`);
 await page.locator(".book__title").evaluate((e: HTMLElement) => e.scrollIntoView({ block: "start" }));

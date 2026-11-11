@@ -20,3 +20,11 @@ const methods = ((import.meta.env.VITE_SIGNIN_METHODS as string | undefined) ?? 
 export const signinMethods = methods.length ? methods : (["password"] as const);
 /** Staff sign in with work email + password (default) or an email code ("email"). Always + authenticator. */
 export const staffSignin = ((import.meta.env.VITE_STAFF_SIGNIN as string | undefined) ?? "password") === "email" ? "email" : "password";
+
+/**
+ * Sign in before learning (developer for PMH, 2026-11-11: "login before access, so we track everything").
+ * Only possible when accounts exist (this build has an account server). Set VITE_REQUIRE_LOGIN=false to let
+ * guests learn again. Pages that teach HOW to sign in stay open: sign-in, Lesson 0, help, privacy, about.
+ */
+export const requireLogin = accountsEnabled && (import.meta.env.VITE_REQUIRE_LOGIN as string | undefined) !== "false";
+export const openWithoutLogin = ["/signin", "/start", "/help", "/privacy", "/about", "/poster"];

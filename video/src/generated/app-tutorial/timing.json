@@ -1,28 +1,70 @@
 {
   "id": "APP-TUTORIAL",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "fps": 30,
-  "durationInFrames": 2639,
+  "durationInFrames": 2544,
   "narration": "cloud-tts",
   "scenes": [
     {
       "id": "open",
       "title": "เปิดแอป",
       "from": 0,
-      "durationInFrames": 360,
+      "durationInFrames": 399,
       "segments": [
         {
           "file": "audio/APP-TUTORIAL/open-1-a3a2cb5b88.wav",
           "from": 11,
           "durationInFrames": 226,
           "caption": "ANC Learn คือบทเรียนสั้น ๆ จากสมุดสีชมพู เปิดจาก QR หรือไอคอนบนหน้าจอ",
-          "screen": "01-home",
+          "screen": "03-signin-password",
           "focus": null
         },
         {
-          "file": "audio/APP-TUTORIAL/open-2-cf0e05e177.wav",
+          "file": "audio/APP-TUTORIAL/open-2-da0785c25a.wav",
           "from": 248,
-          "durationInFrames": 94,
+          "durationInFrames": 133,
+          "caption": "ก่อนเริ่มเรียน ต้องเข้าสู่ระบบด้วยบัญชีที่เจ้าหน้าที่สร้างให้",
+          "screen": "03-signin-password",
+          "focus": null
+        }
+      ]
+    },
+    {
+      "id": "signin",
+      "title": "เข้าสู่ระบบด้วยใบรหัส",
+      "from": 399,
+      "durationInFrames": 445,
+      "segments": [
+        {
+          "file": "audio/APP-TUTORIAL/signin-1-8ad91257be.wav",
+          "from": 11,
+          "durationInFrames": 149,
+          "caption": "เจ้าหน้าที่ที่คลินิกจะให้ใบที่มีรหัสผู้เรียน 8 หลัก และรหัสผ่าน",
+          "screen": "02-slip-sample",
+          "focus": [
+            52,
+            328,
+            286,
+            189
+          ]
+        },
+        {
+          "file": "audio/APP-TUTORIAL/signin-2-df9b05d60e.wav",
+          "from": 171,
+          "durationInFrames": 149,
+          "caption": "พิมพ์รหัสผู้เรียนและรหัสผ่านจากใบ แล้วแตะ “เข้าสู่ระบบ”",
+          "screen": "04-signin-filled",
+          "focus": [
+            14,
+            236,
+            362,
+            360
+          ]
+        },
+        {
+          "file": "audio/APP-TUTORIAL/signin-3-cf0e05e177.wav",
+          "from": 331,
+          "durationInFrames": 96,
           "caption": "ครั้งแรก เริ่มที่ “วิธีใช้งาน”",
           "screen": "01-home",
           "focus": [
@@ -35,56 +77,9 @@
       ]
     },
     {
-      "id": "signin",
-      "title": "เข้าสู่ระบบด้วยใบรหัส",
-      "from": 360,
-      "durationInFrames": 519,
-      "segments": [
-        {
-          "file": "audio/APP-TUTORIAL/signin-1-0c57aeae46.wav",
-          "from": 11,
-          "durationInFrames": 180,
-          "caption": "ทุกบทเปิดดูได้เลย อยากเก็บความคืบหน้าไว้ในบัญชี แตะ “เข้าสู่ระบบ”",
-          "screen": "01-home",
-          "focus": [
-            270,
-            12,
-            108,
-            42
-          ]
-        },
-        {
-          "file": "audio/APP-TUTORIAL/signin-2-8ad91257be.wav",
-          "from": 202,
-          "durationInFrames": 151,
-          "caption": "เจ้าหน้าที่ที่คลินิกจะให้ใบที่มีรหัสผู้เรียน 8 หลัก และรหัสผ่าน",
-          "screen": "02-slip-sample",
-          "focus": [
-            52,
-            328,
-            286,
-            189
-          ]
-        },
-        {
-          "file": "audio/APP-TUTORIAL/signin-3-df9b05d60e.wav",
-          "from": 364,
-          "durationInFrames": 137,
-          "caption": "พิมพ์รหัสผู้เรียนและรหัสผ่านจากใบ แล้วแตะ “เข้าสู่ระบบ”",
-          "screen": "04-signin-filled",
-          "focus": [
-            14,
-            236,
-            362,
-            360
-          ]
-        }
-      ]
-    },
-    {
       "id": "slip",
       "title": "เก็บใบรหัสให้ดี",
-      "from": 879,
+      "from": 844,
       "durationInFrames": 304,
       "segments": [
         {
@@ -108,7 +103,7 @@
     {
       "id": "find",
       "title": "หาบทเรียน",
-      "from": 1183,
+      "from": 1148,
       "durationInFrames": 295,
       "segments": [
         {
@@ -132,7 +127,7 @@
     {
       "id": "video",
       "title": "ดูวิดีโอ",
-      "from": 1478,
+      "from": 1443,
       "durationInFrames": 263,
       "segments": [
         {
@@ -166,7 +161,7 @@
     {
       "id": "quiz",
       "title": "ตอบคำถาม",
-      "from": 1741,
+      "from": 1706,
       "durationInFrames": 256,
       "segments": [
         {
@@ -190,14 +185,14 @@
     {
       "id": "save",
       "title": "การบันทึก",
-      "from": 1997,
-      "durationInFrames": 369,
+      "from": 1962,
+      "durationInFrames": 309,
       "segments": [
         {
-          "file": "audio/APP-TUTORIAL/save-1-6dc8f69b45.wav",
+          "file": "audio/APP-TUTORIAL/save-1-73a6de0d61.wav",
           "from": 11,
-          "durationInFrames": 192,
-          "caption": "แอปบันทึกให้เอง ถ้าเข้าสู่ระบบ ป้ายจะบอกว่า “บันทึกเข้าบัญชีแล้ว”",
+          "durationInFrames": 132,
+          "caption": "แอปบันทึกให้เอง ป้ายนี้บอกว่า “บันทึกเข้าบัญชีแล้ว”",
           "screen": "10-account-saved",
           "focus": [
             16,
@@ -208,7 +203,7 @@
         },
         {
           "file": "audio/APP-TUTORIAL/save-2-8ff272fff3.wav",
-          "from": 214,
+          "from": 154,
           "durationInFrames": 137,
           "caption": "ไม่มีอินเทอร์เน็ตก็เรียนต่อได้ แอปจะส่งให้เองเมื่อเน็ตกลับมา",
           "screen": "10-account-saved",
@@ -219,7 +214,7 @@
     {
       "id": "return",
       "title": "กลับมาเรียนต่อ",
-      "from": 2366,
+      "from": 2271,
       "durationInFrames": 273,
       "segments": [
         {

@@ -125,7 +125,8 @@ export async function uiPhoneSignIn(page: Page, typed: string, e164: string) {
 /** Password sign-in through the UI: patient ID (learner page) or work email (staff page). */
 export async function uiPasswordSignIn(page: Page, id: string, password: string, path = "/signin") {
   await page.goto(path);
-  await page.getByLabel(path === "/signin" ? "รหัสผู้เรียน (8 หลัก)" : "อีเมลงาน").fill(id);
+  // one sign-in page for everyone (/staff sends signed-out people there too)
+  await page.getByLabel("รหัสผู้เรียน หรืออีเมลงาน (เจ้าหน้าที่)").fill(id);
   await page.getByLabel("รหัสผ่าน", { exact: true }).fill(password);
   await page.getByRole("button", { name: "เข้าสู่ระบบ", exact: true }).click();
   await expect(page.getByLabel("รหัสผ่าน", { exact: true })).toBeHidden({ timeout: 15_000 });
