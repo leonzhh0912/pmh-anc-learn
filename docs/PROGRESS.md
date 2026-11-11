@@ -292,3 +292,25 @@ BLOCKED (needs a human): PMH privacy/IT approval; hosting location and plan; ema
 provider with a registered Thai sender ID; real email/SMS delivery tests; production voice for the tutorial
 video (ElevenLabs ≈1,030 characters, from the plan allowance) and its product review; retention/deletion
 policy; named owners for every account. See docs/ACCOUNTS-HOSTING.md.
+
+## Session 8b — 2026-11-11 (decisions applied)
+
+Decisions from the developer for PMH: admins delete accounts (usually when the child reaches an age PMH sets);
+data kept 5 years for research; Thai cloud; SMS phone sign-in first; any email sender; more owners; ElevenLabs
+voice only; poster QR code confirmed working (including LINE) on a real phone.
+- **Deletion + retention** (migration 20261112000001): admin deletes with a reason; sign-in, phone/email and name
+  removed at once; learning records kept de-identified 5 years, then purged daily (pg_cron); audited.
+- **SMS first:** phone is the main, recommended sign-in; email is the fallback.
+- **Thai SMS delivery:** `backend/supabase/functions/send-sms` (ThaiBulkSMS or SMSMKT) for the Auth send-SMS hook.
+- **Lesson 0 video** re-narrated with the project ElevenLabs voice: 88.0 s, 17 cues, 862 characters used.
+- **Teaching guide** docs/THAI-CLOUD-SETUP.md (owners, SMS, email, Bangkok server, HTTPS, database, SMS function,
+  backups, checklist) + templates in `backend/deploy/`.
+
+VERIFIED: backend 36/36 (29 database/API + 7 SMS-hook unit tests); accounts e2e 4/4 (incl. deletion via the admin
+screen and phone sign-in through the UI); one-off local integration Auth → send-sms function → fake ThaiBulkSMS
+(correct request, delivered code signs in, provider failure surfaces as an error); public e2e 144/144; tutorial
+video decodes, 88.0 s.
+NOT YET TESTED: the server steps of THAI-CLOUD-SETUP.md on a real server; real SMS delivery (needs the ThaiBulkSMS
+account and sender name); real email delivery.
+BLOCKED: PMH privacy/IT approval (incl. research use and the deletion age); ThaiBulkSMS account, package and sender
+name; server account; hospital DNS for the API address; named owners.

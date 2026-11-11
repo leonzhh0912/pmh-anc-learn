@@ -1,0 +1,16 @@
+# Caddy: HTTPS (automatic Let's Encrypt certificates) in front of self-hosted Supabase.
+# Replace api.example.go.th with your API address (DNS A record -> this server's public IP).
+# For a first test without a domain you can use <your-ip-with-dashes>.sslip.io, e.g. 203-0-113-5.sslip.io
+api.example.go.th {
+	encode gzip
+	# Supabase API gateway (Kong). Auth, REST and Edge Functions all go through it.
+	reverse_proxy localhost:8000
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		X-Content-Type-Options "nosniff"
+		Referrer-Policy "strict-origin-when-cross-origin"
+		-Server
+	}
+}
+# Studio (the admin dashboard) is NOT published. Reach it only through an SSH tunnel:
+#   ssh -L 3000:localhost:3000 ubuntu@<server>   then open http://localhost:3000

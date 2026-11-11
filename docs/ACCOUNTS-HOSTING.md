@@ -4,6 +4,18 @@
 Prices and rules were checked on official pages on 2026-11-11 (sources at the end). They change, so re-check
 them before buying.
 
+## Decided on 2026-11-11 (relayed by the developer)
+
+- **H1:** a Thai cloud server running self-hosted Supabase.
+- **H3:** any email sender (Resend is suggested).
+- **H4:** SMS phone sign-in comes first: ThaiBulkSMS, Corporate route; SMSMKT is supported as an alternative.
+- **H5:** TOTP authenticator app for staff.
+- **H7:** owners will be added.
+- **Retention:** de-identified data is kept 5 years after an account is deleted.
+
+The step-by-step setup is in **docs/THAI-CLOUD-SETUP.md**. H2 (no Supabase plan needed when self-hosting; the cost
+is the server), H6 and H8 remain.
+
 ## Decisions PMH must make (BLOCKED until made)
 
 | # | Decision | Options | Notes |
