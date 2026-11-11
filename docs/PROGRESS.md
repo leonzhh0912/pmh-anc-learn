@@ -346,3 +346,18 @@ NOT YET TESTED: printing a slip on a real printer; patient sign-in on real phone
   Docker, Supabase, HTTPS, migrations, first admin, backups with an off-room copy, checklist, upkeep).
   NOT YET TESTED on the hospital's machine. Thai-cloud guide kept as an alternative. Privacy text now says data
   is kept on the hospital's server, not in a cloud.
+
+## Session 8e — 2026-11-11 (installer rehearsal; nothing on hospital systems)
+
+- `backend/deploy/install.sh`: one-command install on Ubuntu 24.04 (Docker, Supabase `self-hosted/v0.8.4`,
+  Caddy HTTPS, settings, internal ports on 127.0.0.1, migrations tracked in `ops.applied_migrations`, first
+  admin once, nightly backup cron). Re-runnable; never regenerates secrets.
+- Rehearsed on a local practice Ubuntu 24.04 VM (Colima, ARM64): found and fixed two real problems
+  (Supabase's `COMPOSE_FILE` ignored the port override → ports were on 0.0.0.0; gateway needs the key for the
+  health check). Final run: 11/11 services healthy; `check-server.sh` 9/9; `rehearsal-smoke.mjs` 12/12 over
+  HTTPS (admin + authenticator, nurse, patient slip, sync, newest-first list, refusals, deletion, deactivation);
+  after reboot 11/11 healthy, HTTPS 200, ports private. Measured: ~1.5 GB RAM idle, ~11 GB images, backup 74 KB.
+- Publish workflow reads `vars.VITE_SUPABASE_*`: unset (today) = no accounts on the public site.
+- docs/IT-VM-REQUIREMENTS.md (Thai, for IT), docs/IT-REQUEST.md, docs/demo/index.html (fictional walkthrough).
+NOT YET TESTED: x86-64 hardware, the hospital network/firewall/DNS, a real Let's Encrypt certificate, a restore
+drill. BLOCKED: IT approval of the software and the VM; management approval before real accounts.

@@ -38,6 +38,12 @@ jobs:
         env:
           # https://<owner>.github.io/<repo>/, or the domain root for a repo named <owner>.github.io
           BASE_PATH: ${{ endsWith(github.event.repository.name, '.github.io') && '/' || format('/{0}/', github.event.repository.name) }}
+          # Accounts (sign-in, synced progress, staff pages) switch on ONLY when these repository variables are
+          # set (Settings -> Secrets and variables -> Actions -> Variables). Unset = today's site, no sign-in.
+          # Both values are public by design; never put the server's secret key in a variable or in Git.
+          VITE_SUPABASE_URL: ${{ vars.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_PUBLISHABLE_KEY: ${{ vars.VITE_SUPABASE_PUBLISHABLE_KEY }}
+          VITE_SIGNIN_METHODS: ${{ vars.VITE_SIGNIN_METHODS || 'password' }}
       - name: Single-page app fallback (GitHub Pages serves 404.html for unknown paths)
         run: cp dist/index.html dist/404.html
       - uses: actions/upload-pages-artifact@v3

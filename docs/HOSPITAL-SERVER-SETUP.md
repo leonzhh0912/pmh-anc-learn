@@ -257,7 +257,8 @@ Use `backend/deploy/backup.sh`. It writes a compressed dump to `~/backups` every
 1. Mount the external drive at `/mnt/backup` (IT: add it to `/etc/fstab`).
 2. Keep a **second copy somewhere else**: a second drive swapped weekly and kept in another building, or a hospital
    file server. A fire or theft in the IT room must not take the only copy.
-3. Keep `pgsodium_root.key` with the backups and in the password manager.
+3. The script also keeps a copy of `.env` (it holds every key needed to restore) next to the dumps; keep the
+   backup drive locked away like a password.
 4. Add it to cron with `crontab -e`:
    `15 2 * * * BACKUP_DIR=/mnt/backup/pmh-anc /home/ubuntu/backup.sh >> /home/ubuntu/backup.log 2>&1`
 5. **Restore drill** before real patients, then every 3 months:
