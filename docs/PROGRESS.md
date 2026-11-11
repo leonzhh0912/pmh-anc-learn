@@ -266,3 +266,29 @@ Read this first at the start of every working session. Add a dated entry at the 
   actions, idempotent event sync, first-completion time preserved, video coverage from merged playback ranges.
   Local email codes go to Mailpit; local SMS codes to a dev-only outbox table (no SMS sent).
 - Database/API security tests (`cd backend && npm test`, real sign-in flows, fictional people): 26/26 pass.
+- **App** (accounts build only: `npm run dev:accounts` / `build:accounts`; the public build is unchanged):
+  learner sign-in by phone or email code, per-account progress with an offline queue, sync status in Thai,
+  explicit one-time import of device progress, staff pages (invitation + authenticator second factor), admin
+  pages (staff, roles, cohorts, learner access, audit log, health), draft Thai privacy notice (`/privacy`).
+- **Lesson 0 "เริ่มที่นี่: วิธีใช้งาน"** (`/start`, `content/app-tutorial/`): first card on Home, 8 hands-on practice
+  steps, skippable, replayable from Help, no handbook citation, not counted in the 58. Works without an account.
+- **Lesson 0 video** `APP-TUTORIAL` (Remotion source `video/src/tutorial/`, real app screens with a fictional
+  person): 109 s, draft macOS voice (no ElevenLabs spend), 17 Thai caption cues; DRAFT, needs PMH product review.
+- Fixed: first step after a reload was saved to the guest store (found by the new e2e test).
+- Fixed: nutrition-flag e2e race (waits for each step change); passes 16/16 repeated runs.
+
+### Status (session 8)
+VERIFIED (run here): backend security tests 26/26; accounts e2e demo 3/3 (learner sign-in with a real email
+code, Lesson 0, a full lesson, saved centrally, second browser sees it, sign-out clears the device, admin invites
+a nurse, nurse with TOTP sees only her cohort, unauthorised learner refused in UI and by direct API, scope revoke
+immediate); public e2e full run 142/142 (138 existing + 4 Lesson 0), then the Lesson 0 360 px / largest-text test added and passing
+(tutorial spec 6/6); validate (normal and production) 0 errors; tsc
+app/video clean; check-scripts 58 ok; no secret key values in either build; public build precaches no account
+code; tutorial MP4 decodes, 109.1 s, plays in the app.
+NOT YET TESTED: real phones (iPhone Safari, Android, LINE in-app browser) with accounts; enlarged-text pass of
+every new screen beyond the tutorial; screen reader; usability with real staff and patients; hosted Supabase;
+backups and restore drill.
+BLOCKED (needs a human): PMH privacy/IT approval; hosting location and plan; email sender (SMTP) and SMS
+provider with a registered Thai sender ID; real email/SMS delivery tests; production voice for the tutorial
+video (ElevenLabs ≈1,030 characters, from the plan allowance) and its product review; retention/deletion
+policy; named owners for every account. See docs/ACCOUNTS-HOSTING.md.

@@ -76,6 +76,31 @@ Remotion Studio for previewing and editing: `npm run dev` (port 3000).
 To add a new scene type, add it to `video/src/lesson/types.ts` and `LessonVideo.tsx`. Icons are original
 SVGs in `Icon.tsx`. New videos are registered automatically (`video/src/generated/videos.ts`, written by `narrate`).
 
+## Accounts, staff tracking and Lesson 0 (branch `feat/accounts-progress`, not live)
+
+Design: docs/ACCOUNTS-ARCHITECTURE.md. Scope and approvals: docs/ACCOUNTS-SCOPE.md. Hosting: docs/ACCOUNTS-HOSTING.md.
+
+Local setup (needs Docker, e.g. Colima or Docker Desktop; everything runs on this computer, fictional people only):
+
+```bash
+cd backend && npm ci
+npm run db:start                    # local Supabase: Postgres, Auth, Mailpit (email codes at http://127.0.0.1:54324)
+npx supabase status -o env          # copy API_URL / PUBLISHABLE_KEY / SECRET_KEY / DB_URL / MAILPIT_URL into backend/.env.local
+npm test                            # resets the local DB, runs 26 database/API security tests
+cd ../app
+cp accounts.env.example .env.accounts.local   # fill VITE_SUPABASE_URL + VITE_SUPABASE_PUBLISHABLE_KEY (publishable only)
+npm run dev:accounts                # http://localhost:5174 with sign-in; plain `npm run dev` stays accounts-off
+npm run test:accounts               # end-to-end demo: learner, Lesson 0, sync, second device, staff, admin
+```
+
+- Phone codes: locally no SMS is sent; codes land in `dev_only.sms_outbox` (seed.sql). Email codes land in Mailpit.
+- First admin locally: `docker exec supabase_db_pmh-anc-learn psql -U postgres -c "select private.bootstrap_admin('you@example.test','Name')"`,
+  then sign in at `/staff` with that email and set up an authenticator app.
+- Lesson 0 video: `cd video && node scripts/narrate-tutorial.mjs && npx remotion render APP-TUTORIAL out/APP-TUTORIAL.mp4 --crf=26`,
+  then re-encode audio to mono 64k into `app/public/media/APP-TUTORIAL.mp4` (see docs/PROGRESS.md session 8). Screens:
+  `cd app && npx tsx scripts/capture-tutorial-screens.ts` (dev:accounts running).
+- The public build (`npm run build`, GitHub Pages) has no account settings: no sign-in, no account network calls.
+
 ## Git workflow
 
 - `main` is always deployable: validation and tests pass.

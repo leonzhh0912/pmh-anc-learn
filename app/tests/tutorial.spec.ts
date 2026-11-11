@@ -9,7 +9,7 @@ test("Lesson 0: first card, works without sign-in, skip and replay, not counted"
   await expect(page.locator(".home__progress")).toContainText("จาก 58 บทเรียน");
 
   await page.locator(".start-here").click();
-  await expect(page.locator(".lesson__kind")).toHaveText("ขั้นที่ 1 จาก 8");
+  await expect(page.locator("article.lesson__card > .lesson__kind")).toHaveText("ขั้นที่ 1 จาก 8");
   await expect(page.locator(".page-chip")).toHaveCount(0);
   // the practice sign-in sends nothing: there is no network call to any auth service
   const calls: string[] = [];
@@ -52,4 +52,21 @@ test("Lesson 0 video plays with captions available", async ({ page }) => {
   const vtt = await page.request.get("/media/APP-TUTORIAL.th.vtt");
   expect(vtt.ok()).toBe(true);
   expect(await vtt.text()).toContain("WEBVTT");
+});
+
+test("Lesson 0 at 360 px with the largest text: every step fits, no sideways scrolling", async ({ page }) => {
+  await page.setViewportSize({ width: 360, height: 740 });
+  await page.addInitScript(() => localStorage.setItem("pmh-anc-learn:prefs:v1", JSON.stringify({ textScale: 1.3 })));
+  const errors: string[] = [];
+  page.on("pageerror", (e) => errors.push(String(e)));
+  for (let step = 0; step < 8; step++) {
+    await page.goto(`/start?step=${step}`);
+    await expect(page.locator("article.lesson__card > .lesson__kind")).toHaveText(`ขั้นที่ ${step + 1} จาก 8`);
+    const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
+    expect(overflow, `step ${step + 1}`).toBeLessThanOrEqual(0);
+    // main buttons stay large enough to tap
+    const h = await page.locator(".lesson__nav .btn--primary").evaluate((b) => b.getBoundingClientRect().height);
+    expect(h).toBeGreaterThanOrEqual(44);
+  }
+  expect(errors).toEqual([]);
 });
