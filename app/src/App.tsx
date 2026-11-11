@@ -6,13 +6,37 @@ import { LessonPage } from "./pages/LessonPage";
 import { SectionPage } from "./pages/SectionPage";
 import { setTextScale, useProgress } from "./lib/progress";
 import { allApproved } from "./content/load";
+import { TutorialPage } from "./pages/TutorialPage";
+import { HelpPage } from "./pages/HelpPage";
+import { accountsEnabled } from "./account/config";
+import { startAccounts, useSession } from "./account/session";
+import { SyncStatus } from "./account/SyncStatus";
 import "./App.css";
+
+startAccounts();
 
 const scales = [
   { value: 1, label: "ขนาดตัวอักษรปกติ" },
   { value: 1.15, label: "ขนาดตัวอักษรใหญ่" },
   { value: 1.3, label: "ขนาดตัวอักษรใหญ่มาก" },
 ] as const;
+
+function AccountLink() {
+  const s = useSession();
+  if (!accountsEnabled || s.phase === "loading") return null;
+  if (s.phase === "signed-in" && s.account.kind === "learner") return <SyncStatus />;
+  if (s.phase === "signed-in" && s.account.kind === "staff")
+    return (
+      <Link to="/staff" className="topbar__account">
+        เจ้าหน้าที่
+      </Link>
+    );
+  return (
+    <Link to="/signin" className="topbar__account">
+      เข้าสู่ระบบ
+    </Link>
+  );
+}
 
 function Shell() {
   const { textScale } = useProgress();
@@ -33,6 +57,7 @@ function Shell() {
             <span className="topbar__org">โรงพยาบาลพิมาย</span>
           </span>
         </Link>
+        <AccountLink />
         <div className="textsize" role="group" aria-label="ขนาดตัวอักษร">
           {scales.map((s, i) => (
             <button
@@ -57,7 +82,10 @@ function Shell() {
           {allApproved ? "" : "ต้นแบบเพื่อการทดสอบ "}เนื้อหาอ้างอิงสมุดบันทึกสุขภาพแม่และเด็ก ฉบับปรับปรุงใหม่ พ.ศ. 2568 กรมอนามัย
           ไม่ใช่เครื่องมือวินิจฉัยโรค
         </p>
-        <Link to="/about">เกี่ยวกับแอปและข้อมูลของคุณ</Link>
+        <p className="footer__links">
+          <Link to="/help">วิธีใช้งานและช่วยเหลือ</Link>
+          <Link to="/about">เกี่ยวกับแอปและข้อมูลของคุณ</Link>
+        </p>
       </footer>
     </>
   );
@@ -72,6 +100,39 @@ const router = createBrowserRouter(
         { path: "/section/:sectionId", element: <SectionPage /> },
         { path: "/lesson/:lessonId", element: <LessonPage /> },
         { path: "/about", element: <AboutPage /> },
+        { path: "/start", element: <TutorialPage /> },
+        { path: "/help", element: <HelpPage /> },
+        {
+          // learner sign-in (loaded on demand: phone-number library, auth client)
+          path: "/signin",
+          lazy: async () => ({ Component: (await import("./pages/account/SignInPage")).SignInPage }),
+        },
+        {
+          // learner's own account and sync status
+          path: "/account",
+          lazy: async () => ({ Component: (await import("./pages/account/AccountPage")).AccountPage }),
+        },
+        {
+          // privacy notice for accounts (DRAFT, needs PMH review)
+          path: "/privacy",
+          lazy: async () => ({ Component: (await import("./pages/account/PrivacyPage")).PrivacyPage }),
+        },
+        {
+          // staff: sign-in, second factor, learner list (data only via audited server functions)
+          path: "/staff",
+          lazy: async () => ({ Component: (await import("./pages/staff/StaffPage")).StaffPage }),
+        },
+        {
+          // staff: one learner's recorded progress
+          path: "/staff/learner/:learnerId",
+          lazy: async () => ({ Component: (await import("./pages/staff/StaffLearnerPage")).StaffLearnerPage }),
+        },
+        {
+          // administrators: staff accounts, scopes, learner access, audit log
+          path: "/admin",
+          lazy: async () => ({ Component: (await import("./pages/staff/AdminPage")).AdminPage }),
+        },
+
         {
           // staff-only coverage table: loaded on demand so patients never download it
           path: "/curriculum",

@@ -5,8 +5,12 @@ test("K-001 nutrition flag: tiers reveal groups, sorting and quiz complete", asy
   await page.goto("/lesson/MCH68-K-001");
   await expectDraftLabelMatchesStatus(page, "MCH68-K-001");
   // advance past the intro (and the video step, if the lesson has one) to the flag
+  // wait for each step change to render before deciding whether to tap again: react-router applies
+  // ?step= changes as a transition, so a non-waiting count() could see the old step and tap one time too many
   for (let i = 0; i < 3 && !(await page.locator(".flag__tier").count()); i++) {
+    const before = (await page.locator(".lesson__kind").textContent()) ?? "";
     await page.getByRole("button", { name: "ต่อไป" }).click();
+    await expect(page.locator(".lesson__kind")).not.toHaveText(before);
   }
 
   // flag: top tier open by default, tip tier says eat least

@@ -1,4 +1,6 @@
+import { useRef } from "react";
 import { videoById, isApproved } from "../content/load";
+import { useWatchTracking } from "../account/watch";
 
 /**
  * Native <video> with Thai WebVTT captions on by default. The native player
@@ -6,8 +8,10 @@ import { videoById, isApproved } from "../content/load";
  * without extra JavaScript. preload="none" protects low-bandwidth users:
  * nothing downloads until they press play.
  */
-export function VideoPlayer({ videoId }: { videoId: string }) {
+export function VideoPlayer({ videoId, lessonId }: { videoId: string; lessonId?: string }) {
   const v = videoById(videoId);
+  const ref = useRef<HTMLVideoElement>(null);
+  useWatchTracking(ref, videoId, lessonId ?? null);
   if (!v) {
     return <p className="notice">ยังไม่มีวิดีโอสำหรับบทเรียนนี้</p>;
   }
@@ -17,6 +21,7 @@ export function VideoPlayer({ videoId }: { videoId: string }) {
   return (
     <figure className="video">
       <video
+        ref={ref}
         controls
         preload="none"
         playsInline

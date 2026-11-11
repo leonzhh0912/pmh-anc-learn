@@ -2,9 +2,12 @@ import { Link } from "react-router";
 import { lessons, lessonsInSection, sections } from "../content/load";
 import { useProgress } from "../lib/progress";
 import { InstallHelp } from "../components/InstallHelp";
+import { useTutorial } from "../lib/tutorial";
 
 export function HomePage() {
   const progress = useProgress();
+  const tutorial = useTutorial();
+  const tutorialOpen = !tutorial.completedAt && !tutorial.skippedAt;
   const started = lessons.filter((l) => progress.lessons[l.id]);
   const inProgress = started.find((l) => !progress.lessons[l.id]?.completedAt);
   const doneCount = lessons.filter((l) => progress.lessons[l.id]?.completedAt).length;
@@ -21,6 +24,16 @@ export function HomePage() {
           บทเรียนสั้น ๆ จากสมุดบันทึกสุขภาพแม่และเด็ก ฉบับปรับปรุงใหม่ พ.ศ. 2568
           สำหรับคุณแม่ ครอบครัว และผู้ดูแลเด็ก เรียนทีละขั้น ดูวิดีโอ แล้วลองตอบคำถาม
         </p>
+
+        {tutorialOpen && (
+          <Link className="start-here" to={`/start${tutorial.lastStep ? `?step=${tutorial.lastStep}` : ""}`}>
+            <span className="start-here__label">เริ่มที่นี่</span>
+            <span className="start-here__title">วิธีใช้งาน</span>
+            <span className="start-here__meta">
+              {tutorial.startedAt ? "ทำต่อจากที่ค้างไว้" : "8 ขั้นสั้น ๆ มีปุ่มให้ลองกด ประมาณ 5 นาที"}
+            </span>
+          </Link>
+        )}
 
         {inProgress ? (
           <Link
@@ -45,6 +58,12 @@ export function HomePage() {
 
         <p className="home__progress">
           เรียนจบแล้ว {doneCount} จาก {lessons.length} บทเรียนที่มีในตอนนี้
+          {!tutorialOpen && (
+            <>
+              {" · "}
+              <Link to="/start">ดูวิธีใช้งานอีกครั้ง</Link>
+            </>
+          )}
         </p>
         <InstallHelp />
       </section>

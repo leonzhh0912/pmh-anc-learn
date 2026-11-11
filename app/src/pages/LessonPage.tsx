@@ -32,7 +32,7 @@ export function LessonPage() {
   const index = Math.max(0, Number(params.get("step") ?? 0) || 0);
 
   useEffect(() => {
-    if (lesson) reachStep(lesson.id, index);
+    if (lesson) reachStep(lesson.id, Math.min(index, lesson.steps.length - 1), { stepCount: lesson.steps.length, version: lesson.version });
     headingRef.current?.focus();
     window.scrollTo({ top: 0 });
   }, [lesson, index]);
@@ -54,7 +54,7 @@ export function LessonPage() {
   const go = (i: number) => setParams({ step: String(i) });
   const next = () => {
     if (isLast) {
-      completeLesson(lesson.id);
+      completeLesson(lesson.id, { stepCount: lesson.steps.length, version: lesson.version });
       setFinished(true);
     } else go(index + 1);
   };
@@ -166,7 +166,7 @@ function StepBody({
     case "flag":
       return <FoodFlag step={step} />;
     case "video":
-      return <VideoPlayer videoId={step.videoId} />;
+      return <VideoPlayer videoId={step.videoId} lessonId={lessonId} />;
     case "quiz":
       return <Quiz lessonId={lessonId} questions={step.questions} onDone={onQuizDone} />;
     case "takeaways":

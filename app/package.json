@@ -13,7 +13,10 @@
     "test:e2e": "playwright test",
     "review-pack": "tsx scripts/review-pack.ts",
     "record-approval": "tsx scripts/record-approval.ts",
-    "make-qr": "tsx scripts/make-qr.ts"
+    "make-qr": "tsx scripts/make-qr.ts",
+    "dev:accounts": "vite --host --mode accounts --port 5174 --strictPort",
+    "build:accounts": "npm run validate:content && tsc -b && vite build --mode accounts --outDir dist-accounts",
+    "test:accounts": "playwright test --config playwright.accounts.config.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.119.0",
@@ -26,11 +29,14 @@
     "@fontsource/sarabun": "^5.3.0",
     "@playwright/test": "^1.65.0",
     "@types/node": "^24.19.2",
+    "@types/pg": "^8.23.1",
     "@types/qrcode": "^1.5.5",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.1.2",
+    "otpauth": "^9.6.0",
     "oxlint": "^1.90.0",
+    "pg": "^8.23.1",
     "qrcode": "^1.5.4",
     "tsx": "^4.23.15",
     "typescript": "~7.0.2",

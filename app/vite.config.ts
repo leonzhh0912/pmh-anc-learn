@@ -1,13 +1,20 @@
 import { fileURLToPath } from "node:url";
 import react from "@vitejs/plugin-react";
-import { defineConfig } from "vite";
+import { defineConfig, loadEnv } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
 
 // BASE_PATH lets the same build run at a domain root or under a sub-path
 // (e.g. a hospital server at /anc-learn/). Defaults to "/".
 const base = process.env.BASE_PATH ?? "/";
 
-export default defineConfig({
+// Account-only code (auth client, sign-in, staff/admin pages). In a build without account settings
+// (the public site today) these chunks are never loaded, so the service worker must not precache them.
+const accountChunks = ["client", "OtpSignIn", "SignInPage", "AccountPage", "PrivacyPage", "StaffPage", "StaffLearnerPage", "AdminPage", "auth"];
+
+export default defineConfig(({ mode }) => {
+  const env = loadEnv(mode, process.cwd(), "VITE_");
+  const accounts = Boolean(env.VITE_SUPABASE_URL && env.VITE_SUPABASE_PUBLISHABLE_KEY);
+  return {
   base,
   plugins: [
     react(),
@@ -66,6 +73,9 @@ export default defineConfig({
         // work offline. Videos are large: they are cached only after a user
         // plays them (runtime cache), so nobody downloads video they don't watch.
         globPatterns: ["**/*.{js,css,html,svg,png,woff2,vtt,jpg}"],
+        globIgnores: accounts ? [] : accountChunks.map((c) => `**/assets/${c}-*.js`),
+        // Only same-origin app files are cached. Sign-in, progress and staff/admin API responses go to the
+        // account service's own origin and are never cached by this service worker.
         navigateFallback: `${base}index.html`,
         runtimeCaching: [
           {
@@ -85,4 +95,5 @@ export default defineConfig({
   server: {
     fs: { allow: [".."] }, // content/ lives at the repo root
   },
+};
 });

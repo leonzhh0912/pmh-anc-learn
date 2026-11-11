@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# accounts build (local Supabase settings come from .env.accounts.local)
+dist-accounts
+test-results-accounts
+playwright-report-accounts
