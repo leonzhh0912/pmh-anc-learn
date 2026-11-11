@@ -110,8 +110,10 @@ docker compose ps --format 'table {{.Name}}\t{{.Status}}'
 if ss -tlnp | grep -E ':(8000|5432|6543) ' | grep -vq '127.0.0.1'; then
   die "an internal port is open to the network (ss -tlnp); check docker-compose.override.yml"
 fi
-for i in $(seq 1 60); do curl -fsS http://127.0.0.1:8000/auth/v1/health >/dev/null 2>&1 && break; sleep 2; done
-curl -fsS http://127.0.0.1:8000/auth/v1/health >/dev/null || die "sign-in service not answering on 127.0.0.1:8000"
+PUBKEY=$(grep '^SUPABASE_PUBLISHABLE_KEY=' .env | cut -d= -f2-)   # public by design; the gateway wants it
+health() { curl -fsS -H "apikey: $PUBKEY" http://127.0.0.1:8000/auth/v1/health >/dev/null 2>&1; }
+for i in $(seq 1 60); do health && break; sleep 2; done
+health || die "sign-in service not answering on 127.0.0.1:8000"
 
 say "5/8 HTTPS front door for $DOMAIN"
 sed "s/ancapi.example.go.th/$DOMAIN/" "$HERE/Caddyfile.example" > /etc/caddy/Caddyfile
