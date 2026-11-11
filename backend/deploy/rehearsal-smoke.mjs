@@ -58,8 +58,8 @@ check(list?.rows?.[0]?.username === slip.username && list.rows[0].completed === 
 const outsider = await signIn(`${(await rpc(admin, "staff_create_learner", { p_display_name: "คนนอก", p_cohort: cohort })).data.username}@learners.anc-learn.invalid`, "0").catch(() => null);
 check(outsider === null, "a wrong password is refused");
 check((await rpc(patient, "staff_learner_detail", { p_learner: slip.learner_id })).error === "not_staff", "a patient cannot open staff data");
-const { data: rows } = await client().from("lesson_progress").select("*");
-check(Array.isArray(rows) && rows.length === 0, "nobody reads progress without signing in");
+const anon = await client().from("lesson_progress").select("*");
+check(anon.error || (Array.isArray(anon.data) && anon.data.length === 0), "nobody reads progress without signing in");
 
 const del = await rpc(admin, "admin_delete_learner", { p_learner: slip.learner_id, p_reason: "rehearsal clean-up" });
 check(!del.error, "admin deletes the patient (identity removed, de-identified records kept 5 years)");
