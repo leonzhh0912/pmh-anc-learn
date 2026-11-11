@@ -266,6 +266,14 @@ Use `backend/deploy/backup.sh`. It writes a compressed dump to `~/backups` every
    2. Restore with `gunzip -c pmh-anc-<date>.sql.gz | docker exec -i supabase-db psql -U supabase_admin -d postgres`.
    3. Sign in with a test account and check the progress is there.
 
+   Rehearsed 2026-11-11 on the practice server: after wiping the database and restoring the night's dump into a
+   fresh install, all rows came back (learners, staff, activity log, learning events) and an administrator signed
+   in over HTTPS. The restore prints about 400 "already exists" / "duplicate key" lines for Supabase's own
+   built-in tables; that is expected when restoring into a fresh install. Judge success by the counts and a
+   sign-in, not by the absence of those lines. To restore, stop everything except `db` first
+   (`docker compose stop auth rest realtime storage meta functions supavisor studio api-gw`), restore, then
+   `docker compose up -d`.
+
 Check: `~/backup.log` shows "backup ok" every morning.
 
 ## Part 9. Connect the app

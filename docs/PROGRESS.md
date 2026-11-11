@@ -359,5 +359,6 @@ NOT YET TESTED: printing a slip on a real printer; patient sign-in on real phone
   after reboot 11/11 healthy, HTTPS 200, ports private. Measured: ~1.5 GB RAM idle, ~11 GB images, backup 74 KB.
 - Publish workflow reads `vars.VITE_SUPABASE_*`: unset (today) = no accounts on the public site.
 - docs/IT-VM-REQUIREMENTS.md (Thai, for IT), docs/IT-REQUEST.md, docs/demo/index.html (fictional walkthrough).
-NOT YET TESTED: x86-64 hardware, the hospital network/firewall/DNS, a real Let's Encrypt certificate, a restore
-drill. BLOCKED: IT approval of the software and the VM; management approval before real accounts.
+- Restore drill (practice server): database wiped, last night's dump restored into a fresh install: counts identical
+  (4 learners, 6 staff, 18 audit rows, 6 events), admin sign-in over HTTPS OK; ~400 expected "already exists" lines.
+NOT YET TESTED: x86-64 hardware, the hospital network/firewall/DNS, a real Let's Encrypt certificate. BLOCKED: IT approval of the software and the VM; management approval before real accounts.
