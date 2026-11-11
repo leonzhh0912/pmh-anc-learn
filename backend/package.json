@@ -1,0 +1,20 @@
+{
+  "name": "pmh-anc-learn-backend",
+  "private": true,
+  "type": "module",
+  "description": "Supabase project (migrations, RLS, functions) and database/API security tests for learner accounts and staff progress tracking",
+  "scripts": {
+    "db:start": "supabase start -x studio,imgproxy,realtime,storage-api,logflare,vector,supavisor,postgres-meta",
+    "db:stop": "supabase stop",
+    "db:reset": "supabase db reset",
+    "db:status": "supabase status",
+    "pretest": "supabase db reset",
+    "test": "node --env-file=.env.local --test --test-concurrency=1 tests/"
+  },
+  "devDependencies": {
+    "@supabase/supabase-js": "^2.119.0",
+    "otpauth": "^9.6.0",
+    "pg": "^8.23.1",
+    "supabase": "^3.1.0"
+  }
+}

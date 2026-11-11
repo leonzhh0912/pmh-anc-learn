@@ -254,3 +254,15 @@ Read this first at the start of every working session. Add a dated entry at the 
   `?openExternalBrowser=1` (developers.line.biz, "Opening a URL in an external browser"); cameras ignore it, and
   the app removes it from the address bar on load. Inside LINE the install card also has a tap-to-open link.
   Printed address stays `phimai-hospital.github.io`. Not yet tried on a real phone with LINE. e2e 138 passed.
+
+## Session 8 — 2026-11-11 (accounts, staff tracking, Lesson 0) — branch `feat/accounts-progress`
+
+- **Scope amended** (hospital executive): learner accounts (phone or email one-time code), staff progress view,
+  admin management, app-use tutorial. CLAUDE.md/AGENTS.md rule 5 narrowed, rule 9 added; docs/ACCOUNTS-SCOPE.md.
+  Real-user accounts stay off until PMH privacy/IT approval and approved hosting/email/SMS.
+- **Backend** (`backend/`): Supabase (local stack via CLI + Docker). One migration: tables with RLS on and
+  default deny, explicit grants, all writes through checked SECURITY DEFINER functions, roles looked up per call,
+  staff/admin need a second factor (TOTP, aal2), cohort-scoped staff access, audited staff reads and admin
+  actions, idempotent event sync, first-completion time preserved, video coverage from merged playback ranges.
+  Local email codes go to Mailpit; local SMS codes to a dev-only outbox table (no SMS sent).
+- Database/API security tests (`cd backend && npm test`, real sign-in flows, fictional people): 26/26 pass.

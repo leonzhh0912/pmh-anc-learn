@@ -18,7 +18,22 @@ This is real patient-education software for Phimai Hospital, Thailand. Accuracy 
 8. Scope: the app digitises the handbook to make it easier to learn; it adds no information (decision of the
    PMH director, in line with MOPH). Where the handbook is silent (local contacts, doses, product names,
    follow-up routes), the app is silent too. Do not ask PMH to supply extra content.
-5. Never collect patient data. Progress stays in `localStorage`. No accounts, analytics or HIS integration.
+5. Accounts and data (rule narrowed on 2026-11-11 by the PMH hospital executive; see docs/ACCOUNTS-SCOPE.md):
+   - Allowed: learner sign-in with ONE verified phone number or email (one-time code preferred), a display
+     name, account status, account-linked learning activity in this app (lesson steps and completion, quiz
+     answers given in the app, video playback coverage, tutorial progress), staff/admin accounts, and audit
+     records of privileged actions.
+   - Never collect: diagnoses, pregnancy histories, symptoms, national ID numbers, hospital medical records,
+     location, or anything for advertising or third-party behavioural analytics. No HIS integration.
+   - Guests can always learn without an account; guest progress stays on the device and is never uploaded
+     or merged without the learner's explicit choice.
+   - Roles are enforced by the database (RLS + checked functions), never by the browser. Staff see only
+     learners assigned to them. Public sign-up always creates a learner.
+   - Real-user data collection stays OFF until PMH's privacy/IT approval and an approved hosting and
+     email/SMS setup. Never put secrets, private records or exports in the frontend, public folders or Git.
+   - An administrator role gives no authority to approve or edit clinical content.
+9. The app-use tutorial ("Lesson 0", `content/app-tutorial/`) is software instruction, not a handbook lesson:
+   it is stored apart from the 58 lessons, has no handbook citations, and is not counted in the curriculum.
 6. The earlier 1st-printing PDF (sha256 `5f5cc4f7…`) must not be used as a source.
 7. Do not copy handbook illustrations. Draw original graphics (see `video/src/lesson/Icon.tsx`).
 
@@ -38,6 +53,8 @@ This is real patient-education software for Phimai Hospital, Thailand. Accuracy 
 - Many videos at once: `cd video && npm run batch -- V-K-001 …` (check → narrate → render → publish → attach)
 - Authoring guides: `docs/LESSON-AUTHORING-GUIDE.md`, `docs/VIDEO-SCRIPT-GUIDE.md`
 - Reviewer checklist: `cd app && npm run review-pack` → `docs/REVIEW-PACK.md`
+- Accounts backend: `backend/supabase/migrations/` (schema, RLS, functions), `backend/tests/` (database/API
+  security tests: `cd backend && npm run db:start && npm test`), docs in `docs/ACCOUNTS-*.md`
 
 ## Working method
 
