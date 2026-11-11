@@ -161,8 +161,8 @@ test("staff: an authorised nurse sees the learner; others cannot", async ({ brow
   await admin.goto("/admin");
   await admin.getByLabel("อีเมลงาน").fill(NURSE);
   await admin.getByLabel("ชื่อที่แสดง").fill("พยาบาลทดสอบ");
-  await admin.getByRole("button", { name: "เชิญ", exact: true }).click();
-  await expect(admin.getByText("ส่งคำเชิญแล้ว")).toBeVisible();
+  await admin.getByRole("button", { name: "สร้างบัญชี", exact: true }).click();
+  await expect(admin.getByText("สร้างบัญชีแล้ว")).toBeVisible();
   await admin.getByRole("tab", { name: "บัญชีผู้เรียน" }).click();
   const row = admin.locator(".admin__staff").filter({ hasText: "สมใจ (ทดสอบ)" });
   await row.getByLabel("คลินิกฝากครรภ์ (ข้อมูลทดสอบ)").click();

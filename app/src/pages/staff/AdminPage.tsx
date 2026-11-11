@@ -24,9 +24,9 @@ const actionLabel: Record<string, string> = {
   "staff.list_learners": "เปิดรายชื่อผู้เรียน",
   "staff.view_learner": "เปิดข้อมูลผู้เรียน",
   "staff.view_learner_denied": "พยายามเปิดผู้เรียนนอกกลุ่ม (ถูกปฏิเสธ)",
-  "staff.invitation_accepted": "รับคำเชิญเจ้าหน้าที่",
-  "admin.invite_staff": "เชิญเจ้าหน้าที่",
-  "admin.revoke_invitation": "ยกเลิกคำเชิญ",
+  "staff.invitation_accepted": "เจ้าหน้าที่เปิดใช้บัญชี (เข้าสู่ระบบครั้งแรก)",
+  "admin.invite_staff": "สร้างบัญชีเจ้าหน้าที่",
+  "admin.revoke_invitation": "ยกเลิกบัญชีที่ยังไม่เปิดใช้",
   "admin.set_staff_role": "เปลี่ยนบทบาท",
   "admin.set_staff_status": "เปิด/ปิดบัญชีเจ้าหน้าที่",
   "admin.create_cohort": "สร้างกลุ่ม",
@@ -44,7 +44,7 @@ const problemText = (e: unknown) => {
   if (m === "last_active_admin") return "ทำไม่ได้: ต้องมีผู้ดูแลระบบที่ใช้งานอยู่อย่างน้อย 1 คน";
   if (m === "email_already_has_account") return "อีเมลนี้มีบัญชีอยู่แล้ว (เช่น บัญชีผู้เรียน) ใช้อีเมลงานอีกอีเมลหนึ่ง";
   if (m === "bad_email") return "อีเมลไม่ถูกต้อง";
-  if (/duplicate key/.test(m)) return "มีคำเชิญหรือชื่อนี้อยู่แล้ว";
+  if (/duplicate key/.test(m)) return "มีบัญชีที่รอเปิดใช้สำหรับอีเมลนี้ หรือชื่อนี้อยู่แล้ว";
   return "ทำรายการไม่สำเร็จ ลองอีกครั้ง";
 };
 
@@ -109,12 +109,16 @@ function StaffAdmin() {
   return (
     <section aria-label="เจ้าหน้าที่และกลุ่ม">
       {msg && <p role="status" className="notice">{msg}</p>}
-      <h2>เชิญเจ้าหน้าที่</h2>
+      <h2>สร้างบัญชีเจ้าหน้าที่</h2>
+      <p className="auth__hint">
+        สร้างบัญชีให้เจ้าหน้าที่หรือผู้ดูแลระบบคนใหม่ด้วยอีเมลงาน เจ้าหน้าที่เปิดใช้บัญชีเองภายใน 7 วัน โดยเข้า “เข้าสู่ระบบเจ้าหน้าที่”
+        ด้วยอีเมลนั้น แล้วตั้งค่าแอปยืนยันตัวตน ไม่มีการตั้งรหัสผ่านให้ใคร
+      </p>
       <form
         className="admin__form"
         onSubmit={(e) => {
           e.preventDefault();
-          void act("admin_invite_staff", { p_email: form.email, p_display_name: form.name, p_role: form.role }, "ส่งคำเชิญแล้ว ให้เจ้าหน้าที่เข้า “เข้าสู่ระบบเจ้าหน้าที่” ด้วยอีเมลนี้ภายใน 7 วัน").then(() =>
+          void act("admin_invite_staff", { p_email: form.email, p_display_name: form.name, p_role: form.role }, "สร้างบัญชีแล้ว แจ้งเจ้าหน้าที่ให้เข้า “เข้าสู่ระบบเจ้าหน้าที่” ด้วยอีเมลนี้ภายใน 7 วัน เพื่อเปิดใช้บัญชี").then(() =>
             setForm({ email: "", name: "", role: "staff" }),
           );
         }}
@@ -128,18 +132,18 @@ function StaffAdmin() {
           <option value="staff">เจ้าหน้าที่ (ดูผู้เรียนในกลุ่มที่ได้รับมอบหมาย)</option>
           <option value="admin">ผู้ดูแลระบบ (จัดการบัญชีและสิทธิ์)</option>
         </select>
-        <button type="submit" className="btn btn--primary">เชิญ</button>
+        <button type="submit" className="btn btn--primary">สร้างบัญชี</button>
       </form>
 
       {data && data.invitations.length > 0 && (
         <>
-          <h3>คำเชิญที่ยังไม่ได้ใช้</h3>
+          <h3>บัญชีที่รอเปิดใช้ (เจ้าหน้าที่ยังไม่เคยเข้าสู่ระบบ)</h3>
           <ul className="admin__list">
             {data.invitations.map((i) => (
               <li key={i.id}>
                 {i.display_name} · {i.email} · {i.role === "admin" ? "ผู้ดูแลระบบ" : "เจ้าหน้าที่"} · หมดอายุ {formatBangkok(i.expires_at)}{" "}
-                <button type="button" className="btn btn--quiet" onClick={() => void act("admin_revoke_invitation", { p_invitation: i.id }, "ยกเลิกคำเชิญแล้ว")}>
-                  ยกเลิกคำเชิญ
+                <button type="button" className="btn btn--quiet" onClick={() => void act("admin_revoke_invitation", { p_invitation: i.id }, "ยกเลิกบัญชีแล้ว")}>
+                  ยกเลิกบัญชีนี้
                 </button>
               </li>
             ))}

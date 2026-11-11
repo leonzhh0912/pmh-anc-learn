@@ -31,7 +31,7 @@ export function StaffGate({ admin = false, children }: { admin?: boolean; childr
           ‹ หน้าแรก
         </Link>
         <h1>เข้าสู่ระบบเจ้าหน้าที่</h1>
-        <p>สำหรับเจ้าหน้าที่โรงพยาบาลที่ได้รับคำเชิญจากผู้ดูแลระบบเท่านั้น ใช้อีเมลที่ได้รับคำเชิญ</p>
+        <p>สำหรับเจ้าหน้าที่ที่ผู้ดูแลระบบสร้างบัญชีให้แล้วเท่านั้น ใช้อีเมลงานที่ผู้ดูแลระบบใช้สร้างบัญชี</p>
         <OtpSignIn methods={["email"]} meta={{ intent: "staff" }} audience="staff" onSignedIn={() => undefined} />
       </main>
     );
@@ -39,7 +39,7 @@ export function StaffGate({ admin = false, children }: { admin?: boolean; childr
     return (
       <main className="page staff">
         <h1>บัญชีนี้ไม่ใช่บัญชีเจ้าหน้าที่</h1>
-        <p>คุณเข้าสู่ระบบด้วยบัญชีผู้เรียน ถ้าเป็นเจ้าหน้าที่ ออกจากระบบแล้วเข้าด้วยอีเมลที่ได้รับคำเชิญ</p>
+        <p>คุณเข้าสู่ระบบด้วยบัญชีผู้เรียน ถ้าเป็นเจ้าหน้าที่ ออกจากระบบแล้วเข้าด้วยอีเมลงานที่ผู้ดูแลระบบใช้สร้างบัญชีเจ้าหน้าที่</p>
         <button type="button" className="btn btn--quiet" onClick={() => void signOut({ discardPending: false }).catch(() => signOut({ discardPending: true }))}>
           ออกจากระบบ
         </button>
