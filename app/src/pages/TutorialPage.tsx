@@ -3,7 +3,7 @@ import { Link, useNavigate, useSearchParams } from "react-router";
 import tutorial from "../../../content/app-tutorial/tutorial.json";
 import { setTextScale, useProgress } from "../lib/progress";
 import { tutorialComplete, tutorialSkip, tutorialStep } from "../lib/tutorial";
-import { accountsEnabled } from "../account/config";
+import { accountsEnabled, signinMethods } from "../account/config";
 
 /**
  * Lesson 0: how to use the app. Hands-on practice with pretend buttons; nothing is sent anywhere
@@ -116,7 +116,7 @@ function Practice({ id, done, onDone }: { id: string; done: boolean; onDone: () 
     case "start":
       return <StartPractice done={done} onDone={onDone} />;
     case "login":
-      return <LoginPractice done={done} onDone={onDone} />;
+      return signinMethods.includes("password") ? <SlipPractice done={done} onDone={onDone} /> : <LoginPractice done={done} onDone={onDone} />;
     case "find":
       return <FindPractice done={done} onDone={onDone} />;
     case "nav":
@@ -158,6 +158,78 @@ function StartPractice({ done, onDone }: P) {
           </li>
         </ol>
       </div>
+    </div>
+  );
+}
+
+const SAMPLE_ID = "1234-5678";
+const SAMPLE_PASSWORD = "2468 135 790";
+
+/** Practise signing in with the slip staff hand over (sample values; nothing is sent anywhere). */
+function SlipPractice({ done, onDone }: P) {
+  const [id, setId] = useState("");
+  const [pw, setPw] = useState("");
+  const [wrong, setWrong] = useState(false);
+  return (
+    <div className="practice">
+      <p className="practice__fiction">ฝึกเท่านั้น: ใบข้างล่างเป็นตัวอย่าง ไม่ใช่บัญชีจริง</p>
+      <div className="slip slip--sample" aria-label="ใบรหัสตัวอย่าง">
+        <p className="slip__org">โรงพยาบาลพิมาย · ANC Learn (ตัวอย่าง)</p>
+        <dl className="slip__creds">
+          <dt>รหัสผู้เรียน</dt>
+          <dd className="slip__value">{SAMPLE_ID}</dd>
+          <dt>รหัสผ่าน</dt>
+          <dd className="slip__value">{SAMPLE_PASSWORD}</dd>
+        </dl>
+      </div>
+      <p className="auth__hint">ของจริง: แตะ “เข้าสู่ระบบ” ที่มุมบน แล้วพิมพ์รหัสจากใบของคุณเอง</p>
+      <label className="auth__label" htmlFor="practice-id">
+        รหัสผู้เรียน (8 หลัก)
+      </label>
+      <input
+        id="practice-id"
+        className="auth__input auth__input--id"
+        inputMode="numeric"
+        autoComplete="off"
+        value={id}
+        onChange={(e) => {
+          setId(e.target.value);
+          setWrong(false);
+        }}
+      />
+      <label className="auth__label" htmlFor="practice-pw">
+        รหัสผ่าน
+      </label>
+      <input
+        id="practice-pw"
+        className="auth__input"
+        inputMode="numeric"
+        autoComplete="off"
+        value={pw}
+        onChange={(e) => {
+          setPw(e.target.value);
+          setWrong(false);
+        }}
+      />
+      <div className="auth__actions">
+        <button
+          type="button"
+          className="btn btn--primary"
+          onClick={() =>
+            id.replace(/\D/g, "") === SAMPLE_ID.replace(/\D/g, "") && pw.replace(/\D/g, "") === SAMPLE_PASSWORD.replace(/\D/g, "")
+              ? onDone()
+              : setWrong(true)
+          }
+        >
+          เข้าสู่ระบบ (ฝึก)
+        </button>
+      </div>
+      {wrong && (
+        <p className="auth__problem" role="alert">
+          ยังไม่ตรง ดูตัวเลขในใบตัวอย่างอีกครั้ง (เว้นวรรคหรือขีดไม่ต้องพิมพ์ก็ได้)
+        </p>
+      )}
+      <Done show={done}>เข้าสู่ระบบ (ฝึก) สำเร็จ ถ้าลืมรหัสผ่านหรือทำใบหาย ขอให้เจ้าหน้าที่ออกรหัสผ่านใหม่</Done>
     </div>
   );
 }
@@ -477,7 +549,7 @@ function ReturnPractice() {
     <div className="practice">
       <ul className="mock__list">
         <li>เปิดแอป → ปุ่ม “เรียนต่อจากครั้งที่แล้ว” ที่หน้าแรก</li>
-        {accountsEnabled && <li>เข้าสู่ระบบ → “บัญชีของฉัน” → ดูว่าเรียนจบกี่บท</li>}
+        {accountsEnabled && <li>เข้าสู่ระบบด้วยรหัสผู้เรียนและรหัสผ่านเดิม → “บัญชีของฉัน” → ดูว่าเรียนจบกี่บท</li>}
         <li>
           ต้องการความช่วยเหลือ → <Link to="/help">วิธีใช้งานและช่วยเหลือ</Link>
         </li>

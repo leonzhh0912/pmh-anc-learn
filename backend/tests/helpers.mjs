@@ -115,3 +115,33 @@ export async function rpc(client, fn, args) {
 export function ev(kind, lessonId, data = {}, at = new Date().toISOString()) {
   return { id: crypto.randomUUID(), kind, lessonId, data, at };
 }
+
+/** Password sign-in (staff-issued patient accounts and password staff accounts). */
+export async function passwordSignIn(email, password) {
+  const c = newClient();
+  const { data, error } = await c.auth.signInWithPassword({ email, password });
+  if (error) throw error;
+  return { client: c, user: data.user };
+}
+
+export const patientEmail = (username) => `${username}@learners.anc-learn.invalid`;
+
+/** Staff with a password: sign in, then authenticator (enrol on first use) -> aal2. */
+export async function staffPasswordSignIn(email, password, { totpSecret } = {}) {
+  const { client, user } = await passwordSignIn(email, password);
+  let secret = totpSecret;
+  let factorId;
+  const { data: f } = await client.auth.mfa.listFactors();
+  const verified = f?.totp?.find((x) => x.status === "verified");
+  if (verified && secret) factorId = verified.id;
+  else {
+    const { data, error } = await client.auth.mfa.enroll({ factorType: "totp", friendlyName: `t-${Date.now()}` });
+    if (error) throw error;
+    secret = data.totp.secret;
+    factorId = data.id;
+  }
+  const code = new TOTP({ secret, digits: 6, period: 30 }).generate();
+  const { error } = await client.auth.mfa.challengeAndVerify({ factorId, code });
+  if (error) throw error;
+  return { client, user, totpSecret: secret };
+}

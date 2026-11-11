@@ -3,6 +3,8 @@ import { call } from "../../account/auth";
 import { formatBangkok } from "../../account/SyncStatus";
 import { StaffGate } from "./StaffGate";
 import { StaffHeader } from "./StaffPage";
+import { CredentialSlip } from "../../account/CredentialSlip";
+import { staffSignin } from "../../account/config";
 
 type Cohort = { id: string; name: string; learners?: number };
 type Staff = {
@@ -37,6 +39,11 @@ const actionLabel: Record<string, string> = {
   "admin.remove_learner_from_cohort": "นำผู้เรียนออกจากกลุ่ม",
   "admin.set_learner_status": "เปิด/ปิดบัญชีผู้เรียน",
   "bootstrap.admin_invitation": "สร้างผู้ดูแลระบบคนแรก (จากฐานข้อมูล)",
+  "admin.create_staff": "สร้างบัญชีเจ้าหน้าที่ (รหัสผ่าน)",
+  "admin.reset_staff_login": "ออกรหัสผ่านใหม่ให้เจ้าหน้าที่",
+  "staff.create_learner": "สร้างบัญชีผู้เรียน",
+  "staff.reset_learner_password": "ออกรหัสผ่านใหม่ให้ผู้เรียน",
+  "bootstrap.admin_password": "สร้างผู้ดูแลระบบคนแรก (จากฐานข้อมูล)",
   "admin.delete_learner": "ลบบัญชีผู้เรียน (เก็บข้อมูลการเรียนแบบไม่ระบุตัวตน 5 ปี)",
   "system.purge_expired": "ลบข้อมูลที่ครบ 5 ปีแล้ว (อัตโนมัติ)",
 };
@@ -95,6 +102,7 @@ function StaffAdmin() {
   const [msg, setMsg] = useState<string | null>(null);
   const [form, setForm] = useState({ email: "", name: "", role: "staff" });
   const [cohortName, setCohortName] = useState("");
+  const [slip, setSlip] = useState<{ email: string; password: string; display_name: string } | null>(null);
   const load = useCallback(() => call<StaffList>("admin_list_staff").then(setData).catch((e) => setMsg(problemText(e))), []);
   useEffect(() => {
     void load();
@@ -115,25 +123,38 @@ function StaffAdmin() {
       {msg && <p role="status" className="notice">{msg}</p>}
       <h2>สร้างบัญชีเจ้าหน้าที่</h2>
       <p className="auth__hint">
-        สร้างบัญชีให้เจ้าหน้าที่หรือผู้ดูแลระบบคนใหม่ด้วยอีเมลงาน เจ้าหน้าที่เปิดใช้บัญชีเองภายใน 7 วัน โดยเข้า “เข้าสู่ระบบเจ้าหน้าที่”
-        ด้วยอีเมลนั้น แล้วตั้งค่าแอปยืนยันตัวตน ไม่มีการตั้งรหัสผ่านให้ใคร
+        {staffSignin === "email"
+          ? "สร้างบัญชีด้วยอีเมลงาน เจ้าหน้าที่เปิดใช้เองภายใน 7 วันด้วยรหัสทางอีเมล แล้วตั้งค่าแอปยืนยันตัวตน"
+          : "ระบบสร้างรหัสผ่านแบบสุ่มให้ (ไม่ซ้ำกัน) พิมพ์ใบให้เจ้าหน้าที่ ครั้งแรกที่เข้า เจ้าหน้าที่ต้องตั้งค่าแอปยืนยันตัวตนในมือถือ"}
       </p>
+      {slip && <CredentialSlip kind="staff" name={slip.display_name} id={slip.email} password={slip.password} onClose={() => setSlip(null)} />}
       <form
         className="admin__form"
-        onSubmit={(e) => {
+        onSubmit={async (e) => {
           e.preventDefault();
-          void act("admin_invite_staff", { p_email: form.email, p_display_name: form.name, p_role: form.role }, "สร้างบัญชีแล้ว แจ้งเจ้าหน้าที่ให้เข้า “เข้าสู่ระบบเจ้าหน้าที่” ด้วยอีเมลนี้ภายใน 7 วัน เพื่อเปิดใช้บัญชี").then(() =>
-            setForm({ email: "", name: "", role: "staff" }),
-          );
+          setMsg(null);
+          if (staffSignin === "email") {
+            await act("admin_invite_staff", { p_email: form.email, p_display_name: form.name, p_role: form.role }, "สร้างบัญชีแล้ว แจ้งเจ้าหน้าที่ให้เข้า “เข้าสู่ระบบเจ้าหน้าที่” ด้วยอีเมลนี้ภายใน 7 วัน เพื่อเปิดใช้บัญชี");
+          } else {
+            try {
+              setSlip(await call("admin_create_staff", { p_email: form.email, p_display_name: form.name, p_role: form.role }));
+              setMsg("สร้างบัญชีแล้ว ให้ใบรหัสกับเจ้าหน้าที่");
+              await load();
+            } catch (err) {
+              setMsg(problemText(err));
+              return;
+            }
+          }
+          setForm({ email: "", name: "", role: "staff" });
         }}
       >
-        <label className="auth__label" htmlFor="inv-email">อีเมลงาน</label>
+        <label className="auth__label" htmlFor="inv-email">อีเมลงาน (ใช้เป็นชื่อเข้าระบบ)</label>
         <input id="inv-email" className="auth__input" type="email" required value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} />
         <label className="auth__label" htmlFor="inv-name">ชื่อที่แสดง</label>
         <input id="inv-name" className="auth__input" required value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} />
         <label className="auth__label" htmlFor="inv-role">บทบาท</label>
         <select id="inv-role" className="auth__input" value={form.role} onChange={(e) => setForm({ ...form, role: e.target.value })}>
-          <option value="staff">เจ้าหน้าที่ (ดูผู้เรียนในกลุ่มที่ได้รับมอบหมาย)</option>
+          <option value="staff">เจ้าหน้าที่ (สร้างบัญชีและดูผู้เรียนในกลุ่มที่ได้รับมอบหมาย)</option>
           <option value="admin">ผู้ดูแลระบบ (จัดการบัญชีและสิทธิ์)</option>
         </select>
         <button type="submit" className="btn btn--primary">สร้างบัญชี</button>
@@ -186,6 +207,24 @@ function StaffAdmin() {
                 onClick={() => void act("admin_set_staff_status", { p_user: s.user_id, p_status: s.status === "active" ? "deactivated" : "active" }, "บันทึกแล้ว")}
               >
                 {s.status === "active" ? "ปิดใช้งานบัญชี" : "เปิดใช้งานบัญชี"}
+              </button>
+              <button
+                type="button"
+                className="btn btn--quiet"
+                onClick={async () => {
+                  const lost = confirm(
+                    `ออกรหัสผ่านใหม่ให้ ${s.display_name}?\n\nกด “ตกลง” ถ้าทำมือถือที่มีแอปยืนยันตัวตนหายด้วย (ต้องตั้งค่าแอปใหม่)\nกด “ยกเลิก” ถ้าลืมแค่รหัสผ่าน`,
+                  );
+                  if (!confirm("ยืนยันออกรหัสผ่านใหม่? รหัสผ่านเดิมจะใช้ไม่ได้ทันที")) return;
+                  try {
+                    setSlip(await call("admin_reset_staff_login", { p_user: s.user_id, p_reset_authenticator: lost }));
+                    await load();
+                  } catch (err) {
+                    setMsg(problemText(err));
+                  }
+                }}
+              >
+                ออกรหัสผ่านใหม่
               </button>
               <button
                 type="button"

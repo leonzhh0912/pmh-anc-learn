@@ -41,10 +41,13 @@ requires the following:
 
 | Topic | Decision | Still open |
 |---|---|---|
-| Deletion | Administrators delete learner accounts, usually once the child reaches an age PMH sets. The app stores no ages, so the administrator decides. | The age |
-| Retention | On deletion, identity (sign-in, phone/email, name) is removed at once; learning records are kept **de-identified for 5 years for research**, then purged automatically (daily job). | Research/ethics approval for that use; whether records of *active* accounts also have a limit |
+| Deletion | Administrators delete learner accounts **manually**. | — |
+| Retention | On deletion, identity (sign-in, ID, name) is removed at once; learning records are kept **de-identified for 5 years for research**, then purged automatically (daily job). **Approved by the PMH director** (reported by the developer, 2026-11-11). | Whether records of *active* accounts also have a limit |
+| Privacy / IT | **PMH IT approved** the accounts plan (reported by the developer, 2026-11-11). | Named people for the server and accounts |
 | Hosting | Data may live in a **Thai cloud** (self-hosted Supabase); the developer is taught the setup (docs/THAI-CLOUD-SETUP.md). | Which provider |
-| Sign-in | **SMS phone sign-in first**; email is the fallback. Any email sender is fine. | SMS provider account and sender-name registration |
+| Sign-in | ~~SMS first~~ **Superseded the same day (budget): staff-issued logins.** Staff create each patient's account; the system generates an 8-digit patient ID and a random 10-digit password (different for everyone, stored hashed), printed on a slip. No SMS or email sender. SMS/email code sign-in stays in the code, switched off (`VITE_SIGNIN_METHODS`). | — |
+| Staff sign-in | Administrators create staff accounts (work email + random password on a slip); staff add an authenticator app (free) as the second factor. | — |
+| Sorting | Patient lists sorted by account creation date, newest first. | — |
 | Owners | More owners are added to every account; the developer is taught how. | Names |
 | Narration | The project ElevenLabs voice, not the free draft voice, including for the Lesson 0 video. | PMH product review of the video |
 | QR codes | The developer confirmed the poster QR opens the app (including from LINE). | — |

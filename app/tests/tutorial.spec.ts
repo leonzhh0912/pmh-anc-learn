@@ -15,13 +15,12 @@ test("Lesson 0: first card, works without sign-in, skip and replay, not counted"
   const calls: string[] = [];
   page.on("request", (r) => /auth\/v1|rest\/v1/.test(r.url()) && calls.push(r.url()));
   await page.goto("/start?step=1");
-  await page.getByRole("button", { name: /^อีเมล/ }).click();
-  await page.getByRole("button", { name: "ส่งรหัส (ฝึก)" }).click();
-  await page.getByLabel("พิมพ์รหัส 6 หลักจากข้อความตัวอย่าง").fill("000000");
-  await page.getByRole("button", { name: "ยืนยันรหัส (ฝึก)" }).click();
-  await expect(page.getByRole("alert")).toContainText("รหัสยังไม่ตรง");
-  await page.getByLabel("พิมพ์รหัส 6 หลักจากข้อความตัวอย่าง").fill("123456");
-  await page.getByRole("button", { name: "ยืนยันรหัส (ฝึก)" }).click();
+  await page.getByLabel("รหัสผู้เรียน (8 หลัก)").fill("12345679");
+  await page.getByLabel("รหัสผ่าน").fill("2468135790");
+  await page.getByRole("button", { name: "เข้าสู่ระบบ (ฝึก)" }).click();
+  await expect(page.getByRole("alert")).toContainText("ยังไม่ตรง");
+  await page.getByLabel("รหัสผู้เรียน (8 หลัก)").fill("1234-5678");
+  await page.getByRole("button", { name: "เข้าสู่ระบบ (ฝึก)" }).click();
   await expect(page.locator(".tutorial__done")).toContainText("สำเร็จ");
   expect(calls).toEqual([]);
 

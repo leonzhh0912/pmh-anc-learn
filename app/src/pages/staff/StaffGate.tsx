@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router";
 import { OtpSignIn } from "../../account/OtpSignIn";
+import { PasswordSignIn } from "../../account/PasswordSignIn";
+import { staffSignin } from "../../account/config";
 import { explain, mfaEnroll, mfaStatus, mfaVerify } from "../../account/auth";
 import { signOut, useSession } from "../../account/session";
 import { AccountsOff } from "../account/AccountsOff";
@@ -31,8 +33,12 @@ export function StaffGate({ admin = false, children }: { admin?: boolean; childr
           ‹ หน้าแรก
         </Link>
         <h1>เข้าสู่ระบบเจ้าหน้าที่</h1>
-        <p>สำหรับเจ้าหน้าที่ที่ผู้ดูแลระบบสร้างบัญชีให้แล้วเท่านั้น ใช้อีเมลงานที่ผู้ดูแลระบบใช้สร้างบัญชี</p>
-        <OtpSignIn methods={["email"]} meta={{ intent: "staff" }} audience="staff" onSignedIn={() => undefined} />
+        <p>สำหรับเจ้าหน้าที่ที่ผู้ดูแลระบบสร้างบัญชีให้แล้วเท่านั้น ใช้อีเมลงานและรหัสผ่านที่ได้รับ แล้วตามด้วยรหัสจากแอปยืนยันตัวตน</p>
+        {staffSignin === "password" ? (
+          <PasswordSignIn audience="staff" onSignedIn={() => undefined} />
+        ) : (
+          <OtpSignIn methods={["email"]} meta={{ intent: "staff" }} audience="staff" onSignedIn={() => undefined} />
+        )}
       </main>
     );
   if (s.account.kind !== "staff")

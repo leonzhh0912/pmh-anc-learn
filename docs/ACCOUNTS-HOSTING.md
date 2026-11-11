@@ -7,8 +7,11 @@ them before buying.
 ## Decided on 2026-11-11 (relayed by the developer)
 
 - **H1:** a Thai cloud server running self-hosted Supabase.
-- **H3:** any email sender (Resend is suggested).
-- **H4:** SMS phone sign-in comes first: ThaiBulkSMS, Corporate route; SMSMKT is supported as an alternative.
+- **H3/H4 (revised the same day, budget):** no SMS or email sender. Staff create patient accounts and print
+  slips (patient ID + random password); administrators create staff accounts the same way. The SMS sender
+  (ThaiBulkSMS/SMSMKT) stays in the code, switched off.
+- **Privacy/IT (H8):** PMH IT approved; the director approved keeping de-identified data 5 years for research
+  (reported by the developer).
 - **H5:** TOTP authenticator app for staff.
 - **H7:** owners will be added.
 - **Retention:** de-identified data is kept 5 years after an account is deleted.

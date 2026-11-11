@@ -3,7 +3,7 @@
 You do the clicks and sign-ups; Claude can't create accounts or pay. Each part ends with a check, so you know it
 worked before you go on. Prices and screens were checked on 2026-11-11 and can change.
 
-**Status:** only parts 1–3 and 10 are ordinary sign-ups and settings. The server steps (4–9, 11) use Supabase's
+**Status:** parts 1 and 10 are ordinary settings. The server steps (4–9, 11) use Supabase's
 official self-hosting setup and the templates in `backend/deploy/`, but **nobody has run them on a real server
 yet**. Expect to adjust names to the provider's screens. Ask Claude at any step and paste the error (never paste
 passwords or keys).
@@ -18,8 +18,12 @@ Patients' phones ──► https://phimai-hospital.github.io   (the app, same ad
                          Caddy (HTTPS) → Supabase: Auth, database, SMS function
                          │                                     │
                          ▼                                     ▼
-                     nightly backups                     ThaiBulkSMS → patient's phone
+                     nightly backups
 ```
+
+**Sign-in (PMH decision, budget):** staff create each patient's account in the app and print a slip with a
+patient ID and password; administrators create staff accounts the same way. No SMS or email sender is needed, and
+nobody can sign up publicly. SMS sign-in is still built and can be switched on later (appendix).
 
 The app stays on GitHub Pages, so printed QR codes keep working and nothing about the address changes for
 patients. Only the accounts server, where personal data lives, is in Thailand.
@@ -29,8 +33,7 @@ patients. Only the accounts server, where personal data lives, is in Thailand.
 | Item | Cost |
 |---|---|
 | Server, 2 vCPU / 8 GB / 80 GB | NIPA Cloud about ฿1,390, or AWS Bangkok t3.large about US$76 |
-| SMS | ThaiBulkSMS Corporate about ฿0.48 per code (the ฿3,500 package is about 7,300 codes, valid 12 months), plus VAT |
-| Email | Resend: free up to 3,000 emails/month |
+| SMS / email | none (staff-issued logins) |
 | Domain | the hospital's own subdomain: free |
 
 ---
@@ -57,42 +60,14 @@ two-factor sign-in everywhere.
 - **Cloud provider (NIPA or AWS):** add a second administrator user.
   - AWS: IAM Identity Center user with AdministratorAccess.
   - Keep the root login on the shared mailbox with MFA, and don't use it day to day.
-- **ThaiBulkSMS:** sign up with the shared mailbox; two people know the login.
-- **Resend:** invite a second member to the team.
 - **ElevenLabs:** the plan the videos use. Make sure PMH can reach that account, or plan a handover.
 - **The app itself:** two administrators (part 8). The app refuses to remove the last one.
 - **The server:** two people with SSH keys (part 5).
 
-## Part 2. SMS for sign-in codes (ThaiBulkSMS)
+## Part 2. SMS and Part 3. Email: skip
 
-1. Sign up at https://www.thaibulksms.com with the shared mailbox.
-2. Buy the **฿3,500 package on the Corporate route**. Corporate gives credit back for undelivered messages, and the
-   ฿3,500 package is the smallest that allows your own sender name.
-3. **Sender name (ชื่อผู้ส่ง):** in the dashboard, request one of 4–10 English letters or digits, for example `PMHANC`
-   or `PHIMAIHOSP`. Approval takes 5–7 working days. If they ask for documents (a name that looks like an
-   organisation), use a letter from the hospital. Until it is approved you can only test with their `Demo` sender.
-4. Create an **API key and API secret** in the dashboard. Store them in the password manager. Never put them in Git,
-   chat or email.
-5. Check: send yourself a test SMS from their dashboard.
-
-*Cheaper alternative:* SMSMKT (฿1,000 minimum, about ฿0.60 per SMS, charges only delivered messages, sender
-approval 2–3 days). The SMS function supports it: set `SMS_PROVIDER=smsmkt`.
-
-## Part 3. Email sender (the fallback sign-in)
-
-The simple choice is **Resend**.
-1. Sign up at resend.com.
-2. **Domains → Add domain:** use a subdomain such as `mail.<hospital domain>`.
-3. Hospital IT adds the DNS records it shows (SPF/DKIM). Wait until they are verified.
-4. **API Keys → Create:** this key is the SMTP password.
-5. Settings for part 6:
-   - host `smtp.resend.com`
-   - port `587`
-   - user `resend`
-   - password: the API key
-   - sender `no-reply@mail.<hospital domain>`, name `ANC Learn โรงพยาบาลพิมาย`
-
-Any other SMTP service works the same way.
+With staff-issued logins you need neither. Go straight to Part 4. (If PMH later wants SMS codes, the appendix at
+the end has the steps.)
 
 ## Part 4. Create the server in Bangkok
 
@@ -146,22 +121,17 @@ Then edit `.env` (`nano .env`):
   - `SUPABASE_PUBLIC_URL=https://api-anc.<hospital domain>`
   - `API_EXTERNAL_URL=` the same address
   - `SITE_URL=https://phimai-hospital.github.io`
-- **Email:**
-  - `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS` from part 3
-  - `SMTP_ADMIN_EMAIL`, `SMTP_SENDER_NAME`
+- **Email:** leave the SMTP settings as they are; nothing is sent.
 - **Dashboard login:**
   - `DASHBOARD_USERNAME`: any name
   - `DASHBOARD_PASSWORD`: long, with letters
-- Add a line `SEND_SMS_HOOK_SECRET=v1,whsec_<paste the output of: openssl rand -base64 32>`.
 - **Copy all of `.env` into the password manager now.** It holds every server secret.
 
 Open `docker-compose.yml`, find the `auth:` service and its `environment:` list. Add or uncomment the settings in
 `backend/deploy/auth.env.example`. They cover:
-- phone sign-in on;
-- codes valid **600 s** (the default is only 60 s);
-- 60 s resend cooldown;
-- the SMS hook;
-- email codes;
+- **public sign-up off**: only staff and administrators create accounts;
+- password sign-in on;
+- phone/SMS off;
 - authenticator apps for staff.
 
 Then start everything:
@@ -201,17 +171,25 @@ for f in $(ls ~/migrations/*.sql | sort); do
 done
 ```
 
-Create the first administrator (a PMH person with a work email):
+Create the first administrator (a PMH person with a work email). It prints a 10-digit password **once**: give
+it to that person on paper.
 
 ```bash
 docker exec -it supabase-db psql -U postgres -d postgres \
-  -c "select private.bootstrap_admin('admin@<hospital domain>', 'ชื่อผู้ดูแลระบบ');"
+  -c "select private.bootstrap_admin_password('admin@<hospital domain>', 'ชื่อผู้ดูแลระบบ');"
 ```
+
+Then that person opens the app → วิธีใช้งานและช่วยเหลือ → สำหรับเจ้าหน้าที่, signs in with the email and password,
+and sets up an authenticator app. From then on, administrators create everyone else in the app.
 
 Check: `docker exec supabase-db psql -U postgres -c "select jobname, schedule from cron.job"` shows
 `pmh-purge-expired-learners` (the daily 5-year clean-up).
 
-## Part 9. The SMS function
+## Part 9. (Skip) The SMS function
+
+Only needed if SMS codes are switched on later; the steps are kept here for that day.
+
+### Appendix C. The SMS function
 
 ```bash
 # on your computer
@@ -235,20 +213,18 @@ Put `THAIBULKSMS_API_KEY=` and `THAIBULKSMS_API_SECRET=` lines in `.env`. Then:
 sh run.sh recreate functions && sh run.sh recreate auth
 ```
 
-Check:
-1. Go to the test page (part 10).
-2. Choose **เบอร์โทรศัพท์** (phone) and enter **your own** mobile number.
-3. A Thai SMS from your sender name arrives within a minute, and the code signs you in.
+Check (only with SMS on): on the test page choose **เบอร์โทรศัพท์** (phone) and enter **your own** mobile number; a
+Thai SMS from your sender name arrives within a minute, and the code signs you in.
 
 If no SMS arrives, `docker compose logs functions auth | tail -50` shows why. The function never logs codes.
 
-## Part 10. Connect the app (only after PMH approval)
+## Part 10. Connect the app (once parts 4–9 and 11 work)
 
-This step makes sign-in visible to the public, so **don't do it until the privacy/IT approval is done**
-(docs/ACCOUNTS-SCOPE.md). When you're ready, tell Claude and it will:
-1. Add the repository variables `VITE_SUPABASE_URL` (your https API address) and `VITE_SUPABASE_PUBLISHABLE_KEY`
-   (from `.env`; it is public by design, never the secret key) in GitHub → Settings → Secrets and variables →
-   Actions → **Variables**.
+This step makes sign-in visible on the public site. PMH IT and the director have approved the plan
+(docs/ACCOUNTS-SCOPE.md); do it once the server checks pass. Tell Claude and it will:
+1. Add the repository variables `VITE_SUPABASE_URL` (your https API address), `VITE_SUPABASE_PUBLISHABLE_KEY`
+   (from `.env`; it is public by design, never the secret key) and `VITE_SIGNIN_METHODS=password` in GitHub →
+   Settings → Secrets and variables → Actions → **Variables**.
 2. Change the publish workflow to build with them.
 3. Merge the accounts branch after the tests pass.
 4. Run a check sign-in with your phone on the live site.
@@ -278,18 +254,56 @@ Check: `~/backup.log` has a "backup ok" line every morning.
 
 - [ ] PMH privacy/IT approval, the privacy notice text, the deletion age, and research approval (ACCOUNTS-SCOPE.md)
 - [ ] Two owners on every account (part 1)
-- [ ] SMS works on at least 3 different networks (AIS, True, dtac) with consenting staff phones
-- [ ] Staff sign-in with an authenticator app; a staff member sees only their group
+- [ ] An administrator creates a staff account; the staff member signs in with the slip and an authenticator app
+- [ ] Staff create a test patient, print the slip, and the patient signs in on a real phone (iPhone and Android)
+- [ ] A staff member sees only their group; "forgot password" issues a new slip and the old password stops working
+- [ ] Public sign-up is off: on the live sign-in page there is no way to create an account
 - [ ] Deleting a test account works and appears in the activity log
 - [ ] The backup restore drill passed
-- [ ] A low SMS-credit alert in the ThaiBulkSMS dashboard
 
 ## Part 13. Looking after it
 
 - Monthly: `sudo apt update && sudo apt -y upgrade`.
 - About once a month, check Supabase self-hosting release notes before `git pull` and `sh run.sh start`.
   Back up first.
-- Watch the SMS credit and `~/backup.log`.
+- Watch `~/backup.log`.
 - In the app, the admin page tab "สถานะระบบ" (system status) shows the last time data arrived.
 - If anything looks wrong with access, an administrator can switch a staff account off instantly, and all staff
   actions are in the activity log.
+
+---
+
+## Appendix A. SMS for sign-in codes (ThaiBulkSMS), only if PMH pays for it later
+
+1. Sign up at https://www.thaibulksms.com with the shared mailbox.
+2. Buy the **฿3,500 package on the Corporate route**. Corporate gives credit back for undelivered messages, and the
+   ฿3,500 package is the smallest that allows your own sender name.
+3. **Sender name (ชื่อผู้ส่ง):** in the dashboard, request one of 4–10 English letters or digits, for example `PMHANC`
+   or `PHIMAIHOSP`. Approval takes 5–7 working days. If they ask for documents (a name that looks like an
+   organisation), use a letter from the hospital. Until it is approved you can only test with their `Demo` sender.
+4. Create an **API key and API secret** in the dashboard. Store them in the password manager. Never put them in Git,
+   chat or email.
+5. Check: send yourself a test SMS from their dashboard.
+
+*Cheaper alternative:* SMSMKT (฿1,000 minimum, about ฿0.60 per SMS, charges only delivered messages, sender
+approval 2–3 days). The SMS function supports it: set `SMS_PROVIDER=smsmkt`.
+
+## Appendix B. Email sender, only if email codes are wanted later
+
+The simple choice is **Resend**.
+1. Sign up at resend.com.
+2. **Domains → Add domain:** use a subdomain such as `mail.<hospital domain>`.
+3. Hospital IT adds the DNS records it shows (SPF/DKIM). Wait until they are verified.
+4. **API Keys → Create:** this key is the SMTP password.
+5. Settings for part 6:
+   - host `smtp.resend.com`
+   - port `587`
+   - user `resend`
+   - password: the API key
+   - sender `no-reply@mail.<hospital domain>`, name `ANC Learn โรงพยาบาลพิมาย`
+
+Any other SMTP service works the same way.
+
+To switch SMS on later: deploy the SMS function (part 9 of the earlier version of this guide is kept below as
+Appendix C), use the commented SMS block in `backend/deploy/auth.env.example`, and add `phone` to
+`VITE_SIGNIN_METHODS`.

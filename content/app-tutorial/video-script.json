@@ -1,7 +1,7 @@
 {
   "id": "APP-TUTORIAL",
   "kind": "app-use-tutorial-video",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "note": "How to use the app (software instruction, CLAUDE.md rule 9): not a handbook lesson, no handbook citation, not in the 58-lesson curriculum. Screens are real app screens with a fictional person (video/public/app-tutorial, made by app/scripts/capture-tutorial-screens.ts). DRAFT: needs PMH product review. Narration: the project ElevenLabs voice (same as the lesson videos).",
   "title": "วิธีใช้งาน ANC Learn",
   "editorial": {
@@ -42,7 +42,7 @@
     },
     {
       "id": "signin",
-      "title": "เข้าสู่ระบบด้วยเบอร์หรืออีเมล",
+      "title": "เข้าสู่ระบบด้วยใบรหัส",
       "segments": [
         {
           "screen": "01-home",
@@ -56,36 +56,42 @@
           "caption": "ทุกบทเปิดดูได้เลย อยากเก็บความคืบหน้าไว้ในบัญชี แตะ “เข้าสู่ระบบ”"
         },
         {
-          "screen": "02-signin-choose",
-          "speak": "เลือกเบอร์โทรศัพท์ หรืออีเมล อย่างใดอย่างหนึ่ง",
-          "caption": "เลือกเบอร์โทรศัพท์ หรืออีเมล อย่างใดอย่างหนึ่ง"
+          "screen": "02-slip-sample",
+          "focus": [
+            52,
+            328,
+            286,
+            189
+          ],
+          "speak": "เจ้าหน้าที่ที่คลินิกจะให้ใบที่มีรหัสผู้เรียนแปดหลัก และรหัสผ่าน",
+          "caption": "เจ้าหน้าที่ที่คลินิกจะให้ใบที่มีรหัสผู้เรียน 8 หลัก และรหัสผ่าน"
         },
         {
-          "screen": "03-signin-email",
-          "speak": "พิมพ์เบอร์มือถือของคุณ แล้วแตะ ส่งรหัส",
-          "caption": "พิมพ์เบอร์มือถือของคุณ แล้วแตะ “ส่งรหัส”"
+          "screen": "04-signin-filled",
+          "focus": [
+            14,
+            236,
+            362,
+            360
+          ],
+          "speak": "พิมพ์รหัสผู้เรียนและรหัสผ่านจากใบ แล้วแตะ เข้าสู่ระบบ",
+          "caption": "พิมพ์รหัสผู้เรียนและรหัสผ่านจากใบ แล้วแตะ “เข้าสู่ระบบ”"
         }
       ]
     },
     {
-      "id": "code",
-      "title": "ใส่รหัส 6 หลัก",
+      "id": "slip",
+      "title": "เก็บใบรหัสให้ดี",
       "segments": [
         {
-          "screen": "04-signin-code",
-          "focus": [
-            15,
-            382,
-            292,
-            82
-          ],
-          "speak": "รหัสหกหลักจะมาทางข้อความเอสเอ็มเอส พิมพ์รหัสลงในช่องนี้ แล้วแตะ ยืนยันรหัส",
-          "caption": "รหัส 6 หลักมาทาง SMS พิมพ์ลงในช่องนี้ แล้วแตะ “ยืนยันรหัส”"
+          "screen": "02-slip-sample",
+          "speak": "เก็บใบนี้ไว้กับสมุดสีชมพู อย่าให้ผู้อื่นดู",
+          "caption": "เก็บใบนี้ไว้กับสมุดสีชมพู อย่าให้ผู้อื่นดู"
         },
         {
-          "screen": "04-signin-code",
-          "speak": "ห้ามบอกรหัสนี้กับใคร ถ้ารหัสไม่มา แตะ ขอรหัสใหม่",
-          "caption": "ห้ามบอกรหัสกับใคร รหัสไม่มา แตะ “ขอรหัสใหม่”"
+          "screen": "03-signin-password",
+          "speak": "ลืมรหัสผ่าน หรือทำใบหาย ขอให้เจ้าหน้าที่ออกรหัสผ่านใหม่",
+          "caption": "ลืมรหัสผ่าน หรือทำใบหาย ขอให้เจ้าหน้าที่ออกรหัสผ่านใหม่"
         }
       ]
     },

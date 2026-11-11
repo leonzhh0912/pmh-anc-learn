@@ -4,6 +4,7 @@ import { call } from "../../account/auth";
 import { signOut, useSession } from "../../account/session";
 import { formatBangkok } from "../../account/SyncStatus";
 import { lessons } from "../../content/load";
+import { CredentialSlip } from "../../account/CredentialSlip";
 import { StaffGate } from "./StaffGate";
 
 type Row = {
@@ -20,6 +21,8 @@ type Row = {
   in_progress: number;
   last_activity_at: string | null;
   last_synced_at: string | null;
+  created_at: string;
+  username: string | null;
 };
 type ListResult = { total: number; page: number; page_size: number; rows: Row[] };
 
@@ -75,11 +78,13 @@ function StaffDashboard() {
   const [data, setData] = useState<ListResult | null>(null);
   const [problem, setProblem] = useState<string | null>(null);
   const [loadedAt, setLoadedAt] = useState<string | null>(null);
+  const [sort, setSort] = useState<"created" | "activity">("created");
+  const [reload, setReload] = useState(0);
 
   useEffect(() => {
     let live = true;
     setProblem(null);
-    call<ListResult>("staff_list_learners", { p_query: applied, p_filter: filter, p_page: page, p_page_size: 20 })
+    call<ListResult>("staff_list_learners", { p_query: applied, p_filter: filter, p_page: page, p_page_size: 20, p_sort: sort })
       .then((d) => {
         if (!live) return;
         setData(d);
@@ -89,7 +94,7 @@ function StaffDashboard() {
     return () => {
       live = false;
     };
-  }, [applied, filter, page]);
+  }, [applied, filter, page, sort, reload]);
 
   const pages = data ? Math.max(1, Math.ceil(data.total / data.page_size)) : 1;
 
@@ -99,6 +104,7 @@ function StaffDashboard() {
       <p className="staff__scope">
         แสดงเฉพาะผู้เรียนในกลุ่มที่คุณได้รับมอบหมาย ทุกครั้งที่เปิดดู ระบบบันทึกไว้ ข้อมูล ณ {formatBangkok(loadedAt)} (เวลาไทย)
       </p>
+      <CreateLearner onCreated={() => setReload((n) => n + 1)} />
       <form
         className="staff__search"
         role="search"
@@ -109,7 +115,7 @@ function StaffDashboard() {
         }}
       >
         <label htmlFor="staff-q" className="auth__label">
-          ค้นหาชื่อ หรือเลขท้ายเบอร์ / อีเมล
+          ค้นหาชื่อ หรือรหัสผู้เรียน
         </label>
         <div className="staff__searchrow">
           <input id="staff-q" className="auth__input" value={query} onChange={(e) => setQuery(e.target.value)} />
@@ -135,6 +141,21 @@ function StaffDashboard() {
             </option>
           ))}
         </select>
+        <label htmlFor="staff-sort" className="auth__label">
+          เรียงตาม
+        </label>
+        <select
+          id="staff-sort"
+          className="auth__input"
+          value={sort}
+          onChange={(e) => {
+            setPage(1);
+            setSort(e.target.value as "created" | "activity");
+          }}
+        >
+          <option value="created">วันที่สร้างบัญชี (ใหม่สุดก่อน)</option>
+          <option value="activity">ส่งข้อมูลล่าสุด</option>
+        </select>
       </form>
 
       {problem && (
@@ -155,7 +176,8 @@ function StaffDashboard() {
                   {r.display_name || "(ยังไม่ได้ตั้งชื่อ)"}
                 </Link>
                 <span className="learners__ref">
-                  {r.contact_hint} {r.name_verified_at ? "· ยืนยันชื่อแล้ว" : "· ชื่อที่ผู้เรียนตั้งเอง"}
+                  {r.contact_hint} · สร้างบัญชี {formatBangkok(r.created_at)}{" "}
+                  {r.username ? "" : r.name_verified_at ? "· ยืนยันชื่อแล้ว" : "· ชื่อที่ผู้เรียนตั้งเอง"}
                   {r.status !== "active" && " · ปิดใช้งาน"}
                 </span>
                 <span className="learners__stats">
@@ -191,5 +213,106 @@ function StaffDashboard() {
         ข้อมูลที่ยังไม่ได้ส่งจากมือถือของผู้เรียน (เช่น ไม่มีอินเทอร์เน็ต) จะยังไม่แสดง ดู “ส่งเข้าระบบล่าสุด”
       </p>
     </main>
+  );
+}
+
+type Cohort = { id: string; name: string };
+type Created = { learner_id: string; username: string; password: string; display_name: string };
+
+/** Staff create a patient account and print the slip (patient ID + password). No SMS or email needed. */
+function CreateLearner({ onCreated }: { onCreated: () => void }) {
+  const [open, setOpen] = useState(false);
+  const [cohorts, setCohorts] = useState<Cohort[]>([]);
+  const [name, setName] = useState("");
+  const [cohort, setCohort] = useState("");
+  const [busy, setBusy] = useState(false);
+  const [problem, setProblem] = useState<string | null>(null);
+  const [slip, setSlip] = useState<Created | null>(null);
+
+  useEffect(() => {
+    if (!open) return;
+    void call<Cohort[]>("staff_my_cohorts").then((c) => {
+      setCohorts(c);
+      if (c.length === 1) setCohort(c[0].id);
+    });
+  }, [open]);
+
+  if (slip)
+    return (
+      <CredentialSlip
+        kind="learner"
+        name={slip.display_name}
+        id={slip.username}
+        password={slip.password}
+        onClose={() => {
+          setSlip(null);
+          setOpen(false);
+          onCreated();
+        }}
+      />
+    );
+  if (!open)
+    return (
+      <p>
+        <button type="button" className="btn btn--primary" onClick={() => setOpen(true)}>
+          สร้างบัญชีผู้เรียน
+        </button>
+      </p>
+    );
+  return (
+    <form
+      className="admin__form create-learner"
+      onSubmit={async (e) => {
+        e.preventDefault();
+        setProblem(null);
+        if (!name.trim() || !cohort) {
+          setProblem("ใส่ชื่อและเลือกกลุ่ม");
+          return;
+        }
+        setBusy(true);
+        try {
+          const r = await call<Created>("staff_create_learner", { p_display_name: name, p_cohort: cohort });
+          setSlip(r);
+          setName("");
+        } catch (err) {
+          setProblem((err as Error).message === "cohort_not_assigned" ? "คุณไม่มีสิทธิ์ในกลุ่มนี้" : "สร้างบัญชีไม่สำเร็จ ลองอีกครั้ง");
+        } finally {
+          setBusy(false);
+        }
+      }}
+    >
+      <h2>สร้างบัญชีผู้เรียน</h2>
+      <p className="auth__hint">ระบบสร้างรหัสผู้เรียนและรหัสผ่านให้ แล้วพิมพ์ใบให้ผู้เรียน ไม่ต้องใช้เบอร์โทรหรืออีเมล</p>
+      <label className="auth__label" htmlFor="new-name">
+        ชื่อผู้เรียน (ชื่อเล่นหรือชื่อจริง)
+      </label>
+      <input id="new-name" className="auth__input" maxLength={80} value={name} onChange={(e) => setName(e.target.value)} />
+      <p className="auth__hint">ไม่ต้องใส่เลขบัตรประชาชน HN หรือข้อมูลสุขภาพ</p>
+      <label className="auth__label" htmlFor="new-cohort">
+        กลุ่ม
+      </label>
+      <select id="new-cohort" className="auth__input" value={cohort} onChange={(e) => setCohort(e.target.value)}>
+        <option value="">เลือกกลุ่ม</option>
+        {cohorts.map((c) => (
+          <option key={c.id} value={c.id}>
+            {c.name}
+          </option>
+        ))}
+      </select>
+      {cohorts.length === 0 && <p className="auth__hint">คุณยังไม่มีกลุ่ม ขอให้ผู้ดูแลระบบให้สิทธิ์กลุ่มก่อน</p>}
+      {problem && (
+        <p className="auth__problem" role="alert">
+          {problem}
+        </p>
+      )}
+      <div className="auth__actions">
+        <button type="submit" className="btn btn--primary" disabled={busy}>
+          สร้างบัญชีและพิมพ์ใบรหัส
+        </button>
+        <button type="button" className="btn btn--quiet" onClick={() => setOpen(false)}>
+          ยกเลิก
+        </button>
+      </div>
+    </form>
   );
 }

@@ -26,7 +26,7 @@ export type Account =
       kind: "learner";
       status: "active" | "deactivated";
       display_name: string;
-      contact_method: "phone" | "email";
+      contact_method: "phone" | "email" | "username";
       contact_hint: string;
       legacy_imported_at: string | null;
       created_at: string;

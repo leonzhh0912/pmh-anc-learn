@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, Navigate } from "react-router";
-import { call } from "../../account/auth";
+import { call, changeMyPassword, explainPassword } from "../../account/auth";
 import { refreshAccount, signOut, useSession, getClient } from "../../account/session";
 import { SyncStatus } from "../../account/SyncStatus";
 import { lessonById, lessons } from "../../content/load";
@@ -154,7 +154,15 @@ export function AccountPage() {
       <section aria-labelledby="me-title">
         <h2 id="me-title">ข้อมูลบัญชี</h2>
         <p>
-          เข้าสู่ระบบด้วย{account.contact_method === "phone" ? "เบอร์" : "อีเมล"} <strong>{account.contact_hint}</strong>
+          {account.contact_method === "username" ? (
+            <>
+              รหัสผู้เรียนของคุณ <strong>{account.contact_hint.replace(/^ID /, "")}</strong> (ดูในใบที่เจ้าหน้าที่ให้)
+            </>
+          ) : (
+            <>
+              เข้าสู่ระบบด้วย{account.contact_method === "phone" ? "เบอร์" : "อีเมล"} <strong>{account.contact_hint}</strong>
+            </>
+          )}
         </p>
         <form onSubmit={saveName} className="account__name">
           <label htmlFor="display-name" className="auth__label">
@@ -178,6 +186,8 @@ export function AccountPage() {
           {nameSaved && <span role="status" className="account__ok"> บันทึกแล้ว</span>}
         </form>
       </section>
+
+      {account.contact_method === "username" && <ChangePassword />}
 
       <section aria-labelledby="learn-title">
         <h2 id="learn-title">การเรียนของฉัน</h2>
@@ -210,3 +220,42 @@ export function AccountPage() {
 
 // keep the client warm on this page so sign-out is quick
 void getClient;
+
+function ChangePassword() {
+  const [pw, setPw] = useState("");
+  const [pw2, setPw2] = useState("");
+  const [msg, setMsg] = useState<{ ok: boolean; text: string } | null>(null);
+  return (
+    <section aria-labelledby="pw-title">
+      <h2 id="pw-title">ตั้งรหัสผ่านของคุณเอง (ไม่บังคับ)</h2>
+      <p className="auth__hint">รหัสผ่านในใบที่ได้รับใช้ต่อได้ ถ้าอยากเปลี่ยนให้จำง่ายขึ้น ตั้งอย่างน้อย 8 ตัว และอย่าใช้รหัสเดียวกับที่อื่น</p>
+      <form
+        className="account__name"
+        onSubmit={async (e) => {
+          e.preventDefault();
+          if (pw.length < 8) return setMsg({ ok: false, text: "รหัสผ่านสั้นเกินไป ใช้อย่างน้อย 8 ตัว" });
+          if (pw !== pw2) return setMsg({ ok: false, text: "รหัสผ่านสองช่องไม่ตรงกัน" });
+          try {
+            await changeMyPassword(pw);
+            setPw("");
+            setPw2("");
+            setMsg({ ok: true, text: "เปลี่ยนรหัสผ่านแล้ว ครั้งหน้าใช้รหัสผ่านใหม่" });
+          } catch (err) {
+            setMsg({ ok: false, text: explainPassword(err) });
+          }
+        }}
+      >
+        <label className="auth__label" htmlFor="new-pw">รหัสผ่านใหม่</label>
+        <input id="new-pw" className="auth__input" type="password" autoComplete="new-password" value={pw} onChange={(e) => setPw(e.target.value)} />
+        <label className="auth__label" htmlFor="new-pw2">พิมพ์รหัสผ่านใหม่อีกครั้ง</label>
+        <input id="new-pw2" className="auth__input" type="password" autoComplete="new-password" value={pw2} onChange={(e) => setPw2(e.target.value)} />
+        <button type="submit" className="btn btn--quiet">เปลี่ยนรหัสผ่าน</button>
+        {msg && (
+          <p role={msg.ok ? "status" : "alert"} className={msg.ok ? "account__ok" : "auth__problem"}>
+            {msg.text}
+          </p>
+        )}
+      </form>
+    </section>
+  );
+}

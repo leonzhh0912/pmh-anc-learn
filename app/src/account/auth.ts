@@ -82,3 +82,33 @@ export async function call<T>(fn: string, args?: Record<string, unknown>): Promi
   if (error) throw new Error(error.message);
   return data as T;
 }
+
+// ------------------------------------------------------------------ staff-issued patient ID + password
+
+/** Patient IDs are 8 digits; the sign-in address behind them is internal and never receives mail. */
+export const patientIdEmail = (id: string) => `${id.replace(/\D/g, "")}@learners.anc-learn.invalid`;
+export const formatPatientId = (id: string) => id.replace(/\D/g, "").replace(/^(\d{4})(\d{4})$/, "$1-$2");
+export const formatPassword = (p: string) => p.replace(/^(\d{4})(\d{3})(\d{3})$/, "$1 $2 $3");
+
+export async function passwordSignIn(email: string, password: string) {
+  const supabase = await getClient();
+  const { error } = await supabase.auth.signInWithPassword({ email, password: password.trim() });
+  if (error) throw error;
+  await refreshAccount();
+}
+
+export async function changeMyPassword(password: string) {
+  const supabase = await getClient();
+  const { error } = await supabase.auth.updateUser({ password });
+  if (error) throw error;
+}
+
+export function explainPassword(err: unknown): string {
+  const e = err as { message?: string; status?: number };
+  const msg = e?.message ?? "";
+  if (/Invalid login credentials/i.test(msg)) return "รหัสไม่ถูกต้อง ตรวจรหัสผู้เรียนและรหัสผ่านในใบที่ได้รับอีกครั้ง ถ้ายังเข้าไม่ได้ ถามเจ้าหน้าที่ที่คลินิก";
+  if (/rate|too many/i.test(msg) || e?.status === 429) return "ลองหลายครั้งเกินไป รอสักครู่แล้วลองใหม่";
+  if (/weak|short|at least/i.test(msg)) return "รหัสผ่านสั้นเกินไป ใช้อย่างน้อย 8 ตัว";
+  if (/fetch|network|Load failed/i.test(msg)) return "เชื่อมต่ออินเทอร์เน็ตไม่ได้ การเข้าสู่ระบบต้องใช้อินเทอร์เน็ต";
+  return "เข้าสู่ระบบไม่สำเร็จ ลองอีกครั้ง หรือถามเจ้าหน้าที่";
+}

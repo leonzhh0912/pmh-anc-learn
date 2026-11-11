@@ -314,3 +314,24 @@ NOT YET TESTED: the server steps of THAI-CLOUD-SETUP.md on a real server; real S
 account and sender name); real email delivery.
 BLOCKED: PMH privacy/IT approval (incl. research use and the deletion age); ThaiBulkSMS account, package and sender
 name; server account; hospital DNS for the API address; named owners.
+
+## Session 8c — 2026-11-11 (budget: staff-issued logins)
+
+Reported by the developer: PMH IT approved the accounts plan; the director approved keeping de-identified data 5
+years for research; accounts are deleted manually by administrators; lists sorted by creation date; **no SMS or
+email budget**: staff create patient accounts and hand over credentials.
+- **Migration 20261112000002:** staff create patient accounts (8-digit patient ID + random 10-digit password,
+  bcrypt-hashed, shown once for a printed slip); admins create staff accounts the same way (work email +
+  password, authenticator still required); staff/admins issue new passwords (old password and sessions stop
+  working); admins reset a staff authenticator; first admin via `private.bootstrap_admin_password` (database
+  only); staff patient list sorted by creation date (newest first) with an "activity" option.
+- **App:** sign-in by patient ID + password (default `VITE_SIGNIN_METHODS=password`; SMS/email code sign-in kept,
+  switched off); staff sign in by email + password + authenticator; "create patient" with printable slip (QR,
+  ID, password, instructions); "forgot password" new slip; patients may set their own password; admin creates
+  staff with a slip and resets staff logins. Slip digits never wrap on narrow phones.
+- **Lesson 0** practice and video updated to the slip sign-in (ElevenLabs, 213 new characters; 88.0 s).
+- Privacy text, About page, scope, staff/admin guides and the Thai cloud guide updated (no SMS/email; public
+  sign-up off on the server).
+
+VERIFIED (session 8c): backend 46/46, accounts e2e 8/8 (staff-issued flow end to end + optional email/SMS flows), public e2e 144/144, validate 0 errors, tsc clean.
+NOT YET TESTED: printing a slip on a real printer; patient sign-in on real phones; GOTRUE_DISABLE_SIGNUP on the real server.

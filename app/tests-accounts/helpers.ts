@@ -23,6 +23,8 @@ export async function emailCode(email: string, after: number): Promise<string> {
 /** Sign in through the real UI with an email one-time code (learner page or staff page). */
 export async function uiEmailSignIn(page: Page, email: string, path = "/signin") {
   await page.goto(path);
+  const toCode = page.getByRole("button", { name: "เข้าด้วยรหัสทาง SMS หรืออีเมลแทน" });
+  if (await toCode.isVisible().catch(() => false)) await toCode.click();
   const chooser = page.getByRole("button", { name: /^อีเมล/ });
   if (await chooser.isVisible().catch(() => false)) await chooser.click();
   await page.getByLabel(/^อีเมล$/).fill(email);
@@ -57,6 +59,7 @@ export async function uiSecondFactor(page: Page, secret?: string): Promise<strin
   }
   await page.getByLabel("รหัสจากแอปยืนยันตัวตน").fill(new TOTP({ secret: key, digits: 6, period: 30 }).generate());
   await page.getByRole("button", { name: "ยืนยัน", exact: true }).click();
+  await expect(page.getByRole("heading", { name: "ยืนยันตัวตนขั้นที่ 2" })).toBeHidden({ timeout: 15_000 });
   return key;
 }
 
@@ -101,6 +104,7 @@ export async function walkLesson(page: Page, lesson: Lesson, { wrongFirst = fals
 /** Sign in through the real UI with a Thai mobile number; the code is read from the local SMS outbox. */
 export async function uiPhoneSignIn(page: Page, typed: string, e164: string) {
   await page.goto("/signin");
+  await page.getByRole("button", { name: "เข้าด้วยรหัสทาง SMS หรืออีเมลแทน" }).click();
   await page.getByRole("button", { name: /^เบอร์โทรศัพท์/ }).click();
   await page.getByLabel("เบอร์มือถือ 10 หลัก").fill(typed);
   const { rows } = await db.query("select coalesce(max(id), 0)::int id from dev_only.sms_outbox");
@@ -116,4 +120,26 @@ export async function uiPhoneSignIn(page: Page, typed: string, e164: string) {
   await codeField.fill(otp);
   await page.getByRole("button", { name: "ยืนยันรหัส" }).click();
   await expect(codeField).toBeHidden({ timeout: 15_000 });
+}
+
+/** Password sign-in through the UI: patient ID (learner page) or work email (staff page). */
+export async function uiPasswordSignIn(page: Page, id: string, password: string, path = "/signin") {
+  await page.goto(path);
+  await page.getByLabel(path === "/signin" ? "รหัสผู้เรียน (8 หลัก)" : "อีเมลงาน").fill(id);
+  await page.getByLabel("รหัสผ่าน", { exact: true }).fill(password);
+  await page.getByRole("button", { name: "เข้าสู่ระบบ", exact: true }).click();
+  await expect(page.getByLabel("รหัสผ่าน", { exact: true })).toBeHidden({ timeout: 15_000 });
+}
+
+/** Read the ID and password from a credential slip on screen. */
+export async function readSlip(page: Page) {
+  const values = page.locator("#credential-slip .slip__value");
+  await expect(values).toHaveCount(2);
+  const [id, pw] = await values.allTextContents();
+  return { id: id.trim(), password: pw.replace(/\s/g, "") };
+}
+
+export async function closeSlip(page: Page) {
+  page.once("dialog", (d) => void d.accept());
+  await page.getByRole("button", { name: "เสร็จแล้ว ปิดใบนี้" }).click();
 }

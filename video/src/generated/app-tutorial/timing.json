@@ -1,6 +1,6 @@
 {
   "id": "APP-TUTORIAL",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "fps": 30,
   "durationInFrames": 2639,
   "narration": "cloud-tts",
@@ -36,9 +36,9 @@
     },
     {
       "id": "signin",
-      "title": "เข้าสู่ระบบด้วยเบอร์หรืออีเมล",
+      "title": "เข้าสู่ระบบด้วยใบรหัส",
       "from": 360,
-      "durationInFrames": 430,
+      "durationInFrames": 519,
       "segments": [
         {
           "file": "audio/APP-TUTORIAL/signin-1-0c57aeae46.wav",
@@ -54,48 +54,53 @@
           ]
         },
         {
-          "file": "audio/APP-TUTORIAL/signin-2-e6f291e6e0.wav",
+          "file": "audio/APP-TUTORIAL/signin-2-8ad91257be.wav",
           "from": 202,
-          "durationInFrames": 105,
-          "caption": "เลือกเบอร์โทรศัพท์ หรืออีเมล อย่างใดอย่างหนึ่ง",
-          "screen": "02-signin-choose",
-          "focus": null
+          "durationInFrames": 151,
+          "caption": "เจ้าหน้าที่ที่คลินิกจะให้ใบที่มีรหัสผู้เรียน 8 หลัก และรหัสผ่าน",
+          "screen": "02-slip-sample",
+          "focus": [
+            52,
+            328,
+            286,
+            189
+          ]
         },
         {
-          "file": "audio/APP-TUTORIAL/signin-3-6b8178929a.wav",
-          "from": 318,
-          "durationInFrames": 94,
-          "caption": "พิมพ์เบอร์มือถือของคุณ แล้วแตะ “ส่งรหัส”",
-          "screen": "03-signin-email",
-          "focus": null
+          "file": "audio/APP-TUTORIAL/signin-3-df9b05d60e.wav",
+          "from": 364,
+          "durationInFrames": 137,
+          "caption": "พิมพ์รหัสผู้เรียนและรหัสผ่านจากใบ แล้วแตะ “เข้าสู่ระบบ”",
+          "screen": "04-signin-filled",
+          "focus": [
+            14,
+            236,
+            362,
+            360
+          ]
         }
       ]
     },
     {
-      "id": "code",
-      "title": "ใส่รหัส 6 หลัก",
-      "from": 790,
-      "durationInFrames": 393,
+      "id": "slip",
+      "title": "เก็บใบรหัสให้ดี",
+      "from": 879,
+      "durationInFrames": 304,
       "segments": [
         {
-          "file": "audio/APP-TUTORIAL/code-1-d4c3c3e16d.wav",
+          "file": "audio/APP-TUTORIAL/slip-1-6ce2aec16f.wav",
           "from": 11,
-          "durationInFrames": 204,
-          "caption": "รหัส 6 หลักมาทาง SMS พิมพ์ลงในช่องนี้ แล้วแตะ “ยืนยันรหัส”",
-          "screen": "04-signin-code",
-          "focus": [
-            15,
-            382,
-            292,
-            82
-          ]
+          "durationInFrames": 108,
+          "caption": "เก็บใบนี้ไว้กับสมุดสีชมพู อย่าให้ผู้อื่นดู",
+          "screen": "02-slip-sample",
+          "focus": null
         },
         {
-          "file": "audio/APP-TUTORIAL/code-2-4882a82abd.wav",
-          "from": 226,
-          "durationInFrames": 149,
-          "caption": "ห้ามบอกรหัสกับใคร รหัสไม่มา แตะ “ขอรหัสใหม่”",
-          "screen": "04-signin-code",
+          "file": "audio/APP-TUTORIAL/slip-2-cfb4be4954.wav",
+          "from": 130,
+          "durationInFrames": 156,
+          "caption": "ลืมรหัสผ่าน หรือทำใบหาย ขอให้เจ้าหน้าที่ออกรหัสผ่านใหม่",
+          "screen": "03-signin-password",
           "focus": null
         }
       ]

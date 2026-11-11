@@ -8,6 +8,7 @@ test("phone sign-in: Thai formatting, landline refused, code by SMS", async ({ p
   const e164 = "+66" + typed.replace(/\D/g, "").slice(1);
 
   await page.goto("/signin");
+  await page.getByRole("button", { name: "เข้าด้วยรหัสทาง SMS หรืออีเมลแทน" }).click();
   const phone = page.getByRole("button", { name: /^เบอร์โทรศัพท์/ });
   await expect(phone).toContainText("แนะนำ");
   await phone.click();

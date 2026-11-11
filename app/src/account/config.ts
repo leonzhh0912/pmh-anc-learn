@@ -7,3 +7,16 @@
 export const supabaseUrl = import.meta.env.VITE_SUPABASE_URL as string | undefined;
 export const supabasePublishableKey = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY as string | undefined;
 export const accountsEnabled = Boolean(supabaseUrl && supabasePublishableKey);
+
+/**
+ * How people sign in (comma list). PMH default (2026-11-11, budget): "password" only, staff-issued
+ * patient ID + password, no SMS/email cost. "phone" (SMS code) and "email" (email code) need a paid
+ * sender and can be switched on later without code changes.
+ */
+const methods = ((import.meta.env.VITE_SIGNIN_METHODS as string | undefined) ?? "password")
+  .split(",")
+  .map((m) => m.trim())
+  .filter((m): m is "password" | "phone" | "email" => m === "password" || m === "phone" || m === "email");
+export const signinMethods = methods.length ? methods : (["password"] as const);
+/** Staff sign in with work email + password (default) or an email code ("email"). Always + authenticator. */
+export const staffSignin = ((import.meta.env.VITE_STAFF_SIGNIN as string | undefined) ?? "password") === "email" ? "email" : "password";

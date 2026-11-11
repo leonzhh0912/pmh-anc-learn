@@ -5,6 +5,7 @@ import { formatBangkok } from "../../account/SyncStatus";
 import { lessons, sections } from "../../content/load";
 import { StaffGate } from "./StaffGate";
 import { StaffHeader } from "./StaffPage";
+import { CredentialSlip } from "../../account/CredentialSlip";
 
 type LessonRow = {
   lesson_id: string;
@@ -64,6 +65,7 @@ function LearnerDetail() {
   const [d, setD] = useState<Detail | null>(null);
   const [problem, setProblem] = useState<string | null>(null);
   const [loadedAt, setLoadedAt] = useState<string | null>(null);
+  const [slip, setSlip] = useState<{ username: string; password: string; display_name: string } | null>(null);
 
   useEffect(() => {
     call<Detail>("staff_learner_detail", { p_learner: learnerId })
@@ -111,6 +113,27 @@ function LearnerDetail() {
       <p>
         <Link to="/staff">‹ กลับไปรายชื่อ</Link>
       </p>
+      {slip && (
+        <CredentialSlip kind="learner" name={slip.display_name} id={slip.username} password={slip.password} onClose={() => setSlip(null)} />
+      )}
+      {d.learner.contact_method === "username" && !slip && (
+        <p>
+          <button
+            type="button"
+            className="btn btn--quiet"
+            onClick={async () => {
+              if (!confirm("ออกรหัสผ่านใหม่ให้ผู้เรียนคนนี้? รหัสผ่านเดิมจะใช้ไม่ได้ และเครื่องที่เข้าไว้จะถูกออกจากระบบ")) return;
+              try {
+                setSlip(await call("staff_reset_learner_password", { p_learner: d.learner.id }));
+              } catch {
+                setProblem("ออกรหัสผ่านใหม่ไม่สำเร็จ");
+              }
+            }}
+          >
+            ลืมรหัสผ่าน: ออกรหัสผ่านใหม่
+          </button>
+        </p>
+      )}
       <dl className="facts">
         <dt>อ้างอิง</dt>
         <dd>

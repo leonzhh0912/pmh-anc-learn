@@ -107,7 +107,7 @@ function SceneView({ scene, index }: { scene: Scene; index: number }) {
         </div>
       </div>
       <div style={{ position: "absolute", left: 540, bottom: 34, fontSize: 20, color: theme.inkSoft }}>
-        ภาพจากแอปจริง ใช้ชื่อ เบอร์ อีเมล และรหัสสมมุติ
+        ภาพจากแอปจริง ใช้ชื่อและรหัสสมมุติ
       </div>
       <div
         style={{

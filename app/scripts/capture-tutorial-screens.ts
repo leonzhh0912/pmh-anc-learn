@@ -3,7 +3,7 @@
  * for the app-use tutorial video: video/public/app-tutorial/*.png at phone size.
  *   cd app && npm run dev:accounts   (other terminal; backend running: cd ../backend && npm run db:start)
  *   npx tsx scripts/capture-tutorial-screens.ts
- * The code shown on the code screen is the made-up 123456; the real local code is typed afterwards.
+ * The ID/password shown on screen are the made-up sample values (1234-5678 / 2468 135 790).
  */
 import { chromium, type Page } from "@playwright/test";
 import { join } from "node:path";
@@ -14,20 +14,6 @@ const base = "http://localhost:5174";
 const env = Object.fromEntries(
   readFileSync(join(import.meta.dirname, "../../backend/.env.local"), "utf8").split("\n").filter((l) => l.includes("=")).map((l) => [l.slice(0, l.indexOf("=")), l.slice(l.indexOf("=") + 1)]),
 );
-const email = `somjai.video.${Date.now().toString(36)}@example.test`;
-
-async function code(after: number) {
-  for (let i = 0; i < 40; i++) {
-    const list = await (await fetch(`${env.MAILPIT_URL}/api/v1/search?query=${encodeURIComponent(`to:"${email}"`)}&limit=1`)).json();
-    const m = list.messages?.[0];
-    if (m && Date.parse(m.Created) > after) {
-      const full = await (await fetch(`${env.MAILPIT_URL}/api/v1/message/${m.ID}`)).json();
-      return /\b(\d{6})\b/.exec(full.Text)![1];
-    }
-    await new Promise((r) => setTimeout(r, 250));
-  }
-  throw new Error("no code");
-}
 
 const shot = (page: Page, name: string) => page.screenshot({ path: join(out, `${name}.png`) });
 
@@ -38,27 +24,30 @@ const page = await ctx.newPage();
 await page.goto(`${base}/`);
 await page.locator(".start-here").waitFor();
 await shot(page, "01-home");
+// sign-in with a staff-issued slip: a fictional patient created directly in the LOCAL database
+import pg from "pg";
+const db = new pg.Client({ connectionString: env.DATABASE_URL });
+await db.connect();
+const username = String(10000000 + Math.floor(Math.random() * 89999999));
+const password = "2468135790";
+const { rows } = await db.query("select private.create_password_user($1, $2, 'learner_local', 'สมใจ') id", [`${username}@learners.anc-learn.invalid`, password]);
+await db.query("update public.learners set username = $1, contact_method = 'username', contact_hint = 'ID ' || left($1, 4) || '-' || right($1, 4) where id = $2", [username, rows[0].id]);
+await db.end();
+
+await page.goto(`${base}/start?step=1`);
+await page.locator(".slip--sample").evaluate((e: HTMLElement) => e.scrollIntoView({ block: "center" }));
+await page.waitForTimeout(300);
+await shot(page, "02-slip-sample");
 await page.goto(`${base}/signin`);
-await page.getByRole("button", { name: /^อีเมล/ }).waitFor();
-await shot(page, "02-signin-choose");
-await page.getByRole("button", { name: /^อีเมล/ }).click();
-await page.getByLabel(/^อีเมล$/).fill("somjai@example.com");
-await page.getByLabel(/^อีเมล$/).evaluate((e: HTMLElement) => e.scrollIntoView({ block: "center" }));
-await shot(page, "03-signin-email");
-await page.getByLabel(/^อีเมล$/).fill(email);
-const t0 = Date.now() - 1500;
-await page.getByRole("button", { name: "ส่งรหัส", exact: true }).click();
-const field = page.getByLabel("รหัส 6 หลัก");
-await field.waitFor();
-await page.locator(".auth__sent strong").evaluate((e) => (e.textContent = "somjai@example.com"));
-await field.fill("123456");
-await field.evaluate((e: HTMLElement) => e.scrollIntoView({ block: "center" }));
-await shot(page, "04-signin-code");
-await field.fill(await code(t0));
-await page.getByRole("button", { name: "ยืนยันรหัส" }).click();
+await page.getByLabel("รหัสผู้เรียน (8 หลัก)").waitFor();
+await shot(page, "03-signin-password");
+await page.getByLabel("รหัสผู้เรียน (8 หลัก)").fill("1234-5678");
+await page.getByLabel("รหัสผ่าน", { exact: true }).fill("2468135790");
+await page.getByLabel("รหัสผ่าน", { exact: true }).evaluate((e: HTMLElement) => e.scrollIntoView({ block: "center" }));
+await shot(page, "04-signin-filled");
+await page.getByLabel("รหัสผู้เรียน (8 หลัก)").fill(username);
+await page.getByRole("button", { name: "เข้าสู่ระบบ", exact: true }).click();
 await page.waitForURL(/\/account$/);
-await page.getByLabel("ชื่อที่ให้เจ้าหน้าที่เห็น").fill("สมใจ");
-await page.getByRole("button", { name: "บันทึกชื่อ" }).click();
 
 await page.goto(`${base}/`);
 await page.locator(".book__title").evaluate((e: HTMLElement) => e.scrollIntoView({ block: "start" }));
