@@ -87,6 +87,9 @@ setenv() { # KEY VALUE: replace the line, or add it
     printf '%s=%s\n' "$1" "$2" >> .env
   fi
 }
+# Supabase's .env names one compose file (COMPOSE_FILE), which stops Docker from reading our override:
+# list both, or the internal ports would be open to the hospital network (found in the rehearsal).
+setenv COMPOSE_FILE "docker-compose.yml:docker-compose.override.yml"
 setenv SUPABASE_PUBLIC_URL "https://$DOMAIN"
 setenv API_EXTERNAL_URL "https://$DOMAIN/auth/v1"
 setenv SITE_URL "https://phimai-hospital.github.io"

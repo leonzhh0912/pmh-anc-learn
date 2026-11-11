@@ -31,6 +31,24 @@ Patient's phone (anywhere) ──HTTPS──► https://ancapi.<hospital domain>
 
 The rest of this guide is option **A**. If IT can't open a firewall port, tell Claude and we'll plan B properly.
 
+## The short version (what actually happens)
+
+1. **IT** prepares the machine and network: the request to send is in docs/IT-REQUEST.md.
+2. **Install, one command** on the server, run by the developer or IT; Claude can run it over SSH:
+
+```bash
+git clone -b feat/accounts-progress https://github.com/phimai-hospital/phimai-hospital.github.io.git pmh-anc
+cd pmh-anc/backend/deploy
+sudo sh install.sh --domain ancapi.<hospital domain> --admin-email admin@<hospital domain> --admin-name "ชื่อ" --backup-dir /mnt/backup/pmh-anc
+```
+
+   It does parts 4–8 below by itself, is safe to run again, and prints the first administrator's password once.
+3. **Check from outside:** `sh check-server.sh ancapi.<hospital domain> <publishable key>` (the key is printed at
+   the end of the install and is public by design).
+4. **Connect the app** (part 9): only after approval.
+
+The parts below explain what the installer does, for IT's reference.
+
 ## Part 0. With IT, in the data center (first meeting)
 
 Ask IT for, and write the answers down:
@@ -182,7 +200,8 @@ Keep the internal ports off the hospital network. Copy `backend/deploy/docker-co
 scp backend/deploy/docker-compose.override.yml ubuntu@<server>:~/supabase-project/     # from your Mac
 ```
 
-Then start:
+Also set `COMPOSE_FILE=docker-compose.yml:docker-compose.override.yml` in `.env` (Supabase's `.env` names only
+the main file, so without this the override is ignored; the installer does it for you). Then start:
 
 ```bash
 sh run.sh start             # = docker compose up -d --wait; every part restarts by itself after a reboot
