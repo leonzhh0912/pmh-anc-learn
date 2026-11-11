@@ -1,10 +1,16 @@
-# Caddy: HTTPS (automatic Let's Encrypt certificates) in front of self-hosted Supabase.
-# Replace api.example.go.th with your API address (DNS A record -> this server's public IP).
-# For a first test without a domain you can use <your-ip-with-dashes>.sslip.io, e.g. 203-0-113-5.sslip.io
-api.example.go.th {
+# Caddy: the HTTPS front door of the ANC server (automatic free Let's Encrypt certificate).
+# Replace ancapi.example.go.th with the real name (DNS -> hospital public IP; ports 80 + 443 forwarded here).
+ancapi.example.go.th {
 	encode gzip
-	# Supabase API gateway (Kong). Auth, REST and Edge Functions all go through it.
-	reverse_proxy localhost:8000
+	# Only the parts the app uses are reachable from outside: sign-in, data API, functions.
+	@api path /auth/v1/* /rest/v1/* /functions/v1/*
+	handle @api {
+		reverse_proxy 127.0.0.1:8000
+	}
+	# Everything else (including the Supabase dashboard) is not served to the internet.
+	handle {
+		respond "Not found" 404
+	}
 	header {
 		Strict-Transport-Security "max-age=31536000; includeSubDomains"
 		X-Content-Type-Options "nosniff"
@@ -12,5 +18,5 @@ api.example.go.th {
 		-Server
 	}
 }
-# Studio (the admin dashboard) is NOT published. Reach it only through an SSH tunnel:
-#   ssh -L 3000:localhost:3000 ubuntu@<server>   then open http://localhost:3000
+# The dashboard (Studio) is reached only from an IT computer through an SSH tunnel:
+#   ssh -L 8000:127.0.0.1:8000 ubuntu@<server internal IP>     then open http://localhost:8000 (dashboard login)

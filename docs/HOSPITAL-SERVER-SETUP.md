@@ -155,38 +155,56 @@ sh utils/generate-keys.sh       # database password, JWT secret, keys, dashboard
 sh utils/add-new-auth-keys.sh   # publishable / secret keys
 ```
 
-Edit `.env`:
-- `SUPABASE_PUBLIC_URL` and `API_EXTERNAL_URL` = `https://ancapi.<hospital domain>`
-- `SITE_URL=https://phimai-hospital.github.io`
-- `DASHBOARD_USERNAME` / `DASHBOARD_PASSWORD`: long, with letters.
-- SMTP: leave as it is; nothing is sent.
+Edit `.env` (`nano .env`; Ctrl+W searches, Ctrl+O saves, Ctrl+X exits). Change these lines:
+
+```
+SUPABASE_PUBLIC_URL=https://ancapi.<hospital domain>
+API_EXTERNAL_URL=https://ancapi.<hospital domain>/auth/v1
+SITE_URL=https://phimai-hospital.github.io
+ADDITIONAL_REDIRECT_URLS=https://phimai-hospital.github.io
+DISABLE_SIGNUP=true             # nobody signs up publicly: staff and admins create accounts
+ENABLE_EMAIL_SIGNUP=true        # email+password sign-in (patient IDs use internal addresses; nothing is emailed)
+ENABLE_EMAIL_AUTOCONFIRM=false
+ENABLE_PHONE_SIGNUP=false       # no SMS
+ENABLE_ANONYMOUS_USERS=false
+DASHBOARD_USERNAME=<any name>
+DASHBOARD_PASSWORD=<long, with letters>
+```
+
+Leave SMTP as it is (nothing is sent). Staff authenticator apps (TOTP) are on by default.
 
 **Copy the whole `.env` into the password manager now.** It holds every server secret.
 
-In `docker-compose.yml`, under the `auth:` service `environment:`, apply `backend/deploy/auth.env.example`:
-- public sign-up off (only staff and admins create accounts);
-- password sign-in on;
-- SMS off;
-- authenticator apps for staff.
-
-Then start everything:
+Keep the internal ports off the hospital network. Copy `backend/deploy/docker-compose.override.yml` next to
+`docker-compose.yml`:
 
 ```bash
-sh run.sh start             # = docker compose up -d --wait; services restart by themselves after a reboot
-docker compose ps           # all "healthy"
+scp backend/deploy/docker-compose.override.yml ubuntu@<server>:~/supabase-project/     # from your Mac
 ```
+
+Then start:
+
+```bash
+sh run.sh start             # = docker compose up -d --wait; every part restarts by itself after a reboot
+docker compose ps           # all "healthy"
+sudo ss -tlnp | grep -E ':(8000|5432|6543) '   # must show 127.0.0.1 only, never 0.0.0.0
+```
+
+Check: `curl -s http://127.0.0.1:8000/auth/v1/health` prints JSON with a version.
 
 ## Part 6. HTTPS
 
 ```bash
 sudo cp Caddyfile /etc/caddy/Caddyfile   # from backend/deploy/Caddyfile.example, with ancapi.<hospital domain>
+caddy validate --config /etc/caddy/Caddyfile
 sudo systemctl reload caddy
 ```
 
 Caddy gets and renews a free Let's Encrypt certificate by itself; this needs port 80 forwarded (part 3).
-- Ports 8000, 5432 and 3000 stay closed.
-- Open Studio (the dashboard) only through a tunnel from an IT PC: `ssh -L 3000:localhost:3000 ubuntu@<server>`,
-  then http://localhost:3000.
+- Caddy passes only `/auth/v1`, `/rest/v1` and `/functions/v1` to Supabase; everything else, including the
+  dashboard, answers "Not found" to the internet.
+- Open the dashboard only through a tunnel from an IT PC: `ssh -L 8000:127.0.0.1:8000 ubuntu@<server>`, then
+  http://localhost:8000 (dashboard login from `.env`).
 
 Check: the mobile-data check in part 3.
 

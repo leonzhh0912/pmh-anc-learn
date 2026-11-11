@@ -1,0 +1,13 @@
+# Put this file next to Supabase's docker-compose.yml (~/supabase-project/). Docker publishes ports on every
+# network interface and bypasses Ubuntu's firewall (ufw), so without this the gateway (8000) and the database
+# pooler (5432/6543) would be reachable from the whole hospital network. Here they listen on the server itself
+# only; the outside world gets in through Caddy (HTTPS, 443) and only to the API paths.
+# Needs Docker Compose v2.24+ (the "!override" tag replaces the port list instead of adding to it).
+services:
+  api-gw:
+    ports: !override
+      - "127.0.0.1:8000:8000/tcp"
+  supavisor:
+    ports: !override
+      - "127.0.0.1:5432:5432"
+      - "127.0.0.1:6543:6543"
