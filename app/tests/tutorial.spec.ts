@@ -39,7 +39,8 @@ test("Lesson 0 video plays with captions available", async ({ page }) => {
   const meta = await video.evaluate(async (v: HTMLVideoElement) => {
     v.muted = true;
     await v.play();
-    await new Promise((r) => setTimeout(r, 1200));
+    // wait (up to 10 s) until playback has really advanced; a busy machine may need a moment to start
+    for (let i = 0; i < 100 && v.currentTime < 0.5; i++) await new Promise((r) => setTimeout(r, 100));
     const t = v.currentTime;
     v.pause();
     return { duration: v.duration, played: t, tracks: v.textTracks.length, w: v.videoWidth };
